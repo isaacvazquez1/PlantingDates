@@ -1,0 +1,182 @@
+%Dette er en helt simpel skabelon, som kan bruges til at skrive almindelige 
+%afleveringer i. Koden er bevidst lavet så ukompliceret som muligt,
+%så dokumentet samtidigt kan bruges som en indgang til at læse LaTeX at kende.
+
+%---------------------------------------------------------
+%Dette er kun preample. Det behøver du ikke bekymre dig om. Går ned til der står "Start her". Eller til der hvor sidehovedet indstilles.
+%---------------------------------------------------------
+\documentclass[12pt,oneside,article]{memoir}
+% lidt marginer
+\setlrmarginsandblock{3cm}{2cm}{*}
+\setulmarginsandblock{3cm}{*}{1}
+\setheadfoot{2cm}{\footskip}          % mere højde til sidehovedet
+\checkandfixthelayout[nearest]
+
+%Fjerner parindent ved nyt afsnit
+\setlength{\parindent}{0pt}
+
+% Standard dansk opsætning
+\usepackage[utf8]{inputenc}   %æøå med utf8-encoding
+\usepackage[spanish]{babel}            % dansk opsætning
+%\renewcommand\danishhyphenmins{22}    % fikser en fejl i babel
+\usepackage[T1]{fontenc} %fontencoding
+\usepackage{lmodern} %sætter skrifttypen til Latin Modern
+\usepackage{icomma}%Sørger for at man kan bruge komma som decimalseperator
+
+% Matematiske symboler og fede tegn i ligninger
+\usepackage{amsmath, amssymb, bm, mathtools, mathdots}
+
+%Flere mulighder for understregning
+\usepackage[normalem]{ulem}
+
+% Tabeller og søjler
+\usepackage{array, booktabs, tabularx}
+
+% Figurer og farver
+\usepackage{graphicx, caption, subfig, xcolor}
+\captionsetup{font=small,labelfont=bf}
+%--------------------------------------------------------
+%Her sættes sidehoved og sidefod. Skriv dit eget n ind.
+%--------------------------------------------------------
+
+\makepagestyle{firstpagestyle}
+\makeoddhead{firstpagestyle}{\begin{center}
+    
+----- \textsc{propuesta de protocolo de investigación} -----\\
+Dra. Magali Arellano Vázquez y M. en C. Isaac Vázquez Mendoza
+\end{center}}{}{}
+
+
+
+
+% Sidehoved og -fod
+%\makepagestyle{mypagestyle} %Min pagestyle med sidetal
+%\copypagestyle{mypagestyle}{empty}
+%\makeoddhead{mypagestyle}{\begin{center}
+    
+
+
+
+%{\textsc{}}\\
+%\phantom{2} \\---- \textsc{review report} ----\\\textbf{In silico experiments uncover a novel mechanism underlying mutation rate evolution in sexually reproducing populations} \end{center}}{}{}
+%%%%%%\makeheadrule{mypagestyle}{\textwidth}{\normalrulethickness}
+%\makeoddfoot{mypagestyle}{}{}{} %Kræver to oversættelser
+
+%\pagestyle{mypagestyle} %aktiver ny sidehoved/-fod
+
+%Punktopstilling
+\usepackage{enumerate}
+
+%Enheder
+\usepackage[output-decimal-marker={.}]{siunitx}
+\decimalpoint
+%Talmængder
+\newcommand{\R}{\mathbb{R}} %\R for reelle tal
+\newcommand{\C}{\mathbb{C}} %\C for komplekse tal
+\newcommand{\N}{\mathbb{N}} %\N for naturlige tal
+\newcommand{\Z}{\mathbb{Z}} %\Z for hele tal
+\newcommand{\Q}{\mathbb{Q}} %\Q for rationale tal
+\newcommand{\dg}{^{\circ}}%Brug \dg til at indsætte gradtegn
+\newcommand{\set}[1]{\{ #1 \}}
+\usepackage{theorem}
+\newcommand{\proof}{{\itshape\parindent=0mm \textbf{\\Dem.\\}\ \,}}
+\def\cajita{\hfill$\Box$}
+\newcommand{\card}[1]{\lvert #1 \rvert}
+%Til hyperlinks
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\hypersetup{pdfborder = {0 0 0}}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep}
+\usepackage{longtable}
+
+\begin{document}%Her begynder indholdet af dokumentet.
+\thispagestyle{firstpagestyle}
+%\pagestyle{empty}
+%-------------------------------------------
+%START HER!
+%-------------------------------------------\
+\textbf{Modelo predictivo de la producción de aguacates en Michoacán: desde la siembra hasta la cosecha.}
+
+\subsection*{Introducción}
+\addcontentsline{toc}{<(sub-)section>}{Introducción}
+\input{Introduction.tex}
+
+
+\subsection{Revisión del estado del arte}
+\addcontentsline{toc}{<(sub-)section>}{Revisión del estado del arte}
+\input{State of the art.tex}
+
+\subsection{Objetivos}
+\addcontentsline{toc}{<(sub-)section>}{Objetivos}
+\input{Goals.tex}
+
+\subsection{Cronograma de actividades}
+\addcontentsline{toc}{<(sub-)section>}{Cronograma de actividades}
+\input{Schedule.tex}
+
+%
+%Producción Agrícola %Checa los links :)
+%https://www.gob.mx/siap/acciones-y-programas/produccion-agricola-33119
+
+%Competitividad de las exportaciones de aguacate Hass de México en el mercado mundial
+%https://cienciasagricolas.inifap.gob.mx/index.php/agricolas/article/view/2885
+
+%Impacto económico potencial de Xyleborus glabratus - Raffaelea lauricola en el cultivo de aguacate, en el Estado de Michoacán.
+%https://www.arcgis.com/apps/MapJournal/index.html?appid=a1fa6763cc1c41b5901dbc02d11fe461
+
+
+
+
+%Estadística de la producción de Aguacate
+%https://dj.senasica.gob.mx/sias/Statistics/Transversal/EstadisticaProduccionAguacate
+
+%https://app.powerbi.com/view?r=eyJrIjoiNWQwZWRlZGItMDExZC00MzdmLWFkNzUtMGQ1NzE3ZTIzZGViIiwidCI6ImM1OWRjNTZhLTkzZWMtNGIwNy1iNzFkLTQzYzg0NDkyNTcxOCIsImMiOjR9&pageName=ReportSection49f14e1b1d0672d6b191
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\clearpage
+
+\renewcommand\bibname{Referencias}
+\bibliographystyle{plain}
+\bibliography{Refs.bib}
+
+
+\bigskip
+\begin{center}
+    Vo. Bo.
+
+    \bigskip
+\rule{7cm}{0.4pt}\\
+    Dra. Magali Arellano Vázquez.
+\end{center}
+
+\end{document}%Alt efter denne linje kommer ikke med i dokumentet.
