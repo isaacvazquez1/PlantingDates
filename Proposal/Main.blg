@@ -7,45 +7,45 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
 Warning--empty journal in ARIZMENDIPERALTA2024
 Warning--empty journal in Castaño_2022
-You've used 40 entries,
+You've used 49 entries,
             2118 wiz_defined-function locations,
-            795 strings with 14174 characters,
-and the built_in function-call counts, 14816 in all, are:
-= -- 1405
-> -- 889
-< -- 2
-+ -- 353
-- -- 310
-* -- 1219
-:= -- 2564
-add.period$ -- 125
-call.type$ -- 40
-change.case$ -- 273
+            853 strings with 16986 characters,
+and the built_in function-call counts, 18950 in all, are:
+= -- 1768
+> -- 1221
+< -- 3
++ -- 485
+- -- 432
+* -- 1584
+:= -- 3291
+add.period$ -- 153
+call.type$ -- 49
+change.case$ -- 360
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 449
-empty$ -- 1018
-format.name$ -- 310
-if$ -- 2950
+cite$ -- 51
+duplicate$ -- 556
+empty$ -- 1251
+format.name$ -- 432
+if$ -- 3752
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 41
-newline$ -- 207
-num.names$ -- 80
-pop$ -- 230
+int.to.str$ -- 49
+missing$ -- 49
+newline$ -- 252
+num.names$ -- 100
+pop$ -- 316
 preamble$ -- 1
-purify$ -- 235
+purify$ -- 313
 quote$ -- 0
-skip$ -- 296
+skip$ -- 370
 stack$ -- 0
-substring$ -- 914
-swap$ -- 49
-text.length$ -- 2
+substring$ -- 1099
+swap$ -- 67
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 156
+type$ -- 192
 warning$ -- 2
-while$ -- 129
-width$ -- 42
-write$ -- 443
+while$ -- 158
+width$ -- 51
+write$ -- 540
 (There were 2 warnings)
