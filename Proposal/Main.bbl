@@ -27,6 +27,11 @@ G.~Bayable, G.~Amare, G.~Alemu, and T.~Gashaw.
   ethiopia.
 \newblock {\em Environmental Systems Research}, 10:1--21, 2021.
 
+\bibitem{Boyer_1982}
+J.S. Boyer.
+\newblock Plant productivity and environment.
+\newblock {\em Science}, 218(4571):443--448, 1982.
+
 \bibitem{Callejas-Rodriguez_2023}
 R.~Callejas-Rodríguez, R.~Reyes-Sánchez, I.~Plácido-Tomielis, and
   H.~Flores-Gallardo.
@@ -83,19 +88,6 @@ Servicio de~Información Agroalimentaria~y Pesquera.
 \newblock Accessado en marzo 1 de 2025 en
   \url{http://nube.agricultura.gob.mx/avance_agricola/}.
 
-\bibitem{DGSIAP}
-Dirección~General del Servicio de Información Agroalimentaria~y Pesquera.
-\newblock Calendario agrícola, 2025.
-\newblock Accessado en agosto 18 de 2025 en
-  \url{https://nube.agricultura.gob.mx/calendario_agricola/}.
-
-\bibitem{Dimou_2018}
-M.~Dimou, M.~Meroni, and F.~Rembold.
-\newblock Development of a national and sub-national crop calendars data set
-  compatible with remote sensing derived land surface phenology.
-\newblock {\em European Commission Joint Research Centre, Publications Office
-  of the European Union: Luxembourg}, 2018.
-
 \bibitem{Elnesr_2016}
 M.N. Elnesr and A.A. Alazba.
 \newblock An integral model to calculate the growing degree-days and heat
@@ -127,14 +119,6 @@ H.~Flores-Gallardo, W.~Ojeda-Bustamante, H.~Flores-Magdaleno, E.~Mejía-Sáenz,
   papa.
 \newblock {\em Terra Latinoamericana}, 30(1):59--67, 2012.
 
-\bibitem{Franch_2022}
-B.~Franch, J.~Cintas, I.~Becker-Reshef, M.J. Sanchez-Torres, J.~Roger,
-  S.~Skakun, J.A. Sobrino, K.~Van~Tricht, J.~Degerickx, S.~Gilliams, B.~Koetz,
-  Z.~Szantoi, and A.~Whitcraft.
-\newblock Global crop calendars of maize and wheat in the framework of the
-  worldcereal project.
-\newblock {\em GIScience \& Remote Sensing}, 59(1):885--913, 2022.
-
 \bibitem{Haskell_2012}
 D.E. Haskell, D.J. Flaspohler, C.R. Webster, and M.W. Meyer.
 \newblock Variation in soil temperature, moisture, and plant growth with the
@@ -147,34 +131,10 @@ S.B. Idso, B.A. Kimball, M.G. Anderson, and J.R. Mauney.
   interactive role of air temperature.
 \newblock {\em Agriculture, Ecosystems \& Environment}, 20(1):1--10, 1987.
 
-\bibitem{Islam_2025}
-L.~Islam, T.~Sultana, and R.~Tasneem.
-\newblock Data-driven smart agriculture: Use of ai/ml technologies for
-  enhancing crop prediction.
-\newblock {\em Agricultural Sciences}, 16(3):325--341, 2025.
-
 \bibitem{Jagadish_2021}
 S.V.K. Jagadish, D.A. Way, and T.D. Sharkey.
 \newblock Plant heat stress: Concepts directing future research.
 \newblock {\em Plant, cell \& environment}, 44(7):1992--2005, 2021.
-
-\bibitem{Jeba_2024}
-R.~P. Jeba, S.~M. Kirthiga, A.~M. Issac, V.~M. Bindhu, R.~Srinivasan, and
-  B.~Narasimhan.
-\newblock An improved framework for mapping and assessment of dynamics in
-  cropping pattern and crop calendar from ndvi time series across a
-  heterogeneous agro-climatic region.
-\newblock {\em Environmental Monitoring and Assessment}, 196(11):1141, 2024.
-
-\bibitem{Kumudini_2014}
-S.~Kumudini, F.~H. Andrade, K.~J. Boote, G.~A. Brown, K.~A. Dzotsi, G.~O.
-  Edmeades, T.~Gocken, M.~Goodwin, A.~L. Halter, G.~L. Hammer, J.~L. Hatfield,
-  J.~W. Jones, A.~R. Kemanian, S.-H. Kim, J.~Kiniry, J.~I. Lizaso, C.~Nendel,
-  R.~L. Nielsen, B.~Parent, C.~O. Stöckle, F.~Tardieu, P.~R. Thomison, D.~J.
-  Timlin, T.~J. Vyn, D.~Wallach, H.~S. Yang, and M.~Tollenaar.
-\newblock Predicting maize phenology: Intercomparison of functions for
-  developmental response to temperature.
-\newblock {\em Agronomy Journal}, 106(6):2087–2097, November 2014.
 
 \bibitem{Mainhart_2024}
 D.E. Mainhart, B.O. Christoffersen, R.A. Thompson, C.M. Reemts, and
@@ -190,12 +150,6 @@ S.~Materia, L.~Garc{\'\i}a~Palma, C.~van Straaten, S.~O, A.~Mamalakis,
   the art, challenges, and future perspectives.
 \newblock {\em Wiley Interdisciplinary Reviews: Climate Change}, 15(6):e914,
   2024.
-
-\bibitem{Minoli_2022}
-S.~Minoli, J.~J{\"a}germeyr, S.~Asseng, A.~Urfels, and C.~M{\"u}ller.
-\newblock Global crop yields can be lifted by timely adaptation of growing
-  periods to climate change.
-\newblock {\em Nature Communications}, 13(1):7079, 2022.
 
 \bibitem{Moraes_2022}
 A.F Moraes~García, L.~Micheletti~Broglio, M.~Santoro~Brossi, N.~Teixeira~dos
@@ -217,13 +171,14 @@ S.~Narayan, R.H. Kanth, R.~Narayan, F.A. Khan, A.~Saxena, and T.~Hussain.
   valley}.
 \newblock {\em Indian Journal of Agronomy}, 59(1):116--121, 2014.
 
-\bibitem{Omran_2020}
-E.~E. Omran.
-\newblock Exploring changes in the agricultural calendar as a response to
-  climate variability in egypt.
-\newblock {\em Climate Change Impacts on Agriculture and Food Security in
-  Egypt: Land and Water Resources—Smart Farming—Livestock, Fishery, and
-  Aquaculture}, pages 249--271, 2020.
+\bibitem{Olschewski_2024}
+P.~Olschewski, M.D.B. Dieng, H.~Moutahir, B.~Böker, E.~Haas, H.~Kunstmann, and
+  P.~Laux.
+\newblock Amplified potential for vegetation stress under
+  climate-change-induced intensifying compound extreme events in the greater
+  mediterranean region.
+\newblock {\em Natural Hazards and Earth System Sciences}, 24(4):1099–1134,
+  April 2024.
 
 \bibitem{Parajuli_2019}
 R.~Parajuli, G.~Thoma, and M.D. Matlock.
@@ -256,6 +211,12 @@ K.~Pérez, J.~Mercado, and H.~Soto-Valdez.
 \newblock Note. effect of storage temperature on the shelf life of hass avocado
   (persea americana).
 \newblock {\em Food Science and Technology International}, 10(2):73--77, 2004.
+
+\bibitem{Raza_2019}
+A.~Raza, A.~Razzaq, S.S. Mehmood, X.~Zou, X.~Zhang, Y.~Lv, and J.~Xu.
+\newblock Impact of climate change on crops adaptation and strategies to tackle
+  its outcome: A review.
+\newblock {\em Plants}, 8(2), 2019.
 
 \bibitem{Rocha-Arroyo_2011}
 J.L. Rocha-Arroyo, S.~Salazar-García, A.E. Bárcenas-Ortega, I.J.L.
@@ -315,19 +276,17 @@ D.~Salinas~Vargas, A.~Cruz~Mendívil, A.Y. Peraza~Magallanes,
 \newblock Accesado en enero 31 de 2025 en
   \url{https://www.gob.mx/cms/uploads/attachment/file/257067/Potencial-Aguacate.pdf}.
 
+\bibitem{Surowka_2020}
+E.~Sur{\'o}wka, M.~Rapacz, and F.~Janowiak.
+\newblock {\em Climate Change Influences the Interactive Effects of
+  Simultaneous Impact of Abiotic and Biotic Stresses on Plants}, pages 1--50.
+\newblock Springer Singapore, Singapore, 2020.
+
 \bibitem{Trenberth_1983}
 K.E. Trenberth.
 \newblock What are the seasons?
 \newblock {\em Bulletin of the American Meteorological Society}, 64(11):1276 --
   1282, 1983.
-
-\bibitem{Vazquez-Cercas_2023}
-M.~Vázquez-Cercas.
-\newblock Calendario agrícola: Entre la fiesta y la cultura del cultivo.
-\newblock In Zavala-Cruz J. and López-Castañeda A., editors, {\em Suelos en
-  espacio y tiempo, Vol 1. En: Hacia un conocimiento global y
-  multidisciplinario del recurso suelo}. {Sociedad mexicana de la ciencia del
-  suelo}, 2023.
 
 \bibitem{Wang_2021}
 J.~Wang, Y.~Guan, L.~Wu, X.~Guan, W.~Cai, J.~Huang, W.~Dong, and B.~Zhang.
