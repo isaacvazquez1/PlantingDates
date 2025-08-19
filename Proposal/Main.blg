@@ -8,45 +8,45 @@ Database file #1: Refs.bib
 Warning--empty journal in ARIZMENDIPERALTA2024
 Warning--empty journal in Castaño_2022
 Warning--can't use both author and editor fields in Surowka_2020
-You've used 44 entries,
+You've used 58 entries,
             2118 wiz_defined-function locations,
-            827 strings with 15182 characters,
-and the built_in function-call counts, 16432 in all, are:
-= -- 1553
-> -- 990
-< -- 3
-+ -- 393
-- -- 346
-* -- 1358
-:= -- 2839
-add.period$ -- 137
-call.type$ -- 44
-change.case$ -- 302
+            929 strings with 18980 characters,
+and the built_in function-call counts, 23875 in all, are:
+= -- 2201
+> -- 1626
+< -- 4
++ -- 645
+- -- 583
+* -- 2074
+:= -- 4152
+add.period$ -- 180
+call.type$ -- 58
+change.case$ -- 461
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 499
-empty$ -- 1127
-format.name$ -- 346
-if$ -- 3276
+cite$ -- 61
+duplicate$ -- 665
+empty$ -- 1511
+format.name$ -- 583
+if$ -- 4703
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 46
-newline$ -- 227
-num.names$ -- 88
-pop$ -- 257
+int.to.str$ -- 58
+missing$ -- 60
+newline$ -- 297
+num.names$ -- 118
+pop$ -- 392
 preamble$ -- 1
-purify$ -- 261
+purify$ -- 406
 quote$ -- 0
-skip$ -- 330
+skip$ -- 445
 stack$ -- 0
-substring$ -- 1007
-swap$ -- 59
-text.length$ -- 3
+substring$ -- 1383
+swap$ -- 82
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
+type$ -- 226
 warning$ -- 3
-while$ -- 142
-width$ -- 46
-write$ -- 488
+while$ -- 189
+width$ -- 60
+write$ -- 644
 (There were 3 warnings)
