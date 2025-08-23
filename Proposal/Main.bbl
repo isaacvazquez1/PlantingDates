@@ -27,6 +27,13 @@ B.B. Amrutwad and V.R. Marathe.
   Research in Life Sciences: A Path Towards Sustainability}, volume~2, pages
   206--219. Advent Publishing, 2024.
 
+\bibitem{Anderson_2004}
+P.K. Anderson, A.A. Cunningham, N.G. Patel, F.J. Morales, P.R. Epstein, and
+  P.~Daszak.
+\newblock Emerging infectious diseases of plants: pathogen pollution, climate
+  change and agrotechnology drivers.
+\newblock {\em Trends in ecology \& evolution}, 19(10):535--544, 2004.
+
 \bibitem{Anderson_2016}
 S.H. Anderson, D.~Kelly, A.W. Robertson, and J.J. Ladley.
 \newblock 73pollination by birds: A functional evaluation.
@@ -44,6 +51,12 @@ M.~Asmamaw, A.~Ambellu, and S.~Tiku.
 \newblock Resilience of ecosystems to climate change.
 \newblock {\em American Journal of Environmental Protection}, 4(6):325--333,
   2015.
+
+\bibitem{Aylor_2003}
+D.E. Aylor.
+\newblock Spread of plant disease on a continental scale: Role of aerial
+  dispersal of pathogens.
+\newblock {\em Ecology}, 84(8):1989--1997, 2003.
 
 \bibitem{Bayable_2021}
 G.~Bayable, G.~Amare, G.~Alemu, and T.~Gashaw.
@@ -247,16 +260,33 @@ S.B. Idso, B.A. Kimball, M.G. Anderson, and J.R. Mauney.
   interactive role of air temperature.
 \newblock {\em Agriculture, Ecosystems \& Environment}, 20(1):1--10, 1987.
 
+\bibitem{Iqbal_2025}
+S.~Iqbal, F.~Begum, B.A. Nguchu, et~al.
+\newblock The invisible architects: microbial communities and their
+  transformative role in soil health and global climate changes.
+\newblock {\em Environmental Microbiome}, 20, 2025.
+
 \bibitem{Jagadish_2021}
 S.V.K. Jagadish, D.A. Way, and T.D. Sharkey.
 \newblock Plant heat stress: Concepts directing future research.
 \newblock {\em Plant, cell \& environment}, 44(7):1992--2005, 2021.
+
+\bibitem{Jansson_2020}
+J.K. Jansson and K.S. Hofmockel.
+\newblock Soil microbiomes and climate change.
+\newblock {\em Nature Reviews Microbiology}, 18:35--46, 2020.
 
 \bibitem{Jones_2018}
 M.S. Jones and W.E. Snyder.
 \newblock Beneficial insects in agriculture: Enhancement of biodiversity and
   ecosystem services.
 \newblock {\em Insect biodiversity: Science and society}, 2:105--122, 2018.
+
+\bibitem{Katan_2017}
+J.~Katan.
+\newblock Diseases caused by soilborne pathogens: Biology, management and
+  challenges.
+\newblock {\em Journal of Plant Pathology}, 99(2):305--315, 2017.
 
 \bibitem{Kearns_1998}
 C.A. Kearns, D.W. Inouye, and N.M. Waser.
@@ -275,6 +305,14 @@ S.~Kumar, T.K. Kler, G.S. Sekhon, et~al.
   hormonal disruption: a review.
 \newblock {\em Mitigation and Adaptation Strategies for Global Change}, 29,
   2024.
+
+\bibitem{Lahlali_2024}
+R.~Lahlali, M.~Taoussi, Salah-Eddine L., G.~Gachara, R.~Ezzouggari,
+  Z.~Belabess, K.~Aberkani, A.~Assouguem, A.~Meddich, M.~El~Jarroudi, and
+  E.~Ait~Barka.
+\newblock Effects of climate change on plant pathogens and host-pathogen
+  interactions.
+\newblock {\em Crop and Environment}, 3(3):159--170, 2024.
 
 \bibitem{Liss_2013}
 K.N. Liss, M.G.E. Mitchell, G.K. MacDonald, S.L. Mahajan, J.~Méthot, A.L.
@@ -451,6 +489,25 @@ D.~Salinas~Vargas, A.~Cruz~Mendívil, A.Y. Peraza~Magallanes,
 \newblock Accesado en febrero 1 de 2025 en
   \url{https://codesin.mx/file/4/128_Manual%20del%20Aguacate%20-%2017%2011%202021%20.pdf_1637099646.pdf}.
 
+\bibitem{Savary_2017B}
+N.~Savary, S.and~Mcroberts, P.D. Esker, L.~Willocquet, and P.S. Teng.
+\newblock {Production situations as drivers of crop health: evidence and
+  implications}.
+\newblock {\em {Plant Pathology}}, 66(6):867--876, 2017.
+
+\bibitem{Savary_2017}
+S.~Savary, S.~Bregaglio, L.~Willocquet, et~al.
+\newblock Crop health and its global impacts on the components of food
+  security.
+\newblock {\em Food Security}, 9:311--327, 2017.
+
+\bibitem{Savary_2020}
+Serge Savary, Neil Mcroberts, Paul~D. Esker, Laetitia Willocquet, and Paul~S.
+  Teng.
+\newblock {Production situations as drivers of crop health: evidence and
+  implications}.
+\newblock {\em {Plant Pathology}}, 66(6):867--876, 2017.
+
 \bibitem{SAGARPA_2017}
 {Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y
   Alimentación}.
@@ -510,6 +567,11 @@ N.~Ward and G.J. Masters.
 C.~Westerkamp and G.~Gottsberger.
 \newblock Diversity pays in crop pollination.
 \newblock {\em Crop science}, 40(5):1209--1222, 2000.
+
+\bibitem{Zadoks_1979}
+J.C. Zadoks and R.D. Schein.
+\newblock {\em Epidemiology and plant disease management}.
+\newblock Oxford University Press, United Kingdom, 1979.
 
 \bibitem{Zhang_2025}
 S.~Zhang, Y.~Zhang, F.~Yang, C.~Zhou, H.~Shen, B.~Wang, J.~Zeng, D.R. Reynolds,

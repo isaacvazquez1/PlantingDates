@@ -5,49 +5,53 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
+Name 3 in "Lahlali, R. and Taoussi, M. and Salah-Eddine L., and Gachara, G. and Ezzouggari, R. and Belabess, Z. and Aberkani, K. and Assouguem, A. and Meddich, A. and El Jarroudi, M. and Ait Barka, E." has a comma at the end for entry Lahlali_2024
+while executing---line 1049 of file plain.bst
 Warning--empty journal in ARIZMENDIPERALTA2024
 Warning--empty journal in Castaño_2022
 Warning--empty title in Kearns_1998
+Name 3 in "Lahlali, R. and Taoussi, M. and Salah-Eddine L., and Gachara, G. and Ezzouggari, R. and Belabess, Z. and Aberkani, K. and Assouguem, A. and Meddich, A. and El Jarroudi, M. and Ait Barka, E." has a comma at the end for entry Lahlali_2024
+while executing---line 1090 of file plain.bst
 Warning--can't use both author and editor fields in Surowka_2020
-You've used 80 entries,
+You've used 90 entries,
             2118 wiz_defined-function locations,
-            1084 strings with 23459 characters,
-and the built_in function-call counts, 32521 in all, are:
-= -- 3038
-> -- 2121
+            1147 strings with 25313 characters,
+and the built_in function-call counts, 36240 in all, are:
+= -- 3391
+> -- 2349
 < -- 7
-+ -- 839
-- -- 753
-* -- 2787
-:= -- 5614
-add.period$ -- 250
-call.type$ -- 80
-change.case$ -- 609
++ -- 930
+- -- 833
+* -- 3095
+:= -- 6261
+add.period$ -- 280
+call.type$ -- 90
+change.case$ -- 676
 chr.to.int$ -- 0
-cite$ -- 84
-duplicate$ -- 934
-empty$ -- 2123
-format.name$ -- 753
-if$ -- 6461
+cite$ -- 94
+duplicate$ -- 1044
+empty$ -- 2376
+format.name$ -- 833
+if$ -- 7202
 int.to.chr$ -- 0
-int.to.str$ -- 80
-missing$ -- 82
-newline$ -- 408
-num.names$ -- 166
-pop$ -- 513
+int.to.str$ -- 90
+missing$ -- 93
+newline$ -- 458
+num.names$ -- 186
+pop$ -- 566
 preamble$ -- 1
-purify$ -- 532
+purify$ -- 590
 quote$ -- 0
-skip$ -- 626
+skip$ -- 700
 stack$ -- 0
-substring$ -- 1974
-swap$ -- 121
+substring$ -- 2209
+swap$ -- 131
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 314
+type$ -- 352
 warning$ -- 4
-while$ -- 267
-width$ -- 82
-write$ -- 891
-(There were 4 warnings)
+while$ -- 299
+width$ -- 92
+write$ -- 1001
+(There were 2 error messages)
