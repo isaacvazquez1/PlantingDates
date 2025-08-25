@@ -13,45 +13,45 @@ Warning--empty title in Kearns_1998
 Name 3 in "Lahlali, R. and Taoussi, M. and Salah-Eddine L., and Gachara, G. and Ezzouggari, R. and Belabess, Z. and Aberkani, K. and Assouguem, A. and Meddich, A. and El Jarroudi, M. and Ait Barka, E." has a comma at the end for entry Lahlali_2024
 while executing---line 1090 of file plain.bst
 Warning--can't use both author and editor fields in Surowka_2020
-You've used 90 entries,
+You've used 97 entries,
             2118 wiz_defined-function locations,
-            1147 strings with 25313 characters,
-and the built_in function-call counts, 36240 in all, are:
-= -- 3391
-> -- 2349
+            1191 strings with 26509 characters,
+and the built_in function-call counts, 38699 in all, are:
+= -- 3625
+> -- 2490
 < -- 7
-+ -- 930
-- -- 833
-* -- 3095
-:= -- 6261
-add.period$ -- 280
-call.type$ -- 90
-change.case$ -- 676
++ -- 986
+- -- 881
+* -- 3295
+:= -- 6687
+add.period$ -- 301
+call.type$ -- 97
+change.case$ -- 721
 chr.to.int$ -- 0
-cite$ -- 94
-duplicate$ -- 1044
-empty$ -- 2376
-format.name$ -- 833
-if$ -- 7202
+cite$ -- 101
+duplicate$ -- 1119
+empty$ -- 2549
+format.name$ -- 881
+if$ -- 7697
 int.to.chr$ -- 0
-int.to.str$ -- 90
-missing$ -- 93
-newline$ -- 458
-num.names$ -- 186
-pop$ -- 566
+int.to.str$ -- 97
+missing$ -- 100
+newline$ -- 493
+num.names$ -- 200
+pop$ -- 599
 preamble$ -- 1
-purify$ -- 590
+purify$ -- 628
 quote$ -- 0
-skip$ -- 700
+skip$ -- 754
 stack$ -- 0
-substring$ -- 2209
-swap$ -- 131
+substring$ -- 2366
+swap$ -- 138
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 352
+type$ -- 380
 warning$ -- 4
-while$ -- 299
-width$ -- 92
-write$ -- 1001
+while$ -- 319
+width$ -- 99
+write$ -- 1077
 (There were 2 error messages)
