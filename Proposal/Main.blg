@@ -9,45 +9,45 @@ Warning--empty journal in ARIZMENDIPERALTA2024
 Warning--empty journal in Castaño_2022
 Warning--empty title in Kearns_1998
 Warning--can't use both author and editor fields in Surowka_2020
-You've used 111 entries,
+You've used 115 entries,
             2118 wiz_defined-function locations,
-            1280 strings with 29491 characters,
-and the built_in function-call counts, 44274 in all, are:
-= -- 4152
-> -- 2849
+            1306 strings with 30401 characters,
+and the built_in function-call counts, 45991 in all, are:
+= -- 4317
+> -- 2961
 < -- 9
-+ -- 1129
-- -- 1008
-* -- 3766
-:= -- 7655
-add.period$ -- 345
-call.type$ -- 111
-change.case$ -- 826
++ -- 1173
+- -- 1048
+* -- 3918
+:= -- 7950
+add.period$ -- 357
+call.type$ -- 115
+change.case$ -- 857
 chr.to.int$ -- 0
-cite$ -- 115
-duplicate$ -- 1283
-empty$ -- 2911
-format.name$ -- 1008
-if$ -- 8803
+cite$ -- 119
+duplicate$ -- 1327
+empty$ -- 3021
+format.name$ -- 1048
+if$ -- 9141
 int.to.chr$ -- 0
-int.to.str$ -- 111
-missing$ -- 114
-newline$ -- 564
-num.names$ -- 230
-pop$ -- 681
+int.to.str$ -- 115
+missing$ -- 118
+newline$ -- 584
+num.names$ -- 238
+pop$ -- 704
 preamble$ -- 1
-purify$ -- 719
+purify$ -- 746
 quote$ -- 0
-skip$ -- 863
+skip$ -- 892
 stack$ -- 0
-substring$ -- 2696
-swap$ -- 160
+substring$ -- 2824
+swap$ -- 164
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 436
+type$ -- 452
 warning$ -- 4
-while$ -- 367
-width$ -- 114
-write$ -- 1235
+while$ -- 382
+width$ -- 118
+write$ -- 1279
 (There were 4 warnings)
