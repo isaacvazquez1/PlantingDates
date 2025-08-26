@@ -5,49 +5,54 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
+I was expecting a `,' or a `}'---line 91 of file Refs.bib
+ :  
+ :  DOI = {10.3390/agronomy8040037}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty journal in ARIZMENDIPERALTA2024
 Warning--empty journal in Castaño_2022
 Warning--empty title in Kearns_1998
 Warning--can't use both author and editor fields in Surowka_2020
-You've used 115 entries,
+You've used 119 entries,
             2118 wiz_defined-function locations,
-            1306 strings with 30401 characters,
-and the built_in function-call counts, 45991 in all, are:
-= -- 4317
-> -- 2961
-< -- 9
-+ -- 1173
-- -- 1048
-* -- 3918
-:= -- 7950
-add.period$ -- 357
-call.type$ -- 115
-change.case$ -- 857
+            1334 strings with 31188 characters,
+and the built_in function-call counts, 47485 in all, are:
+= -- 4465
+> -- 3037
+< -- 11
++ -- 1202
+- -- 1073
+* -- 4011
+:= -- 8191
+add.period$ -- 370
+call.type$ -- 119
+change.case$ -- 880
 chr.to.int$ -- 0
-cite$ -- 119
-duplicate$ -- 1327
-empty$ -- 3021
-format.name$ -- 1048
-if$ -- 9141
+cite$ -- 123
+duplicate$ -- 1396
+empty$ -- 3130
+format.name$ -- 1073
+if$ -- 9466
 int.to.chr$ -- 0
-int.to.str$ -- 115
-missing$ -- 118
-newline$ -- 584
-num.names$ -- 238
-pop$ -- 704
+int.to.str$ -- 119
+missing$ -- 123
+newline$ -- 604
+num.names$ -- 248
+pop$ -- 731
 preamble$ -- 1
-purify$ -- 746
+purify$ -- 766
 quote$ -- 0
-skip$ -- 892
+skip$ -- 948
 stack$ -- 0
-substring$ -- 2824
-swap$ -- 164
-text.length$ -- 9
+substring$ -- 2887
+swap$ -- 188
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 452
+type$ -- 466
 warning$ -- 4
-while$ -- 382
-width$ -- 118
-write$ -- 1279
-(There were 4 warnings)
+while$ -- 394
+width$ -- 122
+write$ -- 1326
+(There was 1 error message)
