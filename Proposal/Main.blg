@@ -5,59 +5,61 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-I was expecting a `,' or a `}'---line 164 of file Refs.bib
+I was expecting a `,' or a `}'---line 335 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 255 of file Refs.bib
+I was expecting a `,' or a `}'---line 426 of file Refs.bib
  :  
  :  DOI = {10.3390/agronomy8040037}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty journal in ARIZMENDIPERALTA2024
 Warning--empty journal in Castaño_2022
+Warning--empty booktitle in Hatfield_2017
 Warning--empty title in Kearns_1998
+Warning--can't use both author and editor fields in Langridge_2022
 Warning--can't use both author and editor fields in Surowka_2020
-You've used 132 entries,
+You've used 146 entries,
             2118 wiz_defined-function locations,
-            1416 strings with 34514 characters,
-and the built_in function-call counts, 53359 in all, are:
-= -- 4991
-> -- 3489
-< -- 14
-+ -- 1381
-- -- 1238
-* -- 4518
-:= -- 9216
-add.period$ -- 411
-call.type$ -- 132
-change.case$ -- 999
+            1508 strings with 37635 characters,
+and the built_in function-call counts, 59335 in all, are:
+= -- 5540
+> -- 3885
+< -- 20
++ -- 1537
+- -- 1380
+* -- 5024
+:= -- 10238
+add.period$ -- 456
+call.type$ -- 146
+change.case$ -- 1109
 chr.to.int$ -- 0
-cite$ -- 136
-duplicate$ -- 1565
-empty$ -- 3462
-format.name$ -- 1238
-if$ -- 10624
+cite$ -- 152
+duplicate$ -- 1753
+empty$ -- 3851
+format.name$ -- 1380
+if$ -- 11831
 int.to.chr$ -- 0
-int.to.str$ -- 132
-missing$ -- 138
-newline$ -- 670
-num.names$ -- 276
-pop$ -- 842
+int.to.str$ -- 146
+missing$ -- 153
+newline$ -- 740
+num.names$ -- 306
+pop$ -- 943
 preamble$ -- 1
-purify$ -- 874
+purify$ -- 971
 quote$ -- 0
-skip$ -- 1071
+skip$ -- 1196
 stack$ -- 0
-substring$ -- 3143
-swap$ -- 224
-text.length$ -- 14
+substring$ -- 3457
+swap$ -- 263
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 514
-warning$ -- 4
-while$ -- 434
-width$ -- 135
-write$ -- 1473
+type$ -- 568
+warning$ -- 6
+while$ -- 481
+width$ -- 149
+write$ -- 1633
 (There were 2 error messages)

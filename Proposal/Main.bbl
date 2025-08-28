@@ -71,6 +71,14 @@ M.~Asmamaw, A.~Ambellu, and S.~Tiku.
 \newblock {\em American Journal of Environmental Protection}, 4(6):325--333,
   2015.
 
+\bibitem{Atta_2023}
+K.~Atta, S.~Mondal, S.~Gorai, A.P. Singh, A.~Kumari, T.~Ghosh, A.~Roy,
+  S.~Hembram, D.J. Gaikwad, S.~Mondal, S.~Bhattacharya, U.C. Jha, and
+  D.~Jespersen.
+\newblock Impacts of salinity stress on crop plants: improving salt tolerance
+  through genetic and molecular dissection.
+\newblock {\em Frontiers in Plant Science}, 14, September 2023.
+
 \bibitem{Aylor_2003}
 D.E. Aylor.
 \newblock Spread of plant disease on a continental scale: Role of aerial
@@ -264,6 +272,12 @@ M.S. Farooq, M.~Uzair, A.~Raza, M.~Habib, Y.~Xu, M.~Yousuf, S.H. Yang, and
   climate change on food security: a review.
 \newblock {\em Frontiers in plant science}, 13:927535, 2022.
 
+\bibitem{Ferdush_2023}
+J.~Ferdush, V.~Paul, J.~Varco, K.~Jones, and S.M. Sasidharan.
+\newblock Consequences of elevated co2 on soil acidification, cation depletion,
+  and inorganic carbon: A column-based experimental investigation.
+\newblock {\em Soil and Tillage Research}, 234:105839, 2023.
+
 \bibitem{Fischer_2022}
 G.~Fischer, J.O. Orduz-Rodríguez, and C.V. Talamini-Do~Amarante.
 \newblock Sunburn disorder in tropical and subtropical fruits. a review.
@@ -320,6 +334,16 @@ S.~Guo, L.~Cui, J.~Xu, M.~Liu, W.~Wang, A.~Xia, Z.~Zhang, Y.~Yang, X.~Xu, and
   knowledge and future directions.
 \newblock {\em Plant and Soil}, February 2025.
 
+\bibitem{Hamidov_2018}
+A.~Hamidov, K.~Helming, G.~Bellocchi, W.~Bojar, T.~Dalgaard, B.B. Ghaley,
+  C.~Hoffmann, I.~Holman, A.~Holzkämper, D.~Krzeminska, S.H. Kværnø,
+  H.~Lehtonen, G.~Niedrist, L.~Øygarden, P.~Reidsma, P.P. Roggero, T.~Rusu,
+  C.~Santos, G.~Seddaiu, E.~Skarbøvik, D.~Ventrella, J.~Żarski, and
+  M.~Schönhart.
+\newblock Impacts of climate change adaptation options on soil functions: A
+  review of european case-studies.
+\newblock {\em Land Degradation \& Development}, 29(8):2378--2389, 2018.
+
 \bibitem{Harvey_2022}
 J.A. Harvey, K.~Tougeron, R.~Gols, R.~Heinen, M.~Abarca, P.K. Abram, Y.~Basset,
   M.~Berg, C.~Boggs, J.~Brodeur, P.~Cardoso, J.G. de~Boer, G.R. De~Snoo,
@@ -349,6 +373,13 @@ D.E. Haskell, D.J. Flaspohler, C.R. Webster, and M.W. Meyer.
 \newblock Variation in soil temperature, moisture, and plant growth with the
   addition of downed woody material on lakeshore restoration sites.
 \newblock {\em Restoration Ecology}, 20(1):113--121, 2012.
+
+\bibitem{Hatfield_2017}
+J.L. Hatfield, T.J. Sauer, and R.M. Cruse.
+\newblock Chapter one - soil: The forgotten piece of the water, food, energy
+  nexus.
+\newblock volume 143 of {\em Advances in Agronomy}, pages 1--46. Academic
+  Press, 2017.
 
 \bibitem{Hodge_1956}
 W.H. Hodge and C.O. Erlanson.
@@ -420,11 +451,21 @@ K.~Kiritani.
   insects.
 \newblock {\em Applied Entomology and Zoology}, 48(2):97–104, January 2013.
 
+\bibitem{Kopittke_2019}
+P.M. Kopittke, N.W. Menzies, P.~Wang, B.A. McKenna, and E.~Lombi.
+\newblock Soil and the intensification of agriculture for global food security.
+\newblock {\em Environment International}, 132:105078, 2019.
+
 \bibitem{Kumar_2020}
 K.~Kumar, G.~Gambhir, A.~Dass, A.K. Tripathi, A.~Singh, A.K. Jha, P.~Yadava,
   M.~Choudhary, and S.~Rakshit.
 \newblock Genetically modified crops: current status and future prospects.
 \newblock {\em Planta}, 251, 2020.
+
+\bibitem{Kumar_2014}
+M.~Kumar.
+\newblock Crop plants and abiotic stresses.
+\newblock {\em Journal of Biomolecular Research \& Therapeutics}, 03(01), 2014.
 
 \bibitem{Kumar_2024}
 S.~Kumar, T.K. Kler, G.S. Sekhon, et~al.
@@ -446,6 +487,11 @@ R.~Lahlali, M.~Taoussi, L.~Salah-Eddine, G.~Gachara, R.~Ezzouggari,
 \newblock Effects of climate change on plant pathogens and host-pathogen
   interactions.
 \newblock {\em Crop and Environment}, 3(3):159--170, 2024.
+
+\bibitem{Langridge_2022}
+P.~Langridge.
+\newblock {\em Micronutrient Toxicity and Deficiency}, pages 433--449.
+\newblock Springer International Publishing, Cham, 2022.
 
 \bibitem{Li_2022}
 M.~Li, X.~Cao, D.~Liu, Q.~Fu, T.~Li, and R.~Shang.
@@ -494,6 +540,11 @@ J.~Memmott, P.G. Craze, N.M. Waser, and M.V. Price.
 \newblock Global warming and the disruption of plant--pollinator interactions.
 \newblock {\em Ecology letters}, 10(8):710--717, 2007.
 
+\bibitem{McLaughlin_1999}
+McLaughlin M.J., D.R. Parker, and J.M. Clarke.
+\newblock Metals and micronutrients – food safety issues.
+\newblock {\em Field Crops Research}, 60(1):143--163, 1999.
+
 \bibitem{Moraes_2022}
 A.F Moraes~García, L.~Micheletti~Broglio, M.~Santoro~Brossi, N.~Teixeira~dos
   Santos, T.~Avilés~Cantuarias, and S.~da~Silva~Rodrigues.
@@ -538,6 +589,13 @@ P.~Niemelä and W.J. Mattson.
   Legacy of the european crucible?
 \newblock {\em BioScience}, 46(10):741--753, 11 1996.
 
+\bibitem{Oishy_2025}
+M.N. Oishy, N.A. Shemonty, S.I. Fatema, S.~Mahbub, E.L. Mim, M.B. Hasan~Raisa,
+  and A.H. Anik.
+\newblock Unravelling the effects of climate change on the
+  soil-plant-atmosphere interactions: A critical review.
+\newblock {\em Soil \& Environmental Health}, 3(1):100130, 2025.
+
 \bibitem{Ollerton_2011}
 J.~Ollerton, R.~Winfree, and S.~Tarrant.
 \newblock How many flowering plants are pollinated by animals?
@@ -563,6 +621,11 @@ B.~Park, Y.~Kim, S.~Min, and E.~Lim.
 \newblock Anthropogenic and natural contributions to the lengthening of the
   summer season in the northern hemisphere.
 \newblock {\em Journal of Climate}, 31(17):6803 -- 6819, 2018.
+
+\bibitem{Passioura_2002}
+J.B. Passioura.
+\newblock ‘soil conditions and plant growth’.
+\newblock {\em Plant, Cell \& Environment}, 25(2):311--318, 2002.
 
 \bibitem{Patra_2024}
 A.~Patra, R.P. Singh, B.K. Singh, M.S. Kundu, G.~Kumar, and S.~Mukherjee.
@@ -596,6 +659,13 @@ K.~Pérez, J.~Mercado, and H.~Soto-Valdez.
 \newblock Note. effect of storage temperature on the shelf life of hass avocado
   (persea americana).
 \newblock {\em Food Science and Technology International}, 10(2):73--77, 2004.
+
+\bibitem{Berbecea_2024}
+I.~Radulov and A.~Berbecea.
+\newblock Nutrient management for sustainable soil fertility.
+\newblock In Vijay~Singh Meena, Ram~Swaroop Bana, Ram~Kishor Fagodiya, and
+  Mohammad Hasanain, editors, {\em Sustainable Agroecosystems}, chapter~2.
+  IntechOpen, Rijeka, 2024.
 
 \bibitem{Rafferty_2017}
 N.E. Rafferty.
@@ -761,6 +831,14 @@ K.E. Trenberth.
 \newblock {\em Bulletin of the American Meteorological Society}, 64(11):1276 --
   1282, 1983.
 
+\bibitem{Uchida_2000}
+R.~Uchida.
+\newblock Essential nutrients for plant growth: nutrient functions and
+  deficiency symptoms.
+\newblock In {\em Plant nutrient management in Hawaii’s soils}, volume~4,
+  pages 31--55. College of Tropical Agricultureand Human Resources, Manoa
+  University of Hawaii, 2000.
+
 \bibitem{Upasani_2018}
 R.R. Upasani and S.~Barla.
 \newblock Weed dynamics in changing climate.
@@ -787,6 +865,12 @@ B.B. Vartapetian and M.B. Jackson.
 C.~Verma, S.~Nanda, R.K. Singh, R.B. Singh, and S.~Mishra.
 \newblock A review on impacts of genetically modified food on human health.
 \newblock {\em Open Nutraceuticals J}, 4(1):3--11, 2011.
+
+\bibitem{Wang_2014}
+C.-H. Wang.
+\newblock Farming methods effects on the soil fertility and crop production
+  under a rice-vegetables cropping sequences.
+\newblock {\em Journal of Plant Nutrition}, 37(9):1498--1513, 2014.
 
 \bibitem{Wang_2021}
 J.~Wang, Y.~Guan, L.~Wu, X.~Guan, W.~Cai, J.~Huang, W.~Dong, and B.~Zhang.
@@ -848,5 +932,10 @@ L.H. Ziska, J.S. Pettis, J.~Edwards, J.E. Hancock, M.B. Tomecek, A.~Clark, J.S.
   floral pollen source essential for north american bees.
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences},
   283(1828):20160414, 2016.
+
+\bibitem{Zorb_2019}
+C.~Zörb, C.-M. Geilfus, and K.-J. Dietz.
+\newblock Salinity and crop yield.
+\newblock {\em Plant Biology}, 21(S1):31--38, 2019.
 
 \end{thebibliography}
