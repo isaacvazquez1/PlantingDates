@@ -1,0 +1,2 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{¿Cómo pueden utilizarse técnicas de aprendizaje automático, considerando información agroclimática, para predecir la evolución del proceso productivo del aguacate seccionándolo en las distintas etapas que lo compone?}{27}{0}{1}
