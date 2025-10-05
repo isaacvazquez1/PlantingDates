@@ -1,0 +1,122 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{CRAAAAEB12}
+
+\bibitem[AE17]{Akin_2017}
+M.~Akin and S.P. Eyduran.
+\newblock {Predicting Avocado Production in Turkey for 2016-2025 Period Using
+  Time Series Analysis}.
+\newblock {\em Yuzuncu Yıl University Journal of Agricultural Sciences},
+  27(2):252--258, June 2017.
+
+\bibitem[AP24]{ARIZMENDIPERALTA2024}
+P.P. Arizmendi~Peralta.
+\newblock {Estudio de técnicas de Machine Learning para estimar la producción
+  de aguacate en la zona norte del estado de Morelos}.
+\newblock 2024.
+
+\bibitem[ARLM{\etalchar{+}}21]{Acosta-Rangel_2021}
+A.~Acosta-Rangel, R.~Li, P.~Mauk, L.~Santiago, and C.J. Lovatt.
+\newblock Effects of temperature, soil moisture and light intensity on the
+  temporal pattern of floral gene expression and flowering of avocado buds
+  (persea americana cv. hass).
+\newblock {\em Scientia Horticulturae}, 280:109940, 2021.
+
+\bibitem[CRAAAAEB12]{Campos-Rojas_2012}
+C.~Campos-Rojas, J.~Ayala-Arreola, J.~Andrés-Agustín, and M.C.
+  Espíndola-Barquera.
+\newblock {\em Propagación de aguacate}.
+\newblock Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y
+  Alimentación, 2012.
+
+\bibitem[CRRSPTFG23]{Callejas-Rodriguez_2023}
+R.~Callejas-Rodríguez, R.~Reyes-Sánchez, I.~Plácido-Tomielis, and
+  H.~Flores-Gallardo.
+\newblock Métodos de evaluación de tiempo térmico para determinar fecha de
+  plantación de papa para la agroindustria.
+\newblock {\em Revista Fitotecnia Mexicana}, 46(2):127, June 2023.
+
+\bibitem[dIAyP25a]{AvanceSiembrasCosechas}
+Servicio de~Información Agroalimentaria~y Pesquera.
+\newblock Avance de siembras y cosechas, 2025.
+\newblock Accessado en marzo 1 de 2025 en
+  \url{http://nube.agricultura.gob.mx/avance_agricola/}.
+
+\bibitem[dIAyP25b]{CierreAnual2023}
+Servicio de~Información Agroalimentaria~y Pesquera.
+\newblock Cierre de la producción agrícola, 2025.
+\newblock Accessado en abril 7 de 2025 en
+  \url{http://nube.agricultura.gob.mx/avance_agricola/}.
+
+\bibitem[dlNU25]{ONU_2025}
+Organización de~las Naciones~Unidas.
+\newblock {¿Qué es el cambio climático?}, 2025.
+\newblock Accesado en marzo 12 de 2025 en
+  \url{https://www.un.org/es/climatechange/what-is-climate-change}.
+
+\bibitem[EA16]{Elnesr_2016}
+M.N. Elnesr and A.A. Alazba.
+\newblock An integral model to calculate the growing degree-days and heat
+  units, a spreadsheet application.
+\newblock {\em Computers and Electronics in Agriculture}, 124:37--45, 2016.
+
+\bibitem[EAA13]{Elnesr_2013}
+M.N. Elnesr, A.A. Alazba, and A.A. Alsadon.
+\newblock An arithmetic method to determine the most suitable planting dates
+  for vegetables.
+\newblock {\em Computers and Electronics in Agriculture}, 90:131--143, 2013.
+
+\bibitem[MEP15]{Mosquera_2015}
+M.~Mosquera, E.A. Evans, and R.~Ploetz.
+\newblock {Assessing the profitability of avocado production in South Florida
+  in the presence of Laurel Wilt}.
+\newblock {\em Theoretical Economics Letters}, 5(2):343--356, 2015.
+
+\bibitem[PBMPA{\etalchar{+}}02]{Premkumar_2002}
+A.~Premkumar, A.~Barceló-Muñoz, F.~Pliego-Alfaro, M.A. Quesada, and J.A.
+  Mercado.
+\newblock Influences of exogenous sucrose on juvenile avocado during in vitro
+  cultivation and subsequent ex vitro acclimatization.
+\newblock {\em Trees}, 16(8):569--575, August 2002.
+
+\bibitem[PURRCJ{\etalchar{+}}15]{Pena-Urquiza_2015}
+L.S. Peña~Urquiza, S.~Rebollar~Rebollar, N.~Callejas~Juárez,
+  J.~Hernández~Martínez, and G~Gómez~Tenorio.
+\newblock {Análisis de viabilidad económica para la producción comercial de
+  aguacate Hass}.
+\newblock {\em Revista Mexicana de Agronegocios}, 36:1325--1338, 2015.
+
+\bibitem[{Sec}17]{SAGARPA_2017}
+{Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y
+  Alimentación}.
+\newblock Aguacate mexicano.
+\newblock In {\em Planeación Agrícola 2017--2030}. {Secretaría de
+  Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación}, 2017.
+\newblock Accesado en enero 31 de 2025 en
+  \url{https://www.gob.mx/cms/uploads/attachment/file/257067/Potencial-Aguacate.pdf}.
+
+\bibitem[SGIE�BGV18]{Salazar_2018}
+S.~Salazar-García, M.E. Ibarra-Estrada, A.~Álvarez Bravo, and
+  J.~González-Valdivia.
+\newblock Modelos de predicci{\'o}n del desarrollo floral del aguacate
+  ‘m{\'e}ndez’.
+\newblock {\em Revista mexicana de ciencias agr{\'\i}colas}, 9(1):151--161,
+  2018.
+
+\bibitem[SVCMPM{\etalchar{+}}21]{CODESIN_2021}
+D.~Salinas~Vargas, A.~Cruz~Mendívil, A.Y. Peraza~Magallanes,
+  B.~Valenzuela~Leal, C.L. Calderón~Vázquez, E.~Sandoval~Castro, J.C.
+  Martínez~Alvarez, J.E. Cuadras~Camacho, J.L. Romero~Romero,
+  M.~Castro~López, and M.A. Magallanes~Tapia.
+\newblock {\em Manual para el Establecimiento del Cultivo de Aguacate en la
+  Zona Centro Norte de Sinaloa}.
+\newblock {Consejo para el Desarrollo Económico de Sinaloa}, 2021.
+\newblock Accesado en febrero 1 de 2025 en
+  \url{https://codesin.mx/file/4/128_Manual%20del%20Aguacate%20-%2017%2011%202021%20.pdf_1637099646.pdf}.
+
+\bibitem[WGW{\etalchar{+}}21]{Wang_2021}
+J.~Wang, Y.~Guan, L.~Wu, X.~Guan, W.~Cai, J.~Huang, W.~Dong, and B.~Zhang.
+\newblock Changing lengths of the four seasons by global warming.
+\newblock {\em Geophysical Research Letters}, 48(6):e2020GL091753, 2021.
+\newblock e2020GL091753 2020GL091753.
+
+\end{thebibliography}
