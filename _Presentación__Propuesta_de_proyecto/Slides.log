@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  11 OCT 2025 21:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  12 OCT 2025 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1281,6 +1281,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks67
 \@floatcapt=\box92
 )
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box93
 \UL@hyphenbox=\box94
@@ -1294,149 +1297,149 @@ Package: ulem 2019/11/18
 \ULdepth=\dimen354
 )
 \symmathx=\mathgroup7
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 57.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 79.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 79.
+(hyperref)                removing `\@centercr' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 79.
+(hyperref)                removing `\rightskip' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 79.
+(hyperref)                removing `\@flushglue' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 79.
+(hyperref)                removing `\leftskip' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 79.
+(hyperref)                removing `\@flushglue' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 79.
+(hyperref)                removing `\finalhyphendemerits' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 79.
+(hyperref)                removing `\z@' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 79.
+(hyperref)                removing `\parindent' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 79.
+(hyperref)                removing `\z@' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 79.
+(hyperref)                removing `\parfillskip' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 79.
+(hyperref)                removing `\z@skip' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 79.
+(hyperref)                removing `\\' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 84.
+(hyperref)                removing `\<let>-command' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 84.
+(hyperref)                removing `\\' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 84.
+(hyperref)                removing `\@centercr' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 84.
+(hyperref)                removing `\rightskip' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 84.
+(hyperref)                removing `\@flushglue' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 84.
+(hyperref)                removing `\leftskip' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 84.
+(hyperref)                removing `\@flushglue' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 84.
+(hyperref)                removing `\finalhyphendemerits' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 84.
+(hyperref)                removing `\z@' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 84.
+(hyperref)                removing `\parindent' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 84.
+(hyperref)                removing `\z@' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 84.
+(hyperref)                removing `\parfillskip' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 84.
+(hyperref)                removing `\z@skip' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 84.
+(hyperref)                removing `\color' on input line 85.
 
 (Slides.aux)
 \openout1 = `Slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1498,63 +1501,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 84.
+Package hyperref Info: Link coloring OFF on input line 85.
  (Slides.out) (Slides.out)
 \@outlinefile=\write5
 \openout5 = `Slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 84.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 85.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 85.
 \symnumbers=\mathgroup8
 \sympureletters=\mathgroup9
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 84.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 84.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 85.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 84.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 84.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 84.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 85.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 84.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 84.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 84.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 85.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 84.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 84.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 85.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 84.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 85.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 84.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 84.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 84.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 84.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 84.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 84.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 84.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 85.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
-4.
+5.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
-4.
+5.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 84.
+ut line 85.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -1584,39 +1587,39 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 84.
+ on input line 85.
 
 \c@lstlisting=\count411
 (Slides.nav)
 <images/INFOTEC.jpg, id=24, 343.2825pt x 254.1495pt>
 File: images/INFOTEC.jpg Graphic file (type jpg)
 <use images/INFOTEC.jpg>
-Package pdftex.def Info: images/INFOTEC.jpg  used on input line 111.
+Package pdftex.def Info: images/INFOTEC.jpg  used on input line 112.
 (pdftex.def)             Requested size: 78.95331pt x 58.45316pt.
 
-Overfull \hbox (19.20496pt too wide) in paragraph at lines 111--111
+Overfull \hbox (19.20496pt too wide) in paragraph at lines 112--112
  [] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 111
+LaTeX Font Info:    Trying to load font information for U+msa on input line 112
 .
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 111
+LaTeX Font Info:    Trying to load font information for U+msb on input line 112
 .
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 11
-1.
+2.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 111.
+ut line 112.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
@@ -1626,23 +1629,23 @@ thkerncmss.
 <images/tr.png, id=25, 143.03438pt x 127.22531pt>
 File: images/tr.png Graphic file (type png)
 <use images/tr.png>
-Package pdftex.def Info: images/tr.png  used on input line 111.
+Package pdftex.def Info: images/tr.png  used on input line 112.
 (pdftex.def)             Requested size: 14.22636pt x 12.65338pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <20.74> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 111.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 112.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <14.4> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 111.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 112.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 111.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 112.
 
 
-Overfull \vbox (59.11037pt too high) detected at line 111
+Overfull \vbox (59.11037pt too high) detected at line 112
  []
 
 [1
@@ -1654,7 +1657,7 @@ OTEC.jpg> <./images/tr.png>] [2
 <images/Choice.png, id=43, 2271.687pt x 818.0964pt>
 File: images/Choice.png Graphic file (type png)
 <use images/Choice.png>
-Package pdftex.def Info: images/Choice.png  used on input line 153.
+Package pdftex.def Info: images/Choice.png  used on input line 156.
 (pdftex.def)             Requested size: 398.3386pt x 143.44363pt.
  [3
 
@@ -1666,7 +1669,7 @@ ight cause out of memory (use non-interlaced PNG to fix this)
 <images/Survival.png, id=50, 2271.687pt x 1398.1836pt>
 File: images/Survival.png Graphic file (type png)
 <use images/Survival.png>
-Package pdftex.def Info: images/Survival.png  used on input line 158.
+Package pdftex.def Info: images/Survival.png  used on input line 161.
 (pdftex.def)             Requested size: 358.50229pt x 220.64177pt.
  [4
 
@@ -1678,10 +1681,10 @@ pdfTeX warning: pdflatex.exe (file ./images/Survival.png): large interlaced PNG
 <images/Production.png, id=57, 2271.687pt x 1488.762pt>
 File: images/Production.png Graphic file (type png)
 <use images/Production.png>
-Package pdftex.def Info: images/Production.png  used on input line 164.
+Package pdftex.def Info: images/Production.png  used on input line 167.
 (pdftex.def)             Requested size: 358.50229pt x 234.9356pt.
 
-Overfull \vbox (7.58064pt too high) detected at line 164
+Overfull \vbox (7.58064pt too high) detected at line 167
  []
 
 [5
@@ -1691,141 +1694,141 @@ Overfull \vbox (7.58064pt too high) detected at line 164
 pdfTeX warning: pdflatex.exe (file ./images/Production.png): large interlaced P
 NG might cause out of memory (use non-interlaced PNG to fix this)
 >]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 185--185
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 188--188
  []$[]$$[]$  
  []
 
 <images/Agro.png, id=64, 471.26062pt x 336.50719pt>
 File: images/Agro.png Graphic file (type png)
 <use images/Agro.png>
-Package pdftex.def Info: images/Agro.png  used on input line 185.
+Package pdftex.def Info: images/Agro.png  used on input line 188.
 (pdftex.def)             Requested size: 159.333pt x 113.77422pt.
 
-Overfull \vbox (12.37169pt too high) detected at line 185
+Overfull \vbox (12.37169pt too high) detected at line 188
  []
 
 [6
 
  <./images/Agro.png>]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 185--185
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 188--188
  []$[]$$[]$  
  []
 
 File: images/Agro.png Graphic file (type png)
 <use images/Agro.png>
-Package pdftex.def Info: images/Agro.png  used on input line 185.
+Package pdftex.def Info: images/Agro.png  used on input line 188.
 (pdftex.def)             Requested size: 159.333pt x 113.77422pt.
 
-Overfull \vbox (12.37169pt too high) detected at line 185
+Overfull \vbox (12.37169pt too high) detected at line 188
  []
 
 [7
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 207--207
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 210--210
  []$[]$$[]$  
  []
 
 <images/Agrodatascience.png, id=77, 471.2004pt x 336.2964pt>
 File: images/Agrodatascience.png Graphic file (type png)
 <use images/Agrodatascience.png>
-Package pdftex.def Info: images/Agrodatascience.png  used on input line 207.
+Package pdftex.def Info: images/Agrodatascience.png  used on input line 210.
 (pdftex.def)             Requested size: 159.333pt x 113.71835pt.
 
-Overfull \vbox (12.31583pt too high) detected at line 207
+Overfull \vbox (12.31583pt too high) detected at line 210
  []
 
 [8
 
  <./images/Agrodatascience.png>]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 242--242
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 245--245
  []$[]$$[]$  
  []
 
 <images/Agave.png, id=84, 496.75241pt x 430.75783pt>
 File: images/Agave.png Graphic file (type png)
 <use images/Agave.png>
-Package pdftex.def Info: images/Agave.png  used on input line 242.
+Package pdftex.def Info: images/Agave.png  used on input line 245.
 (pdftex.def)             Requested size: 89.41158pt x 77.53305pt.
 <images/AgavePina.png, id=85, 325.215pt x 323.92447pt>
 File: images/AgavePina.png Graphic file (type png)
 <use images/AgavePina.png>
-Package pdftex.def Info: images/AgavePina.png  used on input line 242.
+Package pdftex.def Info: images/AgavePina.png  used on input line 245.
 (pdftex.def)             Requested size: 81.30354pt x 80.98091pt.
 
-Overfull \vbox (25.55043pt too high) detected at line 242
+Overfull \vbox (25.55043pt too high) detected at line 245
  []
 
 [9
 
  <./images/Agave.png>]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 242--242
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 245--245
  []$[]$$[]$  
  []
 
 File: images/Agave.png Graphic file (type png)
 <use images/Agave.png>
-Package pdftex.def Info: images/Agave.png  used on input line 242.
+Package pdftex.def Info: images/Agave.png  used on input line 245.
 (pdftex.def)             Requested size: 89.41158pt x 77.53305pt.
 File: images/AgavePina.png Graphic file (type png)
 <use images/AgavePina.png>
-Package pdftex.def Info: images/AgavePina.png  used on input line 242.
+Package pdftex.def Info: images/AgavePina.png  used on input line 245.
 (pdftex.def)             Requested size: 81.30354pt x 80.98091pt.
 
-Overfull \vbox (25.55043pt too high) detected at line 242
+Overfull \vbox (25.55043pt too high) detected at line 245
  []
 
 [10
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 242--242
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 245--245
  []$[]$$[]$  
  []
 
 File: images/Agave.png Graphic file (type png)
 <use images/Agave.png>
-Package pdftex.def Info: images/Agave.png  used on input line 242.
+Package pdftex.def Info: images/Agave.png  used on input line 245.
 (pdftex.def)             Requested size: 89.41158pt x 77.53305pt.
 File: images/AgavePina.png Graphic file (type png)
 <use images/AgavePina.png>
-Package pdftex.def Info: images/AgavePina.png  used on input line 242.
+Package pdftex.def Info: images/AgavePina.png  used on input line 245.
 (pdftex.def)             Requested size: 81.30354pt x 80.98091pt.
 
-Overfull \vbox (25.55043pt too high) detected at line 242
+Overfull \vbox (25.55043pt too high) detected at line 245
  []
 
 [11
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 279--279
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 282--282
  []$[]$$[]$  
  []
 
 File: images/Agave.png Graphic file (type png)
 <use images/Agave.png>
-Package pdftex.def Info: images/Agave.png  used on input line 279.
+Package pdftex.def Info: images/Agave.png  used on input line 282.
 (pdftex.def)             Requested size: 89.41158pt x 77.53305pt.
 File: images/AgavePina.png Graphic file (type png)
 <use images/AgavePina.png>
-Package pdftex.def Info: images/AgavePina.png  used on input line 279.
+Package pdftex.def Info: images/AgavePina.png  used on input line 282.
 (pdftex.def)             Requested size: 81.30354pt x 80.98091pt.
 [12
 
  <./images/AgavePina.png>]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 313--313
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 316--316
  []$[]$$[]$  
  []
 
 File: images/Agave.png Graphic file (type png)
 <use images/Agave.png>
-Package pdftex.def Info: images/Agave.png  used on input line 313.
+Package pdftex.def Info: images/Agave.png  used on input line 316.
 (pdftex.def)             Requested size: 89.41158pt x 77.53305pt.
 File: images/AgavePina.png Graphic file (type png)
 <use images/AgavePina.png>
-Package pdftex.def Info: images/AgavePina.png  used on input line 313.
+Package pdftex.def Info: images/AgavePina.png  used on input line 316.
 (pdftex.def)             Requested size: 81.30354pt x 80.98091pt.
 
-Overfull \vbox (2.15765pt too high) detected at line 313
+Overfull \vbox (2.15765pt too high) detected at line 316
  []
 
 [13
@@ -1839,60 +1842,60 @@ Overfull \vbox (2.15765pt too high) detected at line 313
 ] [17
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 383--383
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 386--386
  []$[]$[][]$[]$  
  []
 
 [18
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 383--383
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 386--386
  []$[]$[][][]$[]$  
  []
 
 [19
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 383--383
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 386--386
  []$[]$[][][][]$[]$  
  []
 
 [20
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 383--383
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 386--386
  []$[]$[][][][]$[]$  
  []
 
 [21
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 383--383
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 386--386
  []$[]$[][][][]$[]$  
  []
 
 [22
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 407--407
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 410--410
  []$[]$$[]$  
  []
 
 <images/Seasons.png, id=162, 923.1288pt x 448.074pt>
 File: images/Seasons.png Graphic file (type png)
 <use images/Seasons.png>
-Package pdftex.def Info: images/Seasons.png  used on input line 407.
+Package pdftex.def Info: images/Seasons.png  used on input line 410.
 (pdftex.def)             Requested size: 286.16698pt x 138.90149pt.
 [23
 
  <./images/Seasons.png>]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 407--407
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 410--410
  []$[]$$[]$  
  []
 
 File: images/Seasons.png Graphic file (type png)
 <use images/Seasons.png>
-Package pdftex.def Info: images/Seasons.png  used on input line 407.
+Package pdftex.def Info: images/Seasons.png  used on input line 410.
 (pdftex.def)             Requested size: 286.16698pt x 138.90149pt.
 [24
 
@@ -1900,10 +1903,10 @@ Package pdftex.def Info: images/Seasons.png  used on input line 407.
 <images/AgaveyPina.png, id=175, 572.8602pt x 472.6458pt>
 File: images/AgaveyPina.png Graphic file (type png)
 <use images/AgaveyPina.png>
-Package pdftex.def Info: images/AgaveyPina.png  used on input line 427.
+Package pdftex.def Info: images/AgaveyPina.png  used on input line 430.
 (pdftex.def)             Requested size: 199.1693pt x 164.32507pt.
 
-Underfull \hbox (badness 1454) in paragraph at lines 427--427
+Underfull \hbox (badness 1454) in paragraph at lines 430--430
  \OT1/cmss/m/n/8 Fuente: Garc^^S^^Pa-Mendoza, A. (2007); SAGARPA 
  []
 
@@ -1912,10 +1915,10 @@ Underfull \hbox (badness 1454) in paragraph at lines 427--427
  <./images/AgaveyPina.png>]
 File: images/AgaveyPina.png Graphic file (type png)
 <use images/AgaveyPina.png>
-Package pdftex.def Info: images/AgaveyPina.png  used on input line 427.
+Package pdftex.def Info: images/AgaveyPina.png  used on input line 430.
 (pdftex.def)             Requested size: 199.1693pt x 164.32507pt.
 
-Underfull \hbox (badness 1454) in paragraph at lines 427--427
+Underfull \hbox (badness 1454) in paragraph at lines 430--430
  \OT1/cmss/m/n/8 Fuente: Garc^^S^^Pa-Mendoza, A. (2007); SAGARPA 
  []
 
@@ -1925,7 +1928,7 @@ Underfull \hbox (badness 1454) in paragraph at lines 427--427
 <images/CiclodeProducción.png, id=188, 1676.1822pt x 700.0554pt>
 File: images/CiclodeProducción.png Graphic file (type png)
 <use images/CiclodeProducción.png>
-Package pdftex.def Info: images/CiclodeProducción.png  used on input line 432.
+Package pdftex.def Info: images/CiclodeProducción.png  used on input line 435.
 
 (pdftex.def)             Requested size: 398.3386pt x 166.36102pt.
  [27
@@ -1938,7 +1941,7 @@ rlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
 <images/CiclodeProducción1.png, id=195, 1705.0902pt x 700.0554pt>
 File: images/CiclodeProducción1.png Graphic file (type png)
 <use images/CiclodeProducción1.png>
-Package pdftex.def Info: images/CiclodeProducción1.png  used on input line 437
+Package pdftex.def Info: images/CiclodeProducción1.png  used on input line 440
 .
 (pdftex.def)             Requested size: 398.3386pt x 163.54099pt.
  [28
@@ -1951,7 +1954,7 @@ erlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
 <images/CiclodeProducción2.png, id=202, 1705.0902pt x 717.882pt>
 File: images/CiclodeProducción2.png Graphic file (type png)
 <use images/CiclodeProducción2.png>
-Package pdftex.def Info: images/CiclodeProducción2.png  used on input line 442
+Package pdftex.def Info: images/CiclodeProducción2.png  used on input line 445
 .
 (pdftex.def)             Requested size: 398.3386pt x 167.70547pt.
  [29
@@ -1964,7 +1967,7 @@ erlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
 <images/CiclodeProducción3.png, id=209, 1705.0902pt x 717.882pt>
 File: images/CiclodeProducción3.png Graphic file (type png)
 <use images/CiclodeProducción3.png>
-Package pdftex.def Info: images/CiclodeProducción3.png  used on input line 447
+Package pdftex.def Info: images/CiclodeProducción3.png  used on input line 450
 .
 (pdftex.def)             Requested size: 398.3386pt x 167.70547pt.
  [30
@@ -1977,7 +1980,7 @@ erlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
 <images/CiclodeProducción4.png, id=216, 1705.0902pt x 717.882pt>
 File: images/CiclodeProducción4.png Graphic file (type png)
 <use images/CiclodeProducción4.png>
-Package pdftex.def Info: images/CiclodeProducción4.png  used on input line 452
+Package pdftex.def Info: images/CiclodeProducción4.png  used on input line 455
 .
 (pdftex.def)             Requested size: 398.3386pt x 167.70547pt.
  [31
@@ -1990,7 +1993,7 @@ erlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
 <images/AgaveAGS.png, id=224, 1296.042pt x 870.1308pt>
 File: images/AgaveAGS.png Graphic file (type png)
 <use images/AgaveAGS.png>
-Package pdftex.def Info: images/AgaveAGS.png  used on input line 474.
+Package pdftex.def Info: images/AgaveAGS.png  used on input line 477.
 (pdftex.def)             Requested size: 199.1693pt x 133.71376pt.
  [32
 
@@ -2001,7 +2004,7 @@ pdfTeX warning: pdflatex.exe (file ./images/AgaveAGS.png): large interlaced PNG
 >]
 File: images/AgaveAGS.png Graphic file (type png)
 <use images/AgaveAGS.png>
-Package pdftex.def Info: images/AgaveAGS.png  used on input line 474.
+Package pdftex.def Info: images/AgaveAGS.png  used on input line 477.
 (pdftex.def)             Requested size: 199.1693pt x 133.71376pt.
  [33
 
@@ -2009,10 +2012,10 @@ Package pdftex.def Info: images/AgaveAGS.png  used on input line 474.
 <images/DistribucionAGS.png, id=237, 767.86874pt x 629.9535pt>
 File: images/DistribucionAGS.png Graphic file (type png)
 <use images/DistribucionAGS.png>
-Package pdftex.def Info: images/DistribucionAGS.png  used on input line 494.
+Package pdftex.def Info: images/DistribucionAGS.png  used on input line 497.
 (pdftex.def)             Requested size: 224.29314pt x 184.01352pt.
 
-Overfull \hbox (25.12384pt too wide) in paragraph at lines 494--494
+Overfull \hbox (25.12384pt too wide) in paragraph at lines 497--497
  [][] 
  []
 
@@ -2022,250 +2025,245 @@ Overfull \hbox (25.12384pt too wide) in paragraph at lines 494--494
 <images/AptitudAGS.png, id=244, 735.34724pt x 633.567pt>
 File: images/AptitudAGS.png Graphic file (type png)
 <use images/AptitudAGS.png>
-Package pdftex.def Info: images/AptitudAGS.png  used on input line 517.
+Package pdftex.def Info: images/AptitudAGS.png  used on input line 520.
 (pdftex.def)             Requested size: 213.57063pt x 184.01352pt.
 
-Overfull \hbox (14.40134pt too wide) in paragraph at lines 517--517
+Overfull \hbox (14.40134pt too wide) in paragraph at lines 520--520
  [][] 
  []
 
 [35
 
- <./images/AptitudAGS.png>] [36
+ <./images/AptitudAGS.png>]
+<images/Mezcalera.png, id=251, 475.02469pt x 694.09312pt>
+File: images/Mezcalera.png Graphic file (type png)
+<use images/Mezcalera.png>
+Package pdftex.def Info: images/Mezcalera.png  used on input line 542.
+(pdftex.def)             Requested size: 120.7564pt x 176.45158pt.
+ [36
+
+ <./images/Mezcalera.png>]
+File: images/Mezcalera.png Graphic file (type png)
+<use images/Mezcalera.png>
+Package pdftex.def Info: images/Mezcalera.png  used on input line 542.
+(pdftex.def)             Requested size: 120.7564pt x 176.45158pt.
+ [37
+
+] [38
 
 ]
-Underfull \hbox (badness 2326) in paragraph at lines 543--543
- [][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
- []
-
-[37
-
-]
-Underfull \hbox (badness 2326) in paragraph at lines 543--543
- [][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
- []
-
-[38
-
-]
-Underfull \hbox (badness 2326) in paragraph at lines 543--543
+Underfull \hbox (badness 2326) in paragraph at lines 566--566
  [][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
  []
 
 [39
 
 ]
-Underfull \hbox (badness 2326) in paragraph at lines 543--543
- [][][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
+Underfull \hbox (badness 2326) in paragraph at lines 566--566
+ [][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
  []
 
 [40
 
 ]
-Underfull \hbox (badness 2326) in paragraph at lines 543--543
- [][][][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
+Underfull \hbox (badness 2326) in paragraph at lines 566--566
+ [][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
  []
 
 [41
 
 ]
-Underfull \hbox (badness 2326) in paragraph at lines 543--543
- [][][][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
+Underfull \hbox (badness 2326) in paragraph at lines 566--566
+ [][][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
  []
 
 [42
 
-] [43
-
-] [44
-
 ]
-<images/Vivero.jpg, id=298, 264.23718pt x 437.09451pt>
-File: images/Vivero.jpg Graphic file (type jpg)
-<use images/Vivero.jpg>
-Package pdftex.def Info: images/Vivero.jpg  used on input line 583.
-(pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
-<images/Elnesr.png, id=299, 473.97075pt x 342.078pt>
-File: images/Elnesr.png Graphic file (type png)
-<use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
-(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
-File: images/Elnesr.png Graphic file (type png)
-<use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
-(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
-File: images/Elnesr.png Graphic file (type png)
-<use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
-(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
-
-Overfull \vbox (152.09299pt too high) detected at line 583
+Underfull \hbox (badness 2326) in paragraph at lines 566--566
+ [][][][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
  []
 
-[45
+[43
+
+]
+Underfull \hbox (badness 2326) in paragraph at lines 566--566
+ [][][][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
+ []
+
+[44
+
+] [45
+
+] [46
+
+] [47
+
+] [48
+
+] [49
+
+] [50
+
+] [51
+
+] [52
+
+]
+<images/Vivero.jpg, id=345, 264.23718pt x 437.09451pt>
+File: images/Vivero.jpg Graphic file (type jpg)
+<use images/Vivero.jpg>
+Package pdftex.def Info: images/Vivero.jpg  used on input line 682.
+(pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
+<images/Elnesr.png, id=346, 473.97075pt x 342.078pt>
+File: images/Elnesr.png Graphic file (type png)
+<use images/Elnesr.png>
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
+File: images/Elnesr.png Graphic file (type png)
+<use images/Elnesr.png>
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
+File: images/Elnesr.png Graphic file (type png)
+<use images/Elnesr.png>
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
+
+Overfull \vbox (152.09299pt too high) detected at line 682
+ []
+
+[53
 
  <./images/Vivero.jpg>]
 File: images/Vivero.jpg Graphic file (type jpg)
 <use images/Vivero.jpg>
-Package pdftex.def Info: images/Vivero.jpg  used on input line 583.
+Package pdftex.def Info: images/Vivero.jpg  used on input line 682.
 (pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 
-Overfull \vbox (152.09299pt too high) detected at line 583
+Overfull \vbox (152.09299pt too high) detected at line 682
  []
 
-[46
+[54
 
  <./images/Elnesr.png>]
 File: images/Vivero.jpg Graphic file (type jpg)
 <use images/Vivero.jpg>
-Package pdftex.def Info: images/Vivero.jpg  used on input line 583.
+Package pdftex.def Info: images/Vivero.jpg  used on input line 682.
 (pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 
-Overfull \vbox (152.09299pt too high) detected at line 583
+Overfull \vbox (152.09299pt too high) detected at line 682
  []
 
-[47
+[55
 
 ]
 File: images/Vivero.jpg Graphic file (type jpg)
 <use images/Vivero.jpg>
-Package pdftex.def Info: images/Vivero.jpg  used on input line 583.
+Package pdftex.def Info: images/Vivero.jpg  used on input line 682.
 (pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 583.
+Package pdftex.def Info: images/Elnesr.png  used on input line 682.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 
-Overfull \vbox (152.09299pt too high) detected at line 583
+Overfull \vbox (152.09299pt too high) detected at line 682
  []
 
-[48
+[56
 
 ]
-<images/Floración.jpg, id=321, 289.08pt x 436.48218pt>
+<images/Floración.jpg, id=369, 289.08pt x 436.48218pt>
 File: images/Floración.jpg Graphic file (type jpg)
 <use images/Floración.jpg>
-Package pdftex.def Info: images/Floración.jpg  used on input line 606.
+Package pdftex.def Info: images/Floración.jpg  used on input line 705.
 (pdftex.def)             Requested size: 139.4179pt x 210.50142pt.
- [49
+ [57
 
  <./images/Floración.jpg>]
-<images/Fruto.jpg, id=328, 302.22pt x 436.905pt>
-File: images/Fruto.jpg Graphic file (type jpg)
-<use images/Fruto.jpg>
-Package pdftex.def Info: images/Fruto.jpg  used on input line 627.
-(pdftex.def)             Requested size: 122.05717pt x 176.45158pt.
-
-Overfull \hbox (1.8254pt too wide) in paragraph at lines 627--627
-[]$[]$$[]$  
- []
-
-[50
-
- <./images/Fruto.jpg>]
-File: images/Fruto.jpg Graphic file (type jpg)
-<use images/Fruto.jpg>
-Package pdftex.def Info: images/Fruto.jpg  used on input line 648.
-(pdftex.def)             Requested size: 122.05717pt x 176.45158pt.
- [51
-
-]
-File: images/Fruto.jpg Graphic file (type jpg)
-<use images/Fruto.jpg>
-Package pdftex.def Info: images/Fruto.jpg  used on input line 668.
-(pdftex.def)             Requested size: 122.05717pt x 176.45158pt.
-
-Overfull \hbox (1.8254pt too wide) in paragraph at lines 668--668
-[]$[]$$[]$  
- []
-
-[52
-
-]
-<images/Essenger.png, id=344, 771.3618pt x 167.1846pt>
+<images/Essenger.png, id=375, 771.3618pt x 167.1846pt>
 File: images/Essenger.png Graphic file (type png)
 <use images/Essenger.png>
-Package pdftex.def Info: images/Essenger.png  used on input line 692.
+Package pdftex.def Info: images/Essenger.png  used on input line 730.
 (pdftex.def)             Requested size: 199.1693pt x 43.16594pt.
- [53
+ [58
 
  <./images/Essenger.png>]
-<images/MSMx.png, id=351, 486.01575pt x 145.7445pt>
+<images/MSMx.png, id=382, 486.01575pt x 145.7445pt>
 File: images/MSMx.png Graphic file (type png)
 <use images/MSMx.png>
-Package pdftex.def Info: images/MSMx.png  used on input line 714.
+Package pdftex.def Info: images/MSMx.png  used on input line 752.
 (pdftex.def)             Requested size: 199.1693pt x 59.72672pt.
- [54
+ [59
 
  <./images/MSMx.png>]
-<images/conagua.png, id=358, 331.2375pt x 123.46124pt>
+<images/conagua.png, id=389, 331.2375pt x 123.46124pt>
 File: images/conagua.png Graphic file (type png)
 <use images/conagua.png>
-Package pdftex.def Info: images/conagua.png  used on input line 736.
+Package pdftex.def Info: images/conagua.png  used on input line 774.
 (pdftex.def)             Requested size: 199.1693pt x 74.23555pt.
- [55
+ [60
 
  <./images/conagua.png>]
-<images/siap.png, id=366, 259.97125pt x 194.7275pt>
+<images/siap.png, id=396, 259.97125pt x 194.7275pt>
 File: images/siap.png Graphic file (type png)
 <use images/siap.png>
-Package pdftex.def Info: images/siap.png  used on input line 759.
+Package pdftex.def Info: images/siap.png  used on input line 797.
 (pdftex.def)             Requested size: 199.1693pt x 149.18294pt.
- [56
+ [61
 
- <./images/siap.png>] [57
+ <./images/siap.png>] [62
 
-] [58
+] [63
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 813--813
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 851--851
  []$[]$$[]$  
  []
 
-[59
+[64
 
-] (Slides.bbl) [60
+] (Slides.bbl) [65
 
  <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
-le.pdf>] [61
+le.pdf>] [66
 
 
-] [62
+] [67
 
 
-] [63
+] [68
 
 ]
 \tf@nav=\write6
@@ -2286,28 +2284,31 @@ Package rerunfilecheck Info: File `Slides.out' has not changed.
 (rerunfilecheck)             Checksum: 16EE885E287CC4C43B07228F11A23D73;1116.
  ) 
 Here is how much of TeX's memory you used:
- 40052 strings out of 474824
- 925903 string characters out of 5750976
+ 40109 strings out of 474824
+ 926892 string characters out of 5750976
  1949043 words of memory out of 5000000
- 61070 multiletter control sequences out of 15000+600000
- 577436 words of font info for 105 fonts, out of 8000000 for 9000
+ 61112 multiletter control sequences out of 15000+600000
+ 577792 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,144p,1032b,895s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\amigo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi657\wasy
 10.pk><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmcsc10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmss10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmss12.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/amigo/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/amigo/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/amigo/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/User
-s/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+c/amsfonts/cm/cmmi10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/amigo/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/amigo/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/amigo/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/a
+migo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-tt8.pfb>
-Output written on Slides.pdf (63 pages, 38286087 bytes).
+ssi10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmssi8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Slides.pdf (68 pages, 39581188 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
+ 564 PDF objects out of 1000 (max. 8388607)
+ 157 named destinations out of 1000 (max. 500000)
  202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

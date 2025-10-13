@@ -16,6 +16,7 @@
 \definecolor{airforceblue}{rgb}{0.2,0.2,0.7}
 \usepackage{xcolor}
 \usepackage{float}
+\usepackage{cancel}
 %\spanishdecimal{.}
 \renewcommand{\event}[3][e]{%
   \pgfmathsetlength\xstop{(#2-\theyearstart)*\unit}%
@@ -133,7 +134,7 @@
 
 {
 	\setbeamercolor{background canvas}{bg=mygray}
-	\begin{frame}{Mapa de contenidos}
+	\vspace{-2cm}\begin{frame}{Mapa de contenidos}
 		\begin{itemize}
 			\color{airforceblue}
 			\item Motivación del problema.
@@ -143,6 +144,8 @@
 			\item Pregunta de investigación.
 			\item Objetivos.
 			\item Estado del arte.
+			\item Factibilidad
+			\item Referencias.
 		\end{itemize}
 	\end{frame}
 }
@@ -516,7 +519,27 @@
 	\end{minipage}%
 \end{frame}
 
-
+\begin{frame}{Agave en Aguascalientes}
+	\vspace{-1cm}\begin{minipage}{0.5\textwidth}
+		\begin{block}{Mezcal con denominación de origen}
+			\begin{itemize}
+				\item Aguascalientes.
+				\item Asientos.
+				\item Calvillo.
+				\item Cosío.
+				\item El Llano.
+				\item Rincón de Romos.
+				\item Tepezalá.
+			\end{itemize}
+			{\scriptsize Fuente: IMPI (2025).}
+		\end{block}
+	\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\centering	\includegraphics[height=0.7\textheight]{Mezcalera.png}
+\end{minipage}
+\,\\
+\centering \pause El aprovechamiento del agave se encuentra en consolidación.
+\end{frame}
 
 \section{Considerando información agroclimática, ¿puede predecirse la evolución del proceso productivo del agave aludiendo a herramientas provenientes de la ciencia de datos?}
 
@@ -543,11 +566,87 @@
 \end{frame}
 
 \begin{frame}{Estado del arte}
-	contenidos...
+	\vspace{-1cm}\begin{minipage}{0.4\textwidth}
+		\begin{block}{Revisión bibliográfica}
+			\begin{itemize}
+				\item ACM: 100 artículos.
+				\item ScienceDirect: 658 artículos.
+				\item Kaggle.
+				\item UC Irvine.
+			\end{itemize}
+		\end{block}
+	\end{minipage}%
+	\pause\begin{minipage}{0.6\textwidth}
+		\begin{block}{Trabajos}
+			\begin{itemize}
+				\item Predecir zonas potenciales.
+				\item Segmentación y clasificación de madurez y calidad.
+				\item Detección y conteo de plantas.
+				\item Contracción de áreas de cultivo.
+				\item Densidad de los cultivos.
+				\item Viabilidad económica.
+				\item Costo económico del trasplante manual y mecanizado.
+				\pause\item \bf Estimación de biomasa fresca y seca.
+				\pause\item \sout{Fechas de trasplante.}
+			\end{itemize}
+		\end{block}
+	\end{minipage}%
 \end{frame}
 
-\begin{frame}{Factibilidad}
-	contenidos...Revisa la primera página de tu libreta c:
+\begin{frame}{Estado del arte: Estimación individual}
+	\begin{minipage}{0.5\textwidth}
+		\begin{block}{Peso seco}
+			\begin{itemize}
+				\item López-Díaz, \textit{et al.} (2022): Regresión de la forma $Y=\beta_0 X^{\beta_1}\varepsilon$.\\
+				Diámetro de la corona como variable explicativa.
+				\item Vuorinne, \textit{et al.} (2021): Regresión lineal para biomasa de hojas.\\
+				Anchura máxima y altura como variable explicativa.
+			\end{itemize}
+		\end{block}
+	\end{minipage}%
+	\begin{minipage}{0.5\textwidth}
+		\begin{block}{Peso fresco}
+			\begin{itemize}
+				\item López Serrano, \textit{et al.} (2022): Regresión de la forma $Y=\beta_0 X^{\beta_1}\varepsilon$.\\
+				Diámetro de la corona como variable explicativa.
+				\item Velazco-Baustista, \textit{et al.} (2009): Regresión bivariada.\\
+				Diámetro de la roseta y altura de la planta como variables explicativas.
+			\end{itemize}
+		\end{block}
+	\end{minipage}
+\end{frame}
+
+\begin{frame}{Estado del arte: Estimación colectiva}
+	\begin{minipage}{0.5\textwidth}
+		\begin{block}{Peso seco}
+			\begin{itemize}
+				\item Vuorinne, \textit{et al.} (2021): Integran análisis de imágenes provenientes del Sentinel-2 para extender la cobertura de sus estimaciones.
+			\end{itemize}
+		\end{block}
+	\end{minipage}%
+	\begin{minipage}{0.5\textwidth}
+		\begin{block}{}
+			Nobel, P.S. (1984): Propone el índice de productividad ambiental (EPI).
+			\begin{itemize}
+				\item Índice mensual de agua.
+				\item Índice mensual de temperatura.
+				\item Índice mensual de radiación fotosintéticamente activa. 
+			\end{itemize}
+			Al ponderarlo con la absorción de CO$_2$ por unidad de área estima la producción.
+		\end{block}
+	\end{minipage}
+\end{frame}
+
+\begin{frame}{Factibilidad: Estimación de la producción}
+	\begin{block}{}
+		Akin \textit{et al.} (2017): Modelo de suavizamiento exponencial de Brown genera un pronóstico a 10 años para la producción de aguacate en Turquía.
+		Arizmendi-Peralta, P.P. (2024): Propone al algoritmo Random Forest Regressor como mejor estimador para estimar la producción de aguacate en una hectárea.
+		Mosquera \textit{et al.} (2015): Estima la producción de huertas de aguacates, de la misma edad, a través de un modelo de regresión cuadrático.
+	\end{block}
+\end{frame}
+
+\begin{frame}{Factibilidad: Fechas de trasplante}
+	
 \end{frame}
 
 \begin{frame}\frametitle<1>{\hfill Siembra}
@@ -605,67 +704,6 @@
     \hfill {\scriptsize Fuente:Salazar-García \textit{et al.} (2018).}
 \end{frame}
 
-\begin{frame}{Producción}
-    
-    \vspace{-1cm}
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-				\item Registros de Turquía desde 1980 a 2015.
-                    \item La serie de tiempo es no estacionaria, con tendencia y sin estacionalidad.
-                    \item Aplica los modelos de suavizamiento exponencial de Holt, Damped y Brown.
-                    \item Genera un pronóstico para el periodo 2016-2025. 
-			\end{itemize}
-            \end{block}
-		\end{minipage}%
-        \begin{minipage}{0.5\textwidth}
-        \centering
-\includegraphics[height=0.7\textheight ]{images/Fruto.jpg}
-		\end{minipage}%
-        \,\\
-        \hfill {\scriptsize Fuente: Akin \textit{et al.} (2017).}
-\end{frame}
-
-\begin{frame}{Producción}
-    \vspace{-1cm}
-    \begin{minipage}{0.5\textwidth}
-			\hspace{-0.5cm}
-            \centering
-            \includegraphics[height=0.7\textheight ]{images/Fruto.jpg}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-                    \item Instala sensores en una huerta de Huitzilac, Morelos.
-				\item Registró temperaturas (suelo y ambiente), humedad, lúmenes y nutrientes.
-                    \item Emplea algoritmos supervisados y no supervisados. 
-                    \item Propone al algoritmo Random Forest Regressor como mejor estimador.
-			\end{itemize}
-            \end{block}
-		\end{minipage}
-        \,\\
-        \hfill {\scriptsize Fuente: Arizmendi-Peralta (2024).}
-\end{frame}
-
-\begin{frame}{Producción}
-    
-    \vspace{-1cm}
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-				\item Compara la producción de árboles sanos respeto a enfermos.
-                    \item Estima la producción por huerta con árboles de la misma edad.
-                    \item Propone un modelo de regresión cuadrática. 
-			\end{itemize}
-            \end{block}
-		\end{minipage}%
-        \begin{minipage}{0.5\textwidth}
-        \centering
-\includegraphics[height=0.7\textheight ]{images/Fruto.jpg}
-		\end{minipage}%
-        \,\\
-        \hfill {\scriptsize Fuente: Mosquera \textit{et al.} (2015).}
-\end{frame}
 
 
 \begin{frame}{Datos disponibles}
