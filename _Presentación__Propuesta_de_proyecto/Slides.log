@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  12 OCT 2025 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  13 OCT 2025 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2107,75 +2107,64 @@ Underfull \hbox (badness 2326) in paragraph at lines 566--566
 
 ] [51
 
-] [52
+]
+<images/Elnesr.png, id=340, 473.97075pt x 342.078pt>
+File: images/Elnesr.png Graphic file (type png)
+<use images/Elnesr.png>
+Package pdftex.def Info: images/Elnesr.png  used on input line 666.
+(pdftex.def)             Requested size: 199.1693pt x 143.74484pt.
+ [52
+
+ <./images/Elnesr.png>]
+File: images/Elnesr.png Graphic file (type png)
+<use images/Elnesr.png>
+Package pdftex.def Info: images/Elnesr.png  used on input line 683.
+(pdftex.def)             Requested size: 199.1693pt x 143.74484pt.
+ [53
 
 ]
-<images/Vivero.jpg, id=345, 264.23718pt x 437.09451pt>
+<images/Vivero.jpg, id=352, 264.23718pt x 437.09451pt>
 File: images/Vivero.jpg Graphic file (type jpg)
 <use images/Vivero.jpg>
-Package pdftex.def Info: images/Vivero.jpg  used on input line 682.
-(pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
-<images/Elnesr.png, id=346, 473.97075pt x 342.078pt>
-File: images/Elnesr.png Graphic file (type png)
-<use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
-(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
-File: images/Elnesr.png Graphic file (type png)
-<use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
-(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
-File: images/Elnesr.png Graphic file (type png)
-<use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
-(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
-
-Overfull \vbox (152.09299pt too high) detected at line 682
- []
-
-[53
-
- <./images/Vivero.jpg>]
-File: images/Vivero.jpg Graphic file (type jpg)
-<use images/Vivero.jpg>
-Package pdftex.def Info: images/Vivero.jpg  used on input line 682.
+Package pdftex.def Info: images/Vivero.jpg  used on input line 716.
 (pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 
-Overfull \vbox (152.09299pt too high) detected at line 682
+Overfull \vbox (152.09299pt too high) detected at line 716
  []
 
 [54
 
- <./images/Elnesr.png>]
+ <./images/Vivero.jpg>]
 File: images/Vivero.jpg Graphic file (type jpg)
 <use images/Vivero.jpg>
-Package pdftex.def Info: images/Vivero.jpg  used on input line 682.
+Package pdftex.def Info: images/Vivero.jpg  used on input line 716.
 (pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 
-Overfull \vbox (152.09299pt too high) detected at line 682
+Overfull \vbox (152.09299pt too high) detected at line 716
  []
 
 [55
@@ -2183,87 +2172,110 @@ Overfull \vbox (152.09299pt too high) detected at line 682
 ]
 File: images/Vivero.jpg Graphic file (type jpg)
 <use images/Vivero.jpg>
-Package pdftex.def Info: images/Vivero.jpg  used on input line 682.
+Package pdftex.def Info: images/Vivero.jpg  used on input line 716.
 (pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 682.
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
 (pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 
-Overfull \vbox (152.09299pt too high) detected at line 682
+Overfull \vbox (152.09299pt too high) detected at line 716
  []
 
 [56
 
 ]
-<images/Floración.jpg, id=369, 289.08pt x 436.48218pt>
-File: images/Floración.jpg Graphic file (type jpg)
-<use images/Floración.jpg>
-Package pdftex.def Info: images/Floración.jpg  used on input line 705.
-(pdftex.def)             Requested size: 139.4179pt x 210.50142pt.
- [57
+File: images/Vivero.jpg Graphic file (type jpg)
+<use images/Vivero.jpg>
+Package pdftex.def Info: images/Vivero.jpg  used on input line 716.
+(pdftex.def)             Requested size: 106.67274pt x 176.45158pt.
+File: images/Elnesr.png Graphic file (type png)
+<use images/Elnesr.png>
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
+(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
+File: images/Elnesr.png Graphic file (type png)
+<use images/Elnesr.png>
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
+(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
+File: images/Elnesr.png Graphic file (type png)
+<use images/Elnesr.png>
+Package pdftex.def Info: images/Elnesr.png  used on input line 716.
+(pdftex.def)             Requested size: 174.63597pt x 126.0374pt.
 
- <./images/Floración.jpg>]
-<images/Essenger.png, id=375, 771.3618pt x 167.1846pt>
-File: images/Essenger.png Graphic file (type png)
-<use images/Essenger.png>
-Package pdftex.def Info: images/Essenger.png  used on input line 730.
-(pdftex.def)             Requested size: 199.1693pt x 43.16594pt.
- [58
+Overfull \vbox (152.09299pt too high) detected at line 716
+ []
 
- <./images/Essenger.png>]
-<images/MSMx.png, id=382, 486.01575pt x 145.7445pt>
-File: images/MSMx.png Graphic file (type png)
-<use images/MSMx.png>
-Package pdftex.def Info: images/MSMx.png  used on input line 752.
-(pdftex.def)             Requested size: 199.1693pt x 59.72672pt.
- [59
-
- <./images/MSMx.png>]
-<images/conagua.png, id=389, 331.2375pt x 123.46124pt>
-File: images/conagua.png Graphic file (type png)
-<use images/conagua.png>
-Package pdftex.def Info: images/conagua.png  used on input line 774.
-(pdftex.def)             Requested size: 199.1693pt x 74.23555pt.
- [60
-
- <./images/conagua.png>]
-<images/siap.png, id=396, 259.97125pt x 194.7275pt>
-File: images/siap.png Graphic file (type png)
-<use images/siap.png>
-Package pdftex.def Info: images/siap.png  used on input line 797.
-(pdftex.def)             Requested size: 199.1693pt x 149.18294pt.
- [61
-
- <./images/siap.png>] [62
-
-] [63
+[57
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 851--851
+<images/Floración.jpg, id=374, 289.08pt x 436.48218pt>
+File: images/Floración.jpg Graphic file (type jpg)
+<use images/Floración.jpg>
+Package pdftex.def Info: images/Floración.jpg  used on input line 739.
+(pdftex.def)             Requested size: 139.4179pt x 210.50142pt.
+ [58
+
+ <./images/Floración.jpg>]
+<images/Essenger.png, id=380, 771.3618pt x 167.1846pt>
+File: images/Essenger.png Graphic file (type png)
+<use images/Essenger.png>
+Package pdftex.def Info: images/Essenger.png  used on input line 764.
+(pdftex.def)             Requested size: 199.1693pt x 43.16594pt.
+ [59
+
+ <./images/Essenger.png>]
+<images/MSMx.png, id=387, 486.01575pt x 145.7445pt>
+File: images/MSMx.png Graphic file (type png)
+<use images/MSMx.png>
+Package pdftex.def Info: images/MSMx.png  used on input line 786.
+(pdftex.def)             Requested size: 199.1693pt x 59.72672pt.
+ [60
+
+ <./images/MSMx.png>]
+<images/conagua.png, id=394, 331.2375pt x 123.46124pt>
+File: images/conagua.png Graphic file (type png)
+<use images/conagua.png>
+Package pdftex.def Info: images/conagua.png  used on input line 808.
+(pdftex.def)             Requested size: 199.1693pt x 74.23555pt.
+ [61
+
+ <./images/conagua.png>]
+<images/siap.png, id=402, 259.97125pt x 194.7275pt>
+File: images/siap.png Graphic file (type png)
+<use images/siap.png>
+Package pdftex.def Info: images/siap.png  used on input line 831.
+(pdftex.def)             Requested size: 199.1693pt x 149.18294pt.
+ [62
+
+ <./images/siap.png>] [63
+
+] [64
+
+]
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 885--885
  []$[]$$[]$  
  []
 
-[64
+[65
 
-] (Slides.bbl) [65
+] (Slides.bbl) [66
 
  <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
-le.pdf>] [66
-
-
-] [67
+le.pdf>] [67
 
 
 ] [68
+
+
+] [69
 
 ]
 \tf@nav=\write6
@@ -2284,10 +2296,10 @@ Package rerunfilecheck Info: File `Slides.out' has not changed.
 (rerunfilecheck)             Checksum: 16EE885E287CC4C43B07228F11A23D73;1116.
  ) 
 Here is how much of TeX's memory you used:
- 40109 strings out of 474824
- 926892 string characters out of 5750976
+ 40115 strings out of 474824
+ 926944 string characters out of 5750976
  1949043 words of memory out of 5000000
- 61112 multiletter control sequences out of 15000+600000
+ 61116 multiletter control sequences out of 15000+600000
  577792 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,144p,1032b,895s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2306,9 +2318,9 @@ ssi10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmssi8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Slides.pdf (68 pages, 39581188 bytes).
+Output written on Slides.pdf (69 pages, 39583945 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
  202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
