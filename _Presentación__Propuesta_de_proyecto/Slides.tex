@@ -461,6 +461,7 @@
 		\end{minipage}%
 		\begin{minipage}{0.5\textwidth}
 			\begin{block}{Angustifolia Haw. y Salmiana Otto ex Salam-Dyck}
+				\hfill {\scriptsize Fuente: Gallardo-Valdez \textit{et al.} (2019).}
 			\end{block}
             \pause\begin{block}{Requerimientos}
                 \begin{itemize}
@@ -638,13 +639,37 @@
 \end{frame}
 
 \begin{frame}{Factibilidad: Estimación de la producción}
-	\begin{block}{}
-		\begin{itemize}
-			\item Akin \textit{et al.} (2017): Modelo de suavizamiento exponencial de Brown genera un pronóstico a 10 años para la producción de aguacate en Turquía.
-			\item Arizmendi-Peralta, P.P. (2024): Propone al algoritmo Random Forest Regressor como mejor estimador para estimar la producción de aguacate en una hectárea.
-			\item Mosquera \textit{et al.} (2015): Estima la producción de huertas de aguacates, de la misma edad, a través de un modelo de regresión cuadrático.
-		\end{itemize}
-	\end{block}
+	  \begin{minipage}{0.6\textwidth}
+	  	\vspace{-1cm}\begin{block}{}
+	  		\begin{itemize}
+	  			\item Akin \textit{et al.} (2017): Modelo de suavizamiento exponencial de Brown genera un pronóstico a 10 años para la producción de aguacate en Turquía.
+	  		\end{itemize}
+	  			\phantom{.}\\
+	  			\phantom{.}\\
+	  			\phantom{.}\\
+	  			\phantom{.}\\
+	  			\phantom{.}\\
+	  			\phantom{.}\\
+	  	\end{block}
+	  \end{minipage}%
+	  \begin{minipage}{0.4\textwidth}
+	  	\vspace{-0.5cm}\includegraphics[scale=0.3]{Biomass.jpg}
+	  \end{minipage}%
+\end{frame}
+
+\begin{frame}{Factibilidad: Estimación de la producción}
+	\begin{minipage}{0.6\textwidth}
+		\vspace{-1cm}\begin{block}{}
+			\begin{itemize}
+				\item Akin \textit{et al.} (2017): Modelo de suavizamiento exponencial de Brown genera un pronóstico a 10 años para la producción de aguacate en Turquía.
+				\item Arizmendi-Peralta, P.P. (2024): Propone al algoritmo Random Forest Regressor como mejor estimador para estimar la producción de aguacate en una hectárea.
+				\item Mosquera \textit{et al.} (2015): Estima la producción de huertas de aguacates, de la misma edad, a través de un modelo de regresión cuadrático.
+			\end{itemize}
+		\end{block}
+	\end{minipage}%
+	\begin{minipage}{0.4\textwidth}
+		\vspace{-0.5cm}\includegraphics[scale=0.3]{Biomass.jpg}
+	\end{minipage}%
 \end{frame}
 
 \begin{frame}{Factibilidad: Fechas de trasplante}
@@ -682,61 +707,6 @@
 	\end{minipage}%
 \end{frame}
 
-
-\begin{frame}\frametitle<1>{\hfill Siembra}
-\frametitle<2>{\hfill Siembra}
-\frametitle<3>{\hfill Siembra}
-\frametitle<4>{Trasplante}
-    \vspace{-1cm}
-		\begin{minipage}{0.5\textwidth}
-            \vspace{-6cm}\begin{block}{}
-                \begin{itemize}
-				\item Considera el sistema de unidades de calor.
-                    \item Se adapta a las condiciones de la planta.
-                    \item Algoritmos de decisión simple.
-                    \item Determinan periodos en los cuales las condiciones climáticas favorecen la viabilidad de la semilla sembrada.
-			\end{itemize}
-            \end{block}
-		\end{minipage}%
-        \begin{minipage}{0.5\textwidth}
-        \vspace{0.5cm}
-        
-        \begin{overprint}
-\onslide<1>\centering\includegraphics[height=0.7\textheight]{images/Vivero.jpg}\\\hfill {\scriptsize Fuente: Elnesr \textit{et al.} (2013); Elnesr \textit{et al.} (2016); Callejas-Rodríguez \textit{et al.} (2023).}
-\onslide<2>  \centering\vspace{1cm}\includegraphics[height=0.5\textheight]{images/Elnesr.png}\\\hfill {\scriptsize Fuente: Elnesr \textit{et al.} (2013); Elnesr \textit{et al.} (2016); Callejas-Rodríguez \textit{et al.} (2023).}
-\onslide<3>  \centering\vspace{1cm}\includegraphics[height=0.5\textheight]{images/Elnesr.png}\\\hfill {\scriptsize Fuente: Elnesr \textit{et al.} (2013); Elnesr \textit{et al.} (2016); Callejas-Rodríguez \textit{et al.} (2023).}
-\onslide<4>  \centering\vspace{1cm}\includegraphics[height=0.5\textheight]{images/Elnesr.png}\\\hfill {\scriptsize Fuente: Elnesr \textit{et al.} (2013); Elnesr \textit{et al.} (2016); Callejas-Rodríguez \textit{et al.} (2023).}
-        \end{overprint}
-		\end{minipage}
-        \pause
-        \begin{minipage}{0.5\textwidth}
-            \pause\vspace{-12.5cm}\begin{block}{\centering Etapa muy controlada}
-            \end{block}
-        \end{minipage}
-\end{frame}
-
-
-\begin{frame}{Floración}
-    \vspace{0cm}
-    \begin{minipage}{0.5\textwidth}
-	   \vspace{-0.8cm}
-            \centering
-            \includegraphics[width=0.7\textwidth]{images/Floración.jpg}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-            \vspace{-1cm}\begin{block}{}
-                \begin{itemize}
-				\item Emplea el concepto de días frío acumulado (DFA).
-                \item Temperatura del aire.
-                    \item Base de datos con registros de 2 años.
-                    \item Estudia la formación de yemas.
-                    \item Emplea regresiones polinomiales (grado 6).
-                    \end{itemize}
-            \end{block}
-		\end{minipage}\\
-    %\vspace{-1cm}
-    \hfill {\scriptsize Fuente: Salazar-García \textit{et al.} (2018).}
-\end{frame}
 
 
 
@@ -807,82 +777,7 @@
 		\end{minipage}
 \end{frame}
 
-\begin{frame}{Datos disponibles}
-    \vspace{-1cm}
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-                    \item Servicio de Información Agroalimentaria y Pesquera.
-				\item Avance y cierre de siembras y cosechas desde 2018 a la fecha.
-                    \item Reportes mensuales a nivel municipal y estatal.
-                    \item Hectáreas sembradas.
-                    \item Hectáreas cosechadas.
-                    \item Hectáreas siniestradas.
-                    \item Producción (ton).
-                    \item Rendimiento (ton/Ha).
-			\end{itemize}
-            \end{block}
-		\end{minipage}%
-        \begin{minipage}{0.5\textwidth}
-			\hspace{0cm}
-            \centering
-            \includegraphics[width=\textwidth]{images/siap.png}
-		\end{minipage}
-\end{frame}
 
-
-
-\begin{frame}{Conclusión}
-    \vspace{-1cm}\begin{minipage}{0.7\textwidth}
-        \begin{block}{Métodos}
-            \begin{itemize}
-                \item Algoritmos de decisión simple.
-                \item Modelos de suavizamiento exponencial.
-                \item Regresiones.
-                \item Perceptrón multicapa.
-                \item Support vector machine.
-                \item Árboles de decisión.
-                \item Bosques aleatorios.
-                \item M5 Prime.
-            \end{itemize}
-        \end{block}
-    \end{minipage}%
-    \begin{minipage}{0.3\textwidth}
-        \pause\begin{block}{Ubicaciones}
-            \begin{itemize}
-                \item Turquía.
-                \item Morelos.
-                \item Jalisco.
-            \end{itemize}
-        \end{block}
-    \end{minipage}
-\end{frame}
-
-
-\begin{frame}{Preliminares}
-
-\vspace{-1cm}\begin{block}{}
-    Se han estudiado los municipios de Los Reyes y Tacámbaro, Michoacán.\\
-
-\,\\
-
-    \begin{minipage}{0.5\textwidth}
-        \begin{itemize}
-        \item Periodo luminoso.
-        \item Radiación de onda corta.
-        \item Temperatura (máxima y mínima) del aire.
-    \end{itemize}
-    \end{minipage}%
-    \begin{minipage}{0.5\textwidth}
-        \begin{itemize}
-        \item Precipitación diaria
-        \item Presión media de evaporación del agua.
-    \end{itemize}
-    \end{minipage}%
-\end{block}
-
-Encontrando correlaciones positivas y negativas, estadísticamente significativas, respecto a la producción y rendimiento.
-\end{frame}
 
 \section*{Referencias}
 \begin{frame}[allowframebreaks,noframenumbering]{Referencias}
@@ -901,4 +796,22 @@ Encontrando correlaciones positivas y negativas, estadísticamente significativa
 	    \Huge{Gracias}
 	\end{center}
     \end{frame}
+    
+    
+ \begin{frame}{}
+ 	 \begin{block}{Métodos}
+ 		\begin{itemize}
+ 			\item Algoritmos de decisión simple.
+ 			\item Modelos de suavizamiento exponencial.
+ 			\item Redes neuronales recurrentes.
+ 			\item Regresiones.
+ 			\item Perceptrón multicapa.
+ 			\item Support vector machine.
+ 			\item Árboles de decisión.
+ 			\item Bosques aleatorios.
+ 			\item k vecinos más cercanos.
+ 			\item M5 Prime.
+ 		\end{itemize}
+ 	\end{block}
+ \end{frame}
 \end{document}

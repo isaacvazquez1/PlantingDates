@@ -5,12 +5,17 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-I was expecting a `,' or a `}'---line 335 of file Refs.bib
+I was expecting a `,' or a `}'---line 19 of file Refs.bib
+ :  
+ :  note={Tesis de maestría}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 465 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 426 of file Refs.bib
+I was expecting a `,' or a `}'---line 556 of file Refs.bib
  :  
  :  DOI = {10.3390/agronomy8040037}
 (Error may have been on previous line)
@@ -62,4 +67,4 @@ warning$ -- 6
 while$ -- 481
 width$ -- 149
 write$ -- 1633
-(There were 2 error messages)
+(There were 3 error messages)
