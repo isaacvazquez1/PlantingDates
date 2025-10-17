@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  15 OCT 2025 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  17 OCT 2025 06:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2226,7 +2226,7 @@ Package rerunfilecheck Info: File `Slides.out' has not changed.
 Here is how much of TeX's memory you used:
  40085 strings out of 474824
  926401 string characters out of 5750976
- 1948043 words of memory out of 5000000
+ 1947043 words of memory out of 5000000
  61098 multiletter control sequences out of 15000+600000
  577792 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2246,7 +2246,7 @@ ssi10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmssi8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Slides.pdf (63 pages, 39633870 bytes).
+Output written on Slides.pdf (63 pages, 39633849 bytes).
 PDF statistics:
  529 PDF objects out of 1000 (max. 8388607)
  147 named destinations out of 1000 (max. 500000)
