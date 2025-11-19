@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  17 NOV 2025 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  18 NOV 2025 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1591,7 +1591,7 @@ your preamble.
 
 \c@lstlisting=\count411
 (SlidesUP.nav)
-<images/INFOTEC.jpg, id=28, 343.2825pt x 254.1495pt>
+<images/INFOTEC.jpg, id=32, 343.2825pt x 254.1495pt>
 File: images/INFOTEC.jpg Graphic file (type jpg)
 <use images/INFOTEC.jpg>
 Package pdftex.def Info: images/INFOTEC.jpg  used on input line 112.
@@ -1626,7 +1626,7 @@ erncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<images/tr.png, id=29, 143.03438pt x 127.22531pt>
+<images/tr.png, id=33, 143.03438pt x 127.22531pt>
 File: images/tr.png Graphic file (type png)
 <use images/tr.png>
 Package pdftex.def Info: images/tr.png  used on input line 112.
@@ -1654,7 +1654,7 @@ Overfull \vbox (59.11037pt too high) detected at line 112
 OTEC.jpg> <./images/tr.png>] [2
 
 ]
-<images/Choice.png, id=47, 2271.687pt x 818.0964pt>
+<images/Choice.png, id=51, 2271.687pt x 818.0964pt>
 File: images/Choice.png Graphic file (type png)
 <use images/Choice.png>
 Package pdftex.def Info: images/Choice.png  used on input line 156.
@@ -1666,7 +1666,7 @@ Package pdftex.def Info: images/Choice.png  used on input line 156.
 pdfTeX warning: pdflatex.exe (file ./images/Choice.png): large interlaced PNG m
 ight cause out of memory (use non-interlaced PNG to fix this)
 >]
-<images/Survival.png, id=54, 2271.687pt x 1398.1836pt>
+<images/Survival.png, id=58, 2271.687pt x 1398.1836pt>
 File: images/Survival.png Graphic file (type png)
 <use images/Survival.png>
 Package pdftex.def Info: images/Survival.png  used on input line 161.
@@ -1678,7 +1678,7 @@ Package pdftex.def Info: images/Survival.png  used on input line 161.
 pdfTeX warning: pdflatex.exe (file ./images/Survival.png): large interlaced PNG
  might cause out of memory (use non-interlaced PNG to fix this)
 >]
-<images/Production.png, id=61, 2271.687pt x 1488.762pt>
+<images/Production.png, id=65, 2271.687pt x 1488.762pt>
 File: images/Production.png Graphic file (type png)
 <use images/Production.png>
 Package pdftex.def Info: images/Production.png  used on input line 167.
@@ -1698,7 +1698,7 @@ Overfull \hbox (9.73328pt too wide) in paragraph at lines 194--194
  []$[]$$[]$  
  []
 
-<images/Seasons.png, id=68, 923.1288pt x 448.074pt>
+<images/Seasons.png, id=72, 923.1288pt x 448.074pt>
 File: images/Seasons.png Graphic file (type png)
 <use images/Seasons.png>
 Package pdftex.def Info: images/Seasons.png  used on input line 194.
@@ -1728,7 +1728,7 @@ Package pdftex.def Info: images/Seasons.png  used on input line 194.
 [8
 
 ]
-<images/AgaveyPina.png, id=88, 572.8602pt x 472.6458pt>
+<images/AgaveyPina.png, id=92, 572.8602pt x 472.6458pt>
 File: images/AgaveyPina.png Graphic file (type png)
 <use images/AgaveyPina.png>
 Package pdftex.def Info: images/AgaveyPina.png  used on input line 214.
@@ -1753,7 +1753,7 @@ Underfull \hbox (badness 1454) in paragraph at lines 214--214
 [10
 
 ]
-<images/AgaveAGS.png, id=100, 1296.042pt x 870.1308pt>
+<images/AgaveAGS.png, id=104, 1296.042pt x 870.1308pt>
 File: images/AgaveAGS.png Graphic file (type png)
 <use images/AgaveAGS.png>
 Package pdftex.def Info: images/AgaveAGS.png  used on input line 238.
@@ -1780,7 +1780,7 @@ Overfull \vbox (1.90428pt too high) detected at line 238
 [12
 
 ]
-<images/DistribucionAGS.png, id=113, 767.86874pt x 629.9535pt>
+<images/DistribucionAGS.png, id=117, 767.86874pt x 629.9535pt>
 File: images/DistribucionAGS.png Graphic file (type png)
 <use images/DistribucionAGS.png>
 Package pdftex.def Info: images/DistribucionAGS.png  used on input line 258.
@@ -1793,7 +1793,7 @@ Overfull \hbox (25.12384pt too wide) in paragraph at lines 258--258
 [13
 
  <./images/DistribucionAGS.png>]
-<images/AptitudAGS.png, id=121, 735.34724pt x 633.567pt>
+<images/AptitudAGS.png, id=125, 735.34724pt x 633.567pt>
 File: images/AptitudAGS.png Graphic file (type png)
 <use images/AptitudAGS.png>
 Package pdftex.def Info: images/AptitudAGS.png  used on input line 281.
@@ -1808,7 +1808,7 @@ Overfull \hbox (14.40134pt too wide) in paragraph at lines 281--281
  <./images/AptitudAGS.png>] [15
 
 ]
-<images/Elnesr.png, id=133, 473.97075pt x 342.078pt>
+<images/Elnesr.png, id=137, 473.97075pt x 342.078pt>
 File: images/Elnesr.png Graphic file (type png)
 <use images/Elnesr.png>
 Package pdftex.def Info: images/Elnesr.png  used on input line 298.
@@ -1823,7 +1823,7 @@ Package pdftex.def Info: images/Elnesr.png  used on input line 298.
  [17
 
 ]
-<images/Biomass.jpg, id=145, 593.21625pt x 542.025pt>
+<images/Biomass.jpg, id=149, 593.21625pt x 542.025pt>
 File: images/Biomass.jpg Graphic file (type jpg)
 <use images/Biomass.jpg>
 Package pdftex.def Info: images/Biomass.jpg  used on input line 314.
@@ -1836,150 +1836,30 @@ Package pdftex.def Info: images/Biomass.jpg  used on input line 314.
 
 ] [21
 
-]
-Underfull \hbox (badness 2326) in paragraph at lines 349--349
- [][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
- []
-
-[22
+] [22
 
 ]
-Underfull \hbox (badness 2326) in paragraph at lines 349--349
- [][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
- []
+<images/QR_code.png, id=176, 451.6875pt x 451.6875pt>
+File: images/QR_code.png Graphic file (type png)
+<use images/QR_code.png>
+Package pdftex.def Info: images/QR_code.png  used on input line 345.
+(pdftex.def)             Requested size: 199.1693pt x 199.17043pt.
+ [23
 
-[23
-
-]
-Underfull \hbox (badness 2326) in paragraph at lines 349--349
- [][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
- []
-
-[24
-
-]
-Underfull \hbox (badness 2326) in paragraph at lines 349--349
- [][][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
- []
-
-[25
-
-]
-Underfull \hbox (badness 2326) in paragraph at lines 349--349
- [][][][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
- []
-
-[26
-
-]
-Underfull \hbox (badness 2326) in paragraph at lines 349--349
- [][][][]\OT1/cmss/m/n/10.95 Coexistencia de plan-tas con dis-tin-tas 
- []
-
-[27
-
-] [28
-
-] [29
-
-] [30
-
-] [31
-
-] [32
-
-] [33
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 439--439
-  
- []
-
-File: images/Biomass.jpg Graphic file (type jpg)
-<use images/Biomass.jpg>
-Package pdftex.def Info: images/Biomass.jpg  used on input line 439.
-(pdftex.def)             Requested size: 177.96625pt x 162.60875pt.
-
-Overfull \hbox (18.63326pt too wide) in paragraph at lines 439--439
-[][] 
- []
-
-[34
-
-]
-File: images/Biomass.jpg Graphic file (type jpg)
-<use images/Biomass.jpg>
-Package pdftex.def Info: images/Biomass.jpg  used on input line 454.
-(pdftex.def)             Requested size: 177.96625pt x 162.60875pt.
-
-Overfull \hbox (18.63326pt too wide) in paragraph at lines 454--454
-[][] 
- []
-
-[35
-
-]
-File: images/Elnesr.png Graphic file (type png)
-<use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 472.
-(pdftex.def)             Requested size: 199.1693pt x 143.74484pt.
- [36
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
-  
- []
-
-File: images/Elnesr.png Graphic file (type png)
-<use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 493.
-(pdftex.def)             Requested size: 199.1693pt x 143.74484pt.
-[37
-
-]
-File: images/Elnesr.png Graphic file (type png)
-<use images/Elnesr.png>
-Package pdftex.def Info: images/Elnesr.png  used on input line 511.
-(pdftex.def)             Requested size: 199.1693pt x 143.74484pt.
- [38
-
-]
-<images/Essenger.png, id=260, 771.3618pt x 167.1846pt>
-File: images/Essenger.png Graphic file (type png)
-<use images/Essenger.png>
-Package pdftex.def Info: images/Essenger.png  used on input line 535.
-(pdftex.def)             Requested size: 199.1693pt x 43.16594pt.
- [39
-
- <./images/Essenger.png>]
-<images/MSMx.png, id=267, 486.01575pt x 145.7445pt>
-File: images/MSMx.png Graphic file (type png)
-<use images/MSMx.png>
-Package pdftex.def Info: images/MSMx.png  used on input line 557.
-(pdftex.def)             Requested size: 199.1693pt x 59.72672pt.
- [40
-
- <./images/MSMx.png>]
-<images/conagua.png, id=274, 331.2375pt x 123.46124pt>
-File: images/conagua.png Graphic file (type png)
-<use images/conagua.png>
-Package pdftex.def Info: images/conagua.png  used on input line 579.
-(pdftex.def)             Requested size: 199.1693pt x 74.23555pt.
- [41
-
- <./images/conagua.png>] (SlidesUP.bbl
+ <./images/QR_code.png (PNG copy)>]
+(SlidesUP.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
-Underfull \vbox (badness 1005) detected at line 591
+Underfull \vbox (badness 1005) detected at line 355
  []
 
-[42
+[24
 
-] [43
+] [25
 
-] [44
+] [26
 
 ]
 \tf@nav=\write6
@@ -1997,33 +1877,28 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
 Package rerunfilecheck Info: File `SlidesUP.out' has not changed.
-(rerunfilecheck)             Checksum: 2D4D7BEA942B3CF6238037B03DA06993;415.
+(rerunfilecheck)             Checksum: 18308788C12C55CEB25D3424DBACFC65;552.
  ) 
 Here is how much of TeX's memory you used:
- 39815 strings out of 474824
- 920005 string characters out of 5750976
- 1936043 words of memory out of 5000000
- 60889 multiletter control sequences out of 15000+600000
- 569826 words of font info for 77 fonts, out of 8000000 for 9000
+ 39741 strings out of 474824
+ 919104 string characters out of 5750976
+ 1931043 words of memory out of 5000000
+ 60852 multiletter control sequences out of 15000+600000
+ 569176 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,144p,1034b,895s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\amigo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi657\wasy
 10.pk><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmcsc10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/amigo/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/amigo/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/amigo/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/a
-migo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-<C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-ssi10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmssi8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb>
-Output written on SlidesUP.pdf (44 pages, 14076461 bytes).
+c/amsfonts/cm/cmss10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmss12.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/amigo/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/amigo/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/amigo/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on SlidesUP.pdf (26 pages, 13889807 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

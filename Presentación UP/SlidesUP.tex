@@ -322,263 +322,27 @@
 			\item Reducir la muerte de las plantas.
 			\item Favorecer el desarrollo del cultivo.
 			\pause \item Conocer, de antemano, el peso de la cosecha.
-			\item Estimar el valor comercial.
+			\item Estimar el valor comercial y ganancias.
 		\end{itemize}
 	\end{block}
 \end{frame}
 
-\begin{frame}{Objetivos generales}
-	\vspace{-1.5cm}Proponer y validar modelos predictivos que permitan: 
-	
-	\begin{minipage}{0.5\textwidth}
-		\pause\begin{block}{Trasplante}
-			Determinar periodos ideales.\\ 
-			\pause Maximicen tasa de supervivencia.\\
-			Reduzcan pérdidas económicas.
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}\pause\begin{block}{Biomasa\phantom{p}}
-			Estimar la producción a escala regional.\\
-			\pause Coexistencia de plantas con distintas edades.\phantom{p}
-		\end{block}%
-	\end{minipage}
-	
-	\,\\
-	\pause
-	Lo anterior, empleando información agroclimática relevante para el agave de Aguascalientes, un cultivo que, por su manejo agrícola, puede considerarse simultáneamente anual y perenne.
-\end{frame}
+\section{¿Qué necesitamos?}
 
-\begin{frame}{Estado del arte}
-	\vspace{-1cm}\begin{minipage}{0.4\textwidth}
-		\begin{block}{Revisión bibliográfica}
-			\begin{itemize}
-				\item ACM: 100 artículos.
-				\item ScienceDirect: 658 artículos.
-				\item Google Académico.
-				\item Kaggle.
-				\item UC Irvine.
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-	\pause\begin{minipage}{0.6\textwidth}
-		\begin{block}{Trabajos}
-			\begin{itemize}
-				\item Predecir zonas potenciales.
-				\item Segmentación y clasificación de madurez y calidad.
-				\item Detección y conteo de plantas.
-				\item Contracción de áreas de cultivo.
-				\item Densidad de los cultivos.
-				\item Viabilidad económica.
-				\item Costo económico del trasplante manual y mecanizado.
-				\pause\item \bf Estimación de biomasa fresca y seca.
-				\pause\item \sout{Fechas de trasplante.}
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-\end{frame}
-
-\begin{frame}{Estado del arte: Estimación individual}
+\begin{frame}{Datos}
 	\begin{minipage}{0.5\textwidth}
-		\begin{block}{Peso seco}
-			\begin{itemize}
-				\item López-Díaz, \textit{et al.} (2022): Regresión de la forma $Y=\beta_0 X^{\beta_1}\varepsilon$.\\
-				Diámetro de la corona como variable explicativa.
-				\item Vuorinne, \textit{et al.} (2021): Regresión lineal para biomasa de hojas.\\
-				Anchura máxima y altura como variable explicativa.
-			\end{itemize}
+		\vspace*{-1cm}\begin{block}{}
+			Calcular el peso fresco/seco.\\ 
+			A gran escala.\\
+			Incluyendo plantas de distintas edades.
 		\end{block}
 	\end{minipage}%
 	\begin{minipage}{0.5\textwidth}
-		\begin{block}{Peso fresco}
-			\begin{itemize}
-				\item López Serrano, \textit{et al.} (2022): Regresión de la forma $Y=\beta_0 X^{\beta_1}\varepsilon$.\\
-				Diámetro de la corona como variable explicativa.
-				\item Velazco-Baustista, \textit{et al.} (2009): Regresión bivariada.\\
-				Diámetro de la roseta y altura de la planta como variables explicativas.
-			\end{itemize}
-		\end{block}
-	\end{minipage}
-\end{frame}
-
-\begin{frame}{Estado del arte: Estimación colectiva}
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{Peso seco}
-			\begin{itemize}
-				\item Vuorinne, \textit{et al.} (2021): Integran análisis de imágenes provenientes del Sentinel-2 para extender la cobertura de sus estimaciones.
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{}
-			Nobel, P.S. (1984): Propone el índice de productividad ambiental (EPI).
-			\begin{itemize}
-				\item Índice mensual de agua.
-				\item Índice mensual de temperatura.
-				\item Índice mensual de radiación fotosintéticamente activa. 
-			\end{itemize}
-			Al ponderarlo con la absorción de CO$_2$ por unidad de área estima la producción.
-		\end{block}
-	\end{minipage}
-\end{frame}
-
-\begin{frame}{Factibilidad: Estimación de la producción}
-	  \begin{minipage}{0.6\textwidth}
-	  	\vspace{-1cm}\begin{block}{}
-	  		\begin{itemize}
-	  			\item Mosquera \textit{et al.} (2015): Estima la producción de huertas de aguacates, de la misma edad, a través de un modelo de regresión cuadrático.
-	  			\item Akin \textit{et al.} (2017): Modelo de suavizamiento exponencial de Brown genera un pronóstico a 10 años para la producción de aguacate en Turquía.
-	  		\end{itemize}
-	  			\phantom{.}\\
-	  			\phantom{.}\\
-	  			\phantom{.}\\
-	  	\end{block}
-	  \end{minipage}%
-	  \begin{minipage}{0.4\textwidth}
-	  	\vspace{-0.5cm}\includegraphics[scale=0.3]{Biomass.jpg}
-	  \end{minipage}%
-\end{frame}
-
-\begin{frame}{Factibilidad: Estimación de la producción}
-	\begin{minipage}{0.6\textwidth}
-		\vspace{-1cm}\begin{block}{}
-			\begin{itemize}
-				\item Mosquera \textit{et al.} (2015): Estima la producción de huertas de aguacates, de la misma edad, a través de un modelo de regresión cuadrático.
-				\item Akin \textit{et al.} (2017): Modelo de suavizamiento exponencial de Brown genera un pronóstico a 10 años para la producción de aguacate en Turquía.
-				\item Arizmendi-Peralta, P.P. (2024): Propone al algoritmo Random Forest Regressor como mejor estimador para estimar la producción de aguacate en una hectárea.
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.4\textwidth}
-		\vspace{-0.5cm}\includegraphics[scale=0.3]{Biomass.jpg}
-	\end{minipage}%
-\end{frame}
-
-\begin{frame}{Factibilidad: Fechas de trasplante}
-	\begin{minipage}{0.5\textwidth}
-		\hspace{-0.5cm}
+		\vspace{-0.5cm}
 		\centering
-		\includegraphics[width=\textwidth]{images/Elnesr.png}
-		{\scriptsize Fuente: Elnesr \textit{et al.} (2013).}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{}
-			\begin{itemize}
-				\item Elnesr \textit{et al.} (2013): Propone un algoritmo determinista de decisión simple.
-				\item Dobor \textit{et al.} (2016): Implementa el modelo determinista M4 para obtener fechas para el trigo.
-				\item Gümüşçü \textit{et al.} (2018): Emplea modelos de ML aplicados al trigo.
-			\end{itemize}
-		\end{block}
+		\includegraphics[width=\textwidth]{images/QR_code.png}
 	\end{minipage}
 \end{frame}
-
-\begin{frame}{Factibilidad: Fechas de trasplante}
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{}
-			\begin{itemize}
-				\item Fakhrzad \textit{et al.} (2025): Emplea modelos de ML aplicados a la jamaica.
-			\end{itemize}
-			\phantom{.}\\
-			\phantom{.}\\
-			\phantom{.}\\
-			\phantom{.}\\
-			\phantom{.}\\
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\hspace{0cm}
-		\centering
-		\includegraphics[width=\textwidth]{images/Elnesr.png}
-		{\scriptsize Fuente: Elnesr \textit{et al.} (2013).}
-	\end{minipage}%
-\end{frame}
-
-\begin{frame}{Factibilidad: Fechas de trasplante}
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{}
-			\begin{itemize}
-				\item Fakhrzad \textit{et al.} (2025): Emplea modelos de ML aplicados a la jamaica.
-				\item Harris \textit{et al.} (1994): Analiza fechas para nogales y robles. 
-				\item Boechel \textit{et al.} (2022): Implementa modelos de ML para manzanos.
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\hspace{0cm}
-		\centering
-		\includegraphics[width=\textwidth]{images/Elnesr.png}
-		{\scriptsize Fuente: Elnesr \textit{et al.} (2013).}
-	\end{minipage}%
-\end{frame}
-
-
-\begin{frame}{Datos disponibles}
-    \vspace{-1cm}
-    \begin{minipage}{0.5\textwidth}
-			\hspace{-0.5cm}
-            \centering
-            \includegraphics[width=\textwidth]{images/Essenger.png}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-                    \item Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias.
-				\item Registros diarios de estaciones climáticas.
-                    \item Periodo de enero de 1980 a diciembre de 2022.
-                    \item Temperatura del aire.
-                    \item Periodo luminoso.
-                    \item Radiación de onda corta.
-                    \item Lluvia líquida.
-                    \item Presión de vapor.
-			\end{itemize}
-            \end{block}
-		\end{minipage}
-\end{frame}
-\begin{frame}{Datos disponibles}
-    \vspace{-1cm}
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-                    \item INIFAP.
-				\item Datos medidos en diversas profundidades.
-                    \item Rango de 0 a 200 cm.
-                    \item Porción de limo.
-                    \item Capacidad de intercambio catiónico.
-                    \item Nitrógeno.
-                    \item Carbono orgánico.
-                    \item pH.
-			\end{itemize}
-            \end{block}
-		\end{minipage}%
-        \begin{minipage}{0.5\textwidth}
-			\hspace{0cm}
-            \centering
-            \includegraphics[width=\textwidth]{images/MSMx.png}
-		\end{minipage}
-\end{frame}
-
-\begin{frame}{Datos disponibles}
-    \vspace{-1cm}
-    \begin{minipage}{0.5\textwidth}
-			\hspace{-0.5cm}
-            \centering
-            \includegraphics[width=\textwidth]{images/conagua.png}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-                    \item Sistema Meteorológico Nacional.
-				\item Registros diarios a nivel estatal.
-                    \item Periodo de enero de 1960 a abril de 2025.
-                    \item Temperatura ambiental.
-                    \item Evaporación.
-                    \item Precipitación.
-                    \item Lluvia líquida.
-			\end{itemize}
-            \end{block}
-		\end{minipage}
-\end{frame}
-
-
 
 \section*{Referencias}
 \begin{frame}[allowframebreaks,noframenumbering]{Referencias}
