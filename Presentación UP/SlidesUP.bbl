@@ -1,3 +1,115 @@
-\begin{thebibliography}{}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{CRRSPTFG23}
+
+\bibitem[AE17]{Akin_2017}
+M.~Akin and S.P. Eyduran.
+\newblock {Predicting Avocado Production in Turkey for 2016-2025 Period Using
+  Time Series Analysis}.
+\newblock {\em Yuzuncu Yıl University Journal of Agricultural Sciences},
+  27(2):252--258, June 2017.
+
+\bibitem[AP24]{ARIZMENDIPERALTA2024}
+P.P. Arizmendi~Peralta.
+\newblock {Estudio de técnicas de Machine Learning para estimar la producción
+  de aguacate en la zona norte del estado de Morelos}.
+\newblock 2024.
+
+\bibitem[AT22]{alonso2022caracterizacion}
+H.~Alonso~Tapia.
+\newblock Caracterización del sistema socioecol{\'o}gico de agave y su
+  aportaci{\'o}n a los servicios ecosist{\'e}micos.
+\newblock 2022.
+
+\bibitem[CRRSPTFG23]{Callejas-Rodriguez_2023}
+R.~Callejas-Rodríguez, R.~Reyes-Sánchez, I.~Plácido-Tomielis, and
+  H.~Flores-Gallardo.
+\newblock Métodos de evaluación de tiempo térmico para determinar fecha de
+  plantación de papa para la agroindustria.
+\newblock {\em Revista Fitotecnia Mexicana}, 46(2):127, June 2023.
+
+\bibitem[DBH{\etalchar{+}}16]{Dobor_2016}
+Laura Dobor, Zoltán Barcza, Tomáš Hlásny, Tamás Árendás, Tamás Spitkó,
+  and Nándor Fodor.
+\newblock Crop planting date matters: Estimation methods and effect on future
+  yields.
+\newblock {\em Agricultural and Forest Meteorology}, 223:103--115, 2016.
+
+\bibitem[dlNU25]{ONU_2025}
+Organización de~las Naciones~Unidas.
+\newblock {¿Qué es el cambio climático?}, 2025.
+\newblock Accesado en marzo 12 de 2025 en
+  \url{https://www.un.org/es/climatechange/what-is-climate-change}.
+
+\bibitem[EA16]{Elnesr_2016}
+M.N. Elnesr and A.A. Alazba.
+\newblock An integral model to calculate the growing degree-days and heat
+  units, a spreadsheet application.
+\newblock {\em Computers and Electronics in Agriculture}, 124:37--45, 2016.
+
+\bibitem[EAA13]{Elnesr_2013}
+M.N. Elnesr, A.A. Alazba, and A.A. Alsadon.
+\newblock An arithmetic method to determine the most suitable planting dates
+  for vegetables.
+\newblock {\em Computers and Electronics in Agriculture}, 90:131--143, 2013.
+
+\bibitem[GTB20]{GUMUSCU2020100308}
+A.~Gümüşçü, M.E. Tenekeci, and A.V. Bilgili.
+\newblock Estimation of wheat planting date using machine learning algorithms
+  based on available climate data.
+\newblock {\em Sustainable Computing: Informatics and Systems}, 28:100308,
+  2020.
+
+\bibitem[LDMGLS{\etalchar{+}}22]{Lopez-Diaz_2022}
+J.O.M. López-Díaz, J.~Méndez-González, P.M. López-Serrano, F.J.
+  Sánchez-Pérez, F.M. Méndez-Encina, R.~Mendieta-Oviedo, L.~Sosa-Díaz,
+  A.~Flores, E.~García-Montiel, V.H. Cambrón-Sandoval, A.~Zermeño-González,
+  and J.J. Corral~Rivas.
+\newblock Dummy regression to predict dry fiber in agave lechuguilla torr. in
+  two large-scale bioclimatic regions in mexico.
+\newblock {\em PLOS ONE}, 17(9):1--13, 09 2022.
+
+\bibitem[MEP15]{Mosquera_2015}
+M.~Mosquera, E.A. Evans, and R.~Ploetz.
+\newblock {Assessing the profitability of avocado production in South Florida
+  in the presence of Laurel Wilt}.
+\newblock {\em Theoretical Economics Letters}, 5(2):343--356, 2015.
+
+\bibitem[Nob84]{Nobel_1984}
+P.S. Nobel.
+\newblock Productivity of agave deserti: measurement by dry weight and monthly
+  prediction using physiological responses to environmental parameters.
+\newblock {\em Oecologia}, 64(1):1--7, September 1984.
+
+\bibitem[SGIE�BGV18]{Salazar_2018}
+S.~Salazar-García, M.E. Ibarra-Estrada, A.~Álvarez Bravo, and
+  J.~González-Valdivia.
+\newblock Modelos de predicci{\'o}n del desarrollo floral del aguacate
+  ‘m{\'e}ndez’.
+\newblock {\em Revista mexicana de ciencias agr{\'\i}colas}, 9(1):151--161,
+  2018.
+
+\bibitem[Ste15]{Stewart_2015}
+J.R. Stewart.
+\newblock Agave as a model cam crop system for a warming and drying world.
+\newblock {\em Frontiers in Plant Science}, 6, 2015.
+
+\bibitem[VHP21]{Vuorinne_2021}
+I.~Vuorinne, J.~Heiskanen, and P.K.E. Pellikka.
+\newblock Assessing leaf biomass of agave sisalana using sentinel-2 vegetation
+  indices.
+\newblock {\em Remote Sensing}, 13(2), 2021.
+
+\bibitem[VJM{\etalchar{+}}21]{Vuorrione_b_2021}
+I.~Vuorinne, Heiskanen J., M.~Maghenda, L.~Mwangala, P.~Muukkonen, and P.K.E.
+  Pellikka.
+\newblock Allometric models for estimating leaf biomass of sisal in a semi-arid
+  environment in kenya.
+\newblock {\em Biomass and Bioenergy}, 155:106294, 2021.
+
+\bibitem[WGW{\etalchar{+}}21]{Wang_2021}
+J.~Wang, Y.~Guan, L.~Wu, X.~Guan, W.~Cai, J.~Huang, W.~Dong, and B.~Zhang.
+\newblock Changing lengths of the four seasons by global warming.
+\newblock {\em Geophysical Research Letters}, 48(6):e2020GL091753, 2021.
+\newblock e2020GL091753 2020GL091753.
 
 \end{thebibliography}

@@ -1,54 +1,56 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: SlidesUP.aux
-Reallocating 'name_of_file' (item size: 1) to 17 items.
-I couldn't open database file Bibliografia.bib
----line 65 of file SlidesUP.aux
- : \bibdata{Bibliografia.bib
- :                          }
-I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 19 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: alpha.bst
-I found no database files---while reading file SlidesUP.aux
-You've used 0 entries,
+Database file #1: BibliografiaUP.bib
+I was expecting a `,' or a `}'---line 31 of file BibliografiaUP.bib
+ :  
+ :  note={Tesis de maestría}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in ARIZMENDIPERALTA2024
+Warning--empty journal in alonso2022caracterizacion
+You've used 17 entries,
             2543 wiz_defined-function locations,
-            558 strings with 4451 characters,
-and the built_in function-call counts, 24 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 10
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 2
+            686 strings with 8478 characters,
+and the built_in function-call counts, 7238 in all, are:
+= -- 694
+> -- 440
+< -- 5
++ -- 160
+- -- 158
+* -- 596
+:= -- 1264
+add.period$ -- 52
+call.type$ -- 17
+change.case$ -- 129
+chr.to.int$ -- 17
+cite$ -- 19
+duplicate$ -- 235
+empty$ -- 453
+format.name$ -- 173
+if$ -- 1402
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 16
+newline$ -- 90
+num.names$ -- 51
+pop$ -- 94
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 146
 quote$ -- 0
-skip$ -- 2
+skip$ -- 199
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
+substring$ -- 362
+swap$ -- 15
+text.length$ -- 5
+text.prefix$ -- 2
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There were 2 error messages)
+type$ -- 136
+warning$ -- 2
+while$ -- 62
+width$ -- 21
+write$ -- 221
+(There was 1 error message)
