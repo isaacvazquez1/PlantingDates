@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  27 NOV 2025 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  28 NOV 2025 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -909,8 +909,8 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 92
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (Main.aux
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
 )
 \openout1 = `Main.aux'.
 
@@ -1057,12 +1057,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-)
 
 Class memoir Warning: The material used in the headers is too large
 (77.33434pt) for the given head height (56.9055pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 103.
+(in both cases you will find help in the memoir manual). on input line 16.
 
 
 Overfull \vbox (20.42883pt too high) has occurred while \output is active []
@@ -1071,7 +1070,7 @@ Overfull \vbox (20.42883pt too high) has occurred while \output is active []
 [1{C:/Users/amigo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/am
 igo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
-]
+])
 (StressConsequences.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -1102,13 +1101,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-
+[2{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
+c}]
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-[2{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
-c}]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
@@ -1334,12 +1333,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
@@ -1374,12 +1373,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
@@ -1414,12 +1413,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
@@ -1758,7 +1757,7 @@ thly_production_Tacambaro-eps-converted-to.pdf Images/Effect_on_monthly_product
 ion_Tacambaro.eps>
 (epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Effect_on_monthly_production_Tacambaro-eps-converted-to.pdf, id=453, 10
+<Images/Effect_on_monthly_production_Tacambaro-eps-converted-to.pdf, id=452, 10
 84.05pt x 722.7pt>
 File: Images/Effect_on_monthly_production_Tacambaro-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1779,7 +1778,7 @@ thly_production_LosReyes-eps-converted-to.pdf Images/Effect_on_monthly_producti
 on_LosReyes.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Effect_on_monthly_production_LosReyes-eps-converted-to.pdf, id=454, 108
+<Images/Effect_on_monthly_production_LosReyes-eps-converted-to.pdf, id=453, 108
 4.05pt x 722.7pt>
 File: Images/Effect_on_monthly_production_LosReyes-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1809,7 +1808,7 @@ ulative_production_Tacambaro-eps-converted-to.pdf Images/Effect_on_cumulative_p
 roduction_Tacambaro.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Effect_on_cumulative_production_Tacambaro-eps-converted-to.pdf, id=466,
+<Images/Effect_on_cumulative_production_Tacambaro-eps-converted-to.pdf, id=465,
  1084.05pt x 722.7pt>
 File: Images/Effect_on_cumulative_production_Tacambaro-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1830,7 +1829,7 @@ ulative_production_LosReyes-eps-converted-to.pdf Images/Effect_on_cumulative_pr
 oduction_LosReyes.eps>
 (epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Effect_on_cumulative_production_LosReyes-eps-converted-to.pdf, id=467, 
+<Images/Effect_on_cumulative_production_LosReyes-eps-converted-to.pdf, id=466, 
 1084.05pt x 722.7pt>
 File: Images/Effect_on_cumulative_production_LosReyes-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1859,7 +1858,7 @@ thlyPerformance_Tacambaro-eps-converted-to.pdf Images/Effect_on_MonthlyPerforma
 nce_Tacambaro.eps>
 (epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Effect_on_MonthlyPerformance_Tacambaro-eps-converted-to.pdf, id=479, 10
+<Images/Effect_on_MonthlyPerformance_Tacambaro-eps-converted-to.pdf, id=478, 10
 84.05pt x 722.7pt>
 File: Images/Effect_on_MonthlyPerformance_Tacambaro-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1880,7 +1879,7 @@ thlyPerformance_LosReyes-eps-converted-to.pdf Images/Effect_on_MonthlyPerforman
 ce_LosReyes.eps>
 (epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Effect_on_MonthlyPerformance_LosReyes-eps-converted-to.pdf, id=480, 108
+<Images/Effect_on_MonthlyPerformance_LosReyes-eps-converted-to.pdf, id=479, 108
 4.05pt x 722.7pt>
 File: Images/Effect_on_MonthlyPerformance_LosReyes-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1909,7 +1908,7 @@ ulativePerformance_Tacambaro-eps-converted-to.pdf Images/Effect_on_CumulativePe
 rformance_Tacambaro.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Effect_on_CumulativePerformance_Tacambaro-eps-converted-to.pdf, id=492,
+<Images/Effect_on_CumulativePerformance_Tacambaro-eps-converted-to.pdf, id=491,
  1084.05pt x 722.7pt>
 File: Images/Effect_on_CumulativePerformance_Tacambaro-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1930,7 +1929,7 @@ ulativePerformance_LosReyes-eps-converted-to.pdf Images/Effect_on_CumulativePer
 formance_LosReyes.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Effect_on_CumulativePerformance_LosReyes-eps-converted-to.pdf, id=493, 
+<Images/Effect_on_CumulativePerformance_LosReyes-eps-converted-to.pdf, id=492, 
 1084.05pt x 722.7pt>
 File: Images/Effect_on_CumulativePerformance_LosReyes-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1981,22 +1980,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-) (Goals.tex
+) [16] (Goals.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[16]
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) (Schedule.tex
+[17]) (Schedule.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[17]
+
 Overfull \hbox (2.64912pt too wide) in alignment at lines 3--7
  [] [] 
  []
@@ -2040,8 +2039,8 @@ either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 186.
 
 [41] (Main.aux
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
 )
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -2053,7 +2052,7 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 Here is how much of TeX's memory you used:
  22961 strings out of 474824
  431769 string characters out of 5750976
- 1953043 words of memory out of 5000000
+ 1954043 words of memory out of 5000000
  44380 multiletter control sequences out of 15000+600000
  627944 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2070,7 +2069,7 @@ C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><
 C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><
 C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C
 :/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (41 pages, 7132294 bytes).
+Output written on Main.pdf (41 pages, 7132671 bytes).
 PDF statistics:
  1596 PDF objects out of 1728 (max. 8388607)
  216 named destinations out of 1000 (max. 500000)
