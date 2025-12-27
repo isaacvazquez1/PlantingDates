@@ -19,15 +19,14 @@ A.~AghaKouchak, A.~Mirchi, K.~Madani, G.~Di~Baldassarre, A.~Nazemi, A.~Alborzi,
 \newblock Anthropogenic drought: Definition, challenges, and opportunities.
 \newblock {\em Reviews of Geophysics}, 59(2):e2019RG000683, 2021.
 
-\bibitem{Akin_2017}
-M.~Akin and S.P. Eyduran.
-\newblock {Predicting Avocado Production in Turkey for 2016-2025 Period Using
-  Time Series Analysis}.
-\newblock {\em Yuzuncu Yıl University Journal of Agricultural Sciences},
-  27(2):252--258, June 2017.
-
 \bibitem{Alducin-Martínez_2023}
 C.~Alducin-Martínez, K.Y. Ruiz-Mondragón, O.~Jiménez-Barrón,
+  E.~Aguirre-Planter, J.~Gasca-Pineda, L.E. Eguiarte, and R.A. Medellin.
+\newblock Uses, knowledge and extinction risk faced by agave species in mexico.
+\newblock {\em Plants}, 12(1), 2023.
+
+\bibitem{Alducin-Martinez_2023}
+C.~Alducin-Martínez, K.Y. Ruiz~Mondragón, O.~Jiménez-Barrón,
   E.~Aguirre-Planter, J.~Gasca-Pineda, L.E. Eguiarte, and R.A. Medellin.
 \newblock Uses, knowledge and extinction risk faced by agave species in mexico.
 \newblock {\em Plants}, 12(1), 2023.
@@ -57,12 +56,6 @@ J.M. Antle and T.~McGuckin.
 \newblock {\em Technological innovation, agricultural productivity, and
   environmental quality.}, page 175–220.
 \newblock Oxford University Press, Inc., New York, 1993.
-
-\bibitem{ARIZMENDIPERALTA2024}
-P.P. Arizmendi~Peralta.
-\newblock {Estudio de técnicas de Machine Learning para estimar la producción
-  de aguacate en la zona norte del estado de Morelos}.
-\newblock 2024.
 
 \bibitem{Asmamaw_2015}
 M.~Asmamaw, A.~Ambellu, and S.~Tiku.
@@ -132,12 +125,6 @@ L.~Cassani and A.~Gomez-Zavaglia.
 \newblock Sustainable food systems in fruits and vegetables food supply chains.
 \newblock {\em Frontiers in Nutrition}, 9, February 2022.
 
-\bibitem{Castaño_2022}
-M.H. Castaño~Robayo and J.J. González~Veloza.
-\newblock {Predicción de la capacidad de intercambio catiónico (CIC) en
-  cultivos de aguacate empleando modelos Machine Learning}.
-\newblock 2022.
-
 \bibitem{Chen_1973}
 C.~S. Chen.
 \newblock Digital computer simulation of heat units and their use for
@@ -171,6 +158,13 @@ J.~Cohen, L.~Agel, M.~Barlow, C.I. Garfinkel, and I.~White.
   the united states.
 \newblock {\em Science}, 373(6559):1116--1121, 2021.
 
+\bibitem{Colunga-Garcia_2007}
+P.~Colunga-García~Marin, D.~Zizumbo-Villarreal, and J.~Martínez-Torres.
+\newblock {\em Tradiciones en el aprovechamiento de los agaves mexicanos: una
+  aportación a la protección legal y conservación de su diversidad
+  biológica y cultural}, pages 229--248.
+\newblock 01 2007.
+
 \bibitem{Comas_2013}
 L.~Comas, S.~Becker, V.M.V. Cruz, P.F. Byrne, and D.A. Dierig.
 \newblock Root traits contributing to plant productivity under drought.
@@ -193,11 +187,6 @@ E.~Cuevas, J.~Blancas, J.~Caballero, I.~A Hinojosa-Díaz, and
 \newblock Agricultural management and local knowledge: key factors for the
   conservation of socio-ecosystems in the face of the pollinator world crisis.
 \newblock {\em Botanical Sciences}, 99(2):305--320, 2021.
-
-\bibitem{Curtin_1998}
-F.~Curtin and P.~Schulz.
-\newblock {Multiple correlations and Bonferroni's correction}.
-\newblock {\em Biological Psychiatry}, 44(8):775--777, October 1998.
 
 \bibitem{DaSilva_2007}
 Antonio~Alberto Da~Silva, Francisco~Affonso Ferreira, Lino~Roberto Ferreira,
@@ -222,12 +211,6 @@ C.~de~Fraiture, D.~Wichelns, J.~Rockstrom, E.~Kemp-Benedict, N.~Eriyagama, L.J.
   Earthscan; International Water Management Institute (IWMI), London, UK;
   Colombo, Sri Lanka, 2007.
 
-\bibitem{AvanceSiembrasCosechas}
-Servicio de~Información Agroalimentaria~y Pesquera.
-\newblock Avance de siembras y cosechas, 2025.
-\newblock Accessado en marzo 1 de 2025 en
-  \url{http://nube.agricultura.gob.mx/avance_agricola/}.
-
 \bibitem{Deutsch_2018}
 C.A. Deutsch, J.J. Tewksbury, M.~Tigchelaar, D.S. Battisti, Merrill S.C., R.B.
   Huey, and R.L. Naylor.
@@ -250,6 +233,11 @@ M.N. Elnesr, A.A. Alazba, and A.A. Alsadon.
 \newblock An arithmetic method to determine the most suitable planting dates
   for vegetables.
 \newblock {\em Computers and Electronics in Agriculture}, 90:131--143, 2013.
+
+\bibitem{Escamilla-Trevino_2011}
+L.L. Escamilla-Treviño.
+\newblock Potential of plants from the genus agave as bioenergy crops.
+\newblock {\em BioEnergy Research}, 5(1):1–9, October 2011.
 
 \bibitem{Farooq_2022}
 M.S. Farooq, M.~Uzair, A.~Raza, M.~Habib, Y.~Xu, M.~Yousuf, S.H. Yang, and
@@ -366,6 +354,12 @@ W.H. Hodge and C.O. Erlanson.
 \newblock Federal plant introduction --- a review.
 \newblock {\em Economic Botany}, 10:299--334, 1956.
 
+\bibitem{Honorato-Salazar_2021}
+J.A. Honorato-Salazar, J.~Aburto, and M.A. Amezcua-Allieri.
+\newblock Agave and opuntia species as sustainable feedstocks for bioenergy and
+  byproducts.
+\newblock {\em Sustainability}, 13(21), 2021.
+
 \bibitem{Hoover_2012}
 S.E. Hoover, J.J. Ladley, A.A. Shchepetkina, M.~Tisch, S.P. Gieseg, and J.M.
   Tylianakis.
@@ -380,22 +374,11 @@ H.A. Hroub, M.~Rahbeh, M.M. Zoubi, Q.Y. Abu-Afifeh, H.~Al-Jawaldeh, and
   climate change scenarios using general circulation models.
 \newblock {\em Global J. Environ. Sci. Manag}, 11:403--426, 2025.
 
-\bibitem{Idso_1987}
-S.B. Idso, B.A. Kimball, M.G. Anderson, and J.R. Mauney.
-\newblock Effects of atmospheric co2 enrichment on plant growth: the
-  interactive role of air temperature.
-\newblock {\em Agriculture, Ecosystems \& Environment}, 20(1):1--10, 1987.
-
 \bibitem{Iqbal_2025}
 S.~Iqbal, F.~Begum, B.A. Nguchu, et~al.
 \newblock The invisible architects: microbial communities and their
   transformative role in soil health and global climate changes.
 \newblock {\em Environmental Microbiome}, 20, 2025.
-
-\bibitem{Jagadish_2021}
-S.V.K. Jagadish, D.A. Way, and T.D. Sharkey.
-\newblock Plant heat stress: Concepts directing future research.
-\newblock {\em Plant, cell \& environment}, 44(7):1992--2005, 2021.
 
 \bibitem{Jansson_2020}
 J.K. Jansson and K.S. Hofmockel.
@@ -620,11 +603,12 @@ S.~Pincebourde and J.~Casas.
 \newblock {\em Proceedings of the National Academy of Sciences},
   116(12):5588--5596, 2019.
 
-\bibitem{Perez_2004}
-K.~Pérez, J.~Mercado, and H.~Soto-Valdez.
-\newblock Note. effect of storage temperature on the shelf life of hass avocado
-  (persea americana).
-\newblock {\em Food Science and Technology International}, 10(2):73--77, 2004.
+\bibitem{Perez-Zavala_2020}
+M.L. Pérez-Zavala, J.C. Hernández-Arzaba, D.K. Bideshi, and J.E.
+  Barboza-Corona.
+\newblock Agave: a natural renewable resource with multiple applications.
+\newblock {\em Journal of the Science of Food and Agriculture},
+  100(15):5324--5333, 2020.
 
 \bibitem{Berbecea_2024}
 I.~Radulov and A.~Berbecea.
@@ -667,24 +651,6 @@ J.~Rockström, L.~Karlberg, S.P. Wani, J.~Barron, N.~Hatibu, T.~Oweis,
 \newblock {\em Agricultural Water Management}, 97(4):543--550, 2010.
 \newblock Comprehensive Assessment of Water Management in Agriculture.
 
-\bibitem{Rodriguez-Moreno_2021}
-V.M. Rodríguez-Moreno.
-\newblock Sistema de base de datos meteorológicos.
-\newblock {\em X Congreso Nacional sobre conservación y utilización de los
-  recursos zoogenéticos, XXII Simposio Iberoamericano y X Congreso Nacional
-  CONBIAND}, 2021.
-\newblock Benemérita Universidad Autónoma de Puebla. Puebla de Zaragoza,
-  México: INIFAP. RPDA INIFAP-03-2021-120109052200-01. Disponible en:
-  \url{https://clima.inifap.gob.mx/lnmysr/DatosIndirectos/NEssenger}.
-
-\bibitem{Salazar_2018}
-S.~Salazar-García, M.E. Ibarra-Estrada, A.~Álvarez Bravo, and
-  J.~González-Valdivia.
-\newblock Modelos de predicci{\'o}n del desarrollo floral del aguacate
-  ‘m{\'e}ndez’.
-\newblock {\em Revista mexicana de ciencias agr{\'\i}colas}, 9(1):151--161,
-  2018.
-
 \bibitem{Savary_2017B}
 N.~Savary, S.and~Mcroberts, P.D. Esker, L.~Willocquet, and P.S. Teng.
 \newblock {Production situations as drivers of crop health: evidence and
@@ -703,6 +669,13 @@ Serge Savary, Neil Mcroberts, Paul~D. Esker, Laetitia Willocquet, and Paul~S.
 \newblock {Production situations as drivers of crop health: evidence and
   implications}.
 \newblock {\em {Plant Pathology}}, 66(6):867--876, 2017.
+
+\bibitem{SAGARPA_2017_Agave}
+Desarrollo Rural Pesca y~Alimentación Secretaría~de Agricultura, Ganadería.
+\newblock Planeación agrícola nacional 2017 -- 2030: Agave tequilero y
+  mezcalero mexicano, 2017.
+\newblock Accessado en octubre 10 de 2025 en
+  \url{https://www.gob.mx/cms/uploads/attachment/file/257066/Potencial-Agave_Tequilero_y_Mezcalero.pdf}.
 
 \bibitem{Sherwin_2012}
 H.A. Sherwin, W.I. Montgomery, and M.G. Lundy.
@@ -727,6 +700,11 @@ B.~Steen, A.~Adde, M.A. Schlaepfer, A.~Guisan, and L.~Maiorano.
   the same environmental factors.
 \newblock {\em Ecological Solutions and Evidence}, 5(4):e12374, 2024.
 \newblock e12374 ESO-24-01-001.R2.
+
+\bibitem{Stewart_2015}
+J.R. Stewart.
+\newblock Agave as a model cam crop system for a warming and drying world.
+\newblock {\em Frontiers in Plant Science}, 6, 2015.
 
 \bibitem{Striker_2012}
 G.G. Striker.
