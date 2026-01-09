@@ -125,8 +125,15 @@ L.~Cassani and A.~Gomez-Zavaglia.
 \newblock Sustainable food systems in fruits and vegetables food supply chains.
 \newblock {\em Frontiers in Nutrition}, 9, February 2022.
 
+\bibitem{Cervantes_2007}
+M.T. Cervantes, A.D. Armenta-Calderón, and J.G. Sánchez-Arellano.
+\newblock {\em El cultivo del maguey bacanora (Agave angustifolia Haw.) en la
+  Sierra de Sonora}.
+\newblock Instituto Nacional de Investigaciones Forestales, Agrícolas y
+  Pecuarias (INIFAP), Hermosillo, Sonora, México, 2007.
+
 \bibitem{Chen_1973}
-C.~S. Chen.
+C.S. Chen.
 \newblock Digital computer simulation of heat units and their use for
   predicting plant maturity.
 \newblock {\em International Journal of Biometeorology}, 17(4):329--335,
@@ -201,6 +208,23 @@ H.~Daniell.
 \newblock Molecular strategies for gene containment in transgenic crops.
 \newblock {\em Nature Biotechnology}, 20(6):581--586, 2002.
 
+\bibitem{Davis_2021}
+S.C. Davis, J.T. Abatzoglou, and D.S. LeBauer.
+\newblock Expanded potential growing region and yield increase for agave
+  americana with future climate.
+\newblock {\em Agronomy}, 11(11), 2021.
+
+\bibitem{Davis_2011}
+S.C. Davis, F.G. Dohleman, and S.P. Long.
+\newblock The global potential for agave as a biofuel feedstock.
+\newblock {\em GCB Bioenergy}, 3(1):68--78, 2011.
+
+\bibitem{Davis_2023}
+S.C. Davis and H.G. Ortiz-Cano.
+\newblock Lessons from the history of agave: ecological and cultural context
+  for valuation of cam.
+\newblock {\em Annals of Botany}, 132(4):819--833, 06 2023.
+
 \bibitem{deFraiture_2007}
 C.~de~Fraiture, D.~Wichelns, J.~Rockstrom, E.~Kemp-Benedict, N.~Eriyagama, L.J.
   Gordon, M.A. Hanjra, J.~Hoogeveen, A.~Huber-Lee, and L.~Karlberg.
@@ -238,6 +262,14 @@ M.N. Elnesr, A.A. Alazba, and A.A. Alsadon.
 L.L. Escamilla-Treviño.
 \newblock Potential of plants from the genus agave as bioenergy crops.
 \newblock {\em BioEnergy Research}, 5(1):1–9, October 2011.
+
+\bibitem{Farah_2025}
+Abdikarim~Abdullahi Farah, Mohamud~Ahmed Mohamed, Osman Sayid~Hassan Musse, and
+  Bile~Abdisalan Nor.
+\newblock The multifaceted impact of climate change on agricultural
+  productivity: a systematic literature review of scopus-indexed studies
+  (2015–2024).
+\newblock {\em Discover Sustainability}, 6(1), May 2025.
 
 \bibitem{Farooq_2022}
 M.S. Farooq, M.~Uzair, A.~Raza, M.~Habib, Y.~Xu, M.~Yousuf, S.H. Yang, and
@@ -391,6 +423,13 @@ J.K. Jansson and K.S. Hofmockel.
 \newblock Soil microbiomes and climate change.
 \newblock {\em Nature Reviews Microbiology}, 18:35--46, 2020.
 
+\bibitem{Jimenez-Torres_2021}
+J.A. Jiménez-Torres, C.B. Peña-Valdivia, D.~Padilla-Chacón, and
+  R.~García-Nava.
+\newblock Physiological and biochemical responses of agave to temperature and
+  climate of their native environment.
+\newblock {\em Flora}, 278:151797, 2021.
+
 \bibitem{Jones_2018}
 M.S. Jones and W.E. Snyder.
 \newblock Beneficial insects in agriculture: Enhancement of biodiversity and
@@ -419,6 +458,11 @@ K.~Kiritani.
 \newblock Different effects of climate change on the population dynamics of
   insects.
 \newblock {\em Applied Entomology and Zoology}, 48(2):97–104, January 2013.
+
+\bibitem{Kopec_2024}
+P.~Kopeć.
+\newblock Climate change—the rise of climate-resilient crops.
+\newblock {\em Plants}, 13(4), 2024.
 
 \bibitem{Kopittke_2019}
 P.M. Kopittke, N.W. Menzies, P.~Wang, B.A. McKenna, and E.~Lombi.
@@ -461,6 +505,12 @@ R.~Lahlali, M.~Taoussi, L.~Salah-Eddine, G.~Gachara, R.~Ezzouggari,
 P.~Langridge.
 \newblock {\em Micronutrient Toxicity and Deficiency}, pages 433--449.
 \newblock Springer International Publishing, Cham, 2022.
+
+\bibitem{Li_2025}
+C.~Li, J.~Camac, A.~Robinson, and T.~Kompas.
+\newblock Predicting changes in agricultural yields under climate change
+  scenarios and their implications for global food security.
+\newblock {\em Scientific Reports}, 15(1), January 2025.
 
 \bibitem{Li_2022}
 M.~Li, X.~Cao, D.~Liu, Q.~Fu, T.~Li, and R.~Shang.
@@ -592,6 +642,15 @@ H.~Ortiz-Cano, J.A. Hernandez-Herrera, N.C. Hansen, S.L. Petersen, M.T. Searcy,
   cultivation in arid marginal lands.
 \newblock {\em Frontiers in Agronomy}, 2, September 2020.
 
+\bibitem{Ortiz-Cano_2020}
+Hector Ortiz-Cano, Jose~Antonio Hernandez-Herrera, Neil~C. Hansen, Steven~L.
+  Petersen, Michael~T. Searcy, Ricardo Mata-Gonzalez, Teodoro
+  Cervantes-Mendívil, Antonio Villanueva-Morales, Pil~Man Park, and J.~Ryan
+  Stewart.
+\newblock Pre-columbian rock mulching as a strategy for modern agave
+  cultivation in arid marginal lands.
+\newblock {\em Frontiers in Agronomy}, Volume 2 - 2020, 2020.
+
 \bibitem{Parajuli_2019}
 R.~Parajuli, G.~Thoma, and M.D. Matlock.
 \newblock Environmental sustainability of fruit and vegetable production supply
@@ -622,6 +681,13 @@ L.S. Peña~Urquiza, S.~Rebollar~Rebollar, N.~Callejas~Juárez,
 \newblock {Análisis de viabilidad económica para la producción comercial de
   aguacate Hass}.
 \newblock {\em Revista Mexicana de Agronegocios}, 36:1325--1338, 2015.
+
+\bibitem{Phillips_2025}
+A.~Phillips, C.J. Schultz, and R.A. Burton.
+\newblock New crops on the block: effective strategies to broaden our food,
+  fibre, and fuel repertoire in the face of increasingly volatile agricultural
+  systems.
+\newblock {\em Journal of Experimental Botany}, 76(8):2043--2063, 02 2025.
 
 \bibitem{Pincebourde_2019}
 S.~Pincebourde and J.~Casas.
