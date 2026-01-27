@@ -1,0 +1,32 @@
+#Code copied from: https://ourcodingclub.github.io/tutorials/git-for-labs/
+# Prevent users to commit their own RProject
+*.Rproj.user
+#*.Rproj
+# Prevent users to commit their own .RData and .Rhistory in mutual area
+*.RData
+*.Rhistory
+*.Rapp.history
+#*.Rproj
+*.Ruserdata
+
+# Temporary files
+*~
+~$*.doc*
+~$*.xls*
+~$.csv*
+*.~lock*
+*.xlk
+~$*.ppt*
+# Prevent mac users to commit .DS_Store files
+*.DS_Store
+# Prevent users to commit the README files created by RStudio
+*README.html
+*README_cache/
+#*README_files/
+
+# Input data files
+# data/
+daymet_timeseries_cleaned.csv
+grin_dayflow.csv
+
+.Rproj.user
