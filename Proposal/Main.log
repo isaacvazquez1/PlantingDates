@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  21 FEB 2026 19:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  24 FEB 2026 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -909,8 +909,8 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 92
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (Main.aux
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
 )
 \openout1 = `Main.aux'.
 
@@ -1012,53 +1012,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 3.
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
 3.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-13.
+23.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-13.
+23.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 13.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+(Font)              <6> on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
@@ -1066,7 +1066,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 Class memoir Warning: The material used in the headers is too large
 (77.33434pt) for the given head height (56.9055pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 16.
+(in both cases you will find help in the memoir manual). on input line 24.
 
 
 Overfull \vbox (20.42883pt too high) has occurred while \output is active []
@@ -1076,22 +1076,7 @@ Overfull \vbox (20.42883pt too high) has occurred while \output is active []
 igo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
@@ -1101,22 +1086,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--39
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-[2{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
-c}{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}])
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+[2{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
+:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}])
 (StressConsequences.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -1137,12 +1132,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
@@ -1182,12 +1177,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-
+[4{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
+c}]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
@@ -1232,7 +1228,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
@@ -1242,8 +1238,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[5{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
-c}]
+
 Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
@@ -1283,12 +1278,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
@@ -1333,12 +1328,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
@@ -1413,12 +1408,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
@@ -1488,12 +1483,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
@@ -1528,7 +1523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) [12] (Goals.tex
+[12]) (Goals.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1567,23 +1562,16 @@ Overfull \hbox (2.64912pt too wide) in alignment at lines 12--102
 bibitemlist
 [17
 
-] [18] [19] [20] [21] [22] [23] [24] [25]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
-70.
-
-(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [26]
-[27] [28])
+] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29])
 
 Class memoir Warning: The material used in the headers is too large
 (77.33434pt) for the given head height (56.9055pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 186.
 
-[29] (Main.aux
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
+[30] (Main.aux
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
 )
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -1593,25 +1581,23 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 9B7CADC3995C7324944A4C828B09CA1D;1028.
  ) 
 Here is how much of TeX's memory you used:
- 22791 strings out of 474824
- 423686 string characters out of 5750976
+ 22763 strings out of 474824
+ 423037 string characters out of 5750976
  1942043 words of memory out of 5000000
- 44235 multiletter control sequences out of 15000+600000
- 608356 words of font info for 75 fonts, out of 8000000 for 9000
+ 44203 multiletter control sequences out of 15000+600000
+ 608038 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,12n,93p,962b,1222s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,12n,93p,962b,1227s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
 fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.p
 fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pf
 b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb>
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-<C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-<C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><
-C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (29 pages, 326664 bytes).
+<C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Main.pdf (30 pages, 303043 bytes).
 PDF statistics:
- 603 PDF objects out of 1000 (max. 8388607)
- 196 named destinations out of 1000 (max. 500000)
+ 612 PDF objects out of 1000 (max. 8388607)
+ 204 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
