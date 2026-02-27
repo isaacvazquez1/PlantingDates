@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  24 FEB 2026 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  26 FEB 2026 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1519,11 +1519,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[12]) (Goals.tex
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+) (Goals.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1557,19 +1577,19 @@ Overfull \hbox (2.64912pt too wide) in alignment at lines 12--102
  [] [] 
  []
 
-[14{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}
-] [15]) [16] (Main.bbl
+[14] [15{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1
+.enc}] [16]) [17] (Main.bbl
 bibitemlist
-[17
+[18
 
-] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29])
+] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30])
 
 Class memoir Warning: The material used in the headers is too large
 (77.33434pt) for the given head height (56.9055pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 186.
 
-[30] (Main.aux
+[31] (Main.aux
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
 )
@@ -1581,13 +1601,13 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 9B7CADC3995C7324944A4C828B09CA1D;1028.
  ) 
 Here is how much of TeX's memory you used:
- 22763 strings out of 474824
- 423037 string characters out of 5750976
- 1942043 words of memory out of 5000000
- 44203 multiletter control sequences out of 15000+600000
+ 22782 strings out of 474824
+ 423305 string characters out of 5750976
+ 1945043 words of memory out of 5000000
+ 44212 multiletter control sequences out of 15000+600000
  608038 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,12n,93p,962b,1227s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,12n,93p,962b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
 fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.p
@@ -1595,9 +1615,9 @@ fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pf
 b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb>
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Main.pdf (30 pages, 303043 bytes).
+Output written on Main.pdf (31 pages, 310423 bytes).
 PDF statistics:
- 612 PDF objects out of 1000 (max. 8388607)
- 204 named destinations out of 1000 (max. 500000)
+ 640 PDF objects out of 1000 (max. 8388607)
+ 214 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

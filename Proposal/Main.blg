@@ -5,22 +5,22 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-I was expecting a `,' or a `}'---line 748 of file Refs.bib
+I was expecting a `,' or a `}'---line 864 of file Refs.bib
  :  
  :  note={Tesis de maestría}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1283 of file Refs.bib
+I was expecting a `,' or a `}'---line 1399 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1374 of file Refs.bib
+I was expecting a `,' or a `}'---line 1490 of file Refs.bib
  :  
  :  DOI = {10.3390/agronomy8040037}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2449 of file Refs.bib
+Repeated entry---line 2565 of file Refs.bib
  : @article{Franch_2022
  :                     ,
 I'm skipping whatever remains of this entry
@@ -29,45 +29,45 @@ Warning--empty booktitle in Hatfield_2017
 Warning--empty title in Kearns_1998
 Warning--can't use both author and editor fields in Langridge_2022
 Warning--can't use both author and editor fields in Surowka_2020
-You've used 155 entries,
+You've used 164 entries,
             2118 wiz_defined-function locations,
-            1566 strings with 39267 characters,
-and the built_in function-call counts, 65277 in all, are:
-= -- 6018
-> -- 4454
-< -- 19
-+ -- 1763
-- -- 1596
-* -- 5681
-:= -- 11306
-add.period$ -- 479
-call.type$ -- 155
-change.case$ -- 1246
+            1629 strings with 41286 characters,
+and the built_in function-call counts, 68646 in all, are:
+= -- 6336
+> -- 4643
+< -- 20
++ -- 1837
+- -- 1661
+* -- 5944
+:= -- 11883
+add.period$ -- 508
+call.type$ -- 164
+change.case$ -- 1305
 chr.to.int$ -- 0
-cite$ -- 160
-duplicate$ -- 1850
-empty$ -- 4110
-format.name$ -- 1596
-if$ -- 12936
+cite$ -- 169
+duplicate$ -- 1966
+empty$ -- 4357
+format.name$ -- 1661
+if$ -- 13628
 int.to.chr$ -- 0
-int.to.str$ -- 155
-missing$ -- 161
-newline$ -- 782
-num.names$ -- 324
-pop$ -- 1029
+int.to.str$ -- 164
+missing$ -- 170
+newline$ -- 828
+num.names$ -- 346
+pop$ -- 1079
 preamble$ -- 1
-purify$ -- 1097
+purify$ -- 1147
 quote$ -- 0
-skip$ -- 1271
+skip$ -- 1345
 stack$ -- 0
-substring$ -- 3790
-swap$ -- 275
-text.length$ -- 19
+substring$ -- 3993
+swap$ -- 293
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 608
+type$ -- 640
 warning$ -- 5
-while$ -- 501
-width$ -- 158
-write$ -- 1732
+while$ -- 529
+width$ -- 167
+write$ -- 1837
 (There were 4 error messages)
