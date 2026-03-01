@@ -5,22 +5,30 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-I was expecting a `,' or a `}'---line 864 of file Refs.bib
+Repeated entry---line 702 of file Refs.bib
+ : @article{Liu_2025
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1018 of file Refs.bib
+ : @article{Li_2025
+ :                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1147 of file Refs.bib
  :  
  :  note={Tesis de maestría}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1399 of file Refs.bib
+I was expecting a `,' or a `}'---line 1682 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1490 of file Refs.bib
+I was expecting a `,' or a `}'---line 1773 of file Refs.bib
  :  
  :  DOI = {10.3390/agronomy8040037}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2565 of file Refs.bib
+Repeated entry---line 2848 of file Refs.bib
  : @article{Franch_2022
  :                     ,
 I'm skipping whatever remains of this entry
@@ -29,45 +37,45 @@ Warning--empty booktitle in Hatfield_2017
 Warning--empty title in Kearns_1998
 Warning--can't use both author and editor fields in Langridge_2022
 Warning--can't use both author and editor fields in Surowka_2020
-You've used 164 entries,
+You've used 182 entries,
             2118 wiz_defined-function locations,
-            1629 strings with 41286 characters,
-and the built_in function-call counts, 68646 in all, are:
-= -- 6336
-> -- 4643
-< -- 20
-+ -- 1837
-- -- 1661
-* -- 5944
-:= -- 11883
-add.period$ -- 508
-call.type$ -- 164
-change.case$ -- 1305
+            1741 strings with 44880 characters,
+and the built_in function-call counts, 75768 in all, are:
+= -- 6999
+> -- 5084
+< -- 22
++ -- 2013
+- -- 1818
+* -- 6521
+:= -- 13104
+add.period$ -- 565
+call.type$ -- 182
+change.case$ -- 1437
 chr.to.int$ -- 0
-cite$ -- 169
-duplicate$ -- 1966
-empty$ -- 4357
-format.name$ -- 1661
-if$ -- 13628
+cite$ -- 187
+duplicate$ -- 2198
+empty$ -- 4838
+format.name$ -- 1818
+if$ -- 15077
 int.to.chr$ -- 0
-int.to.str$ -- 164
-missing$ -- 170
-newline$ -- 828
-num.names$ -- 346
-pop$ -- 1079
+int.to.str$ -- 182
+missing$ -- 189
+newline$ -- 919
+num.names$ -- 384
+pop$ -- 1192
 preamble$ -- 1
-purify$ -- 1147
+purify$ -- 1261
 quote$ -- 0
-skip$ -- 1345
+skip$ -- 1506
 stack$ -- 0
-substring$ -- 3993
-swap$ -- 293
-text.length$ -- 20
+substring$ -- 4390
+swap$ -- 337
+text.length$ -- 22
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 640
+type$ -- 710
 warning$ -- 5
-while$ -- 529
-width$ -- 167
-write$ -- 1837
-(There were 4 error messages)
+while$ -- 583
+width$ -- 185
+write$ -- 2039
+(There were 6 error messages)

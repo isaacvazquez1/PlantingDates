@@ -126,6 +126,14 @@ L.~Cassani and A.~Gomez-Zavaglia.
 \newblock Sustainable food systems in fruits and vegetables food supply chains.
 \newblock {\em Frontiers in Nutrition}, 9, February 2022.
 
+\bibitem{MORELLATO_2016}
+L.P. Cerdeira~Morellato, B.~Alberton, S.T. Alvarado, B.~Borges, E.~Buisson,
+  M.G.G. Camargo, L.F. Cancian, D.W. Carstensen, D.F.E. Escobar, P.T.P. Leite,
+  I.~Mendoza, N.M.W.B. Rocha, N.C. Soares, T.S. Freire~Silva, V.G. Staggemeier,
+  A.S. Streher, B.C. Vargas, and C.A. Peres.
+\newblock Linking plant phenology to conservation biology.
+\newblock {\em Biological Conservation}, 195:60--72, 2016.
+
 \bibitem{Chekenya_2023}
 N.~Chekenya.
 \newblock Climate-induced crop failure and crop abandonment: What do we know
@@ -152,6 +160,11 @@ X.~Cheng, H.~Li, Q.~Tang, H.~Zhang, T.~Liu, and Y.~Wang.
 \newblock Trends in the global commercialization of genetically modified crops
   in 2023.
 \newblock {\em Journal of Integrative Agriculture}, 23(12):3943--3952, 2024.
+
+\bibitem{CLELAND_2007}
+E.E. Cleland, I.~Chuine, A.~Menzel, H.A. Mooney, and M.D. Schwartz.
+\newblock Shifting plant phenology in response to global change.
+\newblock {\em Trends in Ecology \& Evolution}, 22(7):357--365, 2007.
 
 \bibitem{Clemente_2023}
 S.~Clemente and L.~Adler.
@@ -229,6 +242,11 @@ C.~Donmez, M.~Schmidt, A.~Cilek, M.~Grosse, C.~Paul, W.~Hierold, and
   K.~Helming.
 \newblock Climate change impacts on long-term field experiments in germany.
 \newblock {\em Agricultural Systems}, 205:103578, 2023.
+
+\bibitem{DONOHUE_2015}
+K.~Donohue, L.T. Burghardt, D.~Runcie, K.J. Bradford, and J.~Schmitt.
+\newblock Applying developmental threshold models to evolutionary ecology.
+\newblock {\em Trends in Ecology \& Evolution}, 30(2):66--77, 2015.
 
 \bibitem{Easterling_2024}
 D.R. Easterling, K.E. Kunkel, A.R. Crimmins, et~al.
@@ -423,6 +441,12 @@ S.~Iqbal, F.~Begum, B.A. Nguchu, et~al.
   transformative role in soil health and global climate changes.
 \newblock {\em Environmental Microbiome}, 20, 2025.
 
+\bibitem{Jgermeyr_2018}
+J.~J\"{a}germeyr and K.~Frieler.
+\newblock Spatial variations in crop growing seasons pivotal to reproduce
+  global fluctuations in maize and wheat yields.
+\newblock {\em Science Advances}, 4(11), November 2018.
+
 \bibitem{Jansson_2020}
 J.K. Jansson and K.S. Hofmockel.
 \newblock Soil microbiomes and climate change.
@@ -451,6 +475,17 @@ C.A. Kearns, D.W. Inouye, and N.M. Waser.
 \newblock {\em Annual Review of Ecology, Evolution, and Systematics}, pages
   83--112, 1998.
 
+\bibitem{KELLER_2020}
+Markus Keller.
+\newblock Chapter 2: Phenology and growth cycle.
+\newblock In M.~Keller, editor, {\em The Science of Grapevines (Third
+  Edition)}, pages 61--103. Academic Press, third edition edition, 2020.
+
+\bibitem{Kimball_2014}
+J.~Kimball.
+\newblock {\em Vegetation Phenology}, page 886–890.
+\newblock Springer New York, 2014.
+
 \bibitem{Kiritani_2013}
 K.~Kiritani.
 \newblock Different effects of climate change on the population dynamics of
@@ -461,6 +496,11 @@ K.~Kiritani.
 P.M. Kopittke, N.W. Menzies, P.~Wang, B.A. McKenna, and E.~Lombi.
 \newblock Soil and the intensification of agriculture for global food security.
 \newblock {\em Environment International}, 132:105078, 2019.
+
+\bibitem{Krishnamurthy_2019}
+V.~Krishnamurthy.
+\newblock Predictability of weather and climate.
+\newblock {\em Earth and Space Science}, 6(7):1043--1056, 2019.
 
 \bibitem{Kumar_2020}
 K.~Kumar, G.~Gambhir, A.~Dass, A.K. Tripathi, A.~Singh, A.K. Jha, P.~Yadava,
@@ -506,10 +546,27 @@ M.~Li, X.~Cao, D.~Liu, Q.~Fu, T.~Li, and R.~Shang.
   optimization approach.
 \newblock {\em Agricultural Water Management}, 259:107235, 2022.
 
+\bibitem{Li_2025}
+M.-W. Li and J.M. Gendron.
+\newblock Exploring the metabolic daylength measurement system: implications
+  for photoperiodic growth.
+\newblock {\em New Phytologist}, 245(2):503--509, 2025.
+
 \bibitem{Li_2014}
 W.~Li and X.~Cui.
 \newblock A special issue on plant stress biology: from model species to crops.
 \newblock {\em Molecular Plant}, 7(5):755--757, 2014.
+
+\bibitem{LIANG_2019}
+L.~Liang.
+\newblock Phenology.
+\newblock In {\em Reference Module in Earth Systems and Environmental
+  Sciences}. Elsevier, 2019.
+
+\bibitem{LINDERHOLM_2006}
+H.W. Linderholm.
+\newblock Growing season changes in the last century.
+\newblock {\em Agricultural and Forest Meteorology}, 137(1):1--14, 2006.
 
 \bibitem{Liss_2013}
 K.N. Liss, M.G.E. Mitchell, G.K. MacDonald, S.L. Mahajan, J.~Méthot, A.L.
@@ -573,6 +630,12 @@ McLaughlin M.J., D.R. Parker, and J.M. Clarke.
 \newblock Metals and micronutrients – food safety issues.
 \newblock {\em Field Crops Research}, 60(1):143--163, 1999.
 
+\bibitem{Mo_2023}
+Yunhua Mo, Jing Zhang, Hong Jiang, and Yongshuo~H. Fu.
+\newblock A comparative study of 17 phenological models to predict the start of
+  the growing season.
+\newblock {\em Frontiers in Forests and Global Change}, 5, 2023.
+
 \bibitem{Moraes_2022}
 A.F Moraes~García, L.~Micheletti~Broglio, M.~Santoro~Brossi, N.~Teixeira~dos
   Santos, T.~Avilés~Cantuarias, and S.~da~Silva~Rodrigues.
@@ -633,6 +696,15 @@ M.N. Oishy, N.A. Shemonty, S.I. Fatema, S.~Mahbub, E.L. Mim, M.B. Hasan~Raisa,
 \newblock Unravelling the effects of climate change on the
   soil-plant-atmosphere interactions: A critical review.
 \newblock {\em Soil \& Environmental Health}, 3(1):100130, 2025.
+
+\bibitem{Olesen_2007}
+J.E. Olesen, T.R. Carter, C.H. Díaz-Ambrona, S.~Fronzek, T.~Heidmann,
+  T.~Hickler, T.~Holt, M.I. Minguez, P.~Morales, J.P. Palutikof, M.~Quemada,
+  M.~Ruiz-Ramos, G.H. Rub{\ae}k, F.~Sau, B.~Smith, and M.T. Sykes.
+\newblock Uncertainties in projected impacts of climate change on european
+  agriculture and terrestrial ecosystems based on scenarios from regional
+  climate models.
+\newblock {\em Climatic Change}, 81(S1):123–143, March 2007.
 
 \bibitem{Ollerton_2011}
 J.~Ollerton, R.~Winfree, and S.~Tarrant.
@@ -760,12 +832,30 @@ A.~Raza, A.~Razzaq, S.S. Mehmood, X.~Zou, X.~Zhang, Y.~Lv, and J.~Xu.
   its outcome: A review.
 \newblock {\em Plants}, 8(2), 2019.
 
+\bibitem{RECKNAGEL_2023}
+F.~Recknagel.
+\newblock Cyberinfrastructure for sourcing and processing ecological data.
+\newblock {\em Ecological Informatics}, 75:102039, 2023.
+
 \bibitem{Revilla_2022}
 P.~Revilla, M.L. Alves, V.~Andelković, C.~Balconi, I.~Dinis,
   P.~Mendes-Moreira, R.~Redaelli, J.I. Ruiz~de Galarreta, M.C. Vaz~Patto,
   S.~Žilić, and R.A. Malvar.
 \newblock Traditional foods from maize (zea mays l.) in europe.
 \newblock {\em Frontiers in Nutrition}, 8, 2022.
+
+\bibitem{RICHARDSON_2013}
+A.D. Richardson, T.F. Keenan, M.~Migliavacca, Y.~Ryu, O.~Sonnentag, and
+  M.~Toomey.
+\newblock Climate change, phenology, and phenological control of vegetation
+  feedbacks to the climate system.
+\newblock {\em Agricultural and Forest Meteorology}, 169:156--173, 2013.
+
+\bibitem{RICHARDSON_2023}
+Andrew~D. Richardson.
+\newblock Phenocam: An evolving, open-source tool to study the temporal and
+  spatial variability of ecosystem-scale phenology.
+\newblock {\em Agricultural and Forest Meteorology}, 342:109751, 2023.
 
 \bibitem{Rocha-Arroyo_2011}
 J.L. Rocha-Arroyo, S.~Salazar-García, A.E. Bárcenas-Ortega, I.J.L.
@@ -888,6 +978,14 @@ S.A. Tanumihardjo, L.~McCulley, R.~Roh, S.~Lopez-Ridaura, N.~Palacios-Rojas,
   reference to the sustainable development goals.
 \newblock {\em Global Food Security}, 25:100327, 2020.
 
+\bibitem{Tarascio_2026}
+M.~Tarascio, L.~Brancaleoni, A.~Cazzavillan, M.~Cutini, R.~Gerdol, and
+  T.~Abeli.
+\newblock Photoperiod–temperature interactions in a changing climate: A
+  review of plant phenological responses.
+\newblock {\em Journal of Biogeography}, 53(1):e70113, 2026.
+\newblock e70113 7724405.
+
 \bibitem{Thomson_2010}
 L.J. Thomson, S.~Macfadyen, and A.A. Hoffmann.
 \newblock Predicting the effects of climate change on natural enemies of
@@ -985,6 +1083,18 @@ B.L. Webber and J.K. Scott.
 C.~Westerkamp and G.~Gottsberger.
 \newblock Diversity pays in crop pollination.
 \newblock {\em Crop science}, 40(5):1209--1222, 2000.
+
+\bibitem{Whitcraft_2015}
+A.K. Whitcraft, I.~Becker-Reshef, and C.O. Justice.
+\newblock Agricultural growing season calendars derived from modis surface
+  reflectance.
+\newblock {\em International Journal of Digital Earth}, 8(3):173--197, 2015.
+
+\bibitem{Wu_2017}
+L.~Wu, Y.~Feng, L.and~Zhang, J.~Gao, and J.~Wang.
+\newblock Comparison of five wheat models simulating phenology under different
+  sowing dates and varieties.
+\newblock {\em Agronomy Journal}, 109(4):1280--1293, 2017.
 
 \bibitem{Yang_2023}
 N.~Yang, Y.~Wang, X.~Liu, M.~Jin, M.~Vallebueno-Estrada, E.~Calfee, L.~Chen,
