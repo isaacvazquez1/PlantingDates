@@ -13,27 +13,77 @@ En plantas, la fenología describe los requerimientos ambientales para su desarr
 
 Por tanto, la fenología es una descripción integral tanto de las respuestas de los organismos como de las respuestas funcionales de los ecosistemas, ambos, ante el cambio climático \cite{RICHARDSON_2013,RICHARDSON_2023}. Se han observado cambios locales en la fenología \cite{CLELAND_2007}; por ejemplo, la duración de las temporadas de cultivo se ha prolongado presentando una tendencia hacia ser iniciadas en épocas más tempranas \cite{ LINDERHOLM_2006}.\\
 
-En este contexto, la documentación de calendarios agrícolas a escala global ha sido fundamental para estudiar, cuantificar y modelar las variaciones en los periodos de interés productivo \cite{Jgermeyr_2018}. Con base en la metodología empleada para generarlas, las bases de datos de calendarios agrícolas pueden clasificarse en tres grupos: basadas en información local, basadas en modelos agrícolas o basadas en observaciones de la Tierra \cite{Franch_2022}.\\ 
+En este contexto, la documentación de calendarios agrícolas a escala global ha sido fundamental para estudiar, cuantificar y modelar las variaciones en los periodos de interés productivo \cite{Jgermeyr_2018}. Con base en la metodología empleada para generarlos, los calendarios agrícolas pueden clasificarse en tres categorías: basados en información local, basados en modelos agrícolas o basados en observaciones de la Tierra \cite{Franch_2022}.\\ 
 
-Las calendarios agrícolas en bases de datos basadas en información local provienen de agencias internacionales, visitas de campo, informes de expertos o de interpolaciones espaciales de censos \cite{Franch_2022}. No obstante, su resolución carece de especificidad regional por lo que no captura las variaciones particulares en el inicio y fin de las temporadas de cultivo \cite{Whitcraft_2015}.\\
-
-
-Respecto a la calendarización agrícola, los modelos agrícolas se construyen con el objetivo de caracterizar las relaciones entre las variables climáticas y las etapas fenológicas de los cultivos; así, al condensar los calendarios resultantes se generan las bases de datos basadas en modelos agrícolas \cite{Franch_2022}. La versatilidad tanto en la particularización de zonas geográficas y cultivos como en sus usos es amplia \cite{Mo_2023, Wu_2017}; no obstante, son susceptibles tanto al sobreajuste o la sobresimplificación como a incertidumbres estructurales derivadas de la selección de variables, la parametrización y la calidad de los datos de entrada \cite{Olesen_2007}.\\ 
-
-Las bases de datos recopiladas a través de observaciones de la Tierra emplean la metodología denominada Fenología de la Superficie Terrestre (LSP, por sus siglas en inglés) \cite{Franch_2022}. Bajo este paradigma se detectan cambios en la vegetación a través de observaciones remotas provenientes de satélites \cite{Kimball_2014}. Identifica la primera y la última señal de cobertura espacial de la vegetación identificándolas con el inicio y el fin de la temporada de cultivo, respectivamente; no obstante, usualmente, reportan fechas de inicio retrasadas y fechas de término anticipadas \cite{Franch_2022}.\\ 
+Las calendarios agrícolas generados a partir de información local provienen datos recopilados por agencias internacionales, visitas de campo, informes de expertos o de interpolaciones espaciales de censos \cite{Franch_2022}. No obstante, su resolución carece de especificidad regional por lo que no captura las variaciones particulares en el inicio y fin de las temporadas de cultivo \cite{Whitcraft_2015}.\\
 
 
-En este contexto, el presente trabajo se desarrolla para robustecer las bases de datos basadas en modelos agrícolas. Lo anterior, aportando un modelo probabilístico que satisfaga los estándares propuestos por Witchcraft et al. (2015) \cite{Whitcraft_2015} considerando una cobertura espacial amplia, integrando la variabilidad espacial en las prácticas de cultivo y las condiciones climáticas y definiendo explícitamente el periodo de referencia; esto, para asegurar su relevancia y aplicabilidad.\\
+Respecto a los calendarios agrícolas basados en modelos, estos se construyen con el objetivo de caracterizar las relaciones entre las variables climáticas y las etapas fenológicas de los cultivos \cite{Franch_2022}. La versatilidad tanto en la particularización de zonas geográficas y cultivos como en sus usos es amplia \cite{Mo_2023, Wu_2017}; no obstante, son susceptibles tanto al sobreajuste o la sobresimplificación como a incertidumbres estructurales derivadas de la selección de variables, la parametrización y la calidad de los datos de entrada \cite{Olesen_2007}.\\ 
+
+Los modelos agrícola construidos a través de observaciones de la Tierra emplean la metodología denominada Fenología de la Superficie Terrestre (LSP, por sus siglas en inglés) \cite{Franch_2022}. Bajo este paradigma se detectan cambios en la vegetación a través de observaciones remotas provenientes de satélites \cite{Kimball_2014}. Identifica la primera y la última señal de cobertura espacial de la vegetación identificándolas con el inicio y el fin de la temporada de cultivo, respectivamente; no obstante, usualmente, reportan fechas de inicio retrasadas y fechas de término anticipadas \cite{Franch_2022}.\\ 
+
+
+En este contexto, el presente trabajo se desarrolla para robustecer la categoría de calendarios agrícolas basados en modelos agrícolas. Lo anterior, aportando un modelo probabilístico que satisfaga los estándares propuestos por Witchcraft et al. (2015) \cite{Whitcraft_2015} considerando una cobertura espacial amplia, integrando la variabilidad espacial en las prácticas de cultivo y las condiciones climáticas y definiendo explícitamente el periodo de referencia; esto, para asegurar su relevancia y aplicabilidad.\\
 
 
 %Hablar de los estándares para construir calendarios 
 %Revisa Mo_2023 y Wu_2017
 
-Las interacciones entre el fotoperiodo; es decir, el lapso en que un organismo es expuesto a la luz solar diariamente \cite{CLELAND_2007}, y las temperaturas caracterizan eventos claves del ciclo de desarrollo en las plantas \cite{Tarascio_2026}; motivo por el cual suelen considerarse en diversos modelos agrícolas. Los efectos de estas interacciones son más notables en las plantas cuya fenología sucede, parcial o totalmente, durante la primavera \cite{Tarascio_2026}; por ejemplo, el maíz en Alemania \cite{Liu_2025, Parker_2017}. \\
+Las interacciones entre las temperaturas y el lapso en que un organismo es expuesto a la luz solar diariamente \cite{CLELAND_2007}; es decir, el fotoperiodo, caracterizan eventos claves del ciclo de desarrollo en las plantas \cite{Tarascio_2026}; motivo por el cual suelen considerarse en diversos modelos agrícolas. Los efectos de estas interacciones son más notables en las plantas cuya fenología sucede, parcial o totalmente, durante la primavera \cite{Tarascio_2026}; por ejemplo, el maíz en Alemania \cite{Liu_2025, Parker_2017}. \\
 
 
-Por una parte, el fotoperiodo es una señal abiótica con variabilidad predecible \cite{Li_2025} cuyos efectos en plantas pueden compensar el enfriamiento insuficiente del invierno y fungir como una barrera para limitar la expansión geográfica \cite{Tarascio_2026}. Por otra parte, las fluctuaciones en las temperaturas tienden a ser más volátiles por lo que la predicción climática aún es un reto \cite{Krishnamurthy_2019, Materia_2024}.\\  
+Por una parte, el fotoperiodo es una señal abiótica con variabilidad predecible \cite{Li_2025} cuyos efectos en plantas pueden compensar el enfriamiento insuficiente del invierno y fungir como una barrera para limitar la expansión geográfica \cite{Tarascio_2026}. Por otra parte, las temperaturas intervienen en el desarrollo y la producción de las plantas \cite{BAHUGUNA_2015}, pero sus fluctuaciones tienden a ser más volátiles por lo que la predicción climática aún es un reto \cite{Krishnamurthy_2019, Materia_2024}.\\  
+ 
+ 
+A pesar de la complejidad inherente a lo antes mencionado, en la literatura se reportan múltiples calendarios agrícolas utilizados como herramientas en la estructuración de cronogramas de producción. De esta manera, discutiremos aquellos derivados de modelos agrícolas, con particular énfasis en los desarrollados específicamente para el cultivo del maíz.\\
 
+De acuerdo con Stehfest \textit{et al.} (2007) \cite{STEHFEST_2007}, los trabajos de Sprengel, C. (1828) \cite{Sprengel_1828}, de Liebig, J. (1840) \cite{Liebig_1840} y de Mitscherlich, E. (1909) \cite{Mitscherlich_1909} fueron pioneros en investigar  acerca de los factores que limitan el desarrollo en los cultivos y cuestionarse sobre el manejo agrícola lo optimiza.\\
+
+
+Por una parte, en el trabajo de Sprengel, C. (1828) \cite{Sprengel_1828} se describió el papel de los minerales para la vida de las plantas y cómo los adquieren del suelo \cite{Jungk_2009}. Posteriormente, el libro de Liebig, J. (1840) \cite{Liebig_1840} se propone que la disponibilidad individual de los minerales supone una restricción para la producción de la planta, lo cual cimentó las bases para entender la nutrición de plantas \cite{Sinclair_1993}. No obstante, esta contribución pudo ser integrada cuantitativamente en la modelación agrícola tras su formulación matemática que fue presentada en el trabajo de Waggoner \textit{et al.} (1979) \cite{Waggoner_1979}.\\
+
+
+Finalmente, en el trabajo de Mitscherlich, E. (1909) \cite{Mitscherlich_1909} se introduce la metodología de curvas de dosis-respuesta para representar la relación entre un parámetro biológico y un factor ambiental, cuantificando la fuerza, señal y forma del efecto que tiene tal factor sobre dicho parámetro \cite{Poorter_2011}. El impacto de los trabajos antes mencionados ha trascendido de manera tal que modelos agrícolas aún se ven influenciados por ellos \cite{STEHFEST_2007}.\\
+
+
+%Con base a estos trabajos, los modelos 
+
+%Actualmente, el objetivo de los modelos derivados con base en estos trabajos 
+
+% However, the scope of crop modelling has expanded. An important new motivation for crop modelling are questions regarding the impact of climate changeandincreasinghumanpopulationonfuturefoodsecu rity. Crop modelling has thus been applied to assess theavailability of additional land for agriculture (Fischer et al.,2002; Kenny et al., 2000), to investigate the impact of climate change on future land use (Alcamo et al., 1998) or on future economic welfare (Matsuoka et al., 2001; USGCRP, 2001).
+%        Stehfest
+
+La metodología desarrollada por Mitscherlich, E. (1909) \cite{Mitscherlich_1909} fue propuesta un contexto biológico general; no obstante, en particular, se ha empleado para estudiar y predecir la relación entre la fenología y el ambiente; e.g., \cite{CAMPILLAYLLANOS_2024, Rafique_2024, Verdugo-Vasquez_2017}. Esto se logra a través de considerar los grados día de crecimiento (GDD, por sus siglas en inglés) en las ecuaciones correspondientes \cite{Rafique_2024}; e.g., \cite{CAMPILLAYLLANOS_2024,France_1984, Thornley_1990, Verdugo-Vasquez_2017}. 
+
+Los GDD son unidades térmicas 
+%%Growing degree days (GDD) from seeding were calculated using the equation first suggested by René-Antoine Ferchault de Réaumurin1730andagainpublishedbyMcMaster(1997)  and Moore and Remais (2014)
+
+Y los resultados son buenos ya que 
+%The problem with timing these activities is that shoot growth phenology, by  definition, depends not on the calendar but rather on climate, air temperature in  particular (Ashton 1975, Dahl and Mork 1959, Hari and Leikola 1974, Lanner  1964, Mitscherlich and others 1973, Sarvas 1972, Worrall 1973)
+
+%\cite{Perala_1985}
+
+
+
+%In open-field crop production, this concept is called “growing degree days” or “heat unit” and is widely applied in predicting the phenology in crop production. 
+
+%2016, Plant Factory Chieri Kubota
+
+%GDDs are frequently used in agriculture to estimate planting times and approximate dates of crop development stages.
+
+%2013, Climate Vulnerability J.A. Winkler, ... C. Zavalloni
+
+%https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/growing-degree-day
+
+
+ el contexto de crecimiento biológico
+
+Similares a la metodología propuesta por Mitscherlich, E. (1909) \cite{Mitscherlich_1909}, se han propuesto más metodologías para comprender el desarrollo biológico; e.g., . No obstante, Koya \textit{et al.} (2013) \cite{Koya_2013} las generalizó    que tales metodologías  es un caso particular de 
+
+
+
+
+% \cite{Giolo_2021}
 
 
 No obstante, en trabajos previos como los de Elnesr \textit{et al.} \cite{Elnesr_2016, Elnesr_2013} se han desarrollado metodologías deterministas para pronosticar temporadas óptimas para la siembra de distintos tipos de cultivos, principalmente anuales. Lo anterior, basándose en el concepto de unidades de calor, donde el sistema de unidades de calor se basa en la acumulación promedio de las temperaturas diarias y los umbrales de temperatura respectivos al tipo de cultivo \cite{Chen_1973}.\\
