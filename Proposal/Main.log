@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  4 MAR 2026 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  4 MAR 2026 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1227,7 +1227,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-) (Goals.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+) [6] (Goals.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1237,7 +1247,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[6]) (Schedule.tex
+[7]) (Schedule.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1261,8 +1271,8 @@ Overfull \hbox (2.64912pt too wide) in alignment at lines 12--102
  [] [] 
  []
 
-[7] [8{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.e
-nc}] [9]) [10] (Main.bbl
+[8{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+[9]) [10] (Main.bbl
 bibitemlist
 [11
 
@@ -1285,10 +1295,10 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: FC38DF26B07528D28BEE228CC6BFC5C3;669.
  ) 
 Here is how much of TeX's memory you used:
- 22644 strings out of 474824
- 421100 string characters out of 5750976
- 1945043 words of memory out of 5000000
- 44145 multiletter control sequences out of 15000+600000
+ 22656 strings out of 474824
+ 421326 string characters out of 5750976
+ 1942043 words of memory out of 5000000
+ 44151 multiletter control sequences out of 15000+600000
  608038 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,12n,93p,962b,1218s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1299,9 +1309,9 @@ fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pf
 b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb>
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
 
-Output written on Main.pdf (20 pages, 250420 bytes).
+Output written on Main.pdf (20 pages, 254766 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
+ 474 PDF objects out of 1000 (max. 8388607)
+ 153 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
