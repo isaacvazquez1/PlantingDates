@@ -75,6 +75,13 @@ L.~Cassani and A.~Gomez-Zavaglia.
 \newblock Sustainable food systems in fruits and vegetables food supply chains.
 \newblock {\em Frontiers in Nutrition}, 9, February 2022.
 
+\bibitem{Ceglar2011}
+A.~Ceglar, Z.~Črepinšek, L.~Kajfež-Bogataj, and T.~Pogačar.
+\newblock The simulation of phenological development in dynamic crop model: The
+  bayesian comparison of different methods.
+\newblock {\em Agricultural and Forest Meteorology}, 151(1):101–115, January
+  2011.
+
 \bibitem{MORELLATO_2016}
 L.P. Cerdeira~Morellato, B.~Alberton, S.T. Alvarado, B.~Borges, E.~Buisson,
   M.G.G. Camargo, L.F. Cancian, D.W. Carstensen, D.F.E. Escobar, P.T.P. Leite,
@@ -89,6 +96,12 @@ N.~Chekenya.
   and not know?
 \newblock {\em African Journal of Agricultural and Resource Economics},
   18(2):142–151, June 2023.
+
+\bibitem{Chuine_2017}
+I.~Chuine and J.~Régnière.
+\newblock Process-based models of phenology for plants and animals.
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics}, 48(Volume
+  48, 2017):159--182, 2017.
 
 \bibitem{CLELAND_2007}
 E.E. Cleland, I.~Chuine, A.~Menzel, H.A. Mooney, and M.D. Schwartz.
@@ -107,6 +120,13 @@ X~Cui.
 \newblock Beyond yield response: Weather shocks and crop abandonment.
 \newblock {\em Journal of the Association of Environmental and Resource
   Economists}, 7(5):901--932, 2020.
+
+\bibitem{Diez2012}
+J.M. Diez, I.~Ibáñez, A.J. Miller‐Rushing, S.J. Mazer, T.M. Crimmins, M.A.
+  Crimmins, C.D. Bertelsen, and D.W. Inouye.
+\newblock Forecasting phenology: from species variability to community
+  patterns.
+\newblock {\em Ecology Letters}, 15(6):545–553, March 2012.
 
 \bibitem{DONMEZ_2023}
 C.~Donmez, M.~Schmidt, A.~Cilek, M.~Grosse, C.~Paul, W.~Hierold, and
@@ -143,6 +163,13 @@ M.S. Farooq, M.~Uzair, A.~Raza, M.~Habib, Y.~Xu, M.~Yousuf, S.H. Yang, and
 \newblock Uncovering the research gaps to alleviate the negative impacts of
   climate change on food security: a review.
 \newblock {\em Frontiers in plant science}, 13:927535, 2022.
+
+\bibitem{Felema_2024}
+S.~Felema, L.C. Garcia, J.A. Gomes, R.Z. Filho, É.P. Zeny, and A.F. Luchetti.
+\newblock Optimal timing of fungicide applications on maize, soybean, and beans
+  based on calendar and agrometeorological data.
+\newblock {\em New Zealand Journal of Agricultural Research}, 67(4):513--525,
+  2024.
 
 \bibitem{IPCC_2012}
 C.B. Field, V.~Barros, T.F. Stocker, D.~Qin, D.J. Dokken, K.L. Ebi, M.D.
@@ -184,6 +211,10 @@ A.~García-Mendoza.
 \newblock Distribution of agave (agavaceae) in mexico.
 \newblock 74:177–187, 2002.
 
+\bibitem{Gatto_2015}
+R.~Gatto and S.R. Jammalamadaka.
+\newblock Directional statistics: Introduction, March 2015.
+
 \bibitem{Ghamghami_2018}
 M.~Ghamghami, N.~Ghahreman, P.~Irannejad, and K.~Ghorbani.
 \newblock Comparison of data mining and gdd-based models in discrimination of
@@ -204,6 +235,12 @@ A.~Gordes, editor.
 \newblock Food and Agriculture Organization of the United Nations (FAO), Rome,
   Italy, 2nd edition, 2017.
 \newblock Accessed 26 February 2026.
+
+\bibitem{Gurney_1992}
+William S.~C. Gurney, Philip~H. Crowley, and Roger~M. Nisbet.
+\newblock Locking life-cycles onto seasons: Circle-map models of population
+  dynamics and local adaptation.
+\newblock {\em Journal of Mathematical Biology}, 30(3):251–279, January 1992.
 
 \bibitem{Hickling_1995}
 A.K. Hickling and S.A. Gelman.
@@ -326,6 +363,11 @@ N.V. Long, Y.~Assefa, R.~Schwalbert, and I.A. Ciampitti.
   us high-yielding contest-winner and field research data.
 \newblock {\em Frontiers in Plant Science}, 8, December 2017.
 
+\bibitem{Mardia1999}
+K.V. Mardia and P.E. Jupp.
+\newblock {\em Directional Statistics}.
+\newblock Wiley, January 1999.
+
 \bibitem{Mason_2018}
 S.~Mason, T.~Galusha, and Z.~Kmail.
 \newblock Planting date influence on yield of drought-tolerant maize with
@@ -344,6 +386,19 @@ S.~Materia, L.~Garc{\'\i}a~Palma, C.~van Straaten, S.~O, A.~Mamalakis,
 G.S. McMaster and W.W. Wilhelm.
 \newblock Growing degree-days: one equation, two interpretations.
 \newblock {\em Agricultural and Forest Meteorology}, 87(4):291--300, 1997.
+
+\bibitem{Meenken_2021}
+E.D. Meenken, C.M. Triggs, H.E. Brown, S.~Sinton, J.R. Bryant, A.D.L. Noble,
+  M.~Espig, M.~Sharifi, and D.M. Wheeler.
+\newblock Bayesian hybrid analytics for uncertainty analysis and real-time crop
+  management.
+\newblock {\em Agronomy Journal}, 113(3):2491--2505, 2021.
+
+\bibitem{Melaas2016}
+E.K. Melaas, M.A. Friedl, and A.D. Richardson.
+\newblock Multiscale modeling of spring phenology across deciduous forests in
+  the eastern united states.
+\newblock {\em Global Change Biology}, 22(2):792–805, January 2016.
 
 \bibitem{Miedaner_2021}
 T.~Miedaner and P.~Juroszek.
@@ -395,6 +450,13 @@ S.S. Narwal, S.~Poonia, and D.S. Singh, G.and~Malik.
 \newblock Influence of sowing dates on the growing degree days and phenology of
   winter maize (zea mays l.).
 \newblock {\em Agricultural and Forest Meteorology}, 38(1):47--57, 1986.
+
+\bibitem{Ogutu_2018}
+G.E.O. Ogutu, W.H.P. Franssen, I.~Supit, P.~Omondi, and R.W.A. Hutjes.
+\newblock Probabilistic maize yield prediction over east africa using dynamic
+  ensemble seasonal climate forecasts.
+\newblock {\em Agricultural and Forest Meteorology}, 250–251:243–261, March
+  2018.
 
 \bibitem{Olesen_2007}
 J.E. Olesen, T.R. Carter, C.H. Díaz-Ambrona, S.~Fronzek, T.~Heidmann,
@@ -494,6 +556,12 @@ F.T. Portmann, S.~Siebert, and P.~Döll.
   hydrological modeling.
 \newblock {\em Global Biogeochemical Cycles}, 24(1), 2010.
 
+\bibitem{Powell_2005}
+J.A. Powell and J.A. Logan.
+\newblock Insect seasonality: circle map analysis of temperature-driven life
+  cycles.
+\newblock {\em Theoretical Population Biology}, 67(3):161–179, May 2005.
+
 \bibitem{Rafique_2024}
 R.~Rafique, T.~Ahmad, M.A. Khan, M.~Ahmed, and G.~Hoogenboom.
 \newblock Developing a simple and efficient modeling solution for predicting
@@ -517,6 +585,11 @@ K.D. Rausch and R.L. Belyea.
 F.~Recknagel.
 \newblock Cyberinfrastructure for sourcing and processing ecological data.
 \newblock {\em Ecological Informatics}, 75:102039, 2023.
+
+\bibitem{Regniere_2013}
+J.~R{\'e}gni{\`e}re and J.A. Powell.
+\newblock {\em Animal Life Cycle Models (Poikilotherms)}, pages 295--316.
+\newblock Springer Netherlands, Dordrecht, 2013.
 
 \bibitem{Revilla_2022}
 P.~Revilla, M.L. Alves, V.~Andelković, C.~Balconi, I.~Dinis,
@@ -633,6 +706,12 @@ J.H. Thornley and I.R. Johnson.
 \newblock {\em Plant and crop modelling.}
 \newblock Oxford University Press, 1990.
 
+\bibitem{Tonnang_2018}
+Henri E.~Z. Tonnang, Dan Makumbi, and Peter Craufurd.
+\newblock Methodological approach for predicting and mapping the phenological
+  adaptation of tropical maize (zea mays l.) using multi-environment trials.
+\newblock {\em Plant Methods}, 14(1), December 2018.
+
 \bibitem{Trenberth_1983}
 K.E. Trenberth.
 \newblock What are the seasons?
@@ -657,6 +736,18 @@ N.~Verdugo-Vásquez, C.~Pañitrur-De~la Fuente, and S.~Ortega-Farías.
   thompson, crimson and superior seedless and red globe) using growing degree
   days.
 \newblock {\em OENO One}, 51(3), Sep. 2017.
+
+\bibitem{Viswanathan2022}
+M.~Viswanathan, A.~Scheidegger, T.~Streck, S.~Gayler, and T.K.D. Weber.
+\newblock Bayesian multi-level calibration of a process-based maize phenology
+  model.
+\newblock {\em Ecological Modelling}, 474:110154, December 2022.
+
+\bibitem{Viswanathan_2022}
+M.~Viswanathan, T.~K.~D. Weber, S.~Gayler, J.~Mai, and T.~Streck.
+\newblock A bayesian sequential updating approach to predict phenology of
+  silage maize.
+\newblock {\em Biogeosciences}, 19(8):2187--2209, 2022.
 
 \bibitem{Waggoner_1979}
 P.~E. Waggoner and W.~A. Norvell.
@@ -699,6 +790,13 @@ L.~Wu, Y.~Feng, L.and~Zhang, J.~Gao, and J.~Wang.
 \newblock Comparison of five wheat models simulating phenology under different
   sowing dates and varieties.
 \newblock {\em Agronomy Journal}, 109(4):1280--1293, 2017.
+
+\bibitem{Yang_2024}
+C.~Yang, N.~Lei, C.~Menz, A.~Ceglar, J.A. Torres-Matallana, S.~Li, Y.~Jiang,
+  X.~Tan, L.~Tao, F.~He, S.~Li, B.~Liu, F.~Yang, H.~Fraga, and J.A. Santos.
+\newblock Regional uncertainty analysis between crop phenology model structures
+  and optimal parameters.
+\newblock {\em Agricultural and Forest Meteorology}, 355:110137, August 2024.
 
 \bibitem{Yang_2004}
 H.S Yang, A.~Dobermann, J.L Lindquist, D.T. Walters, T.J. Arkebauer, and K.G

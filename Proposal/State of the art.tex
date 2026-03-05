@@ -67,7 +67,7 @@ El concepto de GDD fue formulado originalmente por René-Antoine Ferchault de R�
 
 Respecto al maíz, tanto a nivel global como a escala local, los modelos basados en GDD se han desarrollado con los objetivos de predecir la secuencia fenológica completa del cultivo; e.g., \cite{NARWAL_1986,Ghamghami_2018} o restringir la predicción a etapas específicas como la siembra, madurez fisiológica o la cosecha; e.g., \cite{Parker_2016,Iizumi_2019, Waha_2011, Pinto_2024}. Además de estudiar las diferencias en los eventos fenológicos entre  variedades de maíces o híbridos; e.g., \cite{Baum_2019,Mason_2018,Anandhi_2016}, evaluar cambios en la dinámica fenológica ante estresores como las sequías o las heladas ; e.g., \cite{Kim_2024,Kukal_2018, Zhou_2024} o determinar zonas con potencial productivo; e.g., \cite{Butler_2015, Li_2025_ML,vanBussel_2015}.\\
 
-Asimismo, estos enfoques se han integrado en plataformas de simulación agrícola de mayor complejidad; e.g., \cite{Angel_2017, Yang_2004}. En años recientes, los enfoques y las técnicas de la ciencia de datos han permitido mejorar su capacidad predictiva, a la par, manteniendo los objetivos agronómicos referentes a la modelación basada en GDD antes mencionados \cite{Ji_2026}.\\
+Asimismo, estos enfoques han sido integrados en plataformas de simulación agrícola de mayor complejidad; e.g., \cite{Angel_2017, Yang_2004}. En años recientes, la capacidad predictiva de estos modelos se ha fortalecido mediante la incorporación de técnicas de ciencia de datos que, manteniendo a los GDD como variable explicativa central, permiten representar indirectamente la incertidumbre fenológica, preservando al mismo tiempo los objetivos agronómicos asociados a los enfoques de modelación basados en tiempo térmico previamente descritos \cite{Ji_2026}.\\
 
 
 %Pruebas de hipótesis
@@ -85,7 +85,16 @@ Los modelos agrícolas basados en los GDD han sido implementados en campo, mostr
 
 Asimismo, por su construcción matemática, este enfoque supone una relación lineal entre el desarrollo fenológico y la temperatura, lo cual no refleja plenamente la complejidad de los procesos biológicos \cite{Klaring_2016}. Además, los modelos basados en este enfoque suelen ser específicos de la zona de cultivo y de sus condiciones climáticas, por lo que su extrapolación a otros contextos resulta limitada \cite{Makouate_2025}.\\
 
- 
+Como se mencionó previamente, los modelos basados en GDD predominan en la predicción fenológica y en la construcción de calendarios agrícolas. No obstante, la literatura ha reportado diversas alternativas metodológicas \cite{Yang_2024}. En lo subsecuente, se presentan algunos trabajos que prescinden del uso de GDD y que incorporan explícitamente la incertidumbre inherente al desarrollo de los cultivos mediante enfoques probabilísticos.\\ 
+
+%Yang_2024 más variantes deterministas
+
+La literatura referente a modelos estocásticos es aún limitada. No obstante, tanto a escala mundial como a nivel local, estos enfoques preservan los objetivos de estudiar la sucesión fenológica del cultivo en su totalidad; e.g., \cite{Franch_2022} o focalizar su análisis en alguna etapa específica del desarrollo; e.g., \cite{Ceglar2011,Diez2012, Meenken_2021, Melaas2016}.\\
+
+De igual manera, estos modelos se interesan por caracterizar la fenología de variedades o híbridos; e.g., \cite{Felema_2024}, estudiar cambios en la fenología causados por estresores; e.g., \cite{Ceglar2011,Ogutu_2018} o determinar zonas con potencial productivo; e.g., \cite{Tonnang_2018}. A los objetivos anteriores, los modelos probabilísticos incorporan además la calibración explícita de parámetros; e.g., \cite{Ceglar2011,Tonnang_2018,Viswanathan2022, Viswanathan_2022}.\\
+
+De los trabajos anteriores, destacamos el de Franch \textit{et al.} (2022) \cite{Franch_2022}, cuya metodología dota a los calendarios agrícolas de una estructura cíclica, en lugar de tratarlos como un sistema lineal de 365 días con principio y fin. Esta sutil modificación, junto con sus propiedades matemáticas subyacentes, reflejan con mayor fidelidad la naturaleza cíclica de los procesos biológicos \cite{Chuine_2017,Gatto_2015,Gurney_1992,Mardia1999,Powell_2005,Regniere_2013}.
+
 
 %Hablar de los probabilisticos de Franch
 

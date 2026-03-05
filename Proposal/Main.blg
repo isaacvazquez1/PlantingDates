@@ -5,79 +5,80 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-I was expecting a `,' or a `}'---line 321 of file Refs.bib
+I was expecting a `,' or a `}'---line 568 of file Refs.bib
  :  
  :  address={New York, U.S.A.}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1322 of file Refs.bib
+Repeated entry---line 1569 of file Refs.bib
  : @article{Liu_2025
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1638 of file Refs.bib
+Repeated entry---line 1885 of file Refs.bib
  : @article{Li_2025
  :                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1767 of file Refs.bib
+I was expecting a `,' or a `}'---line 2014 of file Refs.bib
  :  
  :  note={Tesis de maestría}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2302 of file Refs.bib
+I was expecting a `,' or a `}'---line 2549 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2393 of file Refs.bib
+I was expecting a `,' or a `}'---line 2640 of file Refs.bib
  :  
  :  DOI = {10.3390/agronomy8040037}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3473 of file Refs.bib
+Repeated entry---line 3720 of file Refs.bib
  : @article{Franch_2022
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in France_1984
 Warning--empty journal in García-Mendoza_2002
-You've used 118 entries,
+Warning--can't use both author and editor fields in Regniere_2013
+You've used 134 entries,
             2118 wiz_defined-function locations,
-            1320 strings with 30024 characters,
-and the built_in function-call counts, 46003 in all, are:
-= -- 4252
-> -- 2887
-< -- 6
-+ -- 1144
-- -- 1018
-* -- 3922
-:= -- 7969
-add.period$ -- 364
-call.type$ -- 118
-change.case$ -- 857
+            1421 strings with 33442 characters,
+and the built_in function-call counts, 52547 in all, are:
+= -- 4846
+> -- 3315
+< -- 7
++ -- 1314
+- -- 1170
+* -- 4502
+:= -- 9086
+add.period$ -- 411
+call.type$ -- 134
+change.case$ -- 979
 chr.to.int$ -- 0
-cite$ -- 120
-duplicate$ -- 1376
-empty$ -- 3093
-format.name$ -- 1018
-if$ -- 9189
+cite$ -- 137
+duplicate$ -- 1559
+empty$ -- 3528
+format.name$ -- 1170
+if$ -- 10491
 int.to.chr$ -- 0
-int.to.str$ -- 118
-missing$ -- 122
-newline$ -- 598
-num.names$ -- 246
-pop$ -- 677
+int.to.str$ -- 134
+missing$ -- 139
+newline$ -- 677
+num.names$ -- 278
+pop$ -- 787
 preamble$ -- 1
-purify$ -- 742
+purify$ -- 850
 quote$ -- 0
-skip$ -- 935
+skip$ -- 1064
 stack$ -- 0
-substring$ -- 2791
-swap$ -- 181
-text.length$ -- 6
+substring$ -- 3203
+swap$ -- 207
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 460
-warning$ -- 2
-while$ -- 353
-width$ -- 121
-write$ -- 1317
+type$ -- 520
+warning$ -- 3
+while$ -- 401
+width$ -- 137
+write$ -- 1490
 (There were 7 error messages)
