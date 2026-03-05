@@ -1,4 +1,4 @@
-Los cultivos anuales; i.e., aquellos que completan su ciclo de vida en, a lo más, un año \cite{SIMPSON_2010}, son altamente sensibles al clima \cite{FAO_2017}; en particular, se ven afectados por las tendencias a largo plazo de la temperatura y precipitación promedio, la variabilidad climática interanual, las perturbaciones durante el desarrollo de etapas fenológicas específicas y los eventos meteorológicos extremos   \cite{IPCC_2012}.\\
+Los cultivos anuales; i.e., aquellos que completan su ciclo de vida en, a lo más, un año \cite{SIMPSON_2010}, son altamente sensibles al clima \cite{FAO_2017}. En particular, se ven afectados por las tendencias a largo plazo de la temperatura y precipitación promedio, la variabilidad climática interanual, las perturbaciones durante el desarrollo de etapas fenológicas específicas y los eventos meteorológicos extremos   \cite{IPCC_2012}.\\
 
 
 En escenarios climáticos poco favorables para la industria agrícola, se ha observado la tendencia de abandonar las zonas de cultivo dado que los ingresos esperados no compensarían los costos asociados a la recolección \cite{Cui_2020}. Este fenómeno es más frecuente en países en desarrollo \cite{Chekenya_2023}; no obstante, las decisiones agrícolas pueden ajustarse ante la ocurrencia de estos eventos \cite{Cui_2020} al aludir, por ejemplo, a observaciones del comportamiento de la fauna y flora, experiencias previas y/o el  conocimiento ancestral  \cite{MUGINGENGA_2021}.\\
@@ -29,7 +29,7 @@ En este contexto, el presente trabajo se desarrolla para robustecer la categorí
 %Hablar de los estándares para construir calendarios 
 %Revisa Mo_2023 y Wu_2017
 
-Las interacciones entre las temperaturas y el lapso en que un organismo es expuesto a la luz solar diariamente \cite{CLELAND_2007}; es decir, el fotoperiodo, caracterizan eventos claves del ciclo de desarrollo en las plantas \cite{Tarascio_2026}; motivo por el cual suelen considerarse en diversos modelos agrícolas. Los efectos de estas interacciones son más notables en las plantas cuya fenología sucede, parcial o totalmente, durante la primavera \cite{Tarascio_2026}; por ejemplo, el maíz en Alemania \cite{Liu_2025, Parker_2017}. \\
+Las interacciones entre las temperaturas y el lapso en que un organismo es expuesto a la luz solar diariamente \cite{CLELAND_2007}; es decir, el fotoperiodo, caracterizan eventos claves del ciclo de desarrollo en las plantas \cite{Tarascio_2026}; motivo por el cual suelen considerarse en diversos modelos agrícolas. Los efectos de estas interacciones son más notables en las plantas cuya fenología sucede, parcial o totalmente, durante la primavera \cite{Tarascio_2026}; por ejemplo, el maíz en Alemania \cite{Liu_2025, Parker_2016}. \\
 
 
 Por una parte, el fotoperiodo es una señal abiótica con variabilidad predecible \cite{Li_2025} cuyos efectos en plantas pueden compensar el enfriamiento insuficiente del invierno y fungir como una barrera para limitar la expansión geográfica \cite{Tarascio_2026}. Por otra parte, las temperaturas intervienen en el desarrollo y la producción de las plantas \cite{BAHUGUNA_2015}, pero sus fluctuaciones tienden a ser más volátiles por lo que la predicción climática aún es un reto \cite{Krishnamurthy_2019, Materia_2024}.\\  
@@ -53,42 +53,40 @@ Finalmente, en el trabajo de Mitscherlich, E. (1909) \cite{Mitscherlich_1909} se
 % However, the scope of crop modelling has expanded. An important new motivation for crop modelling are questions regarding the impact of climate changeandincreasinghumanpopulationonfuturefoodsecu rity. Crop modelling has thus been applied to assess theavailability of additional land for agriculture (Fischer et al.,2002; Kenny et al., 2000), to investigate the impact of climate change on future land use (Alcamo et al., 1998) or on future economic welfare (Matsuoka et al., 2001; USGCRP, 2001).
 %        Stehfest
 
-La metodología desarrollada por Mitscherlich, E. (1909) \cite{Mitscherlich_1909} fue propuesta un contexto biológico general; no obstante, en particular, se ha empleado para estudiar y predecir la relación entre la fenología y el ambiente; e.g., \cite{CAMPILLAYLLANOS_2024, Rafique_2024, Verdugo-Vasquez_2017}. Esto se logra a través de considerar los grados día de crecimiento (GDD, por sus siglas en inglés) en las ecuaciones correspondientes \cite{Rafique_2024}; e.g., \cite{CAMPILLAYLLANOS_2024,France_1984, Thornley_1990, Verdugo-Vasquez_2017}. 
+La metodología desarrollada por Mitscherlich, E. (1909) \cite{Mitscherlich_1909} fue propuesta un contexto biológico general; no obstante, en particular, se ha empleado para estudiar y predecir la relación entre la fenología y el ambiente; e.g., \cite{CAMPILLAYLLANOS_2024, Rafique_2024, Verdugo-Vasquez_2017}. Esto se logra a través de considerar los grados día de crecimiento (GDD, por sus siglas en inglés) en las ecuaciones correspondientes \cite{Rafique_2024}; e.g., \cite{CAMPILLAYLLANOS_2024,France_1984, Thornley_1990, Verdugo-Vasquez_2017}.\\ 
 
-Los GDD son unidades térmicas 
-%%Growing degree days (GDD) from seeding were calculated using the equation first suggested by René-Antoine Ferchault de Réaumurin1730andagainpublishedbyMcMaster(1997)  and Moore and Remais (2014)
+La metodología de Mitscherlich, E. (1909) \cite{Mitscherlich_1909} se ha diversificado y generalizado \cite{Koya_2013}. No obstante, el papel de los GDD permanece vigente y ampliamente utilizado en la predicción fenológica de cultivos \cite{Ahmed_2026,KUBOTA_2016,PAREDES_2025, Poggi_2026,Rafique_2024, WINKLER_2013}, consolidándose como un referente metodológico estándar en el área \cite{AMARE_2023}.\\
 
-Y los resultados son buenos ya que 
-%The problem with timing these activities is that shoot growth phenology, by  definition, depends not on the calendar but rather on climate, air temperature in  particular (Ashton 1975, Dahl and Mork 1959, Hari and Leikola 1974, Lanner  1964, Mitscherlich and others 1973, Sarvas 1972, Worrall 1973)
+La progresión de las etapas fenológicas responde al clima y a no la cronología \textit{per se} \cite{Perala_1985}. En este sentido, los GDD son unidades de calor acumulado que miden la relación entre las condiciones térmicas disponibles en el entorno y los requerimientos térmicos necesarios pare que el cultivo manifieste a sus diversas etapas de desarrollo \cite{Anandhi_2016}.\\
 
-%\cite{Perala_1985}
+% temperatura ambiental promedio, los recursos térmicos disponibles,
 
 
-
-%In open-field crop production, this concept is called “growing degree days” or “heat unit” and is widely applied in predicting the phenology in crop production. 
-
-%2016, Plant Factory Chieri Kubota
-
-%GDDs are frequently used in agriculture to estimate planting times and approximate dates of crop development stages.
-
-%2013, Climate Vulnerability J.A. Winkler, ... C. Zavalloni
-
-%https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/growing-degree-day
+El concepto de GDD fue formulado originalmente por René-Antoine Ferchault de Réaumur en 1730 \cite{ Anandhi_2016, Giolo_2021}. Se ha profundizado en sus propiedades matemáticas \cite{MCMASTER_1997, YANG_1995} y desarrollado diversas variantes metodológicas teóricas \cite{ Elnesr_2013, Zhou_2018},cuya implementación en distintos cultivos ha sido exitosa, corroborando su utilidad en la predicción del desarrollo y la planificación agrícola, motivo por el cual ha sido adoptado por la FAO \cite{PAREDES_2025}.\\
 
 
- el contexto de crecimiento biológico
+Respecto al maíz, tanto a nivel global como a escala local, los modelos basados en GDD se han desarrollado con los objetivos de predecir la secuencia fenológica completa del cultivo; e.g., \cite{NARWAL_1986,Ghamghami_2018} o restringir la predicción a etapas específicas como la siembra, madurez fisiológica o la cosecha; e.g., \cite{Parker_2016,Iizumi_2019, Waha_2011, Pinto_2024}. Además de estudiar las diferencias en los eventos fenológicos entre  variedades de maíces o híbridos; e.g., \cite{Baum_2019,Mason_2018,Anandhi_2016}, evaluar cambios en la dinámica fenológica ante estresores como las sequías o las heladas ; e.g., \cite{Kim_2024,Kukal_2018, Zhou_2024} o determinar zonas con potencial productivo; e.g., \cite{Butler_2015, Li_2025_ML,vanBussel_2015}.\\
 
-Similares a la metodología propuesta por Mitscherlich, E. (1909) \cite{Mitscherlich_1909}, se han propuesto más metodologías para comprender el desarrollo biológico; e.g., . No obstante, Koya \textit{et al.} (2013) \cite{Koya_2013} las generalizó    que tales metodologías  es un caso particular de 
-
-
+Asimismo, estos enfoques se han integrado en plataformas de simulación agrícola de mayor complejidad; e.g., \cite{Angel_2017, Yang_2004}. En años recientes, los enfoques y las técnicas de la ciencia de datos han permitido mejorar su capacidad predictiva, a la par, manteniendo los objetivos agronómicos referentes a la modelación basada en GDD antes mencionados \cite{Ji_2026}.\\
 
 
-% \cite{Giolo_2021}
+%Pruebas de hipótesis
+%regresiones polinomiales
+%The C5.0 algorithm is a widely-used decision tree and rule-based classification algorithm developed by Ross Quinlan
+%Regresiones no lineales
+% k-nearest neighbors (KNN) and extreme gradient boosting (XGBoost)
+%random forest regression models
+%Least Absolute Shrinkage and Selection Operator, Support Vector Regression, Random Forest, and Long Short-Term Memory Network (LSTM) 
 
 
-No obstante, en trabajos previos como los de Elnesr \textit{et al.} \cite{Elnesr_2016, Elnesr_2013} se han desarrollado metodologías deterministas para pronosticar temporadas óptimas para la siembra de distintos tipos de cultivos, principalmente anuales. Lo anterior, basándose en el concepto de unidades de calor, donde el sistema de unidades de calor se basa en la acumulación promedio de las temperaturas diarias y los umbrales de temperatura respectivos al tipo de cultivo \cite{Chen_1973}.\\
+%Limitaciones de GDD según Advances in Growing Degree Days Models for Flowering to Harvest: Optimizing Crop Management with Methods of Precision Horticulture—A Review Helene Fotouo Makouate
 
-Similarmente, existen más metodologías que basan su análisis únicamente en datos de temperaturas; por ejemplo, los trabajos de Flores--Gallardo \textit{et al.} (2012) \cite{Flores-Gallardo_2012}, Narayan \textit{et al.} (2014) \cite{Narayan_2014} y Callejas--Rodríguez \textit{et al.} (2023) \cite{Callejas-Rodriguez_2023}. Más aún, tales metodologías han sido aplicadas en zonas de cultivo para evaluar su efectividad y comparar los resultados que se obtienen con la implementación de las distintas metodologías.\\
+%Hablar de los probabilisticos de Franch
+
+%Fechas fijas
+
+
+
 
 \iffalse
 

@@ -5,83 +5,79 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-I was expecting a `,' or a `}'---line 87 of file Refs.bib
+I was expecting a `,' or a `}'---line 261 of file Refs.bib
  :  
  :  address={New York, U.S.A.}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 927 of file Refs.bib
+Repeated entry---line 1262 of file Refs.bib
  : @article{Liu_2025
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1243 of file Refs.bib
+Repeated entry---line 1578 of file Refs.bib
  : @article{Li_2025
  :                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1372 of file Refs.bib
+I was expecting a `,' or a `}'---line 1707 of file Refs.bib
  :  
  :  note={Tesis de maestría}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1907 of file Refs.bib
+I was expecting a `,' or a `}'---line 2242 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1998 of file Refs.bib
+I was expecting a `,' or a `}'---line 2333 of file Refs.bib
  :  
  :  DOI = {10.3390/agronomy8040037}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3078 of file Refs.bib
+Repeated entry---line 3413 of file Refs.bib
  : @article{Franch_2022
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in France_1984
 Warning--empty journal in García-Mendoza_2002
-Warning--empty booktitle in Hatfield_2017
-Warning--empty title in Kearns_1998
-Warning--can't use both author and editor fields in Langridge_2022
-Warning--can't use both author and editor fields in Surowka_2020
-You've used 197 entries,
+You've used 112 entries,
             2118 wiz_defined-function locations,
-            1841 strings with 47967 characters,
-and the built_in function-call counts, 81075 in all, are:
-= -- 7490
-> -- 5395
-< -- 22
-+ -- 2136
-- -- 1926
-* -- 6953
-:= -- 14027
-add.period$ -- 612
-call.type$ -- 197
-change.case$ -- 1534
+            1280 strings with 28635 characters,
+and the built_in function-call counts, 43942 in all, are:
+= -- 4055
+> -- 2774
+< -- 6
++ -- 1099
+- -- 980
+* -- 3747
+:= -- 7613
+add.period$ -- 346
+call.type$ -- 112
+change.case$ -- 820
 chr.to.int$ -- 0
-cite$ -- 203
-duplicate$ -- 2365
-empty$ -- 5217
-format.name$ -- 1926
-if$ -- 16142
+cite$ -- 114
+duplicate$ -- 1311
+empty$ -- 2945
+format.name$ -- 980
+if$ -- 8779
 int.to.chr$ -- 0
-int.to.str$ -- 197
-missing$ -- 207
-newline$ -- 996
-num.names$ -- 414
-pop$ -- 1277
+int.to.str$ -- 112
+missing$ -- 116
+newline$ -- 568
+num.names$ -- 234
+pop$ -- 652
 preamble$ -- 1
-purify$ -- 1346
+purify$ -- 711
 quote$ -- 0
-skip$ -- 1614
+skip$ -- 889
 stack$ -- 0
-substring$ -- 4703
-swap$ -- 352
-text.length$ -- 22
+substring$ -- 2659
+swap$ -- 175
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 764
-warning$ -- 6
-while$ -- 625
-width$ -- 200
-write$ -- 2206
+type$ -- 436
+warning$ -- 2
+while$ -- 334
+width$ -- 115
+write$ -- 1251
 (There were 7 error messages)
