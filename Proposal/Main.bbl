@@ -50,6 +50,15 @@ R.~Bernal-Morales, J.P. Juárez-Sánchez, B.~Ramírez-Valverde,
   eastern region of puebla, mexico.
 \newblock {\em Agrociencia}, page 1–16, August 2025.
 
+\bibitem{Biavetti_2014}
+I.~Biavetti, S.~Karetsos, A.~Ceglar, A.~Toreti, and P.~Panagos.
+\newblock European meteorological data: contribution to research, development,
+  and policy support.
+\newblock In Diofantos~G. Hadjimitsis, Kyriacos Themistocleous, Silas
+  Michaelides, and Giorgos Papadavid, editors, {\em Second International
+  Conference on Remote Sensing and Geoinformation of the Environment
+  (RSCy2014)}, volume 9229, page 922907. SPIE, August 2014.
+
 \bibitem{Butler_2015}
 E.E Butler and P.~Huybers.
 \newblock Variations in the sensitivity of us maize yield to extreme
@@ -157,6 +166,11 @@ O.~Erenstein, M.~Jaleta, K.~Sonder, K.~Mottaleb, and B.M. Prasanna.
   implications.
 \newblock {\em Food Security}, 14(5):1295–1319, May 2022.
 
+\bibitem{Eurostat_NUTS}
+{Eurostat, European Commission}.
+\newblock Territorial units for statistics (nuts) – gisco geodata, 2026.
+\newblock Accessado el 06 de marzo, 2026.
+
 \bibitem{Farooq_2022}
 M.S. Farooq, M.~Uzair, A.~Raza, M.~Habib, Y.~Xu, M.~Yousuf, S.H. Yang, and
   M.~Ramzan~Khan.
@@ -205,6 +219,14 @@ B.~Franch, J.~Cintas, I.~Becker-Reshef, M.J. Sanchez-Torres, J.~Roger,
 \newblock Global crop calendars of maize and wheat in the framework of the
   worldcereal project.
 \newblock {\em GIScience \& Remote Sensing}, 59(1):885--913, 2022.
+
+\bibitem{GarciaTejera_2022}
+O.~Garcia-Tejera, R.~Marcos-Matamoros, B.~Basile, A.~Mataffo, P.~Scognamiglio,
+  H.~Prieto, L.~Mancha, I.~Cabral, J.~Queiroz, J.~Valente, F.~Alves,
+  N.~González-Reviriego, S.~Hernández-Barrera, M.~Mata, and J.~Girona.
+\newblock A method for using monthly average temperatures in phenology models
+  for grapevine (vitis vinifera l.).
+\newblock {\em OENO One}, 56(4):173–182, November 2022.
 
 \bibitem{García-Mendoza_2002}
 A.~García-Mendoza.
@@ -266,6 +288,11 @@ Z.~Ji, Y.~Pan, X.~Zhu, and E.S. Adem.
 \newblock Combining multi-source data, phenology information, and machine
   learning approaches to estimate crop yield in the united states.
 \newblock {\em Field Crops Research}, 336:110219, February 2026.
+
+\bibitem{Agri4Cast_2026}
+{Joint Research Centre of the European Commission}.
+\newblock Agri4cast data portal, 2026.
+\newblock Accesado el 19 de febrero, 2026.
 
 \bibitem{Jungk_2009}
 A.~Jungk.
@@ -473,6 +500,11 @@ Q.~Orozco-Ramírez, H.~Perales, and R.J. Hijmans.
   mays) races in mexico.
 \newblock {\em Genetic Resources and Crop Evolution}, 64(5):855–865, April
   2016.
+
+\bibitem{PEP725}
+{Pan European Phenology Network}.
+\newblock Pep725 data selection portal, 2025.
+\newblock Accessed: 2026-03-06.
 
 \bibitem{Parajuli_2019}
 R.~Parajuli, G.~Thoma, and M.D. Matlock.
@@ -700,6 +732,16 @@ M.~Tarascio, L.~Brancaleoni, A.~Cazzavillan, M.~Cutini, R.~Gerdol, and
 \newblock {\em Journal of Biogeography}, 53(1):e70113, 2026.
 \newblock e70113 7724405.
 
+\bibitem{Templ_2018}
+B.~Templ, E.~Koch, K.~Bolmgren, M.~Ungersböck, A.~Paul, H.~Scheifinger,
+  T.~Rutishauser, M.~Busto, F.-M. Chmielewski, L.~Hájková, S.~Hodzić,
+  F.~Kaspar, B.~Pietragalla, R.~Romero-Fresneda, A.~Tolvanen, V.~Vučetič,
+  K.~Zimmermann, and A.~Zust.
+\newblock Pan european phenological database (pep725): a single point of access
+  for european data.
+\newblock {\em International Journal of Biometeorology}, 62(6):1109–1113,
+  February 2018.
+
 \bibitem{Thompson_2006}
 R.~Thompson and R.M. Clark.
 \newblock Spatio-temporal modelling and assessment of within-species
@@ -831,6 +873,12 @@ M.~Yaseen, S.E. Saqib, F.~Zulfiqar, S.~Ali, and S.~Visetnoi.
 \newblock Farmers' decisions under climate change: A field level empirical
   investigation of climate risk management strategies.
 \newblock {\em Sustainable Futures}, 10:101390, 2025.
+
+\bibitem{Zhang_2025}
+Q.-J. Zhang, D.-L. Wu, Y.-C. Zhu, C.~Liu, and D.-S. Yang.
+\newblock A long-term dataset of maize phenology observations from
+  agrometeorological stations in northeast china (1981–2024).
+\newblock {\em Scientific Data}, 12(1), November 2025.
 
 \bibitem{Zhang_2022}
 Y.~Zhang, J.~Liu, L.~Guan, D.~Fan, F.~Xia, A.~Wang, Y.~Bao, and Y.~Xu.

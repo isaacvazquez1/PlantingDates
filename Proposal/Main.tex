@@ -33,8 +33,10 @@
 \usepackage{array, booktabs, tabularx}
 
 % Figurer og farver
-\usepackage{graphicx, caption, subfig, xcolor}
+\usepackage{graphicx, caption, subfig}
 \captionsetup{font=small,labelfont=bf}
+
+\usepackage[table]{xcolor}
 %--------------------------------------------------------
 %Her sættes sidehoved og sidefod. Skriv dit eget n ind.
 %--------------------------------------------------------
@@ -88,6 +90,24 @@ Dra. Magali Arellano Vázquez y M. en C. Isaac Vázquez Mendoza
 \usepackage{enumitem}
 \setlist[itemize]{noitemsep}
 \usepackage{longtable}
+
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
+
+
+\definecolor{veg}{RGB}{255,230,120}
+\definecolor{plant}{RGB}{170,220,170}
+\definecolor{rip}{RGB}{255,180,180}
+
+\newcommand{\p}{\cellcolor{plant}1}
+\newcommand{\des}{\cellcolor{veg}2}
+\newcommand{\cose}{\cellcolor{rip}3}
+
+
+%Dirección de la imágenes
+\graphicspath{ {Images/} }
+
 
 \begin{document}%Her begynder indholdet af dokumentet.
 \thispagestyle{firstpagestyle}

@@ -1,1 +1,62 @@
-[Under construction]
+Según la ubicación geográfica y el cultivo a producir, los calendarios agrícolas consideran tanto las condiciones ambientales como los requerimientos agroclimáticos necesarios para el desarrollo del cultivo de interés, ambos, para caracterizar los eventos fenológicos en función del entorno regional \cite{Zhang_2025}. De esta manera, es posible sincronizar los manejos y procesos agrícolas con la fenología del cultivo \cite{GarciaTejera_2022}.
+
+Para la Unión Europea, el Joint Research Centre (JRC) ha desarrollado la plataforma web AGRI4CAST (\url{https://agri4cast.jrc.ec.europa.eu/dataportal}). Esta es una herramienta de dominio público que condensa datos agrometerológicos para propósitos de investigación y el desarrollo de políticas públicas \cite{Biavetti_2014}.\\
+
+A través de su unidad de seguridad alimentaria, el JRC ha reportado los calendarios agrícolas de 28 países para el maíz; en particular para Alemania, ver Tabla \ref{CropCalendarGermany}. De acuerdo con el JRC \cite{Agri4Cast_2026}, dichos calendarios se encuentran a una resolución por países y por regiones socio-económicas grandes clasificados dentro de la nomenclatura de unidades territoriales para estadísticas (NUTS, por siglas en inglés) como  NUTS 0 y NUTS 1, respectivamente \cite{Eurostat_NUTS}.\\
+
+
+\begin{table}[ht]
+	\centering
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{cccccccccccccccccccccccccc}
+			\cline{1-25}
+			 \multicolumn{24}{c}{\textbf{Quincenas mensuales del año}} \\ \hline     
+			& \textbf{E-I} & \textbf{E-II} & \textbf{F-I} & \textbf{F-II} & \textbf{M-I} & \textbf{M-II}
+			& \textbf{Ab-I} & \textbf{Ab-II}
+			& \textbf{M-I} & \textbf{M-II}
+			& \textbf{Jun-I} & \textbf{Jun-II}
+			& \textbf{Jul-I} & \textbf{Jul-II}
+			& \textbf{Ag-I} & \textbf{Ag-II}
+			& \textbf{S-I} & \textbf{S-II}
+			& \textbf{O-I} & \textbf{O-II}
+			& \textbf{N-I} & \textbf{N-II}
+			& \textbf{D-I} & \textbf{D-II} \\ \hline
+			
+			
+			& - & - & - & - & - & \p & \p & \des & \des & \des & \des & \des & \des & \des & \des & \des & \des & \cose & \cose & \cose & \cose & - & - & - \\ \hline
+			
+	\end{tabular}}
+\caption{Calendario agrícola para el cultivo del maíz en Alemania. Extracto y traducción de los calendarios agrícolas del maíz para los países miembros de la Unión Europea en resolución NUTS 0 y NUTS 1 \cite{Agri4Cast_2026}. Las celdas en color verde y etiquetadas con el número uno indican los periodos de plantación a etapas vegetativas tempranas, las celdas en color amarillo y etiquetadas con el número dos indican las etapas vegetativas a reproductivas del cultivo y, finalmente, las celdas en color rojo y etiquetadas con el número tres señalan los periodos de maduración a cosecha; mientras que las celdas en color blanco y etiquetadas por un guion señal el periodo fuera de la temporada agrícola.}
+\label{CropCalendarGermany}
+\end{table}
+
+Para el caso de Alemania, este calendario se muestra con resolución NUTS 0 únicamente; asimismo, considera fechas fijas y presenta información actualizada hasta 2015 \cite{Agri4Cast_2026}. Por tanto, posee tanto las ventajas como las limitaciones discutidas en la revisión del estado del arte para los calendarios agrícolas basados en información local.\\
+
+Resaltando que, por una parte, es un calendario que reporta información oficial que proviene de un organismo internacional. Y, por otra parte, a consecuencia de su resolución, carece de especificidad geográfica lo que, potencialmente, enmascara las variaciones particulares de cada región.\\
+
+El proyecto Fenología Paneuropea 725 (PEP725, por sus siglas en inglés) alberga bases de datos fenológicas para promover el desarrollo científico y educativo \cite{Templ_2018}. De esta manera, la base datos que concierne al cultivo de maíz en Alemania reporta datos históricos desde 1951 hasta 2015 \cite{PEP725}.\\
+
+Al analizar la base datos de fechas de siembra que se reportan a través del proyecto PEP725 y contrastarlos con el calendario agrícola descrito por el JRC se observa una clara discrepancia, ver Fig. \ref{Historical_VS_theoretical}. Las fechas de siembra teóricas anteceden al periodo de fechas que se emplean en el campo para llevar a cabo la siembra del maíz.\\
+
+\begin{figure}[ht]
+	\includegraphics{Sowing_dates_VS_Crop_calendar.eps}
+	\caption{Comparativa entre las fechas de siembra históricas y las fechas de siembra del calendario agrícola teórico. Las líneas punteadas en color rojo denotan el día número 74 y 105 del año que corresponden al inicio y fin del periodo de siembra, respectivamente, que comprende desde la segunda mitad de marzo hasta la primera mitad de abril \cite{Agri4Cast_2026}. Los puntos en color negro indican que las fechas en las que se llevó a cabo, al menos, una siembra de maíz dentro de Alemania en el periodo de 1951 a 2015 \cite{PEP725}.}
+	\label{Historical_VS_theoretical}
+\end{figure}
+
+Más aún, a lo largo de los 64 años reportados, solo se han registrado siembras en 3654 días distintos de los 23360 disponibles acumulados. Por otra parte, únicamente en 847 veces se han llevado siembras dentro del periodo teórico, implicando que el $76.82\%$ de las fechas se encuentra fuera del periodo reportado oficialmente. Específicamente, en el campo, la siembra del maíz tiende a ser posterior al final de la temporada de siembra que se comunica en el calendario agrícola teórico.\\
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=.7\textwidth]{Sowing_dates_Distributions_VS_Crop_calendar}
+	\caption{Comparativa entre el periodo de fechas de siembra del calendario agrícola teórico y las distribuciones anuales de las fechas de siembra históricas. Las líneas punteadas en color rojo denotan el día número 74 y 105 del año que corresponden al inicio y fin del periodo de siembra, respectivamente, que comprende desde la segunda mitad de marzo hasta la primera mitad de abril \cite{Agri4Cast_2026}. Mientras que en escala de colores se visualizan las estimaciones por KDE de las distribuciones de fechas de siembra por año.}
+	\label{Historical_Distributions_VS_theoretical}
+\end{figure}
+
+
+En la Fig. \ref{Historical_VS_theoretical}, el análisis presentado en la  es binario en el sentido de que si en una fecha dada no se ha registrado alguna siembra, esta se mantiene en color blanco; mientras que, si se ha registrado una o más siembras, dicha fecha se muestra en color negro. Al hacer distinción sobre el número de siembras realizadas en las diversas fechas obtenemos una perspectiva más amplia, ver Fig. \ref{Historical_Distributions_VS_theoretical}. 
+
+Al estimar las distribuciones de las fechas de siembra reportadas anualmente, a través del método Kernel Density Estimation (KDE) implementado a través de JoyPy, puede apreciarse que, en general, son insesgadas. Por tanto, se verifica que el periodo de fechas de siembra teóricas culmina previo al periodo de siembra real.\\ 
+
+El efecto del cambio climático sobre la sincronía entre los eventos fenológicos con los procesos agrícolas es diverso \cite{}. Induciendo tres escenarios posibles únicamente: adelantar, mantener o retrasar dicha sincronía. 
