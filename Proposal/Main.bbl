@@ -1,5 +1,10 @@
 \begin{thebibliography}{100}
 
+\bibitem{Agrama_1996}
+H.A.S. Agrama.
+\newblock Sequential path analysis of grain yield and its components in maize.
+\newblock {\em Plant Breeding}, 115(5):343--346, 1996.
+
 \bibitem{Ahmed_2026}
 M.~Ahmed, A.~Sameen, and A.M.S. Kheir.
 \newblock Warming trends and shortened growing seasons: integrating four
@@ -59,6 +64,11 @@ I.~Biavetti, S.~Karetsos, A.~Ceglar, A.~Toreti, and P.~Panagos.
   Conference on Remote Sensing and Geoinformation of the Environment
   (RSCy2014)}, volume 9229, page 922907. SPIE, August 2014.
 
+\bibitem{Bruns_2006}
+H.~Arnold Bruns and H.~K. Abbas.
+\newblock Planting date effects on bt and non-bt corn in the mid-south usa.
+\newblock {\em Agronomy Journal}, 98(1):100--106, 2006.
+
 \bibitem{Butler_2015}
 E.E Butler and P.~Huybers.
 \newblock Variations in the sensitivity of us maize yield to extreme
@@ -112,6 +122,12 @@ I.~Chuine and J.~Régnière.
 \newblock {\em Annual Review of Ecology, Evolution, and Systematics}, 48(Volume
   48, 2017):159--182, 2017.
 
+\bibitem{Clark_2026}
+E.I. Clark, M.A. Moore, C.K. Khoury, B.S. Hulke, N.C. Kane, and S.C. Elmendorf.
+\newblock Climate drives variation in optimal phenology: 46 years of
+  multi-environment trials in sunflower.
+\newblock {\em New Phytologist}, 249(3):1527--1541, 2026.
+
 \bibitem{CLELAND_2007}
 E.E. Cleland, I.~Chuine, A.~Menzel, H.A. Mooney, and M.D. Schwartz.
 \newblock Shifting plant phenology in response to global change.
@@ -136,6 +152,13 @@ J.M. Diez, I.~Ibáñez, A.J. Miller‐Rushing, S.J. Mazer, T.M. Crimmins, M.A.
 \newblock Forecasting phenology: from species variability to community
   patterns.
 \newblock {\em Ecology Letters}, 15(6):545–553, March 2012.
+
+\bibitem{DJAMAN_2022}
+Koffi Djaman, Samuel Allen, Dorlote~S. Djaman, Komlan Koudahe, Suat Irmak,
+  Naveen Puppala, Murali~K. Darapuneni, and Sangamesh~V. Angadi.
+\newblock Planting date and plant density effects on maize growth, yield and
+  water use efficiency.
+\newblock {\em Environmental Challenges}, 6:100417, 2022.
 
 \bibitem{DONMEZ_2023}
 C.~Donmez, M.~Schmidt, A.~Cilek, M.~Grosse, C.~Paul, W.~Hierold, and
@@ -394,6 +417,12 @@ N.V. Long, Y.~Assefa, R.~Schwalbert, and I.A. Ciampitti.
 K.V. Mardia and P.E. Jupp.
 \newblock {\em Directional Statistics}.
 \newblock Wiley, January 1999.
+
+\bibitem{Maresma_2019}
+A.~Maresma, A.~Ballesta, F.~Santiveri, and J.~Lloveras.
+\newblock Sowing date affects maize development and yield in irrigated
+  mediterranean environments.
+\newblock {\em Agriculture}, 9(3):67, March 2019.
 
 \bibitem{Mason_2018}
 S.~Mason, T.~Galusha, and Z.~Kmail.
@@ -699,6 +728,13 @@ C.~Sprengel.
 \newblock {\em Journal for Technische and Okonomische Chemie}, 2:397--421,
   1828.
 
+\bibitem{Staggenborg_1999}
+S.A. Staggenborg, D.L. Fjell, D.L. Devlin, W.B. Gordon, L.D. Maddux, and B.H.
+  Marsh.
+\newblock Selecting optimum planting dates and plant populations for dryland
+  corn in kansas.
+\newblock {\em Journal of Production Agriculture}, 12(1):85--90, 1999.
+
 \bibitem{STEHFEST_2007}
 E.~Stehfest, Heistermann, Joerg~A. Priess, Dennis~S. Ojima, and Joseph Alcamo.
 \newblock Simulation of global crop production with the ecosystem model
@@ -778,6 +814,12 @@ L.~G.~J. van Bussel, E.~Stehfest, S.~Siebert, C.~M\"{u}ller, and F.~Ewert.
   global scale.
 \newblock {\em Global Ecology and Biogeography}, 24(9):1018–1029, July 2015.
 
+\bibitem{vanOort_2017}
+P.A.J. van Oort and S.J. Zwart.
+\newblock Impacts of climate change on rice production in africa and causes of
+  simulated yield changes.
+\newblock {\em Global Change Biology}, 24(3):1029–1045, December 2017.
+
 \bibitem{Verdugo-Vasquez_2017}
 N.~Verdugo-Vásquez, C.~Pañitrur-De~la Fuente, and S.~Ortega-Farías.
 \newblock Model development to predict phenological scale of table grapes (cvs.
@@ -820,6 +862,13 @@ J.~Wang, Y.~Guan, L.~Wu, X.~Guan, W.~Cai, J.~Huang, W.~Dong, and B.~Zhang.
 \newblock {\em Geophysical Research Letters}, 48(6):e2020GL091753, 2021.
 \newblock e2020GL091753 2020GL091753.
 
+\bibitem{Wang_2025}
+J.~Wang, L.~Zhao, B.-Z. Wang, F.~Mo, N.~Wang, S.-T. Liu, Y.~Song, A.-T. Ren,
+  F.-J. Mei, Y.~Wang, Q.~Lu, and Y.-C. Xiong.
+\newblock Plastic film mulching ensures maize climate resilience: A perspective
+  of temperature suitability and optimal sowing period window.
+\newblock {\em Soil and Tillage Research}, 252:106611, October 2025.
+
 \bibitem{Whitcraft_2015}
 A.K. Whitcraft, I.~Becker-Reshef, and C.O. Justice.
 \newblock Agricultural growing season calendars derived from modis surface
@@ -845,6 +894,12 @@ C.~Yang, N.~Lei, C.~Menz, A.~Ceglar, J.A. Torres-Matallana, S.~Li, Y.~Jiang,
 \newblock Regional uncertainty analysis between crop phenology model structures
   and optimal parameters.
 \newblock {\em Agricultural and Forest Meteorology}, 355:110137, August 2024.
+
+\bibitem{Yang_2021}
+H.~Yang, S.~Ranjitkar, W.~Xu, L.~Han, J.~Yang, L.~Wu, and J.~Xu.
+\newblock Crop-climate model in support of adjusting local ecological calendar
+  in the taxkorgan, eastern pamir plateau.
+\newblock {\em Climatic Change}, 167(3–4), August 2021.
 
 \bibitem{Yang_2004}
 H.S Yang, A.~Dobermann, J.L Lindquist, D.T. Walters, T.J. Arkebauer, and K.G
@@ -897,5 +952,11 @@ L.~Zhou, X.~Han, Q.~Yang, H.~Feng, and K.H.M. Siddique.
 \newblock Optimizing sowing date to mitigate loss of growing degree days and
   enhance crop water productivity of groundwater-irrigated spring maize.
 \newblock {\em Agricultural Water Management}, 305:109097, December 2024.
+
+\bibitem{Zhu_2022}
+G.~Zhu, Z.~Liu, S.~Qiao, Z.~Zhang, Q.~Huang, Z.~Su, and X.~Yang.
+\newblock How could observed sowing dates contribute to maize potential yield
+  under climate change in northeast china based on apsim model.
+\newblock {\em European Journal of Agronomy}, 136:126511, May 2022.
 
 \end{thebibliography}

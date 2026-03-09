@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  6 MAR 2026 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  9 MAR 2026 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,27 +1396,69 @@ raphic file (type pdf)
 Package pdftex.def Info: Images/Sowing_dates_Distributions_VS_Crop_calendar-eps
 -converted-to.pdf  used on input line 52.
 (pdftex.def)             Requested size: 330.39856pt x 412.36842pt.
- [13 <./Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+[13 <./Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
+[14 <./Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
-LaTeX Warning: Citation `' on page 14 undefined on input line 62.
+ []
 
-) [14 <./Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pd
-f>] [15] (Main.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+[15]) [16] (Main.bbl
 bibitemlist
-[16
+[17
 
-] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26])
+] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28])
 
 Class memoir Warning: The material used in the headers is too large
 (77.33434pt) for the given head height (56.9055pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 215.
 
-[27] (Main.aux
+[29] (Main.aux
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
 )
@@ -1424,18 +1466,14 @@ LaTeX Info: Redefining \% on input line 47.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: B5B5780C94218D57334628B5B63C4824;929.
  ) 
 Here is how much of TeX's memory you used:
- 22909 strings out of 474824
- 427381 string characters out of 5750976
+ 22931 strings out of 474824
+ 427681 string characters out of 5750976
  1944043 words of memory out of 5000000
- 44350 multiletter control sequences out of 15000+600000
+ 44360 multiletter control sequences out of 15000+600000
  614341 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,12n,93p,962b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1448,9 +1486,9 @@ b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><
 C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><
 C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (27 pages, 868657 bytes).
+Output written on Main.pdf (29 pages, 880730 bytes).
 PDF statistics:
- 701 PDF objects out of 1000 (max. 8388607)
- 191 named destinations out of 1000 (max. 500000)
+ 752 PDF objects out of 1000 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
  67 words of extra memory for PDF output out of 10000 (max. 10000000)
 

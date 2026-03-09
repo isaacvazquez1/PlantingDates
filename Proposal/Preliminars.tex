@@ -55,8 +55,26 @@ Más aún, a lo largo de los 64 años reportados, solo se han registrado siembra
 \end{figure}
 
 
-En la Fig. \ref{Historical_VS_theoretical}, el análisis presentado en la  es binario en el sentido de que si en una fecha dada no se ha registrado alguna siembra, esta se mantiene en color blanco; mientras que, si se ha registrado una o más siembras, dicha fecha se muestra en color negro. Al hacer distinción sobre el número de siembras realizadas en las diversas fechas obtenemos una perspectiva más amplia, ver Fig. \ref{Historical_Distributions_VS_theoretical}. 
+En la Fig. \ref{Historical_VS_theoretical}, el análisis presentado es binario en el sentido de que si en una fecha dada no se ha registrado alguna siembra, esta se mantiene en color blanco; mientras que, si se ha registrado una o más siembras, dicha fecha se muestra en color negro. Al hacer distinción sobre el número de siembras realizadas en las diversas fechas obtenemos una perspectiva más amplia, ver Fig. \ref{Historical_Distributions_VS_theoretical}.\\ 
 
-Al estimar las distribuciones de las fechas de siembra reportadas anualmente, a través del método Kernel Density Estimation (KDE) implementado a través de JoyPy, puede apreciarse que, en general, son insesgadas. Por tanto, se verifica que el periodo de fechas de siembra teóricas culmina previo al periodo de siembra real.\\ 
+Al estimar las distribuciones de las fechas de siembra reportadas anualmente, a través del método Kernel Density Estimation (KDE) implementado a través de JoyPy, puede apreciarse que, en general, son insesgadas. Por tanto, se verifica que el periodo de fechas de siembra teóricas culmina previo al periodo en el cual se realiza la siembra realmente.\\ 
 
-El efecto del cambio climático sobre la sincronía entre los eventos fenológicos con los procesos agrícolas es diverso \cite{}. Induciendo tres escenarios posibles únicamente: adelantar, mantener o retrasar dicha sincronía. 
+Ante cambios en el clima, la conjunción entre el conocimiento local y los modelos agrícolas puede ser un auxiliar en el apropiado ajuste de los manejos agrícolas \cite{vanOort_2017,Yang_2021}. Por otra parte, el efecto del cambio climático sobre la sincronía entre los eventos fenológicos con los procesos agrícolas es diverso \cite{Clark_2026,DJAMAN_2022, Maresma_2019, Mason_2018, Staggenborg_1999, Zhu_2022} induciendo, únicamente, tres escenarios posibles: adelantar, mantener o retrasar dicha sincronía.\\ 
+
+La migración hacia fechas previas a las usuales puede resultar beneficioso al evitar condiciones estresantes asociadas a temporadas más cálidas \cite{Clark_2026}. Asimismo, en algunas regiones, la plantación temprana de maíz tuvo un efecto en el incremento de la cosecha \cite{Mason_2018, Staggenborg_1999}. No obstante, en este escenario, es posible que las plantas demoren más tiempo para emerger a la par de reducir la densidad poblacional del cultivo \cite{Maresma_2019}.\\
+
+
+En comparación, optar por fechas posteriores expone a condiciones más cálidas a los cultivo, especialmente en zonas en donde el comienzo de la temporada de heladas se ha retrasado \cite{Clark_2026}. De igual manera, puede favorecer que la maduración del maíz ocurra en menor tiempo, se obtengan granos con mayor humedad y plantas más altas \cite{DJAMAN_2022,Maresma_2019, Zhou_2018}. Sin embargo, bajo este manejo agrícola, se ha reportado una baja en la producción de algunas variantes o híbridos del maíz \cite{Mason_2018, Staggenborg_1999,Zhu_2022}.\\ 
+
+
+En contraste, en las plantas como el maíz se han descrito métodos, tanto intrínsecos \cite{Agrama_1996} como extrínsecos \cite{Wang_2025}, capaces de compensar las condiciones del entorno y, así, mantener su producción. De esta manera, cambiar las fechas para su plantación no tiene un efecto real sobre la cosecha obtenida, implicando que también es viable preservar las fechas usuales de plantación \cite{Mason_2018}.\\
+
+Al considerar lo antes discutido, es posible entender la complejidad subyacente en la determinación de periodos de siembra, lo cuales se ve influenciados tanto por objetivos agrícolas deseados co como por las condiciones regionales \cite{Mason_2018}. De modo que comprender la interacción entre las alteraciones fenológicas y los ajustes procedimentales en la agricultura es crucial ante la incertidumbre que induce el cambio climático \cite{Clark_2026, DJAMAN_2022, Parker_2016,Zhu_2022}.\\
+
+Asimismo, lo anterior confirma, en general, la hipótesis bajo la cual desarrollamos este trabajo: el cambio climático ha producido cambios estructurales significativos en los procesos agrícolas de manera tal que los periodos óptimos para la plantación cultivos anuales; e.g., el maíz, cambian acorde el área, principalmente, por las variaciones climáticas \cite{Baum_2019,Bruns_2006, Clark_2026,Maresma_2019}.\\
+
+De igual forma, lo anterior justifica el estudio de las fechas de siembra históricas del maíz en Alemania, una región en transición climática, para generar un modelo matemático cuyo objetivo sea determinar las fechas que optimicen este proceso, favoreciendo un desarrollo sano y reduciendo la exposición al estrés del entorno.\\ 
+
+
+En este sentido, a nivel particular en Alemania, se realizó un análisis comparativo del comportamiento registrado históricamente en tanto a los periodos de siembra, para corroborar la hipótesis que subyace en el desarrollo de esto trabajo.\\
+
