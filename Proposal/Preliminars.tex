@@ -71,10 +71,43 @@ En contraste, en las plantas como el maíz se han descrito métodos, tanto intr�
 
 Al considerar lo antes discutido, es posible entender la complejidad subyacente en la determinación de periodos de siembra, lo cuales se ve influenciados tanto por objetivos agrícolas deseados co como por las condiciones regionales \cite{Mason_2018}. De modo que comprender la interacción entre las alteraciones fenológicas y los ajustes procedimentales en la agricultura es crucial ante la incertidumbre que induce el cambio climático \cite{Clark_2026, DJAMAN_2022, Parker_2016,Zhu_2022}.\\
 
-Asimismo, lo anterior confirma, en general, la hipótesis bajo la cual desarrollamos este trabajo: el cambio climático ha producido cambios estructurales significativos en los procesos agrícolas de manera tal que los periodos óptimos para la plantación cultivos anuales; e.g., el maíz, cambian acorde el área, principalmente, por las variaciones climáticas \cite{Baum_2019,Bruns_2006, Clark_2026,Maresma_2019}.\\
+Asimismo, lo anterior confirma, en lo general, la hipótesis bajo la cual desarrollamos este trabajo: el cambio climático ha producido cambios estructurales significativos en los procesos agrícolas de manera tal que los periodos óptimos para la plantación cultivos anuales; e.g., el maíz, cambian acorde el área, principalmente, por las variaciones climáticas \cite{Baum_2019,Bruns_2006, Clark_2026,Maresma_2019}.\\
 
 De igual forma, lo anterior justifica el estudio de las fechas de siembra históricas del maíz en Alemania, una región en transición climática, para generar un modelo matemático cuyo objetivo sea determinar las fechas que optimicen este proceso, favoreciendo un desarrollo sano y reduciendo la exposición al estrés del entorno.\\ 
 
 
-En este sentido, a nivel particular en Alemania, se realizó un análisis comparativo del comportamiento registrado históricamente en tanto a los periodos de siembra, para corroborar la hipótesis que subyace en el desarrollo de esto trabajo.\\
+En este sentido, a nivel particular de Alemania, se realizó un análisis comparativo del comportamiento registrado históricamente en tanto a los periodos de siembra, para corroborar la hipótesis que subyace en el desarrollo de esto trabajo. En la Fig. \ref{1951VS2015}, puede apreciarse un cambio entre la distribución de fechas de siembra registradas en el año 1951 y la correspondiente al año 2015.\\
 
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics{1951_VS_2015_Sowing_dates_Distributions.pdf}
+		\caption{Comparación entre la distribución de fechas de siembra reportadas en los años 1951 y 2015, respectivamente. En color amarillo se aprecia la estimación por KDE de la distribución de fechas de siembra registradas para 1951. Similarmente, en color morado, se muestra la estimación por KDE de la distribución de fechas de siembra registradas para 2015.}
+		\label{1951VS2015}
+	\end{center}
+\end{figure}
+
+En general, se observa que el periodo de siembra se ha reducido en los últimos años, concentrándose, en promedio, al rededor del día número $113.2247\pm 7.0994$ del año. En contraste al año 1951, cuando el periodo tenía una mayor amplitud y se concentraba, en promedio, al rededor del día $124.2026 \pm 13.8963$. \\
+
+En particular, de acuerdo con la prueba Kolmogorov-Smirnov, ambas distribuciones presentan un comportamiento estocástico distinto ($p<0.01$). En este sentido, de acuerdo con la prueba Shapiro-Wilk, las fechas de siembra empleadas durante 1951 siguen una distribución normal ($p>0.05$); mientras que no hay evidencia suficiente para aceptar la hipótesis de normalidad en aquellas empleadas durante 2015 ($p<0.01$).\\
+
+Partiendo de lo anterior, se emplearon pruebas no paramétricas para hallar diferencias entorno a la dispersión y la tendencia central. De acuerdo con la prueba de Mood, hay una diferencia estadísticamente significativa entre las medianas de las fechas de siembra de 1951 y de 2015 ($p<0.001$). De igual forma, la prueba para homocedasticidad de Levene con corrección de Brown Forsythe concluye que las distribuciones difieren respecto a la varianza ($p<0.01$).\\
+
+Adicionalmente, según la prueba $U$ de Mann-Whitney, en su versión lateral derecha; es decir, aquella que analiza si la distribución de las fechas de siembra de 1951 es estocásticamente más grande que la correspondiente al año 2015, indica que, en efecto, se presenta tal diferencia ($p<0.01$). Por esta manera, puede concluirse que, en general, la temporada de siembra en 1951 ocurría en temporadas más tardías, con mayor amplitud en su duración y una mayor dispersión en comparación de lo observado en 2015.\\
+
+Más aún, lo anterior sugiere que las ventanas de siembra presentan la tendencia de trasladarse hacia el inicio del año. Además, es importante mencionar, que los resultados antes mencionados se preservaron aún tras considerar los datos libres de \textit{outliers}, robusteciendo las conclusiones obtenidas.\\
+
+
+Para extender el análisis previo, en la Fig. \ref{Historical_comparisons_matrix} se realizó una prueba Kruskal-Wallis para determinar si, de manera general, existen diferencias en la distribución de las fechas de siembra en función de los años. Tras concluir que, en efecto, hay diferencias ($p<0.01;  H=9656.7260$), se procedió a realizar un análisis a pares a través de la prueba de Dunn con corrección de Benjamini-Hochberg para reducir la detección de falsos descubrimientos, ver Fig. \ref{Historical_comparisons_matrix}.\\
+
+En la Fig. \ref{Historical_comparisons_matrix} se observa que las comparaciones entre la distribución de fechas de siembra correspondientes al año 1951 y las de otros años presentan resultados heterogéneos en términos de significancia estadística. En particular, no se encontró evidencia suficiente para rechazar la hipótesis nula de igualdad entre las distribuciones de 1951 y aquellas correspondientes a los años 1985, 1987 y 2001. En contraste, sí se identificaron diferencias estadísticamente significativas entre la distribución de 1951 y las de los años 2013, 2014 y 2015.\\
+
+Por otra parte, al considerar la distribución de fechas de siembra del año 2015 como referencia fija, se observa una tendencia general hacia la presencia de diferencias estadísticamente significativas en las comparaciones a pares, en la mayoría de los casos con niveles de significancia de 
+$p<0.01$. La única excepción corresponde al año 2009, cuya distribución no difiere estadísticamente de la observada en 2015.\\
+
+\begin{figure}[ht]
+	\includegraphics[width=\textwidth]{Historical_significance_matrix-eps-converted-to.pdf}
+	\caption{Matriz de significancia construida a partir de las comparaciones a pares entre las distribuciones de fechas de siembra de maíz históricas en Alemania. Los $p$-valores se obtuvieron a partir de la prueba post-hoc de Dunn, con corrección de Benjamini–Hochberg para múltiples comparaciones, a consecuencia de una prueba de Kruskal–Wallis. Las celdas en color blanco representa la no significancia estadística, $p\geq 0.05$, y la intensidad del color rojo denota la significancia estadística, las tonalidades más claras indican un nivel de significancia $p<0.05$, las tonalidades medias indican $p<0.01$ y, finalmente, las tonalidades más oscuras indican $p<0.01$.}
+	\label{Historical_comparisons_matrix}
+\end{figure}
+
+ Para analizar la tendencia 
