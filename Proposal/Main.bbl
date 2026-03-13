@@ -19,7 +19,7 @@ M.~Amare and Balana. B.
 \newblock {\em Ecological Economics}, 211:107892, 2023.
 
 \bibitem{Anandhi_2016}
-Aavudai Anandhi.
+A.~Anandhi.
 \newblock Growing degree days – ecosystem indicator for changing diurnal
   temperatures and their impact on corn growth stages in kansas.
 \newblock {\em Ecological Indicators}, 61:149–158, February 2016.
@@ -70,7 +70,7 @@ H.~Arnold Bruns and H.~K. Abbas.
 \newblock {\em Agronomy Journal}, 98(1):100--106, 2006.
 
 \bibitem{Butler_2015}
-E.E Butler and P.~Huybers.
+E.E. Butler and P.~Huybers.
 \newblock Variations in the sensitivity of us maize yield to extreme
   temperatures by region and growth phase.
 \newblock {\em Environmental Research Letters}, 10(3):034009, March 2015.
@@ -116,6 +116,12 @@ N.~Chekenya.
 \newblock {\em African Journal of Agricultural and Resource Economics},
   18(2):142–151, June 2023.
 
+\bibitem{Chow_1960}
+Gregory~C. Chow.
+\newblock Tests of equality between sets of coefficients in two linear
+  regressions.
+\newblock {\em Econometrica}, 28(3):591--605, 1960.
+
 \bibitem{Chuine_2017}
 I.~Chuine and J.~Régnière.
 \newblock Process-based models of phenology for plants and animals.
@@ -154,8 +160,8 @@ J.M. Diez, I.~Ibáñez, A.J. Miller‐Rushing, S.J. Mazer, T.M. Crimmins, M.A.
 \newblock {\em Ecology Letters}, 15(6):545–553, March 2012.
 
 \bibitem{DJAMAN_2022}
-Koffi Djaman, Samuel Allen, Dorlote~S. Djaman, Komlan Koudahe, Suat Irmak,
-  Naveen Puppala, Murali~K. Darapuneni, and Sangamesh~V. Angadi.
+K.~Djaman, S.~Allen, D.S. Djaman, K.~Koudahe, S.~Irmak, N.~Puppala, M.K.
+  Darapuneni, and S.V. Angadi.
 \newblock Planting date and plant density effects on maize growth, yield and
   water use efficiency.
 \newblock {\em Environmental Challenges}, 6:100417, 2022.
@@ -192,7 +198,9 @@ O.~Erenstein, M.~Jaleta, K.~Sonder, K.~Mottaleb, and B.M. Prasanna.
 \bibitem{Eurostat_NUTS}
 {Eurostat, European Commission}.
 \newblock Territorial units for statistics (nuts) – gisco geodata, 2026.
-\newblock Accessado el 06 de marzo, 2026.
+\newblock Accesado vía
+  \url{https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics}
+  en marzo 6, 2026.
 
 \bibitem{Farooq_2022}
 M.S. Farooq, M.~Uzair, A.~Raza, M.~Habib, Y.~Xu, M.~Yousuf, S.H. Yang, and
@@ -282,7 +290,7 @@ A.~Gordes, editor.
 \newblock Accessed 26 February 2026.
 
 \bibitem{Gurney_1992}
-William S.~C. Gurney, Philip~H. Crowley, and Roger~M. Nisbet.
+W.S.C. Gurney, P.H. Crowley, and R.M. Nisbet.
 \newblock Locking life-cycles onto seasons: Circle-map models of population
   dynamics and local adaptation.
 \newblock {\em Journal of Mathematical Biology}, 30(3):251–279, January 1992.
@@ -394,7 +402,13 @@ J.~Liebig.
 \newblock {\em Die organische Chemie in ihrer Anwendung auf Agricultur und
   Physiologie}.
 \newblock Friedrich Vieweg und Sohn Publ. Co., Braunschweig, Germany, 1840.
-\newblock https://www.biodiversitylibrary.org/bibliography/42117.
+
+\bibitem{Lin_2025}
+H.~Lin, R.~Zhang, and T.~Tong.
+\newblock When tukey meets chauvenet: a new boxplot criterion for outlier
+  detection.
+\newblock {\em Journal of Computational and Graphical Statistics}, pages 1--14,
+  2025.
 
 \bibitem{LINDERHOLM_2006}
 H.W. Linderholm.
@@ -455,6 +469,12 @@ E.K. Melaas, M.A. Friedl, and A.D. Richardson.
 \newblock Multiscale modeling of spring phenology across deciduous forests in
   the eastern united states.
 \newblock {\em Global Change Biology}, 22(2):792–805, January 2016.
+
+\bibitem{Menzel_2020}
+A.~Menzel, Y.~Yuan, M.~Matiu, T.~Sparks, H.~Scheifinger, R.~Gehrig, and
+  N.~Estrella.
+\newblock Climate change fingerprints in recent european plant phenology.
+\newblock {\em Global Change Biology}, 26(4):2599–2612, February 2020.
 
 \bibitem{Miedaner_2021}
 T.~Miedaner and P.~Juroszek.
@@ -533,7 +553,8 @@ Q.~Orozco-Ramírez, H.~Perales, and R.J. Hijmans.
 \bibitem{PEP725}
 {Pan European Phenology Network}.
 \newblock Pep725 data selection portal, 2025.
-\newblock Accessed: 2026-03-06.
+\newblock Accesado vía
+  \url{http://www.pep725.eu/data_download/data_selection.php} en marzo 6, 2026.
 
 \bibitem{Parajuli_2019}
 R.~Parajuli, G.~Thoma, and M.D. Matlock.
@@ -637,6 +658,12 @@ P.~Ranum, J.P. Peña-Rosas, and M.N. Garcia-Casal.
 \newblock {\em Annals of the New York Academy of Sciences}, 1312(1):105--112,
   2014.
 
+\bibitem{Rapach_2006}
+D.E. Rapach and M.E. Wohar.
+\newblock Structural breaks and predictive regression models of aggregate us
+  stock returns.
+\newblock {\em Journal of Financial Econometrics}, 4(2):238--274, 2006.
+
 \bibitem{Rausch_2006}
 K.D. Rausch and R.L. Belyea.
 \newblock The future of coproducts from corn processing.
@@ -651,6 +678,15 @@ F.~Recknagel.
 J.~R{\'e}gni{\`e}re and J.A. Powell.
 \newblock {\em Animal Life Cycle Models (Poikilotherms)}, pages 295--316.
 \newblock Springer Netherlands, Dordrecht, 2013.
+
+\bibitem{Reid_2015}
+P.C. Reid, R.E. Hari, G.~Beaugrand, D.M. Livingstone, C.~Marty, D.~Straile,
+  J.~Barichivich, E.~Goberville, R.~Adrian, Y.~Aono, R.~Brown, J.~Foster,
+  P.~Groisman, P.~Hélaouët, H.-H. Hsu, R.~Kirby, J.~Knight, A.~Kraberg,
+  J.~Li, T.-T. Lo, R.B. Myneni, R.P. North, J.A. Pounds, T.~Sparks, R.~Stübi,
+  Y.~Tian, K.H. Wiltshire, D.~Xiao, and Z.~Zhu.
+\newblock Global impacts of the 1980s regime shift.
+\newblock {\em Global Change Biology}, 22(2):682–703, November 2015.
 
 \bibitem{Revilla_2022}
 P.~Revilla, M.L. Alves, V.~Andelković, C.~Balconi, I.~Dinis,
@@ -778,10 +814,10 @@ B.~Templ, E.~Koch, K.~Bolmgren, M.~Ungersböck, A.~Paul, H.~Scheifinger,
 \newblock {\em International Journal of Biometeorology}, 62(6):1109–1113,
   February 2018.
 
-\bibitem{PEP725_2026}
+\bibitem{Templ_2026}
 B.~Templ, H.~Scheifinger, I.~Ostovary, M.~Ungersböck, and H.~Ressl.
-\newblock Pep725: 15 years of driving european and global phenology science.
-\newblock {\em New Phytologist}.
+\newblock Pep725: 15 years of driving european and global phenology science.
+\newblock {\em New Phytologist}, 2026.
 
 \bibitem{Thompson_2006}
 R.~Thompson and R.M. Clark.
@@ -796,7 +832,7 @@ J.H. Thornley and I.R. Johnson.
 \newblock Oxford University Press, 1990.
 
 \bibitem{Tonnang_2018}
-Henri E.~Z. Tonnang, Dan Makumbi, and Peter Craufurd.
+H.E.Z. Tonnang, D.~Makumbi, and P.~Craufurd.
 \newblock Methodological approach for predicting and mapping the phenological
   adaptation of tropical maize (zea mays l.) using multi-environment trials.
 \newblock {\em Plant Methods}, 14(1), December 2018.
@@ -814,7 +850,7 @@ R.~Tsimba, G.O. Edmeades, J.P. Millner, and P.D. Kemp.
 \newblock {\em Field Crops Research}, 150:145–155, August 2013.
 
 \bibitem{vanBussel_2015}
-L.~G.~J. van Bussel, E.~Stehfest, S.~Siebert, C.~M\"{u}ller, and F.~Ewert.
+L.G.J. van Bussel, E.~Stehfest, S.~Siebert, C.~M\"{u}ller, and F.~Ewert.
 \newblock Simulation of the phenological development of wheat and maize at the
   global scale.
 \newblock {\em Global Ecology and Biogeography}, 24(9):1018–1029, July 2015.
@@ -892,6 +928,13 @@ L.~Wu, Y.~Feng, L.and~Zhang, J.~Gao, and J.~Wang.
 \newblock Comparison of five wheat models simulating phenology under different
   sowing dates and varieties.
 \newblock {\em Agronomy Journal}, 109(4):1280--1293, 2017.
+
+\bibitem{Wu_2016}
+X.~Wu, R.~Zurita‐Milla, and M.‐J. Kraak.
+\newblock A novel analysis of spring phenological patterns over europe based on
+  co‐clustering.
+\newblock {\em Journal of Geophysical Research: Biogeosciences},
+  121(6):1434–1448, June 2016.
 
 \bibitem{Yang_2024}
 C.~Yang, N.~Lei, C.~Menz, A.~Ceglar, J.A. Torres-Matallana, S.~Li, Y.~Jiang,

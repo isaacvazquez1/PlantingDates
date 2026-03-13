@@ -34,7 +34,7 @@ Para el caso de Alemania, este calendario se muestra con resolución NUTS 0 úni
 
 Resaltando que, por una parte, es un calendario que reporta información oficial que proviene de un organismo internacional. Y, por otra parte, a consecuencia de su resolución, carece de especificidad geográfica lo que, potencialmente, enmascara las variaciones particulares de cada región.\\
 
-El proyecto Fenología Paneuropea 725 (PEP725, por sus siglas en inglés) alberga bases de datos fenológicas para promover el desarrollo científico y educativo \cite{Templ_2018}. De esta manera, la base datos que concierne al cultivo de maíz en Alemania reporta datos históricos desde 1951 hasta 2015 \cite{PEP725, PEP725_2026}.\\
+El proyecto Fenología Paneuropea 725 (PEP725, por sus siglas en inglés) alberga bases de datos fenológicas para promover el desarrollo científico y educativo \cite{Templ_2018, Templ_2026}. De esta manera, la base datos que concierne al cultivo de maíz en Alemania reporta datos históricos desde 1951 hasta 2015 \cite{PEP725}.\\
 
 Al analizar la base datos de fechas de siembra que se reportan a través del proyecto PEP725 y contrastarlos con el calendario agrícola descrito por el JRC se observa una clara discrepancia, ver Fig. \ref{Historical_VS_theoretical}. Las fechas de siembra teóricas anteceden al periodo de fechas que se emplean en el campo para llevar a cabo la siembra del maíz.\\
 
@@ -94,20 +94,66 @@ Partiendo de lo anterior, se emplearon pruebas no paramétricas para hallar dife
 
 Adicionalmente, según la prueba $U$ de Mann-Whitney, en su versión lateral derecha; es decir, aquella que analiza si la distribución de las fechas de siembra de 1951 es estocásticamente más grande que la correspondiente al año 2015, indica que, en efecto, se presenta tal diferencia ($p<0.01$). Por esta manera, puede concluirse que, en general, la temporada de siembra en 1951 ocurría en temporadas más tardías, con mayor amplitud en su duración y una mayor dispersión en comparación de lo observado en 2015.\\
 
-Más aún, lo anterior sugiere que las ventanas de siembra presentan la tendencia de trasladarse hacia el inicio del año. Además, es importante mencionar, que los resultados antes mencionados se preservaron aún tras considerar los datos libres de \textit{outliers}, robusteciendo las conclusiones obtenidas.\\
+Más aún, lo anterior sugiere que las ventanas de siembra presentan la tendencia de trasladarse hacia el inicio del año. Además, es importante mencionar, que los resultados antes mencionados se preservaron aún tras considerar los datos libres de \textit{outliers}, en este caso, empleando un método clásico \cite{Lin_2025}, removiendo aquellos datos fuera del intervalo $[Q_1-1.5 \operatorname{IQR},\,Q_3+1.5 \operatorname{IQR}]$, con $Q_i$, $i=1,3$, el $i$-ésimo cuartil y $\operatorname{IQR}$ la distancia intercuartílica, robusteciendo las conclusiones obtenidas.\\
+
 
 
 Para extender el análisis previo, en la Fig. \ref{Historical_comparisons_matrix} se realizó una prueba Kruskal-Wallis para determinar si, de manera general, existen diferencias en la distribución de las fechas de siembra en función de los años. Tras concluir que, en efecto, hay diferencias ($p<0.01;  H=9656.7260$), se procedió a realizar un análisis a pares a través de la prueba de Dunn con corrección de Benjamini-Hochberg para reducir la detección de falsos descubrimientos, ver Fig. \ref{Historical_comparisons_matrix}.\\
 
-En la Fig. \ref{Historical_comparisons_matrix} se observa que las comparaciones entre la distribución de fechas de siembra correspondientes al año 1951 y las de otros años presentan resultados heterogéneos en términos de significancia estadística. En particular, no se encontró evidencia suficiente para rechazar la hipótesis nula de igualdad entre las distribuciones de 1951 y aquellas correspondientes a los años 1985, 1987 y 2001. En contraste, sí se identificaron diferencias estadísticamente significativas entre la distribución de 1951 y las de los años 2013, 2014 y 2015.\\
+En la Fig. \ref{Historical_comparisons_matrix} se observa que las comparaciones entre la distribución de fechas de siembra correspondientes al año 1951 y las de otros años presentan resultados heterogéneos en términos de significancia estadística. En particular, las últimas comparaciones en donde no se encontró evidencia suficiente para rechazar la hipótesis de igualdad entre las distribuciones de 1951 corresponden a los datos reportados para los años 1985, 1987 y 2001. En contraste, sí se identificaron diferencias estadísticamente significativas entre la distribución de 1951 y los datos provenientes de años más recientes.\\
 
 Por otra parte, al considerar la distribución de fechas de siembra del año 2015 como referencia fija, se observa una tendencia general hacia la presencia de diferencias estadísticamente significativas en las comparaciones a pares, en la mayoría de los casos con niveles de significancia de 
 $p<0.01$. La única excepción corresponde al año 2009, cuya distribución no difiere estadísticamente de la observada en 2015.\\
 
 \begin{figure}[ht]
 	\includegraphics[width=\textwidth]{Historical_significance_matrix.pdf}
-	\caption{Matriz de significancia construida a partir de las comparaciones a pares entre las distribuciones de fechas de siembra de maíz históricas en Alemania. Los $p$-valores se obtuvieron a partir de la prueba post-hoc de Dunn, con corrección de Benjamini–Hochberg para múltiples comparaciones, a consecuencia de una prueba de Kruskal–Wallis. Las celdas en color blanco representa la no significancia estadística, $p\geq 0.05$, y la intensidad del color rojo denota la significancia estadística, las tonalidades más claras indican un nivel de significancia $p<0.05$, las tonalidades medias indican $p<0.01$ y, finalmente, las tonalidades más oscuras indican $p<0.01$.}
+	\caption{Matriz de significancia construida a partir de las comparaciones a pares entre las distribuciones de fechas de siembra de maíz históricas en Alemania. Los $p$-valores se obtuvieron a partir de la prueba post-hoc de Dunn, con corrección de Benjamini–Hochberg para múltiples comparaciones, a consecuencia de una prueba de Kruskal–Wallis. Las celdas en color blanco representa la no significancia estadística, $p\geq 0.05$, y la intensidad del color rojo denota la significancia estadística, las tonalidades más claras indican un nivel de significancia $p<0.05$, las tonalidades medias indican $p<0.01$ y, finalmente, las tonalidades más oscuras indican $p<0.001$.}
 	\label{Historical_comparisons_matrix}
 \end{figure}
 
- Para analizar la tendencia 
+ Anteriormente se mencionó que, en Alemania, la temporada de siembra de maíz presenta la tendencia de trasladarse hacia épocas más cercanas al inicio del año. Para profundizar de manera crítica en dicho comportamiento se procedió analíticamente implementando técnicas estadísticas, ver Fig. \ref{Trends}.\\
+ 
+
+ 
+\begin{figure}[ht]
+	\centering
+	\includegraphics{Interannual_trend.pdf}
+	\caption{Tendencia en las fechas de siembra de maíz en Alemania. En círculos de color negro se muestran las fechas registradas empleadas en el periodo de 1951 a 2015 para efectuar la siembra. Las líneas punteadas horizontales en color verde y azul representan la fecha de siembra promedio observada en los años 1951 y 2015, respectivamente. La línea sólida en color rojo muestra el ajuste lineal de la tendencia en las fechas de siembra obtenido a través del método de mínimos cuadrados.}
+	\label{Trends}
+\end{figure}
+
+Al comparar el promedio de las fechas de siembra empleadas tanto durante 1951 como a lo largo de 2015, hay una diferencia de $11.5612$ días. Es decir, tras un periodo de $64$ años, la fecha de siembra promedio se ha adelantado $11$ días, aproximadamente. Lo anterior sugiere que el tiempo tiene un efecto intrínseco en el proceso de siembra.\\
+
+Derivado de la falta de la hipótesis en la normalidad de los datos reportados, se empleó la correlación de Spearmann para cuantificar la correspondencia entre el paso de los años con las fechas de siembra. Bajo este esquema, se obtuvo un coeficiente de correlación, estadísticamente significativo ($p<0.01$), de $\rho = -0.2756$. Por tanto, a medida que transcurren los años, la siembra ocurre en épocas más tempranas.\\ 
+
+Con el objetivo de cuantificar la tendencia temporal observada, se empleó el método de mínimos cuadrados para determinar la recta de mejor ajuste. Con ello, se identificó que si $y$ y $d_s$ denotan los años y las fechas de siembra, respectivamente, entonces el ajuste lineal está dado por \begin{equation}
+	d_s = -0.1805 y + 478.6709.
+\end{equation}
+El ajuste representa la tendencia promedio de las fechas de siembra dado que considera todas las observaciones disponibles. En particular, este resultado indica que, aproximadamente, la fecha de siembra se adelanta $1.8$ días por década, ver Fig. \ref{Trends}.\\ 
+
+
+Al proceder con la remoción de \textit{outliers} clásica \cite{Lin_2025}, que preserva solo a los datos dentro del intervalo $[Q_1-1.5 \operatorname{IQR},\,Q_3+1.5 \operatorname{IQR}]$, con $Q_i$, $i=1,3$, el $i$-ésimo cuartil y $\operatorname{IQR}$ la distancia intercuartílica, los resultados previamente discutidos se mantienen. No obstante, la diferencia entre las fechas promedio de 1951 respecto a 2015 se reduce a $9.4024$ días; asimismo, del ajuste lineal proveniente del método de mínimos cuadrado, se tiene que la tendencia promedio es que las fechas de siembra se adelanten en, aproximadamente, $1.57$ días por década.\\
+
+
+Previamente, se mencionó que, en lo general, hay evidencia en la literatura que corrobora la hipótesis bajo la cual se desarrolla este trabajo. En este sentido, en conjunto, los análisis presentados, los cuales estudian la problemática de interés directamente, apoyan la hipótesis subyacente. Es decir, en lo particular, hay cambios estructurales significativos dentro de los procesos agrícolas.\\
+
+Más aún, se identificó un cambio estructural en la tendencia de las fechas de siembra promedio, mismo que sucedió a finales de la década de 1980, ver Fig. \ref{Break}. De acuerdo con la literatura, las alteraciones estructurales halladas pueden vincularse a modificaciones en los regímenes climáticos, las cuales se derivan del cambio climático \cite{Menzel_2020, Reid_2015, Wu_2016}.\\
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{1988Break.pdf}
+	\caption{Tendencia interanual en las fechas promedio de siembra de maíz en Alemania. Los puntos en color negro representan los promedios anuales de las fechas de siembra. La línea vertical en color rojo punteada indica el año 1988, identificado como punto de cambio estructural mediante la prueba de Pettitt. La línea sólida en color gris corresponde al ajuste por mínimos cuadrados calculado a partir de toda la serie de promedios anuales. Las líneas punteadas azul y amarilla muestran los ajustes lineales obtenidos por mínimos cuadrados para los periodos 1951–1988 y 1989–2015, respectivamente. Como referencia, la línea punteada en color gris corresponde al ajuste mostrado en la Fig. \ref{Trends}.}
+	\label{Break}
+\end{figure}
+
+
+En general, la prueba Mann-Kendall evalúa si el valor de los datos tiende a aumentar o disminuir de forma consistente en función de la variable predictora \cite{}, sin distinguir si este cambio es lineal o no. En este caso, las fechas de siembra promedio tienen una tendencia monótona decreciente estadísticamente significativa ($p<0.01$).\\
+
+Tras confirmar lo antes mencionado, se procedió a detectar la existencia de algún instante en el que sucediese un cambio abrupto en el comportamiento a través de la prueba de Pettitt \cite{}. Con esta herramienta se determinó que el año 1988 constituye un punto de quiebre significativo ($p<0.01$), lo cual sugiere que las fechas de siembra difieren drásticamente de un periodo a otro.\\
+
+Para analizar la veracidad de la afirmación anterior, empleamos la prueba de Chow, la cual determina si dos modelos lineales, asociados a un mismo fenómeno en dos periodos distintos, difieren significativamente \cite{Chow_1960, Rapach_2006}. De esta manera, empleando el método de mínimos cuadrados, se obtuvieron las rectas de mejor ajuste con las fechas de siembra promediadas anualmente pertenecientes al periodo de 1951 a 1988 y, similarmente, para aquellas comprendidas de 1989 a 2015. Adicionalmente, como referencia, se obtuvo la recta de mejor ajuste empleando las fechas promedio desde 1951 a 1988, ver Fig. \ref{Break}.\\
+
+De la prueba de Chow se concluye que no hay evidencia suficiente para argumentar que los datos se ajustan mejor, con modelos lineales, si se dividen en dos periodos distintos ($p>0.05$). Por otra parte, al remover los \textit{outliers} en cada año documentado, los resultados son consistentes salvo que, de acuerdo con la respectiva prueba de Pettitt, el punto de cambio estructural se traslada al año 1987 ($p<0.01$) y, de acuerdo con la respectiva prueba de Chow, el ajuste de los datos mejora significativamente si se emplean modelos lineales distintos para cada uno de los dos periodos ($p<0.05$).\\ 
+
+De esta manera, el cambio estructural hallado se preserva y corrobora, en lo particular, la hipótesis acerca de cambios estructurales en los procesos agrícolas a causa del cambio climático. No obstante, la caracterización de las fechas de siembra promediadas anualmente en los periodos de 1951--1988 y 1989--2015 requiere de metodologías más sofisticadas que los ajustes lineales y queda fuera de los objetivos del presente trabajo.\\
