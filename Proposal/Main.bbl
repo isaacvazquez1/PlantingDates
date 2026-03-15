@@ -379,6 +379,13 @@ M.S. Kukal and S.~Irmak.
   last frost, growing season length, and impacts on crop yields.
 \newblock {\em Scientific Reports}, 8(1), May 2018.
 
+\bibitem{Kundzewicz_2004}
+Z.W. Kundzewicz and A.J. Robson.
+\newblock Change detection in hydrological records—a review of the
+  methodology / revue méthodologique de la détection de changements dans les
+  chroniques hydrologiques.
+\newblock {\em Hydrological Sciences Journal}, 49(1):7–19, February 2004.
+
 \bibitem{Li_2025}
 M.-W. Li and J.M. Gendron.
 \newblock Exploring the metabolic daylength measurement system: implications
@@ -527,6 +534,12 @@ S.S. Narwal, S.~Poonia, and D.S. Singh, G.and~Malik.
   winter maize (zea mays l.).
 \newblock {\em Agricultural and Forest Meteorology}, 38(1):47--57, 1986.
 
+\bibitem{NRC_1996}
+{National Research Council}.
+\newblock {\em Lessons from the Past Provide Direction for the Future}, pages
+  1--22.
+\newblock National Academies Press, Washington, DC, 1996.
+
 \bibitem{Ogutu_2018}
 G.E.O. Ogutu, W.H.P. Franssen, I.~Supit, P.~Omondi, and R.W.A. Hutjes.
 \newblock Probabilistic maize yield prediction over east africa using dynamic
@@ -644,6 +657,11 @@ J.A. Powell and J.A. Logan.
   cycles.
 \newblock {\em Theoretical Population Biology}, 67(3):161–179, May 2005.
 
+\bibitem{Qiao_2023}
+S.~Qiao, S.P. Harrison, I.C. Prentice, and H.~Wang.
+\newblock Optimality-based modelling of wheat sowing dates globally.
+\newblock {\em Agricultural Systems}, 206:103608, March 2023.
+
 \bibitem{Rafique_2024}
 R.~Rafique, T.~Ahmad, M.A. Khan, M.~Ahmed, and G.~Hoogenboom.
 \newblock Developing a simple and efficient modeling solution for predicting
@@ -726,6 +744,11 @@ W.J. Sacks and C.J. Kucharik.
   on yields, evapotranspiration and energy balance.
 \newblock {\em Agricultural and Forest Meteorology}, 151(7):882--894, July
   2011.
+
+\bibitem{Sadeh_2024}
+Y.~Sadeh, X.~Zhu, D.~Dunkerley, J.P. Walker, Y.~Chen, and K.~Chenu.
+\newblock Versatile crop yield estimator.
+\newblock {\em Agronomy for Sustainable Development}, 44(4), July 2024.
 
 \bibitem{Shi_2025}
 Q.~Shi, T.~Pan, D.~Lu, H.~Li, and Z.~Chai.
@@ -976,6 +999,12 @@ M.~Yaseen, S.E. Saqib, F.~Zulfiqar, S.~Ali, and S.~Visetnoi.
 \newblock Farmers' decisions under climate change: A field level empirical
   investigation of climate risk management strategies.
 \newblock {\em Sustainable Futures}, 10:101390, 2025.
+
+\bibitem{Yue_2002}
+S.~Yue, P.~Pilon, and G.~Cavadias.
+\newblock Power of the mann–kendall and spearman’s rho tests for detecting
+  monotonic trends in hydrological series.
+\newblock {\em Journal of Hydrology}, 259(1–4):254–271, March 2002.
 
 \bibitem{Zhang_2025}
 Q.-J. Zhang, D.-L. Wu, Y.-C. Zhu, C.~Liu, and D.-S. Yang.

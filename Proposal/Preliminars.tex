@@ -1,4 +1,4 @@
-Según la ubicación geográfica y el cultivo a producir, los calendarios agrícolas consideran tanto las condiciones ambientales como los requerimientos agroclimáticos necesarios para el desarrollo del cultivo de interés, ambos, para caracterizar los eventos fenológicos en función del entorno regional \cite{Zhang_2025}. De esta manera, es posible sincronizar los manejos y procesos agrícolas con la fenología del cultivo \cite{GarciaTejera_2022}.
+Según la ubicación geográfica y el cultivo a producir, los calendarios agrícolas consideran tanto las condiciones ambientales como los requerimientos agroclimáticos necesarios para el desarrollo del cultivo de interés, ambos, para caracterizar los eventos fenológicos en función del entorno regional \cite{Zhang_2025}. De esta manera, es posible sincronizar los manejos y procesos agrícolas con la fenología del cultivo \cite{GarciaTejera_2022}.\\
 
 Para la Unión Europea, el Joint Research Centre (JRC) ha desarrollado la plataforma web AGRI4CAST (\url{https://agri4cast.jrc.ec.europa.eu/dataportal}). Esta es una herramienta de dominio público que condensa datos agrometerológicos para propósitos de investigación y el desarrollo de políticas públicas \cite{Biavetti_2014}.\\
 
@@ -132,7 +132,25 @@ Con el objetivo de cuantificar la tendencia temporal observada, se empleó el m�
 El ajuste representa la tendencia promedio de las fechas de siembra dado que considera todas las observaciones disponibles. En particular, este resultado indica que, aproximadamente, la fecha de siembra se adelanta $1.8$ días por década, ver Fig. \ref{Trends}.\\ 
 
 
-Al proceder con la remoción de \textit{outliers} clásica \cite{Lin_2025}, que preserva solo a los datos dentro del intervalo $[Q_1-1.5 \operatorname{IQR},\,Q_3+1.5 \operatorname{IQR}]$, con $Q_i$, $i=1,3$, el $i$-ésimo cuartil y $\operatorname{IQR}$ la distancia intercuartílica, los resultados previamente discutidos se mantienen. No obstante, la diferencia entre las fechas promedio de 1951 respecto a 2015 se reduce a $9.4024$ días; asimismo, del ajuste lineal proveniente del método de mínimos cuadrado, se tiene que la tendencia promedio es que las fechas de siembra se adelanten en, aproximadamente, $1.57$ días por década.\\
+Al proceder con la remoción de \textit{outliers} clásica \cite{Lin_2025}, que preserva solo a los datos dentro del intervalo $[Q_1-1.5 \operatorname{IQR},\,Q_3+1.5 \operatorname{IQR}]$, con $Q_i$, $i=1,3$, el $i$-ésimo cuartil y $\operatorname{IQR}$ la distancia intercuartílica, los resultados previamente discutidos se mantienen. No obstante, la diferencia entre las fechas promedio de 1951 respecto a 2015 se reduce a $9.4024$ días; asimismo, del ajuste lineal proveniente del método de mínimos cuadrado, se tiene que la tendencia promedio es que las fechas de siembra se adelanten en, aproximadamente, $1.57$ días por década, ver Tabla \ref{LinearModelsComparison}.\\
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{c|ll}
+		\hline
+		\multirow{2}{*}{\textbf{Datos}}                                                   & \multicolumn{2}{c}{\textbf{Ajustes   lineales}}                                          \\ \cline{2-3} 
+		& \multicolumn{1}{c|}{\textbf{Con outliers}}   & \multicolumn{1}{c}{\textbf{Sin outliers}} \\ \hline
+		\textbf{Fechas de siembra}                                                        & \multicolumn{1}{l|}{$d_s=-0.1805y+478.6709$} & $d_s=-0.1578y+433.4605$                   \\ \hline
+		\textbf{\begin{tabular}[c]{@{}c@{}}Promedios anuales\\ (1951--2015)\end{tabular}} & \multicolumn{1}{l|}{$d_s=-0.1732y+464.0563$} & $d_s=-0.1479y+413.4202$                   \\ \hline
+		\textbf{\begin{tabular}[c]{@{}c@{}}Promedios anuales\\ (1951--1988)\end{tabular}} & \multicolumn{1}{l|}{$d_s=-0.1078y+335.3932$} & $d_s=-0.0710y+262.2608$                   \\ \hline
+		\textbf{\begin{tabular}[c]{@{}c@{}}Promedios anuales\\ (1989--2015)\end{tabular}} & \multicolumn{1}{l|}{$d_s=-0.2774y+672.4599$} & $d_s=-0.2637y+645.0710$                   \\ \hline
+	\end{tabular}
+	\caption{Aproximaciones lineales para el ajuste de los datos de siembra. La columna de la izquierda muestra las rectas de mejor ajuste, determinadas a través del método de mínimos cuadrados, considerando la totalidad de los datos para cada uno de los casos listados. Similarmente para la columna de la derecha, salvo que considera los datos listados libres de outliers. La notación $d_s$ indica la fecha de siembra mientras que $y$ denota los años.}
+	\label{LinearModelsComparison}
+\end{table}
 
 
 Previamente, se mencionó que, en lo general, hay evidencia en la literatura que corrobora la hipótesis bajo la cual se desarrolla este trabajo. En este sentido, en conjunto, los análisis presentados, los cuales estudian la problemática de interés directamente, apoyan la hipótesis subyacente. Es decir, en lo particular, hay cambios estructurales significativos dentro de los procesos agrícolas.\\
@@ -148,12 +166,13 @@ Más aún, se identificó un cambio estructural en la tendencia de las fechas de
 \end{figure}
 
 
-En general, la prueba Mann-Kendall evalúa si el valor de los datos tiende a aumentar o disminuir de forma consistente en función de la variable predictora \cite{}, sin distinguir si este cambio es lineal o no. En este caso, las fechas de siembra promedio tienen una tendencia monótona decreciente estadísticamente significativa ($p<0.01$).\\
+En general, la prueba Mann-Kendall evalúa si el valor de los datos tiende a aumentar o disminuir de forma consistente en función de la variable predictora \cite{Yue_2002}, sin asumir que tal este cambio sea lineal. En este caso, las fechas de siembra promedio tienen una tendencia monótona decreciente estadísticamente significativa ($p<0.01$).\\
 
-Tras confirmar lo antes mencionado, se procedió a detectar la existencia de algún instante en el que sucediese un cambio abrupto en el comportamiento a través de la prueba de Pettitt \cite{}. Con esta herramienta se determinó que el año 1988 constituye un punto de quiebre significativo ($p<0.01$), lo cual sugiere que las fechas de siembra difieren drásticamente de un periodo a otro.\\
+Tras confirmar lo antes mencionado, se procedió a detectar la existencia de algún instante en el que sucediese un cambio abrupto en el comportamiento a través de la prueba de Pettitt \cite{Kundzewicz_2004}. Con esta herramienta se determinó que el año 1988 constituye un punto de quiebre significativo ($p<0.01$), lo cual sugiere que las fechas de siembra difieren drásticamente de un periodo a otro.\\
 
-Para analizar la veracidad de la afirmación anterior, empleamos la prueba de Chow, la cual determina si dos modelos lineales, asociados a un mismo fenómeno en dos periodos distintos, difieren significativamente \cite{Chow_1960, Rapach_2006}. De esta manera, empleando el método de mínimos cuadrados, se obtuvieron las rectas de mejor ajuste con las fechas de siembra promediadas anualmente pertenecientes al periodo de 1951 a 1988 y, similarmente, para aquellas comprendidas de 1989 a 2015. Adicionalmente, como referencia, se obtuvo la recta de mejor ajuste empleando las fechas promedio desde 1951 a 1988, ver Fig. \ref{Break}.\\
+Para analizar la veracidad de la afirmación anterior, empleamos la prueba de Chow, la cual determina si dos modelos lineales, asociados a un mismo fenómeno en dos periodos distintos, difieren significativamente \cite{Chow_1960, Rapach_2006}. De esta manera, empleando el método de mínimos cuadrados, se obtuvieron las rectas de mejor ajuste con las fechas de siembra promediadas anualmente pertenecientes al periodo de 1951 a 1988 y, similarmente, para aquellas comprendidas de 1989 a 2015, ver Tabla \ref{LinearModelsComparison}. Adicionalmente, como referencia, se obtuvo la recta de mejor ajuste empleando las fechas promedio desde 1951 a 1988, ver Fig. \ref{Break}.\\
 
-De la prueba de Chow se concluye que no hay evidencia suficiente para argumentar que los datos se ajustan mejor, con modelos lineales, si se dividen en dos periodos distintos ($p>0.05$). Por otra parte, al remover los \textit{outliers} en cada año documentado, los resultados son consistentes salvo que, de acuerdo con la respectiva prueba de Pettitt, el punto de cambio estructural se traslada al año 1987 ($p<0.01$) y, de acuerdo con la respectiva prueba de Chow, el ajuste de los datos mejora significativamente si se emplean modelos lineales distintos para cada uno de los dos periodos ($p<0.05$).\\ 
+De la prueba de Chow se concluye que no hay evidencia suficiente para argumentar que los datos se ajustan mejor, con modelos lineales, si se dividen en dos periodos distintos ($p>0.05$). Por otra parte, al remover los \textit{outliers} en cada año documentado, los resultados son consistentes salvo que, de acuerdo con la respectiva prueba de Pettitt, el punto de cambio estructural se traslada al año 1987 ($p<0.01$) y, de acuerdo con la respectiva prueba de Chow, el ajuste de los datos mejora significativamente si se emplean modelos lineales distintos para cada uno de los dos periodos ($p<0.05$), ver Tabla \ref{LinearModelsComparison}.\\
+
 
 De esta manera, el cambio estructural hallado se preserva y corrobora, en lo particular, la hipótesis acerca de cambios estructurales en los procesos agrícolas a causa del cambio climático. No obstante, la caracterización de las fechas de siembra promediadas anualmente en los periodos de 1951--1988 y 1989--2015 requiere de metodologías más sofisticadas que los ajustes lineales y queda fuera de los objetivos del presente trabajo.\\
