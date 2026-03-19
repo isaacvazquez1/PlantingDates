@@ -1,88 +1,89 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Main.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-I was expecting a `,' or a `}'---line 1050 of file Refs.bib
+I was expecting a `,' or a `}'---line 1077 of file Refs.bib
  :  
  :  address={New York, U.S.A.}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2065 of file Refs.bib
+Repeated entry---line 2092 of file Refs.bib
  : @article{Liu_2025
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2381 of file Refs.bib
+Repeated entry---line 2408 of file Refs.bib
  : @article{Li_2025
  :                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2510 of file Refs.bib
+I was expecting a `,' or a `}'---line 2537 of file Refs.bib
  :  
  :  note={Tesis de maestría}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3045 of file Refs.bib
+I was expecting a `,' or a `}'---line 3072 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3136 of file Refs.bib
+I was expecting a `,' or a `}'---line 3163 of file Refs.bib
  :  
  :  DOI = {10.3390/agronomy8040037}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3919 of file Refs.bib
+Repeated entry---line 3946 of file Refs.bib
  : @article{Zhang_2025
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4216 of file Refs.bib
+Repeated entry---line 4243 of file Refs.bib
  : @article{Franch_2022
  :                     ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
 Warning--empty publisher in France_1984
 Warning--empty journal in García-Mendoza_2002
 Warning--can't use both author and editor fields in Regniere_2013
-You've used 169 entries,
+You've used 172 entries,
             2118 wiz_defined-function locations,
-            1637 strings with 41376 characters,
-and the built_in function-call counts, 67260 in all, are:
-= -- 6164
-> -- 4358
+            1654 strings with 41733 characters,
+and the built_in function-call counts, 68014 in all, are:
+= -- 6231
+> -- 4391
 < -- 12
-+ -- 1728
-- -- 1546
-* -- 5800
-:= -- 11630
-add.period$ -- 517
-call.type$ -- 169
-change.case$ -- 1269
++ -- 1743
+- -- 1556
+* -- 5836
+:= -- 11759
+add.period$ -- 526
+call.type$ -- 172
+change.case$ -- 1282
 chr.to.int$ -- 0
-cite$ -- 172
-duplicate$ -- 1969
-empty$ -- 4443
-format.name$ -- 1546
-if$ -- 13400
+cite$ -- 175
+duplicate$ -- 2007
+empty$ -- 4515
+format.name$ -- 1556
+if$ -- 13561
 int.to.chr$ -- 0
-int.to.str$ -- 169
-missing$ -- 172
-newline$ -- 851
-num.names$ -- 350
-pop$ -- 1049
+int.to.str$ -- 172
+missing$ -- 177
+newline$ -- 866
+num.names$ -- 356
+pop$ -- 1073
 preamble$ -- 1
-purify$ -- 1106
+purify$ -- 1117
 quote$ -- 0
-skip$ -- 1363
+skip$ -- 1384
 stack$ -- 0
-substring$ -- 3974
-swap$ -- 279
+substring$ -- 3991
+swap$ -- 283
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 658
+type$ -- 666
 warning$ -- 3
-while$ -- 505
-width$ -- 172
-write$ -- 1873
+while$ -- 511
+width$ -- 175
+write$ -- 1905
 (There were 8 error messages)
