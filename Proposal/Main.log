@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  13 MAR 2026 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  18 MAR 2026 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -916,8 +916,310 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@dima=\skip269
 \bigstrutjot=\dimen291
 )
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen292
+\pgfutil@tempdimb=\dimen293
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box78
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks42
+))
+\pgf@x=\dimen294
+\pgf@y=\dimen295
+\pgf@xa=\dimen296
+\pgf@ya=\dimen297
+\pgf@xb=\dimen298
+\pgf@yb=\dimen299
+\pgf@xc=\dimen300
+\pgf@yc=\dimen301
+\pgf@xd=\dimen302
+\pgf@yd=\dimen303
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count373
+\c@pgf@countb=\count374
+\c@pgf@countc=\count375
+\c@pgf@countd=\count376
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+\pgf@sys@id@count=\count377
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count378
+\pgfsyssoftpath@bigbuffer@items=\count379
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen304
+\pgfmath@count=\count380
+\pgfmath@box=\box79
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count381
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen305
+\pgf@picmaxx=\dimen306
+\pgf@picminy=\dimen307
+\pgf@picmaxy=\dimen308
+\pgf@pathminx=\dimen309
+\pgf@pathmaxx=\dimen310
+\pgf@pathminy=\dimen311
+\pgf@pathmaxy=\dimen312
+\pgf@xx=\dimen313
+\pgf@xy=\dimen314
+\pgf@yx=\dimen315
+\pgf@yy=\dimen316
+\pgf@zx=\dimen317
+\pgf@zy=\dimen318
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen319
+\pgf@path@lasty=\dimen320
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen321
+\pgf@shorten@start@additional=\dimen322
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box80
+\pgf@hbox=\box81
+\pgf@layerbox@main=\box82
+\pgf@picture@serial@count=\count382
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen323
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen324
+\pgf@pt@y=\dimen325
+\pgf@pt@temp=\dimen326
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen327
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen328
+\pgf@sys@shading@range@num=\count383
+\pgf@shadingcount=\count384
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box83
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box84
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen329
+\pgf@nodesepend=\dimen330
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen331
+\pgffor@skip=\dimen332
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count385
+\pgfplotmarksize=\dimen333
+)
+\tikz@lastx=\dimen334
+\tikz@lasty=\dimen335
+\tikz@lastxsaved=\dimen336
+\tikz@lastysaved=\dimen337
+\tikz@lastmovetox=\dimen338
+\tikz@lastmovetoy=\dimen339
+\tikzleveldistance=\dimen340
+\tikzsiblingdistance=\dimen341
+\tikz@figbox=\box85
+\tikz@figbox@bg=\box86
+\tikz@tempbox=\box87
+\tikz@tempbox@bg=\box88
+\tikztreelevel=\count386
+\tikznumberofchildren=\count387
+\tikznumberofcurrentchild=\count388
+\tikz@fig@count=\count389
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count390
+\pgfmatrixcurrentcolumn=\count391
+\pgf@matrix@numberofcolumns=\count392
+)
+\tikz@expandcount=\count393
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-3.
+5.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -927,41 +1229,41 @@ LaTeX Info: Redefining \% on input line 47.
 )
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Info: Redefining \. on input line 113.
-LaTeX Info: Redefining \% on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count373
-\scratchdimen=\dimen292
-\scratchbox=\box78
-\nofMPsegments=\count374
-\nofMParguments=\count375
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count376
-\MPscratchDim=\dimen293
-\MPnumerator=\count377
-\makeMPintoPDFobject=\count378
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count394
+\scratchdimen=\dimen342
+\scratchbox=\box89
+\nofMPsegments=\count395
+\nofMParguments=\count396
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count397
+\MPscratchDim=\dimen343
+\MPnumerator=\count398
+\makeMPintoPDFobject=\count399
+\everyMPtoPDFconversion=\toks52
 )
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -989,11 +1291,11 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 113.
-Package hyperref Info: Link coloring OFF on input line 113.
+or `spanish'. on input line 115.
+Package hyperref Info: Link coloring OFF on input line 115.
  (Main.out) (Main.out)
-\@outlinefile=\write4
-\openout4 = `Main.out'.
+\@outlinefile=\write5
+\openout5 = `Main.out'.
 
 
 
@@ -1305,12 +1607,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 5--140
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-(Schedule.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+[9{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
+c}]
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 83.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 197.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 197.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 197.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 197.
+[10{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
+nc}]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+[11] [12]) (Schedule.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1334,8 +1688,8 @@ Overfull \hbox (2.64911pt too wide) in alignment at lines 12--120
  [] [] 
  []
 
-[9] [10{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.
-enc}] [11]) (Preliminars.tex
+[13{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}
+] [14]) (Preliminars.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1364,7 +1718,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-[12]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
@@ -1386,7 +1740,7 @@ VS_Crop_calendar-eps-converted-to.pdf Images/Sowing_dates_VS_Crop_calendar.eps>
 
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=449, 425.59pt x 
+<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=502, 425.59pt x 
 365.365pt>
 File: Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1412,8 +1766,8 @@ Distributions_VS_Crop_calendar-eps-converted-to.pdf Images/Sowing_dates_Distrib
 utions_VS_Crop_calendar.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=45
-4, 509.905pt x 636.3775pt>
+<Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=50
+7, 509.905pt x 636.3775pt>
 File: Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
@@ -1435,7 +1789,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[13]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -1445,12 +1799,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-[14 <./Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf>]
+[17 <./Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[15 <./Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
+[18 <./Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
@@ -1471,7 +1825,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=611, 454.77898pt x 370.
+<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=661, 454.77898pt x 370.
 60332pt>
 File: Images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
@@ -1494,8 +1848,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-[16{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.e
-nc}]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
@@ -1505,7 +1858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-[17 <./Images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
+[20 <./Images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
@@ -1520,20 +1873,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<Historical_significance_matrix.pdf, id=677, 722.7pt x 578.16pt>
+<Historical_significance_matrix.pdf, id=727, 722.7pt x 578.16pt>
 File: Historical_significance_matrix.pdf Graphic file (type pdf)
 <use Historical_significance_matrix.pdf>
 Package pdftex.def Info: Historical_significance_matrix.pdf  used on input line
  109.
 (pdftex.def)             Requested size: 472.0pt x 377.59923pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 110.
 
 Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-<Images/Interannual_trend.pdf, id=679, 390.40857pt x 338.33276pt>
+<Images/Interannual_trend.pdf, id=729, 390.40857pt x 338.33276pt>
 File: Images/Interannual_trend.pdf Graphic file (type pdf)
 <use Images/Interannual_trend.pdf>
 Package pdftex.def Info: Images/Interannual_trend.pdf  used on input line 120.
@@ -1548,12 +1899,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-[18]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
-[19 <./Historical_significance_matrix.pdf>]
+[22 <./Historical_significance_matrix.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
@@ -1563,53 +1914,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[20 <./Images/Interannual_trend.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+[23 <./Images/Interannual_trend.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
-<Images/1988Break.pdf, id=806, 498.16112pt x 389.9255pt>
+<Images/1988Break.pdf, id=855, 498.16112pt x 389.9255pt>
 File: Images/1988Break.pdf Graphic file (type pdf)
 <use Images/1988Break.pdf>
-Package pdftex.def Info: Images/1988Break.pdf  used on input line 163.
+Package pdftex.def Info: Images/1988Break.pdf  used on input line 164.
 (pdftex.def)             Requested size: 377.60144pt x 295.56108pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-[21])
-Underfull \hbox (badness 10000) in paragraph at lines 178--149
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-[22 <./Images/1988Break.pdf>] (Main.bbl
+)
+Underfull \hbox (badness 10000) in paragraph at lines 179--151
+
+ []
+
+[25 <./Images/1988Break.pdf>] [26] (Main.bbl
 bibitemlist
-[23
+[27
 
-] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35])
+] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39])
 
 Class memoir Warning: The material used in the headers is too large
 (77.33434pt) for the given head height (56.9055pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 216.
+(in both cases you will find help in the memoir manual). on input line 218.
 
-[36] (Main.aux
+[40] (Main.aux
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
 )
@@ -1618,31 +1969,38 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 7B5C732164C94088A10C4F74C0CDD217;929.
+(rerunfilecheck)             Checksum: B9CFBA4B8FC756003D451EABA172283F;929.
  ) 
 Here is how much of TeX's memory you used:
- 23097 strings out of 474824
- 431214 string characters out of 5750976
- 1946043 words of memory out of 5000000
- 44493 multiletter control sequences out of 15000+600000
- 621959 words of font info for 85 fonts, out of 8000000 for 9000
+ 33209 strings out of 474824
+ 654881 string characters out of 5750976
+ 1945043 words of memory out of 5000000
+ 54373 multiletter control sequences out of 15000+600000
+ 661450 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,16n,93p,962b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
+fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.p
 fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.p
 fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.p
-fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pf
-b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
-><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-<C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C
-:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C
-:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
-:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (36 pages, 1076331 bytes).
+fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pf
+b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb
+><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb>
+<C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><
+C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:
+/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
+sers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/U
+sers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/U
+sers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Us
+ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Use
+rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Use
+rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb>
+Output written on Main.pdf (40 pages, 1157897 bytes).
 PDF statistics:
- 1043 PDF objects out of 1200 (max. 8388607)
- 228 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1130 PDF objects out of 1200 (max. 8388607)
+ 245 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
