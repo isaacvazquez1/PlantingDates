@@ -298,23 +298,28 @@ Finalmente, tras la revisión bibliográfica, los parámetros a emplear están d
 
 \begin{table}[ht]
 	\centering
-	\begin{tabular}{c|p{5cm}|c|c}
+	\begin{tabular}{c|p{5cm}|c|p{5.8cm}}
 		\hline
-		\textbf{Parámetro} & \multicolumn{1}{c|}{\textbf{Descripción}} & \textbf{Valor} & \textbf{Fuente} \\
+		\textbf{Parámetro} & \multicolumn{1}{c|}{\textbf{Descripción}} & \textbf{Valor} & \multicolumn{1}{c}{\textbf{Fuente}} \\
 		\hline
 		$n^*$ & Número de días requeridos para que una semilla viable alcance la emergencia desde la siembra. & $16.6\pm3.1$ & Chmielewski \textit{et al.} (2004) \cite{CHMIELEWSKI_2004}. \\
 		\hline
-		$\zeta^*$ & Umbral mínimo de probabilidad para considerar viable una fecha de siembra. & $0.8$ & \cite{} \\
+		$\zeta^*$ & Umbral mínimo de probabilidad para considerar viable una fecha de siembra. & $0.8$ & FAO (2011) \cite[p. 57]{FAO_2011}. \\
 		\hline
 		$r^*$ & Número de repeticiones de caminatas aleatorias para estimación empírica. & $500$ & de Anda-Jauregui \textit{et al.} (2021) \cite{deAndaJauregui_2021}. \\
 		\hline
-		$C^*$ & Centroide de la región de condiciones agroambientales óptimas para el desarrollo del cultivo. & N/A & \cite{} \\
+		$C^*$ & Centroide de la región de condiciones agroambientales óptimas para el desarrollo del cultivo. & 	N/A & FAO (2026) \cite{FAO_maize_2026},\newline Waha \textit{et al.} (2011) \cite{Waha_2011}. 
+		\\
 		\hline
-		$C_{H,k}$ & Centroide de las condiciones agroambientales históricas observadas en el día $k$ del año. & N/A & \cite{} \\
+		$C_{H,k}$ & Centroide de las condiciones agroambientales históricas observadas en el día $k$ del año. & 	N/A & Deutscher Wetterdienst (2026) \cite{DWD_2026}. \\
 		\hline
-		$d(\cdot,\cdot)$ & Métrica de distancia en el espacio de variables agroambientales. & Por definir & N/A \\
+		$d(\cdot,\cdot)$ & Métrica de distancia en el espacio de variables agroambientales. & Por definir & \begin{center}
+			N/A
+		\end{center}  \\
 		\hline
-		$\alpha$ & Nivel de significancia para la construcción de intervalos de confianza. & $0.05$ & N/A \\
+		$\alpha$ & Nivel de significancia para la construcción de intervalos de confianza. & $0.05$ &  \begin{center}
+			N/A
+		\end{center}  \\
 		\hline
 	\end{tabular}
 	\caption{Parámetros empleados en la metodología probabilística para la estimación de fechas óptimas de siembra.}

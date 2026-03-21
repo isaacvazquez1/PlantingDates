@@ -182,6 +182,13 @@ G.~de~Anda-Jauregui and E.~Hernandez-Lemus.
 \newblock In {\em 2021 Mexican International Conference on Computer Science
   (ENC)}, page 1–6. IEEE, August 2021.
 
+\bibitem{DWD_2026}
+{Deutscher Wetterdienst}.
+\newblock Climate data center (cdc): Daily climate observations, 2026.
+\newblock Accesado vía
+  \url{https://opendata.dwd.de/climate_envir/CDC/observations_germany/climate/daily/}onment
+  en marzo 10, 2026.
+
 \bibitem{Diez2012}
 J.M. Diez, I.~Ibáñez, A.J. Miller‐Rushing, S.J. Mazer, T.M. Crimmins, M.A.
   Crimmins, C.D. Bertelsen, and D.W. Inouye.
@@ -260,6 +267,19 @@ H.~Flores-Gallardo, W.~Ojeda-Bustamante, H.~Flores-Magdaleno, E.~Mejía-Sáenz,
 \newblock Grados día y la programación integral del riego en el cultivo de
   papa.
 \newblock {\em Terra Latinoamericana}, 30(1):59--67, 2012.
+
+\bibitem{FAO_2011}
+{Food and Agriculture Organization of the United Nations}.
+\newblock {\em Seeds in emergencies: A technical handbook}.
+\newblock FAO Plant Production and Protection Papers. Food and Agriculture
+  Organization of the United Nations (FAO), Rome, Italy, March 2011.
+
+\bibitem{FAO_maize_2026}
+{Food and Agriculture Organization of the United Nations}.
+\newblock Maize – crop information, 2026.
+\newblock Accesado vía
+  \url{https://www.fao.org/land-water/databases-and-software/crop-information/maize/en/}
+  en marzo 10, 2026.
 
 \bibitem{Makouate_2025}
 H.~Fotouo~Makouate and M.~Zude-Sasse.

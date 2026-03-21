@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  19 MAR 2026 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  20 MAR 2026 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1834,9 +1834,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--296
  []
 
 
-LaTeX Warning: Citation `' on page 14 undefined on input line 307.
-
-
 Underfull \hbox (badness 2165) in paragraph at lines 309--309
 \T1/lmr/m/n/12 ca-mi-na-tas alea-to-rias pa-ra
  []
@@ -1847,13 +1844,7 @@ Underfull \hbox (badness 4699) in paragraph at lines 311--311
  []
 
 
-LaTeX Warning: Citation `' on page 14 undefined on input line 311.
-
-
-LaTeX Warning: Citation `' on page 14 undefined on input line 313.
-
-
-Overfull \hbox (19.79182pt too wide) in paragraph at lines 301--320
+Overfull \hbox (1.5681pt too wide) in paragraph at lines 301--325
  [][] 
  []
 
@@ -1935,7 +1926,7 @@ VS_Crop_calendar-eps-converted-to.pdf Images/Sowing_dates_VS_Crop_calendar.eps>
 
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=529, 425.59pt x 
+<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=536, 425.59pt x 
 365.365pt>
 File: Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1961,8 +1952,8 @@ Distributions_VS_Crop_calendar-eps-converted-to.pdf Images/Sowing_dates_Distrib
 utions_VS_Crop_calendar.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=54
-8, 509.905pt x 636.3775pt>
+<Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=55
+5, 509.905pt x 636.3775pt>
 File: Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
@@ -2020,7 +2011,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=702, 454.77898pt x 370.
+<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=709, 454.77898pt x 370.
 60332pt>
 File: Images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
@@ -2068,7 +2059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<Historical_significance_matrix.pdf, id=766, 722.7pt x 578.16pt>
+<Historical_significance_matrix.pdf, id=773, 722.7pt x 578.16pt>
 File: Historical_significance_matrix.pdf Graphic file (type pdf)
 <use Historical_significance_matrix.pdf>
 Package pdftex.def Info: Historical_significance_matrix.pdf  used on input line
@@ -2080,7 +2071,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
  []
 
 [24 <./Historical_significance_matrix.pdf>]
-<Images/Interannual_trend.pdf, id=819, 390.40857pt x 338.33276pt>
+<Images/Interannual_trend.pdf, id=826, 390.40857pt x 338.33276pt>
 File: Images/Interannual_trend.pdf Graphic file (type pdf)
 <use Images/Interannual_trend.pdf>
 Package pdftex.def Info: Images/Interannual_trend.pdf  used on input line 120.
@@ -2116,7 +2107,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--160
  []
 
 [26]
-<Images/1988Break.pdf, id=894, 498.16112pt x 389.9255pt>
+<Images/1988Break.pdf, id=901, 498.16112pt x 389.9255pt>
 File: Images/1988Break.pdf Graphic file (type pdf)
 <use Images/1988Break.pdf>
 Package pdftex.def Info: Images/1988Break.pdf  used on input line 164.
@@ -2165,18 +2156,14 @@ LaTeX Info: Redefining \% on input line 37.
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: DE4F96848626BAAD2602C24C230B73A9;929.
  ) 
 Here is how much of TeX's memory you used:
- 36780 strings out of 467867
- 764475 string characters out of 5418334
- 1183869 words of memory out of 5000000
- 64873 multiletter control sequences out of 15000+600000
+ 36786 strings out of 467867
+ 764556 string characters out of 5418334
+ 1183971 words of memory out of 5000000
+ 64876 multiletter control sequences out of 15000+600000
  731102 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,16n,93p,962b,1266s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2199,9 +2186,9 @@ ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Use
 rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Use
 rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb>
-Output written on Main.pdf (43 pages, 1177791 bytes).
+Output written on Main.pdf (43 pages, 1181678 bytes).
 PDF statistics:
- 1172 PDF objects out of 1200 (max. 8388607)
- 261 named destinations out of 1000 (max. 500000)
+ 1183 PDF objects out of 1200 (max. 8388607)
+ 264 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
