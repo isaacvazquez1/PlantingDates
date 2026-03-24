@@ -130,95 +130,77 @@ en donde se muestra tanto la estructura cíclica como proceso estocástico que s
 
 \begin{figure}[ht]
 	\centering
-	\resizebox{0.75\textwidth}{!}{
-	\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
-		%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+	\shorthandoff{<>}
+	\resizebox{0.6\textwidth}{!}{
+	\begin{tikzpicture}[
+		>=Stealth,
+		state/.style={draw, circle, minimum size=14mm, line width=0.8pt},
+		invisible/.style={circle, minimum size=14mm, draw=none},
+		arrow/.style={->, line width=0.8pt}
+		]
 		
-		%Shape: Circle [id:dp8593186993316585] 
-		\draw   (84,153.8) .. controls (84,139.99) and (95.19,128.8) .. (109,128.8) .. controls (122.81,128.8) and (134,139.99) .. (134,153.8) .. controls (134,167.61) and (122.81,178.8) .. (109,178.8) .. controls (95.19,178.8) and (84,167.61) .. (84,153.8) -- cycle ;
-		%Shape: Circle [id:dp4933341749796484] 
-		\draw   (132,201.8) .. controls (132,187.61) and (143.51,176.1) .. (157.7,176.1) .. controls (171.89,176.1) and (183.4,187.61) .. (183.4,201.8) .. controls (183.4,215.99) and (171.89,227.5) .. (157.7,227.5) .. controls (143.51,227.5) and (132,215.99) .. (132,201.8) -- cycle ;
-		%Shape: Circle [id:dp8064812302387944] 
-		\draw   (209,208) .. controls (209,194.19) and (220.19,183) .. (234,183) .. controls (247.81,183) and (259,194.19) .. (259,208) .. controls (259,221.81) and (247.81,233) .. (234,233) .. controls (220.19,233) and (209,221.81) .. (209,208) -- cycle ;
-		%Shape: Circle [id:dp5691763998987368] 
-		\draw   (298,114.8) .. controls (298,100.99) and (309.19,89.8) .. (323,89.8) .. controls (336.81,89.8) and (348,100.99) .. (348,114.8) .. controls (348,128.61) and (336.81,139.8) .. (323,139.8) .. controls (309.19,139.8) and (298,128.61) .. (298,114.8) -- cycle ;
-		%Curve Lines [id:da4516456787286707] 
-		\draw    (109,178.8) .. controls (113.8,185.33) and (117.68,189.28) .. (131.25,194) ;
-		\draw [shift={(133,194.6)}, rotate = 198.43] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Curve Lines [id:da212037411386651] 
-		\draw    (177,218.6) .. controls (185.69,225.35) and (195.3,223.73) .. (211.24,221.81) ;
-		\draw [shift={(213,221.6)}, rotate = 173.29] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Curve Lines [id:da6785657414733032] 
-		\draw    (339,166.6) .. controls (343.7,154.38) and (340.45,146.58) .. (336.72,137.55) ;
-		\draw [shift={(336,135.8)}, rotate = 67.8] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Curve Lines [id:da24911935793481532] 
-		\draw    (131,104.6) .. controls (122.41,110.33) and (116.55,116.06) .. (109.94,127.19) ;
-		\draw [shift={(109,128.8)}, rotate = 299.85] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Curve Lines [id:da18281523000825994] 
-		\draw    (255,220.8) .. controls (261.76,225.43) and (273.17,225.59) .. (289.23,223.08) ;
-		\draw [shift={(291,222.8)}, rotate = 170.65] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Shape: Ellipse [id:dp9200963781142645] 
-		\draw   (159.44,144.1) .. controls (159.47,136.37) and (190.06,130.21) .. (227.77,130.35) .. controls (265.48,130.49) and (296.03,136.87) .. (296,144.6) .. controls (295.97,152.33) and (265.38,158.49) .. (227.67,158.35) .. controls (189.96,158.21) and (159.41,151.83) .. (159.44,144.1) -- cycle ;
-		%Straight Lines [id:da4255411591292486] 
-		\draw    (131,143.6) -- (157.44,144.06) ;
-		\draw [shift={(159.44,144.1)}, rotate = 181.01] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Straight Lines [id:da3690504090862228] 
-		\draw    (234,183) -- (234,159.8) ;
-		\draw [shift={(234,157.8)}, rotate = 90] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Straight Lines [id:da2286251332217033] 
-		\draw    (165.7,178.1) -- (171.44,171.33) -- (183.73,156.35) ;
-		\draw [shift={(185,154.8)}, rotate = 129.36] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Curve Lines [id:da9498383507436814] 
-		\draw    (305,97.6) .. controls (296.45,94.75) and (288.8,94.61) .. (276.91,95.46) ;
-		\draw [shift={(275,95.6)}, rotate = 355.6] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Straight Lines [id:da19016244462240628] 
-		\draw    (298,114.8) -- (275.57,132.56) ;
-		\draw [shift={(274,133.8)}, rotate = 321.63] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-		%Curve Lines [id:da5763736584575927] 
-		\draw    (280,153.6) .. controls (293.79,165.42) and (337.66,149.1) .. (297.88,144.79) ;
-		\draw [shift={(296,144.6)}, rotate = 5.31] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)  ;
-		% Text Node INFERIOR
-		\draw (300.98,209.85) node [anchor=north west][inner sep=0.75pt]  [font=\huge,rotate=-310.72]  {$\cdots $};
-		% Text Node
-		\draw (149,193.4) node [anchor=north west][inner sep=0.75pt]    {$D_{1}$};
-		% Text Node
-		\draw (225,200.4) node [anchor=north west][inner sep=0.75pt]    {$D_{2}$};
-		% Text Node
-		\draw (313,108.4) node [anchor=north west][inner sep=0.75pt]    {$D_{i}$};
-		% Text Node
-		\draw (93,144.4) node [anchor=north west][inner sep=0.75pt]    {$D_{365}$};
-		% Text Node sUPERIOR
-		\draw (174.21,83.08) node [anchor=north west][inner sep=0.75pt]  [font=\huge,rotate=-0.63]  {$\cdots $};
-		% Text Node
-		\draw (184,227.4) node [anchor=north west][inner sep=0.75pt]  [font=\tiny]  {$\lambda _{1}$};
-		% Text Node
-		\draw (175.28,169.43) node [anchor=north west][inner sep=0.75pt]  [font=\tiny,rotate=-358.96]  {$1-\lambda _{1}$};
-		% Text Node
-		\draw (265,230.4) node [anchor=north west][inner sep=0.75pt]  [font=\tiny]  {$\lambda _{2}$};
-		% Text Node
-		\draw (345,150.4) node [anchor=north west][inner sep=0.75pt]  [font=\tiny]  {$\lambda _{i-1}$};
-		% Text Node
-		\draw (98,187.4) node [anchor=north west][inner sep=0.75pt]  [font=\tiny]  {$\lambda _{365}$};
-		% Text Node
-		\draw (97,103.4) node [anchor=north west][inner sep=0.75pt]  [font=\tiny]  {$\lambda _{364}$};
-		% Text Node
-		\draw (290,84.4) node [anchor=north west][inner sep=0.75pt]  [font=\tiny]  {$\lambda _{i}$};
-		% Text Node
-		\draw (238.28,170.43) node [anchor=north west][inner sep=0.75pt]  [font=\tiny,rotate=-358.96]  {$1-\lambda _{2}$};
-		% Text Node
-		\draw (254.28,114.43) node [anchor=north west][inner sep=0.75pt]  [font=\tiny,rotate=-358.96]  {$1-\lambda _{i}$};
-		% Text Node
-		\draw (125.28,127.43) node [anchor=north west][inner sep=0.75pt]  [font=\tiny,rotate=-358.96]  {$1-\lambda _{365}$};
-		% Text Node
-		\draw (217,136.4) node [anchor=north west][inner sep=0.75pt]    {$F$};
-		% Text Node
-		\draw (299,160.4) node [anchor=north west][inner sep=0.75pt]  [font=\tiny]  {$1$};
+		% Centro
+		\node[state] (F) at (0,0) {$F$};
+		
+		% Hexágono
+		\node[state] (D1)   at (180:3.2cm) {$D_{1}$};
+		\node[state] (D2)   at (240:3.2cm) {$D_{2}$};
+		\node[invisible] (dots1) at (300:3.2cm) {};
+		\node[state] (Di)   at (0:3.2cm) {$D_{i}$};
+		\node[invisible] (dots2) at (60:3.2cm) {};
+		\node[state] (D365) at (120:3.2cm) {$D_{365}$};
+		
+		% Ciclo
+		\path[arrow]
+		(D1) edge[bend right=15] 
+		node[pos=0.3, sloped, below] {$\lambda_{1}$} (D2)
+		
+		(D2) edge[bend right=15] 
+		node[pos=0.5, sloped, below] {$\lambda_{2}$} (dots1)
+		
+		(dots1) edge[bend right=15]
+		node[pos=0.5, sloped, below] {$\lambda_{i-1}$} (Di)
+		
+		(Di) edge[bend right=15] 
+		node[pos=0.4, sloped, above] {$\lambda_{i}$} (dots2)
+		
+		(dots2) edge[bend right=15] (D365)
+		
+		(D365) edge[bend right=15] 
+		node[pos=0.5, sloped, above] {$\lambda_{365}$} (D1);
+		
+		% Hacia F
+		\path[arrow]
+		(D1) edge node[pos=0.55,above] {$1-\lambda_{1}$} (F)
+		(D2) edge node[pos=0.55, sloped, above] {$1-\lambda_{2}$} (F)
+		(Di) edge node[pos=0.55, above] {$1-\lambda_{i}$} (F)
+		(D365) edge node[pos=0.55, sloped, above] {$1-\lambda_{365}$} (F);
+		
+		% Loop
+		\path[arrow]
+		(F) edge[
+		loop,
+		out=320, 
+		in=300,
+		looseness=8
+		] node[pos=0.8, xshift=10pt, yshift=-10pt] {$1$} (F);
+		
+		% Puntos suspensivos
+		\node[font=\large, rotate=35] at (300:3.1cm) {$\cdots$};
+		\node[font=\large, rotate=-30] at (60:3.1cm) {$\cdots$};
 		
 	\end{tikzpicture}
-	}
-	\caption{Diagrama de transición para la factibilidad de siembra diaria. Los estados $D_i$, $i\in \{1,2,3,\ldots, 365\}$, denotan un correcto crecimiento al $i$-ésimo día del año calendario mientras que el estado $F$ denota el fracaso de la siembra. Además, para cada $i\in \{1,2,3,\ldots, 365\}$, $\lambda_i$ denota la probabilidad de que una semilla se desarrolle correctamente del día $i$-ésimo día al siguiente como consecuencia de las condiciones agroambientales. Similarmente, $1-\lambda_{i}$ denota la probabilidad de una semilla perezca del $i$-ésimo al $i+1$ día a consecuencia de las condiciones agroambientales.}
+ 	}
+	\shorthandon{<>}
+	\caption{Diagrama de transición diaria de la factibilidad de siembra. El estado $F$ indica el fracaso del proceso de siembra, mientras que los estados $D_i$, $i\in\{1,2,\ldots,365\}$, denotan el $i$-ésimo día del año calendario. 
+	Cuando el proceso $X$ se encuentra en un estado $D_i$, se interpreta que, en dicho día, la semilla continúa su desarrollo de manera adecuada, es decir, que el proceso no ha sido absorbido por el estado $F$ como consecuencia de las condiciones agroambientales del entorno. Para cada $i$, $\lambda_i$ denota la probabilidad de transición de $D_i$ a $D_{i+1}$, y $1-\lambda_i$ la probabilidad de transición de $D_i$ a $F$.}
 	\label{Transicion}
 \end{figure}
+
+Diagrama de transición del proceso $X=\{X_t\}_{t\in\mathbb{N}}$. 
+El espacio de estados es $S=\{D_1,D_2,\ldots,D_{365},F\}$. 
+
+
 
 Sea \begin{equation}
 \tau_{F}\coloneq\inf_{t\in\N}\{X_t=F\}
