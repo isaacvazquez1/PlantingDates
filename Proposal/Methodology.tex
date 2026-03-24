@@ -211,13 +211,13 @@ Sea \begin{equation}
 Para simplificar la expresión anterior, se enuncia el siguiente lema.\\ 
 
 \begin{lemma}[]
-	Sean $E_1\coloneq \{\omega\in \Omega \mid \tau_{F} (\omega) >n^*\}$ y $E_2\coloneq \{\omega\in \Omega \mid X_0 \neq F, X_1 \neq F, X_2 \neq F, \ldots X_{n^*} \neq F\}$ entonces los eventos $E_1$ y $E_2$ son equivalentes.
+	Sean $E_1\coloneq \{\omega\in \Omega \mid \tau_{F} (\omega) >n^*\}$ y $E_2\coloneq \{\omega\in \Omega \mid X_0(\omega) \neq F, X_1(\omega) \neq F, X_2(\omega) \neq F, \ldots X_{n^*}(\omega) \neq F\}$ entonces los eventos $E_1$ y $E_2$ son equivalentes.
 \end{lemma}
 
  \begin{proof}
- 	Sea $\omega^*\in E_1$. De esta manera, $\tau_{F} (\omega^*) >n^*$ implicando que existe un instante $t^*\geq n^*$ tal que si $t< t^*$ entonces $X_t\neq F$ dado que $\tau_{F} (\omega^*)=\displaystyle \inf_{t\in \N}\{X_{t}=F\}$. Por tanto $\omega^* \in E_2$, verificando que $E_1\subseteq E_2.$\\
+ 	Sea $\omega^*\in E_1$. De esta manera, $\tau_{F} (\omega^*) >n^*$ implicando que para todo $t\in \N$ tal que $t< \tau_{F}(\omega^*)$ se cumple que $X_{t}(\omega^*)\neq F$, por la definición de $\tau_{F} (\omega^*)= \displaystyle \inf_{t\in \N}\{X_{t}(\omega^*)=F\}$ como el ínfimo de un conjunto. Luego, como $\tau_{F} (\omega^*) \in \N$ y $\tau_{F} (\omega^*) >n^*$ entonces $\tau_{F} (\omega^*) \geq n^*+1$; así que, en particular, $X_{t} \neq F$, para toda $t< n^*+1$. Por tanto $\omega^* \in E_2$, verificando que $E_1\subseteq E_2.$\\
 
-	Sea $\omega^*\in E_2$. Ya que $X_{t}\neq F$, para toda $t\leq n^*$ entonces $\displaystyle\inf_{t\in \N}\{X_{t}=F\} > n^*$. Por tanto, $\tau_{F} (\omega^*) >n^*$, implicando que $\omega^*\in E_2$, lo que verifica que $E_2\subseteq E_1$.\\
+	Sea $\omega^*\in E_2$. Como $X_{t}(\omega^*)\neq F$, para toda $t\leq n^*$, entonces $\displaystyle\inf_{t\in \N}\{X_{t}=F\} > n^*$. Por tanto, $\tau_{F} (\omega^*) >n^*$, implicando que $\omega^*\in E_2$, lo que verifica que $E_2\subseteq E_1$.\\
 	
 	De los argumentos previos se tiene que $E_1=E_2$, lo deseado.
  \end{proof}

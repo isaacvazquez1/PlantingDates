@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  24 MAR 2026 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  24 MAR 2026 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1883,12 +1883,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-[14]
+
 Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
@@ -2215,18 +2215,14 @@ LaTeX Info: Redefining \% on input line 37.
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: DE4F96848626BAAD2602C24C230B73A9;929.
  ) 
 Here is how much of TeX's memory you used:
- 37911 strings out of 467867
- 799109 string characters out of 5418334
- 1223276 words of memory out of 5000000
- 65984 multiletter control sequences out of 15000+600000
+ 37912 strings out of 467867
+ 799127 string characters out of 5418334
+ 1223280 words of memory out of 5000000
+ 65985 multiletter control sequences out of 15000+600000
  720448 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,16n,93p,962b,1266s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2247,7 +2243,7 @@ b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/
 Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on Main.pdf (44 pages, 1156676 bytes).
+Output written on Main.pdf (44 pages, 1156872 bytes).
 PDF statistics:
  1182 PDF objects out of 1200 (max. 8388607)
  266 named destinations out of 1000 (max. 500000)
