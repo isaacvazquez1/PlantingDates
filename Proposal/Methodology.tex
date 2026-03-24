@@ -5,7 +5,7 @@ Históricamente, muchas de las prácticas agrícolas se consolidaron mediante pr
 En este sentido, se propone una metodología probabilística que formaliza este proceso empírico de exploración del calendario agrícola, permitiendo estudiar analíticamente la variabilidad temporal de las fechas de siembra y estimar periodos potencialmente favorables para el establecimiento del cultivo bajo condiciones climáticas variables.\\
 
 
-Más aún, se estructura la progresión del tiempo como un proceso cíclico, emulando  la periodicidad inherente a la naturaleza \cite{Chuine_2017,Gatto_2015,Gurney_1992,Mardia1999,Powell_2005,Regniere_2013}, ver Fig. \ref{Transicion}. De esta manera, supongamos que una semilla de maíz será sembrada en campo abierto si tal semilla no es viable entonces se concluye el proceso de siembra como fallido. En otro caso, si dicha semilla es viable y se siembra el día $D_i$, para alguna $i\in\{1,2,3,\ldots, 365\}$ el proceso puede concluir con la emergencia o con el fracaso al día $D_j$, para alguna $j\geq i$, $j\mod{365} \in \{1,2,3,\ldots, 365\}$.\\
+Más aún, se estructura la progresión del tiempo como un proceso cíclico, emulando  la periodicidad inherente a la naturaleza \cite{Chuine_2017,Gatto_2015,Gurney_1992,Mardia1999,Powell_2005,Regniere_2013}, ver Fig. \ref{Transicion}. De esta manera, supongamos que una semilla de maíz será sembrada en campo abierto si tal semilla no es viable, entonces se concluye el proceso de siembra como fallido. En otro caso, si dicha semilla es viable y se siembra el día $D_i$, para alguna $i\in\{1,2,3,\ldots, 365\}$ el proceso puede concluir con la emergencia o con el fracaso al día $D_j$, para alguna $j\geq i$, tal que $j\mod{365} \in \{1,2,3,\ldots, 365\}$.\\
 
 Por convención, definamos 
 	\begin{align}
@@ -18,7 +18,7 @@ Con lo anterior, es posible dotar de una estructura cíclica a la progresión de
 
 Sea $n^*\in \N$ el número de días necesarios para que una semilla viable de maíz logre la emergencia desde su siembra. Como se busca determinar los periodos en donde las condiciones agroambientales favorezcan un sano desarrollo de la semilla, reduciendo la exposición al estrés del entorno entonces se desea hallar al conjunto de días $D_i$ tales que una semilla sembrada en dicha fecha emerja al día $D_{i+n^*}$ con una probabilidad \textit{suficientemente grande}.\\
 
-Sea $X=\{X_t\}_{t\in \N}$ un proceso estocástico a tiempo discreto y con espacio de estados $S=\{D_1, D_2,\ldots, D_{365}, F\}$ tal que la variable aleatoria $X_t$ modela el desarrollo de la semilla al $t$-ésimo día de ser sembrada. Asimismo, el estado $F$ indica el fracaso mientras que los estados $D_i$ indican un correcto crecimiento al $i$-ésimo día del año.\\
+Sea $X=\{X_t\}_{t\in \N}$ un proceso estocástico a tiempo discreto con espacio de estados $S=\{D_1, D_2,\ldots, D_{365}, F\}$, donde la variable aleatoria $X_t$ representa el estado del proceso al $t$-ésimo día transcurrido desde la siembra. El estado $F$ indica el fracaso del proceso, mientras que los estados $D_i$, $i\in\{1,2,\ldots,365\}$, denotan el $i$-ésimo día del año calendario. Cuando el proceso $X$ se encuentra en un estado $D_i$, se interpreta que, en dicho día, la semilla continúa su desarrollo de manera adecuada, es decir, que el proceso no ha sido absorbido por el estado de falla $F$.\\
 
 De esta manera, dado dos estados $i,j\in S$, $i\neq j$ si $P_{i,j}$ denota la probabilidad de partir del estado $i$ para transicionar al estado $j$, en un paso, entonces \begin{equation}
 	P_{i, j} \coloneqq P(X_{t+1}= j\mid X_{t}= i ) = 
@@ -32,7 +32,10 @@ De esta manera, dado dos estados $i,j\in S$, $i\neq j$ si $P_{i,j}$ denota la pr
 \end{equation}
 Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
 	\lambda_k= 1- \frac{d(C_{H,k} \,\mathbf{,}\, C^*)}{\displaystyle \max_{l\in \{1,\ldots, 365\}} \{d(C_{H,l}\, \mathbf{,} \,C^*)\}},
-\end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis. Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año mientras que $C^*$ denota el centroide de la región de condiciones agroambientales óptimas para el desarrollo del maíz, ver Fig. \ref{Distance}.\\
+\end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis. Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año incluyendo variables como la precipitación, temperatura del suelo, radiación solar, equivalencia de nieve en agua y otros fenómenos meteorológicos disponibles como el índice de Oscilación del Atlántico Norte (NAO, por sus siglas en inglés) en bases de datos climáticas disponibles a través del Deutscher Wetterdienst (DWD) \cite{DWD_2026} y la Unidad de Investigación Climática \cite{Jones_1997}.\\
+
+
+ Asimismo, $C^*$ denota el centroide de la región de condiciones agroambientales que, según la literatura, favorecen un desarrollo óptimo del cultivo. De esta manera, para toda $k\in \{1,2,\ldots, 365\}$, se garantiza que $\lambda_k \in [0,1]$ y, simultáneamente, tanto $C_{H,k}$ como $C^*$ se interpretan como elementos en $\mathbb{R}^p$, con $p\geq 5$, $p\in \N$, donde cada componente corresponde a una variable agroambiental específica ver Fig. \ref{Distance}.\\
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{figure}[ht]
@@ -242,10 +245,12 @@ Aludiendo al lema anterior, la Ecuación \eqref{EmergencyProb} se reescribe como
 		P_{i}(	\tau_{F} > n^* ) 
 		&=	P(	\tau_{F} > n^* \mid X_{0}=D_i ) \\
 		&=P( X_0 \neq F, X_1 \neq F, X_2 \neq F, \ldots X_{n^*} \neq F \mid X_{0}=D_i )\\
-		&=P( X_0 = D_i, X_1 = D_{i+1}, X_2 =D_{i+2}, \ldots X_{n^*} D_{i+n^*} \mid X_{0}=D_i )\\
-		&=P( X_1 = D_{i+1}, X_2 =D_{i+2}, \ldots X_{n^*} =D_{i+n^*} \mid X_{0}=D_i )
+		&=P( X_0 = D_i, X_1 = D_{i+1}, X_2 =D_{i+2}, \ldots, X_{n^*}= D_{i+n^*} \mid X_{0}=D_i )\\
+		&=P( X_1 = D_{i+1}, X_2 =D_{i+2}, \ldots, X_{n^*} =D_{i+n^*} \mid X_{0}=D_i )
 	\end{aligned}
-\end{equation}puesto que, por la probabilidad condicional, el proceso de siembra comenzado el día $D_i$ determina por completo la estructura de la trayectoria dado que solo se puede transicionar, en un paso, del estado $D_{i}$ al $D_{i+1}$ cuando el proceso no entra al estado $F$.\\
+\end{equation}puesto que, por la probabilidad condicional, cuando el proceso de siembra se encuentra en el estado $D_i$ solo puede transicionar a $D_{i+1}$ o $F$; por tanto, al evitar el estado $F$ se determina por completo la estructura de la trayectoria transicionando de $D_{i}$ a $D_{i+n^*}$ pasando por los estados $D_{j}$, con $i<j<{i+n^*}$, intermedios.\\
+
+%
 
 Luego, por aplicar el teorema de la regla de la cadena para probabilidad condicional \cite[Capítulo 3]{Ross_2020}, podemos reescribir a la Ecuación \eqref{EmergencyProb} de la manera siguiente \begin{equation}
 	\begin{aligned}
@@ -259,11 +264,11 @@ Luego, por aplicar el teorema de la regla de la cadena para probabilidad condici
 
 
 
-Con lo antes presentado, se puede proceder a calcular la probabilidad de interés, $P_{i}(\tau_F>n^*)$, de dos maneras distintas. Una de ellas, asumiendo que $X$ es una cadena de Markov, por simplicidad, mientras que la forma alterna se basa en considerar al diagrama presentado en la Fig. \ref{TransitionProbs} como una gráfica dirigida cuyos pesos son probabilidades y sobre ella se ejecutan caminatas aleatorias.\\
+Con lo antes presentado, se puede proceder al cálculo de la probabilidad de interés, $P_{i}(\tau_F>n^*)$, de dos maneras distintas. Una de ellas, asumiendo que $X$ es una cadena de Markov, por simplicidad, mientras que la forma alterna se basa en considerar al diagrama presentado en la Fig. \ref{TransitionProbs} como una gráfica dirigida cuyos pesos son probabilidades y sobre ella se ejecutan caminatas aleatorias.\\
 
 
 
-Por un lado, de suponer que $X$ es una cadena de Markov, la Ecuación \eqref{Bifurcation} admite la siguiente representación \begin{equation}
+Por un lado, de suponer que $X$ es una cadena de Markov, la Ecuación \eqref{Bifurcation} admite la siguiente representación. \begin{equation}
 	\begin{aligned}
 			&P_{i}(\tau_F>n^*)
 			=\prod_{t=1}^{n^*} P\left( X_{t}= D_{i+t}\mid \bigcap_{s=0}^{t-1} X_{s}=D_{i+s} \right)\\
@@ -280,7 +285,7 @@ Más aún, de considerar que las probabilidades de transición en un paso, mostr
 	\end{aligned}
 \end{equation}
 
-No obstante, en muchos contextos, la propiedad de Markov es restrictiva por lo que puede no ser completamente apropiada \cite{Boyd_1998}. Es por ello que, simultáneamente, presentamos una alternativa metodológica basada en camintas aleatorias sobre una gráfica dirigida.\\
+No obstante, en muchos contextos, la propiedad de Markov es restrictiva por lo que puede no ser completamente apropiada \cite{Boyd_1998}. Es por ello que, simultáneamente, presentamos una alternativa metodológica basada en caminatas aleatorias sobre una gráfica dirigida.\\
 
 
 Sin hipótesis adicionales, obtener analíticamente el cálculo de la probabilidad mostrado en la Ecuación \eqref{EmergencyProb} puede resultar altamente complicado. En particular, el diagrama de transición mostrado en la Fig. \ref{Transicion} puede verse como una modificación del trabajo de Altman \textit{et al.} (1993) \cite{Altman_1993} y dado que obtener expresiones análogas queda fuera del objetivo del presente trabajo, optando por un enfoque de estimación empírico.\\
@@ -290,7 +295,7 @@ De esta manera, al considerar al proceso mostrado en la Fig. \ref{Transicion} no
 
 Con este enfoque, las caminatas aleatorias se inicializan en cada uno de los vértices. En particular, para cada $i\in \{1,2,\ldots,365\}$, se inicializa una caminata aleatoria que parte del vértice $D_i$ y cuya trayectoria llega, por lo menos, al vértice $D_{i+n^*}$, o bien, llega al vértice $F$ sin haber visitado el vértices $D_{i+n^*}$. Por repetir el proceso anterior $r^*\in \N$ veces para cada vértice, se propone a \begin{equation}
  \frac{|W(D_{i}, D_{i+n^*})|}{r^*},
-\end{equation} como estimador de $P_{i}(\tau_F>n^*)$, donde $W(D_{i}, D_{i+n^*})$ denota el conjunto de caminatas aleatorias que comienzan en el vértice $D_{i}$ y, por lo menos, visitan el vértice $D_{i+n^*}$ y $|\cdot|$ indica el operador de carnalidad en conjuntos.\\
+\end{equation} como estimador de $P_{i}(\tau_F>n^*)$, donde $W(D_{i}, D_{i+n^*})$ denota el conjunto de caminatas aleatorias que comienzan en el vértice $D_{i}$ y, por lo menos, visitan el vértice $D_{i+n^*}$ y $|\cdot|$ indica el operador de cardinalidad en conjuntos.\\
 
 Más aún, derivado del gran número de repeticiones es posible generar intervalos del $(1-\alpha)100\%$ de confianza para cada uno de los vértices $D_i$ empleando los métodos de bootstrap y jacknife \cite[Capítulo 13]{Ramachandran_2009}.\\
 
@@ -311,7 +316,7 @@ Finalmente, tras la revisión bibliográfica, los parámetros a emplear están d
 		$C^*$ & Centroide de la región de condiciones agroambientales óptimas para el desarrollo del cultivo. & 	N/A & FAO (2026) \cite{FAO_maize_2026},\newline Waha \textit{et al.} (2011) \cite{Waha_2011}. 
 		\\
 		\hline
-		$C_{H,k}$ & Centroide de las condiciones agroambientales históricas observadas en el día $k$ del año. & 	N/A & Deutscher Wetterdienst (2026) \cite{DWD_2026}. \\
+		$C_{H,k}$ & Centroide de las condiciones agroambientales históricas observadas en el día $k$ del año. & 	N/A & Deutscher Wetterdienst (2026) \cite{DWD_2026},\newline Jones \textit{et al.} (1997) \cite{Jones_1997}.  \\
 		\hline
 		$d(\cdot,\cdot)$ & Métrica de distancia en el espacio de variables agroambientales. & Por definir & \begin{center}
 			N/A
