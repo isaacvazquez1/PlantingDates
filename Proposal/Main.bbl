@@ -339,6 +339,11 @@ A.~Gordes, editor.
   Italy, 2nd edition, 2017.
 \newblock Accessed 26 February 2026.
 
+\bibitem{Grinstead_2003}
+C.M. Grinstead and J.L. Snell.
+\newblock {\em Introduction to Probability}.
+\newblock American Mathematical Society, Providence, RI, 2nd edition, 2003.
+
 \bibitem{Gurney_1992}
 W.S.C. Gurney, P.H. Crowley, and R.M. Nisbet.
 \newblock Locking life-cycles onto seasons: Circle-map models of population
@@ -395,6 +400,12 @@ Markus Keller.
 \newblock Chapter 2: Phenology and growth cycle.
 \newblock In M.~Keller, editor, {\em The Science of Grapevines (Third
   Edition)}, pages 61--103. Academic Press, third edition edition, 2020.
+
+\bibitem{Kemeny_1976}
+John~G Kemeny and J~Laurie Snell.
+\newblock {\em Finite Markov chains}.
+\newblock Undergraduate Texts in Mathematics. Springer, New York, NY, 1
+  edition, July 1976.
 
 \bibitem{Kim_2024}
 M.~Kim, J.~Kim, M.-H. Jo, K.~Sung, and K.-J. Han.

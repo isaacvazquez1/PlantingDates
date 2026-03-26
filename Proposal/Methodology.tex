@@ -197,9 +197,6 @@ en donde se muestra tanto la estructura cíclica como proceso estocástico que s
 	\label{Transicion}
 \end{figure}
 
-Diagrama de transición del proceso $X=\{X_t\}_{t\in\mathbb{N}}$. 
-El espacio de estados es $S=\{D_1,D_2,\ldots,D_{365},F\}$. 
-
 
 
 Sea \begin{equation}
@@ -208,16 +205,30 @@ Sea \begin{equation}
 	P_{i}(	\tau_{F} > n^* ) \coloneq 	P(	\tau_{F} > n^* \mid X_{0}=D_i )  \geq \zeta^*,
 \end{equation}para algún $\zeta^*\in [0,1]$. Es decir, bajo el esquema de trabajo anterior, se sugiere al $i$-ésimo día siempre que la emergencia de la semilla ocurra antes del fracaso del proceso.\\
 
-Para simplificar la expresión anterior, se enuncia el siguiente lema.\\ 
+
+Notemos que, al definir $\tau_F$ como el ínfimo de un conjunto, surge la cuestión de si dicho objeto está bien definido. Para responder a ella se introduce el siguiente teorema.\\
+
+\begin{theorem}
+	Sea $\R^*\coloneq \R \cup \{-\infty, \infty\}$ el conjunto de los números reales extendidos. El instante $\displaystyle\tau_F(\omega)=\inf_{t\in\N}\{X_t(\omega)=F\}$ está bien definido para toda $\omega\in \Omega$ y cumple que $\tau_F(\omega)\in \R^*$.
+\end{theorem}
+\begin{proof}
+	Sea $\omega^*\in \Omega$ arbitraria y fija; además, sea $A\coloneq \{t\in\N \colon X_{t}(\omega^*)=F\}$. Si $A=\emptyset$ entonces $\inf A =\infty$ y dado que, por definición, $\tau_F(\omega^*)=\infty$ se tiene que $\tau_F(\omega^*)\in \R^*$.\\
+	
+	Por otra parte, supongamos que $A\neq\emptyset$. Como $A\subset \N$ y $\N$ es conjunto acotado inferiormente, en particular, $A$ también lo es; a saber, el $0$ satisface ser una cota inferior para ambos, $A$ y $\N$. De esta manera, como $A$ es un conjunto no vacío y acotado inferiormente se cumple que el $\inf A$ existe y $\inf A\in \R\subset \R^*$.\\
+	
+	En consecuencia, en ambos casos se tiene que $\tau_F(\omega^*)= \inf A$ está bien definido y $\tau_F(\omega^*)\in \mathbb{R}^*$. Más aún, como $\omega^*$ fue arbitraria, lo anterior se cumple para toda $\omega^*\in \Omega$.
+\end{proof}
+
+Además, para simplificar la expresión mostrada en la Ecuación \eqref{EmergencyProb}, se enuncia el siguiente lema.\\ 
 
 \begin{lemma}[]
-	Sean $E_1\coloneq \{\omega\in \Omega \mid \tau_{F} (\omega) >n^*\}$ y $E_2\coloneq \{\omega\in \Omega \mid X_0(\omega) \neq F, X_1(\omega) \neq F, X_2(\omega) \neq F, \ldots X_{n^*}(\omega) \neq F\}$ entonces los eventos $E_1$ y $E_2$ son equivalentes.
+	Dada $n^* \in\N$ fija, sean $E_1\coloneq \{\omega\in \Omega \mid \tau_{F} (\omega) >n^*\}$ y $E_2\coloneq \{\omega\in \Omega \mid X_0(\omega) \neq F, X_1(\omega) \neq F, X_2(\omega) \neq F, \ldots X_{n^*}(\omega) \neq F\}$ entonces los eventos $E_1$ y $E_2$ son equivalentes.
 \end{lemma}
 
  \begin{proof}
- 	Sea $\omega^*\in E_1$. De esta manera, $\tau_{F} (\omega^*) >n^*$ implicando que para todo $t\in \N$ tal que $t< \tau_{F}(\omega^*)$ se cumple que $X_{t}(\omega^*)\neq F$, por la definición de $\tau_{F} (\omega^*)= \displaystyle \inf_{t\in \N}\{X_{t}(\omega^*)=F\}$ como el ínfimo de un conjunto. Luego, como $\tau_{F} (\omega^*) \in \N$ y $\tau_{F} (\omega^*) >n^*$ entonces $\tau_{F} (\omega^*) \geq n^*+1$; así que, en particular, $X_{t} \neq F$, para toda $t< n^*+1$. Por tanto $\omega^* \in E_2$, verificando que $E_1\subseteq E_2.$\\
+ 	Sea $\omega^*\in E_1$. Como $\tau_{F} (\omega^*)= \displaystyle \inf_{t\in \N}\{X_{t}(\omega^*)=F\} > n^*$  entonces para todo instante $t<\tau_{F} (\omega^*)$ se cumple que $X_{t}\neq F$, por la definición de ínfimo. De esta manera, en particular, para toda $t\leq n^*$ se satisface que $X_{t}\neq F$. Por tanto $\omega^* \in E_2$, verificando que $E_1\subseteq E_2.$\\
 
-	Sea $\omega^*\in E_2$. Como $X_{t}(\omega^*)\neq F$, para toda $t\leq n^*$, entonces $\displaystyle\inf_{t\in \N}\{X_{t}=F\} > n^*$. Por tanto, $\tau_{F} (\omega^*) >n^*$, implicando que $\omega^*\in E_2$, lo que verifica que $E_2\subseteq E_1$.\\
+	Sea $\omega^*\in E_2$. Como $X_{t}(\omega^*)\neq F$, para toda $t\leq n^*$, entonces $\{t\in\N\colon X_t(\omega^*)=F\}\subseteq \{t\in\N\colon t>n^*\}$ implicando que $\displaystyle \tau_{F} (\omega^*) = \inf_{t\in \N}\{X_{t}(\omega^*)=F\} \geq  \inf_{t\in \N}\{t>n^*\} > n^*$ por propiedades del ínfimo sobre la contención de conjuntos y que $\displaystyle \inf_{t\in \N}\{t>n^*\} =n^*+1$. Así, por transitividad, se tiene que $\displaystyle \inf_{t\in \N}\{X_{t}(\omega^*)=F\} > n^*$, implicando que $\omega^*\in E_1$, lo que verifica que $E_2\subseteq E_1$.\\
 	
 	De los argumentos previos se tiene que $E_1=E_2$, lo deseado.
  \end{proof}
@@ -267,7 +278,131 @@ Más aún, de considerar que las probabilidades de transición en un paso, mostr
 	\end{aligned}
 \end{equation}
 
-No obstante, en muchos contextos, la propiedad de Markov es restrictiva por lo que puede no ser completamente apropiada \cite{Boyd_1998}. Es por ello que, simultáneamente, presentamos una alternativa metodológica basada en caminatas aleatorias sobre una gráfica dirigida.\\
+Para extender el análisis del proceso $X$, como cadena de Markov, se introducen las siguientes definiciones.\\
+
+\begin{definition}[Estado absorbente]
+	Sea $X$ una cadena de Markov con espacio de estados $S.$
+	Un estado $s\in S$ es denominado absorbente si \begin{equation}
+		P_{s,s}=1.
+	\end{equation}En otro caso, es llamado estado transitorio. 
+\end{definition}
+
+\begin{definition}
+	Sea $X =\{X_{t}\}_{t\in \N}$ una cadena de Markov con espacio de estados $S$. Se dice que $X$ es una cadena de Markov absorbente posee al menos un estado absorbente y si partiendo de cualquier estado $s\in S$ es posible llegar a algún estado absorbente, no necesariamente en un único paso.
+\end{definition}
+
+Aludiendo a las definiciones previas, se tiene que la cadena de Markov $X$ propuesta para modelar el proceso de siembra es una cadena de Markov absorbente. De esta manera, es posible preguntarse por cuál es el número de días que se espera transcurran hasta que el proceso de siembra fracase si dio inicio el $i$-ésimo día del año, con $i\in\{1,2,\ldots,365\}$.\\
+
+
+Matemáticamente, lo anterior se traduce a responder, dado que la cadena de Markov $X$ comenzó en el estado $D_{i}$, $i\in\{1,2,\ldots,365\}$, cuál es el número de pasos esperado antes de que $X$ sea absorbida por el estado $F$. Lo cual, se aborda empleando las herramientas discutidas en el libro de Grinstead \textit{et al.} (2003) \cite[Capítulo 11]{Grinstead_2003} y se mencionan a continuación.\\
+
+
+\begin{definition}[Forma canónica]
+	Sea $X$ una cadena de Markov a tiempo discreto con un espacio de estados $S$ de cardinalidad $s<\infty$ y con matriz de transición $A\in\mathcal{M}_{s\times s}(\R)$. Además, sean $r, t\in \N$ tales que $r+t=s$, donde $r$ denota la cantidad de estados absorbentes, mientras que $t$ denota el número de estados transitorios. Se dice que $A$ está en forma canónica si admite la siguiente representación \begin{equation}
+		A= \begin{bNiceMatrix}[%
+			first-row, 
+			first-col]
+			& \mathrm{Transitorios} & \mathrm{Absorbentes}  \\
+			\mathrm{Transitorios} & \mathbf{Q} & \mathbf{R}  \\
+			\mathrm{Absorbentes} & \mathbf{0} & \mathbf{I}  \\
+		\end{bNiceMatrix},
+	\end{equation}donde $\mathbf{Q}\in \mathcal{M}_{t\times t}(\R)$, $\mathbf{R}\in \mathcal{M}_{t\times r}(\R)$, $\mathbf{0}\in \mathcal{M}_{r\times t}(\R)$ e $\mathbf{I}\in \mathcal{M}_{r\times r}(\R)$.
+\end{definition}
+
+
+Con la definición anterior, se introduce el concepto de matriz fundamental que se presenta a continuación.\\
+
+\begin{definition}[Matriz fundamental]
+	Sea $X$ una cadena de Markov discreta a tiempo discreto tal que matriz de transición esté en forma canónica \begin{equation*}
+		A= \begin{bNiceMatrix}[%
+			first-row, 
+			first-col]
+			& \mathrm{Transitorios} & \mathrm{Absorbentes}  \\
+			\mathrm{Transitorios} & \mathbf{Q} & \mathbf{R}  \\
+			\mathrm{Absorbentes} & \mathbf{0} & \mathbf{I}  \\
+		\end{bNiceMatrix},
+	\end{equation*}entonces la matriz $\mathbf{N}\in \mathcal{M}_{t\times t}(\R)$ dada por \begin{equation}
+	\mathbf{N}=(I_t- Q)^{-1},
+	\end{equation}donde $I_t\in \mathcal{M}_{t\times t}(R)$ denota la matriz identidad, se denomina la matriz fundamental de $X$.
+\end{definition}
+
+Al considerar las definiciones previas, el número de pasos esperado para que una cadena de Markov absorbente sea absorbida, habiendo partido de un estado transitorio arbitrario, se obtiene a través del siguiente teorema.
+
+
+\begin{theorem}[Tiempo esperado para la absorción]
+	Sea $X$ una cadena de Markov absorbente con espacio de estados $S$, donde $t\in \N$ son transitorios, y con $\mathbf{N}$ su matriz fundamental. Si $\mu=(\mu_1, \mu_2,\ldots, \mu_t)^T$ es el vector cuya $i$-ésima entrada,  $\mu_i$, denota  el número de pasos esperado antes de que $X$ sea absorbida, dado que comenzó en el estado $s_i\in S$ entonces \begin{equation}
+	\mu = \mathbf{N} \mathbf{1},
+	\end{equation}donde $\mathbf{1}\in\R^{t}$ es tal que $\mathbf{1}=(1,1,\ldots,1)^T$.\label{mu} 
+\end{theorem} 
+
+El resultado anterior puede robustecerse por aludir al libro de Kemeny \textit{et al.} (1976) \cite[Capitulo 3]{Kemeny_1976} sobre la varianza del número de pasos para que una cadena de Markov absorbente sea absorbida, habiendo partido de un estado transitorio arbitrario, que se presenta a continuación.\\
+
+\begin{theorem}[Varianza del tiempo para la absorción]
+	Sea $X$ una cadena de Markov absorbente con espacio de estados $S$, donde $t\in \N$ son transitorios, y con $\mathbf{N}$ su matriz fundamental. Si $\sigma^2=(\sigma^2_1, \sigma^2_2,\ldots, \sigma^2_t)^T$ es el vector cuya $i$-ésima entrada,  $sigma^2_i$, denota la varianza del número de pasos antes de que $X$ sea absorbida, dado que comenzó en el estado $s_i\in S$ entonces  \begin{equation}
+		\sigma^2 = (2\mathbf{N} - I_t)\mu -  \mu_{sq},
+	\end{equation}donde $\mu=(\mu_1,\mu_2,\ldots,\mu_t)^T$ el vector del número esperado de pasos antes de la absorción y $\mu_{sq}\in \R^{t}$ se define por $\mu=(\mu^2_1,\mu^2_2,\ldots,\mu^2_t)^T$.
+	\label{sigma_sq}
+\end{theorem}
+
+Con los resultados y definiciones previas, gráficamente, la matriz de transición mostrada en la Ecuación \eqref{TransitionProbs} se segmenta en los siguientes bloques, a fin de obtener su forma canónica. 
+
+\begin{equation}
+	A=
+	\begin{bNiceMatrix}[
+		first-row,
+		first-col
+		]
+		& D_1 & D_2 & D_3 & D_4 & \cdots & D_{364} & D_{365} &  F \\
+		
+		D_1   & 0 & \lambda_1 & 0 & 0 & \cdots & 0 & 0 & 1-\lambda_1 \\
+		D_2   & 0 & 0 & \lambda_2 & 0 & \cdots & 0 & 0 & 1-\lambda_2 \\
+		
+		\vdots &  &  &  &  & \ddots &  &  & \vdots \\
+		
+		D_{364} & 0 & 0 & 0 & 0 & \cdots & 0 & \lambda_{364} & 1-\lambda_{364} \\
+		D_{365} & \lambda_{365} & 0 & 0 & 0 & \cdots & 0 & 0 & 1-\lambda_{365} \\
+		
+		%\hline
+		
+		F & 0 & 0 & 0 & 0 & \cdots & 0 & 0 & 1
+		\CodeAfter  % added <<<<<<<<<<<<
+		%\line{1-2}{3-4} 
+		\tikz[dashed, line width=0.8pt] \draw  (1-|8) -- (7-|8);
+		\tikz[dashed, line width=0.8pt, shorten <=5pt, shorten >=6pt] \draw  (6-|1) -- (6-|9);
+	\end{bNiceMatrix}
+\end{equation}
+
+
+De manera que $\mathbf{Q}\in \mathcal{M}_{365\times 365}(\R)$ y se define por \begin{equation}
+	\mathbf{Q}=
+	\begin{bNiceMatrix}[
+		first-row,
+		first-col
+		]
+		& D_1 & D_2 & D_3 & D_4 & \cdots & D_{364} & D_{365}  \\
+		
+		D_1   & 0 & \lambda_1 & 0 & 0 & \cdots & 0 & 0  \\
+		D_2   & 0 & 0 & \lambda_2 & 0 & \cdots & 0 & 0 \\
+		
+		\vdots &  &  &  &  & \ddots &  &   \\
+		
+		D_{364} & 0 & 0 & 0 & 0 & \cdots & 0 & \lambda_{364}  \\
+		D_{365} & \lambda_{365} & 0 & 0 & 0 & \cdots & 0 & 0 \\
+	\end{bNiceMatrix},
+\end{equation}dado que $X$ posee un único estado absorbente, $F$.\\
+
+Al emplear el Teorema \ref{mu} y el teorema \ref{sigma_sq} de manera conjunta, se obtiene un criterio adicional. Para cada $i\in \{1,2,\ldots,365\}$, se propone al intervalo del (1-$\alpha$)100\% de confianza para el número de días para que la cadena $X$ se absorbida por $F$, dado que comenzó en el estado $D_i$, al intervalo \begin{equation}
+	(\mu_{i} - z_{1-\alpha/2} \sigma_{i},\, \mu_{i}+ z_{1-\alpha/2}\sigma_{i}),
+\end{equation}donde $\sigma_{i}=\sqrt{\sigma^2_{i}}$ y $z_{1-\alpha/2}$ denota al $(1-\alpha/2)$-ésimo cuantil de una distribución normal estándar. Asumiendo, por simplicidad, que el teorema del límite central es válido al tener registros agroclimáticos históricos de 64 años independientes y consecutivos.\\
+
+De esta manera, se sugiere que la siembra se realice el $i$-ésimo día del año si \begin{equation}
+	n^*< \mu_{i} - z_{1-\alpha/2} \sigma_{i}.
+\end{equation}
+
+
+
+
+En muchos contextos, por otra parte, la propiedad de Markov es restrictiva por lo que puede no ser completamente apropiada \cite{Boyd_1998}. Es por ello que, simultáneamente, presentamos una alternativa metodológica basada en caminatas aleatorias sobre una gráfica dirigida.\\
 
 
 Sin hipótesis adicionales, obtener analíticamente el cálculo de la probabilidad mostrado en la Ecuación \eqref{EmergencyProb} puede resultar altamente complicado. En particular, el diagrama de transición mostrado en la Fig. \ref{Transicion} puede verse como una modificación del trabajo de Altman \textit{et al.} (1993) \cite{Altman_1993} y dado que obtener expresiones análogas queda fuera del objetivo del presente trabajo, optando por un enfoque de estimación empírico.\\
