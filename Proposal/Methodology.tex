@@ -5,14 +5,14 @@ Históricamente, muchas de las prácticas agrícolas se consolidaron mediante pr
 En este sentido, se propone una metodología probabilística que formaliza este proceso empírico de exploración del calendario agrícola, permitiendo estudiar analíticamente la variabilidad temporal de las fechas de siembra y estimar periodos potencialmente favorables para el establecimiento del cultivo bajo condiciones climáticas variables.\\
 
 
-Más aún, se estructura la progresión del tiempo como un proceso cíclico, emulando  la periodicidad inherente a la naturaleza \cite{Chuine_2017,Gatto_2015,Gurney_1992,Mardia1999,Powell_2005,Regniere_2013}, ver Fig. \ref{Transicion}. De esta manera, supongamos que una semilla de maíz será sembrada en campo abierto si tal semilla no es viable, entonces se concluye el proceso de siembra como fallido. En otro caso, si dicha semilla es viable y se siembra el día $D_i$, para alguna $i\in\{1,2,3,\ldots, 365\}$ el proceso puede concluir con la emergencia o con el fracaso al día $D_j$, para alguna $j\geq i$, tal que $j\mod{365} \in \{1,2,3,\ldots, 365\}$.\\
+Más aún, se estructura la progresión del tiempo como un proceso cíclico, emulando  la periodicidad inherente a la naturaleza \cite{Chuine_2017,Gatto_2015,Gurney_1992,Mardia1999,Powell_2005,Regniere_2013}, ver Fig. \ref{Transicion}. De esta manera, supongamos que una semilla de maíz será sembrada en campo abierto si tal semilla no es viable, entonces se concluye el proceso de siembra como fallido. En otro caso, si dicha semilla es viable y se siembra el día $D_i$, para alguna $i\in\{1,2,3,\ldots, 365\}$ el proceso puede concluir con la emergencia o con el fracaso al día $D_j$, para alguna $j\geq i$, tal que $j\bmod{365} \in \{1,2,3,\ldots, 365\}$.\\
 
 Por convención, definamos 
 	\begin{align}
 		D_{366}\coloneqq& D_{1},\\
 		D_{367}\coloneqq& D_{2},\\
 		\nonumber\vdots& \\
-		D_{j}\coloneqq& D_{j\mod{365}}.
+		D_{j}\coloneqq& D_{j\bmod{365}}.
 	\end{align}
 Con lo anterior, es posible dotar de una estructura cíclica a la progresión del año dado que al finalizar un año inmediatamente comienza el siguiente de manera que la observación del proceso de siembra puede observarse de manera continua en todo punto del año.\\
 
@@ -32,8 +32,28 @@ De esta manera, dado dos estados $i,j\in S$, $i\neq j$ si $P_{i,j}$ denota la pr
 \end{equation}
 Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
 	\lambda_k= 1- \frac{d(C_{H,k} \,\mathbf{,}\, C^*)}{\displaystyle \max_{l\in \{1,\ldots, 365\}} \{d(C_{H,l}\, \mathbf{,} \,C^*)\}},
-\end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis. Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año incluyendo variables como la precipitación, temperatura del suelo, radiación solar, equivalencia de nieve en agua y otros fenómenos meteorológicos disponibles como el índice de Oscilación del Atlántico Norte (NAO, por sus siglas en inglés) en bases de datos climáticas disponibles a través del Deutscher Wetterdienst (DWD) \cite{DWD_2026} y la Unidad de Investigación Climática \cite{Jones_1997}.\\
+\end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis. Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año incluyendo variables como la precipitación, temperatura del suelo, radiación solar, equivalencia de nieve en agua y otros fenómenos meteorológicos disponibles como el índice de Oscilación del Atlántico Norte (NAO, por sus siglas en inglés) en bases de datos climáticas disponibles a través del Deutscher Wetterdienst (DWD) \cite{DWD_2026} y la Unidad de Investigación Climática \cite{Jones_1997}, ver Tabla \ref{AgroVariables}.\\
 
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{c|p{5cm}|p{4.5cm}}
+		\hline
+		\textbf{Variable} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c}{\textbf{Fuente}} \\
+		\hline
+		Temperatura del suelo & Temperatura media diaria del suelo a nivel radicular relevante para la germinación. &  DWD \cite{DWD_2026} \\
+		\hline
+		Precipitación & Precipitación acumulada diaria registrada en superficie. & DWD \cite{DWD_2026} \\
+		\hline
+		Radiación solar & Radiación solar global diaria incidente sobre la superficie terrestre. & CRU \cite{Jones_1997} \\
+		\hline
+		SWE & Equivalente de agua en nieve (Snow Water Equivalent), indicador de la cantidad de agua almacenada en forma de nieve. & DWD \cite{DWD_2026} \\
+		\hline
+		NAO & Índice de Oscilación del Atlántico Norte, indicador de variabilidad climática a gran escala. & CRU \cite{Jones_1997} \\
+		\hline
+	\end{tabular}
+	\caption{Variables agroambientales que definen al registro histórico. A partir de las observaciones de cada variable se obtiene el centroide $(C_{H,k}$, para cada $k\in \{1,2,\ldots,365\}$.}
+	\label{AgroVariables}
+\end{table}
 
  Asimismo, $C^*$ denota el centroide de la región de condiciones agroambientales que, según la literatura, favorecen un desarrollo óptimo del cultivo. De esta manera, para toda $k\in \{1,2,\ldots, 365\}$, se garantiza que $\lambda_k \in [0,1]$ y, simultáneamente, tanto $C_{H,k}$ como $C^*$ se interpretan como elementos en $\mathbb{R}^p$, con $p\geq 5$, $p\in \N$, donde cada componente corresponde a una variable agroambiental específica ver Fig. \ref{Distance}.\\
 
@@ -245,7 +265,7 @@ Aludiendo al lema anterior, la Ecuación \eqref{EmergencyProb} se reescribe como
 
 %
 
-Luego, por aplicar el teorema de la regla de la cadena para probabilidad condicional \cite[Capítulo 3]{Ross_2020}, podemos reescribir a la Ecuación \eqref{EmergencyProb} de la manera siguiente \begin{equation}
+Luego, al aplicar el teorema de la regla de la cadena para probabilidad condicional \cite[Capítulo 3]{Ross_2020}, podemos reescribir a la Ecuación \eqref{EmergencyProb} de la manera siguiente \begin{equation}
 	\begin{aligned}
 		P_{i}(\tau_F>n^*)
 		&=P( X_1 = D_{i+1}, X_2 =D_{i+2}, \ldots X_{n^*} =D_{i+n^*} \mid X_{0}=D_i )\\
@@ -274,11 +294,11 @@ Más aún, de considerar que las probabilidades de transición en un paso, mostr
 	\begin{aligned}
 		&P_{i}(\tau_F>n^*)=\\
 		&P(X_{n^*}=D_{i+n^*} \mid X_{n^*-1}=D_{i+n^*-1})\ldots P(X_{2}=D_{i+2}\mid X_{1}=D_{i+1}) P(X_{1}=D_{i+1} \mid X_0 = D_{i})\\
-		&=\prod_{t=0}^{n^*-1} \lambda_{(i+t) \mod{365}}.
+		&=\prod_{t=0}^{n^*-1} \lambda_{(i+t) \bmod{365}}.
 	\end{aligned}
 \end{equation}
 
-Para extender el análisis del proceso $X$, como cadena de Markov, se introducen las siguientes definiciones.\\
+Para extender el análisis del proceso $X$, como cadena de Markov absorbente, se introducen las siguientes definiciones.\\
 
 \begin{definition}[Estado absorbente]
 	Sea $X$ una cadena de Markov con espacio de estados $S.$
@@ -287,18 +307,18 @@ Para extender el análisis del proceso $X$, como cadena de Markov, se introducen
 	\end{equation}En otro caso, es llamado estado transitorio. 
 \end{definition}
 
-\begin{definition}
-	Sea $X =\{X_{t}\}_{t\in \N}$ una cadena de Markov con espacio de estados $S$. Se dice que $X$ es una cadena de Markov absorbente posee al menos un estado absorbente y si partiendo de cualquier estado $s\in S$ es posible llegar a algún estado absorbente, no necesariamente en un único paso.
+\begin{definition}[Cadena de Markov absorbente]
+	Sea $X$ una cadena de Markov con espacio de estados $S$. Se dice que $X$ es una cadena de Markov absorbente si posee al menos un estado absorbente y si partiendo de cualquier estado $s\in S$ es posible llegar a algún estado absorbente, no necesariamente en un único paso.
 \end{definition}
 
-Aludiendo a las definiciones previas, se tiene que la cadena de Markov $X$ propuesta para modelar el proceso de siembra es una cadena de Markov absorbente. De esta manera, es posible preguntarse por cuál es el número de días que se espera transcurran hasta que el proceso de siembra fracase si dio inicio el $i$-ésimo día del año, con $i\in\{1,2,\ldots,365\}$.\\
+Aludiendo a las definiciones previas, puede demostrarse que que la cadena de Markov $X$ propuesta para modelar el proceso de siembra es una cadena de Markov absorbente, ver Fig. \ref{Transicion}. De esta manera, es posible preguntarse por cuál es el número de días que se espera transcurran hasta que el proceso de siembra fracase si dio inicio el $i$-ésimo día del año, con $i\in\{1,2,\ldots,365\}$.\\
 
 
-Matemáticamente, lo anterior se traduce a responder, dado que la cadena de Markov $X$ comenzó en el estado $D_{i}$, $i\in\{1,2,\ldots,365\}$, cuál es el número de pasos esperado antes de que $X$ sea absorbida por el estado $F$. Lo cual, se aborda empleando las herramientas discutidas en el libro de Grinstead \textit{et al.} (2003) \cite[Capítulo 11]{Grinstead_2003} y se mencionan a continuación.\\
+Matemáticamente, lo anterior se traduce a responder, dado que la cadena de Markov $X$ comenzó en el estado $D_{i}$, $i\in\{1,2,\ldots,365\}$, cuál es el número de pasos esperado antes de que $X$ sea absorbida por el estado $F$. Lo cual se aborda empleando las herramientas discutidas en el libro de Grinstead \textit{et al.} (2003) \cite[Capítulo 11]{Grinstead_2003} y se mencionan a continuación.\\
 
 
 \begin{definition}[Forma canónica]
-	Sea $X$ una cadena de Markov a tiempo discreto con un espacio de estados $S$ de cardinalidad $s<\infty$ y con matriz de transición $A\in\mathcal{M}_{s\times s}(\R)$. Además, sean $r, t\in \N$ tales que $r+t=s$, donde $r$ denota la cantidad de estados absorbentes, mientras que $t$ denota el número de estados transitorios. Se dice que $A$ está en forma canónica si admite la siguiente representación \begin{equation}
+	Sea $X$ una cadena de Markov a tiempo discreto con un espacio de estados $S$ tal que $|S|=s+r$, $s,r\in \N$, tales que $s$ denota el número de estados absorbentes mientras que $t$ denota el número de estados transitorios. Además, sea $A\in\mathcal{M}_{s\times s}(\R)$ la matriz de transición de $X$. Se dice que $A$ está en forma canónica si admite la siguiente representación \begin{equation}
 		A= \begin{bNiceMatrix}[%
 			first-row, 
 			first-col]
@@ -306,45 +326,37 @@ Matemáticamente, lo anterior se traduce a responder, dado que la cadena de Mark
 			\mathrm{Transitorios} & \mathbf{Q} & \mathbf{R}  \\
 			\mathrm{Absorbentes} & \mathbf{0} & \mathbf{I}  \\
 		\end{bNiceMatrix},
-	\end{equation}donde $\mathbf{Q}\in \mathcal{M}_{t\times t}(\R)$, $\mathbf{R}\in \mathcal{M}_{t\times r}(\R)$, $\mathbf{0}\in \mathcal{M}_{r\times t}(\R)$ e $\mathbf{I}\in \mathcal{M}_{r\times r}(\R)$.
+	\end{equation}donde $\mathbf{Q}\in \mathcal{M}_{t\times t}(\R)$ es la submatriz que considera al proceso mientras permanece en estados transitorios, $\mathbf{R}\in \mathcal{M}_{t\times r}(\R)$ es la submatriz que considera la transición del proceso de estados transitorios a estados absorbentes, $\mathbf{0}\in \mathcal{M}_{r\times t}(\R)$ es la matriz cero dado que considera la transición de estados absorbentes a estados transitorios y, finalmente, $\mathbf{I}\in \mathcal{M}_{r\times r}(\R)$ es la matriz identidad dado que considera la transición de estados absorbentes a sí mismos.
 \end{definition}
 
 
-Con la definición anterior, se introduce el concepto de matriz fundamental que se presenta a continuación.\\
+Al considerar la forma canónica de una matriz de transición asociada a una cadena de Markov absorbente se puede introducir el concepto de matriz fundamental. Así pueden calcularse distintas probabilidad en función de dicha matriz por lo que a continuación se presenta su definición.\\
 
 \begin{definition}[Matriz fundamental]
-	Sea $X$ una cadena de Markov discreta a tiempo discreto tal que matriz de transición esté en forma canónica \begin{equation*}
-		A= \begin{bNiceMatrix}[%
-			first-row, 
-			first-col]
-			& \mathrm{Transitorios} & \mathrm{Absorbentes}  \\
-			\mathrm{Transitorios} & \mathbf{Q} & \mathbf{R}  \\
-			\mathrm{Absorbentes} & \mathbf{0} & \mathbf{I}  \\
-		\end{bNiceMatrix},
-	\end{equation*}entonces la matriz $\mathbf{N}\in \mathcal{M}_{t\times t}(\R)$ dada por \begin{equation}
-	\mathbf{N}=(I_t- Q)^{-1},
-	\end{equation}donde $I_t\in \mathcal{M}_{t\times t}(R)$ denota la matriz identidad, se denomina la matriz fundamental de $X$.
+	Sea $X$ una cadena de Markov absorbente con $A$ su matriz de transición. Si $\mathbf{Q}$ es la submatriz que proviene en de la forma canónica de $A$, la matriz fundamental de $X$, $\mathbf{N}\in \mathcal{M}_{t\times t}(\R)$, se denota y define por\begin{equation}
+	\mathbf{N}=(I_t- \mathbf{Q})^{-1},
+	\end{equation}donde $t\in \N$ indica el número de estados transitorios e $I_t\in \mathcal{M}_{t\times t}(\R)$ denota la matriz identidad.
 \end{definition}
 
 Al considerar las definiciones previas, el número de pasos esperado para que una cadena de Markov absorbente sea absorbida, habiendo partido de un estado transitorio arbitrario, se obtiene a través del siguiente teorema.
 
 
 \begin{theorem}[Tiempo esperado para la absorción]
-	Sea $X$ una cadena de Markov absorbente con espacio de estados $S$, donde $t\in \N$ son transitorios, y con $\mathbf{N}$ su matriz fundamental. Si $\mu=(\mu_1, \mu_2,\ldots, \mu_t)^T$ es el vector cuya $i$-ésima entrada,  $\mu_i$, denota  el número de pasos esperado antes de que $X$ sea absorbida, dado que comenzó en el estado $s_i\in S$ entonces \begin{equation}
+	Sea $X$ una cadena de Markov absorbente con espacio de estados $S$, $t\in \N$ el número de estados transitorios y $\mathbf{N}$ su matriz fundamental. Si $\mu_i$ denota el número de pasos esperado antes de que $X$ sea absorbida, dado que comenzó en el estado transitorio $s_i$, $s_i\in S$, y $\mu\in \R^t$ es tal que $\mu=(\mu_1, \mu_2,\ldots, \mu_t)^T$  entonces \begin{equation}
 	\mu = \mathbf{N} \mathbf{1},
-	\end{equation}donde $\mathbf{1}\in\R^{t}$ es tal que $\mathbf{1}=(1,1,\ldots,1)^T$.\label{mu} 
+	\end{equation}donde $\mathbf{1}\in\R^{t}$ está dado por $\mathbf{1}=(1,1,\ldots,1)^T$.\label{mu} 
 \end{theorem} 
 
-El resultado anterior puede robustecerse por aludir al libro de Kemeny \textit{et al.} (1976) \cite[Capitulo 3]{Kemeny_1976} sobre la varianza del número de pasos para que una cadena de Markov absorbente sea absorbida, habiendo partido de un estado transitorio arbitrario, que se presenta a continuación.\\
+El resultado anterior puede robustecerse por aludir a las herramientas discutidas en el libro de Kemeny \textit{et al.} (1976) \cite[Capítulo 3]{Kemeny_1976}. En particular, se puede calcular la varianza del número de pasos para que una cadena de Markov absorbente sea absorbida, habiendo partido de un estado transitorio arbitrario, un resultado que presenta a continuación.\\
 
 \begin{theorem}[Varianza del tiempo para la absorción]
-	Sea $X$ una cadena de Markov absorbente con espacio de estados $S$, donde $t\in \N$ son transitorios, y con $\mathbf{N}$ su matriz fundamental. Si $\sigma^2=(\sigma^2_1, \sigma^2_2,\ldots, \sigma^2_t)^T$ es el vector cuya $i$-ésima entrada,  $sigma^2_i$, denota la varianza del número de pasos antes de que $X$ sea absorbida, dado que comenzó en el estado $s_i\in S$ entonces  \begin{equation}
+	Sea $X$ una cadena de Markov absorbente con espacio de estados $S$, $t\in \N$ el número de estados transitorios y $\mathbf{N}$ su matriz fundamental. Si $\sigma^2_i$ denota la varianza del número de pasos antes de que $X$ sea absorbida, dado que comenzó en el estado transitorio $s_i$, $s_i\in S$, y $\sigma^2\in \R^t$ es tal que $\sigma^2=(\sigma^2_1, \sigma^2_2,\ldots, \sigma^2_t)^T$ entonces  \begin{equation}
 		\sigma^2 = (2\mathbf{N} - I_t)\mu -  \mu_{sq},
-	\end{equation}donde $\mu=(\mu_1,\mu_2,\ldots,\mu_t)^T$ el vector del número esperado de pasos antes de la absorción y $\mu_{sq}\in \R^{t}$ se define por $\mu=(\mu^2_1,\mu^2_2,\ldots,\mu^2_t)^T$.
+	\end{equation}donde $\mu=(\mu_1,\mu_2,\ldots,\mu_t)^T$ el vector del número esperado de pasos antes de la absorción y $\mu_{sq}\in \R^{t}$ se define por $\mu_{sq}=(\mu^2_1,\mu^2_2,\ldots,\mu^2_t)^T$.
 	\label{sigma_sq}
 \end{theorem}
 
-Con los resultados y definiciones previas, gráficamente, la matriz de transición mostrada en la Ecuación \eqref{TransitionProbs} se segmenta en los siguientes bloques, a fin de obtener su forma canónica. 
+Con los resultados y definiciones previas, gráficamente, la matriz de transición mostrada en la Ecuación \eqref{TransitionProbs}, que corresponde a la cadena de Markov de nuestro interés, se segmenta en los siguientes bloques, a fin de obtener su forma canónica. 
 
 \begin{equation}
 	A=
@@ -391,15 +403,43 @@ De manera que $\mathbf{Q}\in \mathcal{M}_{365\times 365}(\R)$ y se define por \b
 	\end{bNiceMatrix},
 \end{equation}dado que $X$ posee un único estado absorbente, $F$.\\
 
-Al emplear el Teorema \ref{mu} y el teorema \ref{sigma_sq} de manera conjunta, se obtiene un criterio adicional. Para cada $i\in \{1,2,\ldots,365\}$, se propone al intervalo del (1-$\alpha$)100\% de confianza para el número de días para que la cadena $X$ se absorbida por $F$, dado que comenzó en el estado $D_i$, al intervalo \begin{equation}
-	(\mu_{i} - z_{1-\alpha/2} \sigma_{i},\, \mu_{i}+ z_{1-\alpha/2}\sigma_{i}),
-\end{equation}donde $\sigma_{i}=\sqrt{\sigma^2_{i}}$ y $z_{1-\alpha/2}$ denota al $(1-\alpha/2)$-ésimo cuantil de una distribución normal estándar. Asumiendo, por simplicidad, que el teorema del límite central es válido al tener registros agroclimáticos históricos de 64 años independientes y consecutivos.\\
-
-De esta manera, se sugiere que la siembra se realice el $i$-ésimo día del año si \begin{equation}
-	n^*< \mu_{i} - z_{1-\alpha/2} \sigma_{i}.
-\end{equation}
+Al emplear el Teorema \ref{mu} y el Teorema \ref{sigma_sq} de manera conjunta, se obtiene un criterio adicional. Para cada $i\in \{1,2,\ldots,365\}$, sea $T_i$ la variable aleatoria que cuenta el número de pasos para que la cadena $X$ sea absorbida por $F$, dado que comenzó en el estado $D_i$, entonces por la desigualdad de Chebyshev \cite{Ibe_2013} se tiene que, para toda $k\geq 0$,\begin{equation}
+	P(|T_i-\mu_i| \geq k\sigma_i) \leq \frac{1}{k^2},
+\end{equation}donde $\mu_i$ indica la $i$-ésima entrada del vector $\mu$, calculado a través del Teorema \ref{mu}, y $\sigma_{i}=\sqrt{\sigma^2_i}$ es la raíz cuadrada de la $i$-ésima entrada del vector $\sigma^2$, obtenido a través del Teorema \ref{sigma_sq}, ambos teoremas aplicados en la cadena de Markov $X$ que modela la siembra.\\
 
 
+En consecuencia, \begin{equation}
+	P(|T_i-\mu_i| < k\sigma_i) \geq 1-\frac{1}{k^2}.
+\end{equation}Implicando que al menos el $\displaystyle\left(1-\frac{1}{k^2}\right)100\%$ de las realizaciones de $T_i$ caen en el intervalo \begin{equation}
+(\mu_i- k \sigma_i \,\mathbf{,}\, \mu_i+k\sigma_i).
+\end{equation}Con ello se obtiene una acota para el número de días para que la cadena $X$ sea absorbida por el estado $F$ dado que comenzó en el estado $D_i$.\\
+
+De esta manera, para cada $i\in \{1,2,\ldots,365\}$, se sugiere que la siembra se realice el $i$-ésimo día del año si \begin{equation}
+	n^* < \mu_i- k \sigma_i,
+\end{equation}un criterio conservador al provenir de la desigualdad de Chebyshev \cite{Jain_2022}.\\
+
+
+Más aún, a través de las herramientas discutidas previamente es posible determinar la probabilidad de visitar en algún momento al estado $s_{j}$ habiendo partido del estado $s_i$, $i\neq j$, donde ambos estados son transitorios. Para tal efecto, se presenta el siguiente teorema.
+
+\begin{theorem}[Visita eventual]
+	Sea $X$ una cadena de Markov absorbente con espacio de estados $S$ y con matriz fundamental $\mathbf{N}$. Dados dos estados transitorios $s_i, s_j\in S$, la probabilidad de que $X$ eventualmente visite el estado $s_j$ dado que comenzó en el estado $s_i$, sin considerar el inicio, corresponde a la entrada $h_{i,j}$ de la matriz $\mathbf{H}\in \mathcal{M}_{t\times t}(\R)$ dada por \begin{equation}
+		\mathbf{H}= (\mathbf{N}-I_t)(N_{dg})^{-1},
+	\end{equation}donde $I_t\in \mathcal{M}_{t\times t}(\R)$ denota la matriz identidad y  $N_{dg}\in \mathcal{M}_{t\times t}(\R)$ es la matriz diagonal con la misma diagonal que la matriz $\mathbf{N}$.
+	\label{H_Eventual}
+\end{theorem}
+
+
+Aludiendo al teorema anterior y, por simplicidad, suponiendo que los requerimientos agroclimáticos del maíz se mantienen constantes desde la siembra hasta la cosecha, es posible extender el análisis y monitorear tanto el inicio como el fin de la temporada del cultivo.\\
+
+Sea $h^*$ al número de días que transcurren desde la siembra hasta la cosecha del maíz en Alemania. Entonces, para cada $i\in \{1,2,\ldots,365\}$, la probabilidad de que habiendo sembrado el $i$-ésimo día del año, antes de ser absorbido por el fracaso, el desarrollo del cultivo eventualmente alcance el estado correspondiente a $h^*$ días después está dada por la entrada\begin{equation}
+	h_{i,(i+h^*)\bmod 365},
+\end{equation}de la matriz $\mathbf{H}$ calculada a partir de la Ecuación \eqref{H_Eventual}.\\
+
+
+Dado que la transición entre estados representa el avance diario del cultivo, para cada $i\in\{1,2,\ldots,365\}$, se sugiere realizar la siembra en el $i$-ésimo día del año si
+\begin{equation}
+	h_{i,(i+h^*)\bmod 365} \geq \zeta^*,
+\end{equation}para algún $\zeta^*\in[0,1]$. De esta manera se identifican aquellas fechas de siembra para las cuales la probabilidad de que el cultivo eventualmente complete su ciclo fenológico es suficientemente alta.\\
 
 
 En muchos contextos, por otra parte, la propiedad de Markov es restrictiva por lo que puede no ser completamente apropiada \cite{Boyd_1998}. Es por ello que, simultáneamente, presentamos una alternativa metodológica basada en caminatas aleatorias sobre una gráfica dirigida.\\
