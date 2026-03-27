@@ -32,30 +32,61 @@ De esta manera, dado dos estados $i,j\in S$, $i\neq j$ si $P_{i,j}$ denota la pr
 \end{equation}
 Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
 	\lambda_k= 1- \frac{d(C_{H,k} \,\mathbf{,}\, C^*)}{\displaystyle \max_{l\in \{1,\ldots, 365\}} \{d(C_{H,l}\, \mathbf{,} \,C^*)\}},
-\end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis. Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año incluyendo variables como la precipitación, temperatura del suelo, radiación solar, equivalencia de nieve en agua y otros fenómenos meteorológicos disponibles como el índice de Oscilación del Atlántico Norte (NAO, por sus siglas en inglés) en bases de datos climáticas disponibles a través del Deutscher Wetterdienst (DWD) \cite{DWD_2026} y la Unidad de Investigación Climática \cite{Jones_1997}, ver Tabla \ref{AgroVariables}.\\
+\end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis. Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año incluyendo variables como la precipitación, temperatura del suelo, radiación solar, equivalencia de nieve en agua y otros fenómenos meteorológicos disponibles como el índice de Oscilación del Atlántico Norte (NAO, por sus siglas en inglés) en bases de datos climáticas disponibles a través del Deutscher Wetterdienst (DWD) \cite{DWD_2026} y la Unidad de Investigación Climática, (CRU, por sus siglas en inglés) \cite{Jones_1997}, ver Tabla \ref{AgroVariables}.\\
 
 \begin{table}[ht]
 	\centering
-	\begin{tabular}{c|p{5cm}|p{4.5cm}}
+	\renewcommand{\arraystretch}{1.2}
+	\begin{tabular}{p{4.4cm}|p{6.8cm}|p{4.2cm}}
 		\hline
-		\textbf{Variable} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c}{\textbf{Fuente}} \\
+		\multicolumn{1}{c|}{\textbf{Variable}} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c}{\textbf{Fuente}} \\
 		\hline
-		Temperatura del suelo & Temperatura media diaria del suelo a nivel radicular relevante para la germinación. &  DWD \cite{DWD_2026} \\
+		
+		Temperatura del suelo\newline ($^\circ$C).
+		& Temperatura diaria del suelo medida a $2$, $5$, $10$, $20$ y $50$ cm de profundidad. \newline
+		Nota: Se sugiere considerar mediciones a 10 cm \cite{Vatca_2021}. 
+		& \multirow{7}{*}{\parbox{4.5cm}{Deutscher Wetterdienst\\
+		\cite{DWD_2026}.
+		}} \\ \cline{1-2}
+		
+		Precipitación\newline (mm). 
+		& Precipitación diaria registrada en superficie. 
+		& \\ \cline{1-2}
+		
+		Radiación descendente de onda larga\newline (J/cm$^2$). 
+		& Radiación infrarroja descendente emitida por la atmósfera que incide diariamente sobre la superficie terrestre. 
+		& \\ \cline{1-2}
+		
+		Radiación solar difusa\newline (J/cm$^2$). 
+		& Suma diaria de la radiación solar que llega a la superficie tras ser dispersada por la atmósfera. 
+		& \\ \cline{1-2}
+		
+		Radiación solar incidente\newline (J/cm$^2$). 
+		& Suma diaria de la energía solar que incide sobre la superficie terrestre. 
+		& \\ \cline{1-2}
+		
+		Duración del fotoperiodo\newline (h). 
+		& Cantidad diaria de horas de luz. 
+		& \\ \cline{1-2}
+		
+		Equivalente en agua de la profundidad total de la nieve\newline (mm). 
+		& Cantidad diaria de agua almacenada en forma de nieve. 
+		& \\
+		
 		\hline
-		Precipitación & Precipitación acumulada diaria registrada en superficie. & DWD \cite{DWD_2026} \\
-		\hline
-		Radiación solar & Radiación solar global diaria incidente sobre la superficie terrestre. & CRU \cite{Jones_1997} \\
-		\hline
-		SWE & Equivalente de agua en nieve (Snow Water Equivalent), indicador de la cantidad de agua almacenada en forma de nieve. & DWD \cite{DWD_2026} \\
-		\hline
-		NAO & Índice de Oscilación del Atlántico Norte, indicador de variabilidad climática a gran escala. & CRU \cite{Jones_1997} \\
+		
+		Índice de Oscilación del Atlántico Norte\newline (adimensional). 
+		& Diferencia normalizada de la presión a nivel del mar entre el centro de altas presiones subtropicales (Azores) y el centro de bajas presiones subpolares (Islandia). \newline
+		Nota: Se sugiere considerar la componente asociada a Islandia \cite{Riaz_2017}. 
+		&  Climatic Research Unit \cite{Jones_1997}. \\
+		
 		\hline
 	\end{tabular}
-	\caption{Variables agroambientales que definen al registro histórico. A partir de las observaciones de cada variable se obtiene el centroide $(C_{H,k}$, para cada $k\in \{1,2,\ldots,365\}$.}
+	\caption{Variables agroambientales que definen el registro histórico. A partir de las observaciones de cada variable se obtiene el centroide $C_{H,k}$, para cada $k \in \{1,2,\ldots,365\}$.}
 	\label{AgroVariables}
 \end{table}
 
- Asimismo, $C^*$ denota el centroide de la región de condiciones agroambientales que, según la literatura, favorecen un desarrollo óptimo del cultivo. De esta manera, para toda $k\in \{1,2,\ldots, 365\}$, se garantiza que $\lambda_k \in [0,1]$ y, simultáneamente, tanto $C_{H,k}$ como $C^*$ se interpretan como elementos en $\mathbb{R}^p$, con $p\geq 5$, $p\in \N$, donde cada componente corresponde a una variable agroambiental específica ver Fig. \ref{Distance}.\\
+ Asimismo, $C^*$ denota el centroide de la región de condiciones agroambientales que, según la literatura, favorecen un desarrollo óptimo del cultivo. De esta manera, para toda $k\in \{1,2,\ldots, 365\}$, se garantiza que $\lambda_k \in [0,1]$ y, simultáneamente, tanto $C_{H,k}$ como $C^*$ se interpretan como elementos en $\mathbb{R}^d$, con $d\geq 8$, $d\in \N$, donde cada componente corresponde a una variable agroambiental específica ver Fig. \ref{Distance}.\\
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{figure}[ht]
@@ -403,19 +434,19 @@ De manera que $\mathbf{Q}\in \mathcal{M}_{365\times 365}(\R)$ y se define por \b
 	\end{bNiceMatrix},
 \end{equation}dado que $X$ posee un único estado absorbente, $F$.\\
 
-Al emplear el Teorema \ref{mu} y el Teorema \ref{sigma_sq} de manera conjunta, se obtiene un criterio adicional. Para cada $i\in \{1,2,\ldots,365\}$, sea $T_i$ la variable aleatoria que cuenta el número de pasos para que la cadena $X$ sea absorbida por $F$, dado que comenzó en el estado $D_i$, entonces por la desigualdad de Chebyshev \cite{Ibe_2013} se tiene que, para toda $k\geq 0$,\begin{equation}
-	P(|T_i-\mu_i| \geq k\sigma_i) \leq \frac{1}{k^2},
+Al emplear el Teorema \ref{mu} y el Teorema \ref{sigma_sq} de manera conjunta, se obtiene un criterio adicional. Para cada $i\in \{1,2,\ldots,365\}$, sea $T_i$ la variable aleatoria que cuenta el número de pasos para que la cadena $X$ sea absorbida por $F$, dado que comenzó en el estado $D_i$, entonces por la desigualdad de Chebyshev \cite{Ibe_2013} se tiene que, para toda $\kappa\geq 0$,\begin{equation}
+	P(|T_i-\mu_i| \geq \kappa\sigma_i) \leq \frac{1}{\kappa^2},
 \end{equation}donde $\mu_i$ indica la $i$-ésima entrada del vector $\mu$, calculado a través del Teorema \ref{mu}, y $\sigma_{i}=\sqrt{\sigma^2_i}$ es la raíz cuadrada de la $i$-ésima entrada del vector $\sigma^2$, obtenido a través del Teorema \ref{sigma_sq}, ambos teoremas aplicados en la cadena de Markov $X$ que modela la siembra.\\
 
 
 En consecuencia, \begin{equation}
-	P(|T_i-\mu_i| < k\sigma_i) \geq 1-\frac{1}{k^2}.
-\end{equation}Implicando que al menos el $\displaystyle\left(1-\frac{1}{k^2}\right)100\%$ de las realizaciones de $T_i$ caen en el intervalo \begin{equation}
-(\mu_i- k \sigma_i \,\mathbf{,}\, \mu_i+k\sigma_i).
+	P(|T_i-\mu_i| < \kappa\sigma_i) \geq 1-\frac{1}{\kappa^2}.
+\end{equation}Implicando que al menos el $\displaystyle\left(1-\frac{1}{\kappa^2}\right)100\%$ de las realizaciones de $T_i$ caen en el intervalo \begin{equation}
+(\mu_i- \kappa \sigma_i \,\mathbf{,}\, \mu_i+\kappa\sigma_i).
 \end{equation}Con ello se obtiene una acota para el número de días para que la cadena $X$ sea absorbida por el estado $F$ dado que comenzó en el estado $D_i$.\\
 
 De esta manera, para cada $i\in \{1,2,\ldots,365\}$, se sugiere que la siembra se realice el $i$-ésimo día del año si \begin{equation}
-	n^* < \mu_i- k \sigma_i,
+	n^* < \mu_i- \kappa \sigma_i,
 \end{equation}un criterio conservador al provenir de la desigualdad de Chebyshev \cite{Jain_2022}.\\
 
 
@@ -482,6 +513,9 @@ Finalmente, tras la revisión bibliográfica, los parámetros a emplear están d
 		$\alpha$ & Nivel de significancia para la construcción de intervalos de confianza. & $0.05$ &  \begin{center}
 			N/A
 		\end{center}  \\
+		\hline
+		$\kappa$ & Parámetro en la desigualdad de Chebyshev. & $4.47$ & da Silva \textit{et al.} (2019) \cite{daSilva_2019}.
+		 \\
 		\hline
 	\end{tabular}
 	\caption{Parámetros empleados en la metodología probabilística para la estimación de fechas óptimas de siembra.}

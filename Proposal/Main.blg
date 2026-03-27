@@ -5,84 +5,84 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-I was expecting a `,' or a `}'---line 1169 of file Refs.bib
+I was expecting a `,' or a `}'---line 1215 of file Refs.bib
  :  
  :  address={New York, U.S.A.}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2184 of file Refs.bib
+Repeated entry---line 2230 of file Refs.bib
  : @article{Liu_2025
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2500 of file Refs.bib
+Repeated entry---line 2546 of file Refs.bib
  : @article{Li_2025
  :                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2629 of file Refs.bib
+I was expecting a `,' or a `}'---line 2675 of file Refs.bib
  :  
  :  note={Tesis de maestría}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3164 of file Refs.bib
+I was expecting a `,' or a `}'---line 3210 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3255 of file Refs.bib
+I was expecting a `,' or a `}'---line 3301 of file Refs.bib
  :  
  :  DOI = {10.3390/agronomy8040037}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 4038 of file Refs.bib
+Repeated entry---line 4084 of file Refs.bib
  : @article{Zhang_2025
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4335 of file Refs.bib
+Repeated entry---line 4381 of file Refs.bib
  : @article{Franch_2022
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in France_1984
 Warning--empty journal in García-Mendoza_2002
 Warning--can't use both author and editor fields in Regniere_2013
-You've used 180 entries,
+You've used 183 entries,
             2118 wiz_defined-function locations,
-            1701 strings with 43078 characters,
-and the built_in function-call counts, 70212 in all, are:
-= -- 6448
-> -- 4476
+            1722 strings with 43842 characters,
+and the built_in function-call counts, 71541 in all, are:
+= -- 6564
+> -- 4575
 < -- 13
-+ -- 1777
-- -- 1582
-* -- 5958
-:= -- 12124
-add.period$ -- 553
-call.type$ -- 180
-change.case$ -- 1317
++ -- 1816
+- -- 1618
+* -- 6089
+:= -- 12357
+add.period$ -- 562
+call.type$ -- 183
+change.case$ -- 1344
 chr.to.int$ -- 0
-cite$ -- 183
-duplicate$ -- 2104
-empty$ -- 4706
-format.name$ -- 1582
-if$ -- 14040
+cite$ -- 186
+duplicate$ -- 2137
+empty$ -- 4786
+format.name$ -- 1618
+if$ -- 14296
 int.to.chr$ -- 0
-int.to.str$ -- 180
-missing$ -- 187
-newline$ -- 907
-num.names$ -- 372
-pop$ -- 1124
+int.to.str$ -- 183
+missing$ -- 190
+newline$ -- 922
+num.names$ -- 378
+pop$ -- 1145
 preamble$ -- 1
-purify$ -- 1146
+purify$ -- 1170
 quote$ -- 0
-skip$ -- 1457
+skip$ -- 1478
 stack$ -- 0
-substring$ -- 4076
-swap$ -- 304
+substring$ -- 4151
+swap$ -- 307
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 690
+type$ -- 702
 warning$ -- 3
-while$ -- 529
-width$ -- 183
-write$ -- 1997
+while$ -- 538
+width$ -- 186
+write$ -- 2030
 (There were 8 error messages)
