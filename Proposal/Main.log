@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  27 MAR 2026 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  30 MAR 2026 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1881,82 +1881,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--328
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 488--490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
  []
 
@@ -1966,17 +1956,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 494--495
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 508--508
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 517--517
 \T1/lmr/m/n/12 ca-mi-na-tas alea-to-rias pa-ra
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 510--510
+Underfull \hbox (badness 4699) in paragraph at lines 519--519
 \T1/lmr/m/n/12 con-di-cio-nes agro-am-bien-ta-
  []
 
 
-Overfull \hbox (1.5681pt too wide) in paragraph at lines 500--527
+Overfull \hbox (1.5681pt too wide) in paragraph at lines 509--536
  [][] 
  []
 
@@ -2058,7 +2063,7 @@ VS_Crop_calendar-eps-converted-to.pdf Images/Sowing_dates_VS_Crop_calendar.eps>
 
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=613, 425.59pt x 
+<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=617, 425.59pt x 
 365.365pt>
 File: Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2085,7 +2090,7 @@ utions_VS_Crop_calendar.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 <Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=63
-2, 509.905pt x 636.3775pt>
+6, 509.905pt x 636.3775pt>
 File: Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
@@ -2143,7 +2148,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=786, 454.77898pt x 370.
+<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=790, 454.77898pt x 370.
 60332pt>
 File: Images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
@@ -2191,7 +2196,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<Historical_significance_matrix.pdf, id=850, 722.7pt x 578.16pt>
+<Historical_significance_matrix.pdf, id=854, 722.7pt x 578.16pt>
 File: Historical_significance_matrix.pdf Graphic file (type pdf)
 <use Historical_significance_matrix.pdf>
 Package pdftex.def Info: Historical_significance_matrix.pdf  used on input line
@@ -2203,7 +2208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
  []
 
 [30 <./Historical_significance_matrix.pdf>]
-<Images/Interannual_trend.pdf, id=903, 390.40857pt x 338.33276pt>
+<Images/Interannual_trend.pdf, id=907, 390.40857pt x 338.33276pt>
 File: Images/Interannual_trend.pdf Graphic file (type pdf)
 <use Images/Interannual_trend.pdf>
 Package pdftex.def Info: Images/Interannual_trend.pdf  used on input line 120.
@@ -2239,7 +2244,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--160
  []
 
 [32]
-<Images/1988Break.pdf, id=978, 498.16112pt x 389.9255pt>
+<Images/1988Break.pdf, id=982, 498.16112pt x 389.9255pt>
 File: Images/1988Break.pdf Graphic file (type pdf)
 <use Images/1988Break.pdf>
 Package pdftex.def Info: Images/1988Break.pdf  used on input line 164.
@@ -2292,10 +2297,10 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 6411177A1549441EB54BF83EB9B94C38;930.
  ) 
 Here is how much of TeX's memory you used:
- 39549 strings out of 467867
- 831187 string characters out of 5418334
- 1265227 words of memory out of 5000000
- 67585 multiletter control sequences out of 15000+600000
+ 39552 strings out of 467867
+ 831218 string characters out of 5418334
+ 1265309 words of memory out of 5000000
+ 67587 multiletter control sequences out of 15000+600000
  720448 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,16n,93p,962b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2317,9 +2322,9 @@ sers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on Main.pdf (50 pages, 1201170 bytes).
+Output written on Main.pdf (50 pages, 1202901 bytes).
 PDF statistics:
- 1271 PDF objects out of 1440 (max. 8388607)
- 303 named destinations out of 1000 (max. 500000)
+ 1275 PDF objects out of 1440 (max. 8388607)
+ 304 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

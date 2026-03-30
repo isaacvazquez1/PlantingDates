@@ -333,7 +333,9 @@ Más aún, de considerar que las probabilidades de transición en un paso, mostr
 		&P(X_{n^*}=D_{i+n^*} \mid X_{n^*-1}=D_{i+n^*-1})\ldots P(X_{2}=D_{i+2}\mid X_{1}=D_{i+1}) P(X_{1}=D_{i+1} \mid X_0 = D_{i})\\
 		&=\prod_{t=0}^{n^*-1} \lambda_{(i+t) \bmod{365}}.
 	\end{aligned}
+	\label{product_lambdas}
 \end{equation}
+
 
 Para extender el análisis del proceso $X$, como cadena de Markov absorbente, se introducen las siguientes definiciones.\\
 
@@ -438,6 +440,7 @@ De manera que $\mathbf{Q}\in \mathcal{M}_{365\times 365}(\R)$ y se define por \b
 		D_{364} & 0 & 0 & 0 & 0 & \cdots & 0 & \lambda_{364}  \\
 		D_{365} & \lambda_{365} & 0 & 0 & 0 & \cdots & 0 & 0 \\
 	\end{bNiceMatrix},
+	\label{Q_X}
 \end{equation}dado que $X$ posee un único estado absorbente, $F$.\\
 
 Al emplear el Teorema \ref{mu} y el Teorema \ref{sigma_sq} de manera conjunta, se obtiene un criterio adicional. Para cada $i\in \{1,2,\ldots,365\}$, sea $T_i$ la variable aleatoria que cuenta el número de pasos para que la cadena $X$ sea absorbida por $F$, dado que comenzó en el estado $D_i$, entonces por la desigualdad de Chebyshev \cite{Ibe_2013} se tiene que, para toda $\kappa\geq 0$,\begin{equation}
@@ -456,28 +459,34 @@ De esta manera, para cada $i\in \{1,2,\ldots,365\}$, se sugiere que la siembra s
 \end{equation}un criterio conservador al provenir de la desigualdad de Chebyshev \cite{Jain_2022}.\\
 
 
-Más aún, a través de las herramientas discutidas previamente es posible determinar la probabilidad de visitar en algún momento al estado $s_{j}$ habiendo partido del estado $s_i$, $i\neq j$, donde ambos estados son transitorios. Para tal efecto, se presenta el siguiente teorema.
+Más aún, a través de las herramientas discutidas previamente es posible determinar la probabilidad de que el proceso visite en algún momento el estado $s_{j}$, habiendo partido del estado $s_i$, donde ambos estados son transitorios. Para tal efecto, se presenta el siguiente teorema.
 
 \begin{theorem}[Visita eventual]
-	Sea $X$ una cadena de Markov absorbente con espacio de estados $S$ y con matriz fundamental $\mathbf{N}$. Dados dos estados transitorios $s_i, s_j\in S$, la probabilidad de que $X$ eventualmente visite el estado $s_j$ dado que comenzó en el estado $s_i$, sin considerar el inicio, corresponde a la entrada $h_{i,j}$ de la matriz $\mathbf{H}\in \mathcal{M}_{t\times t}(\R)$ dada por \begin{equation}
+	Sea $X$ una cadena de Markov absorbente con espacio de estados $S$ y con matriz fundamental $\mathbf{N}$. Dados dos estados transitorios $s_i, s_j\in S$, la probabilidad de que $X$ comience por el estado $s_i$ y, que luego del estado inicial, eventualmente visite el estado $s_j$ corresponde a la entrada $h_{i,j}$ de la matriz $\mathbf{H}\in \mathcal{M}_{t\times t}(\R)$ dada por \begin{equation}
 		\mathbf{H}= (\mathbf{N}-I_t)(N_{dg})^{-1},
-	\end{equation}donde $I_t\in \mathcal{M}_{t\times t}(\R)$ denota la matriz identidad y  $N_{dg}\in \mathcal{M}_{t\times t}(\R)$ es la matriz diagonal con la misma diagonal que la matriz $\mathbf{N}$.
+	\end{equation}
+	donde $I_t\in \mathcal{M}_{t\times t}(\R)$ denota la matriz identidad y $N_{dg}\in \mathcal{M}_{t\times t}(\R)$ es la matriz diagonal con la misma diagonal que la matriz $\mathbf{N}$.
 	\label{H_Eventual}
 \end{theorem}
 
+Con el teorema anterior se obtiene una alternativa directa al análisis correspondiente a la Ecuación \eqref{product_lambdas}, ya que, como consecuencia del siguiente teorema, se sabe que dicha expresión tiende a cero cuando $n^*$ tiende a infinito.\\
 
-Aludiendo al teorema anterior y, por simplicidad, suponiendo que los requerimientos agroclimáticos del maíz se mantienen constantes desde la siembra hasta la cosecha, es posible extender el análisis y monitorear tanto el inicio como el fin de la temporada del cultivo.\\
+\begin{theorem}[Tendencia a la absorción]
+	Sea $X$ una cadena de Markov finita con $s>0$ estados absorbentes, $s\in \N$. Entonces la probabilidad de que $X$ esté en un estado absorbente tras $n$ pasos tiende a uno cuando $n$ tiende a infinito, sin importar el estado en el que inició $X$. 
+\end{theorem}
 
-Sea $h^*$ al número de días que transcurren desde la siembra hasta la cosecha del maíz en Alemania. Entonces, para cada $i\in \{1,2,\ldots,365\}$, la probabilidad de que habiendo sembrado el $i$-ésimo día del año, antes de ser absorbido por el fracaso, el desarrollo del cultivo eventualmente alcance el estado correspondiente a $h^*$ días después está dada por la entrada\begin{equation}
-	h_{i,(i+h^*)\bmod 365},
-\end{equation}de la matriz $\mathbf{H}$ calculada a partir de la Ecuación \eqref{H_Eventual}.\\
+De esta manera, de acuerdo con Kemeny \textit{et al.} (1976) \cite{Kemeny_1976}, se tiene que \begin{equation}
+	\lim_{n\to \infty} \mathbf{Q}^n = \mathbf{0},
+\end{equation}
+donde $\mathbf{0}\in \mathcal{M}_{t\times t}(\R)$ denota la matriz cero y $t\in \N$ indica el número de estados transitorios. Así, el producto de $n$ factores, tales que cada factor corresponde a algún $\lambda_i$, $i\in \{1,2,\ldots,365\}$ tiende a cero, como se mencionaba anteriormente. Esto, dado que tal producto puede entenderse como una de las entradas de la $n$-ésima potencia de la matriz $\mathbf{Q}$ descrita en la Ecuación \eqref{Q_X}.\\
 
+De manera que, si $n^*$ denota el número de días que transcurren desde el inicio de la siembra hasta la emergencia del maíz en Alemania y la transición entre estados representa el avance diario del cultivo, entonces, desde el punto de vista fenológico, la etapa de siembra a la emergencia se completa aproximadamente en $n^*$ días.\\
 
-Dado que la transición entre estados representa el avance diario del cultivo, para cada $i\in\{1,2,\ldots,365\}$, se sugiere realizar la siembra en el $i$-ésimo día del año si
+En consecuencia, con las herramientas discutidas en el Teorema \ref{H_Eventual}, se establece el siguiente criterio de decisión. Para cada $i\in\{1,2,\ldots,365\}$, se sugiere realizar la siembra en el $i$-ésimo día del año si 
 \begin{equation}
-	h_{i,(i+h^*)\bmod 365} \geq \zeta^*,
-\end{equation}para algún $\zeta^*\in[0,1]$. De esta manera se identifican aquellas fechas de siembra para las cuales la probabilidad de que el cultivo eventualmente complete su ciclo fenológico es suficientemente alta.\\
-
+	h_{i,(i+n^*)\bmod 365} \geq \zeta^*,
+\end{equation}
+para algún $\zeta^*\in[0,1]$. Es decir, si la probabilidad de que el cultivo eventualmente complete la etapa fenológica es suficientemente alta.\\
 
 En muchos contextos, por otra parte, la propiedad de Markov es restrictiva por lo que puede no ser completamente apropiada \cite{Boyd_1998}. Es por ello que, simultáneamente, presentamos una alternativa metodológica basada en caminatas aleatorias sobre una gráfica dirigida.\\
 
