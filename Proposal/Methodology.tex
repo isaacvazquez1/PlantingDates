@@ -34,44 +34,36 @@ Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
 	\lambda_k= 1- \frac{d(C_{H,k} \,\mathbf{,}\, C^*)}{\displaystyle \max_{l\in \{1,\ldots, 365\}} \{d(C_{H,l}\, \mathbf{,} \,C^*)\}},
 \end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis. Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año incluyendo variables como la precipitación, temperatura del suelo, radiación solar, equivalencia de nieve en agua y otros fenómenos meteorológicos disponibles como el índice de Oscilación del Atlántico Norte (NAO, por sus siglas en inglés) en bases de datos climáticas disponibles a través del Deutscher Wetterdienst (DWD) \cite{DWD_2026} y la Unidad de Investigación Climática, (CRU, por sus siglas en inglés) \cite{Jones_1997}, ver Tabla \ref{AgroVariables}.\\
 
-\begin{table}[ht]
+\begin{table}[!ht]
 	\centering
 	\renewcommand{\arraystretch}{1.2}
 	\begin{tabular}{p{4.4cm}|p{6.8cm}|p{4.2cm}}
 		\hline
 		\multicolumn{1}{c|}{\textbf{Variable}} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c}{\textbf{Fuente}} \\
 		\hline
-		
-		Temperatura del suelo\newline ($^\circ$C).
-		& Temperatura diaria del suelo medida a $2$, $5$, $10$, $20$ y $50$ cm de profundidad. \newline
-		Nota: Se sugiere considerar mediciones a 10 cm \cite{Vatca_2021}. 
-		& \multirow{7}{*}{\parbox{4.5cm}{Deutscher Wetterdienst\\
+		Temperatura ambiente \newline ($^\circ$C). &  Promedio diario de la temperatura del aire medida a 2 m de altura en condiciones estandarizadas para suprimir los efectos de la humedad, la radiación solar y el viento. &
+		 \multirow{7}{*}{\parbox{4.5cm}{Deutscher Wetterdienst\\
 		\cite{DWD_2026}.
 		}} \\ \cline{1-2}
-		
+		Temperatura ambiente máxima y mínima \newline ($^\circ$C). &  Registro diario de la temperatura ambiente máxima y mínima, respectivamente. &
+		\\ \cline{1-2}
+		Temperatura ambiente mínima sobre el suelo \newline ($^\circ$C). &  Registro de la temperatura ambiente mínima medida a 5 cm sobre el suelo. &
+		\\ \cline{1-2}
+		Temperatura el el suelo\newline ($^\circ$C).
+		& Promedio diario de la temperatura del suelo medida a $2$, $5$, $10$, $20$ y $50$ cm de profundidad. \newline
+		Nota: Se sugiere considerar mediciones a 10 cm \cite{Vatca_2021}. 
+		& \\ \cline{1-2}
 		Precipitación\newline (mm). 
 		& Precipitación diaria registrada en superficie. 
 		& \\ \cline{1-2}
 		
-		Radiación descendente de onda larga\newline (J/cm$^2$). 
-		& Radiación infrarroja descendente emitida por la atmósfera que incide diariamente sobre la superficie terrestre. 
-		& \\ \cline{1-2}
-		
-		Radiación solar difusa\newline (J/cm$^2$). 
-		& Suma diaria de la radiación solar que llega a la superficie tras ser dispersada por la atmósfera. 
-		& \\ \cline{1-2}
-		
-		Radiación solar incidente\newline (J/cm$^2$). 
-		& Suma diaria de la energía solar que incide sobre la superficie terrestre. 
+		Humedad relativa\newline ($\%$). 
+		& Contenido de humedad real en el aire diario en comparación con el contenido de humedad del aire saturado a la misma temperatura. 
 		& \\ \cline{1-2}
 		
 		Duración del fotoperiodo\newline (h). 
 		& Cantidad diaria de horas de luz. 
-		& \\ \cline{1-2}
-		
-		Equivalente en agua de la profundidad total de la nieve\newline (mm). 
-		& Cantidad diaria de agua almacenada en forma de nieve. 
-		& \\
+		&\\
 		
 		\hline
 		
@@ -92,7 +84,7 @@ Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
  I_1 \times I_2 \times \ldots \times I_d,
  \end{equation*}el producto cartesiano de los intervalos $I_v$, que representa la región de condiciones agroambientales óptimas.\\ 
  
- De esta manera, para toda $k\in \{1,2,\ldots, 365\}$, se garantiza que $\lambda_k \in [0,1]$ y, simultáneamente, tanto $C_{H,k}$ como $C^*$ se interpretan como elementos en $\mathbb{R}^d$, donde cada componente corresponde a una variable agroambiental específica ver Fig. \ref{Distance}. Además, notemos que $d \leq 8$, dado que la dimensión $d$ estará dada por el número de variables que presenten evidencia estadística suficiente de relación con las fechas de siembra. Reduciendo, en consecuencia, la incorporación de ruido proveniente de variables no informativas.\\
+ De esta manera, para toda $k\in \{1,2,\ldots, 365\}$, se garantiza que $\lambda_k \in [0,1]$ y, simultáneamente, tanto $C_{H,k}$ como $C^*$ se interpretan como elementos en $\mathbb{R}^d$, donde cada componente corresponde a una variable agroambiental específica ver Fig. \ref{Distance}. Además, notemos que $d \leq 9$, dado que la dimensión $d$ estará dada por el número de variables que presenten evidencia estadística suficiente de relación con las fechas de siembra. Reduciendo, en consecuencia, la incorporación de ruido proveniente de variables no informativas.\\
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{figure}[ht]
@@ -537,3 +529,19 @@ Finalmente, tras la revisión bibliográfica, los parámetros a emplear están d
 	\label{Parameters}
 \end{table}
 
+
+
+Con el objetivo de incorporar la heterogeneidad medioambiental presente en Alemania, el análisis recurre a la definición de zonas agroecológicas, ver Fig. \ref{Agroecological}. En particular, se consideran las 50 zonas agroecológicas caracterizadas por Roßberg \textit{et al.} (2007) \cite{Rossberg_2007} y, para cada una de ellas, el procedimiento metodológico previamente descrito se replica de manera independiente.\\
+
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\textwidth]{[Interseccion] Both_cropped.pdf}
+	\caption{Distribución de las estaciones climáticas sobre las zonas agroecológicas de Alemania. Los polígonos en color verde, delimitados por un contorno en color negro, corresponden a las zonas agroecológicas definidas por Roßberg \textit{et al.} (2007) \cite{Rossberg_2007}. Los puntos en color naranja indican la ubicación de las 493 estaciones climáticas, las cuales reportan las primeras ocho variables listadas en la Tabla \ref{AgroVariables}.}
+	\label{Agroecological}
+\end{figure}
+
+Para cada zona, se utilizan exclusivamente aquellas estaciones climáticas contenidas dentro de sus límites geográficos. En total, se dispone de información proveniente de 493 estaciones climáticas distribuidas a lo largo del territorio alemán, las cuales reportan las primeras ocho variables mostradas en la Tabla \ref{AgroVariables}.\\
+
+De esta manera, para cada zona agroecológica se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos óptimos de siembra adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos. No obstante, la diferencia en la cantidad de información disponible entre zonas agroecológicas, puede influir en las estimaciones obtenidas.\\
