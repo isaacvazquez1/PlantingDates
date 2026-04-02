@@ -1,0 +1,494 @@
+fid,id,lat,lon,height,name,state,fid_2,BKR_Nummer,BKR_Name,fid_3,id_2,lat_2,lon_2,height_2,name_2,state_2
+2,1869,53.3154,13.9339,56,Grünow Brandenburg,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,150,1869,53.3154,13.9339,56,Grünow Brandenburg,Frei
+3,6109,53.3837,14.3728,51,Grambow-Schwennenz Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,441,6109,53.3837,14.3728,51,Grambow-Schwennenz Mecklenburg-Vorpommern,Frei
+4,7351,53.3176,13.4175,115,Feldberg/Mecklenburg Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,467,7351,53.3176,13.4175,115,Feldberg/Mecklenburg Mecklenburg-Vorpommern,Frei
+5,3478,53.5468,13.1914,81,Neubrandenburg Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,276,3478,53.5468,13.1914,81,Neubrandenburg Mecklenburg-Vorpommern,Frei
+6,5109,53.5998,13.3039,68,Trollenhagen Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,387,5109,53.5998,13.3039,68,Trollenhagen Mecklenburg-Vorpommern,Frei
+7,129,53.6893,13.242,30,Altentreptow Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,10,129,53.6893,13.242,30,Altentreptow Mecklenburg-Vorpommern,Frei
+8,5009,53.761,12.5574,37,Teterow Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,379,5009,53.761,12.5574,37,Teterow Mecklenburg-Vorpommern,Frei
+9,5097,54.0654,12.7655,10,Tribsees Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,384,5097,54.0654,12.7655,10,Tribsees Mecklenburg-Vorpommern,Frei
+10,1757,54.0967,13.4056,2,Greifswald Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,144,1757,54.0967,13.4056,2,Greifswald Mecklenburg-Vorpommern,Frei
+11,1758,54.1,13.45,2,Greifswald-Wieck Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,145,1758,54.1,13.45,2,Greifswald-Wieck Mecklenburg-Vorpommern,Frei
+12,298,54.3405,12.7108,3,Barth Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,25,298,54.3405,12.7108,3,Barth Mecklenburg-Vorpommern,Frei
+13,5663,53.4618,13.6099,118,Woldegk Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,422,5663,53.4618,13.6099,118,Woldegk Mecklenburg-Vorpommern,Frei
+14,6110,53.8545,13.4949,11,Medow-Wussentin Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,442,6110,53.8545,13.4949,11,Medow-Wussentin Mecklenburg-Vorpommern,Frei
+16,6199,54.2484,13.0419,16,Steinhagen-Negast Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,448,6199,54.2484,13.0419,16,Steinhagen-Negast Mecklenburg-Vorpommern,Frei
+18,19207,53.8178,12.0645,16,Gülzow-Prüzen Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,495,19207,53.8178,12.0645,16,Gülzow-Prüzen Mecklenburg-Vorpommern,Frei
+19,2796,53.9156,12.279,40,Laage-Kronskamp Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,216,2796,53.9156,12.279,40,Laage-Kronskamp Mecklenburg-Vorpommern,Frei
+20,1803,54.0714,12.3238,35,Sanitz-Groß Lüsewitz Mecklenburg-Vorpommern,Frei,22,101,mittlere diluviale Böden MV und Uckermark ,148,1803,54.0714,12.3238,35,Sanitz-Groß Lüsewitz Mecklenburg-Vorpommern,Frei
+23,3552,52.9037,12.8071,38,Neuruppin Brandenburg,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,285,3552,52.9037,12.8071,38,Neuruppin Brandenburg,Frei
+24,96,52.9437,12.8518,50,Neuruppin-Alt Ruppin Brandenburg,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,8,96,52.9437,12.8518,50,Neuruppin-Alt Ruppin Brandenburg,Frei
+26,3577,53.3585,13.0502,64,Neustrelitz Mecklenburg-Vorpommern,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,290,3577,53.3585,13.0502,64,Neustrelitz Mecklenburg-Vorpommern,Frei
+28,5643,53.1864,12.4949,68,Wittstock-Rote Mühle Brandenburg,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,419,5643,53.1864,12.4949,68,Wittstock-Rote Mühle Brandenburg,Frei
+30,5745,52.9664,13.3268,51,Zehdenick Brandenburg,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,426,5745,52.9664,13.3268,51,Zehdenick Brandenburg,Frei
+31,5825,52.6198,12.7867,41,Berge Brandenburg,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,431,5825,52.6198,12.7867,41,Berge Brandenburg,Frei
+34,7244,53.1424,13.0319,62,Neuglobsow (HM) Brandenburg,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,461,7244,53.1424,13.0319,62,Neuglobsow (HM) Brandenburg,Frei
+35,591,53.3911,10.6878,45,Boizenburg Mecklenburg-Vorpommern,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,52,591,53.3911,10.6878,45,Boizenburg Mecklenburg-Vorpommern,Frei
+36,5349,53.5196,12.6654,73,Waren (Müritz) Mecklenburg-Vorpommern,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,398,5349,53.5196,12.6654,73,Waren (Müritz) Mecklenburg-Vorpommern,Frei
+38,2951,53.1007,11.4864,20,Lenzen/Elbe Brandenburg,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,231,2951,53.1007,11.4864,20,Lenzen/Elbe Brandenburg,Frei
+39,5431,53.0333,11.8,24,Weisen bei Wittenberge Sachsen-Anhalt,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,404,5431,53.0333,11.8,24,Weisen bei Wittenberge Sachsen-Anhalt,Frei
+40,2794,52.9362,12.4093,40,Kyritz Brandenburg,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,215,2794,52.9362,12.4093,40,Kyritz Brandenburg,Frei
+41,3196,53.3221,11.9324,81,Marnitz Mecklenburg-Vorpommern,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,256,3196,53.3221,11.9324,81,Marnitz Mecklenburg-Vorpommern,Frei
+42,1694,53.6058,12.1034,59,Goldberg Mecklenburg-Vorpommern,Frei,27,102,sandige diluviale Böden des nordostdeutschen Binnentieflandes ,142,1694,53.6058,12.1034,59,Goldberg Mecklenburg-Vorpommern,Frei
+44,1605,52.3875,12.1602,35,Genthin Sachsen-Anhalt,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,135,1605,52.3875,12.1602,35,Genthin Sachsen-Anhalt,Frei
+45,1052,52.2174,12.1641,80,Möckern-Drewitz Sachsen-Anhalt,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,89,1052,52.2174,12.1641,80,Möckern-Drewitz Sachsen-Anhalt,Frei
+48,2641,51.5185,12.9065,90,Klitzschen bei Torgau Sachsen,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,205,2641,51.5185,12.9065,90,Klitzschen bei Torgau Sachsen,Frei
+50,2856,51.9173,13.0878,92,Langenlipsdorf Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,221,2856,51.9173,13.0878,92,Langenlipsdorf Brandenburg,Frei
+51,2475,51.9999,13.101,75,Jüterbog Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,186,2475,51.9999,13.101,75,Jüterbog Brandenburg,Frei
+52,2315,51.7657,13.1666,78,Holzdorf-Bernsdorf Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,175,2315,51.7657,13.1666,78,Holzdorf-Bernsdorf Brandenburg,Frei
+53,2436,52.0547,13.2344,55,Jänickendorf,Brandenburg,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,182,2436,52.0547,13.2344,55,Jänickendorf,Brandenburg
+56,303,52.0613,13.4997,55,Baruth Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,26,303,52.0613,13.4997,55,Baruth Brandenburg,Frei
+57,1001,51.6451,13.5747,97,Doberlug-Kirchhain Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,85,1001,51.6451,13.5747,97,Doberlug-Kirchhain Brandenburg,Frei
+59,3987,52.3812,13.0622,81,Potsdam Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,319,3987,52.3812,13.0622,81,Potsdam Brandenburg,Frei
+60,3988,52.3822,13.0622,81,Potsdam (Säkularstation) Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,320,3988,52.3822,13.0622,81,Potsdam (Säkularstation) Brandenburg,Frei
+62,5068,51.5833,13,80,Torgau Sachsen,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,382,5068,51.5833,13,80,Torgau Sachsen,Frei
+63,5546,52.1206,12.4586,187,Wiesenburg Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,413,5546,52.1206,12.4586,187,Wiesenburg Brandenburg,Frei
+64,5629,51.8891,12.6446,105,Wittenberg Sachsen-Anhalt,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,417,5629,51.8891,12.6446,105,Wittenberg Sachsen-Anhalt,Frei
+68,650,52.4136,12.5503,35,Brandenburg-Görden Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,60,650,52.4136,12.5503,35,Brandenburg-Görden Brandenburg,Frei
+69,427,52.3807,13.5306,46,Berlin Brandenburg Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,41,427,52.3807,13.5306,46,Berlin Brandenburg Brandenburg,Frei
+74,410,52.404,13.7309,33,Berlin-Kaniswall Berlin,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,38,410,52.404,13.7309,33,Berlin-Kaniswall Berlin,Frei
+77,403,52.4537,13.3017,51,Berlin-Dahlem (FU) Berlin,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,37,403,52.4537,13.3017,51,Berlin-Dahlem (FU) Berlin,Frei
+81,433,52.4676,13.402,48,Berlin-Tempelhof Berlin,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,44,433,52.4676,13.402,48,Berlin-Tempelhof Berlin,Frei
+82,424,52.5,13.4667,36,Berlin-Ostkreuz Berlin,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,40,424,52.5,13.4667,36,Berlin-Ostkreuz Berlin,Frei
+83,399,52.5198,13.4057,36,Berlin-Alexanderplatz Berlin,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,35,399,52.5198,13.4057,36,Berlin-Alexanderplatz Berlin,Frei
+86,3376,52.5176,14.1232,64,Müncheberg Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,270,3376,52.5176,14.1232,64,Müncheberg Brandenburg,Frei
+87,420,52.5447,13.5598,61,Berlin-Marzahn Berlin,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,39,420,52.5447,13.5598,61,Berlin-Marzahn Berlin,Frei
+89,430,52.5644,13.3088,36,Berlin-Tegel Berlin,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,42,430,52.5644,13.3088,36,Berlin-Tegel Berlin,Frei
+90,432,52.6044,13.2952,36,Berlin-Tegeler Fliesstal Berlin,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,43,432,52.6044,13.2952,36,Berlin-Tegeler Fliesstal Berlin,Frei
+91,400,52.631,13.5021,60,Berlin-Buch Berlin,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,36,400,52.631,13.5021,60,Berlin-Buch Berlin,Frei
+94,7389,52.7461,13.8427,83,Heckelberg Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,473,7389,52.7461,13.8427,83,Heckelberg Brandenburg,Frei
+95,3083,51.9267,13.8797,57,Lübben-Blumenfelde Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,242,3083,51.9267,13.8797,57,Lübben-Blumenfelde Brandenburg,Frei
+96,3082,51.9333,13.8833,56,Lübben Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,241,3082,51.9333,13.8833,56,Lübben Brandenburg,Frei
+97,2627,51.5554,13.8845,128,Schipkau-Klettwitz Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,203,2627,51.5554,13.8845,128,Schipkau-Klettwitz Brandenburg,Frei
+98,3015,52.2085,14.118,98,Lindenberg Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,235,3015,52.2085,14.118,98,Lindenberg Brandenburg,Frei
+101,880,51.7759,14.3168,69,Cottbus Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,78,880,51.7759,14.3168,69,Cottbus Brandenburg,Frei
+102,1426,52.3397,14.508,67,Frankfurt/Oder Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,118,1426,52.3397,14.508,67,Frankfurt/Oder Brandenburg,Frei
+103,3426,51.566,14.7008,127,"Muskau, Bad Sachsen",Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,275,3426,51.566,14.7008,127,"Muskau, Bad Sachsen",Frei
+105,4606,51.5167,14.35,116,Schwarze Pumpe Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,361,4606,51.5167,14.35,116,Schwarze Pumpe Brandenburg,Frei
+106,5463,52.0654,14.6898,58,Wellmitz Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,408,5463,52.0654,14.6898,58,Wellmitz Brandenburg,Frei
+107,6170,52.0192,14.7254,39,Coschen Brandenburg,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,446,6170,52.0192,14.7254,39,Coschen Brandenburg,Frei
+108,7393,51.4492,14.2533,116,Hoyerswerda Sachsen,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,474,7393,51.4492,14.2533,116,Hoyerswerda Sachsen,Frei
+111,6273,52.5075,11.8551,36,Demker Sachsen-Anhalt,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,452,6273,52.5075,11.8551,36,Demker Sachsen-Anhalt,Frei
+112,4977,52.5447,11.9724,45,Tangermünde Sachsen-Anhalt,Frei,28,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,378,4977,52.5447,11.9724,45,Tangermünde Sachsen-Anhalt,Frei
+117,164,53.0316,13.9908,54,Angermünde Brandenburg,Frei,29,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,15,164,53.0316,13.9908,54,Angermünde Brandenburg,Frei
+118,1552,53.2066,14.3817,13,Gartz/Oder Brandenburg,Frei,29,104,trocken-warme diluviale Böden des ostdeutschen Tieflandes ,130,1552,53.2066,14.3817,13,Gartz/Oder Brandenburg,Frei
+119,5142,53.7445,14.0698,1,Ueckermünde Mecklenburg-Vorpommern,Frei,37,105,vorpommersche Sandböden im Uecker-Randow-Gebiet ,388,5142,53.7445,14.0698,1,Ueckermünde Mecklenburg-Vorpommern,Frei
+120,167,53.8409,13.6854,11,Anklam Mecklenburg-Vorpommern,Frei,37,105,vorpommersche Sandböden im Uecker-Randow-Gebiet ,16,167,53.8409,13.6854,11,Anklam Mecklenburg-Vorpommern,Frei
+121,288,53.8409,13.7549,3,Bargischow-Gnevezin Mecklenburg-Vorpommern,Frei,37,105,vorpommersche Sandböden im Uecker-Randow-Gebiet ,24,288,53.8409,13.7549,3,Bargischow-Gnevezin Mecklenburg-Vorpommern,Frei
+124,3158,52.5468,14.5453,12,Manschnow Brandenburg,Frei,43,106,Oderbruch ,251,3158,52.5468,14.5453,12,Manschnow Brandenburg,Frei
+126,2932,51.4347,12.2396,131,Leipzig/Halle Sachsen,Frei,44,107,Lößböden in der Ackerebene (Ost) ,229,2932,51.4347,12.2396,131,Leipzig/Halle Sachsen,Frei
+127,2931,51.392,12.3962,128,Leipzig-Mockau Sachsen,Frei,44,107,Lößböden in der Ackerebene (Ost) ,228,2931,51.392,12.3962,128,Leipzig-Mockau Sachsen,Frei
+128,2928,51.3151,12.4462,138,Leipzig-Holzhausen Sachsen,Frei,44,107,Lößböden in der Ackerebene (Ost) ,227,2928,51.3151,12.4462,138,Leipzig-Holzhausen Sachsen,Frei
+134,198,51.3744,11.292,164,Artern Thüringen,Frei,44,107,Lößböden in der Ackerebene (Ost) ,18,198,51.3744,11.292,164,Artern Thüringen,Frei
+136,1182,51.5029,11.5705,146,Eisleben-Helfta Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,96,1182,51.5029,11.5705,146,Eisleben-Helfta Sachsen-Anhalt,Frei
+137,445,51.8218,11.711,85,Bernburg/Saale (Nord) Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,45,445,51.8218,11.711,85,Bernburg/Saale (Nord) Sachsen-Anhalt,Frei
+138,2701,51.1329,11.7252,136,"Kösen, Bad Sachsen-Anhalt",Frei,44,107,Lößböden in der Ackerebene (Ost) ,209,2701,51.1329,11.7252,136,"Kösen, Bad Sachsen-Anhalt",Frei
+140,2878,51.3909,11.8786,117,"Lauchstädt, Bad Sachsen-Anhalt",Frei,44,107,Lößböden in der Ackerebene (Ost) ,222,2878,51.3909,11.8786,117,"Lauchstädt, Bad Sachsen-Anhalt",Frei
+141,1957,51.5138,11.9499,93,Halle-Kröllwitz Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,151,1957,51.5138,11.9499,93,Halle-Kröllwitz Sachsen-Anhalt,Frei
+143,2704,51.7511,12.0094,76,Köthen (Anhalt) Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,210,2704,51.7511,12.0094,76,Köthen (Anhalt) Sachsen-Anhalt,Frei
+147,4032,51.7953,11.132,142,Quedlinburg Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,323,4032,51.7953,11.132,142,Quedlinburg Sachsen-Anhalt,Frei
+148,4036,51.3895,11.5412,206,Querfurt-Mühle Lodersleben Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,324,4036,51.3895,11.5412,206,Querfurt-Mühle Lodersleben Sachsen-Anhalt,Frei
+151,4593,51.9639,11.1208,117,Schwanebeck Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,360,4593,51.9639,11.1208,117,Schwanebeck Sachsen-Anhalt,Frei
+154,6266,52.0304,10.9626,112,Huy-Pabstorf Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,451,6266,52.0304,10.9626,112,Huy-Pabstorf Sachsen-Anhalt,Frei
+156,7420,51.1045,11.7113,246,Naumburg/Saale-Kreipitzsch Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,481,7420,51.1045,11.7113,246,Naumburg/Saale-Kreipitzsch Sachsen-Anhalt,Frei
+159,5158,52.1601,11.1759,159,Ummendorf Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,391,5158,52.1601,11.1759,159,Ummendorf Sachsen-Anhalt,Frei
+160,3126,52.1029,11.5827,79,Magdeburg Sachsen-Anhalt,Frei,44,107,Lößböden in der Ackerebene (Ost) ,248,3126,52.1029,11.5827,79,Magdeburg Sachsen-Anhalt,Frei
+161,1612,50.8812,12.1289,311,Gera-Leumnitz Thüringen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,136,1612,50.8812,12.1289,311,Gera-Leumnitz Thüringen,Frei
+164,853,50.7913,12.872,416,Chemnitz Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,75,853,50.7913,12.872,416,Chemnitz Sachsen,Frei
+165,131,51.0881,12.9326,296,Geringswalde-Altgeringswalde Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,11,131,51.0881,12.9326,296,Geringswalde-Altgeringswalde Sachsen,Frei
+170,3234,51.1294,13.4328,158,Klipphausen-Garsebach Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,259,3234,51.1294,13.4328,158,Klipphausen-Garsebach Sachsen,Frei
+171,3811,51.296,13.0928,151,Oschatz Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,308,3811,51.296,13.0928,151,Oschatz Sachsen,Frei
+174,6095,51.0838,13.4486,273,Taubenheim-Seeligstadt Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,439,6095,51.0838,13.4486,273,Taubenheim-Seeligstadt Sachsen,Frei
+175,6314,51.0507,13.3003,306,Nossen Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,454,6314,51.0507,13.3003,306,Nossen Sachsen,Frei
+183,1270,50.9827,10.9613,317,Erfurt-Weimar Thüringen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,104,1270,50.9827,10.9613,317,Erfurt-Weimar Thüringen,Frei
+186,2302,50.9632,11.4847,317,Hohlstedt-Kötschau Thüringen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,172,2302,50.9632,11.4847,317,Hohlstedt-Kötschau Thüringen,Frei
+187,2444,50.9251,11.583,155,Jena (Sternwarte) Thüringen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,184,2444,50.9251,11.583,155,Jena (Sternwarte) Thüringen,Frei
+188,3821,51.0872,11.9293,244,Osterfeld Sachsen-Anhalt,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,310,3821,51.0872,11.9293,244,Osterfeld Sachsen-Anhalt,Frei
+191,5419,50.9751,11.3076,264,Weimar Thüringen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,402,5419,50.9751,11.3076,264,Weimar Thüringen,Frei
+195,1048,51.1278,13.7543,228,Dresden-Klotzsche Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,87,1048,51.1278,13.7543,228,Dresden-Klotzsche Sachsen,Frei
+197,1050,51.0221,13.847,112,Dresden-Hosterwitz Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,88,1050,51.0221,13.847,112,Dresden-Hosterwitz Sachsen,Frei
+199,314,51.1604,14.5042,234,"Kubschütz, Kr. Bautzen Sachsen",Frei,46,108,Lößböden in den Übergangslagen (Ost) ,27,314,51.1604,14.5042,234,"Kubschütz, Kr. Bautzen Sachsen",Frei
+200,2166,51.0167,14.75,344,Herrnhut Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,163,2166,51.0167,14.75,344,Herrnhut Sachsen,Frei
+201,1684,51.1621,14.9506,239,Görlitz Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,140,1684,51.1621,14.9506,239,Görlitz Sachsen,Frei
+203,5282,51.1188,13.6754,241,Wahnsdorf bei Dresden Sachsen,Frei,46,108,Lößböden in den Übergangslagen (Ost) ,396,5282,51.1188,13.6754,241,Wahnsdorf bei Dresden Sachsen,Frei
+209,3093,52.9724,11.1374,16,Lüchow Niedersachsen,Frei,47,109,diluviale Böden der Altmark und Überlappung nördliches Niedersachsen ,244,3093,52.9724,11.1374,16,Lüchow Niedersachsen,Frei
+210,4373,52.8568,11.1319,29,Salzwedel Sachsen-Anhalt,Frei,47,109,diluviale Böden der Altmark und Überlappung nördliches Niedersachsen ,348,4373,52.8568,11.1319,29,Salzwedel Sachsen-Anhalt,Frei
+211,1544,52.5129,11.3942,47,Gardelegen Sachsen-Anhalt,Frei,47,109,diluviale Böden der Altmark und Überlappung nördliches Niedersachsen ,128,1544,52.5129,11.3942,47,Gardelegen Sachsen-Anhalt,Frei
+213,4642,52.8911,11.7297,22,Seehausen Sachsen-Anhalt,Frei,47,109,diluviale Böden der Altmark und Überlappung nördliches Niedersachsen ,364,4642,52.8911,11.7297,22,Seehausen Sachsen-Anhalt,Frei
+214,2252,50.8992,14.7456,271,Bertsdorf-Hörnitz Sachsen,Frei,48,111,Verwitterungsböden in den Übergangslagen (Ost) ,169,2252,50.8992,14.7456,271,Bertsdorf-Hörnitz Sachsen,Frei
+221,2925,51.3932,10.3123,356,Leinefelde Thüringen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,226,2925,51.3932,10.3123,356,Leinefelde Thüringen,Frei
+223,7368,51.0007,10.3621,312,Eisenach Thüringen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,469,7368,51.0007,10.3621,312,Eisenach Thüringen,Frei
+232,2985,50.9383,14.2094,321,Lichtenhain-Mittelndorf Sachsen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,232,2985,50.9383,14.2094,321,Lichtenhain-Mittelndorf Sachsen,Frei
+234,2750,50.2524,11.3209,310,Kronach Bayern,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,212,2750,50.2524,11.3209,310,Kronach Bayern,Frei
+237,867,50.3066,10.9679,344,Lautertal-Oberlauter Bayern,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,77,867,50.3066,10.9679,344,Lautertal-Oberlauter Bayern,Frei
+239,4752,50.3746,11.1828,626,Sonneberg-Neufang Thüringen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,370,4752,50.3746,11.1828,626,Sonneberg-Neufang Thüringen,Frei
+242,1493,50.4788,11.0159,793,Friedrichshöhe,Thüringen,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,124,1493,50.4788,11.0159,793,Friedrichshöhe,Thüringen
+244,3231,50.5611,10.3771,450,Meiningen Thüringen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,258,3231,50.5611,10.3771,450,Meiningen Thüringen,Frei
+245,2503,50.6266,10.1455,487,Kaltennordheim Thüringen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,192,2503,50.6266,10.1455,487,Kaltennordheim Thüringen,Frei
+251,3204,50.7335,10.8815,429,Martinroda Thüringen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,257,3204,50.7335,10.8815,429,Martinroda Thüringen,Frei
+262,3946,50.4818,12.13,387,Plauen Sachsen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,317,3946,50.4818,12.13,387,Plauen Sachsen,Frei
+263,4222,50.5263,12.4091,464,Rodewisch Sachsen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,336,4222,50.5263,12.4091,464,Rodewisch Sachsen,Frei
+264,7329,50.5467,12.2863,465,Treuen Sachsen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,463,7329,50.5467,12.2863,465,Treuen Sachsen,Frei
+265,4464,50.5679,11.8041,501,Schleiz Thüringen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,354,4464,50.5679,11.8041,501,Schleiz Thüringen,Frei
+269,222,50.5908,12.7139,393,Aue Sachsen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,20,222,50.5908,12.7139,393,Aue Sachsen,Frei
+272,5797,50.6879,12.4329,349,Lichtentanne Sachsen,Frei,49,111,Verwitterungsböden in den Übergangslagen (Ost) ,428,5797,50.6879,12.4329,349,Lichtentanne Sachsen,Frei
+277,5397,49.6662,12.1844,440,Weiden Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,400,5397,49.6662,12.1844,440,Weiden Bayern,Frei
+278,1292,49.7522,11.8222,470,Eschenbach/Oberpfalz Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,105,1292,49.7522,11.8222,470,Eschenbach/Oberpfalz Bayern,Frei
+280,3571,49.8174,11.8638,452,Neustadt am Kulm-Filchendorf Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,287,3571,49.8174,11.8638,452,Neustadt am Kulm-Filchendorf Bayern,Frei
+281,320,49.9666,11.5198,350,Heinersreuth-Vollhof Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,28,320,49.9666,11.5198,350,Heinersreuth-Vollhof Bayern,Frei
+284,7394,50.0315,11.9745,622,Wunsiedel-Schönbrunn Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,475,7394,50.0315,11.9745,622,Wunsiedel-Schönbrunn Bayern,Frei
+289,2261,50.3123,11.876,565,Hof Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,170,2261,50.3123,11.876,565,Hof Bayern,Frei
+294,3271,48.8548,12.9189,314,Metten Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,262,3271,48.8548,12.9189,314,Metten Bayern,Frei
+299,3879,48.5781,13.4696,409,Passau-Oberhaus Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,312,3879,48.5781,13.4696,409,Passau-Oberhaus Bayern,Frei
+302,4354,48.7832,13.3146,457,Saldenburg-Entschenreuth Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,346,4354,48.7832,13.3146,457,Saldenburg-Entschenreuth Bayern,Frei
+303,4559,49.1644,12.6175,398,Schorndorf-Knöbling Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,357,4559,49.1644,12.6175,398,Schorndorf-Knöbling Bayern,Frei
+304,5800,49.028,13.2385,615,Zwiesel Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,429,5800,49.028,13.2385,615,Zwiesel Bayern,Frei
+305,5802,49.0007,13.2137,615,Zwieselberg Bayern,Frei,51,112,Verwitterungsböden in den Höhenlagen (östliches Bayern) ,430,5802,49.0007,13.2137,615,Zwieselberg Bayern,Frei
+311,3181,49.4875,10.6277,360,Markt Erlbach-Hagenhofen Bayern,Frei,52,113,Nordwestbayern-Franken ,255,3181,49.4875,10.6277,360,Markt Erlbach-Hagenhofen Bayern,Frei
+313,3668,49.503,11.0549,314,Nürnberg Bayern,Frei,52,113,Nordwestbayern-Franken ,301,3668,49.503,11.0549,314,Nürnberg Bayern,Frei
+317,3565,49.5728,10.6001,315,Neustadt/Aisch Bayern,Frei,52,113,Nordwestbayern-Franken ,286,3565,49.5728,10.6001,315,Neustadt/Aisch Bayern,Frei
+321,1107,49.852,10.4991,346,Ebrach Bayern,Frei,52,113,Nordwestbayern-Franken ,92,1107,49.852,10.4991,346,Ebrach Bayern,Frei
+322,282,49.8743,10.9206,240,Bamberg Bayern,Frei,52,113,Nordwestbayern-Franken ,22,282,49.8743,10.9206,240,Bamberg Bayern,Frei
+324,283,49.8808,10.8695,382,Bamberg-Altenburg Bayern,Frei,52,113,Nordwestbayern-Franken ,23,283,49.8808,10.8695,382,Bamberg-Altenburg Bayern,Frei
+326,5185,49.5933,11.0704,291,Uttenreuth Bayern,Frei,52,113,Nordwestbayern-Franken ,392,5185,49.5933,11.0704,291,Uttenreuth Bayern,Frei
+328,6312,49.5314,10.6418,362,Markt Erlbach-Mosbach Bayern,Frei,52,113,Nordwestbayern-Franken ,453,6312,49.5314,10.6418,362,Markt Erlbach-Mosbach Bayern,Frei
+331,755,49.5182,9.3213,340,"Buchen, Kr. Neckar-Odenwald Baden-Württemberg",Frei,52,113,Nordwestbayern-Franken ,69,755,49.5182,9.3213,340,"Buchen, Kr. Neckar-Odenwald Baden-Württemberg",Frei
+333,502,49.8643,9.5044,371,Bischbrunn-Oberndorf Bayern,Frei,52,113,Nordwestbayern-Franken ,48,502,49.8643,9.5044,371,Bischbrunn-Oberndorf Bayern,Frei
+334,685,49.9017,9.4281,585,Breitsol Bayern,Frei,52,113,Nordwestbayern-Franken ,63,685,49.9017,9.4281,585,Breitsol Bayern,Frei
+337,5032,49.885,9.8469,197,Thüngersheim Bayern,Frei,52,113,Nordwestbayern-Franken ,381,5032,49.885,9.8469,197,Thüngersheim Bayern,Frei
+340,5703,49.7964,9.8949,170,Würzburg/Main Bayern,Frei,52,113,Nordwestbayern-Franken ,423,5703,49.7964,9.8949,170,Würzburg/Main Bayern,Frei
+341,5705,49.7704,9.9576,268,Würzburg Bayern,Frei,52,113,Nordwestbayern-Franken ,424,5705,49.7704,9.9576,268,Würzburg Bayern,Frei
+343,7187,49.7636,9.4063,194,Freudenberg/Main-Boxtal Baden-Württemberg,Frei,52,113,Nordwestbayern-Franken ,460,7187,49.7636,9.4063,194,Freudenberg/Main-Boxtal Baden-Württemberg,Frei
+345,634,49.4442,9.6458,373,Boxberg-Seehof,Baden-Württemberg,52,113,Nordwestbayern-Franken ,57,634,49.4442,9.6458,373,Boxberg-Seehof,Baden-Württemberg
+347,3603,49.3895,9.9666,459,Niederstetten Baden-Württemberg,Frei,52,113,Nordwestbayern-Franken ,292,3603,49.3895,9.9666,459,Niederstetten Baden-Württemberg,Frei
+348,4287,49.3849,10.1732,415,Rothenburg ob der Tauber Bayern,Frei,52,113,Nordwestbayern-Franken ,340,4287,49.3849,10.1732,415,Rothenburg ob der Tauber Bayern,Frei
+350,3056,50.0103,9.61,161,Lohr/Main-Steinbach Bayern,Frei,52,113,Nordwestbayern-Franken ,240,3056,50.0103,9.61,161,Lohr/Main-Steinbach Bayern,Frei
+351,6336,50.0132,9.654,288,Lohr/Main-Halsbach Bayern,Frei,52,113,Nordwestbayern-Franken ,455,6336,50.0132,9.654,288,Lohr/Main-Halsbach Bayern,Frei
+352,7412,50.0083,9.4238,340,Neuhütten/Spessart Bayern,Frei,52,113,Nordwestbayern-Franken ,480,7412,50.0083,9.4238,340,Neuhütten/Spessart Bayern,Frei
+354,4438,49.975,11.0395,317,Scheßlitz Bayern,Frei,52,113,Nordwestbayern-Franken ,352,4438,49.975,11.0395,317,Scheßlitz Bayern,Frei
+358,2597,50.224,10.0792,282,"Kissingen, Bad Bayern",Frei,52,113,Nordwestbayern-Franken ,201,2597,50.224,10.0792,282,"Kissingen, Bad Bayern",Frei
+367,4280,49.2162,11.1035,386,Roth Bayern,Frei,52,113,Nordwestbayern-Franken ,339,4280,49.2162,11.1035,386,Roth Bayern,Frei
+371,2773,49.4283,11.9016,416,Kümmersbruck Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,213,2773,49.4283,11.9016,416,Kümmersbruck Bayern,Frei
+373,3975,49.4777,11.5357,522,Pommelsbrunn-Mittelburg Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,318,3975,49.4777,11.5357,522,Pommelsbrunn-Mittelburg Bayern,Frei
+376,2485,48.917,9.6871,489,Kaisersbach-Cronhütte Baden-Württemberg,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,188,2485,48.917,9.6871,489,Kaisersbach-Cronhütte Baden-Württemberg,Frei
+379,881,49.0985,10.0979,423,Crailsheim-Alexandersreut Baden-Württemberg,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,79,881,49.0985,10.0979,423,Crailsheim-Alexandersreut Baden-Württemberg,Frei
+381,1197,48.9895,10.1312,463,Ellwangen-Rindelbach Baden-Württemberg,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,97,1197,48.9895,10.1312,463,Ellwangen-Rindelbach Baden-Württemberg,Frei
+382,2088,48.6849,10.142,522,Heidenheim/Brenz Baden-Württemberg,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,159,2088,48.6849,10.142,522,Heidenheim/Brenz Baden-Württemberg,Frei
+384,5654,49.2178,10.2296,464,Wörnitz-Bottenweiler Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,421,5654,49.2178,10.2296,464,Wörnitz-Bottenweiler Bayern,Frei
+386,7331,48.6099,10.2674,467,Hermaringen-Allewind Baden-Württemberg,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,465,7331,48.6099,10.2674,467,Hermaringen-Allewind Baden-Württemberg,Frei
+387,7369,49.1623,10.3661,475,Feuchtwangen-Heilbronn Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,470,7369,49.1623,10.3661,475,Feuchtwangen-Heilbronn Bayern,Frei
+389,2700,48.8302,11.4872,416,Kösching Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,208,2700,48.8302,11.4872,416,Kösching Bayern,Frei
+390,3875,49.151,11.6897,549,Parsberg/Oberpfalz-Eglwang Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,311,3875,49.151,11.6897,549,Parsberg/Oberpfalz-Eglwang Bayern,Frei
+392,4592,49.3278,12.0871,356,Schwandorf Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,359,4592,49.3278,12.0871,356,Schwandorf Bayern,Frei
+397,5434,50.0858,11.2364,317,Weismain Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,406,5434,50.0858,11.2364,317,Weismain Bayern,Frei
+398,3621,48.8253,10.5067,435,Reimlingen Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,294,3621,48.8253,10.5067,435,Reimlingen Bayern,Frei
+400,2023,48.7918,10.7062,501,Harburg Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,157,2023,48.7918,10.7062,501,Harburg Bayern,Frei
+402,2488,48.7701,10.7876,516,Kaisheim-Neuhof Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,189,2488,48.7701,10.7876,516,Kaisheim-Neuhof Bayern,Frei
+404,1161,48.8778,11.2349,385,Eichstätt-Landershofen Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,94,1161,48.8778,11.2349,385,Eichstätt-Landershofen Bayern,Frei
+405,1473,49.1869,11.308,414,Freystadt-Michelbach Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,122,1473,49.1869,11.308,414,Freystadt-Michelbach Bayern,Frei
+408,1587,48.9481,11.4289,536,Gelbelsee Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,133,1587,48.9481,11.4289,536,Gelbelsee Bayern,Frei
+410,5440,49.0115,10.9308,439,Weißenburg-Emetzheim Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,407,5440,49.0115,10.9308,439,Weißenburg-Emetzheim Bayern,Frei
+412,6158,49.2249,10.6085,454,Weidenbach-Weiherschneidbach Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,443,6158,49.2249,10.6085,454,Weidenbach-Weiherschneidbach Bayern,Frei
+413,6219,48.8768,11.1043,394,Dollnstein-Breitenfurt Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,449,6219,48.8768,11.1043,394,Dollnstein-Breitenfurt Bayern,Frei
+414,7319,48.7374,10.7393,435,Donauwörth-Osterweiler Bayern,Frei,53,114,Albflächen und Ostbayerisches Hügelland ,462,7319,48.7374,10.7393,435,Donauwörth-Osterweiler Bayern,Frei
+416,7135,47.9655,9.6804,565,Aulendorf-Haslach Baden-Württemberg,Frei,56,115,Tertiär-Hügelland Donau-Süd ,459,7135,47.9655,9.6804,565,Aulendorf-Haslach Baden-Württemberg,Frei
+421,2886,48.2175,9.9097,539,Laupheim Baden-Württemberg,Frei,56,115,Tertiär-Hügelland Donau-Süd ,223,2886,48.2175,9.9097,539,Laupheim Baden-Württemberg,Frei
+424,3485,48.3114,10.3773,487,Neuburg/Kammel-Langenhaslach Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,278,3485,48.3114,10.3773,487,Neuburg/Kammel-Langenhaslach Bayern,Frei
+428,3379,48.1632,11.5429,515,München-Stadt Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,271,3379,48.1632,11.5429,515,München-Stadt Bayern,Frei
+429,3722,48.2443,11.5528,484,Oberschleißheim Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,302,3722,48.2443,11.5528,484,Oberschleißheim Bayern,Frei
+434,5404,48.4024,11.6946,477,Weihenstephan-Dürnast Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,401,5404,48.4024,11.6946,477,Weihenstephan-Dürnast Bayern,Frei
+435,3390,48.1369,11.7094,529,München-Riem Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,272,3390,48.1369,11.7094,529,München-Riem Bayern,Frei
+437,1262,48.3477,11.8134,446,München-Flughafen Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,102,1262,48.3477,11.8134,446,München-Flughafen Bayern,Frei
+442,5155,48.3837,9.9524,567,Ulm Baden-Württemberg,Frei,56,115,Tertiär-Hügelland Donau-Süd ,390,5155,48.3837,9.9524,567,Ulm Baden-Württemberg,Frei
+443,15444,48.4418,9.9216,593,Ulm-Mähringen Baden-Württemberg,Frei,56,115,Tertiär-Hügelland Donau-Süd ,492,15444,48.4418,9.9216,593,Ulm-Mähringen Baden-Württemberg,Frei
+444,2831,48.5357,12.1132,393,Landshut Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,220,2831,48.5357,12.1132,393,Landshut Bayern,Frei
+445,221,48.5515,11.7117,483,Au i.d.Hallertau-Günzenhausen Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,19,221,48.5515,11.7117,483,Au i.d.Hallertau-Günzenhausen Bayern,Frei
+446,2360,48.6018,11.6769,438,Hüll Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,177,2360,48.6018,11.6769,438,Hüll Bayern,Frei
+447,2410,48.7111,11.5363,364,Ingolstadt-Manching Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,179,2410,48.7111,11.5363,364,Ingolstadt-Manching Bayern,Frei
+448,5904,48.6493,11.7772,431,Mainburg Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,435,5904,48.6493,11.7772,431,Mainburg Bayern,Frei
+449,7075,48.702,11.8493,429,Elsendorf-Horneck Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,457,7075,48.702,11.8493,429,Elsendorf-Horneck Bayern,Frei
+451,3927,47.9345,9.2869,630,Pfullendorf Baden-Württemberg,Frei,56,115,Tertiär-Hügelland Donau-Süd ,316,3927,47.9345,9.2869,630,Pfullendorf Baden-Württemberg,Frei
+453,4189,48.1479,9.4596,534,"Altheim, Kreis Biberach Baden-Württemberg",Frei,56,115,Tertiär-Hügelland Donau-Süd ,334,4189,48.1479,9.4596,534,"Altheim, Kreis Biberach Baden-Württemberg",Frei
+457,232,48.4253,10.9417,462,Augsburg Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,21,232,48.4253,10.9417,462,Augsburg Bayern,Frei
+458,3484,48.7085,11.2147,379,Neuburg an der Donau Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,277,3484,48.7085,11.2147,379,Neuburg an der Donau Bayern,Frei
+459,2691,48.6707,11.2173,378,Königsmoos-Untermaxfeld Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,207,2691,48.6707,11.2173,378,Königsmoos-Untermaxfeld Bayern,Frei
+460,2521,48.6725,11.3092,376,Karlshuld Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,193,2521,48.6725,11.3092,376,Karlshuld Bayern,Frei
+463,2905,48.1849,10.8507,550,Lechfeld Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,224,2905,48.1849,10.8507,550,Lechfeld Bayern,Frei
+465,2829,48.0772,10.9144,617,Landsberg (Flugplatz) Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,219,2829,48.0772,10.9144,617,Landsberg (Flugplatz) Bayern,Frei
+470,3139,48.2166,11.2965,509,Maisach-Gernlinden Bayern,Frei,56,115,Tertiär-Hügelland Donau-Süd ,249,3139,48.2166,11.2965,509,Maisach-Gernlinden Bayern,Frei
+472,2783,48.5126,12.1513,436,Kumhausen Bayern,Frei,58,116,"Gäu, Donau- und Inntal ",214,2783,48.5126,12.1513,436,Kumhausen Bayern,Frei
+478,4104,49.0425,12.1019,365,Regensburg Bayern,Frei,58,116,"Gäu, Donau- und Inntal ",328,4104,49.0425,12.1019,365,Regensburg Bayern,Frei
+479,4911,48.8275,12.5597,351,Straubing Bayern,Frei,58,116,"Gäu, Donau- und Inntal ",373,4911,48.8275,12.5597,351,Straubing Bayern,Frei
+480,5856,48.5451,13.3532,476,Fürstenzell Bayern,Frei,58,116,"Gäu, Donau- und Inntal ",433,5856,48.5451,13.3532,476,Fürstenzell Bayern,Frei
+482,7395,48.6595,12.5388,351,Gottfrieding Bayern,Frei,58,116,"Gäu, Donau- und Inntal ",476,7395,48.6595,12.5388,351,Gottfrieding Bayern,Frei
+484,3366,48.279,12.5024,406,Mühldorf Bayern,Frei,58,116,"Gäu, Donau- und Inntal ",269,3366,48.279,12.5024,406,Mühldorf Bayern,Frei
+490,2423,47.6894,10.0416,712,Isny Baden-Württemberg,Frei,60,117,Moränen-Hügelland und Voralpenland ,180,2423,47.6894,10.0416,712,Isny Baden-Württemberg,Frei
+492,2559,47.7233,10.3348,705,Kempten Bayern,Frei,60,117,Moränen-Hügelland und Voralpenland ,198,2559,47.7233,10.3348,705,Kempten Bayern,Frei
+495,7403,47.7955,10.0325,672,Leutkirch-Herlazhofen Baden-Württemberg,Frei,60,117,Moränen-Hügelland und Voralpenland ,478,7403,47.7955,10.0325,672,Leutkirch-Herlazhofen Baden-Württemberg,Frei
+506,154,48.0197,12.2925,516,Amerang-Pfaffing Bayern,Frei,60,117,Moränen-Hügelland und Voralpenland ,13,154,48.0197,12.2925,516,Amerang-Pfaffing Bayern,Frei
+509,2542,47.8652,10.6007,716,Kaufbeuren Bayern,Frei,60,117,Moränen-Hügelland und Voralpenland ,197,2542,47.8652,10.6007,716,Kaufbeuren Bayern,Frei
+512,125,47.8342,10.8667,739,Altenstadt Bayern,Frei,60,117,Moränen-Hügelland und Voralpenland ,9,125,47.8342,10.8667,739,Altenstadt Bayern,Frei
+514,2290,47.8009,11.0108,977,Hohenpeißenberg Bayern,Frei,60,117,Moränen-Hügelland und Voralpenland ,171,2290,47.8009,11.0108,977,Hohenpeißenberg Bayern,Frei
+517,5538,47.8827,11.1576,551,Wielenbach (Demollstr.) Bayern,Frei,60,117,Moränen-Hügelland und Voralpenland ,412,5538,47.8827,11.1576,551,Wielenbach (Demollstr.) Bayern,Frei
+520,15555,47.8761,10.5849,815,Kaufbeuren-Oberbeuren Bayern,Frei,60,117,Moränen-Hügelland und Voralpenland ,493,15555,47.8761,10.5849,815,Kaufbeuren-Oberbeuren Bayern,Frei
+522,856,47.8843,12.5404,551,Chieming Bayern,Frei,60,117,Moränen-Hügelland und Voralpenland ,76,856,47.8843,12.5404,551,Chieming Bayern,Frei
+528,4706,48.2718,13.0273,358,Simbach/Inn Bayern,Frei,60,117,Moränen-Hügelland und Voralpenland ,367,4706,48.2718,13.0273,358,Simbach/Inn Bayern,Frei
+530,4094,47.8062,9.6206,441,"Weingarten, Kr. Ravensburg Baden-Württemberg",Frei,63,120,Hochrhein-Bodensee ,327,4094,47.8062,9.6206,441,"Weingarten, Kr. Ravensburg Baden-Württemberg",Frei
+533,2712,47.6952,9.1307,428,Konstanz Baden-Württemberg,Frei,63,120,Hochrhein-Bodensee ,211,2712,47.6952,9.1307,428,Konstanz Baden-Württemberg,Frei
+543,6263,47.7738,8.8219,445,Singen Baden-Württemberg,Frei,63,120,Hochrhein-Bodensee ,450,6263,47.7738,8.8219,445,Singen Baden-Württemberg,Frei
+544,450,49.9186,7.0664,120,Bernkastel-Kues Rheinland-Pfalz,Frei,64,121,Rheinebene und Nebentäler ,46,450,49.9186,7.0664,120,Bernkastel-Kues Rheinland-Pfalz,Frei
+546,3155,50.1015,6.8009,415,Manderscheid-Sonnenhof Rheinland-Pfalz,Frei,64,121,Rheinebene und Nebentäler ,250,3155,50.1015,6.8009,415,Manderscheid-Sonnenhof Rheinland-Pfalz,Frei
+555,150,49.7273,8.1164,215,Alzey Rheinland-Pfalz,Frei,65,121,Rheinebene und Nebentäler ,12,150,49.7273,8.1164,215,Alzey Rheinland-Pfalz,Frei
+558,920,49.8564,8.5929,108,Darmstadt (US-Air-Base) Hessen,Frei,65,121,Rheinebene und Nebentäler ,81,920,49.8564,8.5929,108,Darmstadt (US-Air-Base) Hessen,Frei
+564,3575,49.357,8.1405,163,Neustadt/Weinstraße Rheinland-Pfalz,Frei,65,121,Rheinebene und Nebentäler ,288,3575,49.357,8.1405,163,Neustadt/Weinstraße Rheinland-Pfalz,Frei
+565,3576,49.3478,8.1822,125,Neustadt/Weinstraße (Heidehof) Rheinland-Pfalz,Frei,65,121,Rheinebene und Nebentäler ,289,3576,49.3478,8.1822,125,Neustadt/Weinstraße (Heidehof) Rheinland-Pfalz,Frei
+567,5426,49.3758,8.1212,553,Weinbiet Rheinland-Pfalz,Frei,65,121,Rheinebene und Nebentäler ,403,5426,49.3758,8.1212,553,Weinbiet Rheinland-Pfalz,Frei
+569,5906,49.5063,8.5584,98,Mannheim Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,436,5906,49.5063,8.5584,98,Mannheim Baden-Württemberg,Frei
+573,2812,48.3647,7.828,156,Lahr Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,217,2812,48.3647,7.828,156,Lahr Baden-Württemberg,Frei
+577,4169,48.6703,7.9939,131,Rheinau-Memprechtshofen Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,331,4169,48.6703,7.9939,131,Rheinau-Memprechtshofen Baden-Württemberg,Frei
+578,377,49.107,7.9967,210,"Bergzabern, Bad Rheinland-Pfalz",Frei,65,121,Rheinebene und Nebentäler ,34,377,49.107,7.9967,210,"Bergzabern, Bad Rheinland-Pfalz",Frei
+585,4177,48.9726,8.3301,116,Rheinstetten Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,333,4177,48.9726,8.3301,116,Rheinstetten Baden-Württemberg,Frei
+586,2522,49.0373,8.3637,112,Karlsruhe Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,194,2522,49.0373,8.3637,112,Karlsruhe Baden-Württemberg,Frei
+592,1420,50.0259,8.5213,100,Frankfurt/Main Hessen,Frei,65,121,Rheinebene und Nebentäler ,115,1420,50.0259,8.5213,100,Frankfurt/Main Hessen,Frei
+597,1425,50.1214,8.6604,103,Frankfurt/Main (Feldbergstr.) Hessen,Frei,65,121,Rheinebene und Nebentäler ,117,1425,50.1214,8.6604,103,Frankfurt/Main (Feldbergstr.) Hessen,Frei
+599,1421,50.1474,8.6746,125,Frankfurt/Main (Stadt) Hessen,Frei,65,121,Rheinebene und Nebentäler ,116,1421,50.1474,8.6746,125,Frankfurt/Main (Stadt) Hessen,Frei
+605,7341,50.09,8.7862,119,Offenbach-Wetterpark Hessen,Frei,65,121,Rheinebene und Nebentäler ,466,7341,50.09,8.7862,119,Offenbach-Wetterpark Hessen,Frei
+615,3362,48.9721,8.8735,243,Mühlacker Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,268,3362,48.9721,8.8735,243,Mühlacker Baden-Württemberg,Frei
+616,4719,49.2447,8.8787,169,Sinsheim Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,368,4719,49.2447,8.8787,169,Sinsheim Baden-Württemberg,Frei
+618,4349,48.9569,9.0711,251,Sachsenheim Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,345,4349,48.9569,9.0711,251,Sachsenheim Baden-Württemberg,Frei
+619,2095,49.1448,9.2333,167,Heilbronn Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,160,2095,49.1448,9.2333,167,Heilbronn Baden-Württemberg,Frei
+622,13674,49.2943,8.9053,237,Waibstadt Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,485,13674,49.2943,8.9053,237,Waibstadt Baden-Württemberg,Frei
+626,4419,47.9556,7.7133,212,Schallstadt-Mengen Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,351,4419,47.9556,7.7133,212,Schallstadt-Mengen Baden-Württemberg,Frei
+630,1443,48.0232,7.8343,237,Freiburg Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,119,1443,48.0232,7.8343,237,Freiburg Baden-Württemberg,Frei
+633,3001,48.0674,7.677,284,Liliental Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,233,3001,48.0674,7.677,284,Liliental Baden-Württemberg,Frei
+637,13667,48.0006,7.845,269,Freiburg-Mitte Baden-Württemberg,Frei,65,121,Rheinebene und Nebentäler ,484,13667,48.0006,7.845,269,Freiburg-Mitte Baden-Württemberg,Frei
+641,4301,49.8502,7.871,102,"Kreuznach, Bad Rheinland-Pfalz",Frei,65,121,Rheinebene und Nebentäler ,342,4301,49.8502,7.871,102,"Kreuznach, Bad Rheinland-Pfalz",Frei
+645,2814,48.5122,9.7644,687,Merklingen Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",218,2814,48.5122,9.7644,687,Merklingen Baden-Württemberg,Frei
+646,4887,48.6656,9.8648,734,Stötten Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",371,4887,48.6656,9.8648,734,Stötten Baden-Württemberg,Frei
+647,1018,47.9422,8.5046,677,Donaueschingen Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",86,1018,47.9422,8.5046,677,Donaueschingen Baden-Württemberg,Frei
+651,2638,48.1054,8.7548,974,Klippeneck Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",204,2638,48.1054,8.7548,974,Klippeneck Baden-Württemberg,Frei
+652,3518,47.976,8.9101,793,Neuhausen ob Eck Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",281,3518,47.976,8.9101,793,Neuhausen ob Eck Baden-Württemberg,Frei
+653,3268,48.1694,8.9433,900,Meßstetten-Appental Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",261,3268,48.1694,8.9433,900,Meßstetten-Appental Baden-Württemberg,Frei
+654,71,48.2156,8.9784,759,Albstadt-Badkap Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",4,71,48.2156,8.9784,759,Albstadt-Badkap Baden-Württemberg,Frei
+655,3519,47.9519,8.9932,663,Neuhausen ob Eck-Unterschwandorf Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",282,3519,47.9519,8.9932,663,Neuhausen ob Eck-Unterschwandorf Baden-Württemberg,Frei
+656,72,48.2766,9.0001,794,Albstadt-Onstmettingen Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",5,72,48.2766,9.0001,794,Albstadt-Onstmettingen Baden-Württemberg,Frei
+669,3402,48.3851,9.4837,755,Münsingen-Apfelstetten Baden-Württemberg,Frei,66,122,"Schwäbische Alb, Baar ",273,3402,48.3851,9.4837,755,Münsingen-Apfelstetten Baden-Württemberg,Frei
+675,4582,49.0823,9.6892,358,Schwäbisch Hall-Bibersfeld Baden-Württemberg,Frei,67,123,Oberes Gäu und körnermaisfähige Übergangslagen ,358,4582,49.0823,9.6892,358,Schwäbisch Hall-Bibersfeld Baden-Württemberg,Frei
+685,4294,48.4704,8.9687,360,Rottenburg-Kiebingen Baden-Württemberg,Frei,67,123,Oberes Gäu und körnermaisfähige Übergangslagen ,341,4294,48.4704,8.9687,360,Rottenburg-Kiebingen Baden-Württemberg,Frei
+689,3278,48.5377,9.2734,354,Metzingen Baden-Württemberg,Frei,67,123,Oberes Gäu und körnermaisfähige Übergangslagen ,263,3278,48.5377,9.2734,354,Metzingen Baden-Württemberg,Frei
+692,3734,49.128,9.3525,232,Obersulm-Willsbach Baden-Württemberg,Frei,67,123,Oberes Gäu und körnermaisfähige Übergangslagen ,304,3734,49.128,9.3525,232,Obersulm-Willsbach Baden-Württemberg,Frei
+693,3761,49.207,9.5176,276,Öhringen Baden-Württemberg,Frei,67,123,Oberes Gäu und körnermaisfähige Übergangslagen ,305,3761,49.207,9.5176,276,Öhringen Baden-Württemberg,Frei
+695,4926,48.7896,9.2167,224,Stuttgart (Neckartal) Baden-Württemberg,Frei,67,123,Oberes Gäu und körnermaisfähige Übergangslagen ,374,4926,48.7896,9.2167,224,Stuttgart (Neckartal) Baden-Württemberg,Frei
+697,4928,48.8281,9.2,314,Stuttgart (Schnarrenberg) Baden-Württemberg,Frei,67,123,Oberes Gäu und körnermaisfähige Übergangslagen ,375,4928,48.8281,9.2,314,Stuttgart (Schnarrenberg) Baden-Württemberg,Frei
+699,4931,48.6883,9.2235,371,Stuttgart-Echterdingen Baden-Württemberg,Frei,67,123,Oberes Gäu und körnermaisfähige Übergangslagen ,376,4931,48.6883,9.2235,371,Stuttgart-Echterdingen Baden-Württemberg,Frei
+700,4933,48.7091,9.2147,401,Stuttgart-Hohenheim Baden-Württemberg,Frei,67,123,Oberes Gäu und körnermaisfähige Übergangslagen ,377,4933,48.7091,9.2147,401,Stuttgart-Hohenheim Baden-Württemberg,Frei
+709,4336,49.2128,7.1077,319,Saarbrücken-Ensheim Saarland,Frei,68,127,Mittellagen Rheinland-Pfalz und Saarland ,344,4336,49.2128,7.1077,319,Saarbrücken-Ensheim Saarland,Frei
+716,460,49.2641,6.6868,362,Berus Saarland,Frei,68,127,Mittellagen Rheinland-Pfalz und Saarland ,47,460,49.2641,6.6868,362,Berus Saarland,Frei
+717,2331,49.3278,7.3533,235,Homburg/Saar Saarland,Frei,68,127,Mittellagen Rheinland-Pfalz und Saarland ,176,2331,49.3278,7.3533,235,Homburg/Saar Saarland,Frei
+726,1072,49.4719,8.1929,107,"Dürkheim, Bad Rheinland-Pfalz",Frei,68,127,Mittellagen Rheinland-Pfalz und Saarland ,90,1072,49.4719,8.1929,107,"Dürkheim, Bad Rheinland-Pfalz",Frei
+729,3903,49.5114,6.3857,175,Perl-Besch Saarland,Frei,68,127,Mittellagen Rheinland-Pfalz und Saarland ,314,3903,49.5114,6.3857,175,Perl-Besch Saarland,Frei
+731,3904,49.5354,6.3789,152,Perl-Nennig Saarland,Frei,68,127,Mittellagen Rheinland-Pfalz und Saarland ,315,3904,49.5354,6.3789,152,Perl-Nennig Saarland,Frei
+732,5433,49.5534,6.812,383,Weiskirchen/Saar Saarland,Frei,68,127,Mittellagen Rheinland-Pfalz und Saarland ,405,5433,49.5534,6.812,383,Weiskirchen/Saar Saarland,Frei
+735,5099,49.7326,6.6131,132,Trier-Zewen Rheinland-Pfalz,Frei,68,127,Mittellagen Rheinland-Pfalz und Saarland ,385,5099,49.7326,6.6131,132,Trier-Zewen Rheinland-Pfalz,Frei
+736,5100,49.7479,6.6583,261,Trier-Petrisberg Rheinland-Pfalz,Frei,68,127,Mittellagen Rheinland-Pfalz und Saarland ,386,5100,49.7479,6.6583,261,Trier-Petrisberg Rheinland-Pfalz,Frei
+742,348,50.4135,7.5886,127,Bendorf Rheinland-Pfalz,Frei,69,127,Mittellagen Rheinland-Pfalz und Saarland ,31,348,50.4135,7.5886,127,Bendorf Rheinland-Pfalz,Frei
+743,161,50.4237,7.4202,75,Andernach Rheinland-Pfalz,Frei,69,127,Mittellagen Rheinland-Pfalz und Saarland ,14,161,50.4237,7.4202,75,Andernach Rheinland-Pfalz,Frei
+748,5029,49.4737,7.0385,387,Tholey Saarland,Frei,70,128,"Hunsrück, Westerwald ",380,5029,49.4737,7.0385,387,Tholey Saarland,Frei
+751,4397,49.5025,7.202,400,Sankt Wendel-Urweiler Saarland,Frei,70,128,"Hunsrück, Westerwald ",350,4397,49.5025,7.202,400,Sankt Wendel-Urweiler Saarland,Frei
+756,2385,49.6927,7.3263,376,Idar-Oberstein Rheinland-Pfalz,Frei,70,128,"Hunsrück, Westerwald ",178,2385,49.6927,7.3263,376,Idar-Oberstein Rheinland-Pfalz,Frei
+757,953,49.7619,7.0542,481,Deuselbach Rheinland-Pfalz,Frei,70,128,"Hunsrück, Westerwald ",82,953,49.7619,7.0542,481,Deuselbach Rheinland-Pfalz,Frei
+758,2167,49.7672,7.3356,302,Niederwörresbach Rheinland-Pfalz,Frei,70,128,"Hunsrück, Westerwald ",164,2167,49.7672,7.3356,302,Niederwörresbach Rheinland-Pfalz,Frei
+759,5871,49.9463,7.2645,497,Hahn Rheinland-Pfalz,Frei,70,128,"Hunsrück, Westerwald ",434,5871,49.9463,7.2645,497,Hahn Rheinland-Pfalz,Frei
+761,535,50.0372,7.3079,417,Blankenrath Rheinland-Pfalz,Frei,70,128,"Hunsrück, Westerwald ",49,535,50.0372,7.3079,417,Blankenrath Rheinland-Pfalz,Frei
+763,3340,50.4383,7.8061,265,Montabaur Rheinland-Pfalz,Frei,71,128,"Hunsrück, Westerwald ",266,3340,50.4383,7.8061,265,Montabaur Rheinland-Pfalz,Frei
+764,3595,50.4107,7.808,250,Niederelbert Rheinland-Pfalz,Frei,71,128,"Hunsrück, Westerwald ",291,3595,50.4107,7.808,250,Niederelbert Rheinland-Pfalz,Frei
+766,3167,50.6621,7.9603,547,"Marienberg, Bad Rheinland-Pfalz",Frei,71,128,"Hunsrück, Westerwald ",254,3167,50.6621,7.9603,547,"Marienberg, Bad Rheinland-Pfalz",Frei
+773,3659,50.3391,6.9501,627,Nürburg Rheinland-Pfalz,Frei,76,129,Hocheifel / Höhenlagen ,299,3659,50.3391,6.9501,627,Nürburg Rheinland-Pfalz,Frei
+774,3660,50.3602,6.8697,485,Nürburg-Barweiler Rheinland-Pfalz,Frei,76,129,Hocheifel / Höhenlagen ,300,3660,50.3602,6.8697,485,Nürburg-Barweiler Rheinland-Pfalz,Frei
+775,2497,50.5014,6.5264,505,Kall-Sistig Nordrhein-Westfalen,Frei,76,129,Hocheifel / Höhenlagen ,191,2497,50.5014,6.5264,505,Kall-Sistig Nordrhein-Westfalen,Frei
+780,766,50.1745,7.0595,477,Büchel-Alflen Rheinland-Pfalz,Frei,76,129,Hocheifel / Höhenlagen ,71,766,50.1745,7.0595,477,Büchel-Alflen Rheinland-Pfalz,Frei
+782,14311,50.15,6.5527,530,Hersdorf-Weißenseifen Rheinland-Pfalz,Frei,76,129,Hocheifel / Höhenlagen ,489,14311,50.15,6.5527,530,Hersdorf-Weißenseifen Rheinland-Pfalz,Frei
+790,3287,49.7177,9.0997,453,Michelstadt-Vielbrunn Hessen,Frei,77,130,"Odenwald, Spessart ",264,3287,49.7177,9.0997,453,Michelstadt-Vielbrunn Hessen,Frei
+795,3300,50.2285,9.1064,155,Mittel-Gründau Hessen,Frei,77,130,"Odenwald, Spessart ",265,3300,50.2285,9.1064,155,Mittel-Gründau Hessen,Frei
+798,1863,50.2667,9.1854,258,Gründau-Breitenborn Hessen,Frei,77,130,"Odenwald, Spessart ",149,1863,50.2667,9.1854,258,Gründau-Breitenborn Hessen,Frei
+806,2171,50.852,9.7377,272,"Hersfeld, Bad Hessen",Frei,78,132,Osthessische Mittelgebirgslagen ,165,2171,50.852,9.7377,272,"Hersfeld, Bad Hessen",Frei
+809,1297,51.2041,10.0138,156,Eschwege Hessen,Frei,78,132,Osthessische Mittelgebirgslagen ,106,1297,51.2041,10.0138,156,Eschwege Hessen,Frei
+811,5644,51.3493,9.8438,133,Witzenhausen Hessen,Frei,78,132,Osthessische Mittelgebirgslagen ,420,5644,51.3493,9.8438,133,Witzenhausen Hessen,Frei
+817,1526,50.5668,9.6532,245,Fulda-Horas Hessen,Frei,78,132,Osthessische Mittelgebirgslagen ,127,1526,50.5668,9.6532,245,Fulda-Horas Hessen,Frei
+819,7396,50.5084,9.2246,740,Hoherodskopf/Vogelsberg Hessen,Frei,78,132,Osthessische Mittelgebirgslagen ,477,7396,50.5084,9.2246,740,Hoherodskopf/Vogelsberg Hessen,Frei
+820,3164,50.8492,8.7745,187,"Cölbe, Kr. Marburg-Biedenkopf Hessen",Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",252,3164,50.8492,8.7745,187,"Cölbe, Kr. Marburg-Biedenkopf Hessen",Frei
+822,1504,51.119,9.2799,172,Fritzlar/Eder Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",126,1504,51.119,9.2799,172,Fritzlar/Eder Hessen,Frei
+824,2532,51.2963,9.4424,231,Kassel Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",195,2532,51.2963,9.4424,231,Kassel Hessen,Frei
+826,2533,51.334,9.4506,198,Kassel-Harleshausen Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",196,2533,51.334,9.4506,198,Kassel-Harleshausen Hessen,Frei
+829,15207,51.2835,9.359,317,Schauenburg-Elgershausen Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",491,15207,51.2835,9.359,317,Schauenburg-Elgershausen Hessen,Frei
+831,1580,49.9859,7.9548,111,Geisenheim Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",132,1580,49.9859,7.9548,111,Geisenheim Hessen,Frei
+833,3004,50.4116,8.0605,185,Limburg/Lahn-Offheim Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",234,3004,50.4116,8.0605,185,Limburg/Lahn-Offheim Hessen,Frei
+834,2601,50.2218,8.4469,822,Kleiner Feldberg/Taunus Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",202,2601,50.2218,8.4469,822,Kleiner Feldberg/Taunus Hessen,Frei
+837,1639,50.6017,8.6439,203,Gießen/Wettenberg Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",137,1639,50.6017,8.6439,203,Gießen/Wettenberg Hessen,Frei
+842,6344,50.394,8.1423,168,Runkel-Ennerich Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",456,6344,50.394,8.1423,168,Runkel-Ennerich Hessen,Frei
+847,91,50.7446,9.345,304,Alsfeld-Eifa Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",7,91,50.7446,9.345,304,Alsfeld-Eifa Hessen,Frei
+848,5277,50.8119,9.128,349,Wahlen Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",393,5277,50.8119,9.128,349,Wahlen Hessen,Frei
+849,7410,50.7513,9.0224,350,Neu-Ulrichstein Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",479,7410,50.7513,9.0224,350,Neu-Ulrichstein Hessen,Frei
+852,5279,51.6194,9.5749,167,Wesertal-Lippoldsberg Hessen,Frei,79,133,"Zentralhessische Ackerbaugebiete, Warburger Börde ",394,5279,51.6194,9.5749,167,Wesertal-Lippoldsberg Hessen,Frei
+854,4692,50.8534,7.9966,229,Siegen (Kläranlage) Nordrhein-Westfalen,Frei,81,134,"Sauerland, Briloner Höhen ",366,4692,50.8534,7.9966,229,Siegen (Kläranlage) Nordrhein-Westfalen,Frei
+859,2947,51.1333,8.0348,286,Lennestadt-Theten Nordrhein-Westfalen,Frei,81,134,"Sauerland, Briloner Höhen ",230,2947,51.1333,8.0348,286,Lennestadt-Theten Nordrhein-Westfalen,Frei
+860,2483,51.1803,8.4891,839,Kahler Asten Nordrhein-Westfalen,Frei,81,134,"Sauerland, Briloner Höhen ",187,2483,51.1803,8.4891,839,Kahler Asten Nordrhein-Westfalen,Frei
+872,5582,51.294,8.6026,580,Willingen/Upland Hessen,Frei,81,134,"Sauerland, Briloner Höhen ",416,5582,51.294,8.6026,580,Willingen/Upland Hessen,Frei
+880,979,50.7364,8.2672,314,Dillenburg Hessen,Frei,81,134,"Sauerland, Briloner Höhen ",84,979,50.7364,8.2672,314,Dillenburg Hessen,Frei
+885,7330,51.4633,7.978,159,Arnsberg-Neheim Nordrhein-Westfalen,Frei,81,134,"Sauerland, Briloner Höhen ",464,7330,51.4633,7.978,159,Arnsberg-Neheim Nordrhein-Westfalen,Frei
+887,1238,50.9884,7.425,144,Engelskirchen Nordrhein-Westfalen,Frei,81,134,"Sauerland, Briloner Höhen ",100,1238,50.9884,7.425,144,Engelskirchen Nordrhein-Westfalen,Frei
+891,3096,51.2131,7.6359,444,Lüdenscheid (Zeppelin-Gymnasium) Nordrhein-Westfalen,Frei,81,134,"Sauerland, Briloner Höhen ",245,3096,51.2131,7.6359,444,Lüdenscheid (Zeppelin-Gymnasium) Nordrhein-Westfalen,Frei
+892,3098,51.2452,7.6425,387,Lüdenscheid Nordrhein-Westfalen,Frei,81,134,"Sauerland, Briloner Höhen ",246,3098,51.2452,7.6425,387,Lüdenscheid Nordrhein-Westfalen,Frei
+894,4127,50.9906,7.6958,347,Reichshof-Eckenhagen Nordrhein-Westfalen,Frei,81,134,"Sauerland, Briloner Höhen ",329,4127,50.9906,7.6958,347,Reichshof-Eckenhagen Nordrhein-Westfalen,Frei
+900,1572,50.9593,6.0392,80,Geilenkirchen-Neutevern Nordrhein-Westfalen,Frei,84,141,"Jülicher Börde, Zülpicher Börde / Niederungslagen, feucht ",131,1572,50.9593,6.0392,80,Geilenkirchen-Neutevern Nordrhein-Westfalen,Frei
+906,3,50.7827,6.0941,202,Aachen Nordrhein-Westfalen,Frei,84,141,"Jülicher Börde, Zülpicher Börde / Niederungslagen, feucht ",1,3,50.7827,6.0941,202,Aachen Nordrhein-Westfalen,Frei
+907,3623,50.8294,6.6601,108,Nörvenich-Niederbolheim Nordrhein-Westfalen,Frei,84,141,"Jülicher Börde, Zülpicher Börde / Niederungslagen, feucht ",295,3623,50.8294,6.6601,108,Nörvenich-Niederbolheim Nordrhein-Westfalen,Frei
+908,15000,50.7983,6.0244,231,Aachen-Orsbach Nordrhein-Westfalen,Frei,84,141,"Jülicher Börde, Zülpicher Börde / Niederungslagen, feucht ",490,15000,50.7983,6.0244,231,Aachen-Orsbach Nordrhein-Westfalen,Frei
+913,1590,51.4942,6.2463,37,Geldern-Walbeck Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",134,1590,51.4942,6.2463,37,Geldern-Walbeck Nordrhein-Westfalen,Frei
+914,2494,51.7329,6.2688,31,Kalkar Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",190,2494,51.7329,6.2688,31,Kalkar Nordrhein-Westfalen,Frei
+924,1078,51.296,6.7686,37,Düsseldorf Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",91,1078,51.296,6.7686,37,Düsseldorf Nordrhein-Westfalen,Frei
+926,3490,50.5346,7.0853,111,"Neuenahr, Bad-Ahrweiler Rheinland-Pfalz",Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",279,3490,50.5346,7.0853,111,"Neuenahr, Bad-Ahrweiler Rheinland-Pfalz",Frei
+927,599,50.7055,7.1467,62,Bonn-Friesdorf Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",54,599,50.7055,7.1467,62,Bonn-Friesdorf Nordrhein-Westfalen,Frei
+928,603,50.7293,7.204,147,Königswinter-Heiderhof Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",55,603,50.7293,7.204,147,Königswinter-Heiderhof Nordrhein-Westfalen,Frei
+930,2667,50.8645,7.1575,91,Köln/Bonn Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",206,2667,50.8645,7.1575,91,Köln/Bonn Nordrhein-Westfalen,Frei
+931,3031,51.6336,8.3945,92,Lippstadt-Bökenförde Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",238,3031,51.6336,8.3945,92,Lippstadt-Bökenförde Nordrhein-Westfalen,Frei
+933,326,51.7204,8.0577,120,Beckum-Unterberg Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",29,326,51.7204,8.0577,120,Beckum-Unterberg Nordrhein-Westfalen,Frei
+934,1246,51.8418,8.0607,104,Ennigerloh-Ostenfelde Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",101,1246,51.8418,8.0607,104,Ennigerloh-Ostenfelde Nordrhein-Westfalen,Frei
+936,5480,51.5763,7.8879,85,Werl Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",409,5480,51.5763,7.8879,85,Werl Nordrhein-Westfalen,Frei
+939,2173,51.589,7.1548,60,Herten Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",166,2173,51.589,7.1548,60,Herten Nordrhein-Westfalen,Frei
+941,555,51.5026,7.2289,110,Bochum Nordrhein-Westfalen,Frei,85,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",51,555,51.5026,7.2289,110,Bochum Nordrhein-Westfalen,Frei
+945,1766,52.1344,7.6969,48,Münster/Osnabrück Nordrhein-Westfalen,Frei,86,142,"oberer Mittelrhein, Niederrhein, südliches Münsterland ",147,1766,52.1344,7.6969,48,Münster/Osnabrück Nordrhein-Westfalen,Frei
+946,3540,50.8446,7.372,195,Neunkirchen-Seelscheid-Krawinkel Nordrhein-Westfalen,Frei,88,143,"Ost-Westfalen, Lippe, Haarstrang, Bergisches Land / Übergangslagen mäßig feucht ",284,3540,50.8446,7.372,195,Neunkirchen-Seelscheid-Krawinkel Nordrhein-Westfalen,Frei
+951,1303,51.4041,6.9677,150,Essen-Bredeney Nordrhein-Westfalen,Frei,88,143,"Ost-Westfalen, Lippe, Haarstrang, Bergisches Land / Übergangslagen mäßig feucht ",108,1303,51.4041,6.9677,150,Essen-Bredeney Nordrhein-Westfalen,Frei
+958,5347,51.5039,9.1118,236,Warburg Nordrhein-Westfalen,Frei,90,143,"Ost-Westfalen, Lippe, Haarstrang, Bergisches Land / Übergangslagen mäßig feucht ",397,5347,51.5039,9.1118,236,Warburg Nordrhein-Westfalen,Frei
+960,3028,51.7854,8.8388,157,"Lippspringe, Bad Nordrhein-Westfalen",Frei,90,143,"Ost-Westfalen, Lippe, Haarstrang, Bergisches Land / Übergangslagen mäßig feucht ",237,3028,51.7854,8.8388,157,"Lippspringe, Bad Nordrhein-Westfalen",Frei
+964,6197,51.8664,9.271,258,Lügde-Paenbruch Nordrhein-Westfalen,Frei,90,143,"Ost-Westfalen, Lippe, Haarstrang, Bergisches Land / Übergangslagen mäßig feucht ",447,6197,51.8664,9.271,258,Lügde-Paenbruch Nordrhein-Westfalen,Frei
+965,769,52.2817,9.089,68,Bückeburg Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,72,769,52.2817,9.089,68,Bückeburg Niedersachsen,Frei
+967,5715,52.4626,9.4245,49,Wunstorf Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,425,5715,52.4626,9.4245,49,Wunstorf Niedersachsen,Frei
+972,13776,52.1789,9.9524,85,Hildesheim-Drispenstedt Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,487,13776,52.1789,9.9524,85,Hildesheim-Drispenstedt Niedersachsen,Frei
+977,13675,52.0818,9.4077,75,Hameln-Hastenbeck Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,486,13675,52.0818,9.4077,75,Hameln-Hastenbeck Niedersachsen,Frei
+978,1691,51.5002,9.9507,167,Göttingen Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,141,1691,51.5002,9.9507,167,Göttingen Niedersachsen,Frei
+979,3348,51.7209,9.8351,241,Moringen-Lutterbeck Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,267,3348,51.7209,9.8351,241,Moringen-Lutterbeck Niedersachsen,Frei
+982,1172,51.8189,9.8871,123,Einbeck Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,95,1172,51.8189,9.8871,123,Einbeck Niedersachsen,Frei
+983,4651,51.904,10.1885,189,Seesen Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,365,4651,51.904,10.1885,189,Seesen Niedersachsen,Frei
+987,7367,51.9643,9.8072,144,Alfeld Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,468,7367,51.9643,9.8072,144,Alfeld Niedersachsen,Frei
+991,13777,52.2467,10.9592,109,Helmstedt-Emmerstedt Niedersachsen,Frei,91,145,Südhannover / Lehmböden ,488,13777,52.2467,10.9592,109,Helmstedt-Emmerstedt Niedersachsen,Frei
+992,3612,52.6711,9.2229,25,Nienburg Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,293,3612,52.6711,9.2229,25,Nienburg Niedersachsen,Frei
+993,4063,52.4461,8.5906,41,Rahden-Kleinendorf Nordrhein-Westfalen,Frei,92,146,Lüneburger Heide / Sandige Böden ,326,4063,52.4461,8.5906,41,Rahden-Kleinendorf Nordrhein-Westfalen,Frei
+994,4275,53.1289,9.3398,32,Rotenburg (Wümme) Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,338,4275,53.1289,9.3398,32,Rotenburg (Wümme) Niedersachsen,Frei
+997,2014,52.4644,9.6779,55,Hannover Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,156,2014,52.4644,9.6779,55,Hannover Niedersachsen,Frei
+998,4745,52.9604,9.793,75,Soltau Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,369,4745,52.9604,9.793,75,Soltau Niedersachsen,Frei
+999,368,52.8152,9.9248,69,Bergen Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,33,368,52.8152,9.9248,69,Bergen Niedersachsen,Frei
+1000,850,52.5959,10.0296,39,Celle Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,74,850,52.5959,10.0296,39,Celle Niedersachsen,Frei
+1002,1339,52.9157,10.1885,74,Faßberg Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,110,1339,52.9157,10.1885,74,Faßberg Niedersachsen,Frei
+1005,3103,53.2657,10.424,11,Lüneburg Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,247,3103,53.2657,10.424,11,Lüneburg Niedersachsen,Frei
+1006,6093,53.2139,10.4704,62,Wendisch Evern Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,438,6093,53.2139,10.4704,62,Wendisch Evern Niedersachsen,Frei
+1007,662,52.2915,10.4464,81,Braunschweig Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,62,662,52.2915,10.4464,81,Braunschweig Niedersachsen,Frei
+1008,5146,52.9414,10.5289,50,Uelzen Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,389,5146,52.9414,10.5289,50,Uelzen Niedersachsen,Frei
+1012,7432,52.6423,10.6628,71,Wittingen-Vorhop Niedersachsen,Frei,92,146,Lüneburger Heide / Sandige Böden ,483,7432,52.6423,10.6628,71,Wittingen-Vorhop Niedersachsen,Frei
+1017,2147,52.1264,8.6865,77,Herford Nordrhein-Westfalen,Frei,93,147,mittleres Niedersachsen / leichte Lehmböden ,162,2147,52.1264,8.6865,77,Herford Nordrhein-Westfalen,Frei
+1018,342,52.317,8.1694,103,Belm Niedersachsen,Frei,93,147,mittleres Niedersachsen / leichte Lehmböden ,30,342,52.317,8.1694,103,Belm Niedersachsen,Frei
+1020,78,52.4853,7.9125,64,Alfhausen Niedersachsen,Frei,93,147,mittleres Niedersachsen / leichte Lehmböden ,6,78,52.4853,7.9125,64,Alfhausen Niedersachsen,Frei
+1021,963,52.5881,8.3424,38,Diepholz Niedersachsen,Frei,93,147,mittleres Niedersachsen / leichte Lehmböden ,83,963,52.5881,8.3424,38,Diepholz Niedersachsen,Frei
+1023,3815,52.2553,8.0534,95,Osnabrück Niedersachsen,Frei,93,147,mittleres Niedersachsen / leichte Lehmböden ,309,3815,52.2553,8.0534,95,Osnabrück Niedersachsen,Frei
+1027,4371,52.1042,8.7521,135,"Salzuflen, Bad Nordrhein-Westfalen",Frei,93,147,mittleres Niedersachsen / leichte Lehmböden ,347,4371,52.1042,8.7521,135,"Salzuflen, Bad Nordrhein-Westfalen",Frei
+1029,554,51.8293,6.5365,23,Bocholt-Liedern (Wasserwerk) Nordrhein-Westfalen,Frei,94,148,südwestliches Weser-Ems-Gebiet / sandige Böden ,50,554,51.8293,6.5365,23,Bocholt-Liedern (Wasserwerk) Nordrhein-Westfalen,Frei
+1032,3023,52.5181,7.3081,22,Lingen Niedersachsen,Frei,94,148,südwestliches Weser-Ems-Gebiet / sandige Böden ,236,3023,52.5181,7.3081,22,Lingen Niedersachsen,Frei
+1038,3254,52.7155,7.3176,19,Meppen Niedersachsen,Frei,94,148,südwestliches Weser-Ems-Gebiet / sandige Böden ,260,3254,52.7155,7.3176,19,Meppen Niedersachsen,Frei
+1039,3640,52.4123,7.064,25,Nordhorn-Blanke Niedersachsen,Frei,94,148,südwestliches Weser-Ems-Gebiet / sandige Böden ,298,3640,52.4123,7.064,25,Nordhorn-Blanke Niedersachsen,Frei
+1042,4174,52.2887,7.3866,40,Rheine-Bentlage Nordrhein-Westfalen,Frei,94,148,südwestliches Weser-Ems-Gebiet / sandige Böden ,332,4174,52.2887,7.3866,40,Rheine-Bentlage Nordrhein-Westfalen,Frei
+1043,7374,52.0813,6.9409,46,Ahaus Nordrhein-Westfalen,Frei,94,148,südwestliches Weser-Ems-Gebiet / sandige Böden ,472,7374,52.0813,6.9409,46,Ahaus Nordrhein-Westfalen,Frei
+1044,15813,52.5126,7.4131,40,Lingen-Baccum Niedersachsen,Frei,94,148,südwestliches Weser-Ems-Gebiet / sandige Böden ,494,15813,52.5126,7.4131,40,Lingen-Baccum Niedersachsen,Frei
+1047,617,51.873,6.8863,47,Borken in Westfalen Nordrhein-Westfalen,Frei,94,148,südwestliches Weser-Ems-Gebiet / sandige Böden ,56,617,51.873,6.8863,47,Borken in Westfalen Nordrhein-Westfalen,Frei
+1051,3404,51.9494,7.5906,62,Münster Nordrhein-Westfalen,Frei,94,148,südwestliches Weser-Ems-Gebiet / sandige Böden ,274,3404,51.9494,7.5906,62,Münster Nordrhein-Westfalen,Frei
+1053,44,52.9336,8.237,44,Großenkneten Niedersachsen,Frei,95,150,nordwestliches Weser-Ems-Gebiet / sandige Böden ,2,44,52.9336,8.237,44,Großenkneten Niedersachsen,Frei
+1055,1503,53.0643,7.902,6,Friesoythe-Altenoythe Niedersachsen,Frei,95,150,nordwestliches Weser-Ems-Gebiet / sandige Böden ,125,1503,53.0643,7.902,6,Friesoythe-Altenoythe Niedersachsen,Frei
+1056,3790,53.1018,8.2516,5,Oldenburg (A) Niedersachsen,Frei,95,150,nordwestliches Weser-Ems-Gebiet / sandige Böden ,306,3790,53.1018,8.2516,5,Oldenburg (A) Niedersachsen,Frei
+1058,6159,52.9542,7.3197,8,Dörpen Niedersachsen,Frei,95,150,nordwestliches Weser-Ems-Gebiet / sandige Böden ,444,6159,52.9542,7.3197,8,Dörpen Niedersachsen,Frei
+1060,5640,53.5444,7.6625,7,Wittmundhafen Niedersachsen,Frei,95,150,nordwestliches Weser-Ems-Gebiet / sandige Böden ,418,5640,53.5444,7.6625,7,Wittmundhafen Niedersachsen,Frei
+1061,2456,53.5322,7.8806,7,Jever Niedersachsen,Frei,95,150,nordwestliches Weser-Ems-Gebiet / sandige Böden ,185,2456,53.5322,7.8806,7,Jever Niedersachsen,Frei
+1062,3791,53.1763,8.1824,11,Oldenburg Niedersachsen,Frei,95,150,nordwestliches Weser-Ems-Gebiet / sandige Böden ,307,3791,53.1763,8.1824,11,Oldenburg Niedersachsen,Frei
+1065,691,53.0451,8.7981,4,Bremen Bremen,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,64,691,53.0451,8.7981,4,Bremen Bremen,Frei
+1067,1981,53.4776,9.8957,4,Hamburg-Neuwiedenthal Hamburg,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,153,1981,53.4776,9.8957,4,Hamburg-Neuwiedenthal Hamburg,Frei
+1068,760,53.3629,9.9435,83,Rosengarten-Klecken Niedersachsen,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,70,760,53.3629,9.9435,83,Rosengarten-Klecken Niedersachsen,Frei
+1069,1987,53.5467,9.9662,47,Hamburg-Sankt Pauli Hamburg,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,154,1987,53.5467,9.9662,47,Hamburg-Sankt Pauli Hamburg,Frei
+1070,1975,53.6332,9.9881,11,Hamburg-Fuhlsbüttel Hamburg,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,152,1975,53.6332,9.9881,11,Hamburg-Fuhlsbüttel Hamburg,Frei
+1073,1990,53.5853,10.1293,18,Hamburg-Wandsbek Hamburg,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,155,1990,53.5853,10.1293,18,Hamburg-Wandsbek Hamburg,Frei
+1077,701,53.5332,8.5761,7,Bremerhaven Bremen,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,65,701,53.5332,8.5761,7,Bremerhaven Bremen,Frei
+1082,704,53.4451,9.139,11,Bremervörde Niedersachsen,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,67,704,53.4451,9.139,11,Bremervörde Niedersachsen,Frei
+1083,703,53.4779,9.1553,5,Bremervörde (A) Niedersachsen,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,66,703,53.4779,9.1553,5,Bremervörde (A) Niedersachsen,Frei
+1084,705,53.5312,9.1664,5,Bremervörde-Niederochtenhausen Niedersachsen,Frei,97,151,Elbe-Weser-Dreieck / sandige Böden ,68,705,53.5312,9.1664,5,Bremervörde-Niederochtenhausen Niedersachsen,Frei
+1086,643,53.296,8.4529,0,Brake-Süderfeld Niedersachsen,Frei,99,152,Niedersächsische Küsten- und Elbmarsch ,59,643,53.296,8.4529,0,Brake-Süderfeld Niedersachsen,Frei
+1088,642,53.3518,8.4969,4,Brake Niedersachsen,Frei,99,152,Niedersächsische Küsten- und Elbmarsch ,58,642,53.3518,8.4969,4,Brake Niedersachsen,Frei
+1090,1219,53.3449,7.1909,5,Emden-Nesserland Niedersachsen,Frei,103,152,Niedersächsische Küsten- und Elbmarsch ,99,1219,53.3449,7.1909,5,Emden-Nesserland Niedersachsen,Frei
+1092,5839,53.3881,7.2287,0,Emden Niedersachsen,Frei,103,152,Niedersächsische Küsten- und Elbmarsch ,432,5839,53.3881,7.2287,0,Emden Niedersachsen,Frei
+1093,1299,53.6476,7.6085,3,Esens Niedersachsen,Frei,103,152,Niedersächsische Küsten- und Elbmarsch ,107,1299,53.6476,7.6085,3,Esens Niedersachsen,Frei
+1098,3631,53.7123,7.1519,12,Norderney Niedersachsen,Frei,106,152,Niedersächsische Küsten- und Elbmarsch ,296,3631,53.7123,7.1519,12,Norderney Niedersachsen,Frei
+1102,1667,53.797,9.4295,1,Glückstadt Schleswig-Holstein,Frei,113,152,Niedersächsische Küsten- und Elbmarsch ,139,1667,53.797,9.4295,1,Glückstadt Schleswig-Holstein,Frei
+1109,3639,53.7647,8.6584,24,Nordholz-Wanhöden Niedersachsen,Frei,113,152,Niedersächsische Küsten- und Elbmarsch ,297,3639,53.7647,8.6584,24,Nordholz-Wanhöden Niedersachsen,Frei
+1110,891,53.8712,8.7058,5,Cuxhaven Niedersachsen,Frei,113,152,Niedersächsische Küsten- und Elbmarsch ,80,891,53.8712,8.7058,5,Cuxhaven Niedersachsen,Frei
+1112,2122,53.9701,9.0095,2,"Helse, Kr. Dithmarschen Schleswig-Holstein",Frei,113,152,Niedersächsische Küsten- und Elbmarsch ,161,2122,53.9701,9.0095,2,"Helse, Kr. Dithmarschen Schleswig-Holstein",Frei
+1113,1200,54.0691,9.0105,3,Elpersbüttel Schleswig-Holstein,Frei,113,152,Niedersächsische Küsten- und Elbmarsch ,98,1200,54.0691,9.0105,3,Elpersbüttel Schleswig-Holstein,Frei
+1115,1451,53.8277,9.2493,2,Freiburg/Elbe Niedersachsen,Frei,113,152,Niedersächsische Küsten- und Elbmarsch ,120,1451,53.8277,9.2493,2,Freiburg/Elbe Niedersachsen,Frei
+1116,2429,53.9897,9.5697,20,Itzehoe Schleswig-Holstein,Frei,114,153,Geest - Süd ,181,2429,53.9897,9.5697,20,Itzehoe Schleswig-Holstein,Frei
+1123,4039,53.7331,9.8776,11,Quickborn Schleswig-Holstein,Frei,114,153,Geest - Süd ,325,4039,53.7331,9.8776,11,Quickborn Schleswig-Holstein,Frei
+1124,6105,54.3194,9.8051,15,Ostenfeld (Rendsburg) Schleswig-Holstein,Frei,114,153,Geest - Süd ,440,6105,54.3194,9.8051,15,Ostenfeld (Rendsburg) Schleswig-Holstein,Frei
+1128,52,53.6623,10.199,46,Ahrensburg-Wulfsdorf Schleswig-Holstein,Frei,114,153,Geest - Süd ,3,52,53.6623,10.199,46,Ahrensburg-Wulfsdorf Schleswig-Holstein,Frei
+1129,5280,53.9224,10.2267,33,Wittenborn Schleswig-Holstein,Frei,114,153,Geest - Süd ,395,5280,53.9224,10.2267,33,Wittenborn Schleswig-Holstein,Frei
+1134,1736,53.5731,10.6797,26,Grambek Schleswig-Holstein,Frei,114,153,Geest - Süd ,143,1736,53.5731,10.6797,26,Grambek Schleswig-Holstein,Frei
+1138,2565,54.3378,10.0929,17,Kiel-Kronshagen Schleswig-Holstein,Frei,117,154,südliches schleswig-holsteinisches Hügelland ,200,2565,54.3378,10.0929,17,Kiel-Kronshagen Schleswig-Holstein,Frei
+1139,2564,54.3776,10.1424,28,Kiel-Holtenau Schleswig-Holstein,Frei,117,154,südliches schleswig-holsteinisches Hügelland ,199,2564,54.3776,10.1424,28,Kiel-Holtenau Schleswig-Holstein,Frei
+1140,4320,54.0934,10.2223,36,Ruhwinkel Schleswig-Holstein,Frei,117,154,südliches schleswig-holsteinisches Hügelland ,343,4320,54.0934,10.2223,36,Ruhwinkel Schleswig-Holstein,Frei
+1142,6163,54.1654,10.3519,27,Dörnick Schleswig-Holstein,Frei,117,154,südliches schleswig-holsteinisches Hügelland ,445,6163,54.1654,10.3519,27,Dörnick Schleswig-Holstein,Frei
+1147,1329,54.134,10.5865,50,Eutin Schleswig-Holstein,Frei,117,154,südliches schleswig-holsteinisches Hügelland ,109,1329,54.134,10.5865,50,Eutin Schleswig-Holstein,Frei
+1150,2306,54.3194,10.6732,8,Hohwacht Schleswig-Holstein,Frei,117,154,südliches schleswig-holsteinisches Hügelland ,174,2306,54.3194,10.6732,8,Hohwacht Schleswig-Holstein,Frei
+1152,3897,54.0893,10.8773,2,Pelzerhaken Schleswig-Holstein,Frei,117,154,südliches schleswig-holsteinisches Hügelland ,313,3897,54.0893,10.8773,2,Pelzerhaken Schleswig-Holstein,Frei
+1154,5516,54.5283,11.0606,3,Fehmarn Schleswig-Holstein,Frei,118,154,südliches schleswig-holsteinisches Hügelland ,411,5516,54.5283,11.0606,3,Fehmarn Schleswig-Holstein,Frei
+1156,1266,54.2992,9.3162,18,Erfde Schleswig-Holstein,Frei,122,155,Marsch - Nord ,103,1266,54.2992,9.3162,18,Erfde Schleswig-Holstein,Frei
+1157,4393,54.3279,8.6031,5,Sankt Peter-Ording Schleswig-Holstein,Frei,122,155,Marsch - Nord ,349,4393,54.3279,8.6031,5,Sankt Peter-Ording Schleswig-Holstein,Frei
+1162,3032,55.011,8.4125,25,List auf Sylt Schleswig-Holstein,Frei,137,155,Marsch - Nord ,239,3032,55.011,8.4125,25,List auf Sylt Schleswig-Holstein,Frei
+1165,1130,54.6282,9.3649,18,Eggebek Schleswig-Holstein,Frei,138,156,Geest - Nord ,93,1130,54.6282,9.3649,18,Eggebek Schleswig-Holstein,Frei
+1166,1379,54.7737,9.3753,41,Flensburg (Schäferhaus) Schleswig-Holstein,Frei,138,156,Geest - Nord ,114,1379,54.7737,9.3753,41,Flensburg (Schäferhaus) Schleswig-Holstein,Frei
+1167,1378,54.8086,9.4182,45,Flensburg Schleswig-Holstein,Frei,138,156,Geest - Nord ,113,1378,54.8086,9.4182,45,Flensburg Schleswig-Holstein,Frei
+1169,2437,54.457,9.5203,21,Schleswig-Jagel Schleswig-Holstein,Frei,138,156,Geest - Nord ,183,2437,54.457,9.5203,21,Schleswig-Jagel Schleswig-Holstein,Frei
+1170,2303,54.3162,9.5385,10,Hohn Schleswig-Holstein,Frei,138,156,Geest - Nord ,173,2303,54.3162,9.5385,10,Hohn Schleswig-Holstein,Frei
+1171,4156,54.2878,9.6749,8,Rendsburg Schleswig-Holstein,Frei,138,156,Geest - Nord ,330,4156,54.2878,9.6749,8,Rendsburg Schleswig-Holstein,Frei
+1172,4466,54.5275,9.5487,43,Schleswig Schleswig-Holstein,Frei,138,156,Geest - Nord ,355,4466,54.5275,9.5487,43,Schleswig Schleswig-Holstein,Frei
+1174,2907,54.7903,8.9514,7,Leck Schleswig-Holstein,Frei,138,156,Geest - Nord ,225,2907,54.7903,8.9514,7,Leck Schleswig-Holstein,Frei
+1177,4629,54.5166,9.142,37,Schwesing Schleswig-Holstein,Frei,138,156,Geest - Nord ,363,4629,54.5166,9.142,37,Schwesing Schleswig-Holstein,Frei
+1178,1666,54.8273,9.5058,12,Glücksburg-Meierwik Schleswig-Holstein,Frei,139,157,nördliches schleswig-holsteinisches Hügelland ,138,1666,54.8273,9.5058,12,Glücksburg-Meierwik Schleswig-Holstein,Frei
+1181,4896,54.6654,9.805,40,Wagersrott Schleswig-Holstein,Frei,139,157,nördliches schleswig-holsteinisches Hügelland ,372,4896,54.6654,9.805,40,Wagersrott Schleswig-Holstein,Frei
+1182,5930,54.641,10.0238,1,Schönhagen (Ostseebad) Schleswig-Holstein,Frei,139,157,nördliches schleswig-holsteinisches Hügelland ,437,5930,54.641,10.0238,1,Schönhagen (Ostseebad) Schleswig-Holstein,Frei
+1185,3086,53.8025,10.6989,15,Lübeck-Blankensee Schleswig-Holstein,Frei,146,158,NW-Mecklenburg und Küstengebiet / bessere diluviale Böden ,243,3086,53.8025,10.6989,15,Lübeck-Blankensee Schleswig-Holstein,Frei
+1187,596,54.0027,11.1908,15,Boltenhagen Mecklenburg-Vorpommern,Frei,146,158,NW-Mecklenburg und Küstengebiet / bessere diluviale Böden ,53,596,54.0027,11.1908,15,Boltenhagen Mecklenburg-Vorpommern,Frei
+1188,4625,53.6424,11.3871,59,Schwerin Mecklenburg-Vorpommern,Frei,146,158,NW-Mecklenburg und Küstengebiet / bessere diluviale Böden ,362,4625,53.6424,11.3871,59,Schwerin Mecklenburg-Vorpommern,Frei
+1192,4271,54.1803,12.0808,5,Rostock-Warnemünde Mecklenburg-Vorpommern,Frei,146,158,NW-Mecklenburg und Küstengebiet / bessere diluviale Böden ,337,4271,54.1803,12.0808,5,Rostock-Warnemünde Mecklenburg-Vorpommern,Frei
+1194,2201,54.575,13.1044,1,Hiddensee-Vitte Mecklenburg-Vorpommern,Frei,158,158,NW-Mecklenburg und Küstengebiet / bessere diluviale Böden ,168,2201,54.575,13.1044,1,Hiddensee-Vitte Mecklenburg-Vorpommern,Frei
+1195,4024,54.3643,13.4771,40,Putbus Mecklenburg-Vorpommern,Frei,159,158,NW-Mecklenburg und Küstengebiet / bessere diluviale Böden ,321,4024,54.3643,13.4771,40,Putbus Mecklenburg-Vorpommern,Frei
+1196,5088,54.5337,13.246,3,Trent Mecklenburg-Vorpommern,Frei,159,158,NW-Mecklenburg und Küstengebiet / bessere diluviale Böden ,383,5088,54.5337,13.246,3,Trent Mecklenburg-Vorpommern,Frei
+1197,183,54.6791,13.4344,42,Arkona Mecklenburg-Vorpommern,Frei,159,158,NW-Mecklenburg und Küstengebiet / bessere diluviale Böden ,17,183,54.6791,13.4344,42,Arkona Mecklenburg-Vorpommern,Frei
+1200,7106,52.0714,8.4565,105,Bielefeld-Deppendorf Nordrhein-Westfalen,Frei,161,191,Teutoburger Wald ,458,7106,52.0714,8.4565,105,Bielefeld-Deppendorf Nordrhein-Westfalen,Frei
+1204,2044,51.652,11.1366,404,Harzgerode Sachsen-Anhalt,Frei,164,192,Harz ,158,2044,51.652,11.1366,404,Harzgerode Sachsen-Anhalt,Frei
+1207,2174,51.6255,10.3695,236,Herzberg Niedersachsen,Frei,164,192,Harz ,167,2174,51.6255,10.3695,236,Herzberg Niedersachsen,Frei
+1212,656,51.7234,10.6021,607,Braunlage Niedersachsen,Frei,164,192,Harz ,61,656,51.7234,10.6021,607,Braunlage Niedersachsen,Frei
+1213,4445,51.7659,10.6533,614,Wernigerode-Schierke Sachsen-Anhalt,Frei,164,192,Harz ,353,4445,51.7659,10.6533,614,Wernigerode-Schierke Sachsen-Anhalt,Frei
+1219,5490,51.8454,10.7686,233,Wernigerode Sachsen-Anhalt,Frei,164,192,Harz ,410,5490,51.8454,10.7686,233,Wernigerode Sachsen-Anhalt,Frei
+1231,5371,50.4973,9.9427,920,Wasserkuppe Hessen,Frei,165,193,Rhön ,399,5371,50.4973,9.9427,920,Wasserkuppe Hessen,Frei
+1232,3513,50.5003,11.1345,845,Neuhaus am Rennweg Thüringen,Frei,167,194,Thüringer Wald ,280,3513,50.5003,11.1345,845,Neuhaus am Rennweg Thüringen,Frei
+1234,4501,50.6545,10.7696,938,Schmücke Thüringen,Frei,167,194,Thüringer Wald ,356,4501,50.6545,10.7696,938,Schmücke Thüringen,Frei
+1248,840,50.4313,12.6114,895,Carlsfeld Sachsen,Frei,169,195,Erzgebirge ,73,840,50.4313,12.6114,895,Carlsfeld Sachsen,Frei
+1249,1358,50.4283,12.9536,1213,Fichtelberg Sachsen,Frei,169,195,Erzgebirge ,112,1358,50.4283,12.9536,1213,Fichtelberg Sachsen,Frei
+1254,3166,50.6511,13.1469,639,Marienberg Sachsen,Frei,169,195,Erzgebirge ,253,3166,50.6511,13.1469,639,Marienberg Sachsen,Frei
+1255,7370,49.391,12.6838,499,Waldmünchen Bayern,Frei,170,196,Bayrischer Wald ,471,7370,49.391,12.6838,499,Waldmünchen Bayern,Frei
+1290,1468,48.4538,8.409,797,Freudenstadt Baden-Württemberg,Frei,171,198,Schwarzwald ,121,1468,48.4538,8.409,797,Freudenstadt Baden-Württemberg,Frei
+1295,5559,48.7848,8.5764,383,"Wildbad, Bad-Calmbach Baden-Württemberg",Frei,171,198,Schwarzwald ,414,5559,48.7848,8.5764,383,"Wildbad, Bad-Calmbach Baden-Württemberg",Frei
+1308,5562,48.6516,8.6801,571,Neubulach-Oberhaugstett Baden-Württemberg,Frei,171,198,Schwarzwald ,415,5562,48.6516,8.6801,571,Neubulach-Oberhaugstett Baden-Württemberg,Frei
+1313,1346,47.8748,8.0038,1486,Feldberg/Schwarzwald Baden-Württemberg,Frei,171,198,Schwarzwald ,111,1346,47.8748,8.0038,1486,Feldberg/Schwarzwald Baden-Württemberg,Frei
+1334,3730,47.3984,10.2759,806,Oberstdorf Bayern,Frei,172,199,Alpen ,303,3730,47.3984,10.2759,806,Oberstdorf Bayern,Frei
+1346,1550,47.483,11.0621,719,Garmisch-Partenkirchen Bayern,Frei,173,199,Alpen ,129,1550,47.483,11.0621,719,Garmisch-Partenkirchen Bayern,Frei
+1356,7424,47.7724,12.9073,457,Piding Bayern,Frei,173,199,Alpen ,482,7424,47.7724,12.9073,457,Piding Bayern,Frei
+1358,361,47.6344,13.0109,550,Berchtesgaden (KKst) Bayern,Frei,173,199,Alpen ,32,361,47.6344,13.0109,550,Berchtesgaden (KKst) Bayern,Frei
+1359,19856,47.6134,12.9819,625,Schönau am Königssee Bayern,Frei,173,199,Alpen ,496,19856,47.6134,12.9819,625,Schönau am Königssee Bayern,Frei
+1366,1490,47.6454,9.4795,394,Friedrichshafen Baden-Württemberg,Frei,,,,123,1490,47.6454,9.4795,394,Friedrichshafen Baden-Württemberg,Frei
+1367,1759,54.2437,13.9104,11,Greifswalder Oie Mecklenburg-Vorpommern,Frei,,,,146,1759,54.2437,13.9104,11,Greifswalder Oie Mecklenburg-Vorpommern,Frei
+1375,5779,50.7313,13.7516,877,Zinnwald-Georgenfeld Sachsen,Frei,,,,427,5779,50.7313,13.7516,877,Zinnwald-Georgenfeld Sachsen,Frei

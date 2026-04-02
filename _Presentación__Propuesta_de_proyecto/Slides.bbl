@@ -8,6 +8,11 @@ M.~Akin and S.P. Eyduran.
 \newblock {\em Yuzuncu Yıl University Journal of Agricultural Sciences},
   27(2):252--258, June 2017.
 
+\bibitem[Agr96]{Agrama_1996}
+H.A.S. Agrama.
+\newblock Sequential path analysis of grain yield and its components in maize.
+\newblock {\em Plant Breeding}, 115(5):343--346, 1996.
+
 \bibitem[AP24]{ARIZMENDIPERALTA2024}
 P.P. Arizmendi~Peralta.
 \newblock {Estudio de técnicas de Machine Learning para estimar la producción
@@ -19,6 +24,12 @@ H.~Alonso~Tapia.
 \newblock Caracterización del sistema socioecol{\'o}gico de agave y su
   aportaci{\'o}n a los servicios ecosist{\'e}micos.
 \newblock 2022.
+
+\bibitem[CMK{\etalchar{+}}26]{Clark_2026}
+E.I. Clark, M.A. Moore, C.K. Khoury, B.S. Hulke, N.C. Kane, and S.C. Elmendorf.
+\newblock Climate drives variation in optimal phenology: 46 years of
+  multi-environment trials in sunflower.
+\newblock {\em New Phytologist}, 249(3):1527--1541, 2026.
 
 \bibitem[CRRSPTFG23]{Callejas-Rodriguez_2023}
 R.~Callejas-Rodríguez, R.~Reyes-Sánchez, I.~Plácido-Tomielis, and
@@ -33,6 +44,11 @@ Laura Dobor, Zoltán Barcza, Tomáš Hlásny, Tamás Árendás, Tamás Spitkó,
 \newblock Crop planting date matters: Estimation methods and effect on future
   yields.
 \newblock {\em Agricultural and Forest Meteorology}, 223:103--115, 2016.
+
+\bibitem[DBR{\etalchar{+}}15]{DONOHUE_2015}
+K.~Donohue, L.T. Burghardt, D.~Runcie, K.J. Bradford, and J.~Schmitt.
+\newblock Applying developmental threshold models to evolutionary ecology.
+\newblock {\em Trends in Ecology \& Evolution}, 30(2):66--77, 2015.
 
 \bibitem[dlNU25]{ONU_2025}
 Organización de~las Naciones~Unidas.
@@ -68,11 +84,23 @@ J.O.M. López-Díaz, J.~Méndez-González, P.M. López-Serrano, F.J.
   two large-scale bioclimatic regions in mexico.
 \newblock {\em PLOS ONE}, 17(9):1--13, 09 2022.
 
+\bibitem[MBSL19]{Maresma_2019}
+A.~Maresma, A.~Ballesta, F.~Santiveri, and J.~Lloveras.
+\newblock Sowing date affects maize development and yield in irrigated
+  mediterranean environments.
+\newblock {\em Agriculture}, 9(3):67, March 2019.
+
 \bibitem[MEP15]{Mosquera_2015}
 M.~Mosquera, E.A. Evans, and R.~Ploetz.
 \newblock {Assessing the profitability of avocado production in South Florida
   in the presence of Laurel Wilt}.
 \newblock {\em Theoretical Economics Letters}, 5(2):343--356, 2015.
+
+\bibitem[MGK18]{Mason_2018}
+S.~Mason, T.~Galusha, and Z.~Kmail.
+\newblock Planting date influence on yield of drought-tolerant maize with
+  different maturity classifications.
+\newblock {\em Agronomy Journal}, 110(1):293--299, 2018.
 
 \bibitem[Nob84]{Nobel_1984}
 P.S. Nobel.
@@ -111,5 +139,12 @@ J.~Wang, Y.~Guan, L.~Wu, X.~Guan, W.~Cai, J.~Huang, W.~Dong, and B.~Zhang.
 \newblock Changing lengths of the four seasons by global warming.
 \newblock {\em Geophysical Research Letters}, 48(6):e2020GL091753, 2021.
 \newblock e2020GL091753 2020GL091753.
+
+\bibitem[WZW{\etalchar{+}}25]{Wang_2025}
+J.~Wang, L.~Zhao, B.-Z. Wang, F.~Mo, N.~Wang, S.-T. Liu, Y.~Song, A.-T. Ren,
+  F.-J. Mei, Y.~Wang, Q.~Lu, and Y.-C. Xiong.
+\newblock Plastic film mulching ensures maize climate resilience: A perspective
+  of temperature suitability and optimal sowing period window.
+\newblock {\em Soil and Tillage Research}, 252:106611, October 2025.
 
 \end{thebibliography}

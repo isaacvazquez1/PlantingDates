@@ -89,8 +89,8 @@ Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
  Asimismo, $C^*$ denota el centroide de la región de condiciones agroambientales que, según la literatura, favorecen un desarrollo óptimo del cultivo. Específicamente, si $d\in \N$ es el número de variables agroambientales consideradas y, de acuerdo con la literatura, el intervalo $I_v = (a_v, b_v)$ representa el rango de valores en el cual el cultivo de maíz responde favorablemente, para cada variable $v \in \{1, \dots, d\}$ entonces se define a \begin{equation}
  	C^*= \left(\frac{a_1+b_1}{2}, \frac{a_2+b_2}{2}, \ldots, \frac{a_v+b_v}{2} \right),
  \end{equation}el centroide de la región dada por \begin{equation*}
- I_1 \times I_2 \times \ldots \times I_v,
- \end{equation*}el producto cartesiano de los intervalos $I_d$, que representa la región de condiciones agroambientales óptimas.\\ 
+ I_1 \times I_2 \times \ldots \times I_d,
+ \end{equation*}el producto cartesiano de los intervalos $I_v$, que representa la región de condiciones agroambientales óptimas.\\ 
  
  De esta manera, para toda $k\in \{1,2,\ldots, 365\}$, se garantiza que $\lambda_k \in [0,1]$ y, simultáneamente, tanto $C_{H,k}$ como $C^*$ se interpretan como elementos en $\mathbb{R}^d$, donde cada componente corresponde a una variable agroambiental específica ver Fig. \ref{Distance}. Además, notemos que $d \leq 8$, dado que la dimensión $d$ estará dada por el número de variables que presenten evidencia estadística suficiente de relación con las fechas de siembra. Reduciendo, en consecuencia, la incorporación de ruido proveniente de variables no informativas.\\
 
@@ -424,7 +424,7 @@ Con los resultados y definiciones previas, gráficamente, la matriz de transici�
 \end{equation}
 
 
-De manera que $\mathbf{Q}\in \mathcal{M}_{365\times 365}(\R)$ y se define por \begin{equation}
+De manera que, para el proceso que modela la siembra, $\mathbf{Q}\in \mathcal{M}_{365\times 365}(\R)$ se define por \begin{equation}
 	\mathbf{Q}=
 	\begin{bNiceMatrix}[
 		first-row,
