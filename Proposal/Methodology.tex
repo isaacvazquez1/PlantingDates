@@ -32,6 +32,7 @@ De esta manera, dado dos estados $i,j\in S$, $i\neq j$ si $P_{i,j}$ denota la pr
 \end{equation}
 Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
 	\lambda_k= 1- \frac{d(C_{H,k} \,\mathbf{,}\, C^*)}{\displaystyle \max_{l\in \{1,\ldots, 365\}} \{d(C_{H,l}\, \mathbf{,} \,C^*)\}},
+	\label{lambdas}
 \end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis. Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año incluyendo variables como la precipitación, temperatura del suelo, radiación solar, equivalencia de nieve en agua y otros fenómenos meteorológicos disponibles como el índice de Oscilación del Atlántico Norte (NAO, por sus siglas en inglés) en bases de datos climáticas disponibles a través del Deutscher Wetterdienst (DWD) \cite{DWD_2026} y la Unidad de Investigación Climática, (CRU, por sus siglas en inglés) \cite{Jones_1997}, ver Tabla \ref{AgroVariables}.\\
 
 \begin{table}[!ht]
@@ -544,4 +545,6 @@ Con el objetivo de incorporar la heterogeneidad medioambiental presente en Alema
 
 Para cada zona, se utilizan exclusivamente aquellas estaciones climáticas contenidas dentro de sus límites geográficos. En total, se dispone de información proveniente de 493 estaciones climáticas distribuidas a lo largo del territorio alemán, las cuales reportan las primeras ocho variables mostradas en la Tabla \ref{AgroVariables}.\\
 
-De esta manera, para cada zona agroecológica se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos óptimos de siembra adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos. No obstante, la diferencia en la cantidad de información disponible entre zonas agroecológicas, puede influir en las estimaciones obtenidas.\\
+Para cada variable considerada y para cada día del año, se calcula el promedio de los valores reportados por todas las estaciones climáticas contenidas en la zona agroecológica correspondiente. De esta manera, se obtienen mediciones históricas representativas de las condiciones medias locales, ver Fig. \ref{Distance}, las cuales son utilizadas para determinar las probabilidades de transición del modelo a través de la Ecuación \eqref{lambdas}.\\
+
+De esta manera, para cada zona agroecológica se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos óptimos de siembra adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos. No obstante, la diferencia en la cantidad de información disponible entre zonas agroecológicas, puede influir en las estimaciones obtenidas.
