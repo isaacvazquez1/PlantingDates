@@ -50,6 +50,13 @@ K.~Donohue, L.T. Burghardt, D.~Runcie, K.J. Bradford, and J.~Schmitt.
 \newblock Applying developmental threshold models to evolutionary ecology.
 \newblock {\em Trends in Ecology \& Evolution}, 30(2):66--77, 2015.
 
+\bibitem[{Deu}26]{DWD_2026}
+{Deutscher Wetterdienst}.
+\newblock Climate data center (cdc): Daily climate observations, 2026.
+\newblock Accesado vía
+  \url{https://opendata.dwd.de/climate_envir/CDC/observations_germany/climate/daily/}onment
+  en marzo 10, 2026.
+
 \bibitem[dlNU25]{ONU_2025}
 Organización de~las Naciones~Unidas.
 \newblock {¿Qué es el cambio climático?}, 2025.
@@ -74,6 +81,14 @@ A.~Gümüşçü, M.E. Tenekeci, and A.V. Bilgili.
   based on available climate data.
 \newblock {\em Sustainable Computing: Informatics and Systems}, 28:100308,
   2020.
+
+\bibitem[JJW97]{Jones_1997}
+P.D. Jones, T.~Jonsson, and D.~Wheeler.
+\newblock Extension to the north atlantic oscillation using early instrumental
+  pressure observations from gibraltar and south-west iceland.
+\newblock {\em International Journal of Climatology}, 17(13):1433–1450,
+  November 1997.
+\newblock Actualizado a febrero 18, 2026.
 
 \bibitem[LDMGLS{\etalchar{+}}22]{Lopez-Diaz_2022}
 J.O.M. López-Díaz, J.~Méndez-González, P.M. López-Serrano, F.J.
@@ -107,6 +122,13 @@ P.S. Nobel.
 \newblock Productivity of agave deserti: measurement by dry weight and monthly
   prediction using physiological responses to environmental parameters.
 \newblock {\em Oecologia}, 64(1):1--7, September 1984.
+
+\bibitem[RMGN07]{Rossberg_2007}
+D.~Ro{\ss}berg, V.~Michel, R.~Graf, and R.~Neukampf.
+\newblock Definition von boden-klima-r{\"a}umen f{\"u}r die bundesrepublik
+  deutschland.
+\newblock {\em Nachrichtenblatt des Deutschen Pflanzenschutzdienstes},
+  59(7):155--161, 2007.
 
 \bibitem[SGIE�BGV18]{Salazar_2018}
 S.~Salazar-García, M.E. Ibarra-Estrada, A.~Álvarez Bravo, and

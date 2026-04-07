@@ -46,7 +46,7 @@ Warning--empty journal in García-Mendoza_2002
 Warning--can't use both author and editor fields in Regniere_2013
 You've used 184 entries,
             2118 wiz_defined-function locations,
-            1728 strings with 44065 characters,
+            1728 strings with 44064 characters,
 and the built_in function-call counts, 71936 in all, are:
 = -- 6603
 > -- 4598

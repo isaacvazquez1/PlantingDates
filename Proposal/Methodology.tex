@@ -42,7 +42,7 @@ Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
 		\hline
 		\multicolumn{1}{c|}{\textbf{Variable}} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c}{\textbf{Fuente}} \\
 		\hline
-		Temperatura ambiente \newline ($^\circ$C). &  Promedio diario de la temperatura del aire medida a 2 m de altura en condiciones estandarizadas para suprimir los efectos de la humedad, la radiación solar y el viento. &
+		Temperatura ambiente promedio \newline ($^\circ$C). &  Promedio diario de la temperatura del aire medida a 2 m de altura en condiciones estandarizadas para suprimir los efectos de la humedad, la radiación solar y el viento. &
 		 \multirow{7}{*}{\parbox{4.5cm}{Deutscher Wetterdienst\\
 		\cite{DWD_2026}.
 		}} \\ \cline{1-2}
@@ -50,7 +50,7 @@ Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
 		\\ \cline{1-2}
 		Temperatura ambiente mínima sobre el suelo \newline ($^\circ$C). &  Registro de la temperatura ambiente mínima medida a 5 cm sobre el suelo. &
 		\\ \cline{1-2}
-		Temperatura el el suelo\newline ($^\circ$C).
+		Temperatura del suelo\newline ($^\circ$C).
 		& Promedio diario de la temperatura del suelo medida a $2$, $5$, $10$, $20$ y $50$ cm de profundidad. \newline
 		Nota: Se sugiere considerar mediciones a 10 cm \cite{Vatca_2021}. 
 		& \\ \cline{1-2}
@@ -400,9 +400,9 @@ Con los resultados y definiciones previas, gráficamente, la matriz de transici�
 		
 		D_1   & 0 & \lambda_1 & 0 & 0 & \cdots & 0 & 0 & 1-\lambda_1 \\
 		D_2   & 0 & 0 & \lambda_2 & 0 & \cdots & 0 & 0 & 1-\lambda_2 \\
-		
+		&&&&&&&\\
 		\vdots &  &  &  &  & \ddots &  &  & \vdots \\
-		
+		&&&&&&&\\
 		D_{364} & 0 & 0 & 0 & 0 & \cdots & 0 & \lambda_{364} & 1-\lambda_{364} \\
 		D_{365} & \lambda_{365} & 0 & 0 & 0 & \cdots & 0 & 0 & 1-\lambda_{365} \\
 		
@@ -411,8 +411,8 @@ Con los resultados y definiciones previas, gráficamente, la matriz de transici�
 		F & 0 & 0 & 0 & 0 & \cdots & 0 & 0 & 1
 		\CodeAfter  % added <<<<<<<<<<<<
 		%\line{1-2}{3-4} 
-		\tikz[dashed, line width=0.8pt] \draw  (1-|8) -- (7-|8);
-		\tikz[dashed, line width=0.8pt, shorten <=5pt, shorten >=6pt] \draw  (6-|1) -- (6-|9);
+		\tikz[dashed, line width=0.8pt] \draw  (1-|8) -- (9-|8);
+		\tikz[dashed, line width=0.8pt, shorten <=5pt, shorten >=6pt] \draw  (8-|1) -- (8-|9);
 	\end{bNiceMatrix}
 \end{equation}
 
@@ -427,9 +427,9 @@ De manera que, para el proceso que modela la siembra, $\mathbf{Q}\in \mathcal{M}
 		
 		D_1   & 0 & \lambda_1 & 0 & 0 & \cdots & 0 & 0  \\
 		D_2   & 0 & 0 & \lambda_2 & 0 & \cdots & 0 & 0 \\
-		
+		 &  &  &  &  &  &  & \\
 		\vdots &  &  &  &  & \ddots &  &   \\
-		
+		 &  &  &  &  &  &  & \\
 		D_{364} & 0 & 0 & 0 & 0 & \cdots & 0 & \lambda_{364}  \\
 		D_{365} & \lambda_{365} & 0 & 0 & 0 & \cdots & 0 & 0 \\
 	\end{bNiceMatrix},
