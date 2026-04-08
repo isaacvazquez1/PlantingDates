@@ -797,7 +797,7 @@
 
 
 
-\begin{frame}{Modelo: Criterio de permanencia empírica}
+\begin{frame}{Modelo: Criterio  empírico de permanencia}
 	\vspace{-0.7cm}
 	\begin{columns}
 		\column{0.5\textwidth}
@@ -879,7 +879,7 @@
 \end{frame}
 
 
-\begin{frame}{Modelo: Criterio de permanencia empírica}
+\begin{frame}{Modelo: Criterio  empírico de permanencia}
 	\vspace{-0.7cm}
 	\begin{columns}
 		\column{0.5\textwidth}
@@ -1051,7 +1051,7 @@
 		Calcular
 		$$P_i(\tau_F > n^*):=P(\tau_F > n^*\mid X_0=D_i),$$ con $\displaystyle\{\tau_F > n^*\}= \inf_{t\in \mathbb{N}} \{X_t= F\}.$\\
 			\begin{block}{Suponiendo que $X$ es una cadena de Markov}
-				$$P_i(\tau_F > n^*)=\prod_{t=0}^{n^*-1} \lambda_t \phantom{\geq \zeta^*.}$$
+				$$P_i(\tau_F > n^*)=\prod_{t=0}^{n^*-1} \lambda_{(i+t)\bmod{365}} \phantom{\geq \zeta^*.}$$
 		\end{block}
 		\column{0.5\textwidth}
 		\begin{figure}[ht]
@@ -1129,7 +1129,7 @@
 		Calcular
 		$$P_i(\tau_F > n^*):=P(\tau_F > n^*\mid X_0=D_i),$$ con $\displaystyle\{\tau_F > n^*\}= \inf_{t\in \mathbb{N}} \{X_t= F\}.$\\
 		\begin{block}{Suponiendo que $X$ es una cadena de Markov}
-			$$P_i(\tau_F > n^*)=\prod_{t=0}^{n^*-1} \lambda_t \geq \zeta^*.$$
+			$$P_i(\tau_F > n^*)=\prod_{t=0}^{n^*-1} \lambda_{(i+t)\bmod{365}} \geq \zeta^*.$$
 		\end{block}
 		\column{0.5\textwidth}
 		\begin{figure}[ht]
@@ -1391,7 +1391,7 @@
 	\vspace{-1cm}\begin{columns}
 	\column{0.5\textwidth}
 	\begin{equation*}
-		\hspace{-0.7cm}\mathbf{Q}=
+		\hspace{-0.6cm}\mathbf{Q}=
 		\begin{bNiceMatrix}[
 			first-row,
 			first-col
@@ -1412,8 +1412,51 @@
 		\item $\mu=\mathbf{N} \mathbf{1}$
 		\item $\sigma^2 = (2\mathbf{N} - I_{_{365}})\mu -  \mu_{sq}$
 	\end{itemize}indican la esperanza y la varianza del tiempo a transcurrir antes de que la cadena sea absorbida, respectivamente.
+	
 	{\scriptsize Fuente: Kemeny \textit{et al.} (1976); Grinstead \textit{et al.} (2003).}
 	
+\end{columns}
+\end{frame}
+
+
+
+
+\begin{frame}{Modelo: Criterio de disponibilidad de tiempo}
+	\vspace{-1cm}\begin{columns}
+		\column{0.5\textwidth}
+			Si $T_i$ es la variable aleatoria que cuenta el tiempo en que la cadena fue absorbida, dado que partió del estado $D_i$, al menos el $\displaystyle \left(1-\frac{1}{\kappa^2}\right)100 \%$ de las realizaciones de $T_i$ caen en el intervalo $$(\mu_i-\kappa \sigma_i, \mu_i+\kappa \sigma_i),$$
+			 por la desigualdad de Chebyshev.
+
+			\column{0.5\textwidth}
+		\pause
+		\begin{block}{}
+			Por tanto, se sugiere sembrar en el $i$-ésimo día del año si $$n^* < \mu_i-\kappa \sigma_i.$$ 
+		\end{block}
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}{Modelo: Criterio de alcanzabilidad fenológica eventual}
+	\vspace{-1cm}\begin{columns}
+		\column{0.5\textwidth}	\column{0.5\textwidth}
+		En una cadena de Markov absorbente, la probabilidad de visitar eventualmente el estado transitorio $s_j$ luego de haber partido del estado transitorio $s_i$ está dada por la entrada $h_{i,j}$ de la matriz $$\mathbf{H}= (\mathbf{N} - I_{_{365}})(N_{dg})^{-1}.$$
+		
+		{\scriptsize Fuente: Kemeny \textit{et al.} (1976).}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Modelo: Criterio de alcanzabilidad fenológica eventual}
+	\vspace{-1cm}\begin{columns}
+		\column{0.5\textwidth}
+		
+		\begin{block}{}
+			Se sugiere sembrar en el $i$-ésimo día del año si $$h_{i,n^*\bmod{365}} \geq \zeta^*.$$
+		\end{block}
+		
+		\column{0.5\textwidth}
+		En una cadena de Markov absorbente, la probabilidad de visitar eventualmente el estado transitorio $s_j$ luego de haber partido del estado transitorio $s_i$ está dada por la entrada $h_{i,j}$ de la matriz $$\mathbf{H}= (\mathbf{N} - I_{_{365}})(N_{dg})^{-1}.$$
+		
+		{\scriptsize Fuente: Kemeny \textit{et al.} (1976).}
 	\end{columns}
 \end{frame}
 

@@ -75,6 +75,11 @@ M.N. Elnesr, A.A. Alazba, and A.A. Alsadon.
   for vegetables.
 \newblock {\em Computers and Electronics in Agriculture}, 90:131--143, 2013.
 
+\bibitem[GS03]{Grinstead_2003}
+C.M. Grinstead and J.L. Snell.
+\newblock {\em Introduction to Probability}.
+\newblock American Mathematical Society, Providence, RI, 2nd edition, 2003.
+
 \bibitem[GTB20]{GUMUSCU2020100308}
 A.~Gümüşçü, M.E. Tenekeci, and A.V. Bilgili.
 \newblock Estimation of wheat planting date using machine learning algorithms
@@ -89,6 +94,12 @@ P.D. Jones, T.~Jonsson, and D.~Wheeler.
 \newblock {\em International Journal of Climatology}, 17(13):1433–1450,
   November 1997.
 \newblock Actualizado a febrero 18, 2026.
+
+\bibitem[KS76]{Kemeny_1976}
+John~G Kemeny and J~Laurie Snell.
+\newblock {\em Finite Markov chains}.
+\newblock Undergraduate Texts in Mathematics. Springer, New York, NY, 1
+  edition, July 1976.
 
 \bibitem[LDMGLS{\etalchar{+}}22]{Lopez-Diaz_2022}
 J.O.M. López-Díaz, J.~Méndez-González, P.M. López-Serrano, F.J.

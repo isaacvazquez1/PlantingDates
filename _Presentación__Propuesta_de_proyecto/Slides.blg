@@ -5,52 +5,52 @@ Reallocating 'name_of_file' (item size: 1) to 17 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: alpha.bst
 Database file #1: Bibliografia.bib
-I was expecting a `,' or a `}'---line 283 of file Bibliografia.bib
+I was expecting a `,' or a `}'---line 329 of file Bibliografia.bib
  :  
  :  note={Tesis de maestría}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty journal in ARIZMENDIPERALTA2024
 Warning--empty journal in alonso2022caracterizacion
-You've used 26 entries,
+You've used 28 entries,
             2543 wiz_defined-function locations,
-            755 strings with 10506 characters,
-and the built_in function-call counts, 11460 in all, are:
-= -- 1093
-> -- 713
+            771 strings with 10776 characters,
+and the built_in function-call counts, 12150 in all, are:
+= -- 1161
+> -- 751
 < -- 7
-+ -- 261
-- -- 259
-* -- 970
-:= -- 1991
-add.period$ -- 80
-call.type$ -- 26
-change.case$ -- 204
-chr.to.int$ -- 26
-cite$ -- 28
-duplicate$ -- 359
-empty$ -- 715
-format.name$ -- 282
-if$ -- 2223
++ -- 273
+- -- 271
+* -- 1017
+:= -- 2112
+add.period$ -- 87
+call.type$ -- 28
+change.case$ -- 216
+chr.to.int$ -- 28
+cite$ -- 30
+duplicate$ -- 389
+empty$ -- 765
+format.name$ -- 296
+if$ -- 2365
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 24
-newline$ -- 136
-num.names$ -- 78
-pop$ -- 150
+missing$ -- 28
+newline$ -- 146
+num.names$ -- 84
+pop$ -- 162
 preamble$ -- 1
-purify$ -- 230
+purify$ -- 244
 quote$ -- 0
-skip$ -- 301
+skip$ -- 325
 stack$ -- 0
-substring$ -- 591
-swap$ -- 24
+substring$ -- 605
+swap$ -- 26
 text.length$ -- 7
 text.prefix$ -- 4
 top$ -- 0
-type$ -- 208
+type$ -- 216
 warning$ -- 2
-while$ -- 96
-width$ -- 31
-write$ -- 339
+while$ -- 102
+width$ -- 33
+write$ -- 368
 (There was 1 error message)
