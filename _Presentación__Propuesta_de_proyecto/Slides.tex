@@ -558,6 +558,89 @@
 	\end{frame}
 }
 
+\begin{frame}
+	\frametitle{Calendarios agrícolas}
+	\vspace*{-1cm}\begin{columns}
+		\column{0.33\textwidth}
+		\centering{\bf Información local}
+		\column{0.33\textwidth}
+		\centering{\bf Modelos agrícolas}
+		
+		\column{0.33\textwidth}
+		\centering{\bf Observaciones de la Tierra}
+	\end{columns}
+\end{frame}	
+	
+\begin{frame}
+	\frametitle{Calendarios agrícolas}
+	\vspace*{-1cm}\begin{columns}
+		\column{0.33\textwidth}
+		\centering{\bf Información local}
+		\begin{itemize}
+			\item Reúne información de agencias, expertos y visitas a campo.
+			\item Baja resolución regional
+		\end{itemize}
+		{\tiny Fuente: }
+		\column{0.33\textwidth}
+		\centering{\bf Modelos agrícolas}
+
+		\column{0.33\textwidth}
+		\centering{\bf Observaciones de la Tierra}
+		
+	\end{columns}	
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Calendarios agrícolas}
+	\vspace*{-1cm}\begin{columns}
+		\column{0.33\textwidth}
+		\centering{\bf Información local}
+		\begin{itemize}
+			\item Reúne información de agencias, expertos y visitas a campo.
+			\item Baja resolución regional.
+		\end{itemize}
+		{\tiny Fuente: }
+		\column{0.33\textwidth}
+		\centering{\bf Modelos agrícolas}
+		\begin{itemize}
+			\item Relacionan las variables climáticas y el desarrollo fenológicas.
+			\item Susceptibles al sobreajuste, la sobresimplificación e incertidumbre.
+		\end{itemize}
+		{\tiny Fuente: }
+		\column{0.33\textwidth}
+		\centering{\bf Observaciones de la Tierra}
+	\end{columns}	
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Calendarios agrícolas}
+	\vspace*{-1cm}\begin{columns}
+		\column{0.33\textwidth}
+		\centering{\bf Información local}
+		\begin{itemize}
+			\item Reúne información de agencias, expertos y visitas a campo.
+			\item Baja resolución regional.
+		\end{itemize}
+		{\tiny Fuente: }
+		\column{0.33\textwidth}
+		\centering{\bf Modelos agrícolas}
+		\begin{itemize}
+			\item Relacionan las variables climáticas y el desarrollo fenológicas.
+			\item Susceptibles al sobreajuste, la sobresimplificación e incertidumbre.
+		\end{itemize}
+		{\tiny Fuente: }
+		\column{0.33\textwidth}
+		\centering{\bf Observaciones de la Tierra}
+		\begin{itemize}
+			\item Observaciones satelitales.
+			\item Desfases en las fechas reales.
+		\end{itemize}
+		{\tiny Fuente: .}
+	\end{columns}	
+	
+\end{frame}
 
 \begin{frame}{Datos agroclimáticos}
 	\vspace{-1cm}
@@ -581,10 +664,12 @@
 	\end{figure}
 	\begin{center}
 			\vspace{-0.5cm}
-			{\tiny Fuente: Roßberg \textit{et al.} (2007).}
+			{\tiny Total de 493 estaciones climáticas. Fuente: Roßberg \textit{et al.} (2007).}
 		\end{center}
 \end{columns}
 \end{frame}
+
+
 
 \begin{frame}{Probabilidades de transición}
 	\vspace{-0.7cm}
@@ -955,6 +1040,7 @@
 			Por realizar $r^*\in  \mathbb{N}$ caminatas aleatorias
 			$$\widehat{P_i}(\tau_F > n^*):=\frac{|W(D_{i}, D_{i+n^*})|}{r^*} \geq \zeta^*.$$
 		\end{block}
+		\pause Intervalos de $(1-\alpha)100\%$ de confianza por bootstrap y jackknife.
 	\end{columns}
 \end{frame}
 
@@ -1450,7 +1536,7 @@
 		\column{0.5\textwidth}
 		
 		\begin{block}{}
-			Se sugiere sembrar en el $i$-ésimo día del año si $$h_{i,n^*\bmod{365}} \geq \zeta^*.$$
+			Se sugiere sembrar en el $i$-ésimo día del año si $$h_{i,(i+n^*)\bmod{365}} \geq \zeta^*.$$
 		\end{block}
 		
 		\column{0.5\textwidth}
@@ -1866,6 +1952,21 @@
 	\end{center}
     \end{frame}
     
+
+
+\begin{frame}{Variedades del maíz}
+	\vspace{-0.7cm}
+	\begin{columns}
+		\column{0.5\textwidth}
+			\includegraphics[width =\textwidth]{Effects of maize varieties.png}
+		\column{0.5\textwidth}
+		\includegraphics[width =\textwidth ]{Maize sowing varieties.png}
+			Las condiciones climáticas determinan la variedad a emplear.
+			
+			{\scriptsize Fuente: FAO (s.f.).}
+	\end{columns}
+	{\tiny Fuente: Laidig \textit{et al.} (2025). Breeding progress of grain and forage maize in long‑term variety trials compared to on‑farm yield development.}	
+\end{frame}
     
  \begin{frame}{}
  	 \begin{block}{Métodos}
