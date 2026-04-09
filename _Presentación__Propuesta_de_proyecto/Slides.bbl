@@ -13,6 +13,12 @@ H.A.S. Agrama.
 \newblock Sequential path analysis of grain yield and its components in maize.
 \newblock {\em Plant Breeding}, 115(5):343--346, 1996.
 
+\bibitem[Ana16]{Anandhi_2016}
+A.~Anandhi.
+\newblock Growing degree days – ecosystem indicator for changing diurnal
+  temperatures and their impact on corn growth stages in kansas.
+\newblock {\em Ecological Indicators}, 61:149–158, February 2016.
+
 \bibitem[AP24]{ARIZMENDIPERALTA2024}
 P.P. Arizmendi~Peralta.
 \newblock {Estudio de técnicas de Machine Learning para estimar la producción
@@ -75,6 +81,20 @@ M.N. Elnesr, A.A. Alazba, and A.A. Alsadon.
   for vegetables.
 \newblock {\em Computers and Electronics in Agriculture}, 90:131--143, 2013.
 
+\bibitem[FCBR{\etalchar{+}}22]{Franch_2022}
+B.~Franch, J.~Cintas, I.~Becker-Reshef, M.J. Sanchez-Torres, J.~Roger,
+  S.~Skakun, J.A. Sobrino, K.~Van~Tricht, J.~Degerickx, S.~Gilliams, B.~Koetz,
+  Z.~Szantoi, and A.~Whitcraft.
+\newblock Global crop calendars of maize and wheat in the framework of the
+  worldcereal project.
+\newblock {\em GIScience \& Remote Sensing}, 59(1):885--913, 2022.
+
+\bibitem[FMZS25]{Makouate_2025}
+H.~Fotouo~Makouate and M.~Zude-Sasse.
+\newblock Advances in growing degree days models for flowering to harvest:
+  Optimizing crop management with methods of precision horticulture—a review.
+\newblock {\em Horticulturae}, 11(12), 2025.
+
 \bibitem[GS03]{Grinstead_2003}
 C.M. Grinstead and J.L. Snell.
 \newblock {\em Introduction to Probability}.
@@ -94,6 +114,18 @@ P.D. Jones, T.~Jonsson, and D.~Wheeler.
 \newblock {\em International Journal of Climatology}, 17(13):1433–1450,
   November 1997.
 \newblock Actualizado a febrero 18, 2026.
+
+\bibitem[KG13]{Koya_2013}
+P.R. Koya and A.T. Goshu.
+\newblock Generalized mathematical model for biological growths.
+\newblock {\em Open Journal of Modelling and Simulation}, 01(04):42–53, 2013.
+
+\bibitem[KKJ{\etalchar{+}}24]{Kim_2024}
+M.~Kim, J.~Kim, M.-H. Jo, K.~Sung, and K.-J. Han.
+\newblock Assessment of planting soil temperature and growing degree day
+  impacts on silage corn (zea mays l.) biomass.
+\newblock {\em Journal of Animal Science and Technology}, 66(5):949–961,
+  September 2024.
 
 \bibitem[KS76]{Kemeny_1976}
 John~G Kemeny and J~Laurie Snell.
@@ -134,6 +166,23 @@ P.S. Nobel.
   prediction using physiological responses to environmental parameters.
 \newblock {\em Oecologia}, 64(1):1--7, September 1984.
 
+\bibitem[OCDA{\etalchar{+}}07]{Olesen_2007}
+J.E. Olesen, T.R. Carter, C.H. Díaz-Ambrona, S.~Fronzek, T.~Heidmann,
+  T.~Hickler, T.~Holt, M.I. Minguez, P.~Morales, J.P. Palutikof, M.~Quemada,
+  M.~Ruiz-Ramos, G.H. Rub{\ae}k, F.~Sau, B.~Smith, and M.T. Sykes.
+\newblock Uncertainties in projected impacts of climate change on european
+  agriculture and terrestrial ecosystems based on scenarios from regional
+  climate models.
+\newblock {\em Climatic Change}, 81(S1):123–143, March 2007.
+
+\bibitem[PLUMR{\etalchar{+}}25]{PAREDES_2025}
+P.~Paredes, R.~López-Urrea, Á. Martínez-Romero, M.~Petry, M.R. Cameira,
+  F.~Montoya, M.~Salman, and L.S. Pereira.
+\newblock Estimating the lengths of crop growth stages to define the crop
+  coefficient curves using growing degree days (gdd): Application of the
+  revised fao56 guidelines.
+\newblock {\em Agricultural Water Management}, 319:109758, 2025.
+
 \bibitem[RMGN07]{Rossberg_2007}
 D.~Ro{\ss}berg, V.~Michel, R.~Graf, and R.~Neukampf.
 \newblock Definition von boden-klima-r{\"a}umen f{\"u}r die bundesrepublik
@@ -154,6 +203,13 @@ J.R. Stewart.
 \newblock Agave as a model cam crop system for a warming and drying world.
 \newblock {\em Frontiers in Plant Science}, 6, 2015.
 
+\bibitem[TC06]{Thompson_2006}
+R.~Thompson and R.M. Clark.
+\newblock Spatio-temporal modelling and assessment of within-species
+  phenological variability using thermal time methods.
+\newblock {\em International Journal of Biometeorology}, 50(5):312–322,
+  February 2006.
+
 \bibitem[VHP21]{Vuorinne_2021}
 I.~Vuorinne, J.~Heiskanen, and P.K.E. Pellikka.
 \newblock Assessing leaf biomass of agave sisalana using sentinel-2 vegetation
@@ -166,6 +222,12 @@ I.~Vuorinne, Heiskanen J., M.~Maghenda, L.~Mwangala, P.~Muukkonen, and P.K.E.
 \newblock Allometric models for estimating leaf biomass of sisal in a semi-arid
   environment in kenya.
 \newblock {\em Biomass and Bioenergy}, 155:106294, 2021.
+
+\bibitem[WBRJ15]{Whitcraft_2015}
+A.K. Whitcraft, I.~Becker-Reshef, and C.O. Justice.
+\newblock Agricultural growing season calendars derived from modis surface
+  reflectance.
+\newblock {\em International Journal of Digital Earth}, 8(3):173--197, 2015.
 
 \bibitem[WGW{\etalchar{+}}21]{Wang_2021}
 J.~Wang, Y.~Guan, L.~Wu, X.~Guan, W.~Cai, J.~Huang, W.~Dong, and B.~Zhang.

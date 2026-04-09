@@ -12,8 +12,9 @@ Por convención, definamos
 		D_{366}\coloneqq& D_{1},\\
 		D_{367}\coloneqq& D_{2},\\
 		\nonumber\vdots& \\
-		D_{j}\coloneqq& D_{j\bmod{365}}.
-	\end{align}
+		D_{j}\coloneqq& D_{j\bmod{365}},
+	\end{align}para toda $j\in \N$ tal que $j>365$.\\
+	
 Con lo anterior, es posible dotar de una estructura cíclica a la progresión del año dado que al finalizar un año inmediatamente comienza el siguiente de manera que la observación del proceso de siembra puede observarse de manera continua en todo punto del año.\\
 
 Sea $n^*\in \N$ el número de días necesarios para que una semilla viable de maíz logre la emergencia desde su siembra. Como se busca determinar los periodos en donde las condiciones agroambientales favorezcan un sano desarrollo de la semilla, reduciendo la exposición al estrés del entorno entonces se desea hallar al conjunto de días $D_i$ tales que una semilla sembrada en dicha fecha emerja al día $D_{i+n^*}$ con una probabilidad \textit{suficientemente grande}.\\

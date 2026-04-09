@@ -78,7 +78,7 @@
 %-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 \title[]{\Large\centering
-\color{airforceblue}Modelo predictivo de la producción del agave en Aguascalientes: desde la siembra hasta la cosecha}
+\color{airforceblue} Modelación probabilística de periodos óptimos de siembra del maíz en condiciones de cambio climático. Caso de estudio en Alemania.}
 %\\
 
 
@@ -580,7 +580,7 @@
 			\item Reúne información de agencias, expertos y visitas a campo.
 			\item Baja resolución regional
 		\end{itemize}
-		{\tiny Fuente: }
+		{\tiny Fuente: Whitcraft \textit{et al.} (2015); Franch \textit{et al.} (2022).}
 		\column{0.33\textwidth}
 		\centering{\bf Modelos agrícolas}
 
@@ -600,14 +600,14 @@
 			\item Reúne información de agencias, expertos y visitas a campo.
 			\item Baja resolución regional.
 		\end{itemize}
-		{\tiny Fuente: }
+		{\tiny Fuente: Whitcraft \textit{et al.} (2015); Franch \textit{et al.} (2022).}
 		\column{0.33\textwidth}
 		\centering{\bf Modelos agrícolas}
 		\begin{itemize}
 			\item Relacionan las variables climáticas y el desarrollo fenológicas.
 			\item Susceptibles al sobreajuste, la sobresimplificación e incertidumbre.
 		\end{itemize}
-		{\tiny Fuente: }
+		{\tiny Fuente: Olesen \textit{et al.} (2007); Franch \textit{et al.} (2022).}
 		\column{0.33\textwidth}
 		\centering{\bf Observaciones de la Tierra}
 	\end{columns}	
@@ -623,24 +623,146 @@
 			\item Reúne información de agencias, expertos y visitas a campo.
 			\item Baja resolución regional.
 		\end{itemize}
-		{\tiny Fuente: }
+		{\tiny Fuente: Whitcraft \textit{et al.} (2015); Franch \textit{et al.} (2022).}
 		\column{0.33\textwidth}
 		\centering{\bf Modelos agrícolas}
 		\begin{itemize}
 			\item Relacionan las variables climáticas y el desarrollo fenológicas.
 			\item Susceptibles al sobreajuste, la sobresimplificación e incertidumbre.
 		\end{itemize}
-		{\tiny Fuente: }
+		{\tiny Fuente: Olesen \textit{et al.} (2007); Franch \textit{et al.} (2022).}
 		\column{0.33\textwidth}
 		\centering{\bf Observaciones de la Tierra}
 		\begin{itemize}
 			\item Observaciones satelitales.
 			\item Desfases en las fechas reales.
 		\end{itemize}
-		{\tiny Fuente: .}
+		{\tiny Fuente: Kim \textit{et al.} (2024); Franch \textit{et al.} (2022).}
 	\end{columns}	
-	
 \end{frame}
+
+
+\begin{frame}{Calendarios agrícolas basados en modelos}
+	\begin{columns}
+		\vspace*{-1cm}\column{0.5\textwidth}
+		Grados día de crecimiento (GDD, por sus siglas en inglés).
+		\[GDD_i= \frac{T^*_{min,i} + T^*_{max,i}}{2} - T_{low},\]
+		donde \[T^*_{\cdot, i}= \begin{cases}
+			T_{\cdot, i},& \text{ si } T_{low} <T_{\cdot, i}< T_{high}.\\
+			T_{low},& \text{ si } T_{\cdot, i} \leq T_{low}.\\
+			T_{high},& \text{ si } T_{\cdot, i} \geq T_{high}.
+		\end{cases}\]
+		
+		\column{0.5\textwidth}
+		\begin{block}{}
+			\begin{itemize}
+				\item Propuestos en 1730 por René-Antoine Ferchault de Réaumur.
+				\item Referente metodológico estándar en el área.
+				\item Adoptados oficialmente por la FAO en 2025.
+				\item Se basa únicamente en la temperatura.
+			\end{itemize}
+			{\tiny Fuente: Anandhi A. (2016); Paredes \textit{et al.} (2025).}
+		\end{block}
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}{Calendarios agrícolas basados en modelos}
+	\vspace*{-1cm}\begin{columns}
+		\column{0.5\textwidth}
+		\begin{block}{Modelos basados en GDD}
+			\begin{itemize}
+				\item Predecir secuencias fenológicas completas.
+				\item Caracterizar etapas fenológicas específicas.
+				\item Estudiar las diferencias en los
+				eventos fenológicos entre variedades.
+				\item Evaluar cambios en
+				la dinámica fenológica ante estresores.
+				\item Determinar zonas con potencial productivo.
+			\end{itemize}
+		\end{block}
+		\column{0.5\textwidth}
+		\pause\begin{block}{}
+			\begin{itemize}
+				\item Se han propuesto formulaciones alternas, resultando en ambigüedades para su interpretación.
+				\item La incorporación de más variables es aún escasa.
+				\item Tiende a sobresimplificar el contexto.
+			\end{itemize}
+			{\tiny Fuente: Thompson \textit{et al.} (2006); Koya \textit{et al.} (2013); Fotouo Makouate \textit{et al.} (2025).}
+		\end{block}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Calendarios agrícolas basados en modelos}
+	\vspace*{-1cm}\begin{columns}
+	\column{0.5\textwidth}
+		\begin{block}{Modelos estocásticos}
+			\begin{itemize}
+				\item Predecir secuencias fenológicas completas.
+				\item Caracterizar etapas fenológicas específicas.
+				\item Estudiar las diferencias en los
+				eventos fenológicos entre variedades.
+				\item Evaluar cambios en
+				la dinámica fenológica ante estresores.
+				\item Determinar zonas con potencial productivo.
+				\pause \item Calibrar parámetros
+			\end{itemize}
+		\end{block}
+		\column{0.5\textwidth}
+		\pause
+		\begin{block}{}
+			\begin{itemize}
+				\item Incorporan la incertidumbre.
+				\item Los trabajos desarrollados aún son escasos.
+				\item Principalmente, las técnicas estocásticas se emplean para la calibración de parámetros.
+			\end{itemize}
+			{\tiny Fuente: Paredes \textit{et al.} (2025).}
+		\end{block}
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}{Calendarios agrícolas basados en modelos}
+	\begin{center}
+	\centering
+	\begin{tikzpicture}
+		% Stage 1: Straight Line
+		\draw<1>[blue, very thick] (-2,0) -- (2,0);
+		\node<1> at (0,0.8) {Estructura lineal.};
+		% Stage 2: Slight Bend using Bézier control points
+		\draw<2>[blue, very thick] (-2,0) .. controls (-1,1) and (1,1) .. (2,0);
+		% Stage 3: Full Circle
+		\draw<3>[blue, very thick] (0,0) circle (1.5);
+		\node<3> at (0,2) {Estructura cíclica.};
+	\end{tikzpicture}
+	
+	\pause \phantom{.}\\
+	
+	\pause
+	Los trabajos de Cintas \textit{et al.} (2021) y de Franch \textit{et al.} (2022), basados en la metodología de Cremers \textit{et al.} (2018).
+	\end{center}
+\end{frame}
+
+
+\begin{frame}{Calendarios agrícolas basados en modelos}
+	\begin{columns}
+		\column{0.5\textwidth}
+		\begin{center}
+		\begin{tikzpicture}
+			\draw<1>[blue, very thick] (0,0) circle (1.5);
+			\node<1> at (0,2) {Estructura cíclica.};
+		\end{tikzpicture}
+		\end{center}
+		\column{0.5\textwidth}
+		La dirección $\theta$ del día del año
+		\[\theta= \arctan\left(\frac{f(X_{G_{\sin(\theta)}}, X_{C_{\sin(\theta)}})}{g(X_{G_{\cos(\theta)}}, X_{C_{\cos(\theta)}})}\right),\]
+		donde $X_G$ denota las variables geográficas mientras que  $X_C$ denota las variables climáticas. Además, las funciones $f$ y $g$ se obtienen a través del algoritmo Random Forest. 
+	\end{columns}
+	\begin{center}
+		Los trabajos de Cintas \textit{et al.} (2021) y de Franch \textit{et al.} (2022), basados en la metodología de Cremers \textit{et al.} (2018).
+	\end{center}
+\end{frame}
+
 
 \begin{frame}{Datos agroclimáticos}
 	\vspace{-1cm}
@@ -1678,28 +1800,25 @@
 \centering \pause El aprovechamiento del agave se encuentra en consolidación.
 \end{frame}
 
-\section{Considerando información agroclimática, ¿puede predecirse la evolución del proceso productivo del agave aludiendo a herramientas provenientes de la ciencia de datos?}
+\section{Bajo la hipótesis de que el cambio climático ha alterado los procesos agrícolas, ¿cómo estimar ventanas óptimas de siembra de maíz en Alemania mediante modelos probabilísticos empleando datos agroclimáticos más allá de los GDD?}
 
 
 \begin{frame}{Objetivos generales}
-	\vspace{-1.5cm}Proponer y validar modelos predictivos que permitan: 
-	
-	\begin{minipage}{0.5\textwidth}
-		\pause\begin{block}{Trasplante}
-			Determinar periodos ideales.\\ 
-			\pause Maximicen tasa de supervivencia.\\
-			Reduzcan pérdidas económicas.
+	\vspace{-1.5cm}Desarrollar y validar un modelo probabilístico robusto, independiente de los GDD, que integre variables agroclimáticas significativas para estimar ventanas óptimas de fechas de siembra de maíz en Alemania
+	\begin{minipage}{0.33\textwidth}
+		\pause\begin{block}{Favorecer los ciclos de desarrollo}
 		\end{block}
 	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}\pause\begin{block}{Biomasa\phantom{p}}
-			Estimar la producción a escala regional.\\
-			\pause Coexistencia de plantas con distintas edades.\phantom{p}
-		\end{block}%
+	\begin{minipage}{0.33\textwidth}
+		\pause\begin{block}{Disminuir la exposición a estresores ambientales}
+		\end{block}
+	\end{minipage}%
+	\begin{minipage}{0.33\textwidth}\pause\begin{block}{Contribuir a la toma de decisiones}
+	\end{block}
 	\end{minipage}
-	
 	\,\\
 	\pause
-	Lo anterior, empleando información agroclimática relevante para el agave de Aguascalientes, un cultivo que, por su manejo agrícola, puede considerarse simultáneamente anual y perenne.
+	Contrastándolo con información oficial reportada para Alemania, un país con potencial agrícola en crecimiento debido a que se enfrenta a contexto de transición climática derivado del cambio climático. 
 \end{frame}
 
 \begin{frame}{Estado del arte}
