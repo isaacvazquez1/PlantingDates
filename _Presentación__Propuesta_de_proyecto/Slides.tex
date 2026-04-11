@@ -22,7 +22,15 @@
 \usetikzlibrary{backgrounds, automata, positioning, arrows.meta, calc}
 
 \usepackage{nicematrix}
+\usepackage{multirow}
+\definecolor{veg}{RGB}{255,230,120}
+\definecolor{plant}{RGB}{170,220,170}
+\definecolor{rip}{RGB}{255,180,180}
 
+\newcommand{\p}{\cellcolor{plant}1}
+\newcommand{\des}{\cellcolor{veg}2}
+\newcommand{\cose}{\cellcolor{rip}3}
+\usepackage{longtable}
 %\spanishdecimal{.}
 \renewcommand{\event}[3][e]{%
   \pgfmathsetlength\xstop{(#2-\theyearstart)*\unit}%
@@ -144,13 +152,24 @@
 		\vspace{-1cm}\begin{itemize}
 			\color{airforceblue}
 			\item Motivación del problema.
-			\item Panorama de la industria agrícola.
-			\item Impacto del cambio climático en la agricultura.
-			\item El agave y Aguascalientes.
+			\item Introducción
+			\begin{itemize}
+				\item Impacto del cambio climático en la agricultura.
+				\item El maíz y Alemania.
+			\end{itemize}
+			\item Estado del arte.
+			\begin{itemize}
+				\item Calendarios agrícolas.
+				\item Modelos agrícolas.
+			\end{itemize}
 			\item Pregunta de investigación.
 			\item Objetivos.
-			\item Estado del arte.
-			\item Factibilidad.
+			\item Metodología.
+			\begin{itemize}
+				\item Datos agroclimáticos.
+				\item Modelo.
+			\end{itemize}
+			\item Exploración de la hipótesis.
 			\item Referencias.
 		\end{itemize}
 	\end{frame}
@@ -173,25 +192,7 @@
 \end{frame}
 
 
-\begin{frame}{Motivación del problema}
-\begin{block}{\centering Proceso de decisión}
-	\begin{minipage}{0.5\textwidth}
-		\pause\begin{itemize}
-			\item Conocimiento ancentral.
-			\item Sistematización y mecanización.
-			\item Estudios científicos.
-			\item Interacciones multidisciplinarias.
-		\end{itemize}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-			 \phantom{text}
-			\phantom{text}
-			\phantom{text}
-			\phantom{text}
-	\end{minipage}
-\end{block}
-\centering\includegraphics[width=0.4\textwidth]{images/Agro.png}
-\end{frame}
+
 
 \begin{frame}{Motivación del problema}
 	\begin{block}{\centering Proceso de decisión}
@@ -216,110 +217,6 @@
 \end{frame}
 
 
-\begin{frame}{Motivación del problemas}
-	\begin{block}{\centering Trabajos previos}
-		\begin{minipage}{0.5\textwidth}
-			Cultivos anuales
-			\begin{itemize}
-				\item Hortalizas.
-			\end{itemize}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-			Cultivos perennes
-			\begin{itemize}
-				\item Árboles frutales.
-			\end{itemize}
-		\end{minipage}
-	\end{block}
-	\pause
-	\centering\begin{minipage}{0.75\textwidth}
-		\begin{block}{\bf Agave}
-			\pause\,\,\,Anual\,\, --- Reproducción, trasplantación y {\bf producción}.\\
-			\phantom{Perenne --- Inversión económica, rentabilidad y {\bf producción}.} 
-		\end{block}
-	\end{minipage}
-
-	\,\\
-	
-	\phantom{\centering \Large  Simultáneamente, anual y perenne.}\\
-	\begin{minipage}{0.5\textwidth}
-	\vspace{-1.5cm}\raggedright\includegraphics[scale=0.18]{Agave.png}\hfill
-\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-	\phantom{\vspace{-1cm}\raggedleft\includegraphics[scale=0.25]{AgavePina.png}}
-\end{minipage}
-\end{frame}
-
-
-
-
-\begin{frame}{Motivación del problema}
-	\begin{block}{\centering Trabajos previos}
-		\begin{minipage}{0.5\textwidth}
-			Cultivos anuales
-			\begin{itemize}
-				\item Hortalizas.
-			\end{itemize}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-			Cultivos perennes
-			\begin{itemize}
-				\item Árboles frutales.
-			\end{itemize}
-		\end{minipage}
-	\end{block}
-	\centering\begin{minipage}{0.75\textwidth}
-	\begin{block}{\bf Agave}
-		\,\,\,Anual\,\, --- Reproducción, trasplantación y {\bf producción}.\\
-		 Perenne --- Inversión económica, rentabilidad y {\bf producción}. 
-	\end{block}
-\end{minipage}
-
-\,\\
-
-\phantom{\centering \Large  Simultáneamente, anual y perenne.}\\
-
-\begin{minipage}{0.5\textwidth}
-	\vspace{-1.5cm}\raggedright\includegraphics[scale=0.18]{Agave.png}\hfill
-\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-	\vspace{-1cm}\raggedleft\includegraphics[scale=0.25]{AgavePina.png}
-\end{minipage}%
-\end{frame}
-
-\begin{frame}{Motivación del problema}
-	\begin{block}{\centering Trabajos previos}
-		\begin{minipage}{0.5\textwidth}
-			Cultivos anuales
-			\begin{itemize}
-				\item Hortalizas.
-			\end{itemize}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-			Cultivos perennes
-			\begin{itemize}
-				\item Árboles frutales.
-			\end{itemize}
-		\end{minipage}
-	\end{block}
-	\centering\begin{minipage}{0.75\textwidth}
-		\begin{block}{\bf Agave}
-			\,\,\,Anual\,\, --- Reproducción, trasplantación y {\bf producción}.\\
-			Perenne --- Inversión económica, rentabilidad y {\bf producción}. 
-		\end{block}
-	\end{minipage}
-	
-	\,\\
-	
-	\centering \Large  Simultáneamente, anual y perenne.\\
-	
-	\begin{minipage}{0.5\textwidth}
-		\vspace{-1.5cm}\raggedright\includegraphics[scale=0.18]{Agave.png}\hfill
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\vspace{-1cm}\raggedleft\includegraphics[scale=0.25]{AgavePina.png}
-	\end{minipage}%
-\end{frame}
 
 \begin{frame}{Industria agrícola}
 	\vspace{-1cm}
@@ -340,7 +237,6 @@
 			\begin{itemize}
 				\item Problemas de seguridad alimentaria.
 				\item Desequilibrio en la cadena trófica.
-				\pause
 				\item Desabasto en industrias dependientes.
 				\item Problemas económicos.
 				\item Conflictos sociales.
@@ -350,7 +246,7 @@
 	\pause
 	\centering
 	\,\\ \Large
-	La agricultura es fundamental para un desarrollo integral.
+	En gran parte, las alteraciones pueden atribuirse al cambio climático.
 \end{frame}
 
 
@@ -416,147 +312,49 @@
 \end{frame}
 
 
-{
-	\setbeamertemplate{background canvas}{
-		\begin{tikzpicture}[remember picture,overlay]
-			
-			% --- IZQUIERDA: verde -> blanco
-			\path[shade,
-			left color=blue!50,
-			right color=white,
-			opacity=0.3
-			]
-			(current page.south west)
-			rectangle ([xshift=0.333\paperwidth]current page.north west);
-			
-			% --- CENTRO: blanco (opcional, puedes omitirlo o suavizar más)
-			\path[shade,
-			left color=white,
-			right color=white,
-			opacity=0.3
-			]
-			([xshift=0.333\paperwidth]current page.south west)
-			rectangle ([xshift=0.666\paperwidth]current page.north west);
-			
-			% --- DERECHA: blanco -> otoñal
-			\path[shade,
-			left color=white,
-			right color=orange!80!brown,
-			opacity=0.3
-			]
-			([xshift=0.666\paperwidth]current page.south west)
-			rectangle (current page.north east);
-			
-		\end{tikzpicture}
-	}
-	
-		\begin{frame}
-		\frametitle{Movilización en fechas de siembra}
-		\vspace*{-1cm}\begin{columns}
-			\column{0.33\textwidth}
-				\centering{\bf Adelantar}
-			\column{0.33\textwidth}
-				\centering{\bf Mantener}
-			\column{0.33\textwidth}
-				\centering{\bf Retrasar}
-		\end{columns}
-		
-	\end{frame}
-	
-	\begin{frame}
-		\frametitle{Movilización en fechas de siembra}
-		\vspace*{-1cm}\begin{columns}
-			\column{0.33\textwidth}
-			\centering{\bf Adelantar}
+
+\begin{frame}{Maíz}
+	\vspace{-1cm}
+		\begin{minipage}{0.5\textwidth}
+			\vspace{-0.1cm}\begin{block}{}
+				Usos
 			\begin{itemize}
-				\item Reduce el estrés asociado a temporadas más cálidas.
-				\item Incrementa la cosecha.
+				\item Abastecimiento alimenticio
+				\item Medicamentos
+				\item Biocombustibles
+				\item Bebidas, jarabes, harinas y aceites
 			\end{itemize}
+			Relevancia global
+			\begin{itemize}
+				\item Aporte calórico, proteico y graso
+				\item Producción supera 1100 millones de toneladas/año
+				\item Distribución geográfica asimétrica
+			\end{itemize}
+			\end{block}
+		\end{minipage}%
+		\begin{minipage}{0.5\textwidth}
+			\centering\includegraphics[height=0.8\textheight]{Maiz.png}
+		\end{minipage}
+
+		
+\end{frame}
+
+\begin{frame}{Maíz en Alemania}
+	\vspace{-1cm}
+	\begin{minipage}{0.5\textwidth}
+		\centering\includegraphics[height=0.8\textheight]{MaizGermany.png}
+	\end{minipage}%
+	\begin{minipage}{0.5\textwidth}
+		\vspace{-0.1cm}\begin{block}{}
+			Europa cuenta con el 8.91\% de las zonas de producción.\\
 			\pause
-			\begin{itemize}
-				\item Retrasa la etapa de emergencia.
-				\item Reduce la densidad poblacional del cultivo.
-			\end{itemize}
-			\column{0.33\textwidth}
-			\centering{\bf Mantener}
-			
-			\column{0.33\textwidth}
-			\centering{\bf Retrasar}
-		\end{columns}
-		
-	\end{frame}
-	
-	\begin{frame}
-		\frametitle{Movilización en fechas de siembra}
-		\vspace*{-1cm}\begin{columns}
-			\column{0.33\textwidth}
-			\centering{\bf Adelantar}
-			\begin{itemize}
-				\item Reduce el estrés asociado a temporadas más cálidas.
-				\item Incrementa la cosecha.
-			\end{itemize}
-			\begin{itemize}
-				\item Retrasa la etapa de emergencia.
-				\item Reduce la densidad poblacional del cultivo.
-			\end{itemize}
-			{\tiny Fuente: Clark, \textit{et al.} (2026); Maresma \textit{et al.} (2019); Mason \textit{et al.} (2018)}
-			\column{0.33\textwidth}
-			\centering{\bf Mantener}
-			
-			\column{0.33\textwidth}
-			\centering{\bf Retrasar}
-			\begin{itemize}
-				\item Ofrece condiciones más cálidas.
-				\item Acelera la maduración.
-				\item Aumenta la humedad de los granos.
-				\item Incrementa la altura de las plantas.
-			\end{itemize}
-			\pause
-			\begin{itemize}
-				\item Reduce la producción del cultivo.
-			\end{itemize}
-			{\tiny Fuente: Clark \textit{et al.} (2026); Maresma \textit{et al.} (2019); Donohue \textit{et al.} (2015).}
-		\end{columns}
-		
-	\end{frame}
-	
-	\begin{frame}
-		\frametitle{Movilización en fechas de siembra}
-		\vspace*{-1cm}\begin{columns}
-			\column{0.33\textwidth}
-			\centering{\bf Adelantar}
-			\begin{itemize}
-				\item Reduce el estrés asociado a temporadas más cálidas.
-				\item Incrementa la cosecha.
-			\end{itemize}
-			\begin{itemize}
-				\item Retrasa la etapa de emergencia.
-				\item Reduce la densidad poblacional del cultivo.
-			\end{itemize}
-			{\tiny Fuente: Clark, \textit{et al.} (2026); Maresma \textit{et al.} (2019); Mason \textit{et al.} (2018)}
-			\column{0.33\textwidth}
-			\centering{\bf Mantener}
-				\begin{itemize}
-					\item Recurrir a variedades resilientes.
-					\item Emplear métodos externos.
-				\end{itemize}
-				{\tiny Fuente: Agrama, H. (1996);  Mason \textit{et al.} (2018); Wang \textit{et al.} (2025). }
-			\column{0.33\textwidth}
-			\centering{\bf Retrasar}
-			\begin{itemize}
-				\item Ofrece condiciones más cálidas.
-				\item Acelera la maduración.
-				\item Aumenta la humedad de los granos.
-				\item Incrementa la altura de las plantas.
-			\end{itemize}
-			\begin{itemize}
-				\item Reduce la producción del cultivo.
-			\end{itemize}
-			{\tiny Fuente: Clark \textit{et al.} (2026); Maresma \textit{et al.} (2019); Donohue \textit{et al.} (2015).}
-		\end{columns}
-		
-	\end{frame}
-}
+			Alemania tendrá un incremento en
+			las zonas con potencial de producción agrícola del maíz.
+		\end{block}
+		{\scriptsize Fuente: Miedaner \textit{et al.} (2021).}
+	\end{minipage}%
+\end{frame}
+
 
 \begin{frame}
 	\frametitle{Calendarios agrícolas}
@@ -764,31 +562,55 @@
 \end{frame}
 
 
+
+\section{Bajo la hipótesis de que el cambio climático ha alterado los procesos agrícolas, ¿cómo estimar ventanas óptimas de siembra de maíz en Alemania mediante modelos probabilísticos empleando datos agroclimáticos más allá de los GDD?}
+
+
+\begin{frame}{Objetivos generales}
+	\vspace{-1.5cm}Desarrollar y validar un modelo probabilístico robusto, independiente de los GDD, que integre variables agroclimáticas significativas para estimar ventanas óptimas de fechas de siembra de maíz en Alemania
+	\begin{minipage}{0.33\textwidth}
+		\pause\begin{block}{Favorecer los ciclos de desarrollo}
+		\end{block}
+	\end{minipage}%
+	\begin{minipage}{0.33\textwidth}
+		\pause\begin{block}{Disminuir la exposición a estresores ambientales}
+		\end{block}
+	\end{minipage}%
+	\begin{minipage}{0.33\textwidth}\pause\begin{block}{Contribuir a la toma de decisiones}
+	\end{block}
+	\end{minipage}
+	\,\\
+	\pause
+	Contrastándolo con información oficial reportada para Alemania, un país con potencial agrícola en crecimiento debido a que se enfrenta a contexto de transición climática derivado del cambio climático. 
+\end{frame}
+
+
+
 \begin{frame}{Datos agroclimáticos}
 	\vspace{-1cm}
 	\begin{columns}
-	\column{0.40\textwidth}
-	\begin{itemize}
-		\item Temperatura ambiente promedio, máxima y mínima.
-		\item Temperatura a 5 cm del suelo.
-		\item Temperatura del suelo.
-		\item Precipitación.
-		\item Humedad relativa.
-		\item Duración del fotoperiodo.
-		\item Índice de Oscilación del
-		Atlántico Norte.
-	\end{itemize}
-	{\tiny Fuente: Deutscher Wetterdienst (2026); Climatic Research Unit (1997).}
-	\column{0.60\textwidth}
-	\begin{figure}[ht]
-		\centering
-		\includegraphics[height=0.8\textheight]{[Interseccion] Both_cropped.pdf}
-	\end{figure}
-	\begin{center}
+		\column{0.40\textwidth}
+		\begin{itemize}
+			\item Temperatura ambiente promedio, máxima y mínima.
+			\item Temperatura a 5 cm del suelo.
+			\item Temperatura del suelo.
+			\item Precipitación.
+			\item Humedad relativa.
+			\item Duración del fotoperiodo.
+			\item Índice de Oscilación del
+			Atlántico Norte.
+		\end{itemize}
+		{\tiny Fuente: Deutscher Wetterdienst (2026); Climatic Research Unit (1997).}
+		\column{0.60\textwidth}
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[height=0.8\textheight]{[Interseccion] Both_cropped.pdf}
+		\end{figure}
+		\begin{center}
 			\vspace{-0.5cm}
 			{\tiny Total de 493 estaciones climáticas. Fuente: Roßberg \textit{et al.} (2007).}
 		\end{center}
-\end{columns}
+	\end{columns}
 \end{frame}
 
 
@@ -934,8 +756,8 @@
 \end{frame}
 
 \begin{frame}{Modelo}
-	 \vspace{-0.7cm}
-	 \begin{figure}[ht]
+	\vspace{-0.7cm}
+	\begin{figure}[ht]
 		\centering
 		%\shorthandoff{<>}
 		\resizebox{0.6\textwidth}{!}{
@@ -1008,81 +830,81 @@
 	\vspace{-0.7cm}
 	\begin{columns}
 		\column{0.5\textwidth}
-	\begin{figure}[ht]
-		\centering
-		%\shorthandoff{<>}
-		\resizebox{\textwidth}{!}{
-			\begin{tikzpicture}[
-				>=Stealth,
-				state/.style={draw, circle, minimum size=14mm, line width=0.8pt},
-				invisible/.style={circle, minimum size=14mm, draw=none},
-				arrow/.style={->, line width=0.8pt}
-				]
-				
-				% Centro
-				\node[state] (F) at (0,0) {$F$};
-				
-				% Hexágono
-				\node[state] (D1)   at (180:3.2cm) {$D_{1}$};
-				\node[state] (D2)   at (240:3.2cm) {$D_{2}$};
-				\node[invisible] (dots1) at (300:3.2cm) {};
-				\node[state] (Di)   at (0:3.2cm) {$D_{i}$};
-				\node[invisible] (dots2) at (60:3.2cm) {};
-				\node[state] (D365) at (120:3.2cm) {$D_{365}$};
-				
-				% Ciclo
-				\path[arrow]
-				(D1) edge[bend right=15] 
-				node[pos=0.3, sloped, below] {$\lambda_{1}$} (D2)
-				
-				(D2) edge[bend right=15] 
-				node[pos=0.5, sloped, below] {$\lambda_{2}$} (dots1)
-				
-				(dots1) edge[bend right=15]
-				node[pos=0.5, sloped, below] {$\lambda_{i-1}$} (Di)
-				
-				(Di) edge[bend right=15] 
-				node[pos=0.4, sloped, above] {$\lambda_{i}$} (dots2)
-				
-				(dots2) edge[bend right=15] (D365)
-				
-				(D365) edge[bend right=15] 
-				node[pos=0.5, sloped, above] {$\lambda_{365}$} (D1);
-				
-				% Hacia F
-				\path[arrow]
-				(D1) edge node[pos=0.55,above] {$1-\lambda_{1}$} (F)
-				(D2) edge node[pos=0.55, sloped, above] {$1-\lambda_{2}$} (F)
-				(Di) edge node[pos=0.55, above] {$1-\lambda_{i}$} (F)
-				(D365) edge node[pos=0.55, sloped, above] {$1-\lambda_{365}$} (F);
-				
-				% Loop
-				\path[arrow]
-				(F) edge[
-				loop,
-				out=320, 
-				in=300,
-				looseness=8
-				] node[pos=0.8, xshift=10pt, yshift=-10pt] {$1$} (F);
-				
-				% Puntos suspensivos
-				\node[font=\large, rotate=35] at (300:3.1cm) {$\cdots$};
-				\node[font=\large, rotate=-30] at (60:3.1cm) {$\cdots$};
-				
-			\end{tikzpicture}
-		}
-		%\shorthandon{<>}
-	\end{figure}
-	\column{0.5\textwidth}
-	Calcular
-	$$P_i(\tau_F > n^*):=P(\tau_F > n^*\mid X_0=D_i),$$ con $\displaystyle\{\tau_F > n^*\}= \inf_{t\in \mathbb{N}} \{X_t= F\}.$\\
-	
-	\pause
-	\begin{block}{}
-		Por realizar $r^*\in  \mathbb{N}$ caminatas aleatorias
-		$$\widehat{P_i}(\tau_F > n^*):=\frac{|W(D_{i}, D_{i+n^*})|}{r^*} \phantom{\geq \zeta^*.}$$
-	\end{block}
-\end{columns}
+		\begin{figure}[ht]
+			\centering
+			%\shorthandoff{<>}
+			\resizebox{\textwidth}{!}{
+				\begin{tikzpicture}[
+					>=Stealth,
+					state/.style={draw, circle, minimum size=14mm, line width=0.8pt},
+					invisible/.style={circle, minimum size=14mm, draw=none},
+					arrow/.style={->, line width=0.8pt}
+					]
+					
+					% Centro
+					\node[state] (F) at (0,0) {$F$};
+					
+					% Hexágono
+					\node[state] (D1)   at (180:3.2cm) {$D_{1}$};
+					\node[state] (D2)   at (240:3.2cm) {$D_{2}$};
+					\node[invisible] (dots1) at (300:3.2cm) {};
+					\node[state] (Di)   at (0:3.2cm) {$D_{i}$};
+					\node[invisible] (dots2) at (60:3.2cm) {};
+					\node[state] (D365) at (120:3.2cm) {$D_{365}$};
+					
+					% Ciclo
+					\path[arrow]
+					(D1) edge[bend right=15] 
+					node[pos=0.3, sloped, below] {$\lambda_{1}$} (D2)
+					
+					(D2) edge[bend right=15] 
+					node[pos=0.5, sloped, below] {$\lambda_{2}$} (dots1)
+					
+					(dots1) edge[bend right=15]
+					node[pos=0.5, sloped, below] {$\lambda_{i-1}$} (Di)
+					
+					(Di) edge[bend right=15] 
+					node[pos=0.4, sloped, above] {$\lambda_{i}$} (dots2)
+					
+					(dots2) edge[bend right=15] (D365)
+					
+					(D365) edge[bend right=15] 
+					node[pos=0.5, sloped, above] {$\lambda_{365}$} (D1);
+					
+					% Hacia F
+					\path[arrow]
+					(D1) edge node[pos=0.55,above] {$1-\lambda_{1}$} (F)
+					(D2) edge node[pos=0.55, sloped, above] {$1-\lambda_{2}$} (F)
+					(Di) edge node[pos=0.55, above] {$1-\lambda_{i}$} (F)
+					(D365) edge node[pos=0.55, sloped, above] {$1-\lambda_{365}$} (F);
+					
+					% Loop
+					\path[arrow]
+					(F) edge[
+					loop,
+					out=320, 
+					in=300,
+					looseness=8
+					] node[pos=0.8, xshift=10pt, yshift=-10pt] {$1$} (F);
+					
+					% Puntos suspensivos
+					\node[font=\large, rotate=35] at (300:3.1cm) {$\cdots$};
+					\node[font=\large, rotate=-30] at (60:3.1cm) {$\cdots$};
+					
+				\end{tikzpicture}
+			}
+			%\shorthandon{<>}
+		\end{figure}
+		\column{0.5\textwidth}
+		Calcular
+		$$P_i(\tau_F > n^*):=P(\tau_F > n^*\mid X_0=D_i),$$ con $\displaystyle\{\tau_F > n^*\}= \inf_{t\in \mathbb{N}} \{X_t= F\}.$\\
+		
+		\pause
+		\begin{block}{}
+			Por realizar $r^*\in  \mathbb{N}$ caminatas aleatorias
+			$$\widehat{P_i}(\tau_F > n^*):=\frac{|W(D_{i}, D_{i+n^*})|}{r^*} \phantom{\geq \zeta^*.}$$
+		\end{block}
+	\end{columns}
 \end{frame}
 
 
@@ -1258,8 +1080,8 @@
 		\column{0.5\textwidth}
 		Calcular
 		$$P_i(\tau_F > n^*):=P(\tau_F > n^*\mid X_0=D_i),$$ con $\displaystyle\{\tau_F > n^*\}= \inf_{t\in \mathbb{N}} \{X_t= F\}.$\\
-			\begin{block}{Suponiendo que $X$ es una cadena de Markov}
-				$$P_i(\tau_F > n^*)=\prod_{t=0}^{n^*-1} \lambda_{(i+t)\bmod{365}} \phantom{\geq \zeta^*.}$$
+		\begin{block}{Suponiendo que $X$ es una cadena de Markov}
+			$$P_i(\tau_F > n^*)=\prod_{t=0}^{n^*-1} \lambda_{(i+t)\bmod{365}} \phantom{\geq \zeta^*.}$$
 		\end{block}
 		\column{0.5\textwidth}
 		\begin{figure}[ht]
@@ -1480,7 +1302,7 @@
 		\column{0.7\textwidth}
 		\pause
 		\begin{equation*}
-		\phantom{A=}\begin{bNiceMatrix}[%
+			\phantom{A=}\begin{bNiceMatrix}[%
 				first-row, 
 				first-col]
 				& D_1 & D_2 &D_3& D_4&\cdots &D_{364}&D_{365}&F \\
@@ -1597,33 +1419,33 @@
 
 \begin{frame}{Cadena de Markov absorbente}
 	\vspace{-1cm}\begin{columns}
-	\column{0.5\textwidth}
-	\begin{equation*}
-		\hspace{-0.6cm}\mathbf{Q}=
-		\begin{bNiceMatrix}[
-			first-row,
-			first-col
-			]
-			& D_1 & D_2 & D_3 & D_4 & \cdots & D_{364} & D_{365}  \\
-			
-			D_1   & 0 & \lambda_1 & 0 & 0 & \cdots & 0 & 0  \\
-			D_2   & 0 & 0 & \lambda_2 & 0 & \cdots & 0 & 0 \\
-			&  &  &  &  &  &  & \\
-			\vdots &  &  &  &  & \ddots &  &   \\
-			&  &  &  &  &  &  & \\
-			D_{364} & 0 & 0 & 0 & 0 & \cdots & 0 & \lambda_{364}  \\
-			D_{365} & \lambda_{365} & 0 & 0 & 0 & \cdots & 0 & 0 \\
-		\end{bNiceMatrix}
-	\end{equation*}
-	\column{0.5\textwidth}
-	Si $\mathbf{N}:= (I_{_{365}}- \mathbf{Q})^{-1}$ denota la matriz fundamental entonces la $i$-ésima entrada de los vectores\begin{itemize}
-		\item $\mu=\mathbf{N} \mathbf{1}$
-		\item $\sigma^2 = (2\mathbf{N} - I_{_{365}})\mu -  \mu_{sq}$
-	\end{itemize}indican la esperanza y la varianza del tiempo a transcurrir antes de que la cadena sea absorbida, respectivamente.
-	
-	{\scriptsize Fuente: Kemeny \textit{et al.} (1976); Grinstead \textit{et al.} (2003).}
-	
-\end{columns}
+		\column{0.5\textwidth}
+		\begin{equation*}
+			\hspace{-0.6cm}\mathbf{Q}=
+			\begin{bNiceMatrix}[
+				first-row,
+				first-col
+				]
+				& D_1 & D_2 & D_3 & D_4 & \cdots & D_{364} & D_{365}  \\
+				
+				D_1   & 0 & \lambda_1 & 0 & 0 & \cdots & 0 & 0  \\
+				D_2   & 0 & 0 & \lambda_2 & 0 & \cdots & 0 & 0 \\
+				&  &  &  &  &  &  & \\
+				\vdots &  &  &  &  & \ddots &  &   \\
+				&  &  &  &  &  &  & \\
+				D_{364} & 0 & 0 & 0 & 0 & \cdots & 0 & \lambda_{364}  \\
+				D_{365} & \lambda_{365} & 0 & 0 & 0 & \cdots & 0 & 0 \\
+			\end{bNiceMatrix}
+		\end{equation*}
+		\column{0.5\textwidth}
+		Si $\mathbf{N}:= (I_{_{365}}- \mathbf{Q})^{-1}$ denota la matriz fundamental entonces la $i$-ésima entrada de los vectores\begin{itemize}
+			\item $\mu=\mathbf{N} \mathbf{1}$
+			\item $\sigma^2 = (2\mathbf{N} - I_{_{365}})\mu -  \mu_{sq}$
+		\end{itemize}indican la esperanza y la varianza del tiempo a transcurrir antes de que la cadena sea absorbida, respectivamente.
+		
+		{\scriptsize Fuente: Kemeny \textit{et al.} (1976); Grinstead \textit{et al.} (2003).}
+		
+	\end{columns}
 \end{frame}
 
 
@@ -1632,10 +1454,10 @@
 \begin{frame}{Modelo: Criterio de disponibilidad de tiempo}
 	\vspace{-1cm}\begin{columns}
 		\column{0.5\textwidth}
-			Si $T_i$ es la variable aleatoria que cuenta el tiempo en que la cadena fue absorbida, dado que partió del estado $D_i$, al menos el $\displaystyle \left(1-\frac{1}{\kappa^2}\right)100 \%$ de las realizaciones de $T_i$ caen en el intervalo $$(\mu_i-\kappa \sigma_i, \mu_i+\kappa \sigma_i),$$
-			 por la desigualdad de Chebyshev.
-
-			\column{0.5\textwidth}
+		Si $T_i$ es la variable aleatoria que cuenta el tiempo en que la cadena fue absorbida, dado que partió del estado $D_i$, al menos el $\displaystyle \left(1-\frac{1}{\kappa^2}\right)100 \%$ de las realizaciones de $T_i$ caen en el intervalo $$(\mu_i-\kappa \sigma_i, \mu_i+\kappa \sigma_i),$$
+		por la desigualdad de Chebyshev.
+		
+		\column{0.5\textwidth}
 		\pause
 		\begin{block}{}
 			Por tanto, se sugiere sembrar en el $i$-ésimo día del año si $$n^* < \mu_i-\kappa \sigma_i.$$ 
@@ -1668,390 +1490,178 @@
 	\end{columns}
 \end{frame}
 
-\begin{frame}{El agave}
-	\begin{minipage}{0.5\textwidth}
-		\centering\includegraphics[width=\textwidth]{AgaveyPina.png}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{}
+
+
+{
+	\setbeamertemplate{background canvas}{
+		\begin{tikzpicture}[remember picture,overlay]
+			
+			% --- IZQUIERDA: verde -> blanco
+			\path[shade,
+			left color=blue!50,
+			right color=white,
+			opacity=0.3
+			]
+			(current page.south west)
+			rectangle ([xshift=0.25\paperwidth]current page.north west);
+			
+			% --- CENTRO: blanco (opcional, puedes omitirlo o suavizar más)
+			\path[shade,
+			left color=white,
+			right color=white,
+			opacity=0.3
+			]
+			([xshift=0.25\paperwidth]current page.south west)
+			rectangle ([xshift=0.75\paperwidth]current page.north west);
+			
+			% --- DERECHA: blanco -> otoñal
+			\path[shade,
+			left color=white,
+			right color=orange!80!brown,
+			opacity=0.3
+			]
+			([xshift=0.75\paperwidth]current page.south west)
+			rectangle (current page.north east);
+			
+		\end{tikzpicture}
+	}
+	
+	\begin{frame}
+		\frametitle{Movilización en fechas de siembra}
+		\vspace*{-1cm}\begin{columns}
+			\column{0.33\textwidth}
+			\centering{\bf Adelantar}
+			\column{0.33\textwidth}
+			\centering{\bf Mantener}
+			\column{0.33\textwidth}
+			\centering{\bf Retrasar}
+		\end{columns}
+		
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Movilización en fechas de siembra}
+		\vspace*{-1cm}\begin{columns}
+			\column{0.33\textwidth}
+			\centering{\bf Adelantar}
 			\begin{itemize}
-				\item Diversidad de especies nativas.
-				\item Presencia del 75\% en el territorio nacional.
-				\item Aportación del 1.25\% del PIB agrícola.
-				\item Tolera altas temperaturas, radiación solar y sequías.
+				\item Reduce el estrés asociado a temporadas más cálidas.
+				\item Incrementa la cosecha.
 			\end{itemize}
-			 {\scriptsize Fuente: García-Mendoza, A. (2007); SAGARPA (2017);  Fernández Galicia \textit{et al.} (2023).}
-		\end{block}
-	\end{minipage}
-	\pause\centering Se especula que será un cultivo muy rentable del futuro.\\
-	{\scriptsize Fuente: Stewart, J.R. (2015).}
-\end{frame}
+			\pause
+			\begin{itemize}
+				\item Retrasa la etapa de emergencia.
+				\item Reduce la densidad poblacional del cultivo.
+			\end{itemize}
+			\column{0.33\textwidth}
+			\centering{\bf Mantener}
+			
+			\column{0.33\textwidth}
+			\centering{\bf Retrasar}
+		\end{columns}
+		
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Movilización en fechas de siembra}
+		\vspace*{-1cm}\begin{columns}
+			\column{0.33\textwidth}
+			\centering{\bf Adelantar}
+			\begin{itemize}
+				\item Reduce el estrés asociado a temporadas más cálidas.
+				\item Incrementa la cosecha.
+			\end{itemize}
+			\begin{itemize}
+				\item Retrasa la etapa de emergencia.
+				\item Reduce la densidad poblacional del cultivo.
+			\end{itemize}
+			{\tiny Fuente: Clark, \textit{et al.} (2026); Maresma \textit{et al.} (2019); Mason \textit{et al.} (2018)}
+			\column{0.33\textwidth}
+			\centering{\bf Mantener}
+			
+			\column{0.33\textwidth}
+			\centering{\bf Retrasar}
+			\begin{itemize}
+				\item Ofrece condiciones más cálidas.
+				\item Acelera la maduración.
+				\item Aumenta la humedad de los granos.
+				\item Incrementa la altura de las plantas.
+			\end{itemize}
+			\pause
+			\begin{itemize}
+				\item Reduce la producción del cultivo.
+			\end{itemize}
+			{\tiny Fuente: Clark \textit{et al.} (2026); Maresma \textit{et al.} (2019); Donohue \textit{et al.} (2015).}
+		\end{columns}
+		
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Movilización en fechas de siembra}
+		\vspace*{-1cm}\begin{columns}
+			\column{0.33\textwidth}
+			\centering{\bf Adelantar}
+			\begin{itemize}
+				\item Reduce el estrés asociado a temporadas más cálidas.
+				\item Incrementa la cosecha.
+			\end{itemize}
+			\begin{itemize}
+				\item Retrasa la etapa de emergencia.
+				\item Reduce la densidad poblacional del cultivo.
+			\end{itemize}
+			{\tiny Fuente: Clark, \textit{et al.} (2026); Maresma \textit{et al.} (2019); Mason \textit{et al.} (2018)}
+			\column{0.33\textwidth}
+			\centering{\bf Mantener}
+			\begin{itemize}
+				\item Recurrir a variedades resilientes.
+				\item Emplear métodos externos.
+			\end{itemize}
+			{\tiny Fuente: Agrama, H. (1996);  Mason \textit{et al.} (2018); Wang \textit{et al.} (2025). }
+			\column{0.33\textwidth}
+			\centering{\bf Retrasar}
+			\begin{itemize}
+				\item Ofrece condiciones más cálidas.
+				\item Acelera la maduración.
+				\item Aumenta la humedad de los granos.
+				\item Incrementa la altura de las plantas.
+			\end{itemize}
+			\begin{itemize}
+				\item Reduce la producción del cultivo.
+			\end{itemize}
+			{\tiny Fuente: Clark \textit{et al.} (2026); Maresma \textit{et al.} (2019); Donohue \textit{et al.} (2015).}
+		\end{columns}
+		
+	\end{frame}
+}
 
-\begin{frame}{Ciclo productivo}
-	\includegraphics[width=\textwidth]{CiclodeProducción.png}\\
-	{\scriptsize Fuente: Fernández Galicia \textit{et al.} (2023).}
-\end{frame}
 
-\begin{frame}{Ciclo productivo}
-	\includegraphics[width=\textwidth]{CiclodeProducción1.png}\\
-	{\scriptsize Fuente: Fernández Galicia \textit{et al.} (2023).}
-\end{frame}
-
-\begin{frame}{Ciclo productivo}
-	\includegraphics[width=\textwidth]{CiclodeProducción2.png}\\
-	{\scriptsize Fuente: Fernández Galicia \textit{et al.} (2023).}
-\end{frame}
-
-\begin{frame}{Ciclo productivo}
-	\includegraphics[width=\textwidth]{CiclodeProducción3.png}\\
-	{\scriptsize Fuente: Fernández Galicia \textit{et al.} (2023).}
-\end{frame}
-
-\begin{frame}{Ciclo productivo}
-	\includegraphics[width=\textwidth]{CiclodeProducción4.png}\\
-	{\scriptsize Fuente: Fernández Galicia \textit{et al.} (2023).}
-\end{frame}
-
-\begin{frame}{Agave en Aguascalientes}
-    \vspace{-1cm}
-    \begin{minipage}{0.5\textwidth}
-			\hspace{-0.5cm}\includegraphics[width=\textwidth]{images/AgaveAGS.png}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-			\begin{block}{Angustifolia Haw. y Salmiana Otto ex Salam-Dyck}
-				\hfill {\scriptsize Fuente: Gallardo-Valdez \textit{et al.} (2019).}
+\begin{frame}{Exploración de la hipótesis}
+	\vspace*{-0.7cm}
+	\begin{columns}
+		\column{0.5\textwidth}
+			\includegraphics[height=0.9\textheight]{Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf}
+		\column{0.5\textwidth}
+			\begin{block}{Datos fenológicos}
+				\begin{itemize}
+					\item Calendario agrícola tomado del Joint Research Centre de la Unión Europea.
+					\item Fechas de siembra tomadas de la plataforma Proyecto Fenología Paneuropea 725 (PEP725).
+					\item Periodo 1951--2015.
+					\item Tamaño de la muestra: 58115.
+				\end{itemize}
 			\end{block}
-            \pause\begin{block}{Requerimientos}
-                \begin{itemize}
-				\item Suelos con pH de 6 -- 7 y profundidades de, al menos, 1 m.
-                    \item Precipitaciones anuales de 600 mm. uniformemente distribuidas.
-                    \item Ausencia de heladas.
-                    \item Altitudes máximas de 2000 m.s.n.m.
-                    \item Temperaturas de -5$^\circ$ C -- 45$^\circ$ C. 
-			\end{itemize}
-            \end{block}
-		\end{minipage}
-        \,\\
-        \hfill {\scriptsize Fuente: CONAFOR (s.f.);  Fernández Galicia \textit{et al.} (2023).}
+	\end{columns}
 \end{frame}
 
 
-\begin{frame}{Agave en Aguascalientes}
-	\vspace{-1cm}
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{Productos}
-			\begin{itemize}
-				\item Bebidas.
-				\item Aditivos alimenticios.
-				\item Textiles básicos.
-				\item Pomadas.
-				\item Envases desechables.
-			\end{itemize}
-			{\scriptsize Fuente: Alonso-Tapia, H. (2022).}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\centering\includegraphics[height=0.73\textheight]{images/DistribucionAGS.png}\\\hfill {\scriptsize Fuente: CIATEJ (2016).}
-	\end{minipage}%
+\begin{frame}{Exploración de la hipótesis}
+		\vspace*{-0.7cm}
+		\begin{columns}
+			\column{0.7\textwidth}
+				\raggedleft\includegraphics[height=0.9\textheight]{1988Break.pdf}
+			\column{0.35\textwidth}\
+				\raggedright{El cambio estructural es consistente con lo previamente reportado por Chmielewski \textit{et al.} (2004); Menzel \textit{et al.} (2020); Reid \textit{et al.} (2015); Wu \textit{et al.} (2016).}
+		\end{columns}
 \end{frame}
-
-
-\begin{frame}{Agave en Aguascalientes}
-	\vspace{-1cm}
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{Usos potenciales}
-			\begin{itemize}
-				\item Biocombustible.
-				\item Bioinsecticidas.
-				\item Prebióticos.
-				\item Medicamentos.
-				\item Textiles complejos.
-				\item Papel.
-				\item Alimento para animales.
-				\item Fitoremediación.
-			\end{itemize}
-			{\scriptsize Fuente: Stewart, J.R. (2015); Fernández-Galicia, \textit{et al}. (2024).}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\centering\includegraphics[height=0.73\textheight]{images/AptitudAGS.png}\\\hfill {\scriptsize Fuente: INIFAP (2002).}
-	\end{minipage}%
-\end{frame}
-
-\begin{frame}{Agave en Aguascalientes}
-	\vspace{-1cm}\begin{minipage}{0.5\textwidth}
-		\begin{block}{Mezcal con denominación de origen}
-			\begin{itemize}
-				\item Aguascalientes.
-				\item Asientos.
-				\item Calvillo.
-				\item Cosío.
-				\item El Llano.
-				\item Rincón de Romos.
-				\item Tepezalá.
-			\end{itemize}
-			{\scriptsize Fuente: IMPI (2025).}
-		\end{block}
-	\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-\centering	\includegraphics[height=0.7\textheight]{Mezcalera.png}
-\end{minipage}
-\,\\
-\centering \pause El aprovechamiento del agave se encuentra en consolidación.
-\end{frame}
-
-\section{Bajo la hipótesis de que el cambio climático ha alterado los procesos agrícolas, ¿cómo estimar ventanas óptimas de siembra de maíz en Alemania mediante modelos probabilísticos empleando datos agroclimáticos más allá de los GDD?}
-
-
-\begin{frame}{Objetivos generales}
-	\vspace{-1.5cm}Desarrollar y validar un modelo probabilístico robusto, independiente de los GDD, que integre variables agroclimáticas significativas para estimar ventanas óptimas de fechas de siembra de maíz en Alemania
-	\begin{minipage}{0.33\textwidth}
-		\pause\begin{block}{Favorecer los ciclos de desarrollo}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.33\textwidth}
-		\pause\begin{block}{Disminuir la exposición a estresores ambientales}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.33\textwidth}\pause\begin{block}{Contribuir a la toma de decisiones}
-	\end{block}
-	\end{minipage}
-	\,\\
-	\pause
-	Contrastándolo con información oficial reportada para Alemania, un país con potencial agrícola en crecimiento debido a que se enfrenta a contexto de transición climática derivado del cambio climático. 
-\end{frame}
-
-\begin{frame}{Estado del arte}
-	\vspace{-1cm}\begin{minipage}{0.4\textwidth}
-		\begin{block}{Revisión bibliográfica}
-			\begin{itemize}
-				\item ACM: 100 artículos.
-				\item ScienceDirect: 658 artículos.
-				\item Google Académico.
-				\item Kaggle.
-				\item UC Irvine.
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-	\pause\begin{minipage}{0.6\textwidth}
-		\begin{block}{Trabajos}
-			\begin{itemize}
-				\item Predecir zonas potenciales.
-				\item Segmentación y clasificación de madurez y calidad.
-				\item Detección y conteo de plantas.
-				\item Contracción de áreas de cultivo.
-				\item Densidad de los cultivos.
-				\item Viabilidad económica.
-				\item Costo económico del trasplante manual y mecanizado.
-				\pause\item \bf Estimación de biomasa fresca y seca.
-				\pause\item \sout{Fechas de trasplante.}
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-\end{frame}
-
-\begin{frame}{Estado del arte: Estimación individual}
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{Peso seco}
-			\begin{itemize}
-				\item López-Díaz, \textit{et al.} (2022): Regresión de la forma $Y=\beta_0 X^{\beta_1}\varepsilon$.\\
-				Diámetro de la corona como variable explicativa.
-				\item Vuorinne, \textit{et al.} (2021): Regresión lineal para biomasa de hojas.\\
-				Anchura máxima y altura como variable explicativa.
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{Peso fresco}
-			\begin{itemize}
-				\item López Serrano, \textit{et al.} (2022): Regresión de la forma $Y=\beta_0 X^{\beta_1}\varepsilon$.\\
-				Diámetro de la corona como variable explicativa.
-				\item Velazco-Baustista, \textit{et al.} (2009): Regresión bivariada.\\
-				Diámetro de la roseta y altura de la planta como variables explicativas.
-			\end{itemize}
-		\end{block}
-	\end{minipage}
-\end{frame}
-
-\begin{frame}{Estado del arte: Estimación colectiva}
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{Peso seco}
-			\begin{itemize}
-				\item Vuorinne, \textit{et al.} (2021): Integran análisis de imágenes provenientes del Sentinel-2 para extender la cobertura de sus estimaciones.
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{}
-			Nobel, P.S. (1984): Propone el índice de productividad ambiental (EPI).
-			\begin{itemize}
-				\item Índice mensual de agua.
-				\item Índice mensual de temperatura.
-				\item Índice mensual de radiación fotosintéticamente activa. 
-			\end{itemize}
-			Al ponderarlo con la absorción de CO$_2$ por unidad de área estima la producción.
-		\end{block}
-	\end{minipage}
-\end{frame}
-
-\begin{frame}{Factibilidad: Estimación de la producción}
-	  \begin{minipage}{0.6\textwidth}
-	  	\vspace{-1cm}\begin{block}{}
-	  		\begin{itemize}
-	  			\item Mosquera \textit{et al.} (2015): Estima la producción de huertas de aguacates, de la misma edad, a través de un modelo de regresión cuadrático.
-	  			\item Akin \textit{et al.} (2017): Modelo de suavizamiento exponencial de Brown genera un pronóstico a 10 años para la producción de aguacate en Turquía.
-	  		\end{itemize}
-	  			\phantom{.}\\
-	  			\phantom{.}\\
-	  			\phantom{.}\\
-	  	\end{block}
-	  \end{minipage}%
-	  \begin{minipage}{0.4\textwidth}
-	  	\vspace{-0.5cm}\includegraphics[scale=0.3]{Biomass.jpg}
-	  \end{minipage}%
-\end{frame}
-
-\begin{frame}{Factibilidad: Estimación de la producción}
-	\begin{minipage}{0.6\textwidth}
-		\vspace{-1cm}\begin{block}{}
-			\begin{itemize}
-				\item Mosquera \textit{et al.} (2015): Estima la producción de huertas de aguacates, de la misma edad, a través de un modelo de regresión cuadrático.
-				\item Akin \textit{et al.} (2017): Modelo de suavizamiento exponencial de Brown genera un pronóstico a 10 años para la producción de aguacate en Turquía.
-				\item Arizmendi-Peralta, P.P. (2024): Propone al algoritmo Random Forest Regressor como mejor estimador para estimar la producción de aguacate en una hectárea.
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.4\textwidth}
-		\vspace{-0.5cm}\includegraphics[scale=0.3]{Biomass.jpg}
-	\end{minipage}%
-\end{frame}
-
-\begin{frame}{Factibilidad: Fechas de trasplante}
-	\begin{minipage}{0.5\textwidth}
-		\hspace{-0.5cm}
-		\centering
-		\includegraphics[width=\textwidth]{images/Elnesr.png}
-		{\scriptsize Fuente: Elnesr \textit{et al.} (2013).}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{}
-			\begin{itemize}
-				\item Elnesr \textit{et al.} (2013): Propone un algoritmo determinista de decisión simple.
-				\item Dobor \textit{et al.} (2016): Implementa el modelo determinista M4 para obtener fechas para el trigo.
-				\item Gümüşçü \textit{et al.} (2018): Emplea modelos de ML aplicados al trigo.
-			\end{itemize}
-		\end{block}
-	\end{minipage}
-\end{frame}
-
-\begin{frame}{Factibilidad: Fechas de trasplante}
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{}
-			\begin{itemize}
-				\item Fakhrzad \textit{et al.} (2025): Emplea modelos de ML aplicados a la jamaica.
-			\end{itemize}
-			\phantom{.}\\
-			\phantom{.}\\
-			\phantom{.}\\
-			\phantom{.}\\
-			\phantom{.}\\
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\hspace{0cm}
-		\centering
-		\includegraphics[width=\textwidth]{images/Elnesr.png}
-		{\scriptsize Fuente: Elnesr \textit{et al.} (2013).}
-	\end{minipage}%
-\end{frame}
-
-\begin{frame}{Factibilidad: Fechas de trasplante}
-	\begin{minipage}{0.5\textwidth}
-		\begin{block}{}
-			\begin{itemize}
-				\item Fakhrzad \textit{et al.} (2025): Emplea modelos de ML aplicados a la jamaica.
-				\item Harris \textit{et al.} (1994): Analiza fechas para nogales y robles. 
-				\item Boechel \textit{et al.} (2022): Implementa modelos de ML para manzanos.
-			\end{itemize}
-		\end{block}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\hspace{0cm}
-		\centering
-		\includegraphics[width=\textwidth]{images/Elnesr.png}
-		{\scriptsize Fuente: Elnesr \textit{et al.} (2013).}
-	\end{minipage}%
-\end{frame}
-
-
-\begin{frame}{Datos disponibles}
-    \vspace{-1cm}
-    \begin{minipage}{0.5\textwidth}
-			\hspace{-0.5cm}
-            \centering
-            \includegraphics[width=\textwidth]{images/Essenger.png}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-                    \item Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias.
-				\item Registros diarios de estaciones climáticas.
-                    \item Periodo de enero de 1980 a diciembre de 2022.
-                    \item Temperatura del aire.
-                    \item Periodo luminoso.
-                    \item Radiación de onda corta.
-                    \item Lluvia líquida.
-                    \item Presión de vapor.
-			\end{itemize}
-            \end{block}
-		\end{minipage}
-\end{frame}
-\begin{frame}{Datos disponibles}
-    \vspace{-1cm}
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-                    \item INIFAP.
-				\item Datos medidos en diversas profundidades.
-                    \item Rango de 0 a 200 cm.
-                    \item Porción de limo.
-                    \item Capacidad de intercambio catiónico.
-                    \item Nitrógeno.
-                    \item Carbono orgánico.
-                    \item pH.
-			\end{itemize}
-            \end{block}
-		\end{minipage}%
-        \begin{minipage}{0.5\textwidth}
-			\hspace{0cm}
-            \centering
-            \includegraphics[width=\textwidth]{images/MSMx.png}
-		\end{minipage}
-\end{frame}
-
-\begin{frame}{Datos disponibles}
-    \vspace{-1cm}
-    \begin{minipage}{0.5\textwidth}
-			\hspace{-0.5cm}
-            \centering
-            \includegraphics[width=\textwidth]{images/conagua.png}
-		\end{minipage}%
-		\begin{minipage}{0.5\textwidth}
-            \begin{block}{}
-                \begin{itemize}
-                    \item Sistema Meteorológico Nacional.
-				\item Registros diarios a nivel estatal.
-                    \item Periodo de enero de 1960 a abril de 2025.
-                    \item Temperatura ambiental.
-                    \item Evaporación.
-                    \item Precipitación.
-                    \item Lluvia líquida.
-			\end{itemize}
-            \end{block}
-		\end{minipage}
-\end{frame}
-
-
 
 \section*{Referencias}
 \begin{frame}[allowframebreaks,noframenumbering]{Referencias}
@@ -2080,6 +1690,11 @@
 			\includegraphics[width =\textwidth]{Effects of maize varieties.png}
 		\column{0.5\textwidth}
 		\includegraphics[width =\textwidth ]{Maize sowing varieties.png}
+			Las distintas variedades de maíz comparten su respuesta a las condiciones de cultivo.
+			
+			{\scriptsize Fuente: Parent \textit{et al.} (2012); Sánchez \textit{et al.} (2014).}
+			
+		
 			Las condiciones climáticas determinan la variedad a emplear.
 			
 			{\scriptsize Fuente: FAO (s.f.).}
@@ -2088,19 +1703,13 @@
 \end{frame}
     
  \begin{frame}{}
- 	 \begin{block}{Métodos}
- 		\begin{itemize}
- 			\item Algoritmos de decisión simple.
- 			\item Modelos de suavizamiento exponencial.
- 			\item Redes neuronales recurrentes.
- 			\item Regresiones.
- 			\item Perceptrón multicapa.
- 			\item Support vector machine.
- 			\item Árboles de decisión.
- 			\item Bosques aleatorios.
- 			\item k vecinos más cercanos.
- 			\item M5 Prime.
- 		\end{itemize}
- 	\end{block}
+ 	\centering
+ 	\includegraphics[height=0.5\textheight]{Crop calendar 2018.png}
+ 	
+ 	{\scriptsize Fuente: Asam \textit{et al.} (2022) Mapping Crop Types of Germany by Combining Temporal Statistical Metrics of Sentinel-1 and Sentinel-2 Time Series with LPIS Data.}
+ 	
+ 	\includegraphics[width=\textwidth]{Crop calendar 2015.png}
+ 	
+ 	{\scriptsize Fuente: Joint Research Centre of the European Commission. (2026). Agri4cast Data Portal.}
  \end{frame}
 \end{document}
