@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  10 APR 2026 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  13 APR 2026 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2167,10 +2167,10 @@ File: images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
 Package pdftex.def Info: images/Sowing_dates_Distributions_VS_Crop_calendar-eps
--converted-to.pdf  used on input line 1653.
+-converted-to.pdf  used on input line 1654.
 (pdftex.def)             Requested size: 181.77614pt x 226.86577pt.
 
-Overfull \vbox (2.57172pt too high) detected at line 1653
+Overfull \vbox (2.57172pt too high) detected at line 1654
  []
 
 [65
@@ -2179,15 +2179,15 @@ Overfull \vbox (2.57172pt too high) detected at line 1653
 <images/1988Break.pdf, id=470, 498.16112pt x 389.9255pt>
 File: images/1988Break.pdf Graphic file (type pdf)
 <use images/1988Break.pdf>
-Package pdftex.def Info: images/1988Break.pdf  used on input line 1664.
+Package pdftex.def Info: images/1988Break.pdf  used on input line 1665.
 (pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
 
-Overfull \hbox (11.00241pt too wide) in paragraph at lines 1664--1664
+Overfull \hbox (11.00241pt too wide) in paragraph at lines 1665--1665
  [][]
  []
 
 
-Overfull \vbox (2.57172pt too high) detected at line 1664
+Overfull \vbox (2.57172pt too high) detected at line 1665
  []
 
 [66
@@ -2211,13 +2211,13 @@ le.pdf>] [68
 File: images/Effects of maize varieties.png Graphic file (type png)
 <use images/Effects of maize varieties.png>
 Package pdftex.def Info: images/Effects of maize varieties.png  used on input l
-ine 1703.
+ine 1704.
 (pdftex.def)             Requested size: 199.1693pt x 181.06052pt.
 <images/Maize sowing varieties.png, id=575, 689.5148pt x 162.97623pt>
 File: images/Maize sowing varieties.png Graphic file (type png)
 <use images/Maize sowing varieties.png>
 Package pdftex.def Info: images/Maize sowing varieties.png  used on input line 
-1703.
+1704.
 (pdftex.def)             Requested size: 199.1693pt x 47.07538pt.
 
 [72
@@ -2227,13 +2227,13 @@ Package pdftex.def Info: images/Maize sowing varieties.png  used on input line
 <images/Crop calendar 2018.png, id=583, 546.24075pt x 387.24675pt>
 File: images/Crop calendar 2018.png Graphic file (type png)
 <use images/Crop calendar 2018.png>
-Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1714
+Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1715
 .
 (pdftex.def)             Requested size: 177.78452pt x 126.0374pt.
 <images/Crop calendar 2015.png, id=584, 1079.83424pt x 61.4295pt>
 File: images/Crop calendar 2015.png Graphic file (type png)
 <use images/Crop calendar 2015.png>
-Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1714
+Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1715
 .
 (pdftex.def)             Requested size: 398.3386pt x 22.66013pt.
  [73
@@ -2289,7 +2289,7 @@ rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 msy8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmtt8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on Slides.pdf (73 pages, 17638997 bytes).
+Output written on Slides.pdf (73 pages, 17639277 bytes).
 PDF statistics:
  723 PDF objects out of 1000 (max. 8388607)
  172 named destinations out of 1000 (max. 500000)
