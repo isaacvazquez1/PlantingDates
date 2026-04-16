@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  13 APR 2026 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  16 APR 2026 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1873,110 +1873,119 @@ Overfull \vbox (7.58064pt too high) detected at line 192
 
 pdfTeX warning: pdflatex.exe (file ./images/Production.png): large interlaced P
 NG might cause out of memory (use non-interlaced PNG to fix this)
->]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 217--217
+>] [6
+
+]
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 219--219
  []$[]$$[]$  
  []
 
-<images/Agrodatascience.png, id=65, 471.2004pt x 336.2964pt>
+<images/Agrodatascience.png, id=71, 471.2004pt x 336.2964pt>
 File: images/Agrodatascience.png Graphic file (type png)
 <use images/Agrodatascience.png>
-Package pdftex.def Info: images/Agrodatascience.png  used on input line 217.
+Package pdftex.def Info: images/Agrodatascience.png  used on input line 219.
 (pdftex.def)             Requested size: 159.333pt x 113.71835pt.
 
-Overfull \vbox (12.31583pt too high) detected at line 217
+Overfull \vbox (12.31583pt too high) detected at line 219
  []
 
-[6
+[7
 
- <./images/Agrodatascience.png>] [7
-
-] [8
+ <./images/Agrodatascience.png>] [8
 
 ] [9
 
+] [10
+
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 288--288
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 290--290
  []$[]$[][]$[]$  
- []
-
-[10
-
-]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 288--288
- []$[]$[][][]$[]$  
  []
 
 [11
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 288--288
- []$[]$[][][][]$[]$  
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 290--290
+ []$[]$[][][]$[]$  
  []
 
 [12
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 288--288
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 290--290
  []$[]$[][][][]$[]$  
  []
 
 [13
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 288--288
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 290--290
  []$[]$[][][][]$[]$  
  []
 
 [14
 
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 312--312
- []$[]$$[]$  
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 290--290
+ []$[]$[][][][]$[]$  
  []
 
-<images/Seasons.png, id=115, 923.1288pt x 448.074pt>
-File: images/Seasons.png Graphic file (type png)
-<use images/Seasons.png>
-Package pdftex.def Info: images/Seasons.png  used on input line 312.
-(pdftex.def)             Requested size: 286.16698pt x 138.90149pt.
 [15
 
- <./images/Seasons.png>]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 312--312
+]
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 314--314
  []$[]$$[]$  
  []
 
+<images/Seasons.png, id=121, 923.1288pt x 448.074pt>
 File: images/Seasons.png Graphic file (type png)
 <use images/Seasons.png>
-Package pdftex.def Info: images/Seasons.png  used on input line 312.
+Package pdftex.def Info: images/Seasons.png  used on input line 314.
 (pdftex.def)             Requested size: 286.16698pt x 138.90149pt.
 [16
 
+ <./images/Seasons.png>]
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 314--314
+ []$[]$$[]$  
+ []
+
+File: images/Seasons.png Graphic file (type png)
+<use images/Seasons.png>
+Package pdftex.def Info: images/Seasons.png  used on input line 314.
+(pdftex.def)             Requested size: 286.16698pt x 138.90149pt.
+[17
+
 ]
-<images/Maiz.png, id=128, 842.6682pt x 1123.5576pt>
+<images/Maiz.png, id=134, 842.6682pt x 1123.5576pt>
 File: images/Maiz.png Graphic file (type png)
 <use images/Maiz.png>
-Package pdftex.def Info: images/Maiz.png  used on input line 340.
+Package pdftex.def Info: images/Maiz.png  used on input line 344.
 (pdftex.def)             Requested size: 151.23656pt x 201.6606pt.
- [17
+ [18
 
  <./images/Maiz.png
 
 pdfTeX warning: pdflatex.exe (file ./images/Maiz.png): large interlaced PNG mig
 ht cause out of memory (use non-interlaced PNG to fix this)
 >]
-<images/MaizGermany.png, id=135, 1388.5476pt x 1561.032pt>
+File: images/Maiz.png Graphic file (type png)
+<use images/Maiz.png>
+Package pdftex.def Info: images/Maiz.png  used on input line 344.
+(pdftex.def)             Requested size: 151.23656pt x 201.6606pt.
+ [19
+
+]
+<images/MaizGermany.png, id=147, 1388.5476pt x 1561.032pt>
 File: images/MaizGermany.png Graphic file (type png)
 <use images/MaizGermany.png>
-Package pdftex.def Info: images/MaizGermany.png  used on input line 356.
+Package pdftex.def Info: images/MaizGermany.png  used on input line 360.
 (pdftex.def)             Requested size: 179.3734pt x 201.6606pt.
 
-Underfull \hbox (badness 7777) in paragraph at lines 356--356
+Underfull \hbox (badness 7777) in paragraph at lines 360--360
  []\OT1/cmss/m/n/10.95 Alemania tendr^^Sa un in-cre-mento en 
  []
 
-[18
+[20
 
  <./images/MaizGermany.png
 
@@ -1985,18 +1994,14 @@ PNG might cause out of memory (use non-interlaced PNG to fix this)
 >]
 File: images/MaizGermany.png Graphic file (type png)
 <use images/MaizGermany.png>
-Package pdftex.def Info: images/MaizGermany.png  used on input line 356.
+Package pdftex.def Info: images/MaizGermany.png  used on input line 360.
 (pdftex.def)             Requested size: 179.3734pt x 201.6606pt.
 
-Underfull \hbox (badness 7777) in paragraph at lines 356--356
+Underfull \hbox (badness 7777) in paragraph at lines 360--360
  [][]\OT1/cmss/m/n/10.95 Alemania tendr^^Sa un in-cre-mento en 
  []
 
-[19
-
-] [20
-
-] [21
+[21
 
 ] [22
 
@@ -2022,12 +2027,12 @@ Underfull \hbox (badness 7777) in paragraph at lines 356--356
 
 ] [33
 
-]
-[34
+] [34
 
 ] [35
 
-] [36
+]
+[36
 
 ] [37
 
@@ -2035,79 +2040,119 @@ Underfull \hbox (badness 7777) in paragraph at lines 356--356
 
 ] [39
 
+] [40
+
+] [41
+
 ]
 
 pdfTeX warning: pdflatex.exe (file ./images/[Interseccion] Both_cropped.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/[Interseccion] Both_cropped.pdf, id=260, 373.13402pt x 479.89288pt>
+<images/[Interseccion] Both_cropped.pdf, id=271, 373.13402pt x 479.89288pt>
 File: images/[Interseccion] Both_cropped.pdf Graphic file (type pdf)
 <use images/[Interseccion] Both_cropped.pdf>
 Package pdftex.def Info: images/[Interseccion] Both_cropped.pdf  used on input 
-line 614.
+line 618.
 (pdftex.def)             Requested size: 156.79492pt x 201.6606pt.
-[40
+[42
 
  <./images/[Interseccion] Both_cropped.pdf>]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 684.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 688.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 684.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 688.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 684.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 688.
 
 
-Overfull \vbox (2.58095pt too high) detected at line 684
- []
-
-[41
-
-]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 756.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 756.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 756.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 756.
-
-
-Overfull \vbox (2.58095pt too high) detected at line 756
- []
-
-[42
-
-]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <12> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 825.
-
-
-Overfull \vbox (1.2834pt too high) detected at line 825
+Overfull \vbox (2.58095pt too high) detected at line 688
  []
 
 [43
 
-] [44
+]
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 760.
 
-] [45
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 760.
 
-] [46
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 760.
 
-] [47
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 760.
 
-] [48
 
-] [49
+Overfull \vbox (2.58095pt too high) detected at line 760
+ []
+
+[44
+
+]
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <12> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 829.
+
+
+Overfull \vbox (1.2834pt too high) detected at line 829
+ []
+
+[45
+
+]
+Overfull \hbox (10.26978pt too wide) detected at line 913
+[]\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
+ n[]\OT1/cmss/m/n/10.95 ) := [][]
+ []
+
+
+Overfull \hbox (104.91028pt too wide) in paragraph at lines 913--913
+[][]  
+ []
+
+[46
+
+]
+Overfull \hbox (10.26978pt too wide) detected at line 913
+[]\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
+ n[]\OT1/cmss/m/n/10.95 ) := [][]
+ []
+
+
+Overfull \hbox (104.91028pt too wide) in paragraph at lines 913--913
+[][]  
+ []
+
+[47
+
+]
+Overfull \hbox (13.31139pt too wide) detected at line 994
+[]\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
+ n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
+[]:
+ []
+
+[48
+
+]
+Overfull \hbox (13.31139pt too wide) detected at line 994
+[]\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
+ n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
+[]:
+ []
+
+[49
 
 ] [50
 
+] [51
+
+] [52
+
 ]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 1320--1320
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 1325--1325
  [] 
  []
 
@@ -2117,32 +2162,28 @@ Overfull \hbox (31.86363pt too wide) in paragraph at lines 1320--1320
 \l__nicematrix_cell_box=\box124
 \l__nicematrix_left_delim_dim=\dimen424
 \l__nicematrix_right_delim_dim=\dimen425
-[51
-
-]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 1320--1320
- [] 
- []
-
-[52
-
-]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 1417--1417
- [] 
- []
-
 [53
 
 ]
-Overfull \hbox (15.52167pt too wide) detected at line 1449
- \OT1/cmss/bx/n/10.95 Q \OT1/cmss/m/n/10.95 = []
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 1325--1325
+ [] 
  []
 
 [54
 
-] [55
+]
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 1422--1422
+ [] 
+ []
 
-] [56
+[55
+
+]
+Overfull \hbox (15.52167pt too wide) detected at line 1454
+ \OT1/cmss/bx/n/10.95 Q \OT1/cmss/m/n/10.95 = []
+ []
+
+[56
 
 ] [57
 
@@ -2160,83 +2201,87 @@ Overfull \hbox (15.52167pt too wide) detected at line 1449
 
 ] [64
 
+] [65
+
+] [66
+
 ]
-<images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=42
-0, 509.905pt x 636.3775pt>
+<images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=43
+2, 509.905pt x 636.3775pt>
 File: images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
 Package pdftex.def Info: images/Sowing_dates_Distributions_VS_Crop_calendar-eps
--converted-to.pdf  used on input line 1654.
+-converted-to.pdf  used on input line 1659.
 (pdftex.def)             Requested size: 181.77614pt x 226.86577pt.
 
-Overfull \vbox (2.57172pt too high) detected at line 1654
+Overfull \vbox (2.57172pt too high) detected at line 1659
  []
 
-[65
+[67
 
  <./images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>]
-<images/1988Break.pdf, id=470, 498.16112pt x 389.9255pt>
+<images/1988Break.pdf, id=483, 498.16112pt x 389.9255pt>
 File: images/1988Break.pdf Graphic file (type pdf)
 <use images/1988Break.pdf>
-Package pdftex.def Info: images/1988Break.pdf  used on input line 1665.
+Package pdftex.def Info: images/1988Break.pdf  used on input line 1670.
 (pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
 
-Overfull \hbox (11.00241pt too wide) in paragraph at lines 1665--1665
+Overfull \hbox (11.00241pt too wide) in paragraph at lines 1670--1670
  [][]
  []
 
 
-Overfull \vbox (2.57172pt too high) detected at line 1665
+Overfull \vbox (2.57172pt too high) detected at line 1670
  []
 
-[66
+[68
 
- <./images/1988Break.pdf>] (Slides.bbl) [67
+ <./images/1988Break.pdf>] (Slides.bbl) [69
 
  <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
-le.pdf>] [68
-
-
-] [69
-
-
-] [70
+le.pdf>] [70
 
 
 ] [71
 
+
+] [72
+
+
+] [73
+
 ]
-<images/Effects of maize varieties.png, id=574, 794.97pt x 722.7pt>
+<images/Effects of maize varieties.png, id=586, 794.97pt x 722.7pt>
 File: images/Effects of maize varieties.png Graphic file (type png)
 <use images/Effects of maize varieties.png>
 Package pdftex.def Info: images/Effects of maize varieties.png  used on input l
-ine 1704.
+ine 1709.
 (pdftex.def)             Requested size: 199.1693pt x 181.06052pt.
-<images/Maize sowing varieties.png, id=575, 689.5148pt x 162.97623pt>
+<images/Maize sowing varieties.png, id=587, 689.5148pt x 162.97623pt>
 File: images/Maize sowing varieties.png Graphic file (type png)
 <use images/Maize sowing varieties.png>
 Package pdftex.def Info: images/Maize sowing varieties.png  used on input line 
-1704.
+1709.
 (pdftex.def)             Requested size: 199.1693pt x 47.07538pt.
 
-[72
+[74
 
  <./images/Effects of maize varieties.png> <./images/Maize sowing varieties.png
 >]
-<images/Crop calendar 2018.png, id=583, 546.24075pt x 387.24675pt>
+<images/Crop calendar 2018.png, id=595, 546.24075pt x 387.24675pt>
 File: images/Crop calendar 2018.png Graphic file (type png)
 <use images/Crop calendar 2018.png>
-Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1715
+Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1720
 .
 (pdftex.def)             Requested size: 177.78452pt x 126.0374pt.
-<images/Crop calendar 2015.png, id=584, 1079.83424pt x 61.4295pt>
+<images/Crop calendar 2015.png, id=596, 1079.83424pt x 61.4295pt>
 File: images/Crop calendar 2015.png Graphic file (type png)
 <use images/Crop calendar 2015.png>
-Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1715
+Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1720
 .
 (pdftex.def)             Requested size: 398.3386pt x 22.66013pt.
- [73
+ [75
 
  <./images/Crop calendar 2018.png> <./images/Crop calendar 2015.png>]
 \tf@nav=\write6
@@ -2258,11 +2303,11 @@ Package rerunfilecheck Info: File `Slides.out' has not changed.
 (rerunfilecheck)             Checksum: 95AA46F55D55F6BE86E03ED0F233B7C0;1486.
  ) 
 Here is how much of TeX's memory you used:
- 47209 strings out of 467867
- 1118984 string characters out of 5418334
- 1698842 words of memory out of 5000000
- 75110 multiletter control sequences out of 15000+600000
- 651800 words of font info for 125 fonts, out of 8000000 for 9000
+ 47217 strings out of 467867
+ 1119065 string characters out of 5418334
+ 1698905 words of memory out of 5000000
+ 75113 multiletter control sequences out of 15000+600000
+ 652159 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,144p,1354b,1368s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\amigo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi657\m
@@ -2289,9 +2334,9 @@ rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 msy8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmtt8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on Slides.pdf (73 pages, 17639277 bytes).
+Output written on Slides.pdf (75 pages, 17646658 bytes).
 PDF statistics:
- 723 PDF objects out of 1000 (max. 8388607)
- 172 named destinations out of 1000 (max. 500000)
+ 737 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
  165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
