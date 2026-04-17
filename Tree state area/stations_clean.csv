@@ -1,0 +1,1383 @@
+id,lat,lon,height,name,state
+00001,47.8413,8.8493,478.0,Aach Baden-Württemberg,Frei
+00003,50.7827,6.0941,202.0,Aachen Nordrhein-Westfalen,Frei
+00011,47.9736,8.5205,680.0,Donaueschingen (Landeplatz) Baden-Württemberg,Frei
+00044,52.9336,8.237,44.0,Großenkneten Niedersachsen,Frei
+00052,53.6623,10.199,46.0,Ahrensburg-Wulfsdorf Schleswig-Holstein,Frei
+00061,48.8443,12.6171,339.0,Aiterhofen Bayern,Frei
+00070,48.2052,9.0371,712.0,Albstadt-Ebingen Baden-Württemberg,Frei
+00071,48.2156,8.9784,759.0,Albstadt-Badkap Baden-Württemberg,Frei
+00072,48.2766,9.0001,794.0,Albstadt-Onstmettingen Baden-Württemberg,Frei
+00073,48.6183,13.062,374.0,Aldersbach-Kramersepp Bayern,Frei
+00078,52.4853,7.9125,64.0,Alfhausen Niedersachsen,Frei
+00090,50.7557,9.2583,305.0,Alsfeld Hessen,Frei
+00091,50.7446,9.345,304.0,Alsfeld-Eifa Hessen,Frei
+00093,50.7691,9.2542,269.0,Alsfeld-Reibertenrod Hessen,Frei
+00096,52.9437,12.8518,50.0,Neuruppin-Alt Ruppin Brandenburg,Frei
+00098,51.189,8.4671,780.0,Altastenberg Nordrhein-Westfalen,Frei
+00102,53.8633,8.1275,0.0,Leuchtturm Alte Weser Niedersachsen,Frei
+00106,51.7976,10.4429,500.0,Altenau,Niedersachsen
+00116,50.9833,12.4333,213.0,Altenburg Thüringen,Frei
+00125,47.8342,10.8667,739.0,Altenstadt Bayern,Frei
+00126,49.5447,10.2213,330.0,Uffenheim (Schulstr.) Bayern,Frei
+00129,53.6893,13.242,30.0,Altentreptow Mecklenburg-Vorpommern,Frei
+00131,51.0881,12.9326,296.0,Geringswalde-Altgeringswalde Sachsen,Frei
+00132,49.7725,12.3891,750.0,Altglashütte Bayern,Frei
+00142,48.406,11.3117,511.0,Altomünster-Maisbrunn Bayern,Frei
+00150,49.7273,8.1164,215.0,Alzey Rheinland-Pfalz,Frei
+00151,49.4691,11.8546,382.0,Amberg-Unterammersricht Bayern,Frei
+00154,48.0197,12.2925,516.0,Amerang-Pfaffing Bayern,Frei
+00161,50.4237,7.4202,75.0,Andernach Rheinland-Pfalz,Frei
+00164,53.0316,13.9908,54.0,Angermünde Brandenburg,Frei
+00167,53.8409,13.6854,11.0,Anklam Mecklenburg-Vorpommern,Frei
+00169,50.573,13.0053,630.0,Annaberg-Buchholz Sachsen,Frei
+00172,52.2486,9.5056,395.0,Annaturm Niedersachsen,Frei
+00174,49.1886,7.9766,250.0,Annweiler-Bindersbach Rheinland-Pfalz,Frei
+00175,49.2964,10.5751,413.0,Ansbach Bayern,Frei
+00176,49.2475,10.5826,481.0,Ansbach-Claffheim,Bayern
+00177,49.3158,10.5815,418.0,Ansbach-Hennenbach Bayern,Frei
+00181,52.8761,11.5042,30.0,Arendsee Sachsen-Anhalt,Frei
+00183,54.6791,13.4344,42.0,Arkona Mecklenburg-Vorpommern,Frei
+00184,52.6769,12.0077,55.0,Arneburg Sachsen-Anhalt,Frei
+00185,54.6289,9.9294,3.0,Arnis Schleswig-Holstein,Frei
+00186,51.3773,8.0713,218.0,Arnsberg Nordrhein-Westfalen,Frei
+00191,49.9694,9.9114,217.0,Arnstein-Müdesheim Bayern,Frei
+00193,51.3845,9.082,232.0,Arolsen-Neu Berich Hessen,Frei
+00197,51.3219,9.0558,365.0,"Arolsen-Volkhardinghausen, Bad Hessen",Frei
+00198,51.3744,11.292,164.0,Artern Thüringen,Frei
+00202,49.9771,9.1091,111.0,Aschaffenburg Bayern,Frei
+00207,51.7498,11.4667,105.0,Aschersleben Sachsen-Anhalt,Frei
+00211,50.58,8.4685,200.0,Aßlar Klein-Altenstädten Hessen,Frei
+00217,47.8774,11.3643,670.0,Attenkam Bayern,Frei
+00221,48.5515,11.7117,483.0,Au i.d.Hallertau-Günzenhausen Bayern,Frei
+00222,50.5908,12.7139,393.0,Aue Sachsen,Frei
+00231,48.3723,10.8948,490.0,Augsburg (Sankt Stephan) Bayern,Frei
+00232,48.4253,10.9417,462.0,Augsburg Bayern,Frei
+00243,53.4621,7.467,4.0,Aurich Niedersachsen,Frei
+00257,48.727,8.2457,240.0,Baden-Baden-Geroldsau Baden-Württemberg,Frei
+00259,47.8064,7.6387,275.0,Müllheim Baden-Württemberg,Frei
+00268,48.5293,8.2727,622.0,Baiersbronn-Obertal Baden-Württemberg,Frei
+00273,47.8413,9.6606,467.0,Baindt Baden-Württemberg,Frei
+00282,49.8743,10.9206,240.0,Bamberg Bayern,Frei
+00283,49.8808,10.8695,382.0,Bamberg-Altenburg Bayern,Frei
+00284,49.88,10.88,282.0,Bamberg (Sternwarte) Bayern,Frei
+00288,53.8409,13.7549,3.0,Bargischow-Gnevezin Mecklenburg-Vorpommern,Frei
+00294,52.3199,9.43,110.0,Barsinghausen-Hohenbostel Niedersachsen,Frei
+00298,54.3405,12.7108,3.0,Barth Mecklenburg-Vorpommern,Frei
+00303,52.0613,13.4997,55.0,Baruth Brandenburg,Frei
+00314,51.1604,14.5042,234.0,"Kubschütz, Kr. Bautzen Sachsen",Frei
+00320,49.9666,11.5198,350.0,Heinersreuth-Vollhof Bayern,Frei
+00321,47.6797,12.0017,789.0,Bayrischzell Bayern,Frei
+00326,51.7204,8.0577,120.0,Beckum-Unterberg Nordrhein-Westfalen,Frei
+00327,53.6234,8.8323,27.0,Bederkesa Niedersachsen,Frei
+00330,49.5617,8.9673,455.0,Oberzent-Beerfelden Hessen,Frei
+00335,54.3426,10.6018,4.0,Behrensdorf Schleswig-Holstein,Frei
+00341,47.7277,7.552,235.0,"Bellingen, Bad",Baden-Württemberg
+00342,52.317,8.1694,103.0,Belm Niedersachsen,Frei
+00348,50.4135,7.5886,127.0,Bendorf Rheinland-Pfalz,Frei
+00350,51.6715,10.7268,540.0,Benneckenstein,Sachsen-Anhalt
+00351,51.6926,10.6978,502.0,Oberharz am Brocken-Sorge Sachsen-Anhalt,Frei
+00355,49.6789,8.6276,140.0,Bensheim Hessen,Frei
+00361,47.6344,13.0109,550.0,Berchtesgaden (KKst) Bayern,Frei
+00365,49.3311,11.4303,421.0,Berg/Oberpfalz Bayern,Frei
+00368,52.8152,9.9248,69.0,Bergen Niedersachsen,Frei
+00377,49.107,7.9967,210.0,"Bergzabern, Bad Rheinland-Pfalz",Frei
+00379,50.9075,11.2665,304.0,"Berka, Bad (Flugplatz) Thüringen",Frei
+00386,51.0454,8.3851,445.0,"Berleburg, Bad Nordrhein-Westfalen",Frei
+00390,50.9837,8.3683,611.0,"Berleburg, Bad-Stünzel Nordrhein-Westfalen",Frei
+00395,52.4167,13.4833,38.0,Berlin-Adlershof Berlin,Frei
+00399,52.5198,13.4057,36.0,Berlin-Alexanderplatz Berlin,Frei
+00400,52.631,13.5021,60.0,Berlin-Buch Berlin,Frei
+00402,52.4564,13.2997,55.0,Berlin-Dahlem (LFAG) Berlin,Frei
+00403,52.4537,13.3017,51.0,Berlin-Dahlem (FU) Berlin,Frei
+00405,52.45,13.65,37.0,Berlin-Friedrichshagen Berlin,Frei
+00407,52.6461,13.2858,48.0,Berlin-Frohnau Berlin,Frei
+00408,52.5333,13.3833,35.0,Berlin-Invalidenstraße Berlin,Frei
+00410,52.404,13.7309,33.0,Berlin-Kaniswall Berlin,Frei
+00416,52.4069,13.4127,47.0,Berlin-Lichtenrade Berlin,Frei
+00417,52.4144,13.3036,43.0,Berlin-Lichterfelde (Süd) Berlin,Frei
+00420,52.5447,13.5598,61.0,Berlin-Marzahn Berlin,Frei
+00422,52.5333,13.3833,35.0,Berlin-Mitte Berlin,Frei
+00424,52.5,13.4667,36.0,Berlin-Ostkreuz Berlin,Frei
+00425,52.4044,13.4838,38.0,Berlin-Rudow Berlin,Frei
+00427,52.3807,13.5306,46.0,Berlin Brandenburg Brandenburg,Frei
+00429,52.5667,13.1694,32.0,Berlin-Spandau Berlin,Frei
+00430,52.5644,13.3088,36.0,Berlin-Tegel Berlin,Frei
+00432,52.6044,13.2952,36.0,Berlin-Tegeler Fliesstal Berlin,Frei
+00433,52.4676,13.402,48.0,Berlin-Tempelhof Berlin,Frei
+00434,52.4553,13.4699,35.0,Berlin-Treptow Berlin,Frei
+00435,52.4289,13.2327,45.0,Berlin-Zehlendorf Berlin,Frei
+00445,51.8218,11.711,85.0,Bernburg/Saale (Nord) Sachsen-Anhalt,Frei
+00450,49.9186,7.0664,120.0,Bernkastel-Kues Rheinland-Pfalz,Frei
+00458,50.0699,7.0306,185.0,"Bertrich, Bad",Rheinland-Pfalz
+00460,49.2641,6.6868,362.0,Berus Saarland,Frei
+00474,48.1252,9.7639,599.0,Warthausen-Birkenhard Baden-Württemberg,Frei
+00480,50.9275,8.4937,296.0,Biedenkopf-Wallau Hessen,Frei
+00502,49.8643,9.5044,371.0,Bischbrunn-Oberndorf Bayern,Frei
+00508,50.0539,11.8149,675.0,Bischofsgrün,Bayern
+00524,51.6333,12.3167,80.0,Bitterfeld Sachsen-Anhalt,Frei
+00526,50.6738,11.2805,254.0,"Blankenburg, Bad Thüringen",Frei
+00535,50.0372,7.3079,417.0,Blankenrath Rheinland-Pfalz,Frei
+00550,50.9041,11.7985,344.0,Bobeck Thüringen,Frei
+00553,51.838,6.6107,25.0,Bocholt (Marienschule) Nordrhein-Westfalen,Frei
+00554,51.8293,6.5365,23.0,Bocholt-Liedern (Wasserwerk) Nordrhein-Westfalen,Frei
+00555,51.5026,7.2289,110.0,Bochum Nordrhein-Westfalen,Frei
+00570,49.0768,13.0765,648.0,Bodenmais-Mais,Bayern
+00576,48.6759,8.9732,445.0,Böblingen Baden-Württemberg,Frei
+00578,48.9451,11.3667,379.0,Böhming Bayern,Frei
+00588,51.752,9.3953,105.0,Boffzen Niedersachsen,Frei
+00591,53.3911,10.6878,45.0,Boizenburg Mecklenburg-Vorpommern,Frei
+00592,53.8634,9.7344,10.0,Bokel Schleswig-Holstein,Frei
+00594,48.6407,9.6136,425.0,"Boll, Bad (KKst)",Baden-Württemberg
+00596,54.0027,11.1908,15.0,Boltenhagen Mecklenburg-Vorpommern,Frei
+00598,50.7285,7.0839,62.0,Bonn Nordrhein-Westfalen,Frei
+00599,50.7055,7.1467,62.0,Bonn-Friesdorf Nordrhein-Westfalen,Frei
+00603,50.7293,7.204,147.0,Königswinter-Heiderhof Nordrhein-Westfalen,Frei
+00606,48.079,10.1977,571.0,Boos Bayern,Frei
+00614,51.5709,9.312,240.0,Borgentreich-Bühne Nordrhein-Westfalen,Frei
+00617,51.873,6.8863,47.0,Borken in Westfalen Nordrhein-Westfalen,Frei
+00619,53.5788,6.6703,12.0,Borkum-Süderstraße Niedersachsen,Frei
+00634,49.4442,9.6458,373.0,Boxberg-Seehof,Baden-Württemberg
+00635,49.45,9.6333,378.0,Boxberg-Seehof (West),Baden-Württemberg
+00636,49.45,9.65,373.0,Boxberg-Seehof (Wind-3m),Baden-Württemberg
+00642,53.3518,8.4969,4.0,Brake Niedersachsen,Frei
+00643,53.296,8.4529,0.0,Brake-Süderfeld Niedersachsen,Frei
+00645,52.4083,7.9682,75.0,Bramsche Niedersachsen,Frei
+00648,53.8551,9.7152,9.0,Brande-Hörnerkirchen Schleswig-Holstein,Frei
+00650,52.4136,12.5503,35.0,Brandenburg-Görden Brandenburg,Frei
+00652,49.5353,10.7706,384.0,Hagenbüchach Bayern,Frei
+00656,51.7234,10.6021,607.0,Braunlage Niedersachsen,Frei
+00657,51.6634,10.669,625.0,Braunlage-Hohegeiß Niedersachsen,Frei
+00660,52.2744,10.5656,83.0,Braunschweig-Gliesmarode Niedersachsen,Frei
+00661,52.2708,10.5334,75.0,Braunschweig (T.H.) Niedersachsen,Frei
+00662,52.2915,10.4464,81.0,Braunschweig Niedersachsen,Frei
+00675,48.0333,7.6,218.0,Breisach-Eckartsberg,Baden-Württemberg
+00685,49.9017,9.4281,585.0,Breitsol Bayern,Frei
+00691,53.0451,8.7981,4.0,Bremen Bremen,Frei
+00699,53.1004,8.7834,4.0,Bremen-Seefahrtschule Bremen,Frei
+00701,53.5332,8.5761,7.0,Bremerhaven Bremen,Frei
+00702,53.5876,8.6015,8.0,Bremerhaven-Speckenbüttel Bremen,Frei
+00703,53.4779,9.1553,5.0,Bremervörde (A) Niedersachsen,Frei
+00704,53.4451,9.139,11.0,Bremervörde Niedersachsen,Frei
+00705,53.5312,9.1664,5.0,Bremervörde-Niederochtenhausen Niedersachsen,Frei
+00706,47.8858,7.6611,234.0,Eschbach Baden-Württemberg,Frei
+00710,49.0249,8.699,182.0,Bretten Baden-Württemberg,Frei
+00717,51.3873,8.5737,443.0,Brilon Nordrhein-Westfalen,Frei
+00722,51.7986,10.6183,1135.0,Brocken Sachsen-Anhalt,Frei
+00727,49.7345,8.9557,290.0,Brombachtal-Kirch-Brombach Hessen,Frei
+00728,48.8171,13.2176,1016.0,Brotjacklriegel (UBA),Bayern
+00729,50.8282,10.454,600.0,Brotterode Thüringen,Frei
+00736,49.6303,7.1148,390.0,Brücken Rheinland-Pfalz,Frei
+00743,51.2,6.1333,73.0,Brüggen (Flugplatz),Nordrhein-Westfalen
+00748,53.8887,9.1411,5.0,Brunsbüttel (Schleuse),Schleswig-Holstein
+00755,49.5182,9.3213,340.0,"Buchen, Kr. Neckar-Odenwald Baden-Württemberg",Frei
+00757,47.9625,7.9983,445.0,Buchenbach Baden-Württemberg,Frei
+00760,53.3629,9.9435,83.0,Rosengarten-Klecken Niedersachsen,Frei
+00766,50.1745,7.0595,477.0,Büchel-Alflen Rheinland-Pfalz,Frei
+00769,52.2817,9.089,68.0,Bückeburg Niedersachsen,Frei
+00771,50.2769,9.1167,148.0,Büdingen Hessen,Frei
+00772,48.6957,8.1744,190.0,Bühlertal Baden-Württemberg,Frei
+00773,48.6743,8.1799,478.0,Bühlertal-Obertal Baden-Württemberg,Frei
+00781,51.6126,8.619,221.0,Bühren-Ahden,Nordrhein-Westfalen
+00788,54.1193,8.8584,3.0,Büsum Schleswig-Holstein,Frei
+00793,49.662,7.1098,530.0,Buhlenberg Rheinland-Pfalz,Frei
+00817,51.0306,8.8146,296.0,Burgwald-Bottendorf Hessen,Frei
+00829,50.396,8.5465,479.0,Butzbach-Bodenrod,Hessen
+00840,50.4313,12.6114,895.0,Carlsfeld Sachsen,Frei
+00842,50.4252,12.5953,914.0,Carlsfeld-Weiterswiese Sachsen,Frei
+00848,52.6146,10.0726,38.0,Celle (Stadt) Niedersachsen,Frei
+00850,52.5959,10.0296,39.0,Celle Niedersachsen,Frei
+00851,49.2505,12.6044,391.0,Pemfling-Pitzling Bayern,Frei
+00853,50.7913,12.872,416.0,Chemnitz Sachsen,Frei
+00856,47.8843,12.5404,551.0,Chieming Bayern,Frei
+00860,52.2731,10.0163,80.0,Algermissen-Groß Lobke Niedersachsen,Frei
+00863,51.7904,10.347,585.0,Clausthal-Zellerfeld Niedersachsen,Frei
+00865,52.8441,8.0624,42.0,Cloppenburg Niedersachsen,Frei
+00867,50.3066,10.9679,344.0,Lautertal-Oberlauter Bayern,Frei
+00873,50.2833,10.8,283.0,"Colberg, Bad Thüringen",Frei
+00876,51.304,13.0096,314.0,Collmberg Sachsen,Frei
+00879,51.7667,14.2833,68.0,Cottbus (Flugplatz) Brandenburg,Frei
+00880,51.7759,14.3168,69.0,Cottbus Brandenburg,Frei
+00881,49.0985,10.0979,423.0,Crailsheim-Alexandersreut Baden-Württemberg,Frei
+00888,50.8149,12.3821,269.0,Crimmitschau Sachsen,Frei
+00891,53.8712,8.7058,5.0,Cuxhaven Niedersachsen,Frei
+00896,51.0778,10.8619,170.0,Dachwig Thüringen,Frei
+00909,54.0551,10.2984,54.0,Damsdorf,Schleswig-Holstein
+00917,49.8809,8.6779,162.0,Darmstadt Hessen,Frei
+00918,49.8453,8.624,122.0,Darmstadt (A) Hessen,Frei
+00919,49.8697,8.6796,169.0,Darmstadt-Botanischer Garten Hessen,Frei
+00920,49.8564,8.5929,108.0,Darmstadt (US-Air-Base) Hessen,Frei
+00927,50.1957,6.8279,430.0,Daun,Rheinland-Pfalz
+00931,47.8007,9.4108,712.0,Deggenhausertal-Azenweiler Baden-Württemberg,Frei
+00948,51.8512,12.2515,60.0,Dessau Sachsen-Anhalt,Frei
+00950,51.95,8.9,194.0,Detmold,Nordrhein-Westfalen
+00953,49.7619,7.0542,481.0,Deuselbach Rheinland-Pfalz,Frei
+00954,54.1796,7.4587,0.0,UFS Deutsche Bucht Hamburg,Frei
+00963,52.5881,8.3424,38.0,Diepholz Niedersachsen,Frei
+00964,50.0832,6.8904,413.0,Dierfeld Rheinland-Pfalz,Frei
+00965,51.2401,13.4166,100.0,Diesbar-Seußlitz Sachsen,Frei
+00970,49.4158,10.6734,405.0,Dietenhofen Bayern,Frei
+00979,50.7364,8.2672,314.0,Dillenburg Hessen,Frei
+00981,49.3531,6.749,193.0,Dillingen (Saar),Saarland
+00982,48.5701,10.4985,420.0,Dillingen/Donau Bayern,Frei
+00983,48.5562,10.56,419.0,Dillingen/Donau-Fristingen Bayern,Frei
+00991,50.9116,13.7087,359.0,Dippoldiswalde-Reinberg Sachsen,Frei
+00998,48.7968,8.4921,696.0,Dobel Baden-Württemberg,Frei
+01000,54.1442,11.8454,3.0,"Doberan, Bad-Heiligendamm Mecklenburg-Vorpommern",Frei
+01001,51.6451,13.5747,97.0,Doberlug-Kirchhain Brandenburg,Frei
+01002,51.5179,13.4436,94.0,Dobra Brandenburg,Frei
+01003,51.1333,13.1167,201.0,Döbeln Sachsen,Frei
+01006,53.1399,11.2544,15.0,Dömitz Mecklenburg-Vorpommern,Frei
+01010,52.9732,7.3209,5.0,Dörpen (Kläranlage) Niedersachsen,Frei
+01011,49.6017,7.7413,442.0,Dörrmoschel-Felsbergerhof Rheinland-Pfalz,Frei
+01013,47.6026,8.1697,309.0,Dogern Baden-Württemberg,Frei
+01018,47.9422,8.5046,677.0,Donaueschingen Baden-Württemberg,Frei
+01032,51.512,7.5345,120.0,Dortmund Nordrhein-Westfalen,Frei
+01035,51.5206,7.6161,122.0,Dortmund-Wickede,Nordrhein-Westfalen
+01047,51.0557,13.7274,112.0,Dresden (Mitte) Sachsen,Frei
+01048,51.1278,13.7543,228.0,Dresden-Klotzsche Sachsen,Frei
+01050,51.0221,13.847,112.0,Dresden-Hosterwitz Sachsen,Frei
+01051,51.0249,13.775,119.0,Dresden-Strehlen Sachsen,Frei
+01052,52.2174,12.1641,80.0,Möckern-Drewitz Sachsen-Anhalt,Frei
+01053,51.7337,9.0445,192.0,"Driburg, Bad Nordrhein-Westfalen",Frei
+01066,51.504,10.2613,180.0,Duderstadt Niedersachsen,Frei
+01072,49.4719,8.1929,107.0,"Dürkheim, Bad Rheinland-Pfalz",Frei
+01073,49.4686,8.1797,115.0,"Dürkheim, Bad (Saline) Rheinland-Pfalz",Frei
+01074,51.3043,12.081,103.0,"Dürrenberg, Bad Sachsen-Anhalt",Frei
+01076,48.0135,8.5343,692.0,"Dürrheim, Bad Baden-Württemberg",Frei
+01078,51.296,6.7686,37.0,Düsseldorf Nordrhein-Westfalen,Frei
+01079,51.1998,6.7574,37.0,Düsseldorf-Südfriedhof Nordrhein-Westfalen,Frei
+01084,51.394,6.7026,31.0,Duisburg-Friemersheim Nordrhein-Westfalen,Frei
+01087,51.4634,6.7321,21.0,Duisburg-Laar Nordrhein-Westfalen,Frei
+01091,51.2806,10.7362,258.0,Ebeleben Thüringen,Frei
+01102,48.7201,9.5328,300.0,Ebersbach/Fils Baden-Württemberg,Frei
+01103,48.1003,11.9872,592.0,Ebersberg-Halbing Bayern,Frei
+01106,52.8239,13.7979,45.0,Eberswalde Brandenburg,Frei
+01107,49.852,10.4991,346.0,Ebrach Bayern,Frei
+01109,53.0179,10.4012,58.0,Ebstorf Niedersachsen,Frei
+01126,49.96,8.64,117.0,Egelsbach,Hessen
+01130,54.6282,9.3649,18.0,Eggebek Schleswig-Holstein,Frei
+01146,48.6593,8.9121,487.0,Ehningen Baden-Württemberg,Frei
+01154,48.3416,12.882,470.0,Eiberg Bayern,Frei
+01161,48.8778,11.2349,385.0,Eichstätt-Landershofen Bayern,Frei
+01163,54.2667,8.85,4.0,Eidersperrwerk,Schleswig-Holstein
+01165,51.2167,10.3167,480.0,Eigenrieden Thüringen,Frei
+01169,47.6288,7.5959,264.0,Eimeldingen Baden-Württemberg,Frei
+01172,51.8189,9.8871,123.0,Einbeck Niedersachsen,Frei
+01182,51.5029,11.5705,146.0,Eisleben-Helfta Sachsen-Anhalt,Frei
+01188,50.7041,10.8576,518.0,Elgersburg Thüringen,Frei
+01197,48.9895,10.1312,463.0,Ellwangen-Rindelbach Baden-Württemberg,Frei
+01200,54.0691,9.0105,3.0,Elpersbüttel Schleswig-Holstein,Frei
+01201,50.9281,6.5646,85.0,Elsdorf/Erftkreis Nordrhein-Westfalen,Frei
+01204,53.2346,8.4612,1.0,Elsfleth Niedersachsen,Frei
+01207,50.2705,12.2742,558.0,"Elster, Bad-Sohl Sachsen",Frei
+01214,48.2012,8.1088,431.0,Elzach-Fisnacht Baden-Württemberg,Frei
+01219,53.3449,7.1909,5.0,Emden-Nesserland Niedersachsen,Frei
+01221,53.3707,7.2236,0.0,Emden-Wolthusen Niedersachsen,Frei
+01224,48.1378,7.8351,201.0,Emmendingen-Mundingen Baden-Württemberg,Frei
+01228,54.1651,6.346,0.0,UFS TW Ems Hamburg,Frei
+01229,50.3324,7.6975,90.0,"Ems, Bad Rheinland-Pfalz",Frei
+01238,50.9884,7.425,144.0,Engelskirchen Nordrhein-Westfalen,Frei
+01239,47.8516,8.7673,540.0,Engen/Hegau Baden-Württemberg,Frei
+01243,48.4734,9.3028,705.0,Eningen Baden-Württemberg,Frei
+01246,51.8418,8.0607,104.0,Ennigerloh-Ostenfelde Nordrhein-Westfalen,Frei
+01254,49.1307,8.9165,210.0,Eppingen Baden-Württemberg,Frei
+01255,49.1661,8.8483,226.0,Eppingen-Elsenz Baden-Württemberg,Frei
+01261,48.3167,11.95,462.0,Erding Bayern,Frei
+01262,48.3477,11.8134,446.0,München-Flughafen Bayern,Frei
+01266,54.2992,9.3162,18.0,Erfde Schleswig-Holstein,Frei
+01270,50.9827,10.9613,317.0,Erfurt-Weimar Thüringen,Frei
+01275,48.3008,13.1398,340.0,Ering Bayern,Frei
+01276,47.6358,9.5392,408.0,Eriskirch-Mariabrunn Baden-Württemberg,Frei
+01279,49.6497,11.0075,268.0,Möhrendorf-Kleinseebach Bayern,Frei
+01280,49.5692,10.9929,280.0,Erlangen-Bruck Bayern,Frei
+01281,49.5653,10.9729,284.0,Erlangen-Frauenaurach,Bayern
+01287,49.8589,9.2861,198.0,Eschau-Hobbach Bayern,Frei
+01292,49.7522,11.8222,470.0,Eschenbach/Oberpfalz Bayern,Frei
+01297,51.2041,10.0138,156.0,Eschwege Hessen,Frei
+01299,53.6476,7.6085,3.0,Esens Niedersachsen,Frei
+01300,51.254,8.1565,351.0,Eslohe Nordrhein-Westfalen,Frei
+01303,51.4041,6.9677,150.0,Essen-Bredeney Nordrhein-Westfalen,Frei
+01327,50.7119,6.7905,147.0,Weilerswist-Lommersum Nordrhein-Westfalen,Frei
+01329,54.134,10.5865,50.0,Eutin Schleswig-Holstein,Frei
+01332,48.4832,12.7241,471.0,"Falkenberg,Kr.Rottal-Inn Bayern",Frei
+01339,52.9157,10.1885,74.0,Faßberg Niedersachsen,Frei
+01341,54.6,11.15,0.0,Fehmarnbelt Schleswig-Holstein,Frei
+01345,53.3346,13.4371,92.0,Feldberg Mecklenburg-Vorpommern,Frei
+01346,47.8748,8.0038,1486.0,Feldberg/Schwarzwald Baden-Württemberg,Frei
+01347,47.8555,8.1155,962.0,Feldberg-Altglashütten Baden-Württemberg,Frei
+01357,49.9807,11.8376,655.0,Fichtelberg/Oberfranken-Hüttstadl Bayern,Frei
+01358,50.4283,12.9536,1213.0,Fichtelberg Sachsen,Frei
+01359,50.0242,11.2219,705.0,Fichtelberg/Ofr Bayern,Frei
+01372,47.4608,10.2696,757.0,Fischen Bayern,Frei
+01374,50.505,10.1668,366.0,Fladungen-Heufurt Bayern,Frei
+01378,54.8086,9.4182,45.0,Flensburg Schleswig-Holstein,Frei
+01379,54.7737,9.3753,41.0,Flensburg (Schäferhaus) Schleswig-Holstein,Frei
+01380,54.8147,9.458,19.0,Flensburg-Mürwik Schleswig-Holstein,Frei
+01392,49.7316,12.3489,621.0,Flossenbürg Bayern,Frei
+01403,50.0616,9.455,260.0,Frammersbach Bayern,Frei
+01410,51.3512,11.0958,140.0,"Frankenhausen, Bad/Kyffhäuser Thüringen",Frei
+01411,50.5309,10.0479,747.0,Birx/Rhön Thüringen,Frei
+01415,50.0333,8.5333,100.0,Frankfurt (07W) Hessen,Frei
+01416,50.0167,8.5333,97.0,Frankfurt (18W) Hessen,Frei
+01420,50.0259,8.5213,100.0,Frankfurt/Main Hessen,Frei
+01421,50.1474,8.6746,125.0,Frankfurt/Main (Stadt) Hessen,Frei
+01422,50.0972,8.6936,114.0,Frankfurt (Henninger Turm) Hessen,Frei
+01423,50.0496,8.5887,111.0,Frankfurt/Main (Terminal) Hessen,Frei
+01424,50.1269,8.6694,121.0,Frankfurt/Main-Westend Hessen,Frei
+01425,50.1214,8.6604,103.0,Frankfurt/Main (Feldbergstr.) Hessen,Frei
+01426,52.3397,14.508,67.0,Frankfurt/Oder Brandenburg,Frei
+01428,49.2275,8.0585,230.0,Frankweiler Rheinland-Pfalz,Frei
+01440,48.2018,7.9339,476.0,Freiamt-Ottoschwanden Baden-Württemberg,Frei
+01441,50.9263,13.2711,416.0,Freiberg Sachsen,Frei
+01443,48.0232,7.8343,237.0,Freiburg Baden-Württemberg,Frei
+01447,48.013,7.8588,255.0,Freiburg im Breisgau-Herdern Baden-Württemberg,Frei
+01451,53.8277,9.2493,2.0,Freiburg/Elbe Niedersachsen,Frei
+01467,48.4607,8.4141,736.0,Freudenstadt-Kurgarten Baden-Württemberg,Frei
+01468,48.4538,8.409,797.0,Freudenstadt Baden-Württemberg,Frei
+01473,49.1869,11.308,414.0,Freystadt-Michelbach Bayern,Frei
+01481,47.9216,8.2547,928.0,Friedenweiler,Baden-Württemberg
+01488,51.6884,11.0394,523.0,Friedrichsbrunn Sachsen-Anhalt,Frei
+01490,47.6454,9.4795,394.0,Friedrichshafen Baden-Württemberg,Frei
+01492,47.7819,7.7348,852.0,Malsburg-Marzell-Friedrichsheim Baden-Württemberg,Frei
+01493,50.4788,11.0159,793.0,Friedrichshöhe,Thüringen
+01503,53.0643,7.902,6.0,Friesoythe-Altenoythe Niedersachsen,Frei
+01504,51.119,9.2799,172.0,Fritzlar/Eder Hessen,Frei
+01505,51.1333,9.2833,222.0,Fritzlar-Kasseler Warte Hessen,Frei
+01513,50.6588,8.1027,653.0,Fuchskauten Rheinland-Pfalz,Frei
+01515,48.2,11.2667,519.0,Fürstenfeldbruck Bayern,Frei
+01522,49.4811,10.964,313.0,Fürth/Bayern (A) Bayern,Frei
+01526,50.5668,9.6532,245.0,Fulda-Horas Hessen,Frei
+01544,52.5129,11.3942,47.0,Gardelegen Sachsen-Anhalt,Frei
+01550,47.483,11.0621,719.0,Garmisch-Partenkirchen Bayern,Frei
+01552,53.2066,14.3817,13.0,Gartz/Oder Brandenburg,Frei
+01568,50.6605,10.7565,721.0,Gehlberg-Schmücker Graben Thüringen,Frei
+01572,50.9593,6.0392,80.0,Geilenkirchen-Neutevern Nordrhein-Westfalen,Frei
+01580,49.9859,7.9548,111.0,Geisenheim Hessen,Frei
+01583,50.7719,13.7732,823.0,Geisingberg Sachsen,Frei
+01584,47.9242,8.6474,673.0,Geisingen Baden-Württemberg,Frei
+01586,47.8774,12.6279,610.0,Traunstein-Geißing Bayern,Frei
+01587,48.9481,11.4289,536.0,Gelbelsee Bayern,Frei
+01590,51.4942,6.2463,37.0,Geldern-Walbeck Nordrhein-Westfalen,Frei
+01593,50.2027,9.1989,190.0,Gelnhausen Hessen,Frei
+01602,48.433,7.993,177.0,Ohlsbach Baden-Württemberg,Frei
+01605,52.3875,12.1602,35.0,Genthin Sachsen-Anhalt,Frei
+01612,50.8812,12.1289,311.0,Gera-Leumnitz Thüringen,Frei
+01617,51.7259,11.1317,210.0,Gernrode Sachsen-Anhalt,Frei
+01619,49.7622,8.4887,90.0,Gernsheim Hessen,Frei
+01621,50.2777,9.9144,553.0,Geroda-Platz Bayern,Frei
+01623,50.4477,9.9174,530.0,Gersfeld Hessen,Frei
+01638,50.591,8.6551,158.0,Gießen (Lahntal) Hessen,Frei
+01639,50.6017,8.6439,203.0,Gießen/Wettenberg Hessen,Frei
+01645,50.9656,9.05,327.0,Gilserberg-Moischeid Hessen,Frei
+01666,54.8273,9.5058,12.0,Glücksburg-Meierwik Schleswig-Holstein,Frei
+01667,53.797,9.4295,1.0,Glückstadt Schleswig-Holstein,Frei
+01672,51.6833,6.1667,19.0,Goch,Nordrhein-Westfalen
+01684,51.1621,14.9506,239.0,Görlitz Sachsen,Frei
+01689,49.7656,11.3062,441.0,Gößweinstein Bayern,Frei
+01691,51.5002,9.9507,167.0,Göttingen Niedersachsen,Frei
+01694,53.6058,12.1034,59.0,Goldberg Mecklenburg-Vorpommern,Frei
+01709,50.8496,13.9392,360.0,"Gottleuba, Bad Sachsen",Frei
+01721,49.664,11.2239,506.0,Gräfenberg-Kasberg Bayern,Frei
+01735,48.7894,13.629,628.0,Grainet-Rehberg Bayern,Frei
+01736,53.5731,10.6797,26.0,Grambek Schleswig-Holstein,Frei
+01748,50.4788,9.262,608.0,Grebenhain-Herchenhain Hessen,Frei
+01757,54.0967,13.4056,2.0,Greifswald Mecklenburg-Vorpommern,Frei
+01758,54.1,13.45,2.0,Greifswald-Wieck Mecklenburg-Vorpommern,Frei
+01759,54.2437,13.9104,11.0,Greifswalder Oie Mecklenburg-Vorpommern,Frei
+01762,50.6249,12.1777,270.0,Greiz-Dölau Thüringen,Frei
+01766,52.1344,7.6969,48.0,Münster/Osnabrück Nordrhein-Westfalen,Frei
+01792,52.7553,7.4815,27.0,Groß Berßen Niedersachsen,Frei
+01803,54.0714,12.3238,35.0,Sanitz-Groß Lüsewitz Mecklenburg-Vorpommern,Frei
+01818,52.3667,13.3167,40.0,Großbeeren Brandenburg,Frei
+01831,49.1129,13.1365,1449.0,Großer Arber (Ost) Bayern,Frei
+01832,49.1129,13.1338,1436.0,Großer Arber Bayern,Frei
+01833,49.0851,13.2801,1307.0,Grosser Falkenstein Bayern,Frei
+01834,50.8519,10.4665,913.0,Grosser Inselsberg Thüringen,Frei
+01844,47.9411,11.9004,517.0,Feldkirchen-Westerham-Lenzmühle Bayern,Frei
+01849,48.8126,11.5728,408.0,Großmehring-Theißing Bayern,Frei
+01857,51.4934,10.6918,195.0,Großwechsungen Thüringen,Frei
+01863,50.2667,9.1854,258.0,Gründau-Breitenborn Hessen,Frei
+01869,53.3154,13.9339,56.0,Grünow Brandenburg,Frei
+01873,51.7956,10.238,300.0,"Grund, Bad Niedersachsen",Frei
+01874,51.8,10.2167,320.0,"Grund, Bad (Erzbergwerk)",Niedersachsen
+01875,48.9354,9.7364,492.0,"Gschwend, Kr. Ostalb Baden-Württemberg",Frei
+01886,48.4878,10.2608,444.0,Günzburg Bayern,Frei
+01890,53.7667,12.2167,30.0,Güstrow-Schabernack Mecklenburg-Vorpommern,Frei
+01891,51.877,8.3577,73.0,Rheda-Wiedenbrück-Lintel Nordrhein-Westfalen,Frei
+01892,51.9298,8.3005,72.0,Gütersloh (Flugplatz) Nordrhein-Westfalen,Frei
+01902,49.1273,10.7448,413.0,Gunzenhausen/Altmühlsee,Bayern
+01920,51.4129,7.4895,100.0,Hagen-Fley Nordrhein-Westfalen,Frei
+01922,51.3598,7.4717,111.0,Hagen (Stadtsparkasse),Nordrhein-Westfalen
+01929,51.8597,10.3368,567.0,Hahnenklee Niedersachsen,Frei
+01957,51.5138,11.9499,93.0,Halle-Kröllwitz Sachsen-Anhalt,Frei
+01960,51.4831,11.9671,102.0,Halle (Stadt) Sachsen-Anhalt,Frei
+01963,54.5742,8.5133,4.0,Hallig Hooge Schleswig-Holstein,Frei
+01964,49.9445,6.3821,328.0,Olsdorf Rheinland-Pfalz,Frei
+01972,53.4793,10.2415,35.0,Hamburg-Bergedorf Hamburg,Frei
+01973,53.5598,9.9874,14.0,Hamburg-Botanischer Garten Hamburg,Frei
+01975,53.6332,9.9881,11.0,Hamburg-Fuhlsbüttel Hamburg,Frei
+01979,53.4213,10.1462,2.0,Hamburg-Kirchwerder Hamburg,Frei
+01981,53.4776,9.8957,4.0,Hamburg-Neuwiedenthal Hamburg,Frei
+01986,53.4699,10.1804,1.0,Hamburg-Reitbrook Hamburg,Frei
+01987,53.5467,9.9662,47.0,Hamburg-Sankt Pauli Hamburg,Frei
+01990,53.5853,10.1293,18.0,Hamburg-Wandsbek Hamburg,Frei
+01993,52.0848,9.3896,68.0,Hameln Niedersachsen,Frei
+02000,50.1205,8.9243,106.0,Hanau Hessen,Frei
+02005,52.7199,10.5984,108.0,Hankensbüttel Niedersachsen,Frei
+02014,52.4644,9.6779,55.0,Hannover Niedersachsen,Frei
+02023,48.7918,10.7062,501.0,Harburg Bayern,Frei
+02039,51.9002,10.5699,203.0,"Harzburg, Bad Niedersachsen",Frei
+02044,51.652,11.1366,404.0,Harzgerode Sachsen-Anhalt,Frei
+02048,53.6342,9.6038,3.0,Haseldorf Schleswig-Holstein,Frei
+02053,51.6868,10.8631,461.0,Hasselfelde Sachsen-Anhalt,Frei
+02055,50.0493,10.4947,292.0,Haßfurt Bayern,Frei
+02069,48.8629,13.067,648.0,Hausstein Bayern,Frei
+02074,48.3752,8.98,518.0,Hechingen Baden-Württemberg,Frei
+02078,54.2181,9.0853,10.0,Weddingstedt Schleswig-Holstein,Frei
+02080,49.4206,8.6676,110.0,Heidelberg Baden-Württemberg,Frei
+02081,49.3981,8.7251,561.0,Königstuhl Baden-Württemberg,Frei
+02083,49.4192,8.6051,110.0,Heidelberg-Grenzhof Baden-Württemberg,Frei
+02088,48.6849,10.142,522.0,Heidenheim/Brenz Baden-Württemberg,Frei
+02092,50.1691,7.9949,496.0,Heidenrod-Mappershain Hessen,Frei
+02093,53.8562,9.8227,30.0,Heidmoor Schleswig-Holstein,Frei
+02095,49.1448,9.2333,167.0,Heilbronn Baden-Württemberg,Frei
+02100,54.186,7.9119,4.0,Helgoland-Düne Schleswig-Holstein,Frei
+02110,51.0411,6.1042,57.0,Heinsberg-Schleiden Nordrhein-Westfalen,Frei
+02115,54.175,7.892,4.0,Helgoland Schleswig-Holstein,Frei
+02120,52.2164,11.0219,140.0,Helmstedt Niedersachsen,Frei
+02122,53.9701,9.0095,2.0,"Helse, Kr. Dithmarschen Schleswig-Holstein",Frei
+02147,52.1264,8.6865,77.0,Herford Nordrhein-Westfalen,Frei
+02151,51.0048,10.1705,215.0,Herleshausen Hessen,Frei
+02158,48.8042,8.443,350.0,"Herrenalb, Bad Baden-Württemberg",Frei
+02159,48.5915,8.8541,434.0,Herrenberg Baden-Württemberg,Frei
+02160,50.8444,10.6904,360.0,Herrenhof Thüringen,Frei
+02166,51.0167,14.75,344.0,Herrnhut Sachsen,Frei
+02167,49.7672,7.3356,302.0,Niederwörresbach Rheinland-Pfalz,Frei
+02171,50.852,9.7377,272.0,"Hersfeld, Bad Hessen",Frei
+02173,51.589,7.1548,60.0,Herten Nordrhein-Westfalen,Frei
+02174,51.6255,10.3695,236.0,Herzberg Niedersachsen,Frei
+02201,54.575,13.1044,1.0,Hiddensee-Vitte Mecklenburg-Vorpommern,Frei
+02206,52.1408,9.8838,117.0,Hildesheim Niedersachsen,Frei
+02207,52.1833,9.95,91.0,Hildesheim (Flugplatz) Niedersachsen,Frei
+02211,50.737,7.6525,295.0,Hilgenroth Rheinland-Pfalz,Frei
+02221,47.5408,10.4371,1053.0,Hindelang-Unterjoch,Bayern
+02223,50.3674,10.5687,300.0,Hindfeld Thüringen,Frei
+02225,50.9167,14.3667,385.0,Hinterhermsdorf Sachsen,Frei
+02226,50.4707,10.9106,668.0,Eisfeld-Waffenrod-Hinterrod Thüringen,Frei
+02228,47.8983,8.1055,883.0,Hinterzarten Baden-Württemberg,Frei
+02244,47.7327,8.1627,1008.0,Höchenschwand Baden-Württemberg,Frei
+02250,49.1279,12.8645,403.0,Höllenstein (Kraftwerk) Bayern,Frei
+02252,50.8992,14.7456,271.0,Bertsdorf-Hörnitz Sachsen,Frei
+02253,54.7667,8.2833,10.0,Hörnum/Sylt Schleswig-Holstein,Frei
+02260,50.323,11.9077,474.0,Hof (Stadt) Bayern,Frei
+02261,50.3123,11.876,565.0,Hof Bayern,Frei
+02264,51.534,9.4789,242.0,Hofgeismar-Beberbeck Hessen,Frei
+02268,50.1351,10.5156,265.0,Hofheim Bayern,Frei
+02289,52.6667,12.3333,28.0,Hohennauen Brandenburg,Frei
+02290,47.8009,11.0108,977.0,Hohenpeißenberg Bayern,Frei
+02297,54.1195,9.7127,80.0,Hohenwestedt Schleswig-Holstein,Frei
+02302,50.9632,11.4847,317.0,Hohlstedt-Kötschau Thüringen,Frei
+02303,54.3162,9.5385,10.0,Hohn Schleswig-Holstein,Frei
+02306,54.3194,10.6732,8.0,Hohwacht Schleswig-Holstein,Frei
+02315,51.7657,13.1666,78.0,Holzdorf-Bernsdorf Brandenburg,Frei
+02318,50.2182,7.9133,397.0,Holzhausen a.d. Haide Rheinland-Pfalz,Frei
+02319,47.8823,11.6961,685.0,Holzkirchen Bayern,Frei
+02323,51.8529,9.4953,110.0,"Bevern, Kr. Holzminden Niedersachsen",Frei
+02324,51.7659,9.5447,440.0,Holzminden-Silberborn Niedersachsen,Frei
+02327,50.7316,9.0032,250.0,Homberg/Ohm Hessen,Frei
+02331,49.3278,7.3533,235.0,Homburg/Saar Saarland,Frei
+02338,52.3333,7.55,39.0,Hopsten (Flugplatz) Nordrhein-Westfalen,Frei
+02344,50.1511,11.698,582.0,Horlachen Bayern,Frei
+02349,48.6136,8.2033,1138.0,Hornisgrinde Baden-Württemberg,Frei
+02352,47.6227,8.0177,712.0,Hottingen,Baden-Württemberg
+02354,51.4379,14.2426,118.0,Hoyerswerda Kr. Bautzen Sachsen,Frei
+02360,48.6018,11.6769,438.0,Hüll Bayern,Frei
+02362,50.5651,7.4843,331.0,Hümmerich Rheinland-Pfalz,Frei
+02374,54.4751,9.0567,3.0,Husum Schleswig-Holstein,Frei
+02377,47.7001,7.5895,362.0,Kandern-Gupf Baden-Württemberg,Frei
+02385,49.6927,7.3263,376.0,Idar-Oberstein Rheinland-Pfalz,Frei
+02388,48.0419,7.6322,193.0,Ihringen Baden-Württemberg,Frei
+02393,50.6805,10.9073,498.0,Ilmenau Thüringen,Frei
+02396,51.8667,10.6833,260.0,Ilsenburg Sachsen-Anhalt,Frei
+02406,49.2967,9.652,209.0,Ingelfingen Baden-Württemberg,Frei
+02410,48.7111,11.5363,364.0,Ingolstadt-Manching Bayern,Frei
+02417,48.1644,12.0307,621.0,Mittbach Bayern,Frei
+02422,51.3768,7.7644,230.0,Iserlohn-Westig Nordrhein-Westfalen,Frei
+02423,47.6894,10.0416,712.0,Isny Baden-Württemberg,Frei
+02429,53.9897,9.5697,20.0,Itzehoe Schleswig-Holstein,Frei
+02436,52.0547,13.2344,55.0,Jänickendorf,Brandenburg
+02437,54.457,9.5203,21.0,Schleswig-Jagel Schleswig-Holstein,Frei
+02444,50.9251,11.583,155.0,Jena (Sternwarte) Thüringen,Frei
+02451,51.7954,12.9583,77.0,Jessen/Elster Sachsen-Anhalt,Frei
+02456,53.5322,7.8806,7.0,Jever Niedersachsen,Frei
+02464,53.5316,9.6752,1.0,Jork Niedersachsen,Frei
+02465,53.5083,9.7376,0.0,Jork-Moorende Niedersachsen,Frei
+02474,50.9104,6.4093,91.0,Jülich (Forsch.-Anlage) Nordrhein-Westfalen,Frei
+02475,51.9999,13.101,75.0,Jüterbog Brandenburg,Frei
+02477,47.5938,7.9597,728.0,Jungholz (Kühmoos),Baden-Württemberg
+02480,50.0643,8.993,108.0,Kahl/Main Bayern,Frei
+02482,51.1806,8.49,741.0,Kahler Asten (A) Nordrhein-Westfalen,Frei
+02483,51.1803,8.4891,839.0,Kahler Asten Nordrhein-Westfalen,Frei
+02485,48.917,9.6871,489.0,Kaisersbach-Cronhütte Baden-Württemberg,Frei
+02486,49.4262,7.7557,271.0,Kaiserslautern Rheinland-Pfalz,Frei
+02488,48.7701,10.7876,516.0,Kaisheim-Neuhof Bayern,Frei
+02493,54.4333,10.3667,2.0,Kalifornien,Schleswig-Holstein
+02494,51.7329,6.2688,31.0,Kalkar Nordrhein-Westfalen,Frei
+02497,50.5014,6.5264,505.0,Kall-Sistig Nordrhein-Westfalen,Frei
+02502,51.318,10.1348,447.0,"Heiligenstadt, Heilbad-Kalteneber Thüringen",Frei
+02503,50.6266,10.1455,487.0,Kaltennordheim Thüringen,Frei
+02506,51.2667,14.0833,270.0,Kamenz Sachsen,Frei
+02521,48.6725,11.3092,376.0,Karlshuld Bayern,Frei
+02522,49.0373,8.3637,112.0,Karlsruhe Baden-Württemberg,Frei
+02532,51.2963,9.4424,231.0,Kassel Hessen,Frei
+02533,51.334,9.4506,198.0,Kassel-Harleshausen Hessen,Frei
+02536,51.3173,9.4145,283.0,Kassel-Wilhelmshöhe (A),Hessen
+02542,47.8652,10.6007,716.0,Kaufbeuren Bayern,Frei
+02543,48.0916,10.8609,585.0,Kaufering Bayern,Frei
+02546,48.5576,7.88,140.0,Kehl-Odelshofen Baden-Württemberg,Frei
+02559,47.7233,10.3348,705.0,Kempten Bayern,Frei
+02564,54.3776,10.1424,28.0,Kiel-Holtenau Schleswig-Holstein,Frei
+02565,54.3378,10.0929,17.0,Kiel-Kronshagen Schleswig-Holstein,Frei
+02573,47.9588,12.7717,470.0,Waging am See-Schnöbling Bayern,Frei
+02575,49.1804,9.98,432.0,Kirchberg/Jagst-Herboldshausen Baden-Württemberg,Frei
+02578,53.9995,11.4341,14.0,Kirchdorf/Poel Mecklenburg-Vorpommern,Frei
+02597,50.224,10.0792,282.0,"Kissingen, Bad Bayern",Frei
+02600,49.7363,10.1781,193.0,Kitzingen Bayern,Frei
+02601,50.2218,8.4469,822.0,Kleiner Feldberg/Taunus Hessen,Frei
+02609,53.9587,10.3293,40.0,Klein Rönnau Schleswig-Holstein,Frei
+02618,50.8458,10.4803,732.0,Kleiner Inselsberg Thüringen,Frei
+02621,52.4045,13.2134,42.0,Kleinmachnow Brandenburg,Frei
+02627,51.5554,13.8845,128.0,Schipkau-Klettwitz Brandenburg,Frei
+02629,51.7612,6.0954,46.0,Kleve Nordrhein-Westfalen,Frei
+02638,48.1054,8.7548,974.0,Klippeneck Baden-Württemberg,Frei
+02641,51.5185,12.9065,90.0,Klitzschen bei Torgau Sachsen,Frei
+02649,50.9138,11.8616,310.0,"Klosterlausnitz, Bad Thüringen",Frei
+02654,49.0265,8.7554,200.0,Knittlingen Baden-Württemberg,Frei
+02656,50.3519,7.5906,96.0,Koblenz Rheinland-Pfalz,Frei
+02657,50.3369,7.5992,85.0,Koblenz-Horchheim Rheinland-Pfalz,Frei
+02664,51.1906,11.2436,143.0,Kölleda Thüringen,Frei
+02665,50.9615,6.9712,45.0,Köln-Botanischer Garten Nordrhein-Westfalen,Frei
+02667,50.8645,7.1575,91.0,Köln/Bonn Nordrhein-Westfalen,Frei
+02680,50.284,10.4456,289.0,"Königshofen, Bad Bayern",Frei
+02689,53.2279,9.6527,40.0,Königsmoor Niedersachsen,Frei
+02691,48.6707,11.2173,378.0,Königsmoos-Untermaxfeld Bayern,Frei
+02693,50.1855,8.4698,380.0,Königstein/Taunus Hessen,Frei
+02698,51.6723,11.7791,90.0,Könnern Sachsen-Anhalt,Frei
+02700,48.8302,11.4872,416.0,Kösching Bayern,Frei
+02701,51.1329,11.7252,136.0,"Kösen, Bad Sachsen-Anhalt",Frei
+02703,51.855,9.3239,493.0,Köterberg Nordrhein-Westfalen,Frei
+02704,51.7511,12.0094,76.0,Köthen (Anhalt) Sachsen-Anhalt,Frei
+02708,47.6652,11.0805,742.0,"Kohlgrub, Bad (Rosshof) Bayern",Frei
+02712,47.6952,9.1307,428.0,Konstanz Baden-Württemberg,Frei
+02713,47.66,9.1649,398.0,Konstanz (Stadtgärtnerei) Baden-Württemberg,Frei
+02717,51.2662,8.8309,395.0,Korbach-Lengefeld Hessen,Frei
+02738,47.6448,11.7438,776.0,Kreuth Bayern,Frei
+02750,50.2524,11.3209,310.0,Kronach Bayern,Frei
+02757,47.9077,7.702,238.0,"Krozingen, Bad",Baden-Württemberg
+02758,47.9585,7.6578,202.0,"Krozingen, Bad-Hausen",Baden-Württemberg
+02760,52.288,12.0707,45.0,Krüssau Sachsen-Anhalt,Frei
+02761,48.251,10.4163,520.0,Krumbach-Edenhausen Bayern,Frei
+02770,53.9015,10.2359,35.0,Kükels Schleswig-Holstein,Frei
+02773,49.4283,11.9016,416.0,Kümmersbruck Bayern,Frei
+02775,49.2795,9.6925,225.0,Künzelsau Baden-Württemberg,Frei
+02780,50.1003,11.4494,330.0,Kulmbach Bayern,Frei
+02783,48.5126,12.1513,436.0,Kumhausen Bayern,Frei
+02790,49.5592,7.4134,296.0,Kusel-Fünfbirken Rheinland-Pfalz,Frei
+02794,52.9362,12.4093,40.0,Kyritz Brandenburg,Frei
+02796,53.9156,12.279,40.0,Laage-Kronskamp Mecklenburg-Vorpommern,Frei
+02798,51.6,6.15,32.0,Laarbruch,Nordrhein-Westfalen
+02812,48.3647,7.828,156.0,Lahr Baden-Württemberg,Frei
+02814,48.5122,9.7644,687.0,Merklingen Baden-Württemberg,Frei
+02821,51.9603,10.0157,214.0,Lamspringe Niedersachsen,Frei
+02829,48.0772,10.9144,617.0,Landsberg (Flugplatz) Bayern,Frei
+02830,48.0349,10.8709,602.0,Landsberg/Lech Bayern,Frei
+02831,48.5357,12.1132,393.0,Landshut Bayern,Frei
+02856,51.9173,13.0878,92.0,Langenlipsdorf Brandenburg,Frei
+02857,51.1173,10.6568,175.0,"Langensalza, Bad Thüringen",Frei
+02861,53.7445,7.4775,5.0,Langeoog Niedersachsen,Frei
+02872,52.8457,7.3489,15.0,Lathen Niedersachsen,Frei
+02878,51.3909,11.8786,117.0,"Lauchstädt, Bad Sachsen-Anhalt",Frei
+02879,49.5781,9.7142,199.0,Lauda-Königshofen-Gerlachsheim Baden-Württemberg,Frei
+02886,48.2175,9.9097,539.0,Laupheim Baden-Württemberg,Frei
+02889,51.6323,10.4737,300.0,"Lauterberg, Bad (A) Niedersachsen",Frei
+02897,50.5808,9.2857,522.0,Lautertal-Hörgenau Hessen,Frei
+02905,48.1849,10.8507,550.0,Lechfeld Bayern,Frei
+02906,54.775,8.9808,5.0,Leck (A) Schleswig-Holstein,Frei
+02907,54.7903,8.9514,7.0,Leck Schleswig-Holstein,Frei
+02912,54.7419,9.8791,9.0,Lehbek Schleswig-Holstein,Frei
+02915,50.4833,11.45,640.0,Lehesten/Thüringer Wald Thüringen,Frei
+02920,48.7654,12.5121,365.0,Leiblfing Bayern,Frei
+02923,47.9116,10.6124,663.0,Leinau Bayern,Frei
+02925,51.3932,10.3123,356.0,Leinefelde Thüringen,Frei
+02926,48.4333,10.2333,477.0,Leipheim (Flugplatz) Bayern,Frei
+02928,51.3151,12.4462,138.0,Leipzig-Holzhausen Sachsen,Frei
+02931,51.392,12.3962,128.0,Leipzig-Mockau Sachsen,Frei
+02932,51.4347,12.2396,131.0,Leipzig/Halle Sachsen,Frei
+02947,51.1333,8.0348,286.0,Lennestadt-Theten Nordrhein-Westfalen,Frei
+02949,48.5396,9.5275,758.0,Lenningen-Schopfloch Baden-Württemberg,Frei
+02950,54.219,10.8844,14.0,Lensahn Schleswig-Holstein,Frei
+02951,53.1007,11.4864,20.0,Lenzen/Elbe Brandenburg,Frei
+02953,47.8597,8.2308,854.0,Lenzkirch-Ruhbühl Baden-Württemberg,Frei
+02954,47.8919,8.1788,990.0,Lenzkirch-Saig,Baden-Württemberg
+02961,54.4996,10.2737,0.0,Leuchtturm Kiel Schleswig-Holstein,Frei
+02963,51.3167,12.0333,92.0,Leunawerke Sachsen-Anhalt,Frei
+02968,50.9894,6.9777,43.0,Köln-Stammheim Nordrhein-Westfalen,Frei
+02985,50.9383,14.2094,321.0,Lichtenhain-Mittelndorf Sachsen,Frei
+02996,48.7726,8.7287,352.0,"Liebenzell, Bad Baden-Württemberg",Frei
+03001,48.0674,7.677,284.0,Liliental Baden-Württemberg,Frei
+03004,50.4116,8.0605,185.0,Limburg/Lahn-Offheim Hessen,Frei
+03007,49.4111,8.398,96.0,Limburgerhof Rheinland-Pfalz,Frei
+03015,52.2085,14.118,98.0,Lindenberg Brandenburg,Frei
+03016,47.598,9.8878,760.0,Lindenberg/Allgäu Bayern,Frei
+03017,49.68,8.7823,341.0,Lindenfels Hessen,Frei
+03018,49.7117,8.7804,445.0,Lindenfels-Winterkasten Hessen,Frei
+03023,52.5181,7.3081,22.0,Lingen Niedersachsen,Frei
+03028,51.7854,8.8388,157.0,"Lippspringe, Bad Nordrhein-Westfalen",Frei
+03031,51.6336,8.3945,92.0,Lippstadt-Bökenförde Nordrhein-Westfalen,Frei
+03032,55.011,8.4125,25.0,List auf Sylt Schleswig-Holstein,Frei
+03034,50.4505,11.635,496.0,"Lobenstein, Bad Thüringen",Frei
+03042,50.5617,8.2386,230.0,Löhnberg-Obershausen Hessen,Frei
+03044,52.7198,7.7472,22.0,Löningen Niedersachsen,Frei
+03045,52.7432,7.8763,27.0,Löningen-Hagel Niedersachsen,Frei
+03046,52.7333,7.7333,20.0,Löningen-Schnetlage Niedersachsen,Frei
+03056,50.0103,9.61,161.0,Lohr/Main-Steinbach Bayern,Frei
+03062,50.0352,7.8197,100.0,Lorch/Rhein Hessen,Frei
+03076,49.4606,8.4246,95.0,Ludwigshafen-Mundenheim Rheinland-Pfalz,Frei
+03082,51.9333,13.8833,56.0,Lübben Brandenburg,Frei
+03083,51.9267,13.8797,57.0,Lübben-Blumenfelde Brandenburg,Frei
+03085,53.8773,10.6915,15.0,Lübeck Schleswig-Holstein,Frei
+03086,53.8025,10.6989,15.0,Lübeck-Blankensee Schleswig-Holstein,Frei
+03088,53.8953,10.704,5.0,Lübeck-Werft Schleswig-Holstein,Frei
+03093,52.9724,11.1374,16.0,Lüchow Niedersachsen,Frei
+03096,51.2131,7.6359,444.0,Lüdenscheid (Zeppelin-Gymnasium) Nordrhein-Westfalen,Frei
+03098,51.2452,7.6425,387.0,Lüdenscheid Nordrhein-Westfalen,Frei
+03101,51.7694,7.4128,58.0,Lüdinghausen Nordrhein-Westfalen,Frei
+03103,53.2657,10.424,11.0,Lüneburg Niedersachsen,Frei
+03113,50.7663,10.7201,528.0,Luisenthal/Ohra Thüringen,Frei
+03126,52.1029,11.5827,79.0,Magdeburg Sachsen-Anhalt,Frei
+03135,49.0643,9.582,473.0,Mainhardt-Ziegelbronn Baden-Württemberg,Frei
+03137,49.9658,8.2049,199.0,Mainz-Lerchenberg (ZDF) Rheinland-Pfalz,Frei
+03138,49.9798,8.1668,200.0,Mainz-Finthen,Rheinland-Pfalz
+03139,48.2166,11.2965,509.0,Maisach-Gernlinden Bayern,Frei
+03145,54.18,10.5528,30.0,"Malente, Bad-Gremsmühlen",Schleswig-Holstein
+03147,48.7548,12.2118,390.0,Mallersdorf-Pfaffenberg-Oberlindhart Bayern,Frei
+03155,50.1015,6.8009,415.0,Manderscheid-Sonnenhof Rheinland-Pfalz,Frei
+03158,52.5468,14.5453,12.0,Manschnow Brandenburg,Frei
+03160,51.6084,11.4139,240.0,Vatterode-Gräfenstuhl Sachsen-Anhalt,Frei
+03164,50.8492,8.7745,187.0,"Cölbe, Kr. Marburg-Biedenkopf Hessen",Frei
+03166,50.6511,13.1469,639.0,Marienberg Sachsen,Frei
+03167,50.6621,7.9603,547.0,"Marienberg, Bad Rheinland-Pfalz",Frei
+03170,54.4937,11.2411,9.0,Marienleuchte Schleswig-Holstein,Frei
+03181,49.4875,10.6277,360.0,Markt Erlbach-Hagenhofen Bayern,Frei
+03196,53.3221,11.9324,81.0,Marnitz Mecklenburg-Vorpommern,Frei
+03204,50.7335,10.8815,429.0,Martinroda Thüringen,Frei
+03211,48.9359,13.5746,1012.0,Mauth-Finsterau Bayern,Frei
+03212,50.3249,7.23,230.0,Mayen Rheinland-Pfalz,Frei
+03222,52.3411,9.1403,60.0,Meerbeck Niedersachsen,Frei
+03223,47.6985,9.2753,460.0,Meersburg Baden-Württemberg,Frei
+03226,51.7259,11.511,108.0,Aschersleben-Mehringen Sachsen-Anhalt,Frei
+03227,51.8936,8.9842,216.0,"Meinberg, Bad Nordrhein-Westfalen",Frei
+03228,51.0976,7.667,506.0,Meinerzhagen (A) Nordrhein-Westfalen,Frei
+03231,50.5611,10.3771,450.0,Meiningen Thüringen,Frei
+03234,51.1294,13.4328,158.0,Klipphausen-Garsebach Sachsen,Frei
+03236,52.2147,8.3833,85.0,Melle Niedersachsen,Frei
+03244,47.9821,10.1384,614.0,Memmingen Bayern,Frei
+03245,47.9833,10.2333,630.0,Memmingen (Flugplatz) Bayern,Frei
+03246,50.3667,7.3167,181.0,Mendig Rheinland-Pfalz,Frei
+03253,47.8309,8.0698,882.0,Sankt Blasien-Menzenschwand Baden-Württemberg,Frei
+03254,52.7155,7.3176,19.0,Meppen Niedersachsen,Frei
+03256,48.0167,7.6667,193.0,Merdingen Baden-Württemberg,Frei
+03257,49.4797,9.7832,278.0,"Mergentheim, Bad Baden-Württemberg",Frei
+03265,49.922,9.2872,297.0,Mespelbrunn Bayern,Frei
+03268,48.1694,8.9433,900.0,Meßstetten-Appental Baden-Württemberg,Frei
+03271,48.8548,12.9189,314.0,Metten Bayern,Frei
+03274,49.507,6.5215,415.0,Mettlach-Orscholz (Kurort) Saarland,Frei
+03278,48.5377,9.2734,354.0,Metzingen Baden-Württemberg,Frei
+03284,49.6692,9.0085,240.0,Michelstadt Hessen,Frei
+03287,49.7177,9.0997,453.0,Michelstadt-Vielbrunn Hessen,Frei
+03289,50.7281,11.7838,356.0,Schmieritz-Weltwitz Thüringen,Frei
+03291,49.712,9.2258,129.0,Miltenberg Bayern,Frei
+03300,50.2285,9.1064,155.0,Mittel-Gründau Hessen,Frei
+03307,47.4814,11.2649,983.0,Mittenwald-Buckelwiesen Bayern,Frei
+03313,49.7328,8.7771,508.0,Modautal-Neunkirchen Hessen,Frei
+03317,53.6128,10.6943,42.0,Mölln Schleswig-Holstein,Frei
+03319,49.7644,9.253,239.0,Röllbach Bayern,Frei
+03320,51.197,6.4499,49.0,Mönchengladbach Nordrhein-Westfalen,Frei
+03321,51.1313,6.3608,76.0,Mönchengladbach-Hilderath Nordrhein-Westfalen,Frei
+03340,50.4383,7.8061,265.0,Montabaur Rheinland-Pfalz,Frei
+03348,51.7209,9.8351,241.0,Moringen-Lutterbeck Niedersachsen,Frei
+03358,51.3162,14.7037,147.0,Mücka Sachsen,Frei
+03362,48.9721,8.8735,243.0,Mühlacker Baden-Württemberg,Frei
+03366,48.279,12.5024,406.0,Mühldorf Bayern,Frei
+03369,53.6,10.4833,42.0,Mühlenrade Schleswig-Holstein,Frei
+03370,51.2076,10.3956,300.0,Mühlhausen Thüringen,Frei
+03376,52.5176,14.1232,64.0,Müncheberg Brandenburg,Frei
+03379,48.1632,11.5429,515.0,München-Stadt Bayern,Frei
+03382,48.1441,11.6,521.0,München-Bogenhausen Bayern,Frei
+03383,48.1635,11.5019,515.0,München-Botanischer Garten Bayern,Frei
+03385,48.166,11.5011,515.0,München-Nymphenburg Bayern,Frei
+03388,48.0919,11.6486,542.0,München-Perlach Bayern,Frei
+03390,48.1369,11.7094,529.0,München-Riem Bayern,Frei
+03402,48.3851,9.4837,755.0,Münsingen-Apfelstetten Baden-Württemberg,Frei
+03404,51.9494,7.5906,62.0,Münster Nordrhein-Westfalen,Frei
+03419,50.5852,11.4928,557.0,Leutenberg-Steinsdorf Thüringen,Frei
+03425,48.9729,9.5712,344.0,Murrhardt Baden-Württemberg,Frei
+03426,51.566,14.7008,127.0,"Muskau, Bad Sachsen",Frei
+03442,50.3574,8.7506,149.0,"Nauheim, Bad Hessen",Frei
+03478,53.5468,13.1914,81.0,Neubrandenburg Mecklenburg-Vorpommern,Frei
+03484,48.7085,11.2147,379.0,Neuburg an der Donau Bayern,Frei
+03485,48.3114,10.3773,487.0,Neuburg/Kammel-Langenhaslach Bayern,Frei
+03486,49.2931,9.2722,212.0,Neudenau Baden-Württemberg,Frei
+03490,50.5346,7.0853,111.0,"Neuenahr, Bad-Ahrweiler Rheinland-Pfalz",Frei
+03493,47.8333,7.5833,223.0,Neuenburg-Zinken,Baden-Württemberg
+03509,53.102,13.0421,78.0,Stechlin-Menz Brandenburg,Frei
+03513,50.5003,11.1345,845.0,Neuhaus am Rennweg Thüringen,Frei
+03518,47.976,8.9101,793.0,Neuhausen ob Eck Baden-Württemberg,Frei
+03519,47.9519,8.9932,663.0,Neuhausen ob Eck-Unterschwandorf Baden-Württemberg,Frei
+03527,50.8923,9.405,500.0,Neukirchen-Hauptschwenda Hessen,Frei
+03532,54.3609,10.6015,4.0,Neuland Schleswig-Holstein,Frei
+03534,49.2713,11.4881,584.0,Neumarkt-Höhenberg Bayern,Frei
+03537,54.0873,9.9791,26.0,Neumünster Schleswig-Holstein,Frei
+03540,50.8446,7.372,195.0,Neunkirchen-Seelscheid-Krawinkel Nordrhein-Westfalen,Frei
+03541,50.8956,7.3081,185.0,Neunkirchen-Seelscheid-Meisenbach Nordrhein-Westfalen,Frei
+03542,49.35,7.1667,271.0,Neunkirchen/Saar,Saarland
+03545,49.344,7.2297,236.0,Neunkirchen-Wellesweiler Saarland,Frei
+03552,52.9037,12.8071,38.0,Neuruppin Brandenburg,Frei
+03565,49.5728,10.6001,315.0,Neustadt/Aisch Bayern,Frei
+03571,49.8174,11.8638,452.0,Neustadt am Kulm-Filchendorf Bayern,Frei
+03575,49.357,8.1405,163.0,Neustadt/Weinstraße Rheinland-Pfalz,Frei
+03576,49.3478,8.1822,125.0,Neustadt/Weinstraße (Heidehof) Rheinland-Pfalz,Frei
+03577,53.3585,13.0502,64.0,Neustrelitz Mecklenburg-Vorpommern,Frei
+03578,48.9831,12.1444,341.0,Regensburg-Burgweinting Bayern,Frei
+03590,50.2335,8.8923,180.0,Nidderau-Windecken Hessen,Frei
+03591,50.6743,6.424,350.0,Nideggen-Schmidt Nordrhein-Westfalen,Frei
+03595,50.4107,7.808,250.0,Niederelbert Rheinland-Pfalz,Frei
+03603,49.3895,9.9666,459.0,Niederstetten Baden-Württemberg,Frei
+03605,48.5334,10.2427,451.0,Niederstotzingen Baden-Württemberg,Frei
+03612,52.6711,9.2229,25.0,Nienburg Niedersachsen,Frei
+03621,48.8253,10.5067,435.0,Reimlingen Bayern,Frei
+03623,50.8294,6.6601,108.0,Nörvenich-Niederbolheim Nordrhein-Westfalen,Frei
+03631,53.7123,7.1519,12.0,Norderney Niedersachsen,Frei
+03639,53.7647,8.6584,24.0,Nordholz-Wanhöden Niedersachsen,Frei
+03640,52.4123,7.064,25.0,Nordhorn-Blanke Niedersachsen,Frei
+03651,51.7521,9.945,111.0,Northeim-Stöckheim Niedersachsen,Frei
+03657,50.9081,7.5543,341.0,Nümbrecht auf dem Lindchen Nordrhein-Westfalen,Frei
+03658,50.9095,7.5725,303.0,Nümbrecht-Distelkamp Nordrhein-Westfalen,Frei
+03659,50.3391,6.9501,627.0,Nürburg Rheinland-Pfalz,Frei
+03660,50.3602,6.8697,485.0,Nürburg-Barweiler Rheinland-Pfalz,Frei
+03661,49.45,11.0667,307.0,Nürnberg (Hochhaus) Bayern,Frei
+03666,49.5008,11.107,335.0,Nürnberg-Buchenbuehl Bayern,Frei
+03667,49.4258,11.2539,369.0,Nürnberg-Netzstall Bayern,Frei
+03668,49.503,11.0549,314.0,Nürnberg Bayern,Frei
+03671,48.6321,9.3261,280.0,Nürtingen Baden-Württemberg,Frei
+03672,48.6207,8.8962,457.0,Nufringen Baden-Württemberg,Frei
+03679,47.6187,12.1665,518.0,Kiefersfelden-Gach Bayern,Frei
+03694,50.7005,10.7256,810.0,Oberhof Thüringen,Frei
+03702,47.878,7.8288,515.0,Münstertal-Obermünstertal,Baden-Württemberg
+03705,48.3147,8.5735,475.0,Oberndorf/Neckar-Aistaig Baden-Württemberg,Frei
+03722,48.2443,11.5528,484.0,Oberschleißheim Bayern,Frei
+03727,47.5619,10.0313,800.0,Oberstaufen-Kalzhofen,Bayern
+03730,47.3984,10.2759,806.0,Oberstdorf Bayern,Frei
+03734,49.128,9.3525,232.0,Obersulm-Willsbach Baden-Württemberg,Frei
+03735,48.2635,12.276,455.0,Obertaufkirchen Bayern,Frei
+03739,49.4521,12.4365,596.0,Oberviechtach Bayern,Frei
+03744,51.6018,9.5383,125.0,Oberweser-Gieselwerder Hessen,Frei
+03751,48.0449,9.8822,626.0,Ochsenhausen-Mittelbuch Baden-Württemberg,Frei
+03752,50.03,11.8074,1014.0,Ochsenkopf Bayern,Frei
+03753,52.2042,7.1784,56.0,Ochtrup Nordrhein-Westfalen,Frei
+03756,52.4386,10.99,62.0,Oebisfelde Sachsen-Anhalt,Frei
+03761,49.207,9.5176,276.0,Öhringen Baden-Württemberg,Frei
+03775,50.1029,8.7468,100.0,Offenbach/Main-Zentrallabor (RADA) Hessen,Frei
+03776,50.0946,8.7546,110.0,Offenbach/M. (Stadt) Hessen,Frei
+03777,48.4593,7.9255,153.0,Offenburg Baden-Württemberg,Frei
+03788,50.8646,14.7628,305.0,Olbersdorf Sachsen,Frei
+03790,53.1018,8.2516,5.0,Oldenburg (A) Niedersachsen,Frei
+03791,53.1763,8.1824,11.0,Oldenburg Niedersachsen,Frei
+03811,51.296,13.0928,151.0,Oschatz Sachsen,Frei
+03815,52.2553,8.0534,95.0,Osnabrück Niedersachsen,Frei
+03818,52.7167,11.7333,29.0,Osterburg Sachsen-Anhalt,Frei
+03821,51.0872,11.9293,244.0,Osterfeld Sachsen-Anhalt,Frei
+03825,49.5033,7.2773,338.0,Osterhof Saarland,Frei
+03836,50.4538,10.2211,314.0,Ostheim v.d. Rhön Bayern,Frei
+03856,47.6383,10.4313,1010.0,Oy-Mittelberg Bayern,Frei
+03857,47.6362,10.3892,886.0,Oy-Mittelberg-Petersthal Bayern,Frei
+03867,53.0657,7.464,5.0,Papenburg Niedersachsen,Frei
+03875,49.151,11.6897,549.0,Parsberg/Oberpfalz-Eglwang Bayern,Frei
+03878,48.5805,13.4152,329.0,Passau-Maierhof Bayern,Frei
+03879,48.5781,13.4696,409.0,Passau-Oberhaus Bayern,Frei
+03883,50.5999,11.9966,442.0,Pausa-Unterreichenau Sachsen,Frei
+03897,54.0893,10.8773,2.0,Pelzerhaken Schleswig-Holstein,Frei
+03903,49.5114,6.3857,175.0,Perl-Besch Saarland,Frei
+03904,49.5354,6.3789,152.0,Perl-Nennig Saarland,Frei
+03905,49.5214,6.4476,407.0,Perl-Sinz-Renglischberg Saarland,Frei
+03915,51.9887,13.3633,142.0,Petkus Brandenburg,Frei
+03921,49.85,7.6,396.0,Pferdsfeld Rheinland-Pfalz,Frei
+03922,49.1162,10.8596,438.0,Pfofeld-Langlau Bayern,Frei
+03924,48.9059,8.7412,246.0,Pforzheim-Eutingen Baden-Württemberg,Frei
+03925,48.9329,8.6973,332.0,Pforzheim-Ispringen Baden-Württemberg,Frei
+03927,47.9345,9.2869,630.0,Pfullendorf Baden-Württemberg,Frei
+03929,49.2511,8.4415,100.0,Philippsburg Baden-Württemberg,Frei
+03939,49.1912,7.5879,382.0,Pirmasens Rheinland-Pfalz,Frei
+03946,50.4818,12.13,387.0,Plauen Sachsen,Frei
+03954,54.1603,10.4345,26.0,Plön (Max-Planck-Institut) Schleswig-Holstein,Frei
+03955,54.159,10.402,24.0,Plön (See) Schleswig-Holstein,Frei
+03974,49.5058,11.5142,368.0,Pommelsbrunn Bayern,Frei
+03975,49.4777,11.5357,522.0,Pommelsbrunn-Mittelburg Bayern,Frei
+03987,52.3812,13.0622,81.0,Potsdam Brandenburg,Frei
+03988,52.3822,13.0622,81.0,Potsdam (Säkularstation) Brandenburg,Frei
+04005,47.8588,12.3624,530.0,Prien-Stock Bayern,Frei
+04018,48.1877,11.2206,550.0,Puch Bayern,Frei
+04024,54.3643,13.4771,40.0,Putbus Mecklenburg-Vorpommern,Frei
+04029,52.6691,7.9544,25.0,Quakenbrück Niedersachsen,Frei
+04032,51.7953,11.132,142.0,Quedlinburg Sachsen-Anhalt,Frei
+04036,51.3895,11.5412,206.0,Querfurt-Mühle Lodersleben Sachsen-Anhalt,Frei
+04038,53.7276,9.9071,27.0,Quickborn (Kurzer Kamp) Schleswig-Holstein,Frei
+04039,53.7331,9.8776,11.0,Quickborn Schleswig-Holstein,Frei
+04053,47.7395,8.9812,397.0,Radolfzell Baden-Württemberg,Frei
+04063,52.4461,8.5906,41.0,Rahden-Kleinendorf Nordrhein-Westfalen,Frei
+04066,47.9091,11.1048,553.0,Raisting Bayern,Frei
+04077,48.8471,8.1868,114.0,Rastatt Baden-Württemberg,Frei
+04079,51.1765,11.4183,200.0,Rastenberg Thüringen,Frei
+04091,47.7327,12.6827,1640.0,Rauschberg bei Ruhpolding Bayern,Frei
+04094,47.8062,9.6206,441.0,"Weingarten, Kr. Ravensburg Baden-Württemberg",Frei
+04100,51.6243,7.182,109.0,Recklinghausen Nordrhein-Westfalen,Frei
+04104,49.0425,12.1019,365.0,Regensburg Bayern,Frei
+04125,47.7238,12.874,470.0,"Reichenhall, Bad Bayern",Frei
+04127,50.9906,7.6958,347.0,Reichshof-Eckenhagen Nordrhein-Westfalen,Frei
+04149,50.5477,13.2239,774.0,Marienberg-Reitzenhain Sachsen,Frei
+04152,47.6783,8.1527,760.0,Remetschwiel Baden-Württemberg,Frei
+04154,51.18,7.2505,345.0,Remscheid-Lennep Nordrhein-Westfalen,Frei
+04156,54.2878,9.6749,8.0,Rendsburg Schleswig-Holstein,Frei
+04157,50.5052,7.4881,315.0,Rengsdorf (Kurort) Rheinland-Pfalz,Frei
+04160,48.7425,8.924,478.0,Renningen-Ihinger Hof Baden-Württemberg,Frei
+04166,48.5051,9.1833,360.0,Reutlingen-Betzingen Baden-Württemberg,Frei
+04169,48.6703,7.9939,131.0,Rheinau-Memprechtshofen Baden-Württemberg,Frei
+04174,52.2887,7.3866,40.0,Rheine-Bentlage Nordrhein-Westfalen,Frei
+04175,47.559,7.7721,283.0,Rheinfelden Baden-Württemberg,Frei
+04177,48.9726,8.3301,116.0,Rheinstetten Baden-Württemberg,Frei
+04189,48.1479,9.4596,534.0,"Altheim, Kreis Biberach Baden-Württemberg",Frei
+04222,50.5263,12.4091,464.0,Rodewisch Sachsen,Frei
+04225,49.2195,12.536,373.0,Roding-Wetterfeld Bayern,Frei
+04233,50.3833,9.5167,397.0,Röhrigshof bei Schlüchtern Hessen,Frei
+04240,50.6407,6.2058,440.0,Roetgen Nordrhein-Westfalen,Frei
+04249,51.0681,11.3969,250.0,Rohrbach Thüringen,Frei
+04261,47.8819,12.1249,444.0,Rosenheim Bayern,Frei
+04270,54.0826,12.1228,20.0,Rostock Mecklenburg-Vorpommern,Frei
+04271,54.1803,12.0808,5.0,Rostock-Warnemünde Mecklenburg-Vorpommern,Frei
+04275,53.1289,9.3398,32.0,Rotenburg (Wümme) Niedersachsen,Frei
+04278,49.2511,11.0934,340.0,Roth bei Nürnberg Bayern,Frei
+04279,50.3046,6.3863,593.0,Roth bei Prüm Rheinland-Pfalz,Frei
+04280,49.2162,11.1035,386.0,Roth Bayern,Frei
+04287,49.3849,10.1732,415.0,Rothenburg ob der Tauber Bayern,Frei
+04288,52.1038,8.1809,96.0,"Rothenfelde, Bad Niedersachsen",Frei
+04293,47.6819,11.7714,747.0,Rottach-Egern Bayern,Frei
+04294,48.4704,8.9687,360.0,Rottenburg-Kiebingen Baden-Württemberg,Frei
+04300,48.1815,8.6356,589.0,Rottweil Baden-Württemberg,Frei
+04301,49.8502,7.871,102.0,"Kreuznach, Bad Rheinland-Pfalz",Frei
+04318,47.731,12.661,692.0,Ruhpolding Bayern,Frei
+04320,54.0934,10.2223,36.0,Ruhwinkel Schleswig-Holstein,Frei
+04323,49.6468,7.8837,461.0,Ruppertsecken Rheinland-Pfalz,Frei
+04327,48.8765,13.049,797.0,Rusel-Irlmoos Bayern,Frei
+04330,48.8026,8.9557,449.0,Rutesheim Baden-Württemberg,Frei
+04332,50.6563,11.3894,235.0,Saalfeld Thüringen,Frei
+04333,50.8582,11.9789,258.0,Saara-Großsaara Thüringen,Frei
+04335,49.25,6.95,206.0,Saarbrücken (Röchling),Saarland
+04336,49.2128,7.1077,319.0,Saarbrücken-Ensheim Saarland,Frei
+04338,49.217,7.0199,191.0,Saarbrücken (Wasserwerk),Saarland
+04339,49.2231,7.0168,193.0,Saarbrücken-Sankt Johann Saarland,Frei
+04343,49.3256,6.7354,180.0,Saarlouis,Saarland
+04347,51.5909,10.5691,293.0,"Sachsa, Bad Niedersachsen",Frei
+04349,48.9569,9.0711,251.0,Sachsenheim Baden-Württemberg,Frei
+04350,47.5619,7.9399,339.0,"Säckingen, Bad (Bergseestr.)",Baden-Württemberg
+04354,48.7832,13.3146,457.0,Saldenburg-Entschenreuth Bayern,Frei
+04364,52.0355,10.3054,138.0,Salzgitter-Ringelheim Niedersachsen,Frei
+04367,52.0781,9.552,175.0,Salzhemmendorf-Lauenstein Niedersachsen,Frei
+04371,52.1042,8.7521,135.0,"Salzuflen, Bad Nordrhein-Westfalen",Frei
+04373,52.8568,11.1319,29.0,Salzwedel Sachsen-Anhalt,Frei
+04377,50.3518,10.0034,518.0,Sandberg Bayern,Frei
+04386,47.761,8.1247,795.0,Sankt Blasien Baden-Württemberg,Frei
+04390,48.0091,8.0966,896.0,Sankt Märgen,Baden-Württemberg
+04391,53.9878,9.1125,3.0,Sankt Michaelisdonn Schleswig-Holstein,Frei
+04393,54.3279,8.6031,5.0,Sankt Peter-Ording Schleswig-Holstein,Frei
+04396,49.4672,7.2036,400.0,Sankt Wendel-Hof Saarland,Frei
+04397,49.5025,7.202,400.0,Sankt Wendel-Urweiler Saarland,Frei
+04401,51.6334,8.1872,81.0,"Sassendorf, Bad-Ostinghausen Nordrhein-Westfalen",Frei
+04411,49.9195,8.9672,155.0,Schaafheim-Schlierbach Hessen,Frei
+04419,47.9556,7.7133,212.0,Schallstadt-Mengen Baden-Württemberg,Frei
+04424,47.9147,7.9086,1205.0,Schauinsland (UBA),Baden-Württemberg
+04425,49.4864,7.029,569.0,Schaumberg-Tholey Saarland,Frei
+04429,47.588,9.85,778.0,Scheidegg Bayern,Frei
+04433,48.1994,9.77,519.0,Schemmerhofen-Ingerkingen Baden-Württemberg,Frei
+04436,50.8166,9.846,314.0,Schenklengsfeld Hessen,Frei
+04438,49.975,11.0395,317.0,Scheßlitz Bayern,Frei
+04442,51.9119,9.1533,155.0,Schieder Nordrhein-Westfalen,Frei
+04445,51.7659,10.6533,614.0,Wernigerode-Schierke Sachsen-Anhalt,Frei
+04464,50.5679,11.8041,501.0,Schleiz Thüringen,Frei
+04466,54.5275,9.5487,43.0,Schleswig Schleswig-Holstein,Frei
+04468,54.5227,9.5649,19.0,Schleswig-Stadtfeld Schleswig-Holstein,Frei
+04469,50.5071,10.762,399.0,Schleusingen Thüringen,Frei
+04471,47.7358,11.8505,780.0,Schliersee (A) Bayern,Frei
+04474,49.7961,7.7583,170.0,Schlossböckelheim Rheinland-Pfalz,Frei
+04477,47.8208,8.186,993.0,Schluchsee Baden-Württemberg,Frei
+04479,50.3849,9.5358,375.0,Schlüchtern-Kloster Gomfritz Hessen,Frei
+04480,50.3447,9.5533,232.0,Schlüchtern-Herolz Hessen,Frei
+04484,53.6615,10.2543,45.0,Schmalenbeck Schleswig-Holstein,Frei
+04485,50.725,10.4539,296.0,"Schmalkalden, Kurort Thüringen",Frei
+04489,51.8833,10.7667,198.0,Schmatzfeld Sachsen-Anhalt,Frei
+04490,49.4149,6.836,223.0,Schmelz-Hüttersdorf Saarland,Frei
+04496,51.6826,12.7348,95.0,"Schmiedeberg, Bad Sachsen-Anhalt",Frei
+04501,50.6545,10.7696,938.0,Schmücke Thüringen,Frei
+04505,50.4988,12.4534,650.0,Schnarrtanne-Vogelsgrün Sachsen,Frei
+04508,50.2968,6.4194,653.0,Schneifelforsthaus Rheinland-Pfalz,Frei
+04517,48.7859,8.6451,635.0,"Schömberg, Kr. Calw Baden-Württemberg",Frei
+04548,50.1847,12.0791,608.0,Schönwald/Ofr.-Brunn Bayern,Frei
+04549,48.1002,8.1969,1021.0,Schönwald/Schwarzwald Baden-Württemberg,Frei
+04556,48.1402,8.1991,904.0,Schonach,Baden-Württemberg
+04557,47.6464,7.844,399.0,Schopfheim-Eichen Baden-Württemberg,Frei
+04559,49.1644,12.6175,398.0,Schorndorf-Knöbling Bayern,Frei
+04560,50.4925,9.1226,265.0,Schotten Hessen,Frei
+04571,51.8369,10.4312,504.0,Schulenberg Niedersachsen,Frei
+04576,49.3261,11.012,343.0,Schwabach (A) Bayern,Frei
+04581,48.7768,9.8025,415.0,Schwäbisch Gmünd-Strassdorf Baden-Württemberg,Frei
+04582,49.0823,9.6892,358.0,Schwäbisch Hall-Bibersfeld Baden-Württemberg,Frei
+04583,48.7868,9.7456,300.0,Schwäbisch Gmünd (Wind) Baden-Württemberg,Frei
+04584,48.3667,11.8,444.0,Schwaigermoos Bayern,Frei
+04586,50.1394,8.0627,320.0,"Schwalbach, Bad Hessen",Frei
+04592,49.3278,12.0871,356.0,Schwandorf Bayern,Frei
+04593,51.9639,11.1208,117.0,Schwanebeck Sachsen-Anhalt,Frei
+04597,47.5769,10.7181,792.0,Schwangau-Horn Bayern,Frei
+04605,50.6441,11.1936,277.0,Schwarzburg Thüringen,Frei
+04606,51.5167,14.35,116.0,Schwarze Pumpe Brandenburg,Frei
+04612,50.5513,12.7678,418.0,Schwarzenberg Sachsen,Frei
+04621,50.0575,10.216,240.0,Schweinfurt-Gartenstadt Bayern,Frei
+04625,53.6424,11.3871,59.0,Schwerin Mecklenburg-Vorpommern,Frei
+04629,54.5166,9.142,37.0,Schwesing Schleswig-Holstein,Frei
+04642,52.8911,11.7297,22.0,Seehausen Sachsen-Anhalt,Frei
+04649,50.8698,7.3228,214.0,Seelscheid Nordrhein-Westfalen,Frei
+04651,51.904,10.1885,189.0,Seesen Niedersachsen,Frei
+04656,53.9278,10.2993,49.0,"Segeberg, Bad Schleswig-Holstein",Frei
+04663,50.1633,12.1188,535.0,Selb/Selbbach Bayern,Frei
+04664,50.1969,12.1727,611.0,Selb/Oberfranken-Wildenau Bayern,Frei
+04665,49.5281,7.0417,431.0,Selbach (Tholey) Saarland,Frei
+04678,53.5833,8.0333,1.0,Sengwarden Niedersachsen,Frei
+04692,50.8534,7.9966,229.0,Siegen (Kläranlage) Nordrhein-Westfalen,Frei
+04702,48.1,9.25,645.0,Sigmaringen (Flugplatz) Baden-Württemberg,Frei
+04703,48.0719,9.1943,581.0,Sigmaringen-Laiz Baden-Württemberg,Frei
+04704,47.5776,9.7404,508.0,Sigmarszell-Zeisertsweiler Bayern,Frei
+04705,49.7595,12.3891,819.0,Silberhütte Bayern,Frei
+04706,48.2718,13.0273,358.0,Simbach/Inn Bayern,Frei
+04709,49.9996,7.5981,445.0,Simmern-Wahlbach Rheinland-Pfalz,Frei
+04719,49.2447,8.8787,169.0,Sinsheim Baden-Württemberg,Frei
+04729,50.2882,9.4583,342.0,Steinau-Seidenroth Hessen,Frei
+04735,48.7833,8.0833,123.0,Söllingen,Baden-Württemberg
+04741,51.14,7.093,152.0,Solingen-Hohenscheid Nordrhein-Westfalen,Frei
+04745,52.9604,9.793,75.0,Soltau Niedersachsen,Frei
+04748,51.3691,10.88,185.0,Sondershausen Thüringen,Frei
+04752,50.3746,11.1828,626.0,Sonneberg-Neufang Thüringen,Frei
+04763,51.0607,9.9266,265.0,Sontra Hessen,Frei
+04765,51.28,9.9847,199.0,"Sooden-Allendorf, Bad Hessen",Frei
+04775,49.7858,11.8211,424.0,Speinshart Bayern,Frei
+04782,51.604,12.1093,87.0,Spören-Prussendorf Sachsen-Anhalt,Frei
+04806,50.7832,11.088,370.0,Stadtilm Thüringen,Frei
+04813,50.0806,11.0467,318.0,"Staffelstein, Bad-Stublang Bayern",Frei
+04818,50.1531,11.7402,597.0,Stammbach-Querenbach Bayern,Frei
+04837,47.9869,7.9466,363.0,Stegen Baden-Württemberg,Frei
+04841,53.6946,8.8735,-0.0,"Steinau, Kr. Cuxhaven Niedersachsen",Frei
+04847,51.3629,9.6902,500.0,Steinberg Niedersachsen,Frei
+04857,53.5534,9.6097,2.0,Mittelnkirchen-Hohenfelde Niedersachsen,Frei
+04878,51.6647,10.881,505.0,Oberharz am Brocken-Stiege Sachsen-Anhalt,Frei
+04880,49.0878,10.124,450.0,Stimpfach-Weipertshofen Baden-Württemberg,Frei
+04881,47.8591,9.0152,533.0,Stockach Baden-Württemberg,Frei
+04886,53.8333,9.3667,3.0,Störsperrwerk,Schleswig-Holstein
+04887,48.6656,9.8648,734.0,Stötten Baden-Württemberg,Frei
+04896,54.6654,9.805,40.0,Wagersrott Schleswig-Holstein,Frei
+04911,48.8275,12.5597,351.0,Straubing Bayern,Frei
+04919,54.4965,8.8069,7.0,Strucklahnungshörn Schleswig-Holstein,Frei
+04926,48.7896,9.2167,224.0,Stuttgart (Neckartal) Baden-Württemberg,Frei
+04927,48.7693,9.1814,286.0,Stuttgart-Stadt Baden-Württemberg,Frei
+04928,48.8281,9.2,314.0,Stuttgart (Schnarrenberg) Baden-Württemberg,Frei
+04929,48.8333,9.2,311.0,Stuttgart (Schnarrenberg Aero) Baden-Württemberg,Frei
+04931,48.6883,9.2235,371.0,Stuttgart-Echterdingen Baden-Württemberg,Frei
+04933,48.7091,9.2147,401.0,Stuttgart-Hohenheim Baden-Württemberg,Frei
+04939,51.7333,11.1167,235.0,"Suderode, Bad Sachsen-Anhalt",Frei
+04945,51.6,10.6833,314.0,Sülzhayn Thüringen,Frei
+04947,52.2317,10.92,129.0,Süpplingen Niedersachsen,Frei
+04963,51.4667,10.8,175.0,Sundhausen Thüringen,Frei
+04966,50.8696,10.5106,415.0,Tabarz/Thüringer Wald Thüringen,Frei
+04977,52.5447,11.9724,45.0,Tangermünde Sachsen-Anhalt,Frei
+04978,50.639,10.0228,395.0,Tann/Rhön Hessen,Frei
+04987,49.6122,9.6747,179.0,Tauberbischofsheim-Dittigheim Baden-Württemberg,Frei
+04996,47.7099,11.7639,837.0,Tegernsee Bayern,Frei
+04997,50.9771,12.3419,196.0,Starkenberg-Tegkwitz Thüringen,Frei
+05009,53.761,12.5574,37.0,Teterow Mecklenburg-Vorpommern,Frei
+05014,53.2758,8.9857,7.0,Worpswede-Hüttenbusch Niedersachsen,Frei
+05017,50.4002,11.3888,633.0,Teuschnitz Bayern,Frei
+05029,49.4737,7.0385,387.0,Tholey Saarland,Frei
+05032,49.885,9.8469,197.0,Thüngersheim Bayern,Frei
+05039,50.843,10.1613,236.0,Tiefenort Thüringen,Frei
+05046,49.8576,12.3542,501.0,Tirschenreuth-Lodermühl Bayern,Frei
+05047,47.9394,8.1933,870.0,Titisee-Neustadt-Langenordnach Baden-Württemberg,Frei
+05049,47.8991,8.146,846.0,Titisee-Neustadt-Titisee Baden-Württemberg,Frei
+05059,47.7279,7.9988,781.0,Todtmoos Baden-Württemberg,Frei
+05063,47.7566,11.5819,724.0,"Tölz, Bad Bayern",Frei
+05064,51.2897,6.4437,37.0,Tönisvorst Nordrhein-Westfalen,Frei
+05067,51.7643,9.5628,491.0,Torfhaus im Solling Niedersachsen,Frei
+05068,51.5833,13.0,80.0,Torgau Sachsen,Frei
+05074,47.8663,12.6566,626.0,Traunstein-Sparz Bayern,Frei
+05075,47.8516,12.6182,635.0,Traunstein-Axdorf Bayern,Frei
+05078,53.9619,10.8892,2.0,Travemünde Schleswig-Holstein,Frei
+05088,54.5337,13.246,3.0,Trent Mecklenburg-Vorpommern,Frei
+05094,48.1316,8.2283,683.0,Triberg Baden-Württemberg,Frei
+05095,48.1288,8.233,700.0,Triberg (Kurpark),Baden-Württemberg
+05097,54.0654,12.7655,10.0,Tribsees Mecklenburg-Vorpommern,Frei
+05099,49.7326,6.6131,132.0,Trier-Zewen Rheinland-Pfalz,Frei
+05100,49.7479,6.6583,261.0,Trier-Petrisberg Rheinland-Pfalz,Frei
+05105,48.3132,9.2472,700.0,Trochtelfingen Baden-Württemberg,Frei
+05107,48.2814,9.3137,769.0,Trochtelfingen-Wilsingen Baden-Württemberg,Frei
+05109,53.5998,13.3039,68.0,Trollenhagen Mecklenburg-Vorpommern,Frei
+05111,48.0311,12.5396,560.0,Trostberg Bayern,Frei
+05120,48.5198,9.0515,370.0,Tübingen Baden-Württemberg,Frei
+05127,48.0083,8.8179,649.0,Tuttlingen Baden-Württemberg,Frei
+05128,47.9682,8.7899,668.0,Tuttlingen-Möhringen-Vorstadt Baden-Württemberg,Frei
+05133,51.3344,8.9132,287.0,Twistetal-Mühlhausen Hessen,Frei
+05138,47.7713,9.1562,446.0,Überlingen/Bodensee Baden-Württemberg,Frei
+05142,53.7445,14.0698,1.0,Ueckermünde Mecklenburg-Vorpommern,Frei
+05146,52.9414,10.5289,50.0,Uelzen Niedersachsen,Frei
+05149,49.5679,10.1969,318.0,Gollhofen Bayern,Frei
+05154,48.4,9.9833,576.0,Ulm-Wilhelmsburg Baden-Württemberg,Frei
+05155,48.3837,9.9524,567.0,Ulm Baden-Württemberg,Frei
+05158,52.1601,11.1759,159.0,Ummendorf Sachsen-Anhalt,Frei
+05165,52.8499,10.2898,95.0,Unterlüß Niedersachsen,Frei
+05185,49.5933,11.0704,291.0,Uttenreuth Bayern,Frei
+05226,47.953,10.9151,708.0,Vilgertshofen Bayern,Frei
+05229,48.0453,8.4608,719.0,Villingen-Schwenningen Baden-Württemberg,Frei
+05236,52.8318,8.3112,51.0,Visbek Niedersachsen,Frei
+05244,49.2581,6.8612,220.0,Völklingen-Stadt Saarland,Frei
+05245,49.2495,6.8804,187.0,Völklingen (Kraftwerk-Fenne),Saarland
+05249,47.95,12.1833,464.0,Vogtareuth (A) Bayern,Frei
+05250,48.0908,7.6353,223.0,Vogtsburg-Oberrotweil Baden-Württemberg,Frei
+05252,52.103,9.5845,100.0,Voldagsen Niedersachsen,Frei
+05267,52.0722,11.0222,86.0,Wackersleben Sachsen-Anhalt,Frei
+05275,49.2445,8.5374,105.0,Waghäusel-Kirrlach Baden-Württemberg,Frei
+05277,50.8119,9.128,349.0,Wahlen Hessen,Frei
+05279,51.6194,9.5749,167.0,Wesertal-Lippoldsberg Hessen,Frei
+05280,53.9224,10.2267,33.0,Wittenborn Schleswig-Holstein,Frei
+05282,51.1188,13.6754,241.0,Wahnsdorf bei Dresden Sachsen,Frei
+05284,48.8279,9.3228,224.0,Waiblingen Baden-Württemberg,Frei
+05289,48.4918,8.5612,595.0,Waldachtal-Lützenhardt Baden-Württemberg,Frei
+05291,47.976,8.1558,1005.0,Waldau-Jostal Baden-Württemberg,Frei
+05296,51.207,9.0658,376.0,Waldeck Hessen,Frei
+05300,50.2596,8.3607,380.0,Waldems-Reinborn Hessen,Frei
+05306,48.9293,13.4641,940.0,Waldhäuser (National Park) Bayern,Frei
+05308,52.8009,10.7562,72.0,Waldhof (Lüneburger Heide UBA),Niedersachsen
+05317,50.0097,12.2979,509.0,Waldsassen Bayern,Frei
+05319,47.9167,9.7076,576.0,"Waldsee, Bad-Reute Baden-Württemberg",Frei
+05320,47.6172,8.2388,330.0,Waldshut Baden-Württemberg,Frei
+05327,49.5789,9.3974,404.0,Walldürn Baden-Württemberg,Frei
+05335,50.8963,10.5483,352.0,Waltershausen Thüringen,Frei
+05344,53.7865,7.9096,2.0,Wangerooge Niedersachsen,Frei
+05347,51.5039,9.1118,236.0,Warburg Nordrhein-Westfalen,Frei
+05349,53.5196,12.6654,73.0,Waren (Müritz) Mecklenburg-Vorpommern,Frei
+05361,50.6271,9.442,270.0,Wartenberg-Angersbach Hessen,Frei
+05369,48.0572,12.2202,443.0,Wasserburg Bayern,Frei
+05371,50.4973,9.9427,920.0,Wasserkuppe Hessen,Frei
+05377,47.5714,12.9337,1923.0,Watzmannhaus Bayern,Frei
+05397,49.6662,12.1844,440.0,Weiden Bayern,Frei
+05398,49.1965,10.6487,425.0,"Weidenbach, Kr.Ansbach Bayern",Frei
+05403,49.59,10.2588,309.0,Weigenheim-Reusch Bayern,Frei
+05404,48.4024,11.6946,477.0,Weihenstephan-Dürnast Bayern,Frei
+05410,50.4732,8.2594,135.0,Weilburg (Kläranlage) Hessen,Frei
+05412,47.6802,8.1964,771.0,Weilheim-Bierbronnen Baden-Württemberg,Frei
+05419,50.9751,11.3076,264.0,Weimar Thüringen,Frei
+05424,51.0177,11.3544,328.0,Weimar-Schöndorf Thüringen,Frei
+05426,49.3758,8.1212,553.0,Weinbiet Rheinland-Pfalz,Frei
+05429,49.1512,9.292,219.0,Weinsberg Baden-Württemberg,Frei
+05431,53.0333,11.8,24.0,Weisen bei Wittenberge Sachsen-Anhalt,Frei
+05433,49.5534,6.812,383.0,Weiskirchen/Saar Saarland,Frei
+05434,50.0858,11.2364,317.0,Weismain Bayern,Frei
+05440,49.0115,10.9308,439.0,Weißenburg-Emetzheim Bayern,Frei
+05442,51.2002,11.9154,109.0,Weißenfels Sachsen-Anhalt,Frei
+05445,51.212,10.9956,165.0,Weißensee-Ottenhausen Thüringen,Frei
+05453,48.188,7.6976,174.0,Weisweil-Waldeckhof Baden-Württemberg,Frei
+05460,48.1477,8.6954,655.0,Wellendingen Baden-Württemberg,Frei
+05463,52.0654,14.6898,58.0,Wellmitz Brandenburg,Frei
+05467,47.7035,12.0119,1832.0,Wendelstein Bayern,Frei
+05480,51.5763,7.8879,85.0,Werl Nordrhein-Westfalen,Frei
+05488,49.9622,10.0482,216.0,"Mühlhausen, Kr. Schweinfurt Bayern",Frei
+05490,51.8454,10.7686,233.0,Wernigerode Sachsen-Anhalt,Frei
+05498,49.7667,9.5428,140.0,Wertheim-Eichel Baden-Württemberg,Frei
+05514,54.899,8.3117,3.0,Westerland Schleswig-Holstein,Frei
+05515,54.9231,8.308,12.0,Westerland (UBA),Schleswig-Holstein
+05516,54.5283,11.0606,3.0,Fehmarn Schleswig-Holstein,Frei
+05533,51.617,10.5843,351.0,Wieda,Niedersachsen
+05538,47.8827,11.1576,551.0,Wielenbach (Demollstr.) Bayern,Frei
+05541,50.1321,8.3169,263.0,Wiesbaden-Auringen Hessen,Frei
+05543,50.0863,8.1872,235.0,Wiesbaden-Dotzheim Hessen,Frei
+05546,52.1206,12.4586,187.0,Wiesenburg Brandenburg,Frei
+05559,48.7848,8.5764,383.0,"Wildbad, Bad-Calmbach Baden-Württemberg",Frei
+05560,48.7501,8.5365,740.0,"Wildbad, Bad-Sommerberg Baden-Württemberg",Frei
+05562,48.6516,8.6801,571.0,Neubulach-Oberhaugstett Baden-Württemberg,Frei
+05564,51.1167,6.2167,88.0,Wildenrath,Nordrhein-Westfalen
+05568,51.1056,9.1081,310.0,"Wildungen, Bad Hessen",Frei
+05575,53.5901,8.106,1.0,Wilhelmshaven Niedersachsen,Frei
+05582,51.294,8.6026,580.0,Willingen/Upland Hessen,Frei
+05583,51.2818,8.6673,594.0,Willingen/Upland-Usseln Hessen,Frei
+05609,48.8031,9.4699,241.0,"Winterbach, Rems-Murr-Kreis Baden-Württemberg",Frei
+05610,51.1872,8.5079,733.0,Winterberg Nordrhein-Westfalen,Frei
+05624,53.9026,11.4254,16.0,Wismar Mecklenburg-Vorpommern,Frei
+05629,51.8891,12.6446,105.0,Wittenberg Sachsen-Anhalt,Frei
+05640,53.5444,7.6625,7.0,Wittmundhafen Niedersachsen,Frei
+05642,53.1833,12.5167,72.0,Wittstock Brandenburg,Frei
+05643,53.1864,12.4949,68.0,Wittstock-Rote Mühle Brandenburg,Frei
+05644,51.3493,9.8438,133.0,Witzenhausen Hessen,Frei
+05654,49.2178,10.2296,464.0,Wörnitz-Bottenweiler Bayern,Frei
+05663,53.4618,13.6099,118.0,Woldegk Mecklenburg-Vorpommern,Frei
+05664,48.2953,8.2391,296.0,Wolfach Baden-Württemberg,Frei
+05665,47.818,9.797,677.0,Wolfegg Baden-Württemberg,Frei
+05675,52.4411,10.7587,56.0,Wolfsburg Niedersachsen,Frei
+05676,52.3962,10.6892,82.0,Wolfsburg (Südwest) Niedersachsen,Frei
+05681,49.5811,7.6234,200.0,Wolfstein/Pfalz Rheinland-Pfalz,Frei
+05688,47.7004,8.1057,881.0,Dachsberg-Wolpadingen Baden-Württemberg,Frei
+05692,49.6051,8.3659,88.0,Worms Rheinland-Pfalz,Frei
+05703,49.7964,9.8949,170.0,Würzburg/Main Bayern,Frei
+05705,49.7704,9.9576,268.0,Würzburg Bayern,Frei
+05707,49.7995,9.928,175.0,Würzburg (Physikalisches-Institut) Bayern,Frei
+05715,52.4626,9.4245,49.0,Wunstorf Niedersachsen,Frei
+05717,51.2256,7.1052,134.0,Wuppertal-Buchenhofen Nordrhein-Westfalen,Frei
+05719,51.2051,7.2,235.0,Remscheid Nordrhein-Westfalen,Frei
+05728,52.8039,12.8714,35.0,Wustrau-Ziethenhorst Brandenburg,Frei
+05731,47.6783,8.3801,395.0,Wutöschingen-Ofteringen Baden-Württemberg,Frei
+05732,54.6928,8.5271,9.0,Wrixum/Föhr Schleswig-Holstein,Frei
+05745,52.9664,13.3268,51.0,Zehdenick Brandenburg,Frei
+05750,51.0314,12.1495,264.0,Zeitz Sachsen-Anhalt,Frei
+05761,51.9642,12.0996,69.0,Zerbst Sachsen-Anhalt,Frei
+05770,50.6132,11.6472,316.0,Ziegenrück Thüringen,Frei
+05778,54.0801,13.8989,2.0,Zinnowitz Mecklenburg-Vorpommern,Frei
+05779,50.7313,13.7516,877.0,Zinnwald-Georgenfeld Sachsen,Frei
+05781,50.8849,14.8112,235.0,Zittau Sachsen,Frei
+05792,47.421,10.9848,2956.0,Zugspitze Bayern,Frei
+05797,50.6879,12.4329,349.0,Lichtentanne Sachsen,Frei
+05800,49.028,13.2385,615.0,Zwiesel Bayern,Frei
+05802,49.0007,13.2137,615.0,Zwieselberg Bayern,Frei
+05821,52.8482,8.719,36.0,Bassum (A) Niedersachsen,Frei
+05822,52.863,8.6989,42.0,Bassum Niedersachsen,Frei
+05825,52.6198,12.7867,41.0,Berge Brandenburg,Frei
+05832,53.1007,11.0455,50.0,Dannenberg Niedersachsen,Frei
+05839,53.3881,7.2287,-0.0,Emden Niedersachsen,Frei
+05841,48.6667,8.4667,600.0,Enzklösterle (A),Baden-Württemberg
+05851,51.0806,8.8769,392.0,Frankenberg-Geismar Hessen,Frei
+05856,48.5451,13.3532,476.0,Fürstenzell Bayern,Frei
+05871,49.9463,7.2645,497.0,Hahn Rheinland-Pfalz,Frei
+05877,54.316,10.8002,5.0,Putlos Schleswig-Holstein,Frei
+05885,48.6582,9.4203,289.0,Kirchheim/Teck-Ötlingen Baden-Württemberg,Frei
+05890,47.6777,11.0473,850.0,"Kohlgrub, Bad (A) Bayern",Frei
+05898,48.8943,9.2058,287.0,Ludwigsburg Baden-Württemberg,Frei
+05904,48.6493,11.7772,431.0,Mainburg Bayern,Frei
+05906,49.5063,8.5584,98.0,Mannheim Baden-Württemberg,Frei
+05912,51.0988,9.538,169.0,Malsfeld Hessen,Frei
+05920,50.4485,7.4275,91.0,Neuwied Rheinland-Pfalz,Frei
+05930,54.641,10.0238,1.0,Schönhagen (Ostseebad) Schleswig-Holstein,Frei
+05941,47.6721,12.4756,680.0,Reit im Winkl-Groißenbach Bayern,Frei
+05971,48.8787,9.6342,510.0,Welzheim (A) Baden-Württemberg,Frei
+06086,52.7786,13.759,71.0,Melchow-Schönholz Brandenburg,Frei
+06091,53.7674,7.6721,14.0,Spiekeroog (SWN) Niedersachsen,Frei
+06093,53.2139,10.4704,62.0,Wendisch Evern Niedersachsen,Frei
+06095,51.0838,13.4486,273.0,Taubenheim-Seeligstadt Sachsen,Frei
+06096,49.1423,10.7301,416.0,Altmühlsee Bayern,Frei
+06097,54.4738,12.5014,4.0,Darßer Ort (SWN) Mecklenburg-Vorpommern,Frei
+06098,47.8147,9.0237,398.0,Stockach-Espasingen Baden-Württemberg,Frei
+06099,47.702,8.7318,449.0,Gailingen Baden-Württemberg,Frei
+06101,54.1323,11.6719,51.0,Bastorf-Kägsdorf (SWN) Mecklenburg-Vorpommern,Frei
+06102,47.5396,9.6843,397.0,Lindau (SWN) Bayern,Frei
+06103,47.4287,11.2616,923.0,Mittenwald/Obb. Bayern,Frei
+06105,54.3194,9.8051,15.0,Ostenfeld (Rendsburg) Schleswig-Holstein,Frei
+06106,53.3311,12.7149,62.0,Rechlin Mecklenburg-Vorpommern,Frei
+06107,47.8076,9.1035,703.0,Sipplingen (SWN) Baden-Württemberg,Frei
+06108,53.7197,9.4192,7.0,Ruthenstrom Niedersachsen,Frei
+06109,53.3837,14.3728,51.0,Grambow-Schwennenz Mecklenburg-Vorpommern,Frei
+06110,53.8545,13.4949,11.0,Medow-Wussentin Mecklenburg-Vorpommern,Frei
+06112,54.267,13.143,2.0,Stralsund-Devin Mecklenburg-Vorpommern,Frei
+06129,51.0594,14.4266,291.0,Sohland/Spree Sachsen,Frei
+06136,50.7,8.3,220.0,Dillenburg-Niederscheld (Kläranlage) Hessen,Frei
+06157,53.6411,8.0809,4.0,Wangerland-Hooksiel Niedersachsen,Frei
+06158,49.2249,10.6085,454.0,Weidenbach-Weiherschneidbach Bayern,Frei
+06159,52.9542,7.3197,8.0,Dörpen Niedersachsen,Frei
+06163,54.1654,10.3519,27.0,Dörnick Schleswig-Holstein,Frei
+06170,52.0192,14.7254,39.0,Coschen Brandenburg,Frei
+06181,51.3154,9.4281,218.0,Kassel-Wilhelmshöhe,Hessen
+06182,48.7757,12.1743,404.0,Mallersdorf-Pfaffenberg Bayern,Frei
+06183,54.9101,8.3268,16.0,Westerland (Wind),Schleswig-Holstein
+06184,53.5333,8.1667,6.0,Wilhelmshaven (Flugplatz),Niedersachsen
+06186,50.1989,7.8651,268.0,Nastätten Rheinland-Pfalz,Frei
+06189,53.1333,9.35,34.0,Rotenburg (Wümme) (Flugplatz) Niedersachsen,Frei
+06192,49.8083,7.8458,115.0,"Münster am Stein, Bad",Rheinland-Pfalz
+06196,50.1587,12.0386,611.0,Selb-Spielberg Bayern,Frei
+06197,51.8664,9.271,258.0,Lügde-Paenbruch Nordrhein-Westfalen,Frei
+06199,54.2484,13.0419,16.0,Steinhagen-Negast Mecklenburg-Vorpommern,Frei
+06211,47.955,12.1735,464.0,Vogtareuth (Kläranlage) Bayern,Frei
+06217,49.2406,6.9351,190.0,Saarbrücken-Burbach Saarland,Frei
+06219,48.8768,11.1043,394.0,Dollnstein-Breitenfurt Bayern,Frei
+06221,53.5084,7.0781,6.0,Krummhörn (Hooge) Niedersachsen,Frei
+06238,47.9946,11.269,675.0,Starnberg-Perchting Bayern,Frei
+06242,50.4088,7.489,64.0,Mülheim-Kärlich,Rheinland-Pfalz
+06243,49.2506,8.4422,96.0,Philippsburg KKW,Baden-Württemberg
+06244,49.365,9.0804,145.0,Obrigheim,Baden-Württemberg
+06245,49.0423,9.1733,180.0,Neckarwestheim KKW,Baden-Württemberg
+06247,47.6078,8.1813,307.0,Dogern (Leibstadt),Baden-Württemberg
+06253,52.4228,12.5667,31.0,Brandenburg/Havel Brandenburg,Frei
+06255,49.4667,6.3968,351.0,Perl/Saar,Saarland
+06258,47.6845,9.4409,461.0,Friedrichshafen-Unterraderach Baden-Württemberg,Frei
+06259,49.021,9.6033,524.0,Großerlach-Mannenweiler Baden-Württemberg,Frei
+06260,49.3328,9.704,381.0,Ingelfingen-Stachenhausen Baden-Württemberg,Frei
+06262,48.7695,9.8737,412.0,Schwäbisch Gmünd-Weiler Baden-Württemberg,Frei
+06263,47.7738,8.8219,445.0,Singen Baden-Württemberg,Frei
+06264,51.414,8.65,457.0,Brilon-Thülen Nordrhein-Westfalen,Frei
+06265,52.3613,12.3867,36.0,Wusterwitz Brandenburg,Frei
+06266,52.0304,10.9626,112.0,Huy-Pabstorf Sachsen-Anhalt,Frei
+06272,50.8426,10.2518,284.0,"Salzungen, Bad-Gräfen-Nitzendorf Thüringen",Frei
+06273,52.5075,11.8551,36.0,Demker Sachsen-Anhalt,Frei
+06275,48.6705,9.4627,327.0,Notzingen Baden-Württemberg,Frei
+06277,52.4167,10.6667,66.0,Wolfsburg (Schleuse) Niedersachsen,Frei
+06304,49.3533,11.5053,550.0,Pilsach-Litzlohe Bayern,Frei
+06305,51.2061,10.4978,194.0,Mühlhausen/Thüringen-Görmar Thüringen,Frei
+06310,54.1049,13.8239,1.0,Karlshagen Mecklenburg-Vorpommern,Frei
+06312,49.5314,10.6418,362.0,Markt Erlbach-Mosbach Bayern,Frei
+06314,51.0507,13.3003,306.0,Nossen Sachsen,Frei
+06336,50.0132,9.654,288.0,Lohr/Main-Halsbach Bayern,Frei
+06337,51.7663,7.5194,58.0,Lüdinghausen-Brochtrup Nordrhein-Westfalen,Frei
+06344,50.394,8.1423,168.0,Runkel-Ennerich Hessen,Frei
+06346,48.207,11.2035,531.0,Maisach-Galgen Bayern,Frei
+06347,50.0579,10.2972,305.0,Schonungen-Mainberg Bayern,Frei
+07075,48.702,11.8493,429.0,Elsendorf-Horneck Bayern,Frei
+07099,52.0111,10.3966,187.0,Liebenburg-Othfresen Niedersachsen,Frei
+07105,47.835,12.6548,719.0,Siegsdorf-Höll Bayern,Frei
+07106,52.0714,8.4565,105.0,Bielefeld-Deppendorf Nordrhein-Westfalen,Frei
+07135,47.9655,9.6804,565.0,Aulendorf-Haslach Baden-Württemberg,Frei
+07187,49.7636,9.4063,194.0,Freudenberg/Main-Boxtal Baden-Württemberg,Frei
+07244,53.1424,13.0319,62.0,Neuglobsow (HM) Brandenburg,Frei
+07298,54.5268,9.0425,4.0,Hattstedt Schleswig-Holstein,Frei
+07308,47.8847,11.154,541.0,Wielenbach Bayern,Frei
+07319,48.7374,10.7393,435.0,Donauwörth-Osterweiler Bayern,Frei
+07321,51.1507,11.3321,157.0,Olbersleben Thüringen,Frei
+07325,47.4165,10.9795,2650.0,Schneefernerhaus Bayern,Frei
+07329,50.5467,12.2863,465.0,Treuen Sachsen,Frei
+07330,51.4633,7.978,159.0,Arnsberg-Neheim Nordrhein-Westfalen,Frei
+07331,48.6099,10.2674,467.0,Hermaringen-Allewind Baden-Württemberg,Frei
+07341,50.09,8.7862,119.0,Offenbach-Wetterpark Hessen,Frei
+07343,50.62,13.4817,689.0,Deutschneudorf-Brüderwiese Sachsen,Frei
+07350,49.1088,12.8231,585.0,Prackenbach-Neuhäusl Bayern,Frei
+07351,53.3176,13.4175,115.0,Feldberg/Mecklenburg Mecklenburg-Vorpommern,Frei
+07364,51.6818,12.3053,74.0,Jeßnitz Sachsen-Anhalt,Frei
+07367,51.9643,9.8072,144.0,Alfeld Niedersachsen,Frei
+07368,51.0007,10.3621,312.0,Eisenach Thüringen,Frei
+07369,49.1623,10.3661,475.0,Feuchtwangen-Heilbronn Bayern,Frei
+07370,49.391,12.6838,499.0,Waldmünchen Bayern,Frei
+07373,53.5984,6.7024,3.0,Borkum-Flugplatz Niedersachsen,Frei
+07374,52.0813,6.9409,46.0,Ahaus Nordrhein-Westfalen,Frei
+07389,52.7461,13.8427,83.0,Heckelberg Brandenburg,Frei
+07391,49.5561,8.9669,443.0,Oberzent-Beerfelden-Vogelherd Hessen,Frei
+07392,50.3332,10.4487,304.0,Aubstadt Bayern,Frei
+07393,51.4492,14.2533,116.0,Hoyerswerda Sachsen,Frei
+07394,50.0315,11.9745,622.0,Wunsiedel-Schönbrunn Bayern,Frei
+07395,48.6595,12.5388,351.0,Gottfrieding Bayern,Frei
+07396,50.5084,9.2246,740.0,Hoherodskopf/Vogelsberg Hessen,Frei
+07403,47.7955,10.0325,672.0,Leutkirch-Herlazhofen Baden-Württemberg,Frei
+07410,50.7513,9.0224,350.0,Neu-Ulrichstein Hessen,Frei
+07412,50.0083,9.4238,340.0,Neuhütten/Spessart Bayern,Frei
+07416,51.0112,8.2733,541.0,Birkelbach Nordrhein-Westfalen,Frei
+07419,50.661,12.0756,389.0,Langenwetzendorf-Göttendorf Thüringen,Frei
+07420,51.1045,11.7113,246.0,Naumburg/Saale-Kreipitzsch Sachsen-Anhalt,Frei
+07424,47.7724,12.9073,457.0,Piding Bayern,Frei
+07427,54.0188,9.9255,17.0,Padenstedt (Pony-Park) Schleswig-Holstein,Frei
+07428,50.4167,10.8156,397.0,Veilsdorf Thüringen,Frei
+07431,48.013,11.5524,604.0,Oberhaching-Laufzorn Bayern,Frei
+07432,52.6423,10.6628,71.0,Wittingen-Vorhop Niedersachsen,Frei
+10510,48.8059,9.5046,244.0,Winterbach/Remstal Baden-Württemberg,Frei
+13667,48.0006,7.845,269.0,Freiburg-Mitte Baden-Württemberg,Frei
+13670,51.5088,6.7018,24.0,Duisburg-Baerl Nordrhein-Westfalen,Frei
+13674,49.2943,8.9053,237.0,Waibstadt Baden-Württemberg,Frei
+13675,52.0818,9.4077,75.0,Hameln-Hastenbeck Niedersachsen,Frei
+13676,48.8608,12.0323,378.0,Langquaid-Oberschneidhart Bayern,Frei
+13693,51.9258,8.3111,70.0,Gütersloh/Ems Nordrhein-Westfalen,Frei
+13696,51.5966,7.4048,60.0,Waltrop-Abdinghof Nordrhein-Westfalen,Frei
+13700,51.3329,7.3412,203.0,Gevelsberg-Oberbröking Nordrhein-Westfalen,Frei
+13701,51.1945,9.9885,250.0,Eschwege-Eltmannshausen Hessen,Frei
+13710,48.5734,12.2576,490.0,Landshut-Reithof Bayern,Frei
+13711,50.682,11.515,289.0,Krölpa-Rockendorf Thüringen,Frei
+13713,51.0899,7.6289,385.0,Meinerzhagen-Redlendorf Nordrhein-Westfalen,Frei
+13776,52.1789,9.9524,85.0,Hildesheim-Drispenstedt Niedersachsen,Frei
+13777,52.2467,10.9592,109.0,Helmstedt-Emmerstedt Niedersachsen,Frei
+13876,50.7667,13.7333,755.0,Altenberg-Raupennest Sachsen,Frei
+13886,50.7,11.6,250.0,Pößneck Thüringen,Frei
+13898,51.4667,10.3,286.0,Wehnde Thüringen,Frei
+13900,50.2688,9.358,145.0,"Soden,Bad-Salmünster (Kläranlage) Hessen",Frei
+13901,51.7343,7.1998,41.0,Haltern (Wasserwerk) Nordrhein-Westfalen,Frei
+13904,55.0,6.3333,3.0,Nordseeboje 2 Hamburg,Frei
+13923,50.7114,12.499,268.0,Zwickau-Stadt Sachsen,Frei
+13932,48.3617,13.1938,388.0,Rotthalmünster (Landwirtschaftsamt) Bayern,Frei
+13952,51.4089,8.0094,278.0,Arnsberg-Müschede Nordrhein-Westfalen,Frei
+13965,48.2639,8.8134,619.0,Balingen-Bronnhaupten Baden-Württemberg,Frei
+14003,47.8619,10.6144,728.0,Kaufbeuren (Flugplatz) Bayern,Frei
+14138,52.1655,14.1224,73.0,Falkenberg (Grenzschichtmessfeld) Brandenburg,Frei
+14311,50.15,6.5527,530.0,Hersdorf-Weißenseifen Rheinland-Pfalz,Frei
+15000,50.7983,6.0244,231.0,Aachen-Orsbach Nordrhein-Westfalen,Frei
+15044,50.4517,7.4058,199.0,Neuwied-Feldkirchen-Hüllenberg Rheinland-Pfalz,Frei
+15120,51.5572,8.7019,379.0,Haaren Nordrhein-Westfalen,Frei
+15122,49.52,10.2854,380.0,Ergersheim-Neuherberg Bayern,Frei
+15189,53.8281,12.5936,12.0,Sukow-Levitzow Mecklenburg-Vorpommern,Frei
+15190,51.6802,6.4349,18.0,Xanten (Wasserwerk) Nordrhein-Westfalen,Frei
+15194,52.0688,10.6245,129.0,Börßum-Achim Niedersachsen,Frei
+15200,51.2531,7.2157,327.0,Wuppertal Nordrhein-Westfalen,Frei
+15207,51.2835,9.359,317.0,Schauenburg-Elgershausen Hessen,Frei
+15214,47.6248,10.8075,808.0,Halblech-Bayerniederhofen Bayern,Frei
+15444,48.4418,9.9216,593.0,Ulm-Mähringen Baden-Württemberg,Frei
+15520,47.819,12.2956,656.0,Frasdorf-Greimelberg Bayern,Frei
+15526,53.5467,9.9716,29.0,Hamburg (Deutsche Seewarte) Hamburg,Frei
+15547,49.1259,9.1428,214.0,Heilbronn/Neckar Baden-Württemberg,Frei
+15555,47.8761,10.5849,815.0,Kaufbeuren-Oberbeuren Bayern,Frei
+15801,48.8257,13.5922,718.0,Hinterschmiding-Sonndorf Bayern,Frei
+15813,52.5126,7.4131,40.0,Lingen-Baccum Niedersachsen,Frei
+15911,51.1347,14.4344,279.0,Großpostwitz-Denkwitz Sachsen,Frei
+15926,49.341,12.133,370.0,Fronberg (Schwandorf) Bayern,Frei
+15951,49.2121,7.5882,280.0,Pirmasens (Kläranlage) Rheinland-Pfalz,Frei
+15963,51.3258,6.5089,40.0,St. Tönis Nordrhein-Westfalen,Frei
+15964,51.33,6.56,45.0,Krefeld-Mitte Nordrhein-Westfalen,Frei
+15965,50.3102,9.7838,350.0,"Brückenau, Bad (Elisabethenhof) Bayern",Frei
+15976,49.9529,8.2107,216.0,Ober-Olm/Bellem Rheinland-Pfalz,Frei
+15978,49.5044,7.8618,316.0,Sembach Rheinland-Pfalz,Frei
+15979,49.9311,7.5153,426.0,Sargenroth Rheinland-Pfalz,Frei
+16085,53.5874,8.6011,8.0,Leherheide Bremen,Frei
+19087,48.8049,13.5528,645.0,Freyung vorm Wald Bayern,Frei
+19171,54.0039,9.8555,13.0,Hasenkrug-Hardebek Schleswig-Holstein,Frei
+19172,54.0246,9.388,48.0,Wacken Schleswig-Holstein,Frei
+19207,53.8178,12.0645,16.0,Gülzow-Prüzen Mecklenburg-Vorpommern,Frei
+19243,54.6831,8.4721,8.0,Föhr Schleswig-Holstein,Frei
+19317,48.2333,11.5667,486.0,Oberschleißheim/Flugplatz,Bayern
+19318,50.718,10.431,292.0,Schmalkalden Thüringen,Frei
+19364,50.6167,10.8167,720.0,Schmiedefeld/Rennsteig Thüringen,Frei
+19378,50.8333,10.5833,505.0,Finsterbergen Thüringen,Frei
+19406,51.0833,11.6333,132.0,"Sulza, Bad Thüringen",Frei
+19433,50.8188,10.3443,316.0,"Liebenstein, Bad Thüringen",Frei
+19510,51.1,12.33,159.0,Lucka Thüringen,Frei
+19576,49.8044,8.8582,249.0,Reinheim-Hundertmorgen Hessen,Frei
+19579,47.8194,8.3348,875.0,Bonndorf Baden-Württemberg,Frei
+19580,48.4951,9.4003,471.0,"Urach, Bad/Erms Baden-Württemberg",Frei
+19581,48.6671,8.47,600.0,Enzklösterle/Schwarzwald Baden-Württemberg,Frei
+19582,48.1419,8.4255,754.0,Königsfeld Baden-Württemberg,Frei
+19607,50.6952,13.4972,615.0,Cämmerswalde-Rauschenbach Sachsen,Frei
+19617,49.7391,10.6039,310.0,Burghaslach Bayern,Frei
+19631,50.8083,10.2294,268.0,Salzungen Thüringen,Frei
+19647,49.4547,8.9794,178.0,Eberbach/Neckar Baden-Württemberg,Frei
+19774,51.4814,10.8057,174.0,Nordhausen (Umspannwerk) Thüringen,Frei
+19781,48.7429,11.4233,367.0,Ingolstadt Bayern,Frei
+19794,49.4415,11.8529,370.0,Amberg (Mariahilfberg) Bayern,Frei
+19831,48.5957,8.729,430.0,Nagold/Nagold Baden-Württemberg,Frei
+19856,47.6134,12.9819,625.0,Schönau am Königssee Bayern,Frei
+19911,50.9625,10.0663,215.0,Gerstungen/Thüringen Thüringen,Frei
+19940,52.6069,11.88,31.0,Stendal/Altmark Sachsen-Anhalt,Frei
+19985,48.8457,8.9073,455.0,Weissach/Strudelbach Baden-Württemberg,Frei
+19989,50.0681,8.2603,147.0,Wiesbaden (Südost) Hessen,Frei
+20007,50.8422,12.877,332.0,Chemnitz-Altendorf Sachsen,Frei
+20098,48.5651,8.2284,1019.0,Seebach (Nationalpark Schwarzwald) Baden-Württemberg,Frei
+20278,47.421,10.9848,2956.0,Zugspitze_Plattform Bayern,Frei
