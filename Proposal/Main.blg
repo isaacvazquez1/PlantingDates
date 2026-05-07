@@ -5,84 +5,87 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-I was expecting a `,' or a `}'---line 1259 of file Refs.bib
+Warning--string name "july" is undefined
+--line 61 of file Refs.bib
+I was expecting a `,' or a `}'---line 1316 of file Refs.bib
  :  
  :  address={New York, U.S.A.}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2274 of file Refs.bib
+Repeated entry---line 2331 of file Refs.bib
  : @article{Liu_2025
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2590 of file Refs.bib
+Repeated entry---line 2647 of file Refs.bib
  : @article{Li_2025
  :                 ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2719 of file Refs.bib
+I was expecting a `,' or a `}'---line 2776 of file Refs.bib
  :  
  :  note={Tesis de maestría}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3254 of file Refs.bib
+I was expecting a `,' or a `}'---line 3311 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3345 of file Refs.bib
+I was expecting a `,' or a `}'---line 3402 of file Refs.bib
  :  
  :  DOI = {10.3390/agronomy8040037}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 4128 of file Refs.bib
+Repeated entry---line 4185 of file Refs.bib
  : @article{Zhang_2025
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4425 of file Refs.bib
+Repeated entry---line 4482 of file Refs.bib
  : @article{Franch_2022
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in France_1984
 Warning--empty journal in García-Mendoza_2002
+Warning--empty booktitle in Hennemuth_2013
 Warning--can't use both author and editor fields in Regniere_2013
-You've used 186 entries,
+You've used 190 entries,
             2118 wiz_defined-function locations,
-            1739 strings with 44554 characters,
-and the built_in function-call counts, 72894 in all, are:
-= -- 6701
-> -- 4654
+            1756 strings with 45610 characters,
+and the built_in function-call counts, 74319 in all, are:
+= -- 6817
+> -- 4775
 < -- 14
-+ -- 1847
-- -- 1646
-* -- 6181
-:= -- 12568
-add.period$ -- 572
-call.type$ -- 186
-change.case$ -- 1367
++ -- 1896
+- -- 1690
+* -- 6299
+:= -- 12827
+add.period$ -- 584
+call.type$ -- 190
+change.case$ -- 1401
 chr.to.int$ -- 0
-cite$ -- 189
-duplicate$ -- 2195
-empty$ -- 4870
-format.name$ -- 1646
-if$ -- 14589
+cite$ -- 194
+duplicate$ -- 2235
+empty$ -- 4953
+format.name$ -- 1690
+if$ -- 14863
 int.to.chr$ -- 0
-int.to.str$ -- 186
-missing$ -- 193
-newline$ -- 937
-num.names$ -- 384
-pop$ -- 1167
+int.to.str$ -- 190
+missing$ -- 196
+newline$ -- 957
+num.names$ -- 392
+pop$ -- 1207
 preamble$ -- 1
-purify$ -- 1190
+purify$ -- 1220
 quote$ -- 0
-skip$ -- 1533
+skip$ -- 1562
 stack$ -- 0
-substring$ -- 4213
-swap$ -- 334
+substring$ -- 4227
+swap$ -- 338
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 714
-warning$ -- 3
-while$ -- 547
-width$ -- 189
-write$ -- 2064
+type$ -- 730
+warning$ -- 4
+while$ -- 554
+width$ -- 193
+write$ -- 2106
 (There were 8 error messages)

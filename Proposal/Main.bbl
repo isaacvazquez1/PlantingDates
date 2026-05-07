@@ -86,6 +86,13 @@ H.~Arnold Bruns and H.~K. Abbas.
 \newblock Planting date effects on bt and non-bt corn in the mid-south usa.
 \newblock {\em Agronomy Journal}, 98(1):100--106, 2006.
 
+\bibitem{States_2025}
+{Bundesamt für Kartographie und Geodäsie}.
+\newblock Nuts-gebiete 1:250 000 (nuts250) – open data download, jul 2025.
+\newblock Accesado vía
+  \url{https://daten.gdz.bkg.bund.de/produkte/vg/nuts250_1231/aktuell/nuts250_12-31.utm32s.gpkg.zip}
+  en abril 16, 2026.
+
 \bibitem{Butler_2015}
 E.E. Butler and P.~Huybers.
 \newblock Variations in the sensitivity of us maize yield to extreme
@@ -234,6 +241,12 @@ K.~Donohue, L.T. Burghardt, D.~Runcie, K.J. Bradford, and J.~Schmitt.
 \newblock Applying developmental threshold models to evolutionary ecology.
 \newblock {\em Trends in Ecology \& Evolution}, 30(2):66--77, 2015.
 
+\bibitem{Duden_2024}
+C.~Duden, C.~Nacke, and F.~Offermann.
+\newblock German yield and area data for 11 crops from 1979 to 2021 at a
+  harmonized spatial resolution of 397 districts.
+\newblock {\em Scientific Data}, 11(1), January 2024.
+
 \bibitem{Elnesr_2013}
 M.N. Elnesr, A.A. Alazba, and A.A. Alsadon.
 \newblock An arithmetic method to determine the most suitable planting dates
@@ -280,6 +293,13 @@ C.B. Field, V.~Barros, T.F. Stocker, D.~Qin, D.J. Dokken, K.L. Ebi, M.D.
 \newblock {\em Managing the Risks of Extreme Events and Disasters to Advance
   Climate Change Adaptation}.
 \newblock Cambridge University Press, Cambridge, United Kingdom, 2012.
+
+\bibitem{Flores_2025}
+L.~Flores, C.~Nendel, B.~Bookhagen, J.A. Oviedo~Reyes, T.~Smith, and
+  G.~Ghazaryan.
+\newblock The potential of sentinel-1 time series for large-scale assessment of
+  maize and wheat phenology across germany.
+\newblock {\em GIScience \& Remote Sensing}, 62(1), 2025.
 
 \bibitem{Flores-Gallardo_2012}
 H.~Flores-Gallardo, W.~Ojeda-Bustamante, H.~Flores-Magdaleno, E.~Mejía-Sáenz,
@@ -369,6 +389,14 @@ W.S.C. Gurney, P.H. Crowley, and R.M. Nisbet.
 \newblock Locking life-cycles onto seasons: Circle-map models of population
   dynamics and local adaptation.
 \newblock {\em Journal of Mathematical Biology}, 30(3):251–279, January 1992.
+
+\bibitem{Hennemuth_2013}
+B.~Hennemuth, S.~Bender, K.~B{\"u}low, N.~Dreier, E.~Keup-Thiel, O.~Kr{\"u}ger,
+  C.~Mudersbach, C.~Radermacher, and R.~Schoetter.
+\newblock Statistical methods for the analysis of simulated and observed
+  climate data: applied in projects and institutions dealing with climate
+  change impact and adaptation.
+\newblock Climate Service Center Germany, 2013.
 
 \bibitem{Hickling_1995}
 A.K. Hickling and S.A. Gelman.
@@ -795,6 +823,13 @@ D.E. Rapach and M.E. Wohar.
   stock returns.
 \newblock {\em Journal of Financial Econometrics}, 4(2):238--274, 2006.
 
+\bibitem{Rattalino_2018}
+J.I. Rattalino~Edreira, K.G. Cassman, Z.~Hochman, M.K. van Ittersum, L.~van
+  Bussel, L.~Claessens, and P.~Grassini.
+\newblock Beyond the plot: technology extrapolation domains for scaling out
+  agronomic science.
+\newblock {\em Environmental Research Letters}, 13(5):054027, May 2018.
+
 \bibitem{Rausch_2006}
 K.D. Rausch and R.L. Belyea.
 \newblock The future of coproducts from corn processing.
@@ -857,13 +892,6 @@ J.L. Rocha-Arroyo, S.~Salazar-García, A.E. Bárcenas-Ortega, I.J.L.
 S.M. Ross.
 \newblock {\em A First Course in Probability}.
 \newblock Pearson, Harlow, United Kingdom, 8 edition, 2020.
-
-\bibitem{Rossberg_2007}
-D.~Ro{\ss}berg, V.~Michel, R.~Graf, and R.~Neukampf.
-\newblock Definition von boden-klima-r{\"a}umen f{\"u}r die bundesrepublik
-  deutschland.
-\newblock {\em Nachrichtenblatt des Deutschen Pflanzenschutzdienstes},
-  59(7):155--161, 2007.
 
 \bibitem{Sacks_2010}
 W.J. Sacks, D.~Deryng, J.A. Foley, and N.~Ramankutty.

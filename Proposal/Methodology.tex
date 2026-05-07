@@ -215,7 +215,8 @@ en donde se muestra tanto la estructura cíclica como proceso estocástico que s
 		(Di) edge[bend right=15] 
 		node[pos=0.4, sloped, above] {$\lambda_{i}$} (dots2)
 		
-		(dots2) edge[bend right=15] (D365)
+		(dots2) edge[bend right=15]
+		node[pos=0.5, sloped, above] {$\lambda_{364}$} (D365)
 		
 		(D365) edge[bend right=15] 
 		node[pos=0.5, sloped, above] {$\lambda_{365}$} (D1);
@@ -533,19 +534,29 @@ Finalmente, tras la revisión bibliográfica, los parámetros a emplear están d
 
 
 
-Con el objetivo de incorporar la heterogeneidad medioambiental presente en Alemania, el análisis recurre a la definición de zonas agroecológicas, ver Fig. \ref{Agroecological}. En particular, se consideran las 50 zonas agroecológicas caracterizadas por Roßberg \textit{et al.} (2007) \cite{Rossberg_2007} y, para cada una de ellas, el procedimiento metodológico previamente descrito se replica de manera independiente.\\
+Con el objetivo de cubrir una región de interés agrícola, el análisis se centrará en los estados federados de Baviera, Brandemburgo y Sajonia, los cuales, de manera conjunta, albergan 5.17 M ha de superficie destinada para la agricultura \cite{Flores_2025}. Al centrarnos en esta área, se logra una cobertura de aproximadamente el $54.42\%$ de las 9.5 M ha de superficie empleada anualmente para los principales cultivos que se producen en Alemania \cite{Duden_2024}.\\
+
+
+Para cada uno de los estados mencionados se replicará, de manera independiente, el procedimiento metodológico antes descrito para generar los correspondientes calendarios agrícolas regionalizados para la siembra de maíz en Alemania. Para ello, se considerarán exclusivamente aquellas estaciones climáticas contenidas dentro de sus fronteras geográficas, ver Fig. \ref{Stations_per_state}.\\
+
+La elección de Baviera, Brandemburgo y Sajonia se ve motivada por el trabajo de Flores et al. (2025) \cite{Flores_2025} en el que se menciona que esta región agrícola está caracterizada por una elevada heterogeneidad topográfica, climática y edáfica. En consecuencia, la región presenta variaciones en humedad, altitud, temperatura y características del suelo, factores que influyen directamente sobre las prácticas agrícolas y los calendarios de siembra. De esta manera, se tiene un escenario tanto para evaluar la metodología como para explorar su potencial extrapolación espacial longitudinalmente \cite{Rattalino_2018}.\\
 
 
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\textwidth]{[Interseccion] Both_cropped.pdf}
-	\caption{Distribución de las estaciones climáticas sobre las zonas agroecológicas de Alemania. Los polígonos en color verde, delimitados por un contorno en color negro, corresponden a las zonas agroecológicas definidas por Roßberg \textit{et al.} (2007) \cite{Rossberg_2007}. Los puntos en color naranja indican la ubicación de las 493 estaciones climáticas, las cuales reportan las primeras ocho variables listadas en la Tabla \ref{AgroVariables}.}
-	\label{Agroecological}
+	\includegraphics[width=0.7\textwidth]{Stations per Federal State.pdf}
+	\caption{Distribución de las estaciones climáticas respecto a los estados federados de Alemania. Los polígonos delimitados por un contorno en color negro corresponden a los estados federados reportados por Bundesamt für Kartographie und Geodäsie \cite{States_2025}. En color verde se muestran, de manera descendente, Brandemburgo, Sajonia y Baviera. Los puntos en color amarillo indican la ubicación de las 493 estaciones climáticas, las cuales reportan las primeras ocho variables listadas en la Tabla \ref{AgroVariables}.}
+	\label{Stations_per_state}
 \end{figure}
 
-Para cada zona, se utilizan exclusivamente aquellas estaciones climáticas contenidas dentro de sus límites geográficos. En total, se dispone de información proveniente de 493 estaciones climáticas distribuidas a lo largo del territorio alemán, las cuales reportan las primeras ocho variables mostradas en la Tabla \ref{AgroVariables}.\\
 
-Para cada variable considerada y para cada día del año, se calcula el promedio de los valores reportados por todas las estaciones climáticas contenidas en la zona agroecológica correspondiente. De esta manera, se obtienen mediciones históricas representativas de las condiciones medias locales, ver Fig. \ref{Distance}, las cuales son utilizadas para determinar las probabilidades de transición del modelo a través de la Ecuación \eqref{lambdas}.\\
 
-De esta manera, para cada zona agroecológica se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos óptimos de siembra adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos. No obstante, la diferencia en la cantidad de información disponible entre zonas agroecológicas, puede influir en las estimaciones obtenidas.
+Se dispone de información proveniente de 493 estaciones climáticas distribuidas a lo largo del territorio alemán, las cuales reportan simultáneamente las primeras ocho variables mostradas en la Tabla \ref{AgroVariables}. Para Brandemburgo se tiene un total de 34 estaciones climáticas disponibles, mientras que Sajonia dispone de 31 estaciones y, finalmente, Baviera cuenta con un total de 92 estaciones, permitiendo una amplia cobertura espacial de las condiciones climáticas regionales.\\
+
+
+Las estaciones a emplear serán todas aquellas que reporten los datos históricos desde 1994 hasta 2024, considerando un periodo de 30 años, una duración estándar al estudiar efectos del cambio climático \cite{Hennemuth_2013}. De igual forma, se considerarán aquellas estaciones sin datos faltantes, o bien, que pueda llevarse a cabo la imputación de datos pese a los valores faltantes.\\ 
+
+Para cada variable considerada y para cada día del año, se calcula el promedio de los valores reportados por todas las estaciones climáticas durante el periodo de estudio que estén contenidas en el estado correspondiente. De esta manera, se obtienen mediciones históricas representativas de las condiciones medias locales, ver Fig. \ref{Distance}, las cuales son utilizadas para determinar las probabilidades de transición del modelo a través de la Ecuación \eqref{lambdas}.\\
+
+De esta manera, para cada estado se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos óptimos de siembra adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos. No obstante, es importante mencionar que la diferencia en la cantidad de información disponible entre estados, puede influir en las estimaciones obtenidas.
