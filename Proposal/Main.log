@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  6 MAY 2026 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  7 MAY 2026 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1041,22 +1041,30 @@ Package: nicematrix 2026/03/11 v7.8 Enhanced arrays with the help of PGF/TikZ
 \l__nicematrix_submatrix_right_xshift_dim=\dimen371
 \l__nicematrix_brace_yshift_dim=\dimen372
 )
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count410
+\float@exts=\toks45
+\float@box=\box73
+\@float@everytoks=\toks46
+\@floatcapt=\box74
+)
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count410
-\l__siunitx_number_exponent_fixed_int=\count411
-\l__siunitx_number_min_decimal_int=\count412
-\l__siunitx_number_min_integer_int=\count413
-\l__siunitx_number_round_precision_int=\count414
-\l__siunitx_number_lower_threshold_int=\count415
-\l__siunitx_number_upper_threshold_int=\count416
-\l__siunitx_number_group_first_int=\count417
-\l__siunitx_number_group_size_int=\count418
-\l__siunitx_number_group_minimum_int=\count419
+\l__siunitx_number_uncert_offset_int=\count411
+\l__siunitx_number_exponent_fixed_int=\count412
+\l__siunitx_number_min_decimal_int=\count413
+\l__siunitx_number_min_integer_int=\count414
+\l__siunitx_number_round_precision_int=\count415
+\l__siunitx_number_lower_threshold_int=\count416
+\l__siunitx_number_upper_threshold_int=\count417
+\l__siunitx_number_group_first_int=\count418
+\l__siunitx_number_group_size_int=\count419
+\l__siunitx_number_group_minimum_int=\count420
 \l__siunitx_angle_tmp_dim=\dimen373
-\l__siunitx_angle_marker_box=\box73
-\l__siunitx_angle_unit_box=\box74
-\l__siunitx_compound_count_int=\count420
+\l__siunitx_angle_marker_box=\box75
+\l__siunitx_angle_unit_box=\box76
+\l__siunitx_compound_count_int=\count421
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
@@ -1071,35 +1079,35 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-\l__siunitx_table_tmp_box=\box75
+\l__siunitx_table_tmp_box=\box77
 \l__siunitx_table_tmp_dim=\dimen374
 \l__siunitx_table_column_width_dim=\dimen375
-\l__siunitx_table_integer_box=\box76
-\l__siunitx_table_decimal_box=\box77
-\l__siunitx_table_uncert_box=\box78
-\l__siunitx_table_before_box=\box79
-\l__siunitx_table_after_box=\box80
+\l__siunitx_table_integer_box=\box78
+\l__siunitx_table_decimal_box=\box79
+\l__siunitx_table_uncert_box=\box80
+\l__siunitx_table_before_box=\box81
+\l__siunitx_table_after_box=\box82
 \l__siunitx_table_before_dim=\dimen376
 \l__siunitx_table_carry_dim=\dimen377
-\l__siunitx_unit_tmp_int=\count421
-\l__siunitx_unit_position_int=\count422
-\l__siunitx_unit_total_int=\count423
+\l__siunitx_unit_tmp_int=\count422
+\l__siunitx_unit_position_int=\count423
+\l__siunitx_unit_total_int=\count424
 )
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks45
-\thm@bodyfont=\toks46
-\thm@headfont=\toks47
-\thm@notefont=\toks48
-\thm@headpunct=\toks49
+\thm@style=\toks47
+\thm@bodyfont=\toks48
+\thm@headfont=\toks49
+\thm@notefont=\toks50
+\thm@headpunct=\toks51
 \thm@preskip=\skip261
 \thm@postskip=\skip262
 \thm@headsep=\skip263
-\dth@everypar=\toks50
+\dth@everypar=\toks52
 )
-\c@theorem=\count424
-\c@lemma=\count425
-\c@definition=\count426
+\c@theorem=\count425
+\c@lemma=\count426
+\c@definition=\count427
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
@@ -1120,8 +1128,8 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen378
-\Hy@linkcounter=\count427
-\Hy@pagecounter=\count428
+\Hy@linkcounter=\count428
+\Hy@pagecounter=\count429
  (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -1129,7 +1137,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count429
+\Hy@SavedSpaceFactor=\count430
  (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -1142,7 +1150,7 @@ Package hyperref Info: Plain pages OFF on input line 4216.
 Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count430
+\c@Hy@tempcnt=\count431
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip21
@@ -1159,7 +1167,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count431
+\Fld@menulength=\count432
 \Field@Width=\dimen380
 \Fld@charsize=\dimen381
 Package hyperref Info: Hyper figures OFF on input line 6084.
@@ -1169,16 +1177,16 @@ Package hyperref Info: backreferencing OFF on input line 6099.
 Package hyperref Info: Link coloring OFF on input line 6104.
 Package hyperref Info: Link coloring with OCG OFF on input line 6109.
 Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count432
-\c@Item=\count433
-\c@Hfootnote=\count434
+\Hy@abspage=\count433
+\c@Item=\count434
+\c@Hfootnote=\count435
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
-\Fld@listcount=\count435
-\c@bookmark@seq@number=\count436
+\Fld@listcount=\count436
+\c@bookmark@seq@number=\count437
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -1195,17 +1203,17 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
 Package: memhfixc 2025/09/16 v1.24 hyperref package fixes for memoir class
-\c@memhycontfloat=\count437
-\c@mem@Hpagenote=\count438
+\c@memhycontfloat=\count438
+\c@mem@Hpagenote=\count439
 )
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip265
 \enit@outerparindent=\dimen382
-\enit@toks=\toks51
-\enit@inbox=\box81
-\enit@count@id=\count439
-\enitdp@description=\count440
+\enit@toks=\toks53
+\enit@inbox=\box83
+\enit@count@id=\count440
+\enitdp@description=\count441
 )
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
@@ -1213,23 +1221,23 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTright=\skip267
 \LTpre=\skip268
 \LTpost=\skip269
-\LTchunksize=\count441
+\LTchunksize=\count442
 \LTcapwidth=\dimen383
-\LT@head=\box82
-\LT@firsthead=\box83
-\LT@foot=\box84
-\LT@lastfoot=\box85
-\LT@gbox=\box86
-\LT@cols=\count442
-\LT@rows=\count443
-\c@LT@tables=\count444
-\c@LT@chunks=\count445
-\LT@p@ftn=\toks52
+\LT@head=\box84
+\LT@firsthead=\box85
+\LT@foot=\box86
+\LT@lastfoot=\box87
+\LT@gbox=\box88
+\LT@cols=\count443
+\LT@rows=\count444
+\c@LT@tables=\count445
+\c@LT@chunks=\count446
+\LT@p@ftn=\toks54
 )
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip270
-\multirow@cntb=\count446
+\multirow@cntb=\count447
 \multirow@dima=\skip271
 \bigstrutjot=\dimen384
 )
@@ -1266,8 +1274,8 @@ code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen387
 \pgffor@skip=\dimen388
-\pgffor@stack=\toks53
-\pgffor@toks=\toks54
+\pgffor@stack=\toks55
+\pgffor@toks=\toks56
 ))
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -1276,7 +1284,7 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count447
+\pgf@plot@mark@count=\count448
 \pgfplotmarksize=\dimen389
 )
 \tikz@lastx=\dimen390
@@ -1287,23 +1295,23 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@lastmovetoy=\dimen395
 \tikzleveldistance=\dimen396
 \tikzsiblingdistance=\dimen397
-\tikz@figbox=\box87
-\tikz@figbox@bg=\box88
-\tikz@tempbox=\box89
-\tikz@tempbox@bg=\box90
-\tikztreelevel=\count448
-\tikznumberofchildren=\count449
-\tikznumberofcurrentchild=\count450
-\tikz@fig@count=\count451
+\tikz@figbox=\box89
+\tikz@figbox@bg=\box90
+\tikz@tempbox=\box91
+\tikz@tempbox@bg=\box92
+\tikztreelevel=\count449
+\tikznumberofchildren=\count450
+\tikznumberofcurrentchild=\count451
+\tikz@fig@count=\count452
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count452
-\pgfmatrixcurrentcolumn=\count453
-\pgf@matrix@numberofcolumns=\count454
+\pgfmatrixcurrentrow=\count453
+\pgfmatrixcurrentcolumn=\count454
+\pgf@matrix@numberofcolumns=\count455
 )
-\tikz@expandcount=\count455
+\tikz@expandcount=\count456
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -1320,26 +1328,26 @@ File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
 pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodepartlowerbox=\box91
-\pgfnodeparttwobox=\box92
-\pgfnodepartthreebox=\box93
-\pgfnodepartfourbox=\box94
-\pgfnodeparttwentybox=\box95
-\pgfnodepartnineteenbox=\box96
-\pgfnodeparteighteenbox=\box97
-\pgfnodepartseventeenbox=\box98
-\pgfnodepartsixteenbox=\box99
-\pgfnodepartfifteenbox=\box100
-\pgfnodepartfourteenbox=\box101
-\pgfnodepartthirteenbox=\box102
-\pgfnodeparttwelvebox=\box103
-\pgfnodepartelevenbox=\box104
-\pgfnodeparttenbox=\box105
-\pgfnodepartninebox=\box106
-\pgfnodeparteightbox=\box107
-\pgfnodepartsevenbox=\box108
-\pgfnodepartsixbox=\box109
-\pgfnodepartfivebox=\box110
+\pgfnodepartlowerbox=\box93
+\pgfnodeparttwobox=\box94
+\pgfnodepartthreebox=\box95
+\pgfnodepartfourbox=\box96
+\pgfnodeparttwentybox=\box97
+\pgfnodepartnineteenbox=\box98
+\pgfnodeparteighteenbox=\box99
+\pgfnodepartseventeenbox=\box100
+\pgfnodepartsixteenbox=\box101
+\pgfnodepartfifteenbox=\box102
+\pgfnodepartfourteenbox=\box103
+\pgfnodepartthirteenbox=\box104
+\pgfnodeparttwelvebox=\box105
+\pgfnodepartelevenbox=\box106
+\pgfnodeparttenbox=\box107
+\pgfnodepartninebox=\box108
+\pgfnodeparteightbox=\box109
+\pgfnodepartsevenbox=\box110
+\pgfnodepartsixbox=\box111
+\pgfnodepartfivebox=\box112
 )))
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarypositioning.code.tex
@@ -1358,7 +1366,7 @@ z/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
-5.
+6.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1370,41 +1378,41 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count456
+\scratchcounter=\count457
 \scratchdimen=\dimen402
-\scratchbox=\box111
-\nofMPsegments=\count457
-\nofMParguments=\count458
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count459
+\scratchbox=\box113
+\nofMPsegments=\count458
+\nofMParguments=\count459
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count460
 \MPscratchDim=\dimen403
-\MPnumerator=\count460
-\makeMPintoPDFobject=\count461
-\everyMPtoPDFconversion=\toks56
+\MPnumerator=\count461
+\makeMPintoPDFobject=\count462
+\everyMPtoPDFconversion=\toks58
 )
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1418,6 +1426,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -1427,10 +1436,10 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
 \c__nicematrix_shift_Ldots_last_row_dim=\dimen404
 \c__nicematrix_innersep_middle_dim=\dimen405
-\c@tabularnotesi=\count462
-\enitdp@tabularnotes=\count463
-\c@tabularnotes*i=\count464
-\enitdp@tabularnotes*=\count465
+\c@tabularnotesi=\count463
+\enitdp@tabularnotes=\count464
+\c@tabularnotes*i=\count465
+\enitdp@tabularnotes*=\count466
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-spanish.trsl
@@ -1438,8 +1447,8 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 125.
-Package hyperref Info: Link coloring OFF on input line 125.
+or `spanish'. on input line 126.
+Package hyperref Info: Link coloring OFF on input line 126.
  (Main.out) (Main.out)
 \@outlinefile=\write5
 \openout5 = `Main.out'.
@@ -1786,228 +1795,229 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 [10{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
 nc}]
-Underfull \hbox (badness 7722) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 7722) in paragraph at lines 51--51
 []|\T1/lmr/m/n/12 Temperatura am-bien-te
  []
 
 
-Overfull \hbox (8.53592pt too wide) in paragraph at lines 49--49
+Overfull \hbox (8.53592pt too wide) in paragraph at lines 54--54
 []|[]| 
  []
 
 
-Underfull \hbox (badness 7722) in paragraph at lines 50--50
+Underfull \hbox (badness 7722) in paragraph at lines 55--55
 []|\T1/lmr/m/n/12 Temperatura am-bien-te
  []
 
 
-Underfull \hbox (badness 7722) in paragraph at lines 52--52
+Underfull \hbox (badness 7722) in paragraph at lines 57--57
 []|\T1/lmr/m/n/12 Temperatura am-bien-te
  []
 
 
-Overfull \hbox (2.97223pt too wide) in paragraph at lines 42--79
+Overfull \hbox (2.97223pt too wide) in paragraph at lines 47--84
  [][] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 79.
+(Font)              <10.95> on input line 84.
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 \g__nicematrix_max_cell_width_dim=\dimen406
-\c@iRow=\count466
-\c@jCol=\count467
-\l__nicematrix_cell_box=\box112
+\c@iRow=\count467
+\c@jCol=\count468
+\l__nicematrix_cell_box=\box114
 \l__nicematrix_left_delim_dim=\dimen407
 \l__nicematrix_right_delim_dim=\dimen408
+[11] [12]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 245.
+(Font)              <14.4> on input line 250.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 245.
+(Font)              <10> on input line 250.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 245.
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+(Font)              <7> on input line 250.
 
- []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
 [13]
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
-
- []
-
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-Overfull \hbox (7.62514pt too wide) detected at line 322
-[][][][][]
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Overfull \hbox (7.62514pt too wide) detected at line 327
+[][][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--477
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 483--485
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
+Underfull \hbox (badness 10000) in paragraph at lines 488--490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
 
  []
 
 [20]
-Underfull \hbox (badness 2165) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 517--517
 \T1/lmr/m/n/12 ca-mi-na-tas alea-to-rias pa-ra
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 514--514
+Underfull \hbox (badness 4699) in paragraph at lines 519--519
 \T1/lmr/m/n/12 con-di-cio-nes agro-am-bien-ta-
  []
 
 
-Overfull \hbox (1.5681pt too wide) in paragraph at lines 504--531
+Overfull \hbox (1.5681pt too wide) in paragraph at lines 509--536
  [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
-
  []
 
 
@@ -2016,31 +2026,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 542--543
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+
+ []
+
+
 
 pdfTeX warning: pdflatex.exe (file ./Images/Stations per Federal State.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/Stations per Federal State.pdf, id=603, 381.83655pt x 487.12991pt>
+<Images/Stations per Federal State.pdf, id=589, 381.83655pt x 487.12991pt>
 File: Images/Stations per Federal State.pdf Graphic file (type pdf)
 <use Images/Stations per Federal State.pdf>
 Package pdftex.def Info: Images/Stations per Federal State.pdf  used on input l
-ine 548.
+ine 553.
 (pdftex.def)             Requested size: 330.39856pt x 421.53255pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 558--559
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 560--561
 
  []
 
-) [22] (Schedule.tex
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 563--564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
+
+ []
+
+[23 <./Images/Stations per Federal State.pdf>]) [24] (Schedule.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -2064,18 +2089,18 @@ Overfull \hbox (2.64911pt too wide) in alignment at lines 12--120
  [] [] 
  []
 
-[23 <./Images/Stations per Federal State.pdf>]
-ignored: Infinite glue shrinkage found in 
-box being split [24{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
-s/lm/lm-ts1.enc}]) (Preliminars.tex
+
+ignored: Infinite glue shrinkage found in box being split [25{C:/Users/amigo/AppData/Loc
+al/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+ignored: Infinite glue shrinkage found
+ in box being split [26]) (Preliminars.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[25]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
 .
- (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -2092,7 +2117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
@@ -2119,7 +2144,7 @@ VS_Crop_calendar-eps-converted-to.pdf Images/Sowing_dates_VS_Crop_calendar.eps>
 
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=655, 425.59pt x 
+<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=679, 425.59pt x 
 365.365pt>
 File: Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2127,7 +2152,7 @@ ype pdf)
 Package pdftex.def Info: Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.
 pdf  used on input line 42.
 (pdftex.def)             Requested size: 425.58894pt x 365.3641pt.
-[26]
+
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
@@ -2145,7 +2170,7 @@ Distributions_VS_Crop_calendar-eps-converted-to.pdf Images/Sowing_dates_Distrib
 utions_VS_Crop_calendar.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=67
+<Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=68
 4, 509.905pt x 636.3775pt>
 File: Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
@@ -2158,18 +2183,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[27 <./Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-[28 <./Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
-]
+
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -2179,12 +2203,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-
+[29 <./Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-
+[30 <./Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
+]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
@@ -2199,12 +2224,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-[29]
+
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=827, 454.77898pt x 370.
+<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=840, 454.77898pt x 370.
 60332pt>
 File: Images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
@@ -2217,7 +2242,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-[30 <./Images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
@@ -2227,7 +2252,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
@@ -2237,7 +2262,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-
+[32 <./Images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
@@ -2247,12 +2272,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[31]
+
 Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<Historical_significance_matrix.pdf, id=892, 722.7pt x 578.16pt>
+<Historical_significance_matrix.pdf, id=904, 722.7pt x 578.16pt>
 File: Historical_significance_matrix.pdf Graphic file (type pdf)
 <use Historical_significance_matrix.pdf>
 Package pdftex.def Info: Historical_significance_matrix.pdf  used on input line
@@ -2263,8 +2288,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-[32 <./Historical_significance_matrix.pdf>]
-<Images/Interannual_trend.pdf, id=945, 390.40857pt x 338.33276pt>
+<Images/Interannual_trend.pdf, id=906, 390.40857pt x 338.33276pt>
 File: Images/Interannual_trend.pdf Graphic file (type pdf)
 <use Images/Interannual_trend.pdf>
 Package pdftex.def Info: Images/Interannual_trend.pdf  used on input line 120.
@@ -2279,7 +2303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-[33 <./Images/Interannual_trend.pdf>]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
@@ -2289,18 +2313,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-
+[34 <./Historical_significance_matrix.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-
+[35 <./Images/Interannual_trend.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
-[34]
-<Images/1988Break.pdf, id=1019, 498.16112pt x 389.9255pt>
+<Images/1988Break.pdf, id=1032, 498.16112pt x 389.9255pt>
 File: Images/1988Break.pdf Graphic file (type pdf)
 <use Images/1988Break.pdf>
 Package pdftex.def Info: Images/1988Break.pdf  used on input line 164.
@@ -2315,7 +2338,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
-[35 <./Images/1988Break.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
@@ -2325,23 +2348,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 179--161
+[36])
+Underfull \hbox (badness 10000) in paragraph at lines 179--162
 
  []
 
-[36] (Main.bbl
+[37 <./Images/1988Break.pdf>] [38] (Main.bbl
 bibitemlist
-[37
+[39
 
-] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51])
+] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53])
 
 Class memoir Warning: The material used in the headers is too large
 (77.33434pt) for the given head height (56.9055pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 228.
+(in both cases you will find help in the memoir manual). on input line 229.
 
-[52] (Main.aux
+[54] (Main.aux
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
 )
@@ -2350,14 +2373,14 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 90F22980E4A33E883F0AA4324C07BFA6;931.
+(rerunfilecheck)             Checksum: 86285F4094E5A738747E6D004323855D;931.
  ) 
 Here is how much of TeX's memory you used:
- 39676 strings out of 467867
- 833927 string characters out of 5418334
- 1273064 words of memory out of 5000000
- 67701 multiletter control sequences out of 15000+600000
- 720448 words of font info for 115 fonts, out of 8000000 for 9000
+ 39738 strings out of 467867
+ 834886 string characters out of 5418334
+ 1276997 words of memory out of 5000000
+ 67755 multiletter control sequences out of 15000+600000
+ 724711 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,16n,93p,962b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
@@ -2371,6 +2394,7 @@ b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 ><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C
 :/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/
+Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/
 Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/U
@@ -2378,9 +2402,9 @@ sers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on Main.pdf (52 pages, 1824263 bytes).
+Output written on Main.pdf (54 pages, 1842773 bytes).
 PDF statistics:
- 1316 PDF objects out of 1440 (max. 8388607)
- 314 named destinations out of 1000 (max. 500000)
+ 1338 PDF objects out of 1440 (max. 8388607)
+ 317 named destinations out of 1000 (max. 500000)
  104 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,7 +5,7 @@ Históricamente, muchas de las prácticas agrícolas se consolidaron mediante pr
 En este sentido, se propone una metodología probabilística que formaliza este proceso empírico de exploración del calendario agrícola, permitiendo estudiar analíticamente la variabilidad temporal de las fechas de siembra y estimar periodos potencialmente favorables para el establecimiento del cultivo bajo condiciones climáticas variables.\\
 
 
-Más aún, se estructura la progresión del tiempo como un proceso cíclico, emulando  la periodicidad inherente a la naturaleza \cite{Chuine_2017,Gatto_2015,Gurney_1992,Mardia1999,Powell_2005,Regniere_2013}, ver Fig. \ref{Transicion}. De esta manera, supongamos que una semilla de maíz será sembrada en campo abierto si tal semilla no es viable, entonces se concluye el proceso de siembra como fallido. En otro caso, si dicha semilla es viable y se siembra el día $D_i$, para alguna $i\in\{1,2,3,\ldots, 365\}$ el proceso puede concluir con la emergencia o con el fracaso al día $D_j$, para alguna $j\geq i$, tal que $j\bmod{365} \in \{1,2,3,\ldots, 365\}$.\\
+Más aún, se estructura la progresión del tiempo como un proceso cíclico, emulando  la periodicidad inherente a la naturaleza \cite{Chuine_2017,Gatto_2015,Gurney_1992,Mardia1999,Powell_2005,Regniere_2013}, ver Fig. \ref{Transicion}. De esta manera, supongamos que una semilla de maíz será sembrada en campo abierto si tal semilla no es viable, entonces se concluye el proceso de siembra como fallido desde el inicio. En otro caso, si dicha semilla es viable y se siembra el día $D_i$, para alguna $i\in\{1,2,3,\ldots, 365\}$ el proceso puede concluir con la emergencia o con el fracaso al día $D_j$, para alguna $j\geq i$, tal que $j\bmod{365} \in \{1,2,3,\ldots, 365\}$.\\
 
 Por convención, definamos 
 	\begin{align}
@@ -19,7 +19,10 @@ Con lo anterior, es posible dotar de una estructura cíclica a la progresión de
 
 Sea $n^*\in \N$ el número de días necesarios para que una semilla viable de maíz logre la emergencia desde su siembra. Como se busca determinar los periodos en donde las condiciones agroambientales favorezcan un sano desarrollo de la semilla, reduciendo la exposición al estrés del entorno entonces se desea hallar al conjunto de días $D_i$ tales que una semilla sembrada en dicha fecha emerja al día $D_{i+n^*}$ con una probabilidad \textit{suficientemente grande}.\\
 
-Sea $X=\{X_t\}_{t\in \N}$ un proceso estocástico a tiempo discreto con espacio de estados $S=\{D_1, D_2,\ldots, D_{365}, F\}$, donde la variable aleatoria $X_t$ representa el estado del proceso al $t$-ésimo día transcurrido desde la siembra. El estado $F$ indica el fracaso del proceso, mientras que los estados $D_i$, $i\in\{1,2,\ldots,365\}$, denotan el $i$-ésimo día del año calendario. Cuando el proceso $X$ se encuentra en un estado $D_i$, se interpreta que, en dicho día, la semilla continúa su desarrollo de manera adecuada, es decir, que el proceso no ha sido absorbido por el estado de falla $F$.\\
+Sea $X=\{X_t\}_{t\in \N}$ un proceso estocástico a tiempo discreto con espacio de estados $S=\{D_1, D_2,\ldots, D_{365}, F\}$, donde la variable aleatoria $X_t$ representa el estado del proceso al $t$-ésimo día transcurrido desde la siembra. El estado $F$ indica el fracaso del proceso de siembra atribuido a condiciones agroambientales adversas que detienen de manera irreversible el desarrollo de la semilla previo a la emergencia de la plántula.\\
+
+
+Por otra parte, para cada $i\in\{1,2,\ldots,365\}$, el estado $D_i$ denota el $i$-ésimo día del año calendario. Cuando el proceso $X$ se encuentra en alguno de los estados $D_i$, se interpreta que, en dicho día, la semilla continúa su desarrollo de manera adecuada, es decir, el proceso aún no ha sido absorbido por el estado $F$.\\
 
 De esta manera, dado dos estados $i,j\in S$, $i\neq j$ si $P_{i,j}$ denota la probabilidad de partir del estado $i$ para transicionar al estado $j$, en un paso, entonces \begin{equation}
 	P_{i, j} \coloneqq P(X_{t+1}= j\mid X_{t}= i ) = 
@@ -34,9 +37,11 @@ De esta manera, dado dos estados $i,j\in S$, $i\neq j$ si $P_{i,j}$ denota la pr
 Donde, para cada $k\in \{1,2,\ldots, 365\}$, \begin{equation}
 	\lambda_k= 1- \frac{d(C_{H,k} \,\mathbf{,}\, C^*)}{\displaystyle \max_{l\in \{1,\ldots, 365\}} \{d(C_{H,l}\, \mathbf{,} \,C^*)\}},
 	\label{lambdas}
-\end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis. Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año incluyendo variables como la precipitación, temperatura del suelo, radiación solar, equivalencia de nieve en agua y otros fenómenos meteorológicos disponibles como el índice de Oscilación del Atlántico Norte (NAO, por sus siglas en inglés) en bases de datos climáticas disponibles a través del Deutscher Wetterdienst (DWD) \cite{DWD_2026} y la Unidad de Investigación Climática, (CRU, por sus siglas en inglés) \cite{Jones_1997}, ver Tabla \ref{AgroVariables}.\\
+\end{equation}con $d(\cdot\mathbf{,} \cdot)$ una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis.\\
 
-\begin{table}[!ht]
+Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales históricas registradas el $k$-ésimo día del año incluyendo variables como la precipitación, temperatura del suelo, radiación solar, equivalencia de nieve en agua y otros fenómenos meteorológicos disponibles como el índice de Oscilación del Atlántico Norte (NAO, por sus siglas en inglés) en bases de datos climáticas disponibles a través del Deutscher Wetterdienst (DWD) \cite{DWD_2026} y la Unidad de Investigación Climática, (CRU, por sus siglas en inglés) \cite{Jones_1997}, ver Tabla \ref{AgroVariables}.\\
+
+\begin{table}
 	\centering
 	\renewcommand{\arraystretch}{1.2}
 	\begin{tabular}{p{4.4cm}|p{6.8cm}|p{4.2cm}}
@@ -559,4 +564,47 @@ Las estaciones a emplear serán todas aquellas que reporten los datos histórico
 
 Para cada variable considerada y para cada día del año, se calcula el promedio de los valores reportados por todas las estaciones climáticas durante el periodo de estudio que estén contenidas en el estado correspondiente. De esta manera, se obtienen mediciones históricas representativas de las condiciones medias locales, ver Fig. \ref{Distance}, las cuales son utilizadas para determinar las probabilidades de transición del modelo a través de la Ecuación \eqref{lambdas}.\\
 
-De esta manera, para cada estado se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos óptimos de siembra adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos. No obstante, es importante mencionar que la diferencia en la cantidad de información disponible entre estados, puede influir en las estimaciones obtenidas.
+
+De acuerdo con Flores \textit{et al.} (2025) \cite{Flores_2025}, Brandeburgo y el norte de Sajonia se caracterizan por presentar elevaciones inferiores a 150 m.s.n.m., localizándose geográficamente al norte de los $51^\circ$ N y al este de los $8.5^\circ$ E. En contraste, el sur de Sajonia y Baviera presentan una topografía más irregular, con elevaciones que pueden superar los 1200 m.s.n.m., y se localizan al sur de los $51^\circ$ N y al este de los $8.5^\circ$ E.\\
+
+
+De esta manera, al emplear los criterios topográficos y geográficos reportados por Parker \textit{et al.} (2017) \cite[Tabla 1]{Parker_2016}, es posible asociar las condiciones agroclimáticas mencionadas anteriormente para las regiones de estudio con información referente a fechas promedio de siembra de maíz, ver Tabla \ref{Real_data}.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{l|c|c}
+		\hline
+		\multicolumn{1}{c|}{\textbf{Región}} & \textbf{Características} & \textbf{Fecha de siembra} \\ \hline
+		
+		\multirow{3}{*}{\parbox{4.5cm}{\textbf{Brandemburgo}\\ \textbf{Norte de Sajonia}}} 
+		& Altitud menor que $250$ m.s.n.m. 
+		& $115.6 \pm 7.12$ \\ \cline{2-3}
+		
+		
+		& Latitud mayor o igual que $51^\circ$ N. 
+		& $116.2 \pm 7.08$ \\ \cline{2-3}
+		
+		& Longitud mayor o igual que $8.5^\circ$ E. 
+		& $116.2 \pm 7.3$ \\ \hline
+		
+		
+		\multirow{3}{*}{\parbox{4.5cm}{\textbf{Sur de Sajonia}\\ \textbf{Baviera}}}  
+		& Altitud mayor o igual que $250$ m.s.n.m. 
+		& $117.4 \pm 8.29$ \\ \cline{2-3}
+		
+		
+		& Latitud menor que $51^\circ$ N. 
+		& $116.7 \pm 8.23$ \\ \cline{2-3}
+		
+		& Longitud mayor o igual que $8.5^\circ$ E. 
+		& $116.2 \pm 7.3$ \\ \hline
+		
+	\end{tabular}
+	\caption{Fechas promedio de siembra de maíz y sus correspondientes desviaciones estándar reportadas por Parker \textit{et al.} (2017) \cite{Parker_2016}, asociadas a las características geográficas y topográficas descritas por Flores \textit{et al.} (2025) \cite{Flores_2025} para Brandemburgo, Sajonia y Baviera.}
+	\label{Real_data}
+\end{table}
+
+
+
+
+Con lo anterior, para cada estado se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos óptimos de siembra adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos y contrastarlos con la información disponible en la Tabla \ref{Real_data}. No obstante, es importante mencionar que la diferencia en la cantidad de información disponible entre estados, puede influir en las estimaciones obtenidas.
