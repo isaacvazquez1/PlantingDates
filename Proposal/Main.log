@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  7 MAY 2026 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  7 MAY 2026 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2006,6 +2006,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 503--504
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+
+ []
+
+
 Underfull \hbox (badness 2165) in paragraph at lines 517--517
 \T1/lmr/m/n/12 ca-mi-na-tas alea-to-rias pa-ra
  []
@@ -2036,6 +2041,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 547--548
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
+
+ []
+
+
 
 pdfTeX warning: pdflatex.exe (file ./Images/Stations per Federal State.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
@@ -2043,29 +2053,29 @@ F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Images/Stations per Federal State.pdf Graphic file (type pdf)
 <use Images/Stations per Federal State.pdf>
 Package pdftex.def Info: Images/Stations per Federal State.pdf  used on input l
-ine 553.
+ine 555.
 (pdftex.def)             Requested size: 330.39856pt x 421.53255pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--561
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 565--566
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
-[23 <./Images/Stations per Federal State.pdf>]) [24] (Schedule.tex
+[23 <./Images/Stations per Federal State.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
+
+ []
+
+) [24] (Schedule.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -2402,7 +2412,7 @@ sers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on Main.pdf (54 pages, 1842773 bytes).
+Output written on Main.pdf (54 pages, 1842845 bytes).
 PDF statistics:
  1338 PDF objects out of 1440 (max. 8388607)
  317 named destinations out of 1000 (max. 500000)
