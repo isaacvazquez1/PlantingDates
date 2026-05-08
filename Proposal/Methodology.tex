@@ -497,7 +497,7 @@ Sin hipótesis adicionales, obtener analíticamente el cálculo de la probabilid
 De esta manera, al considerar al proceso mostrado en la Fig. \ref{Transicion} no como un diagrama de transición sino como un gráfica dirigida cuyos pesos son probabilidades, podemos emplear una metodología similar a la discutida en el trabajo de de Anda-Jauregui \textit{et al.} (2021) \cite{deAndaJauregui_2021}. Así, al permitir que caminatas aleatorias recorran la gráfica es posible estimar el valor de $P_{i}(\tau_F>n^*)$ a través de estudiar sus trayectorias y longitudes.\\
 
 Con este enfoque, las caminatas aleatorias se inicializan en cada uno de los vértices. En particular, para cada $i\in \{1,2,\ldots,365\}$, se inicializa una caminata aleatoria que parte del vértice $D_i$ y cuya trayectoria llega, por lo menos, al vértice $D_{i+n^*}$, o bien, llega al vértice $F$ sin haber visitado el vértices $D_{i+n^*}$. Por repetir el proceso anterior $r^*\in \N$ veces para cada vértice, se propone a \begin{equation}
- \frac{|W(D_{i}, D_{(i+n^*)\bmod{365}})|}{r^*},
+\widehat{P_{i}}(\tau_F>n^*)\coloneq \frac{|W(D_{i}, D_{(i+n^*)\bmod{365}})|}{r^*},
 \end{equation} como estimador de $P_{i}(\tau_F>n^*)$, donde $W(D_{i}, D_{(i+n^*)\bmod{365}})$ denota el conjunto de caminatas aleatorias que comienzan en el vértice $D_{i}$ y, por lo menos, visitan el vértice $D_{(i+n^*)\bmod{365}}$ y $|\cdot|$ indica el operador de cardinalidad en conjuntos.\\
 
 Más aún, derivado del gran número de repeticiones es posible generar intervalos del $(1-\alpha)100\%$ de confianza para cada uno de los vértices $D_i$ empleando los métodos de bootstrap y jacknife \cite[Capítulo 13]{Ramachandran_2009}.\\
@@ -533,7 +533,7 @@ Finalmente, tras la revisión bibliográfica realizada, se asignan valores numé
 		 \\
 		\hline
 	\end{tabular}
-	\caption{Parámetros empleados en la metodología probabilística para la estimación de fechas óptimas de siembra.}
+	\caption{Parámetros empleados en la metodología probabilística para la estimación de fechas favorables de siembra.}
 	\label{Parameters}
 \end{table}
 
@@ -609,4 +609,4 @@ De esta manera, al emplear los criterios topográficos y geográficos reportados
 
 
 
-Con lo anterior, para cada estado se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos óptimos de siembra adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos y contrastarlos con la información disponible en la Tabla \ref{Real_data}. No obstante, es importante mencionar que la diferencia en la cantidad de información disponible entre estados, puede influir en las estimaciones obtenidas.
+Con lo anterior, para cada estado se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos que favorezcan la siembra, adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos y contrastarlos con la información disponible en la Tabla \ref{Real_data}. No obstante, es importante mencionar que la diferencia en la cantidad de información disponible entre estados, puede influir en las estimaciones obtenidas.
