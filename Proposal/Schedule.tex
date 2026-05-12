@@ -118,3 +118,119 @@ Para asegurar el desarrollo y la culminación exitosa del proyecto, se propone e
 		\item Presentar el examen de defensa de tesis para la obtención del grado académico.
 	\end{list} \\ \hline
 \end{longtable}
+
+	
+	\begin{figure}[H]
+		\resizebox{\linewidth}{!}{%
+			\centering
+			\begin{ganttchart}[
+				hgrid,
+				vgrid,
+				x unit=1.8cm,
+				y unit chart=0.7cm,
+				bar height=0.5,
+				group height=0.7,
+				title height=1,
+				milestone height=.6,
+				bar/.style={fill=blue!50},
+				group/.style={fill=gray!50},
+				title/.style={fill=gray!20},
+				milestone/.style={fill=red},
+				bar label font=\small,
+				group label font=\bfseries\small
+				]{1}{8}
+				
+				% -------------------------------------------------
+				% ENCABEZADOS
+				% -------------------------------------------------
+				
+				\gantttitle{Cronograma de actividades}{8} \\
+				
+				\gantttitle{2025-2}{1}
+				\gantttitle{2026-1}{1}
+				\gantttitle{2026-2}{1}
+				\gantttitle{2027-1}{1}
+				\gantttitle{2027-2}{1}
+				\gantttitle{2028-1}{1}
+				\gantttitle{2028-2}{1}
+				\gantttitle{2029-1}{1}
+				\\
+				
+				% -------------------------------------------------
+				% FUNDAMENTOS Y PROTOCOLO
+				% -------------------------------------------------
+				
+				\ganttgroup{Fundamentos y protocolo}{1}{2} \\
+				
+				\ganttbar{Revisión bibliográfica}{1}{1} \\
+				\ganttbar{Definición y depuración de datos}{1}{1} \\
+				\ganttbar{Exploración de enfoques probabilísticos}{1}{1} \\
+				\ganttbar{Primera versión del protocolo}{1}{1} \\
+				\ganttbar{Diseño metodológico}{2}{2} \\
+				\ganttbar{Análisis exploratorio preliminar}{2}{2} \\
+				\ganttbar{Versión final del protocolo}{2}{2} \\
+				
+				% -------------------------------------------------
+				% DESARROLLO METODOLÓGICO
+				% -------------------------------------------------
+				
+				\ganttgroup{Desarrollo metodológico}{3}{6} \\
+				
+				\ganttbar{Modelos probabilísticos preliminares}{3}{3} \\
+				\ganttbar{Análisis estadístico de series temporales}{3}{3} \\
+				\ganttbar{Simulaciones computacionales}{3}{4} \\
+				\ganttbar{Profundización metodológica}{4}{4} \\
+				\ganttbar{Evaluación estadística y simulación}{4}{4} \\
+				\ganttbar{Refinamiento metodológico}{6}{6} \\
+				\ganttbar{Consolidación del análisis estadístico}{6}{6} \\
+				
+				% -------------------------------------------------
+				% PRODUCCIÓN CIENTÍFICA
+				% -------------------------------------------------
+				
+				\ganttgroup{Producción científica}{3}{8} \\
+				
+				\ganttbar{Desarrollo del primer artículo}{3}{6} \\
+				\ganttbar{Congreso nacional}{3}{3} \\
+				\ganttbar{Selección de congreso internacional}{4}{4} \\
+				\ganttbar{Preparación de presentación}{4}{5} \\
+				\ganttbar{Búsqueda de colaboraciones}{4}{4} \\
+				\ganttbar{Identificación de revistas JCR}{5}{5} \\
+				\ganttbar{Envío del artículo}{6}{6} \\
+				\ganttbar{Correcciones de revisores}{7}{7} \\
+				\ganttbar{Aceptación del artículo}{8}{8} \\
+				
+				% -------------------------------------------------
+				% TESIS DOCTORAL
+				% -------------------------------------------------
+				
+				\ganttgroup{Tesis doctoral}{2}{8} \\
+				
+				\ganttbar{Escritura de tesis}{2}{8} \\
+				\ganttbar{Consolidación de capítulos}{5}{5} \\
+				\ganttbar{Integración de resultados finales}{7}{7} \\
+				\ganttbar{Revisión y afinación de tesis}{7}{7} \\
+				\ganttbar{Revisión por comité sinodal}{8}{8} \\
+				\ganttbar{Autorización de impresión}{8}{8} \\
+				
+				% -------------------------------------------------
+				% ACTIVIDADES COMPLEMENTARIAS
+				% -------------------------------------------------
+				
+				\ganttgroup{Actividades complementarias}{5}{5} \\
+				
+				\ganttbar{Retribución social SECIHTI}{5}{5} \\
+				
+				% -------------------------------------------------
+				% DEFENSA
+				% -------------------------------------------------
+				
+				\ganttmilestone{Defensa de tesis}{8}
+				
+			\end{ganttchart}
+			
+		} % fin resizebox
+		
+		\caption{Cronograma general de actividades del proyecto.}
+		
+	\end{figure}

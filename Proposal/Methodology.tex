@@ -94,7 +94,7 @@ Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales histó
  De esta manera, para toda $k\in \{1,2,\ldots, 365\}$, se garantiza que $\lambda_k \in [0,1]$ y, simultáneamente, tanto $C_{H,k}$ como $C^*$ se interpretan como elementos en $\mathbb{R}^d$, donde cada componente corresponde a una variable agroambiental específica ver Fig. \ref{Distance}. Además, notemos que $d \leq 9$, dado que la dimensión $d$ estará dada por el número de variables que presenten evidencia estadística suficiente de relación con las fechas de siembra. Reduciendo, en consecuencia, la incorporación de ruido proveniente de variables no informativas.\\
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
 	%uncomment if require: \path (0,717); %set diagram left start at 0, and has height of 717
@@ -159,7 +159,7 @@ Además, $C_{H,k}$ denota el centroide de las condiciones agroambientales histó
 	% Text Node
 	%\draw (100,362.8) node [anchor=north west][inner sep=0.75pt]    {$P( X_{t+1} =D_{k+1} \mid X_{t} =D_{k}) \coloneq \ 1-\frac{\displaystyle d( C_{H,k} \ ,\ C_{O})}{\displaystyle\max_{l\in \{1,2,\dots, 365\}} \ \{d( C_{H,l} \ ,\ C_{O})\}} \ =\ \lambda _{k}.$};
 \end{tikzpicture}
-\caption{Distancia entre las condiciones agroclimáticas para el desarrollo óptimo del maíz y las condiciones agroclimáticas históricamente reportadas para el $k$-ésimo día del año. Los círculos en color negro representan los datos agroclimáticos reportados anualmente para el $k$-ésimo día del año mientras que el polígono sombreado en color gris representa la región de parámetros agroclimáticos, ideales para el desarrollo del maíz. Los círculos de color azul y rojo indican los centroides de los datos históricos ($C_{H,k}$) y la región óptima ($C^*$), respectivamente. Por último, $d(\cdot\mathbf{,} \cdot)$ denota una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis}.
+\caption{Distancia entre las condiciones agroclimáticas para el desarrollo óptimo del maíz y las condiciones agroclimáticas históricamente reportadas para el $k$-ésimo día del año. Los círculos en color negro representan los datos agroclimáticos reportados anualmente para el $k$-ésimo día del año mientras que el polígono sombreado en color gris representa la región de parámetros agroclimáticos, ideales para el desarrollo del maíz. Los círculos de color azul y rojo indican los centroides de los datos históricos ($C_{H,k}$) y la región óptima ($C^*$), respectivamente. Por último, $d(\cdot\mathbf{,} \cdot)$ denota una distancia por definir; por ejemplo, la distancia Euclidiana, la distancia Manhattan o la distancia Mahalanobis.}
 \label{Distance}
 \end{figure}
 
@@ -504,7 +504,7 @@ Más aún, derivado del gran número de repeticiones es posible generar interval
 
 Finalmente, tras la revisión bibliográfica realizada, se asignan valores numéricos a los parámetros empleados de manera abstracta en el modelo probabilístico propuesto. Los valores correspondientes se presentan en la Tabla \ref{Parameters}.\\ 
 
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\begin{tabular}{c|p{5cm}|c|p{5.8cm}}
 		\hline
@@ -550,7 +550,7 @@ En consecuencia, la región presenta variaciones en humedad, altitud, temperatur
 
 
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{Stations per Federal State.pdf}
 	\caption{Distribución de las estaciones climáticas respecto a los estados federados de Alemania. Los polígonos delimitados por un contorno en color negro corresponden a los estados federados reportados por Bundesamt für Kartographie und Geodäsie \cite{States_2025}. En color verde se muestran, de manera descendente, Brandemburgo, Sajonia y Baviera. Los puntos en color amarillo indican la ubicación de las 493 estaciones climáticas, las cuales reportan las primeras ocho variables listadas en la Tabla \ref{AgroVariables}.}
@@ -563,14 +563,6 @@ Se cuenta información proveniente de 493 estaciones climáticas distribuidas a 
 
 
 Las estaciones a emplear serán todas aquellas que reporten los datos históricos desde 1994 hasta 2024, considerando un periodo de 30 años, una duración estándar al estudiar efectos del cambio climático \cite{Hennemuth_2013}. De igual forma, se considerarán aquellas estaciones sin datos faltantes, o bien, que pueda llevarse a cabo la imputación de datos pese a los valores faltantes.\\ 
-
-Para cada variable considerada y para cada día del año, se calcula el promedio de los valores reportados por todas las estaciones climáticas durante el periodo de estudio que estén contenidas en el estado correspondiente. De esta manera, se obtienen mediciones históricas representativas de las condiciones medias locales, ver Fig. \ref{Distance}, las cuales son utilizadas para determinar las probabilidades de transición del modelo a través de la Ecuación \eqref{lambdas}.\\
-
-
-De acuerdo con Flores \textit{et al.} (2025) \cite{Flores_2025}, Brandeburgo y el norte de Sajonia se caracterizan por presentar elevaciones inferiores a 150 m.s.n.m., localizándose geográficamente al norte de los $51^\circ$ N y al este de los $8.5^\circ$ E. En contraste, el sur de Sajonia y Baviera presentan una topografía más irregular, con elevaciones que pueden superar los 1200 m.s.n.m., y se localizan al sur de los $51^\circ$ N y al este de los $8.5^\circ$ E.\\
-
-
-De esta manera, al emplear los criterios topográficos y geográficos reportados por Parker \textit{et al.} (2017) \cite[Tabla 1]{Parker_2016}, es posible asociar las condiciones agroclimáticas mencionadas anteriormente para las regiones de estudio con información referente a fechas promedio de siembra de maíz, ver Tabla \ref{Real_data}.
 
 \begin{table}[H]
 	\centering
@@ -606,6 +598,14 @@ De esta manera, al emplear los criterios topográficos y geográficos reportados
 	\label{Real_data}
 \end{table}
 
+Para cada variable considerada y para cada día del año, se calcula el promedio de los valores reportados por todas las estaciones climáticas durante el periodo de estudio que estén contenidas en el estado correspondiente. De esta manera, se obtienen mediciones históricas representativas de las condiciones medias locales, ver Fig. \ref{Distance}, las cuales son utilizadas para determinar las probabilidades de transición del modelo a través de la Ecuación \eqref{lambdas}.\\
+
+
+De acuerdo con Flores \textit{et al.} (2025) \cite{Flores_2025}, Brandeburgo y el norte de Sajonia se caracterizan por presentar elevaciones inferiores a 150 m.s.n.m., localizándose geográficamente al norte de los $51^\circ$ N y al este de los $8.5^\circ$ E. En contraste, el sur de Sajonia y Baviera presentan una topografía más irregular, con elevaciones que pueden superar los 1200 m.s.n.m., y se localizan al sur de los $51^\circ$ N y al este de los $8.5^\circ$ E.\\
+
+
+
+De esta manera, al emplear los criterios topográficos y geográficos reportados por Parker \textit{et al.} (2017) \cite[Tabla 1]{Parker_2016}, es posible asociar las condiciones agroclimáticas mencionadas anteriormente para las regiones de estudio con información referente a fechas promedio de siembra de maíz, ver Tabla \ref{Real_data}.\\
 
 
 

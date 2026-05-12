@@ -1,2 +1,2 @@
 \babel@toc {english}{}\relax 
-\beamer@sectionintoc {1}{Bajo la hipótesis de que el cambio climático ha alterado los procesos agrícolas, ¿cómo estimar ventanas óptimas de siembra de maíz en Alemania mediante modelos probabilísticos empleando datos agroclimáticos más allá de los GDD?}{36}{0}{1}
+\beamer@sectionintoc {1}{Bajo la hipótesis de que el cambio climático ha alterado los procesos agrícolas, ¿cómo predecir ventanas de siembra de maíz en Alemania mediante modelos probabilísticos empleando datos agroclimáticos más allá de los GDD?}{36}{0}{1}

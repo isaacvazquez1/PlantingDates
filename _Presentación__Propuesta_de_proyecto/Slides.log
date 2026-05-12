@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  6 MAY 2026 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  12 MAY 2026 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2343,16 +2343,16 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Slides.out' has not changed.
-(rerunfilecheck)             Checksum: 95AA46F55D55F6BE86E03ED0F233B7C0;1486.
+(rerunfilecheck)             Checksum: E75CED0509DAEC39F210786E48A985EE;1445.
  ) 
 Here is how much of TeX's memory you used:
  47256 strings out of 467867
  1120610 string characters out of 5418334
- 1700530 words of memory out of 5000000
+ 1700340 words of memory out of 5000000
  75146 multiletter control sequences out of 15000+600000
  652159 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,144p,1354b,1368s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,17n,144p,1313b,1368s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\amigo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi657\m
 athx10.pk> <C:\Users\amigo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi
 657\wasy10.pk><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -2377,7 +2377,7 @@ rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 msy8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmtt8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on Slides.pdf (78 pages, 17835579 bytes).
+Output written on Slides.pdf (78 pages, 17835400 bytes).
 PDF statistics:
  903 PDF objects out of 1000 (max. 8388607)
  182 named destinations out of 1000 (max. 500000)

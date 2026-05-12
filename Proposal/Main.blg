@@ -5,43 +5,10 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: Refs.bib
-Warning--string name "july" is undefined
---line 61 of file Refs.bib
-I was expecting a `,' or a `}'---line 1316 of file Refs.bib
- :  
- :  address={New York, U.S.A.}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 2331 of file Refs.bib
- : @article{Liu_2025
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2647 of file Refs.bib
- : @article{Li_2025
- :                 ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2776 of file Refs.bib
- :  
- :  note={Tesis de maestría}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3311 of file Refs.bib
+You're missing a field name---line 3283 of file Refs.bib
  : 
  : % title={Waterlogging concerns and its impact on agricultural sustainability},
 (Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3402 of file Refs.bib
- :  
- :  DOI = {10.3390/agronomy8040037}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 4185 of file Refs.bib
- : @article{Zhang_2025
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4482 of file Refs.bib
- : @article{Franch_2022
- :                     ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in France_1984
 Warning--empty journal in García-Mendoza_2002
@@ -49,16 +16,16 @@ Warning--empty booktitle in Hennemuth_2013
 Warning--can't use both author and editor fields in Regniere_2013
 You've used 190 entries,
             2118 wiz_defined-function locations,
-            1756 strings with 45610 characters,
-and the built_in function-call counts, 74319 in all, are:
-= -- 6817
+            1757 strings with 45532 characters,
+and the built_in function-call counts, 74334 in all, are:
+= -- 6820
 > -- 4775
 < -- 14
 + -- 1896
 - -- 1690
-* -- 6299
-:= -- 12827
-add.period$ -- 584
+* -- 6302
+:= -- 12830
+add.period$ -- 585
 call.type$ -- 190
 change.case$ -- 1401
 chr.to.int$ -- 0
@@ -66,13 +33,13 @@ cite$ -- 194
 duplicate$ -- 2235
 empty$ -- 4953
 format.name$ -- 1690
-if$ -- 14863
+if$ -- 14866
 int.to.chr$ -- 0
 int.to.str$ -- 190
 missing$ -- 196
-newline$ -- 957
+newline$ -- 958
 num.names$ -- 392
-pop$ -- 1207
+pop$ -- 1205
 preamble$ -- 1
 purify$ -- 1220
 quote$ -- 0
@@ -87,5 +54,5 @@ type$ -- 730
 warning$ -- 4
 while$ -- 554
 width$ -- 193
-write$ -- 2106
-(There were 8 error messages)
+write$ -- 2109
+(There was 1 error message)

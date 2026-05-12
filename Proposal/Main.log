@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  8 MAY 2026 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  12 MAY 2026 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,8 +1365,89 @@ File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 z/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgfgantt\pgfgantt.sty
+Package: pgfgantt 2024/06/19 v5.0a Draw Gantt diagrams with TikZ
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
+File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\arrowsize=\dimen402
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@layerbox@background=\box113
+\pgf@layerboxsaved@background=\box114
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+arypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfcalend
+ar.sty
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfcale
+ndar.code.tex
+File: pgfcalendar.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfcalendarcurrentjulian=\count457
+\pgf@cal@easter@Y=\count458
+\pgf@cal@easter@G=\count459
+\pgf@cal@easter@C=\count460
+\pgf@cal@easter@X=\count461
+\pgf@cal@easter@Z=\count462
+\pgf@cal@easter@D=\count463
+\pgf@cal@easter@E=\count464
+\pgf@cal@easter@N=\count465
+\pgf@cal@easter@M=\count466
+\pgf@cal@easter@julianday=\count467
+))
+\gtt@currentline=\count468
+\gtt@lasttitleline=\count469
+\gtt@currgrid=\count470
+\gtt@chartwidth=\count471
+\gtt@lasttitleslot=\count472
+\gtt@elementid=\count473
+\gtt@today@slot=\count474
+\gtt@startjulian=\count475
+\gtt@endjulian=\count476
+\gtt@chartid=\count477
+\gtt@vrule@slot=\count478
+\gtt@calendar@slots=\count479
+\gtt@calendar@weeknumber=\count480
+\gtt@calendar@startofweek=\count481
+\gtt@left@slot=\count482
+\gtt@right@slot=\count483
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
-6.
+7.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1378,40 +1459,40 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count457
-\scratchdimen=\dimen402
-\scratchbox=\box113
-\nofMPsegments=\count458
-\nofMParguments=\count459
+\scratchcounter=\count484
+\scratchdimen=\dimen403
+\scratchbox=\box115
+\nofMPsegments=\count485
+\nofMParguments=\count486
 \everyMPshowfont=\toks57
-\MPscratchCnt=\count460
-\MPscratchDim=\dimen403
-\MPnumerator=\count461
-\makeMPintoPDFobject=\count462
+\MPscratchCnt=\count487
+\MPscratchDim=\dimen404
+\MPnumerator=\count488
+\makeMPintoPDFobject=\count489
 \everyMPtoPDFconversion=\toks58
 )
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1434,12 +1515,12 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\c__nicematrix_shift_Ldots_last_row_dim=\dimen404
-\c__nicematrix_innersep_middle_dim=\dimen405
-\c@tabularnotesi=\count463
-\enitdp@tabularnotes=\count464
-\c@tabularnotes*i=\count465
-\enitdp@tabularnotes*=\count466
+\c__nicematrix_shift_Ldots_last_row_dim=\dimen405
+\c__nicematrix_innersep_middle_dim=\dimen406
+\c@tabularnotesi=\count490
+\enitdp@tabularnotes=\count491
+\c@tabularnotes*i=\count492
+\enitdp@tabularnotes*=\count493
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-spanish.trsl
@@ -1447,8 +1528,8 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 126.
-Package hyperref Info: Link coloring OFF on input line 126.
+or `spanish'. on input line 127.
+Package hyperref Info: Link coloring OFF on input line 127.
  (Main.out) (Main.out)
 \@outlinefile=\write5
 \openout5 = `Main.out'.
@@ -1753,6 +1834,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
 [8]) (Methodology.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -1768,13 +1859,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[9{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
-c}]
+
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
@@ -1799,13 +1889,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-
+[10{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.e
+nc}]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[10{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
-nc}]
+
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -1847,25 +1937,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-\g__nicematrix_max_cell_width_dim=\dimen406
-\c@iRow=\count467
-\c@jCol=\count468
-\l__nicematrix_cell_box=\box114
-\l__nicematrix_left_delim_dim=\dimen407
-\l__nicematrix_right_delim_dim=\dimen408
-[11] [12]
+[11{C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
+nc}] [12]
+\g__nicematrix_max_cell_width_dim=\dimen407
+\c@iRow=\count494
+\c@jCol=\count495
+\l__nicematrix_cell_box=\box116
+\l__nicematrix_left_delim_dim=\dimen408
+\l__nicematrix_right_delim_dim=\dimen409
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 250.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 250.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 250.
-
+ [13]
 Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
@@ -1875,12 +1966,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-[14]
+
 Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
@@ -1900,12 +1991,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
-
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
-[15]
+
 Overfull \hbox (7.62514pt too wide) detected at line 327
 [][][][][]
  []
@@ -1920,7 +2011,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
@@ -1930,7 +2021,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
-[16]
+
 Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
@@ -1940,12 +2031,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
-
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
-[18]
+
 Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
@@ -1960,12 +2051,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
-
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
-[19]
+
 Underfull \hbox (badness 10000) in paragraph at lines 480--482
 
  []
@@ -1990,12 +2081,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
  []
 
-
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 497--498
 
  []
 
-[20]
+
 Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
@@ -2025,7 +2116,7 @@ Overfull \hbox (1.5681pt too wide) in paragraph at lines 509--536
  [][] 
  []
 
-
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
@@ -2040,7 +2131,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
-
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 549--550
 
  []
@@ -2049,33 +2140,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 549--550
 
 pdfTeX warning: pdflatex.exe (file ./Images/Stations per Federal State.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/Stations per Federal State.pdf, id=589, 381.83655pt x 487.12991pt>
+<Images/Stations per Federal State.pdf, id=608, 381.83655pt x 487.12991pt>
 File: Images/Stations per Federal State.pdf Graphic file (type pdf)
 <use Images/Stations per Federal State.pdf>
 Package pdftex.def Info: Images/Stations per Federal State.pdf  used on input l
 ine 555.
 (pdftex.def)             Requested size: 330.39856pt x 421.53255pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
-[21]
+
 Underfull \hbox (badness 10000) in paragraph at lines 565--566
 
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
 
  []
 
-[23 <./Images/Stations per Federal State.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
-) [24] (Schedule.tex
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+
+ []
+
+[24 <./Images/Stations per Federal State.pdf>]) [25] (Schedule.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -2100,17 +2199,18 @@ Overfull \hbox (2.64911pt too wide) in alignment at lines 12--120
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [25{C:/Users/amigo/AppData/Loc
+ignored: Infinite glue shrinkage found in box being split [26{C:/Users/amigo/AppData/Loc
 al/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 ignored: Infinite glue shrinkage found
- in box being split [26]) (Preliminars.tex
+ in box being split [27]) [28] (Preliminars.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
+[29]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
 .
-(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+ (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -2127,7 +2227,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[27]
+
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
@@ -2137,7 +2237,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
@@ -2154,7 +2254,7 @@ VS_Crop_calendar-eps-converted-to.pdf Images/Sowing_dates_VS_Crop_calendar.eps>
 
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=679, 425.59pt x 
+<Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf, id=694, 425.59pt x 
 365.365pt>
 File: Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2167,6 +2267,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
+[31 <./Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/Sowing_dates_Distributions_VS_Crop_
 calendar.eps>
 (epstopdf)                    date: 2026-03-06 19:31:21
@@ -2180,8 +2281,8 @@ Distributions_VS_Crop_calendar-eps-converted-to.pdf Images/Sowing_dates_Distrib
 utions_VS_Crop_calendar.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=68
-4, 509.905pt x 636.3775pt>
+<Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=75
+5, 509.905pt x 636.3775pt>
 File: Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
@@ -2193,7 +2294,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-
+[32 <./Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
+]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
@@ -2203,7 +2305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -2213,13 +2315,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-[29 <./Images/Sowing_dates_VS_Crop_calendar-eps-converted-to.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[30 <./Images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
-]
+
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
@@ -2229,7 +2330,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
@@ -2239,7 +2340,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=840, 454.77898pt x 370.
+<Images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=854, 454.77898pt x 370.
 60332pt>
 File: Images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
@@ -2262,7 +2363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-[31]
+
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
@@ -2272,7 +2373,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-[32 <./Images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
@@ -2282,12 +2383,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-
+[35 <./Images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<Historical_significance_matrix.pdf, id=904, 722.7pt x 578.16pt>
+<Historical_significance_matrix.pdf, id=919, 722.7pt x 578.16pt>
 File: Historical_significance_matrix.pdf Graphic file (type pdf)
 <use Historical_significance_matrix.pdf>
 Package pdftex.def Info: Historical_significance_matrix.pdf  used on input line
@@ -2298,7 +2399,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-<Images/Interannual_trend.pdf, id=906, 390.40857pt x 338.33276pt>
+<Images/Interannual_trend.pdf, id=921, 390.40857pt x 338.33276pt>
 File: Images/Interannual_trend.pdf Graphic file (type pdf)
 <use Images/Interannual_trend.pdf>
 Package pdftex.def Info: Images/Interannual_trend.pdf  used on input line 120.
@@ -2313,7 +2414,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-[33]
+
 Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
@@ -2323,17 +2424,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-[34 <./Historical_significance_matrix.pdf>]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[35 <./Images/Interannual_trend.pdf>]
+[37 <./Historical_significance_matrix.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
-<Images/1988Break.pdf, id=1032, 498.16112pt x 389.9255pt>
+<Images/1988Break.pdf, id=991, 498.16112pt x 389.9255pt>
 File: Images/1988Break.pdf Graphic file (type pdf)
 <use Images/1988Break.pdf>
 Package pdftex.def Info: Images/1988Break.pdf  used on input line 164.
@@ -2348,7 +2449,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
-
+[38 <./Images/Interannual_trend.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
@@ -2358,23 +2459,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-[36])
-Underfull \hbox (badness 10000) in paragraph at lines 179--162
+)
+Underfull \hbox (badness 10000) in paragraph at lines 179--163
 
  []
 
-[37 <./Images/1988Break.pdf>] [38] (Main.bbl
+[39] [40 <./Images/1988Break.pdf>] (Main.bbl
 bibitemlist
-[39
+[41
 
-] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53])
+] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55])
 
 Class memoir Warning: The material used in the headers is too large
 (77.33434pt) for the given head height (56.9055pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 229.
+(in both cases you will find help in the memoir manual). on input line 230.
 
-[54] (Main.aux
+[56] (Main.aux
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
 )
@@ -2383,13 +2484,13 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 86285F4094E5A738747E6D004323855D;931.
+(rerunfilecheck)             Checksum: C302AC9FB2F5E94AF9CA83D6C60B603D;931.
  ) 
 Here is how much of TeX's memory you used:
- 39738 strings out of 467867
- 834886 string characters out of 5418334
- 1276999 words of memory out of 5000000
- 67755 multiletter control sequences out of 15000+600000
+ 42243 strings out of 467867
+ 899362 string characters out of 5418334
+ 1328308 words of memory out of 5000000
+ 70216 multiletter control sequences out of 15000+600000
  724711 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,16n,93p,962b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2412,9 +2513,9 @@ sers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on Main.pdf (54 pages, 1843045 bytes).
+Output written on Main.pdf (56 pages, 1853662 bytes).
 PDF statistics:
- 1338 PDF objects out of 1440 (max. 8388607)
- 317 named destinations out of 1000 (max. 500000)
+ 1349 PDF objects out of 1440 (max. 8388607)
+ 320 named destinations out of 1000 (max. 500000)
  104 words of extra memory for PDF output out of 10000 (max. 10000000)
 

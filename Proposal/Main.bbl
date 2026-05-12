@@ -48,7 +48,7 @@ R.N. Bahuguna and K.S.V. Jagadish.
 \newblock {\em Environmental and Experimental Botany}, 111:83--90, 2015.
 
 \bibitem{Baum_2019}
-M.~E. Baum, S.~V. Archontoulis, and M.~A. Licht.
+M.E. Baum, S.V. Archontoulis, and M.A. Licht.
 \newblock Planting date, hybrid maturity, and weather effects on maize yield
   and crop stage.
 \newblock {\em Agronomy Journal}, 111(1):303--313, 2019.
@@ -147,7 +147,7 @@ F.M. Chmielewski, A.~Müller, and E.~Bruns.
 \newblock {\em Agricultural and Forest Meteorology}, 121(1):69--78, 2004.
 
 \bibitem{Chow_1960}
-Gregory~C. Chow.
+G.C. Chow.
 \newblock Tests of equality between sets of coefficients in two linear
   regressions.
 \newblock {\em Econometrica}, 28(3):591--605, 1960.
@@ -191,7 +191,7 @@ E.~Cuevas, J.~Blancas, J.~Caballero, I.~A Hinojosa-Díaz, and
 \newblock {\em Botanical Sciences}, 99(2):305--320, 2021.
 
 \bibitem{Cui_2020}
-X~Cui.
+X.~Cui.
 \newblock Beyond yield response: Weather shocks and crop abandonment.
 \newblock {\em Journal of the Association of Environmental and Resource
   Economists}, 7(5):901--932, 2020.
@@ -299,7 +299,7 @@ L.~Flores, C.~Nendel, B.~Bookhagen, J.A. Oviedo~Reyes, T.~Smith, and
   G.~Ghazaryan.
 \newblock The potential of sentinel-1 time series for large-scale assessment of
   maize and wheat phenology across germany.
-\newblock {\em GIScience \& Remote Sensing}, 62(1), 2025.
+\newblock {\em GIScience \& Remote Sensing}, 62(1), July 2025.
 
 \bibitem{Flores-Gallardo_2012}
 H.~Flores-Gallardo, W.~Ojeda-Bustamante, H.~Flores-Magdaleno, E.~Mejía-Sáenz,
@@ -456,13 +456,13 @@ A.~Jungk.
   2009.
 
 \bibitem{KELLER_2020}
-Markus Keller.
+M.~Keller.
 \newblock Chapter 2: Phenology and growth cycle.
 \newblock In M.~Keller, editor, {\em The Science of Grapevines (Third
   Edition)}, pages 61--103. Academic Press, third edition edition, 2020.
 
 \bibitem{Kemeny_1976}
-John~G Kemeny and J~Laurie Snell.
+J.G. Kemeny and J.L. Snell.
 \newblock {\em Finite Markov chains}.
 \newblock Undergraduate Texts in Mathematics. Springer, New York, NY, 1
   edition, July 1976.
@@ -480,7 +480,7 @@ J.~Kimball.
 \newblock Springer New York, 2014.
 
 \bibitem{Klaring_2016}
-Hans-Peter Kläring and Angela Schmidt.
+H.P. Kläring and A.~Schmidt.
 \newblock Diurnal temperature variations significantly affect cucumber fruit
   growth.
 \newblock {\em HortScience}, 52(1):60--64, January 2016.
@@ -515,7 +515,7 @@ Z.W. Kundzewicz and A.J. Robson.
   chroniques hydrologiques.
 \newblock {\em Hydrological Sciences Journal}, 49(1):7–19, February 2004.
 
-\bibitem{Li_2025}
+\bibitem{Li_2025_photo}
 M.-W. Li and J.M. Gendron.
 \newblock Exploring the metabolic daylength measurement system: implications
   for photoperiodic growth.
@@ -635,7 +635,7 @@ Y.~Mo, J.~Zhang, H.~Jiang, and Y.H. Fu.
 \newblock {\em Frontiers in Forests and Global Change}, 5, 2023.
 
 \bibitem{Moraes_2022}
-A.F Moraes~García, L.~Micheletti~Broglio, M.~Santoro~Brossi, N.~Teixeira~dos
+A.F. Moraes~García, L.~Micheletti~Broglio, M.~Santoro~Brossi, N.~Teixeira~dos
   Santos, T.~Avilés~Cantuarias, and S.~da~Silva~Rodrigues.
 \newblock Horticultural performance of 'hass' avocado grafted onto seedling and
   clonal rootstocks under tropical wet-dry climate conditions.
@@ -649,11 +649,10 @@ E.W. Mugi-Ngenga, M.N. Kiboi, M.W. Mucheru-Muna, J.N. Mugwe, F.S. Mairura, D.N.
 \newblock {\em Environmental Challenges}, 5:100355, 2021.
 
 \bibitem{Myers_2014}
-Samuel~S. Myers, Antonella Zanobetti, Itai Kloog, Peter Huybers, Andrew D.~B.
-  Leakey, Arnold~J. Bloom, Eli Carlisle, Lee~H. Dietterich, Glenn Fitzgerald,
-  Toshihiro Hasegawa, N.~Michele Holbrook, Randall~L. Nelson, Michael~J.
-  Ottman, Victor Raboy, Hidemitsu Sakai, Karla~A. Sartor, Joel Schwartz, Saman
-  Seneweera, Michael Tausz, and Yasuhiro Usui.
+S.S. Myers, A.~Zanobetti, I.~Kloog, P.~Huybers, A.D.B. Leakey, A.J. Bloom,
+  E.~Carlisle, L.H. Dietterich, G.~Fitzgerald, T.~Hasegawa, N.M. Holbrook, R.L.
+  Nelson, M.J. Ottman, V.~Raboy, H.~Sakai, K.A. Sartor, J.~Schwartz,
+  S.~Seneweera, M.~Tausz, and Y.~Usui.
 \newblock Increasing co2 threatens human nutrition.
 \newblock {\em Nature}, 510(7503):139–142, May 2014.
 
@@ -1012,7 +1011,8 @@ R.~Thompson and R.M. Clark.
 \bibitem{Thornley_1990}
 J.H. Thornley and I.R. Johnson.
 \newblock {\em Plant and crop modelling.}
-\newblock Oxford University Press, 1990.
+\newblock Oxford University Press, New York, U.S.A., 1990.
+\newblock pp. 3-72.
 
 \bibitem{Tonnang_2018}
 H.E.Z. Tonnang, D.~Makumbi, and P.~Craufurd.
@@ -1071,7 +1071,7 @@ M.~Viswanathan, T.~K.~D. Weber, S.~Gayler, J.~Mai, and T.~Streck.
 \newblock {\em Biogeosciences}, 19(8):2187--2209, 2022.
 
 \bibitem{Waggoner_1979}
-P.~E. Waggoner and W.~A. Norvell.
+P.E. Waggoner and W.A. Norvell.
 \newblock Fitting the law of the minimum to fertilizer applications and crop
   yields.
 \newblock {\em Agronomy Journal}, 71(2):352--354, 1979.
@@ -1173,7 +1173,7 @@ S.~Yue, P.~Pilon, and G.~Cavadias.
   monotonic trends in hydrological series.
 \newblock {\em Journal of Hydrology}, 259(1–4):254–271, March 2002.
 
-\bibitem{Zhang_2025}
+\bibitem{Zhang_2025_maize}
 Q.-J. Zhang, D.-L. Wu, Y.-C. Zhu, C.~Liu, and D.-S. Yang.
 \newblock A long-term dataset of maize phenology observations from
   agrometeorological stations in northeast china (1981–2024).
