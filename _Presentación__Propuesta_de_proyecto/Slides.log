@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  12 MAY 2026 17:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  13 MAY 2026 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2046,98 +2046,96 @@ Underfull \hbox (badness 7777) in paragraph at lines 360--360
 
 ]
 
-pdfTeX warning: pdflatex.exe (file ./images/[Interseccion] Both_cropped.pdf): P
-DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/[Interseccion] Both_cropped.pdf, id=271, 373.13402pt x 479.89288pt>
-File: images/[Interseccion] Both_cropped.pdf Graphic file (type pdf)
-<use images/[Interseccion] Both_cropped.pdf>
-Package pdftex.def Info: images/[Interseccion] Both_cropped.pdf  used on input 
-line 618.
-(pdftex.def)             Requested size: 156.79492pt x 201.6606pt.
+pdfTeX warning: pdflatex.exe (file ./images/Stations per Federal State.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/Stations per Federal State.pdf, id=271, 381.83655pt x 487.12991pt>
+File: images/Stations per Federal State.pdf Graphic file (type pdf)
+<use images/Stations per Federal State.pdf>
+Package pdftex.def Info: images/Stations per Federal State.pdf  used on input l
+ine 618.
+(pdftex.def)             Requested size: 158.06885pt x 201.6606pt.
 [42
 
- <./images/[Interseccion] Both_cropped.pdf>]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 688.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 688.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 688.
-
-
-Overfull \vbox (2.58095pt too high) detected at line 688
+ <./images/Stations per Federal State.pdf>]
+Overfull \hbox (5.25096pt too wide) in paragraph at lines 654--654
+ [] 
  []
 
 [43
 
 ]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 760.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 724.
 
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 760.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 724.
 
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 760.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 760.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 724.
 
 
-Overfull \vbox (2.58095pt too high) detected at line 760
+Overfull \vbox (2.58095pt too high) detected at line 724
  []
 
 [44
 
 ]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <12> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 830.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 796.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 796.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 796.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 796.
 
 
-Overfull \vbox (4.47417pt too high) detected at line 830
+Overfull \vbox (2.58095pt too high) detected at line 796
  []
 
 [45
 
 ]
-Overfull \hbox (10.26978pt too wide) detected at line 915
-[]\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
- n[]\OT1/cmss/m/n/10.95 ) := [][]
- []
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <12> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 866.
 
 
-Overfull \hbox (104.91028pt too wide) in paragraph at lines 915--915
-[][]  
+Overfull \vbox (4.47417pt too high) detected at line 866
  []
 
 [46
 
 ]
-Overfull \hbox (10.26978pt too wide) detected at line 915
+Overfull \hbox (10.26978pt too wide) detected at line 951
 []\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
  n[]\OT1/cmss/m/n/10.95 ) := [][]
  []
 
 
-Overfull \hbox (104.91028pt too wide) in paragraph at lines 915--915
+Overfull \hbox (104.91028pt too wide) in paragraph at lines 951--951
 [][]  
  []
 
 [47
 
 ]
-Overfull \hbox (13.31139pt too wide) detected at line 996
+Overfull \hbox (10.26978pt too wide) detected at line 951
 []\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
- n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
-[]:
+ n[]\OT1/cmss/m/n/10.95 ) := [][]
+ []
+
+
+Overfull \hbox (104.91028pt too wide) in paragraph at lines 951--951
+[][]  
  []
 
 [48
 
 ]
-Overfull \hbox (13.31139pt too wide) detected at line 996
+Overfull \hbox (13.31139pt too wide) detected at line 1032
 []\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
  n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
 []:
@@ -2145,14 +2143,23 @@ Overfull \hbox (13.31139pt too wide) detected at line 996
 
 [49
 
-] [50
+]
+Overfull \hbox (13.31139pt too wide) detected at line 1032
+[]\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
+ n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
+[]:
+ []
+
+[50
 
 ] [51
 
 ] [52
 
+] [53
+
 ]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 1329--1329
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 1365--1365
  [] 
  []
 
@@ -2162,30 +2169,28 @@ Overfull \hbox (31.86363pt too wide) in paragraph at lines 1329--1329
 \l__nicematrix_cell_box=\box124
 \l__nicematrix_left_delim_dim=\dimen424
 \l__nicematrix_right_delim_dim=\dimen425
-[53
-
-]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 1329--1329
- [] 
- []
-
 [54
 
 ]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 1427--1427
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 1365--1365
  [] 
  []
 
 [55
 
 ]
-Overfull \hbox (15.52167pt too wide) detected at line 1459
- \OT1/cmss/bx/n/10.95 Q \OT1/cmss/m/n/10.95 = []
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 1463--1463
+ [] 
  []
 
 [56
 
-] [57
+]
+Overfull \hbox (15.52167pt too wide) detected at line 1495
+ \OT1/cmss/bx/n/10.95 Q \OT1/cmss/m/n/10.95 = []
+ []
+
+[57
 
 ] [58
 
@@ -2205,45 +2210,44 @@ Overfull \hbox (15.52167pt too wide) detected at line 1459
 
 ] [66
 
+] [67
+
 ]
-<images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=43
-2, 509.905pt x 636.3775pt>
+<images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=42
+5, 509.905pt x 636.3775pt>
 File: images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
 Package pdftex.def Info: images/Sowing_dates_Distributions_VS_Crop_calendar-eps
--converted-to.pdf  used on input line 1664.
+-converted-to.pdf  used on input line 1700.
 (pdftex.def)             Requested size: 181.77614pt x 226.86577pt.
 
-Overfull \vbox (2.57172pt too high) detected at line 1664
- []
-
-[67
-
- <./images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>]
-<images/1988Break.pdf, id=483, 498.16112pt x 389.9255pt>
-File: images/1988Break.pdf Graphic file (type pdf)
-<use images/1988Break.pdf>
-Package pdftex.def Info: images/1988Break.pdf  used on input line 1675.
-(pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
-
-Overfull \hbox (11.00241pt too wide) in paragraph at lines 1675--1675
- [][]
- []
-
-
-Overfull \vbox (2.57172pt too high) detected at line 1675
+Overfull \vbox (2.57172pt too high) detected at line 1700
  []
 
 [68
 
- <./images/1988Break.pdf>] (Slides.bbl) [69
+ <./images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>]
+<images/1988Break.pdf, id=475, 498.16112pt x 389.9255pt>
+File: images/1988Break.pdf Graphic file (type pdf)
+<use images/1988Break.pdf>
+Package pdftex.def Info: images/1988Break.pdf  used on input line 1711.
+(pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
+
+Overfull \hbox (11.00241pt too wide) in paragraph at lines 1711--1711
+ [][]
+ []
+
+
+Overfull \vbox (2.57172pt too high) detected at line 1711
+ []
+
+[69
+
+ <./images/1988Break.pdf>] (Slides.bbl) [70
 
  <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
-le.pdf>] [70
-
-
-] [71
+le.pdf>] [71
 
 
 ] [72
@@ -2251,80 +2255,83 @@ le.pdf>] [70
 
 ] [73
 
+
+] [74
+
 ]
-<images/Interannual_trend.pdf, id=586, 390.40857pt x 338.33276pt>
+<images/Interannual_trend.pdf, id=578, 390.40857pt x 338.33276pt>
 File: images/Interannual_trend.pdf Graphic file (type pdf)
 <use images/Interannual_trend.pdf>
-Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1699.
+Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1735.
 
 (pdftex.def)             Requested size: 261.78683pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1699
+Overfull \vbox (8.04672pt too high) detected at line 1735
  []
 
-[74
+[75
 
  <./images/Interannual_trend.pdf>]
-<images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=643, 454.77898pt x 370.
+<images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=635, 454.77898pt x 370.
 60332pt>
 File: images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
 <use images/1951_VS_2015_Sowing_dates_Distributions.pdf>
 Package pdftex.def Info: images/1951_VS_2015_Sowing_dates_Distributions.pdf  us
-ed on input line 1705.
+ed on input line 1741.
 (pdftex.def)             Requested size: 278.40016pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1705
+Overfull \vbox (8.04672pt too high) detected at line 1741
  []
 
-[75
+[76
 
  <./images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
-<images/Historical_significance_matrix-eps-converted-to.pdf, id=697, 722.7pt x 
+<images/Historical_significance_matrix-eps-converted-to.pdf, id=689, 722.7pt x 
 578.16pt>
 File: images/Historical_significance_matrix-eps-converted-to.pdf Graphic file (
 type pdf)
 <use images/Historical_significance_matrix-eps-converted-to.pdf>
 Package pdftex.def Info: images/Historical_significance_matrix-eps-converted-to
-.pdf  used on input line 1711.
+.pdf  used on input line 1747.
 (pdftex.def)             Requested size: 283.58318pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1711
+Overfull \vbox (8.04672pt too high) detected at line 1747
  []
 
-[76
+[77
 
  <./images/Historical_significance_matrix-eps-converted-to.pdf>]
-<images/Effects of maize varieties.png, id=750, 794.97pt x 722.7pt>
+<images/Effects of maize varieties.png, id=742, 794.97pt x 722.7pt>
 File: images/Effects of maize varieties.png Graphic file (type png)
 <use images/Effects of maize varieties.png>
 Package pdftex.def Info: images/Effects of maize varieties.png  used on input l
-ine 1730.
+ine 1766.
 (pdftex.def)             Requested size: 199.1693pt x 181.06052pt.
-<images/Maize sowing varieties.png, id=751, 689.5148pt x 162.97623pt>
+<images/Maize sowing varieties.png, id=743, 689.5148pt x 162.97623pt>
 File: images/Maize sowing varieties.png Graphic file (type png)
 <use images/Maize sowing varieties.png>
 Package pdftex.def Info: images/Maize sowing varieties.png  used on input line 
-1730.
+1766.
 (pdftex.def)             Requested size: 199.1693pt x 47.07538pt.
- [77
+ [78
 
  <./images/Effects of maize varieties.png> <./images/Maize sowing varieties.png
 >]
-<images/Crop calendar 2018.png, id=759, 546.24075pt x 387.24675pt>
+<images/Crop calendar 2018.png, id=751, 546.24075pt x 387.24675pt>
 File: images/Crop calendar 2018.png Graphic file (type png)
 <use images/Crop calendar 2018.png>
-Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1741
+Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1777
 .
 (pdftex.def)             Requested size: 177.78452pt x 126.0374pt.
-<images/Crop calendar 2015.png, id=760, 1079.83424pt x 61.4295pt>
+<images/Crop calendar 2015.png, id=752, 1079.83424pt x 61.4295pt>
 File: images/Crop calendar 2015.png Graphic file (type png)
 <use images/Crop calendar 2015.png>
-Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1741
+Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1777
 .
 (pdftex.def)             Requested size: 398.3386pt x 22.66013pt.
 
-[78
+[79
 
  <./images/Crop calendar 2018.png> <./images/Crop calendar 2015.png>]
 \tf@nav=\write6
@@ -2346,10 +2353,10 @@ Package rerunfilecheck Info: File `Slides.out' has not changed.
 (rerunfilecheck)             Checksum: E75CED0509DAEC39F210786E48A985EE;1445.
  ) 
 Here is how much of TeX's memory you used:
- 47256 strings out of 467867
- 1120610 string characters out of 5418334
- 1700340 words of memory out of 5000000
- 75146 multiletter control sequences out of 15000+600000
+ 47266 strings out of 467867
+ 1120770 string characters out of 5418334
+ 1699658 words of memory out of 5000000
+ 75153 multiletter control sequences out of 15000+600000
  652159 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,144p,1313b,1368s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2377,9 +2384,9 @@ rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 msy8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmtt8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on Slides.pdf (78 pages, 17835400 bytes).
+Output written on Slides.pdf (79 pages, 14539938 bytes).
 PDF statistics:
- 903 PDF objects out of 1000 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
+ 896 PDF objects out of 1000 (max. 8388607)
+ 185 named destinations out of 1000 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
