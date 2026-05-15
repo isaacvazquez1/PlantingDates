@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  13 MAY 2026 15:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  15 MAY 2026 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2135,7 +2135,7 @@ Overfull \hbox (104.91028pt too wide) in paragraph at lines 951--951
 [48
 
 ]
-Overfull \hbox (13.31139pt too wide) detected at line 1032
+Overfull \hbox (13.31139pt too wide) detected at line 1033
 []\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
  n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
 []:
@@ -2144,7 +2144,7 @@ Overfull \hbox (13.31139pt too wide) detected at line 1032
 [49
 
 ]
-Overfull \hbox (13.31139pt too wide) detected at line 1032
+Overfull \hbox (13.31139pt too wide) detected at line 1033
 []\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
  n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
 []:
@@ -2159,7 +2159,7 @@ Overfull \hbox (13.31139pt too wide) detected at line 1032
 ] [53
 
 ]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 1365--1365
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 1368--1368
  [] 
  []
 
@@ -2172,21 +2172,21 @@ Overfull \hbox (31.86363pt too wide) in paragraph at lines 1365--1365
 [54
 
 ]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 1365--1365
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 1368--1368
  [] 
  []
 
 [55
 
 ]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 1463--1463
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 1466--1466
  [] 
  []
 
 [56
 
 ]
-Overfull \hbox (15.52167pt too wide) detected at line 1495
+Overfull \hbox (15.52167pt too wide) detected at line 1498
  \OT1/cmss/bx/n/10.95 Q \OT1/cmss/m/n/10.95 = []
  []
 
@@ -2219,100 +2219,98 @@ File: images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
 Package pdftex.def Info: images/Sowing_dates_Distributions_VS_Crop_calendar-eps
--converted-to.pdf  used on input line 1700.
+-converted-to.pdf  used on input line 1703.
 (pdftex.def)             Requested size: 181.77614pt x 226.86577pt.
 
-Overfull \vbox (2.57172pt too high) detected at line 1700
+Overfull \vbox (2.57172pt too high) detected at line 1703
  []
 
 [68
 
  <./images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>]
-<images/1988Break.pdf, id=475, 498.16112pt x 389.9255pt>
-File: images/1988Break.pdf Graphic file (type pdf)
-<use images/1988Break.pdf>
-Package pdftex.def Info: images/1988Break.pdf  used on input line 1711.
-(pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
-
-Overfull \hbox (11.00241pt too wide) in paragraph at lines 1711--1711
- [][]
- []
-
-
-Overfull \vbox (2.57172pt too high) detected at line 1711
- []
-
-[69
-
- <./images/1988Break.pdf>] (Slides.bbl) [70
-
- <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
-le.pdf>] [71
-
-
-] [72
-
-
-] [73
-
-
-] [74
-
-]
-<images/Interannual_trend.pdf, id=578, 390.40857pt x 338.33276pt>
-File: images/Interannual_trend.pdf Graphic file (type pdf)
-<use images/Interannual_trend.pdf>
-Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1735.
-
-(pdftex.def)             Requested size: 261.78683pt x 226.86577pt.
-
-Overfull \vbox (8.04672pt too high) detected at line 1735
- []
-
-[75
-
- <./images/Interannual_trend.pdf>]
-<images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=635, 454.77898pt x 370.
+<images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=475, 454.77898pt x 370.
 60332pt>
 File: images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
 <use images/1951_VS_2015_Sowing_dates_Distributions.pdf>
 Package pdftex.def Info: images/1951_VS_2015_Sowing_dates_Distributions.pdf  us
-ed on input line 1741.
+ed on input line 1709.
 (pdftex.def)             Requested size: 278.40016pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1741
+Overfull \vbox (8.04672pt too high) detected at line 1709
  []
 
-[76
+[69
 
  <./images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
-<images/Historical_significance_matrix-eps-converted-to.pdf, id=689, 722.7pt x 
-578.16pt>
-File: images/Historical_significance_matrix-eps-converted-to.pdf Graphic file (
-type pdf)
-<use images/Historical_significance_matrix-eps-converted-to.pdf>
-Package pdftex.def Info: images/Historical_significance_matrix-eps-converted-to
-.pdf  used on input line 1747.
+<images/Historical_significance_matrix.pdf, id=529, 722.7pt x 578.16pt>
+File: images/Historical_significance_matrix.pdf Graphic file (type pdf)
+<use images/Historical_significance_matrix.pdf>
+Package pdftex.def Info: images/Historical_significance_matrix.pdf  used on inp
+ut line 1715.
 (pdftex.def)             Requested size: 283.58318pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1747
+Overfull \vbox (8.04672pt too high) detected at line 1715
+ []
+
+[70
+
+ <./images/Historical_significance_matrix.pdf>]
+<images/1988Break.pdf, id=582, 498.16112pt x 389.9255pt>
+File: images/1988Break.pdf Graphic file (type pdf)
+<use images/1988Break.pdf>
+Package pdftex.def Info: images/1988Break.pdf  used on input line 1726.
+(pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
+
+Overfull \hbox (11.00241pt too wide) in paragraph at lines 1726--1726
+ [][]
+ []
+
+
+Overfull \vbox (2.57172pt too high) detected at line 1726
+ []
+
+[71
+
+ <./images/1988Break.pdf>] (Slides.bbl) [72
+
+ <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
+le.pdf>] [73
+
+
+] [74
+
+
+] [75
+
+
+] [76
+
+]
+<images/Interannual_trend.pdf, id=685, 390.40857pt x 338.33276pt>
+File: images/Interannual_trend.pdf Graphic file (type pdf)
+<use images/Interannual_trend.pdf>
+Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1750.
+
+(pdftex.def)             Requested size: 261.78683pt x 226.86577pt.
+
+Overfull \vbox (8.04672pt too high) detected at line 1750
  []
 
 [77
 
- <./images/Historical_significance_matrix-eps-converted-to.pdf>]
+ <./images/Interannual_trend.pdf>]
 <images/Effects of maize varieties.png, id=742, 794.97pt x 722.7pt>
 File: images/Effects of maize varieties.png Graphic file (type png)
 <use images/Effects of maize varieties.png>
 Package pdftex.def Info: images/Effects of maize varieties.png  used on input l
-ine 1766.
+ine 1770.
 (pdftex.def)             Requested size: 199.1693pt x 181.06052pt.
 <images/Maize sowing varieties.png, id=743, 689.5148pt x 162.97623pt>
 File: images/Maize sowing varieties.png Graphic file (type png)
 <use images/Maize sowing varieties.png>
 Package pdftex.def Info: images/Maize sowing varieties.png  used on input line 
-1766.
+1770.
 (pdftex.def)             Requested size: 199.1693pt x 47.07538pt.
  [78
 
@@ -2321,17 +2319,16 @@ Package pdftex.def Info: images/Maize sowing varieties.png  used on input line
 <images/Crop calendar 2018.png, id=751, 546.24075pt x 387.24675pt>
 File: images/Crop calendar 2018.png Graphic file (type png)
 <use images/Crop calendar 2018.png>
-Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1777
+Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1781
 .
 (pdftex.def)             Requested size: 177.78452pt x 126.0374pt.
 <images/Crop calendar 2015.png, id=752, 1079.83424pt x 61.4295pt>
 File: images/Crop calendar 2015.png Graphic file (type png)
 <use images/Crop calendar 2015.png>
-Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1777
+Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1781
 .
 (pdftex.def)             Requested size: 398.3386pt x 22.66013pt.
-
-[79
+ [79
 
  <./images/Crop calendar 2018.png> <./images/Crop calendar 2015.png>]
 \tf@nav=\write6
@@ -2343,8 +2340,7 @@ Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1777
 \tf@snm=\write8
 \openout8 = `Slides.snm'.
 
-
-(Slides.aux)
+ (Slides.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -2354,8 +2350,8 @@ Package rerunfilecheck Info: File `Slides.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  47266 strings out of 467867
- 1120770 string characters out of 5418334
- 1699658 words of memory out of 5000000
+ 1120617 string characters out of 5418334
+ 1699660 words of memory out of 5000000
  75153 multiletter control sequences out of 15000+600000
  652159 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2384,7 +2380,7 @@ rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 msy8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmtt8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on Slides.pdf (79 pages, 14539938 bytes).
+Output written on Slides.pdf (79 pages, 14481019 bytes).
 PDF statistics:
  896 PDF objects out of 1000 (max. 8388607)
  185 named destinations out of 1000 (max. 500000)
