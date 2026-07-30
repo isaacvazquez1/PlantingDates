@@ -1,0 +1,13 @@
+Variable	Description 							Unit Type Format
+TMK	 	daily mean of temperature 					°C NUMBER 9990.0
+TXK 		daily maximum of temperature at 2 m height			°C NUMBER 9990.0
+TNK 		daily minimum of temperature at 2 m height			°C NUMBER 9990.0
+TGK 		daily minimum of air temperature at 5 cm above ground		°C NUMBER 9990.0
+V_TE002M	daily soil temperature in 2 cm depth 				°C NUMBER 9990.0
+V_TE005M	daily soil temperature in 5 cm depth 				°C NUMBER 9990.0
+V_TE010M	daily soil temperature in 10 cm depth 				°C NUMBER 9990.0
+V_TE020M	daily soil temperature in 20 cm depth 				°C NUMBER 9990.0
+V_TE050M	daily soil temperature in 50 cm depth 				°C NUMBER 9990.0
+RSK		daily precipitation height 					mm NUMBER 9990.0
+UPM		daily mean of relative humidity 				 % NUMBER 9990.0
+SDK		daily sunshine duration						 h NUMBER 9990.0
