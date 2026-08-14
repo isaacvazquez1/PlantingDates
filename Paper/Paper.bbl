@@ -1,0 +1,709 @@
+\begin{thebibliography}{76}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Baum et~al.(2019)Baum, Archontoulis, and Licht]{Baum_2019}
+M.E. Baum, S.V. Archontoulis, and M.A. Licht.
+\newblock Planting date, hybrid maturity, and weather effects on maize yield
+  and crop stage.
+\newblock \emph{Agronomy Journal}, 111\penalty0 (1):\penalty0 303--313, 2019.
+\newblock \doi{https://doi.org/10.2134/agronj2018.04.0297}.
+\newblock URL
+  \url{https://acsess.onlinelibrary.wiley.com/doi/abs/10.2134/agronj2018.04.0297}.
+
+\bibitem[Baumberger et~al.(2024)Baumberger, Haas, Sivakumar, Ludwig, Meyer, and
+  Meyer]{BAUMBERGER_2024}
+M.~Baumberger, B.~Haas, S.~Sivakumar, M.~Ludwig, N.~Meyer, and H.~Meyer.
+\newblock High-resolution soil temperature and soil moisture patterns in space,
+  depth and time: An interpretable machine learning modelling approach.
+\newblock \emph{Geoderma}, 451:\penalty0 117049, 2024.
+\newblock ISSN 0016-7061.
+\newblock \doi{https://doi.org/10.1016/j.geoderma.2024.117049}.
+
+\bibitem[Bayable et~al.(2021)Bayable, Amare, Alemu, and Gashaw]{Bayable_2021}
+G.~Bayable, G.~Amare, G.~Alemu, and T.~Gashaw.
+\newblock Spatiotemporal variability and trends of rainfall and its association
+  with pacific ocean sea surface temperature in west harerge zone, eastern
+  ethiopia.
+\newblock \emph{Environmental Systems Research}, 10:\penalty0 1--21, 2021.
+
+\bibitem[Bernal-Morales et~al.(2025)Bernal-Morales, Juárez-Sánchez,
+  Ramírez-Valverde, Ocampo-Fletes, and Velasco-Hernández]{BernalMorales_2025}
+R.~Bernal-Morales, J.P. Juárez-Sánchez, B.~Ramírez-Valverde,
+  I.~Ocampo-Fletes, and M.A. Velasco-Hernández.
+\newblock Impact of climate change on maize (zea mays l.) planting dates in the
+  eastern region of puebla, mexico.
+\newblock \emph{Agrociencia}, page 1–16, August 2025.
+\newblock ISSN 1405-3195.
+\newblock \doi{10.47163/agrociencia.v59i6.3311}.
+\newblock URL \url{http://dx.doi.org/10.47163/agrociencia.v59i6.3311}.
+
+\bibitem[Birch et~al.(1998)Birch, Hammer, and Rickert]{Birch_1998}
+C.J. Birch, G.L. Hammer, and K.G. Rickert.
+\newblock Temperature and photoperiod sensitivity of development in five
+  cultivars of maize (zea mays l.) from emergence to tassel initiation.
+\newblock \emph{Field Crops Research}, 55\penalty0 (1-2):\penalty0 93–107, 1
+  1998.
+\newblock ISSN 0378-4290.
+\newblock \doi{10.1016/s0378-4290(97)00062-2}.
+
+\bibitem[Braden(1995)]{Braden_1995}
+H.~Braden.
+\newblock The model ambeti: A detailed description of a soil-plant-atmosphere
+  model.
+\newblock \emph{Berichte des Deutschen Wetterdienstes}, 195:\penalty0 VI--117,
+  1995.
+\newblock Accessed August 04, 2026, at
+  \url{https://opendatao.dwd.de/climate_environment/CDC/derived_germany/soil/multi_annual/mean_91-10/AMBETI.pdf}.
+
+\bibitem[{Bundesamt für Kartographie und Geodäsie}(2025)]{States_2025}
+{Bundesamt für Kartographie und Geodäsie}.
+\newblock Nuts-gebiete 1:250 000 (nuts250) – open data download, jul 2025.
+\newblock URL
+  \url{https://daten.gdz.bkg.bund.de/produkte/vg/nuts250_1231/aktuell/nuts250_12-31.utm32s.gpkg.zip}.
+\newblock Accesado vía
+  \url{https://daten.gdz.bkg.bund.de/produkte/vg/nuts250_1231/aktuell/nuts250_12-31.utm32s.gpkg.zip}
+  en abril 16, 2026.
+
+\bibitem[Busschaert et~al.(2026)Busschaert, Deketelaere, Thiery, Raes, and
+  De~Lannoy]{Busschaert_2026}
+L.~Busschaert, V.~Deketelaere, W.~Thiery, D.~Raes, and G.J.M. De~Lannoy.
+\newblock Future projections of european maize yields using aquacrop with an
+  adaptive growing season.
+\newblock \emph{European Journal of Agronomy}, 173:\penalty0 127920, February
+  2026.
+\newblock ISSN 1161-0301.
+\newblock \doi{10.1016/j.eja.2025.127920}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.eja.2025.127920}.
+
+\bibitem[Cassani and Gomez-Zavaglia(2022)]{Cassani_2022}
+L.~Cassani and A.~Gomez-Zavaglia.
+\newblock Sustainable food systems in fruits and vegetables food supply chains.
+\newblock \emph{Frontiers in Nutrition}, 9, February 2022.
+\newblock ISSN 2296-861X.
+\newblock \doi{10.3389/fnut.2022.829061}.
+\newblock URL \url{http://dx.doi.org/10.3389/fnut.2022.829061}.
+
+\bibitem[Chmielewski et~al.(2004)Chmielewski, Müller, and
+  Bruns]{CHMIELEWSKI_2004}
+F.M. Chmielewski, A.~Müller, and E.~Bruns.
+\newblock Climate changes and trends in phenology of fruit trees and field
+  crops in germany, 1961–2000.
+\newblock \emph{Agricultural and Forest Meteorology}, 121\penalty0
+  (1):\penalty0 69--78, 2004.
+\newblock ISSN 0168-1923.
+\newblock \doi{https://doi.org/10.1016/S0168-1923(03)00161-8}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0168192303001618}.
+
+\bibitem[Chuine and Régnière(2017)]{Chuine_2017}
+I.~Chuine and J.~Régnière.
+\newblock Process-based models of phenology for plants and animals.
+\newblock \emph{Annual Review of Ecology, Evolution, and Systematics},
+  48\penalty0 (Volume 48, 2017):\penalty0 159--182, 2017.
+\newblock ISSN 1545-2069.
+\newblock \doi{https://doi.org/10.1146/annurev-ecolsys-110316-022706}.
+\newblock URL
+  \url{https://www.annualreviews.org/content/journals/10.1146/annurev-ecolsys-110316-022706}.
+
+\bibitem[Coffman(1923)]{Coffman_1923}
+F.A. Coffman.
+\newblock The minimum temperature of germination of seeds.
+\newblock \emph{Agronomy Journal}, 15\penalty0 (7):\penalty0 257–270, 7 1923.
+\newblock ISSN 1435-0645.
+\newblock \doi{10.2134/agronj1923.00021962001500070001x}.
+
+\bibitem[Cuevas et~al.(2021)Cuevas, Blancas, Caballero, Hinojosa-Díaz, and
+  Mart{\'\i}nez-Ballest{\'e}]{Cuevas_2021}
+E.~Cuevas, J.~Blancas, J.~Caballero, I.~A Hinojosa-Díaz, and
+  A.~Mart{\'\i}nez-Ballest{\'e}.
+\newblock Agricultural management and local knowledge: key factors for the
+  conservation of socio-ecosystems in the face of the pollinator world crisis.
+\newblock \emph{Botanical Sciences}, 99\penalty0 (2):\penalty0 305--320, 2021.
+
+\bibitem[{Deutscher Wetterdienst (DWD)}(2024)]{DWD_nFK}
+{Deutscher Wetterdienst (DWD)}.
+\newblock {Erläuterungen zur nutzbaren Feldkapazität (\% nFK)}, 2024.
+\newblock Accessed August 5, 2026, at
+  \url{https://www.dwd.de/DE/fachnutzer/landwirtschaft/dokumentationen/allgemein/basis_einheiten_nfk_doku.html}.
+
+\bibitem[Domokos et~al.(2024)Domokos, Șimon, Chețan, Ceclan, Filip,
+  Călugăr, V\^atcă, and Duda]{Domokos_2024}
+Z.~Domokos, A.~Șimon, F.~Chețan, O.A. Ceclan, E.~Filip, R.E. Călugăr, S.D.
+  V\^atcă, and M.M. Duda.
+\newblock The influence of sowing date on the primary yield components of
+  maize.
+\newblock \emph{Agronomy}, 14\penalty0 (9):\penalty0 2120, 9 2024.
+\newblock ISSN 2073-4395.
+\newblock \doi{10.3390/agronomy14092120}.
+
+\bibitem[Donmez et~al.(2023)Donmez, Schmidt, Cilek, Grosse, Paul, Hierold, and
+  Helming]{DONMEZ_2023}
+C.~Donmez, M.~Schmidt, A.~Cilek, M.~Grosse, C.~Paul, W.~Hierold, and
+  K.~Helming.
+\newblock Climate change impacts on long-term field experiments in germany.
+\newblock \emph{Agricultural Systems}, 205:\penalty0 103578, 2023.
+\newblock ISSN 0308-521X.
+\newblock \doi{https://doi.org/10.1016/j.agsy.2022.103578}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0308521X22002141}.
+
+\bibitem[Duden et~al.(2024)Duden, Nacke, and Offermann]{Duden_2024}
+C.~Duden, C.~Nacke, and F.~Offermann.
+\newblock German yield and area data for 11 crops from 1979 to 2021 at a
+  harmonized spatial resolution of 397 districts.
+\newblock \emph{Scientific Data}, 11\penalty0 (1), January 2024.
+\newblock ISSN 2052-4463.
+\newblock \doi{10.1038/s41597-024-02951-8}.
+\newblock URL \url{http://dx.doi.org/10.1038/s41597-024-02951-8}.
+
+\bibitem[{DWD Climate Data Center (CDC)}(2024)]{DWD_soilmoisture_maize}
+{DWD Climate Data Center (CDC)}.
+\newblock Daily grids of mean soil moisture under maize for germany, version
+  v1.0, 2024.
+\newblock Accessed August 5, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/soil_moisture/maize/}.
+
+\bibitem[{DWD Climate Data Center
+  (CDC)}(2025{\natexlab{a}})]{DWD_HYRAS_MaxTemp}
+{DWD Climate Data Center (CDC)}.
+\newblock {Raster data set of maximum temperature in $^\circ$ C for Germany -
+  HYRAS-DE-TASMAX v6-1, Version v6-1}, 2025{\natexlab{a}}.
+\newblock Accessed July 31, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/hyras_de/air_temperature_max/}.
+
+\bibitem[{DWD Climate Data Center
+  (CDC)}(2025{\natexlab{b}})]{DWD_HYRAS_MeanTemp}
+{DWD Climate Data Center (CDC)}.
+\newblock {Raster data set of mean temperature in $^\circ$ C for Germany -
+  HYRAS-DE-TAS v6-1, Version v6-1}, 2025{\natexlab{b}}.
+\newblock Accessed July 31, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/hyras_de/air_temperature_mean/}.
+
+\bibitem[{DWD Climate Data Center
+  (CDC)}(2025{\natexlab{c}})]{DWD_HYRAS_MinTemp}
+{DWD Climate Data Center (CDC)}.
+\newblock {Raster data set of minimum temperature in $^\circ$ C for Germany -
+  HYRAS-DE-TASMIN v6-1, Version v6-1}, 2025{\natexlab{c}}.
+\newblock Accessed July 31, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/hyras_de/air_temperature_min/}.
+
+\bibitem[{DWD Climate Data Center
+  (CDC)}(2025{\natexlab{d}})]{DWD_HYRAS_RelHumidity}
+{DWD Climate Data Center (CDC)}.
+\newblock {Raster data set of mean relative humidity in \% for Germany -
+  HYRAS-DE-HURS v6-1, Version v6-1}, 2025{\natexlab{d}}.
+\newblock Accessed July 31, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/hyras_de/humidity/}.
+
+\bibitem[{DWD Climate Data Center
+  (CDC)}(2025{\natexlab{e}})]{DWD_soiltemperature}
+{DWD Climate Data Center (CDC)}.
+\newblock Daily grids of soil temperature at 5 cm depth, 2025{\natexlab{e}}.
+\newblock Accessed July 29, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/soil_temperature_5cm/DESCRIPTION_gridsgermany_daily_soil_temperature_5cm_en.pdf}.
+
+\bibitem[Erenstein et~al.(2022)Erenstein, Jaleta, Sonder, Mottaleb, and
+  Prasanna]{Erenstein_2022}
+O.~Erenstein, M.~Jaleta, K.~Sonder, K.~Mottaleb, and B.M. Prasanna.
+\newblock Global maize production, consumption and trade: trends and r\& d
+  implications.
+\newblock \emph{Food Security}, 14\penalty0 (5):\penalty0 1295–1319, May
+  2022.
+\newblock ISSN 1876-4525.
+\newblock \doi{10.1007/s12571-022-01288-7}.
+\newblock URL \url{http://dx.doi.org/10.1007/s12571-022-01288-7}.
+
+\bibitem[Farooq et~al.(2022)Farooq, Uzair, Raza, Habib, Xu, Yousuf, Yang, and
+  Ramzan~Khan]{Farooq_2022}
+M.S. Farooq, M.~Uzair, A.~Raza, M.~Habib, Y.~Xu, M.~Yousuf, S.H. Yang, and
+  M.~Ramzan~Khan.
+\newblock Uncovering the research gaps to alleviate the negative impacts of
+  climate change on food security: a review.
+\newblock \emph{Frontiers in plant science}, 13:\penalty0 927535, 2022.
+
+\bibitem[Flores et~al.(2025)Flores, Nendel, Bookhagen, Oviedo~Reyes, Smith, and
+  Ghazaryan]{Flores_2025}
+L.~Flores, C.~Nendel, B.~Bookhagen, J.A. Oviedo~Reyes, T.~Smith, and
+  G.~Ghazaryan.
+\newblock The potential of sentinel-1 time series for large-scale assessment of
+  maize and wheat phenology across germany.
+\newblock \emph{GIScience \& Remote Sensing}, 62\penalty0 (1), July 2025.
+\newblock ISSN 1943-7226.
+\newblock \doi{10.1080/15481603.2025.2531593}.
+\newblock URL \url{http://dx.doi.org/10.1080/15481603.2025.2531593}.
+
+\bibitem[Franch et~al.(2022)Franch, Cintas, Becker-Reshef, Sanchez-Torres,
+  Roger, Skakun, Sobrino, Van~Tricht, Degerickx, Gilliams, Koetz, Szantoi, and
+  Whitcraft]{Franch_2022}
+B.~Franch, J.~Cintas, I.~Becker-Reshef, M.J. Sanchez-Torres, J.~Roger,
+  S.~Skakun, J.A. Sobrino, K.~Van~Tricht, J.~Degerickx, S.~Gilliams, B.~Koetz,
+  Z.~Szantoi, and A.~Whitcraft.
+\newblock Global crop calendars of maize and wheat in the framework of the
+  worldcereal project.
+\newblock \emph{GIScience \& Remote Sensing}, 59\penalty0 (1):\penalty0
+  885--913, 2022.
+
+\bibitem[García-Mendoza(2002)]{García-Mendoza_2002}
+A.~García-Mendoza.
+\newblock Distribution of agave (agavaceae) in mexico.
+\newblock 74:\penalty0 177–187, 2002.
+\newblock ISSN 1938-288X 0007-9367.
+
+\bibitem[Gatto and Jammalamadaka(2015)]{Gatto_2015}
+R.~Gatto and S.R. Jammalamadaka.
+\newblock Directional statistics: Introduction, March 2015.
+\newblock URL \url{http://dx.doi.org/10.1002/9781118445112.stat00201.pub2}.
+
+\bibitem[Grubben and Partohardjono(1997)]{Grubben_1997}
+G.J.H. Grubben and S.~Partohardjono.
+\newblock Plant resources of south east asia.
+\newblock \emph{Botanical Journal of the Linnean Society}, 123\penalty0
+  (3):\penalty0 261, 1997.
+
+\bibitem[Gurney et~al.(1992)Gurney, Crowley, and Nisbet]{Gurney_1992}
+W.S.C. Gurney, P.H. Crowley, and R.M. Nisbet.
+\newblock Locking life-cycles onto seasons: Circle-map models of population
+  dynamics and local adaptation.
+\newblock \emph{Journal of Mathematical Biology}, 30\penalty0 (3):\penalty0
+  251–279, January 1992.
+\newblock ISSN 1432-1416.
+\newblock \doi{10.1007/bf00176151}.
+\newblock URL \url{http://dx.doi.org/10.1007/BF00176151}.
+
+\bibitem[Hennemuth et~al.(2013)Hennemuth, Bender, B{\"u}low, Dreier,
+  Keup-Thiel, Kr{\"u}ger, Mudersbach, Radermacher, and
+  Schoetter]{Hennemuth_2013}
+B.~Hennemuth, S.~Bender, K.~B{\"u}low, N.~Dreier, E.~Keup-Thiel, O.~Kr{\"u}ger,
+  C.~Mudersbach, C.~Radermacher, and R.~Schoetter.
+\newblock Statistical methods for the analysis of simulated and observed
+  climate data: applied in projects and institutions dealing with climate
+  change impact and adaptation.
+\newblock Climate Service Center Germany, 2013.
+
+\bibitem[Herbst et~al.(2021)Herbst, Falge, and Fr\"{u}hauf]{Herbst_2021}
+M.~Herbst, E.~Falge, and C.~Fr\"{u}hauf.
+\newblock Regionale klimamodellierung – perspektive landwirtschaft.
+\newblock \emph{promet 104}, page Beitrag 8, 2021.
+\newblock \doi{10.5676/DWD_PUB/PROMET_104_08}.
+
+\bibitem[Kiniry et~al.(1995)Kiniry, Williams, Major, Izaurralde, Gassman,
+  Morrison, Bergentine, and Zentner]{Kiniry_1995}
+J.R. Kiniry, J.R. Williams, D.J. Major, R.C. Izaurralde, P.W. Gassman,
+  M.~Morrison, R.~Bergentine, and R.P. Zentner.
+\newblock Epic model parameters for cereal, oilseed, and forage crops in the
+  northern great plains region.
+\newblock \emph{Canadian Journal of Plant Science}, 75\penalty0 (3):\penalty0
+  679--688, 7 1995.
+\newblock ISSN 1918-1833.
+\newblock \doi{10.4141/cjps95-114}.
+
+\bibitem[Kr\"{a}henmann et~al.(2016)Kr\"{a}henmann, Walter, Brienen, Imbery,
+  and Matzarakis]{Krhenmann_2016}
+S.~Kr\"{a}henmann, A.~Walter, S.~Brienen, F.~Imbery, and A.~Matzarakis.
+\newblock High-resolution grids of hourly meteorological variables for germany.
+\newblock \emph{Theoretical and Applied Climatology}, 131\penalty0
+  (3-4):\penalty0 899–926, 12 2016.
+\newblock ISSN 1434-4483.
+\newblock \doi{10.1007/s00704-016-2003-7}.
+
+\bibitem[Long et~al.(2017)Long, Assefa, Schwalbert, and Ciampitti]{Long_2017}
+N.V. Long, Y.~Assefa, R.~Schwalbert, and I.A. Ciampitti.
+\newblock Maize yield and planting date relationship: A synthesis-analysis for
+  us high-yielding contest-winner and field research data.
+\newblock \emph{Frontiers in Plant Science}, 8, December 2017.
+\newblock ISSN 1664-462X.
+\newblock \doi{10.3389/fpls.2017.02106}.
+\newblock URL \url{http://dx.doi.org/10.3389/fpls.2017.02106}.
+
+\bibitem[Mardia and Jupp(1999)]{Mardia1999}
+K.V. Mardia and P.E. Jupp.
+\newblock \emph{Directional Statistics}.
+\newblock Wiley, January 1999.
+\newblock ISBN 9780470316979.
+\newblock \doi{10.1002/9780470316979}.
+\newblock URL \url{http://dx.doi.org/10.1002/9780470316979}.
+
+\bibitem[Martin and Thrailkill(1993)]{Martin_1993}
+D.L. Martin and D.J. Thrailkill.
+\newblock Moisture and humidity requirements for germination of surface seeded
+  corn.
+\newblock \emph{Applied Engineering in Agriculture}, 9\penalty0 (1):\penalty0
+  43–48, 1993.
+\newblock ISSN 1943-7838.
+\newblock \doi{10.13031/2013.25963}.
+
+\bibitem[Mason et~al.(2018)Mason, Galusha, and Kmail]{Mason_2018}
+S.~Mason, T.~Galusha, and Z.~Kmail.
+\newblock Planting date influence on yield of drought-tolerant maize with
+  different maturity classifications.
+\newblock \emph{Agronomy Journal}, 110\penalty0 (1):\penalty0 293--299, 2018.
+\newblock \doi{https://doi.org/10.2134/agronj2017.06.0326}.
+\newblock URL
+  \url{https://acsess.onlinelibrary.wiley.com/doi/abs/10.2134/agronj2017.06.0326}.
+
+\bibitem[Miedaner and Juroszek(2021)]{Miedaner_2021}
+T.~Miedaner and P.~Juroszek.
+\newblock Global warming and increasing maize cultivation demand comprehensive
+  efforts in disease and insect resistance breeding in north-western europe.
+\newblock \emph{Plant Pathology}, 70\penalty0 (5):\penalty0 1032--1046, 2021.
+\newblock \doi{https://doi.org/10.1111/ppa.13365}.
+\newblock URL
+  \url{https://bsppjournals.onlinelibrary.wiley.com/doi/abs/10.1111/ppa.13365}.
+
+\bibitem[Mirón et~al.(2023)Mirón, Linares, and Díaz]{MIRON_2023}
+I.J. Mirón, C.~Linares, and J.~Díaz.
+\newblock The influence of climate change on food production and food safety.
+\newblock \emph{Environmental Research}, 216:\penalty0 114674, 2023.
+\newblock ISSN 0013-9351.
+\newblock \doi{https://doi.org/10.1016/j.envres.2022.114674}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0013935122020011}.
+
+\bibitem[Mo et~al.(2020)Mo, Li, Wang, Lamm, Wang, Zhang, Cai, and
+  Gong]{Mo_2020}
+Y.~Mo, G.~Li, D.~Wang, F.R. Lamm, J.~Wang, Y.~Zhang, M.~Cai, and S.~Gong.
+\newblock Planting and preemergence irrigation procedures to enhance
+  germination of subsurface drip irrigated corn.
+\newblock \emph{Agricultural Water Management}, 242:\penalty0 106412, December
+  2020.
+\newblock ISSN 0378-3774.
+\newblock \doi{10.1016/j.agwat.2020.106412}.
+
+\bibitem[Moraes~García et~al.(2022)Moraes~García, Micheletti~Broglio,
+  Santoro~Brossi, Teixeira~dos Santos, Avilés~Cantuarias, and
+  da~Silva~Rodrigues]{Moraes_2022}
+A.F. Moraes~García, L.~Micheletti~Broglio, M.~Santoro~Brossi, N.~Teixeira~dos
+  Santos, T.~Avilés~Cantuarias, and S.~da~Silva~Rodrigues.
+\newblock Horticultural performance of 'hass' avocado grafted onto seedling and
+  clonal rootstocks under tropical wet-dry climate conditions.
+\newblock \emph{Scientia Horticulturae}, 302:\penalty0 111155, August 2022.
+\newblock ISSN 0304-4238.
+\newblock \doi{10.1016/j.scienta.2022.111155}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.scienta.2022.111155}.
+
+\bibitem[Myers et~al.(2014)Myers, Zanobetti, Kloog, Huybers, Leakey, Bloom,
+  Carlisle, Dietterich, Fitzgerald, Hasegawa, Holbrook, Nelson, Ottman, Raboy,
+  Sakai, Sartor, Schwartz, Seneweera, Tausz, and Usui]{Myers_2014}
+S.S. Myers, A.~Zanobetti, I.~Kloog, P.~Huybers, A.D.B. Leakey, A.J. Bloom,
+  E.~Carlisle, L.H. Dietterich, G.~Fitzgerald, T.~Hasegawa, N.M. Holbrook, R.L.
+  Nelson, M.J. Ottman, V.~Raboy, H.~Sakai, K.A. Sartor, J.~Schwartz,
+  S.~Seneweera, M.~Tausz, and Y.~Usui.
+\newblock Increasing co2 threatens human nutrition.
+\newblock \emph{Nature}, 510\penalty0 (7503):\penalty0 139–142, May 2014.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/nature13179}.
+\newblock URL \url{http://dx.doi.org/10.1038/nature13179}.
+
+\bibitem[{National Research Council}(1996)]{NRC_1996}
+{National Research Council}.
+\newblock \emph{Lessons from the Past Provide Direction for the Future}, pages
+  1--22.
+\newblock National Academies Press, Washington, DC, 1996.
+\newblock \doi{10.17226/5135}.
+\newblock URL \url{https://nap.nationalacademies.org/read/5135/chapter/3}.
+
+\bibitem[Orozco-Ramírez et~al.(2016)Orozco-Ramírez, Perales, and
+  Hijmans]{OrozcoRamrez_2016}
+Q.~Orozco-Ramírez, H.~Perales, and R.J. Hijmans.
+\newblock Geographical distribution and diversity of maize (zea mays l. subsp.
+  mays) races in mexico.
+\newblock \emph{Genetic Resources and Crop Evolution}, 64\penalty0
+  (5):\penalty0 855–865, April 2016.
+\newblock ISSN 1573-5109.
+\newblock \doi{10.1007/s10722-016-0405-0}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10722-016-0405-0}.
+
+\bibitem[Pan et~al.(1999)Pan, Bai, Leibovitch, and Smith]{Pan_1999}
+B.~Pan, Y.M. Bai, S.~Leibovitch, and D.L. Smith.
+\newblock Plant-growth-promoting rhizobacteria and kinetin as ways to promote
+  corn growth and yield in a short-growing-season area.
+\newblock \emph{European Journal of Agronomy}, 11\penalty0 (3-4):\penalty0
+  179--186, 11 1999.
+\newblock ISSN 1161-0301.
+\newblock \doi{10.1016/s1161-0301(99)00029-5}.
+
+\bibitem[Parajuli et~al.(2019)Parajuli, Thoma, and Matlock]{Parajuli_2019}
+R.~Parajuli, G.~Thoma, and M.D. Matlock.
+\newblock Environmental sustainability of fruit and vegetable production supply
+  chains in the face of climate change: A review.
+\newblock \emph{Science of The Total Environment}, 650:\penalty0 2863--2879,
+  2019.
+\newblock ISSN 0048-9697.
+\newblock \doi{https://doi.org/10.1016/j.scitotenv.2018.10.019}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0048969718338920}.
+
+\bibitem[Parent and Tardieu(2012)]{Parent_2012}
+B.~Parent and F.~Tardieu.
+\newblock Temperature responses of developmental processes have not been
+  affected by breeding in different ecological areas for 17 crop species.
+\newblock \emph{New Phytologist}, 194\penalty0 (3):\penalty0 760–774, March
+  2012.
+\newblock ISSN 1469-8137.
+\newblock \doi{10.1111/j.1469-8137.2012.04086.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1469-8137.2012.04086.x}.
+
+\bibitem[Parent et~al.(2018)Parent, Leclere, Lacube, Semenov, Welcker, Martre,
+  and Tardieu]{Parent_2018}
+B.~Parent, M.~Leclere, S.~Lacube, M.A. Semenov, C.~Welcker, P.~Martre, and
+  F.~Tardieu.
+\newblock Maize yields over europe may increase in spite of climate change,
+  with an appropriate use of the genetic variability of flowering time.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 115\penalty0
+  (42):\penalty0 10642--10647, 2018.
+\newblock \doi{10.1073/pnas.1720716115}.
+\newblock URL \url{https://www.pnas.org/doi/abs/10.1073/pnas.1720716115}.
+
+\bibitem[Parker et~al.(2016)Parker, Shonkwiler, and Aurbacher]{Parker_2016}
+P.S. Parker, J.S. Shonkwiler, and J.~Aurbacher.
+\newblock Cause and consequence in maize planting dates in germany.
+\newblock \emph{Journal of Agronomy and Crop Science}, 203\penalty0
+  (3):\penalty0 227--240, 2016.
+\newblock \doi{https://doi.org/10.1111/jac.12182}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jac.12182}.
+
+\bibitem[Peichl et~al.(2018)Peichl, Thober, Meyer, and Samaniego]{Peichl_2018}
+M.~Peichl, S.~Thober, V.~Meyer, and L.~Samaniego.
+\newblock The effect of soil moisture anomalies on maize yield in germany.
+\newblock \emph{Natural Hazards and Earth System Sciences}, 18\penalty0
+  (3):\penalty0 889–906, 3 2018.
+\newblock ISSN 1684-9981.
+\newblock \doi{10.5194/nhess-18-889-2018}.
+
+\bibitem[Peter et~al.(2009)Peter, Eschholz, Stamp, and Liedgens]{Peter_2009}
+R.~Peter, T.W. Eschholz, P.~Stamp, and M.~Liedgens.
+\newblock Early growth of flint maize landraces under cool conditions.
+\newblock \emph{Crop Science}, 49\penalty0 (1):\penalty0 169–178, 1 2009.
+\newblock ISSN 1435-0653.
+\newblock \doi{10.2135/cropsci2007.10.0538}.
+
+\bibitem[Portmann et~al.(2010)Portmann, Siebert, and Döll]{Portmann_2010}
+F.T. Portmann, S.~Siebert, and P.~Döll.
+\newblock Mirca2000—global monthly irrigated and rainfed crop areas around
+  the year 2000: A new high-resolution data set for agricultural and
+  hydrological modeling.
+\newblock \emph{Global Biogeochemical Cycles}, 24\penalty0 (1), 2010.
+\newblock \doi{https://doi.org/10.1029/2008GB003435}.
+\newblock URL
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2008GB003435}.
+
+\bibitem[Powell and Logan(2005)]{Powell_2005}
+J.A. Powell and J.A. Logan.
+\newblock Insect seasonality: circle map analysis of temperature-driven life
+  cycles.
+\newblock \emph{Theoretical Population Biology}, 67\penalty0 (3):\penalty0
+  161–179, May 2005.
+\newblock ISSN 0040-5809.
+\newblock \doi{10.1016/j.tpb.2004.10.001}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.tpb.2004.10.001}.
+
+\bibitem[Ranum et~al.(2014)Ranum, Peña-Rosas, and Garcia-Casal]{Ranum_2014}
+P.~Ranum, J.P. Peña-Rosas, and M.N. Garcia-Casal.
+\newblock Global maize production, utilization, and consumption.
+\newblock \emph{Annals of the New York Academy of Sciences}, 1312\penalty0
+  (1):\penalty0 105--112, 2014.
+\newblock \doi{https://doi.org/10.1111/nyas.12396}.
+\newblock URL
+  \url{https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.12396}.
+
+\bibitem[Rattalino~Edreira et~al.(2018)Rattalino~Edreira, Cassman, Hochman, van
+  Ittersum, van Bussel, Claessens, and Grassini]{Rattalino_2018}
+J.I. Rattalino~Edreira, K.G. Cassman, Z.~Hochman, M.K. van Ittersum, L.~van
+  Bussel, L.~Claessens, and P.~Grassini.
+\newblock Beyond the plot: technology extrapolation domains for scaling out
+  agronomic science.
+\newblock \emph{Environmental Research Letters}, 13\penalty0 (5):\penalty0
+  054027, May 2018.
+\newblock ISSN 1748-9326.
+\newblock \doi{10.1088/1748-9326/aac092}.
+\newblock URL \url{http://dx.doi.org/10.1088/1748-9326/aac092}.
+
+\bibitem[Rausch and Belyea(2006)]{Rausch_2006}
+K.D. Rausch and R.L. Belyea.
+\newblock The future of coproducts from corn processing.
+\newblock \emph{Applied Biochemistry and Biotechnology}, 128\penalty0
+  (1):\penalty0 047–086, 2006.
+\newblock ISSN 0273-2289.
+\newblock \doi{10.1385/abab:128:1:047}.
+\newblock URL \url{http://dx.doi.org/10.1385/ABAB:128:1:047}.
+
+\bibitem[Razafimaharo et~al.(2020)Razafimaharo, Kr\"{a}henmann, H\"{o}pp,
+  Rauthe, and Deutschl\"{a}nder]{Razafimaharo_2020}
+C.~Razafimaharo, S.~Kr\"{a}henmann, S.~H\"{o}pp, M.~Rauthe, and
+  T.~Deutschl\"{a}nder.
+\newblock New high-resolution gridded dataset of daily mean, minimum, and
+  maximum temperature and relative humidity for central europe (hyras).
+\newblock \emph{Theoretical and Applied Climatology}, 142\penalty0
+  (3-4):\penalty0 1531–1553, 9 2020.
+\newblock ISSN 1434-4483.
+\newblock \doi{10.1007/s00704-020-03388-w}.
+
+\bibitem[R{\'e}gni{\`e}re and Powell(2013)]{Regniere_2013}
+J.~R{\'e}gni{\`e}re and J.A. Powell.
+\newblock \emph{Animal Life Cycle Models (Poikilotherms)}, pages 295--316.
+\newblock Springer Netherlands, Dordrecht, 2013.
+\newblock ISBN 978-94-007-6925-0.
+\newblock \doi{10.1007/978-94-007-6925-0_16}.
+\newblock URL \url{https://doi.org/10.1007/978-94-007-6925-0_16}.
+
+\bibitem[Revilla et~al.(2022)Revilla, Alves, Andelković, Balconi, Dinis,
+  Mendes-Moreira, Redaelli, Ruiz~de Galarreta, Vaz~Patto, Žilić, and
+  Malvar]{Revilla_2022}
+P.~Revilla, M.L. Alves, V.~Andelković, C.~Balconi, I.~Dinis,
+  P.~Mendes-Moreira, R.~Redaelli, J.I. Ruiz~de Galarreta, M.C. Vaz~Patto,
+  S.~Žilić, and R.A. Malvar.
+\newblock Traditional foods from maize (zea mays l.) in europe.
+\newblock \emph{Frontiers in Nutrition}, 8, 2022.
+\newblock ISSN 2296-861X.
+\newblock \doi{10.3389/fnut.2021.683399}.
+
+\bibitem[Rocha-Arroyo et~al.(2011)Rocha-Arroyo, Salazar-García,
+  Bárcenas-Ortega, González-Durán, and Cossio-Vargas]{Rocha-Arroyo_2011}
+J.L. Rocha-Arroyo, S.~Salazar-García, A.E. Bárcenas-Ortega, I.J.L.
+  González-Durán, and L.E. Cossio-Vargas.
+\newblock {Fenología del aguacate ``Hass''' en Michoacán}.
+\newblock \emph{Revista mexicana de ciencias agr{\'\i}colas}, 2\penalty0
+  (3):\penalty0 303--316, 2011.
+
+\bibitem[Sacks and Kucharik(2011)]{Sacks_2011}
+W.J. Sacks and C.J. Kucharik.
+\newblock Crop management and phenology trends in the u.s. corn belt: Impacts
+  on yields, evapotranspiration and energy balance.
+\newblock \emph{Agricultural and Forest Meteorology}, 151\penalty0
+  (7):\penalty0 882--894, July 2011.
+\newblock ISSN 0168-1923.
+\newblock \doi{10.1016/j.agrformet.2011.02.010}.
+
+\bibitem[Sacks et~al.(2010)Sacks, Deryng, Foley, and Ramankutty]{Sacks_2010}
+W.J. Sacks, D.~Deryng, J.A. Foley, and N.~Ramankutty.
+\newblock Crop planting dates: an analysis of global patterns.
+\newblock \emph{Global Ecology and Biogeography}, 19\penalty0 (5):\penalty0
+  607–620, August 2010.
+\newblock ISSN 1466-8238.
+\newblock \doi{10.1111/j.1466-8238.2010.00551.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1466-8238.2010.00551.x}.
+
+\bibitem[Schloeder et~al.(2001)Schloeder, Zimmerman, and
+  Jacobs]{Schloeder_2001}
+C.A. Schloeder, N.E. Zimmerman, and M.J. Jacobs.
+\newblock Comparison of methods for interpolating soil properties using limited
+  data.
+\newblock \emph{Soil Science Society of America Journal}, 65\penalty0
+  (2):\penalty0 470--479, 2001.
+\newblock \doi{https://doi.org/10.2136/sssaj2001.652470x}.
+
+\bibitem[Shivanna(2022)]{Shivanna_2022}
+K.R. Shivanna.
+\newblock Climate change and its impact on biodiversity and human welfare.
+\newblock \emph{Proceedings of the Indian National Science Academy},
+  88\penalty0 (2):\penalty0 160–171, May 2022.
+\newblock ISSN 2454-9983.
+\newblock \doi{10.1007/s43538-022-00073-6}.
+\newblock URL \url{http://dx.doi.org/10.1007/s43538-022-00073-6}.
+
+\bibitem[Sokan-Adeaga et~al.(2024)Sokan-Adeaga, Salami, Bolade, Aledeh,
+  Sokan-Adeaga, Amubieya, Kehinde, Farzadkia, Ashraf, and
+  Hoseinzadeh]{SOKANADEAGA_2024}
+A.A. Sokan-Adeaga, S.A. Salami, D.O. Bolade, M.~Aledeh, M.A. Sokan-Adeaga, O.E.
+  Amubieya, S.A. Kehinde, M.~Farzadkia, G.M. Ashraf, and E.~Hoseinzadeh.
+\newblock Utilization of local corn (zea mays) wastes for bioethanol production
+  by separate hydrolysis and fermentation.
+\newblock \emph{Journal of Hazardous Materials Advances}, 15:\penalty0 100447,
+  2024.
+\newblock ISSN 2772-4166.
+\newblock \doi{https://doi.org/10.1016/j.hazadv.2024.100447}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S2772416624000482}.
+
+\bibitem[Su et~al.(2023)Su, Zhang, Wang, and Xu]{SU_2023}
+P.~Su, A.~Zhang, J.~Wang, and W.~Xu.
+\newblock Plausible maize planting distribution under future global change
+  scenarios.
+\newblock \emph{Field Crops Research}, 302:\penalty0 109079, 2023.
+\newblock ISSN 0378-4290.
+\newblock \doi{https://doi.org/10.1016/j.fcr.2023.109079}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0378429023002721}.
+
+\bibitem[Sánchez et~al.(2013)Sánchez, Rasmussen, and Porter]{Sanchez_2013}
+B.~Sánchez, A.~Rasmussen, and J.R. Porter.
+\newblock Temperatures and the growth and development of maize and rice: a
+  review.
+\newblock \emph{Global Change Biology}, 20\penalty0 (2):\penalty0 408–417, 12
+  2013.
+\newblock ISSN 1365-2486.
+\newblock \doi{10.1111/gcb.12389}.
+
+\bibitem[Sánchez et~al.(2014)Sánchez, Rasmussen, and Porter]{Sanchez_2014}
+B.~Sánchez, A.~Rasmussen, and J.R. Porter.
+\newblock Temperatures and the growth and development of maize and rice: a
+  review.
+\newblock \emph{Global Change Biology}, 20\penalty0 (2):\penalty0 408--417,
+  2014.
+\newblock \doi{https://doi.org/10.1111/gcb.12389}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.12389}.
+
+\bibitem[Tanumihardjo et~al.(2020)Tanumihardjo, McCulley, Roh, Lopez-Ridaura,
+  Palacios-Rojas, and Gunaratna]{TANUMIHARDJO_2020}
+S.A. Tanumihardjo, L.~McCulley, R.~Roh, S.~Lopez-Ridaura, N.~Palacios-Rojas,
+  and N.S. Gunaratna.
+\newblock Maize agro-food systems to ensure food and nutrition security in
+  reference to the sustainable development goals.
+\newblock \emph{Global Food Security}, 25:\penalty0 100327, 2020.
+\newblock ISSN 2211-9124.
+\newblock \doi{https://doi.org/10.1016/j.gfs.2019.100327}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S2211912419300112}.
+
+\bibitem[V\^atcă et~al.(2021)V\^atcă, Stoian, Man, Horvath, Vidican, G\^adea,
+  V\^atcă, Rotaru, V\^arban, Cristina, and Stoian]{Vatca_2021}
+S.D. V\^atcă, V.A. Stoian, T.C. Man, C.~Horvath, R.~Vidican, Ș. G\^adea,
+  A.~V\^atcă, A.~Rotaru, R.~V\^arban, M.~Cristina, and V.~Stoian.
+\newblock Agrometeorological requirements of maize crop phenology for
+  sustainable cropping—a historical review for romania.
+\newblock \emph{Sustainability}, 13\penalty0 (14):\penalty0 7719, 7 2021.
+\newblock ISSN 2071-1050.
+\newblock \doi{10.3390/su13147719}.
+
+\bibitem[Waha et~al.(2011)Waha, van Bussel, M\"{u}ller, and Bondeau]{Waha_2011}
+K.~Waha, L.G.J. van Bussel, C.~M\"{u}ller, and A.~Bondeau.
+\newblock Climate‐driven simulation of global crop sowing dates.
+\newblock \emph{Global Ecology and Biogeography}, 21\penalty0 (2):\penalty0
+  247–259, 5 2011.
+\newblock ISSN 1466-8238.
+\newblock \doi{10.1111/j.1466-8238.2011.00678.x}.
+
+\bibitem[Wang(2014)]{Wang_2014}
+C.-H. Wang.
+\newblock Farming methods effects on the soil fertility and crop production
+  under a rice-vegetables cropping sequences.
+\newblock \emph{Journal of Plant Nutrition}, 37\penalty0 (9):\penalty0
+  1498--1513, 2014.
+\newblock \doi{10.1080/01904167.2014.881876}.
+\newblock URL \url{https://doi.org/10.1080/01904167.2014.881876}.
+
+\bibitem[Warrington and Kanemasu(1983)]{Warrington_1983}
+I.J. Warrington and E.T. Kanemasu.
+\newblock Corn growth response to temperature and photoperiod i. seedling
+  emergence, tassel initiation, and anthesis.
+\newblock \emph{Agronomy Journal}, 75\penalty0 (5):\penalty0 749--754, 9 1983.
+\newblock ISSN 1435-0645.
+\newblock \doi{10.2134/agronj1983.00021962007500050008x}.
+
+\bibitem[Zhang et~al.(2023)Zhang, Liu, Guan, Fan, Xia, Wang, Bao, and
+  Xu]{Zhang_2022}
+Y.~Zhang, J.~Liu, L.~Guan, D.~Fan, F.~Xia, A.~Wang, Y.~Bao, and Y.~Xu.
+\newblock By-products of zea mays l.: A promising source of medicinal
+  properties with phytochemistry and pharmacological activities: A
+  comprehensive review.
+\newblock \emph{Chemistry \& Biodiversity}, 20\penalty0 (3):\penalty0
+  e202200940, 2023.
+\newblock \doi{https://doi.org/10.1002/cbdv.202200940}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/cbdv.202200940}.
+
+\end{thebibliography}

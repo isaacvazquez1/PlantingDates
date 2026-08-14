@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Paper.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+Database file #1: PaperBibliography.bib
+You're missing a field name---line 6513 of file PaperBibliography.bib
+ : 
+ : % title={Waterlogging concerns and its impact on agricultural sustainability},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in García-Mendoza_2002
+Warning--empty booktitle in Hennemuth_2013
+Warning--can't use both author and editor fields in Regniere_2013
+You've used 76 entries,
+            2773 wiz_defined-function locations,
+            1270 strings with 26846 characters,
+and the built_in function-call counts, 42943 in all, are:
+= -- 3848
+> -- 3026
+< -- 31
++ -- 1022
+- -- 942
+* -- 3995
+:= -- 6844
+add.period$ -- 372
+call.type$ -- 76
+change.case$ -- 539
+chr.to.int$ -- 72
+cite$ -- 155
+duplicate$ -- 1568
+empty$ -- 2974
+format.name$ -- 1044
+if$ -- 8829
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 70
+newline$ -- 532
+num.names$ -- 304
+pop$ -- 888
+preamble$ -- 1
+purify$ -- 466
+quote$ -- 0
+skip$ -- 1273
+stack$ -- 0
+substring$ -- 1503
+swap$ -- 161
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 821
+warning$ -- 3
+while$ -- 301
+width$ -- 0
+write$ -- 1273
+(There was 1 error message)

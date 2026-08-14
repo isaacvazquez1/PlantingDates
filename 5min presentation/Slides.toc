@@ -1,0 +1,2 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{Ante las alteraciones en los procesos agrícolas derivadas del cambio climático, ¿cómo predecir ventanas de siembra de maíz en Alemania mediante modelos probabilísticos empleando datos agroclimáticos más allá de los GDD?}{18}{0}{1}

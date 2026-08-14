@@ -1,0 +1,581 @@
+\documentclass[10pt,authoryear]{elsarticle}
+\usepackage{calc,amsmath,amssymb,amsfonts}
+\usepackage[LGR,T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish,es-tabla]{babel} 
+\usepackage{xcolor,fancyhdr}
+%\usepackage[top=1in,bottom=0.5in,hmargin=1in,nohead,includefoot,foot=0.5in,footskip=0.9602in]{geometry}
+\usepackage[output-decimal-marker={.}]{siunitx}
+\decimalpoint
+\usepackage{enumitem,hyperref}
+\hypersetup{colorlinks=true,allcolors=blue,pdfauthor=IVM}
+% Outline numbering
+\setcounter{secnumdepth}{1}
+% Pages
+\fancypagestyle{Convertedi}{\fancyhf{}
+	\fancyhead[L]{}
+	\fancyfoot[L]{\thepage{}}
+	\renewcommand\headrulewidth{0pt}
+	\renewcommand\footrulewidth{0pt}
+	\renewcommand\thepage{\arabic{page}}
+}
+\fancypagestyle{Standard}{\fancyhf{}
+	\fancyhead[L]{}
+	\fancyfoot[L]{}
+	\renewcommand\headrulewidth{0pt}
+	\renewcommand\footrulewidth{0pt}
+	\renewcommand\thepage{\arabic{page}}
+}
+\fancypagestyle{Convertedii}{\fancyhf{}
+	\fancyhead[L]{}
+	\fancyfoot[C]{\thepage}
+	\renewcommand\headrulewidth{0pt}
+	\renewcommand\footrulewidth{0pt}
+	\renewcommand\thepage{\arabic{page}}
+}
+
+\author{ }
+\date{ }
+\usepackage[margin=1in]{geometry} % Sets wide 1-inch margins
+\usepackage{setspace}              % Required for line spacing
+\usepackage{lineno}                % Required for line numbers
+
+%\doublespacing                     % Applies double-spacing throughout
+%\linenumbers 
+\usepackage{multirow}
+\usepackage{array}
+%Dirección de la imágenes
+\graphicspath{ {Images/} }
+\usepackage{subcaption}
+\usepackage{amsmath, amssymb, bm, mathtools, mathdots}
+\newcommand{\R}{\mathbb{R}} %\R for reelle tal
+\newcommand{\C}{\mathbb{C}} %\C for komplekse tal
+\newcommand{\N}{\mathbb{N}} %\N for naturlige tal
+\newcommand{\Z}{\mathbb{Z}} %\Z for hele tal
+\newcommand{\Q}{\mathbb{Q}} %\Q for rationale tal
+
+
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows.meta, calc}
+
+\tikzset{every picture/.style={line width=0.75pt}}
+
+\usepackage{nicematrix}
+
+
+
+
+
+
+\begin{document}
+	\clearpage
+	\pagestyle{Convertedii}
+	\iffalse
+	{\centering\color{black}
+		\textbf{Highlights}\textbf{\textsuperscript{*}}
+		\par}
+	
+	
+	\bigskip
+	
+	\begin{enumerate}[series=listWWNumvi,label=\arabic*.,ref=\arabic*]
+		\item {\color{black}
+			Include 3 to 5 bullet points that convey the main findings of the work.}
+		\item {\color{black}
+			Methods and results are not “findings,” so they should not appear as highlights.}
+		\item {\color{black}
+			Bullets are limited to a maximum of 85 characters, including spaces.}
+		\item {\color{black}
+			Bullets should be complete sentences, not sentence fragments.}
+		\item {\color{black}
+			Highlights should be able to stand alone, so avoid acronyms or specialized terms.}
+	\end{enumerate}
+	
+	\bigskip
+	
+	
+	\bigskip
+	
+	{\color{black}
+		* Please note: Highlights are not part of the manuscript document but should be submitted in a separate editable file in
+		the online submission system.  Please use “Highlights” in the file name.}
+	
+	{\color{black}
+		Also, in the submission$\text{\textgreek{’}}$s cover letter, authors should clearly state what are the key contributions
+		of their work and why their contributions are novel and worthy of journal consideration.}
+	\fi
+	
+	\bigskip
+	
+	\clearpage
+	\pagestyle{Convertedii}
+	\setcounter{page}{1}
+	{\centering\color{black}
+		\textbf{Modelación probabilística de periodos de siembra del maíz en condiciones de cambio climático. Caso de estudio en Alemania.}
+		\par}
+	
+	{\centering\bfseries\color{black}
+		Isaac Vázquez-Mendoza\textsuperscript{a}*, Magali Arellano-Vazquez\textsuperscript{a}
+		\par}
+	
+	{\color{black}
+		\textsuperscript{a} 
+		INFOTEC, Centro de Investigación e Innovación en Tecnologías de la Información y Comunicación, Aguascalientes 20326, Mexico.}
+	
+	
+	\iffalse
+	{\color{black}
+		\textbf{*} 
+		Corresponding author.}
+	\fi
+	{\color{black}
+		\iffalse
+		\textit{E-mail addresses}: \url{isaacvazquezmendoza@gmail.com} (I. Vázquez-Mendoza), \url{magali.arellano@infotec.mx} (M. Arellano-Vazquez).
+	
+		
+		\bigskip
+		
+		{\color{black}
+			\textbf{Abstract}}
+		
+		{\color{black}
+			
+			Understanding the evolution of agricultural systems under climatic variability is crucial for ecological management. Sowing decisions directly impact seedling emergency, crop establishment and, yield stability. These decisions rely on environmental conditions and climatic patterns, requiring integrative modeling approaches.
+			To emulate agricultural practices shaped over time, a graph-based representation is proposed, in which a stochastic process evolves over the graph to determine sowing dates. The model is developed for the region-specific agro ecological conditions of Saxony, Brandenburg, and Bavaria, three German states with differentiated crop calendars.
+			Days of the year are represented as nodes in a cyclic graph, together with an additional absorbing node accounting for crop establishment failure before emergence. Weights on directed edges encode environmental conditions and crop establishment dynamics, while transitions are determined by a Bernoulli-type decision at each step. The proportion of trajectories that avoid absorption quantifies the sowing suitability of each day.
+			The proposed framework is scoped to the period from sowing through crop emergence. By simulating random walk realizations for every day of the year, empirical probabilities are elicited, defining sowing windows and emulating the trial-and-error development of historical crop management strategies.
+			Results revealed distinct sowing windows for Saxony, Brandenburg, and Bavaria, reflecting the agro ecological specificity of each region. The estimated sowing windows also exhibited a progressive shift toward earlier calendar dates and a reduction in their duration over time, indicating increasingly narrow opportunities for successful crop establishment under climatic variability.
+			These findings establish an ecologically grounded probabilistic framework for identifying sowing windows under climatic variability, focusing exclusively on the crop establishment phase from sowing to emergence.
+			
+			\iffalse
+			A concise and factual Abstract is required, which should not be longer than 400 words. \ An Abstract should succinctly summarize a paper$\text{\textgreek{’}}$s content, including: the purpose of the research, the methods employed,
+			principal results, and major conclusions/findings. \ Results should be described in specific terms, using numbers where appropriate and avoiding statements such as, “Results of our tests were good” or “Implications are discussed.” \ Because an Abstract provides a summary of the paper, there is no need to include a summary section or paragraph near the end of the paper, e.g., in the Conclusions section. \ An Abstract is often presented separately from the article,
+			so it must be able to stand alone. \ For this reason, literature references should be avoided, but if essential, then cite the author(s) and year(s). \ Also, nonstandard or uncommon abbreviations or acronyms should be avoided, but if
+			essential they must be defined at their first mention in the Abstract itself.
+			\fi
+		}
+		
+		
+		\bigskip
+		
+		{\color{black}
+			\textbf{\textit{Keywords.}} Sowing time; Maize; Agro climatic database; Phenology; Modeling.}
+		
+		\fi 
+		\bigskip
+		
+		\section{Introduction}
+		
+		\input{PaperIntroduction}
+		
+		\iffalse
+		{\color{black}
+			An Introduction should contain three components: (1) one or more paragraphs describing the problem, which justifies, and provides a context for, the research, (2) a concise review of pertinent past international research related to the problem and how the current study expects to extend those prior results, and (3) objectives for the current research program and/or current study reported (possibly along with a “roadmap” of the paper that previews its contents for the reader). \ The literature review portion (\#2 above) should include author synthesis and evaluation of past research, rather than solely enumerating a list of past studies. \ The authors should clearly describe gaps in the current state of the science, and how the current paper will contribute something new to the scientific body of knowledge (i.e., mitigate or eliminate knowledge gaps). \ Detailed methods, or results, of the current study should not appear here. \ With such a logical structure and appropriate segue sentences, subheadings are unnecessary. \ There is also no need for a separate Related Work or Literature Review or Background section. }
+		
+		{\color{black}
+			Manuscripts should be prepared with consecutive line numbering (required), with wide margins and double-spacing throughout (required), i.e., also for abstracts, footnotes, and references. \ Every page of the manuscript, including the title page, references, tables, etc. should be numbered. \ However, in the text, no reference should be made to page numbers; if necessary, one may refer to sections. \ Avoid excessive use of italics to emphasize parts of the text.}
+		
+		{\color{black}
+			Divide your article into clearly defined and numbered sections. \ Subsections should be numbered 1.1 (then 1.1.1, 1.1.2, ...), 1.2, etc. (the Abstract is not included in section numbering). \ Also, use this numbering for internal cross-referencing; do not just refer to “the text.” \ Every subsection should be given a brief heading. \ Each heading should appear on its own separate line.}
+		
+		{\color{black}
+			The use of acronyms is merely a shorthand convenience. \ Their use does not relieve authors from the responsibility of matching noun-verb case, and adjective-noun case. \ If “UAV” is defined as singular, for example “unmanned aerial vehicle,” then all uses of that acronym should be singular, and the plural form would be {\textquotedbl}UAVs.” \ If one defines an acronym in the plural case, the recommended way to do so is by adding an “s” at the end, as in, “…unmanned aerial vehicles (UAVs)…” to facilitate using the acronym both as singular (UAV) and plural (UAVs).  While acronyms appear in capital letters, the terms they represent should not generally be capitalized unless they are proper nouns, e.g., “unmanned aerial vehicle,” “deep learning,” and “convolutional neural network” are not proper nouns. \ Acronyms that are used (and necessary) in the Abstract and in the manuscript proper need to be defined in both places. \ Also, acronyms should NOT be used in the title, keywords, or highlights, unless they are readily understood by the readership. \ Finally, acronyms should ONLY be defined for \textit{terms used frequently} in a manuscript; do not define an acronym for a term that is only used a few times (especially in the Abstract). \ A manuscript containing many acronyms is difficult for the readership, as they must actively translate unfamiliar acronyms back to the terms they represent.}
+		\fi
+		
+		\bigskip
+		
+		
+		\section{Materials and Methods}
+		
+		\input{PaperMethods}
+		\iffalse
+		\subsection{Environmental data}
+		
+		To characterize the environmental conditions associated with the maize sowing-to-emergence period, this study relied on raster datasets provided by the Deutscher Wetterdienst (DWD). These datasets are generated using standardized interpolation and modeling procedures, undergo continuous maintenance and quality control, and are regularly updated by the DWD. Their nationwide coverage, methodological consistency, institutional maintenance, and long-term availability provide a reliable and reproducible source of environmental information for retrospective climatological and agroclimatological analyses.
+		
+		
+		
+		\subsubsection{HYRAS}
+		
+		Provided by the \cite{DWD_HYRAS_MaxTemp, DWD_HYRAS_MeanTemp, DWD_HYRAS_MinTemp, DWD_HYRAS_Precipitation, DWD_HYRAS_RelHumidity}, the Hydrometeorologische Rasterdatensätze (HYRAS) dataset, version v6-1, comprises daily gridded meteorological observations for Germany based on measurements from 1300 climate stations spread across Germany and its seven neighboring countries \citep{Razafimaharo_2020}. Reported since 1951, daily point meteorological observations are spatially interpolated following the methodology of \cite{Krhenmann_2016}, resulting in a continuous raster file with a spatial resolution of $1\times1$ km per day.
+		
+		The HYRAS dataset has been extensively validated, comparing actual station measurements to the interpolated values at the nearest grid cell per unit of time (day, month, year, and the whole observation period) and across the spatial elevation of topography \citep{Razafimaharo_2020}. Furthermore, according to \cite{Razafimaharo_2020}, this dataset has also been compared to other datasets, such as the gridded European Climate Assessment \& Dataset E-OBS and the DWD monthly dataset.
+		
+		These evaluations have demonstrated strong agreement between the HYRAS dataset and \textit{in situ} observations. However, interpolation accuracy may decrease in regions with complex topography, particularly for relative humidity, while temperature fields remain comparatively robust \citep{Razafimaharo_2020}.
+		
+		For this study, the HYRAS dataset was selected since it provides a wide range of environmental variables interacting during the sowing-to-emergence period \citep{DWD_HYRAS_MaxTemp, DWD_HYRAS_MeanTemp, DWD_HYRAS_MinTemp, DWD_HYRAS_Precipitation, DWD_HYRAS_RelHumidity}  and offers spatially continuous, quality-controlled gridded data at a suitable resolution for regional-scale agricultural analyses. These characteristics ensure a homogeneous representation of environmental conditions across space and time, minimizing inconsistencies associated with individual station records.
+		
+		\subsubsection{Daily grids of soil temperature at 5 cm depth}
+		
+		The AMBETI model is a multipurpose tool designed to simulate soil-plant-atmosphere interactions, including the transport of water vapor and liquid water through the soil and the net radiation fluxes at the plant and soil surfaces \citep{Braden_1995}. Specifically, its soil thermodynamics component is used by the DWD to estimate daily soil temperature at a depth of 5 cm from 1991 onward, yielding this dataset.
+		
+		Based on \textit{in situ} observations from approximately 280 locations across Germany, grids are generated through spatial interpolation, resulting in daily ASCII raster files with a spatial resolution of $1\times1$ km. Soil temperature is first estimated at meteorological stations using the AMBETI model and subsequently interpolated through regional multiple linear regression based on longitude, latitude, and elevation, followed by triangulation to produce continuous spatial fields over Germany \citep{DWD_soiltemperature}.
+		
+		According to \cite{DWD_soiltemperature}, the resulting interpolated fields are physically plausible because soil temperature is primarily driven by atmospheric temperature and incoming solar radiation, as stated by \cite{BAUMBERGER_2024}. Consequently, soil temperature tends to exhibit relatively smooth spatial variability \citep{DWD_soiltemperature}, making it well suited for interpolation into gridded datasets \citep{Schloeder_2001}. The interpolation procedure therefore provides reliable spatial estimates across Germany, with the main source of uncertainty arising during winter due to the heterogeneous spatial distribution of snow cover \citep{DWD_soiltemperature}.
+		
+		Herein, the daily gridded soil temperature dataset at a depth of 5 cm was selected because it closely captures the thermal environment experienced by maize seeds from sowing to emergence. Furthermore, its daily temporal resolution, nationwide coverage, spatial resolution, and physically based estimation methodology provide a robust representation of the environmental conditions influencing the sowing-to-emergence period of the phenological sequence.
+		
+		\subsubsection{Daily grids of mean soil moisture under maize for Germany}
+		
+		
+		The daily gridded soil moisture dataset under maize was generated using the Agrarmeteorologische Berechnung der Aktuellen Verdunstung (AMBAV) 2.0 model, version 1.5, a physically based agrohydrological model that simulates soil water dynamics within the soil-plant system \citep{DWD_soilmoisture_maize}. As described by \cite{Herbst_2021}, the model provides a mathematical representation of soil water storage while accounting for crop water consumption, leading to a crop-specific characterization of soil moisture dynamics.
+		
+		Hourly \textit{in situ} observations of meteorological variables, including air temperature, relative humidity, short- and longwave radiation, precipitation, and wind speed, obtained from DWD stations, are used for spatial interpolation and subsequent estimation of soil water availability \citep{Herbst_2021}. The soil water balance is parameterized using crop-specific profiles that incorporate factors such as crop water demand, root development, and water extraction dynamics, allowing the derivation of plant-available water content for individual crops \citep{Herbst_2021}.
+		
+		From 1991 onward, the resulting dataset provides daily raster files covering Germany at a spatial resolution of $1 \times 1$ km, containing crop-specific soil moisture estimates expressed as the percentage of Available Field Capacity \citep{DWD_soilmoisture_maize}, which indicates the proportion of plant-available soil water \citep{DWD_nFK}. The dataset represents the vertical soil water profile through soil layers of 10 cm thickness from the surface to a depth of 2 m, in addition to aggregated layers representing cumulative water availability within the 0-30, 0-60, and 0-90 cm soil profiles \citep{DWD_soilmoisture_maize}.
+		
+		For this paper, the 0-10 cm soil moisture layer was selected because it represents the near-surface soil zone where maize seed placement, imbibition starts, and early root development occur. Combined with its spatial coverage, grid resolution, data reporting frequency, and interpolation methodology, this dataset provides a reliable representation of early-season soil water availability, a key factor influencing environmental conditions during the sowing-to-emergence period of maize.
+		
+		
+		Along the variables available from the DWD datasets described above, a subset of them was selected according to its interactions during the sowing-to-emergence period of maize regarding meteorological, hydric, and thermic requirements. Note although datasets extensions date prior to 1996, only the common period from 1996 to 2025 was considered in this study. The variables extracted from each dataset with their respective features are summarized in Table \ref{table:Vars}.
+		
+		
+		\begin{table}[ht]
+			\small
+			\centering
+			\begin{tabular}{>{\raggedright\arraybackslash}p{4cm}
+					|>{\centering\arraybackslash}p{1.8cm}
+					|>{\raggedright\arraybackslash}p{4.7cm}
+					|>{\centering\arraybackslash}p{2.0cm}
+					|>{\centering\arraybackslash}p{2.1cm}}
+				\hline
+				\textbf{Variable} &
+				\textbf{Unit of measure} &
+				\textbf{Dataset} &
+				\textbf{Data report frequency} &
+				\textbf{Study period} \\ \hline
+				
+				Maximum air temperature &
+				$^\circ$C &
+				\multirow{5}{=}{HYRAS} &
+				\multirow{7}{=}{Daily} &
+				\multirow{7}{=}{1996--2025} \\ \cline{1-2}
+				
+				Mean air temperature &
+				$^\circ$C &
+				&
+				&
+				\\ \cline{1-2}
+				
+				Minimum air temperature &
+				$^\circ$C &
+				&
+				&
+				\\ \cline{1-2}
+				
+				Precipitation &
+				mm &
+				&
+				&
+				\\ \cline{1-2}
+				
+				Relative humidity &
+				\% &
+				&
+				&
+				\\ \cline{1-3}
+				
+				Soil temperature (5 cm depth)*&
+				$^\circ$C &
+				Daily grids of soil temperature at 5 cm depth &
+				&
+				\\ \cline{1-3}
+				
+				Soil moisture (0-10 cm depth) &
+				\% nFK &
+				Daily grids of mean soil moisture under maize for Germany &
+				&
+				\\ \hline
+				
+			\end{tabular}
+			\caption{Environmental variables used in this study, including their measurement units, source datasets, frequency of data reports, and study period. *Raw values must be divided by ten to get the correct unit of $^\circ$C \citep{DWD_soiltemperature}.}
+			\label{table:Vars}
+		\end{table}
+		
+		
+		\subsection{\textit{In situ} environmental requirements}
+		
+		As in the work of \cite{Waha_2011}, for model simplicity, we have assumed that crop-specific thresholds are applicable globally.
+		
+		\begin{table}[ht]
+			\small
+			\centering
+			\begin{tabular}{>{\raggedright\arraybackslash}p{3.5cm}
+					|>{\raggedright\arraybackslash}p{4.5cm}
+					|>{\centering\arraybackslash}p{3.0cm}
+					|>{\centering\arraybackslash}p{3.0cm}}
+				\hline
+				\textbf{Variable} &
+				\textbf{Reference} &
+				\textbf{Suggested optimal value} &
+				\textbf{Range used in this study} \\ \hline
+				
+				Temperature &
+				\cite{Birch_1998} &
+				8 $^\circ$C &
+				\multirow{8}{=}{$11.10\pm2.5116$} \\ \cline{2-3}
+				
+				&
+				\cite{Coffman_1923} &
+				10 $^\circ$C &
+				\\ \cline{2-3}
+				
+				&
+				\cite{Grubben_1997} &
+				10 $^\circ$C &
+				\\ \cline{2-3}
+				
+				&
+				\cite{Kiniry_1995} &
+				12.8 $^\circ$C &
+				\\ \cline{2-3}
+				
+				&
+				\cite{Pan_1999} &
+				10 $^\circ$C &
+				\\ \cline{2-3}
+				
+				&
+				\cite{Vatca_2021} &
+				15 $^\circ$C &
+				\\ \cline{2-3}
+				
+				&
+				\cite{Waha_2011} &
+				14 $^\circ$C &
+				\\ \cline{2-3}
+				
+				&
+				\cite{Warrington_1983} &
+				9 $^\circ$C &
+				\\ \hline
+				
+				Precipitation &
+				\cite{} &
+				&
+				\multirow{2}{=}{}
+				\\ \cline{2-3}
+				
+				&
+				\cite{} &
+				&
+				\\ \hline
+				
+				Relative humidity &
+				\cite{Martin_1993} & 80 -- 90 \%
+				&
+				\multirow{2}{=}{65 -- 85 \%}
+				\\ \cline{2-3}
+				
+				&
+				\cite{Peter_2009} & 60 -- 70 \%
+				&
+				
+				\\ \cline{1-4}
+				
+				Soil temperature&
+				\cite{Busschaert_2026} &
+				8 -- 10 $^\circ$C &
+				\multirow{2}{=}{8 -- 10 $^\circ$C }
+				\\ \cline{2-3}
+				&
+				\cite{Domokos_2024} & 10 $^\circ$C
+				&
+				\\ \cline{2-3}
+				&
+				\cite{Vatca_2021} &
+				8 -- 10 $^\circ$C &
+				\\ \hline
+				
+				
+				Soil moisture &
+				\cite{Mo_2020} & 84 -- 90 \%
+				&
+				\multirow{2}{=}{65 -- 85 \%}
+				\\ \cline{2-3}
+				
+				&
+				\cite{Peichl_2018} & 60 -- 80 \%
+				&
+				\\ \cline{1-4}
+				
+			\end{tabular}
+			\caption{Suggested optimal environmental conditions for maize sowing reported in the literature and the ranges evaluated in this study.}
+			\label{tab:optimal_conditions}
+		\end{table}
+		
+		$$\mathcal{C}^*= (11.10, 75,9,75)$$
+		
+		\fi
+		%Crop-specif profiles used assume optimal plant behavior
+		
+		%Soil moisture has been expressed as the percentage of Available Water Capacity (\% nFK).
+		
+		\iffalse
+		{\color{black}
+			This section is necessary if your paper involves experimentation. \ Because this section is the most individual aspect
+			of most papers, authors should use sufficient headings and subheadings to properly organize and clearly describe the
+			conduct of the research. \ Sufficient detail should be provided to allow the work to be reproduced. \ Methods already
+			published should be indicated by a reference; only relevant modifications should be described. \ }
+		
+		{\color{black}
+			However, work published in Computers and Electronics in Agriculture will often not comprise a straightforward
+			experimental investigation or testing of a hypothesis. \ Therefore, rather than Materials and Methods, other section
+			headings may be appropriate.\newline
+			e.g., one or more of:\newline
+			Design Requirements\newline
+			Measurement Requirements\newline
+			Control Requirements\newline
+			Specification of …\newline
+			Development of …\newline
+			Software Development\newline
+			A section titled, “Performance Evaluation” or “Validation” or “Assessment” may then be appropriate.}
+		\fi
+		
+		\bigskip
+		
+		\newpage
+		\section{Results}
+		\input{PaperResults}
+		
+		\iffalse
+		{\color{black}
+			A Results section is expected for all experimental work; although, depending on the Methods section, an alternative
+			Results section heading might be more appropriate. \ Results should be clear and concise; and report only your work,
+			i.e., comparisons with others$\text{\textgreek{’}}$ works from cited literature should be set out in the subsequent
+			section, Discussion. \ A combined Results and Discussion section may be appropriate, but if this is adopted, it is
+			essential to maintain clarity regarding which results/achievements are your work and which are the work of others.
+			\ Because detailed results often appear in tables and figures, there is no need to duplicate specific values in the
+			text of the paper$\text{\textgreek{—}}$except, perhaps, for emphasis or to provide interpretation or elaboration. \ }
+		
+		{\color{black}
+			Numerical results provide objective evidence related to the outcomes of reported research. \ However, such experimental
+			outcomes always involve some randomness and so produce ranges of values. \ Statistical analyses are the only way to
+			distinguish such randomness from meaningful responses that can support the study$\text{\textgreek{’}}$s conclusions.}
+		\fi
+		
+		\bigskip
+		
+		\section{Discussion}
+		\iffalse
+		{\color{black}
+			The Discussion section should organize, interpret, and evaluate the study$\text{\textgreek{’}}$s results. \ Discussion
+			(interpretation/evaluation) properly positions the obtained results within the context of the problem, practical
+			considerations, and limitations of the study. \ It is recommended to compare and contrast the current results to those
+			results reported by others.}
+		\fi
+		
+		\bigskip
+		
+		
+		\section{Conclusions}
+		%The period from planting to emergence depends on soil temperature, soil moisture, soil aeration, and seed vigor
+		% See: https://acsess.onlinelibrary.wiley.com/doi/abs/10.2134/agronmonogr18.3ed.c10
+		
+		\iffalse
+		{\color{black}
+			As noted above, the Conclusions section should \textit{not} summarize the paper$\text{\textgreek{’}}$s contents; neither
+			should it reiterate methods and results. \ A Conclusions section should succinctly present the research study's
+			findings (What did we learn? What new knowledge has been uncovered? How has the state of the art been advanced? What
+			new research directions or studies are suggested by the current findings?). \ Bulleted or numbered lists should be
+			avoided, as concluding statements most often require additional explanation to properly condition their applicability
+			or relevance. \ This section stands as the most important part of the paper, as it establishes the significance of the
+			work reported.}
+		\fi
+		
+		\bigskip
+		
+		\textbf{\textcolor{black}{Acknowledgements}}
+		
+		\iffalse
+		{\color{black}
+			Collate acknowledgements in a separate section at the end of the article before the references and do not, therefore,
+			include them on the title page, as a footnote to the title or otherwise. \ List here those individuals who provided
+			help during the research (e.g., providing language help, writing/reviewing assistance, collecting and/or organizing
+			data, funding assistance, project administration, supervision, or proof reading, etc.). \ Only those individuals, who
+			provided substantive and essential intellectual/scientific contributions, should be listed as authors;
+			others$\text{\textgreek{’}}$ contributions should be acknowledged here.}
+		\fi
+		
+		\bigskip
+		
+		
+		\bigskip
+		
+		\clearpage{}
+		\bibliographystyle{plainnat} 
+		\bibliography{PaperBibliography}
+		\iffalse
+		{\color{black}
+			All publications cited in the text should be presented in a list of references following the text of the manuscript.
+			\ The manuscript should be carefully checked to ensure that the spelling of authors$\text{\textgreek{’}}$ names and
+			dates are the same in the text as in the reference list.}
+		
+		{\color{black}
+			The journal uses an author-date format for literature citations and a correspondingly alphabetized list of references.}
+		
+		{\color{black}
+			Typically, for a non-Review Article, 25-35 key or seminal references are sufficient. \ Readers can readily find
+			subsequent literature using Scopus and Internet search engines.}
+		
+		{\color{black}
+			In the text refer to the author's surname (without initials) and year of publication, followed - if necessary - by a
+			short reference to appropriate pages. \ Examples: {\textquotedbl}Since Peterson (1993) has shown that
+			....{\textquotedbl} {\textquotedbl}This is in agreement with results obtained later (Peterson and Kramer, 1993, pp.
+			12-16).”}
+		
+		{\color{black}
+			If citation is made in the text to a publication written by more than two authors, the name of the first author should
+			be used followed by \textit{{\textquotedbl}et al.{\textquotedbl}}  This indication, however, should never be used in
+			the list of references. \ In the references list, the names of all authors should be included.}
+		
+		{\color{black}
+			References cited together in the text should be arranged chronologically. }
+		
+		{\color{black}
+			The list of references should be arranged alphabetically on authors' names, and chronologically per author. \ If an
+			author's name in the list is also mentioned with co-authors the following order should be used: publications of the
+			single author, arranged according to publication dates - publications of the same author with one co-author -
+			publications of the author with more than one co-author. \ Publications by the same author(s) in the same year should
+			be listed as 1994a, 1994b, etc., or to disambiguate citations, e.g., Peterson \textit{et al.} (1995a) and Peterson
+			\textit{et al.} (1995b).}
+		\fi 
+		
+		\clearpage
+		%\pagestyle{Convertedii}
+		%\setcounter{page}{1}
+		{\centering\color{black}
+			\textbf{Author Statement}\textbf{\textsuperscript{*}}
+			\par}
+		
+		{\color{black}
+			\iffalse
+			For transparency, the journal encourages authors to submit an author statement file outlining their individual
+			contributions to the paper using the relevant CRediT roles: Conceptualization; Data curation; Formal analysis; Funding
+			acquisition; Investigation; Methodology; Project administration; Resources; Software; Supervision; Validation;
+			Visualization; Roles/Writing - original draft; Writing - review \& editing. \ Authorship statements should be formatted
+			with the names of authors first and CRediT role(s) following. }
+		
+		{\color{black}
+			Typical authorship is three to six authors. \ Efforts related \textit{solely} to {\textquotedbl}Resources{\textquotedbl}
+			or {\textquotedbl}Funding Acquisition{\textquotedbl} or “Data Collection” or “Project Administration” or
+			“Visualization” or {\textquotedbl}Reviewing/Editing{\textquotedbl} or “Supervision” are not, in and of themselves,
+			sufficient contributions to warrant authorship inclusion. \ Elsevier CRediT statements are somewhat misleading, as
+			intellectual/scientific contributions are the only valid author qualifier. \ CRediT roles provide a complete inventory
+			of all the efforts by those scientific contributors. \ Further, each journal independently establishes criteria for
+			authorship regardless of any contributor role taxonomy provided by Elsevier. \ Please restrict the list of authors to
+			only those members of the research team that made substantive intellectual contributions. \ Other team members should
+			be recognized in an Acknowledgement (see above).}
+		
+		
+		
+		\bigskip
+		
+		
+		\bigskip
+		
+		{\color{black}
+			* Please note: The Author Statement is not part of the manuscript document but should be submitted in a separate editable file in the online submission system.  Please use “Author Statement” in the file name.}
+		\fi
+	\end{document}
+	

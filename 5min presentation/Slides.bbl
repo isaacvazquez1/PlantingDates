@@ -1,0 +1,145 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{PLUMR{\etalchar{+}}25}
+
+\bibitem[Agr96]{Agrama_1996}
+H.A.S. Agrama.
+\newblock Sequential path analysis of grain yield and its components in maize.
+\newblock {\em Plant Breeding}, 115(5):343--346, 1996.
+
+\bibitem[Ana16]{Anandhi_2016}
+A.~Anandhi.
+\newblock Growing degree days – ecosystem indicator for changing diurnal
+  temperatures and their impact on corn growth stages in kansas.
+\newblock {\em Ecological Indicators}, 61:149–158, February 2016.
+
+\bibitem[CMK{\etalchar{+}}26]{Clark_2026}
+E.I. Clark, M.A. Moore, C.K. Khoury, B.S. Hulke, N.C. Kane, and S.C. Elmendorf.
+\newblock Climate drives variation in optimal phenology: 46 years of
+  multi-environment trials in sunflower.
+\newblock {\em New Phytologist}, 249(3):1527--1541, 2026.
+
+\bibitem[DBR{\etalchar{+}}15]{DONOHUE_2015}
+K.~Donohue, L.T. Burghardt, D.~Runcie, K.J. Bradford, and J.~Schmitt.
+\newblock Applying developmental threshold models to evolutionary ecology.
+\newblock {\em Trends in Ecology \& Evolution}, 30(2):66--77, 2015.
+
+\bibitem[{Deu}26]{DWD_2026}
+{Deutscher Wetterdienst}.
+\newblock Climate data center (cdc): Daily climate observations, 2026.
+\newblock Accesado vía
+  \url{https://opendata.dwd.de/climate_envir/CDC/observations_germany/climate/daily/}onment
+  en marzo 10, 2026.
+
+\bibitem[dlNU25]{ONU_2025}
+Organización de~las Naciones~Unidas.
+\newblock {¿Qué es el cambio climático?}, 2025.
+\newblock Accesado en marzo 12 de 2025 en
+  \url{https://www.un.org/es/climatechange/what-is-climate-change}.
+
+\bibitem[FCBR{\etalchar{+}}22]{Franch_2022}
+B.~Franch, J.~Cintas, I.~Becker-Reshef, M.J. Sanchez-Torres, J.~Roger,
+  S.~Skakun, J.A. Sobrino, K.~Van~Tricht, J.~Degerickx, S.~Gilliams, B.~Koetz,
+  Z.~Szantoi, and A.~Whitcraft.
+\newblock Global crop calendars of maize and wheat in the framework of the
+  worldcereal project.
+\newblock {\em GIScience \& Remote Sensing}, 59(1):885--913, 2022.
+
+\bibitem[FMZS25]{Makouate_2025}
+H.~Fotouo~Makouate and M.~Zude-Sasse.
+\newblock Advances in growing degree days models for flowering to harvest:
+  Optimizing crop management with methods of precision horticulture—a review.
+\newblock {\em Horticulturae}, 11(12), 2025.
+
+\bibitem[GS03]{Grinstead_2003}
+C.M. Grinstead and J.L. Snell.
+\newblock {\em Introduction to Probability}.
+\newblock American Mathematical Society, Providence, RI, 2nd edition, 2003.
+
+\bibitem[JJW97]{Jones_1997}
+P.D. Jones, T.~Jonsson, and D.~Wheeler.
+\newblock Extension to the north atlantic oscillation using early instrumental
+  pressure observations from gibraltar and south-west iceland.
+\newblock {\em International Journal of Climatology}, 17(13):1433–1450,
+  November 1997.
+\newblock Actualizado a febrero 18, 2026.
+
+\bibitem[KG13]{Koya_2013}
+P.R. Koya and A.T. Goshu.
+\newblock Generalized mathematical model for biological growths.
+\newblock {\em Open Journal of Modelling and Simulation}, 01(04):42–53, 2013.
+
+\bibitem[KKJ{\etalchar{+}}24]{Kim_2024}
+M.~Kim, J.~Kim, M.-H. Jo, K.~Sung, and K.-J. Han.
+\newblock Assessment of planting soil temperature and growing degree day
+  impacts on silage corn (zea mays l.) biomass.
+\newblock {\em Journal of Animal Science and Technology}, 66(5):949–961,
+  September 2024.
+
+\bibitem[KS76]{Kemeny_1976}
+John~G Kemeny and J~Laurie Snell.
+\newblock {\em Finite Markov chains}.
+\newblock Undergraduate Texts in Mathematics. Springer, New York, NY, 1
+  edition, July 1976.
+
+\bibitem[MBSL19]{Maresma_2019}
+A.~Maresma, A.~Ballesta, F.~Santiveri, and J.~Lloveras.
+\newblock Sowing date affects maize development and yield in irrigated
+  mediterranean environments.
+\newblock {\em Agriculture}, 9(3):67, March 2019.
+
+\bibitem[MGK18]{Mason_2018}
+S.~Mason, T.~Galusha, and Z.~Kmail.
+\newblock Planting date influence on yield of drought-tolerant maize with
+  different maturity classifications.
+\newblock {\em Agronomy Journal}, 110(1):293--299, 2018.
+
+\bibitem[MJ21]{Miedaner_2021}
+T.~Miedaner and P.~Juroszek.
+\newblock Global warming and increasing maize cultivation demand comprehensive
+  efforts in disease and insect resistance breeding in north-western europe.
+\newblock {\em Plant Pathology}, 70(5):1032--1046, 2021.
+
+\bibitem[OCDA{\etalchar{+}}07]{Olesen_2007}
+J.E. Olesen, T.R. Carter, C.H. Díaz-Ambrona, S.~Fronzek, T.~Heidmann,
+  T.~Hickler, T.~Holt, M.I. Minguez, P.~Morales, J.P. Palutikof, M.~Quemada,
+  M.~Ruiz-Ramos, G.H. Rub{\ae}k, F.~Sau, B.~Smith, and M.T. Sykes.
+\newblock Uncertainties in projected impacts of climate change on european
+  agriculture and terrestrial ecosystems based on scenarios from regional
+  climate models.
+\newblock {\em Climatic Change}, 81(S1):123–143, March 2007.
+
+\bibitem[PLUMR{\etalchar{+}}25]{PAREDES_2025}
+P.~Paredes, R.~López-Urrea, Á. Martínez-Romero, M.~Petry, M.R. Cameira,
+  F.~Montoya, M.~Salman, and L.S. Pereira.
+\newblock Estimating the lengths of crop growth stages to define the crop
+  coefficient curves using growing degree days (gdd): Application of the
+  revised fao56 guidelines.
+\newblock {\em Agricultural Water Management}, 319:109758, 2025.
+
+\bibitem[RMGN07]{Rossberg_2007}
+D.~Ro{\ss}berg, V.~Michel, R.~Graf, and R.~Neukampf.
+\newblock Definition von boden-klima-r{\"a}umen f{\"u}r die bundesrepublik
+  deutschland.
+\newblock {\em Nachrichtenblatt des Deutschen Pflanzenschutzdienstes},
+  59(7):155--161, 2007.
+
+\bibitem[TC06]{Thompson_2006}
+R.~Thompson and R.M. Clark.
+\newblock Spatio-temporal modelling and assessment of within-species
+  phenological variability using thermal time methods.
+\newblock {\em International Journal of Biometeorology}, 50(5):312–322,
+  February 2006.
+
+\bibitem[WBRJ15]{Whitcraft_2015}
+A.K. Whitcraft, I.~Becker-Reshef, and C.O. Justice.
+\newblock Agricultural growing season calendars derived from modis surface
+  reflectance.
+\newblock {\em International Journal of Digital Earth}, 8(3):173--197, 2015.
+
+\bibitem[WGW{\etalchar{+}}21]{Wang_2021}
+J.~Wang, Y.~Guan, L.~Wu, X.~Guan, W.~Cai, J.~Huang, W.~Dong, and B.~Zhang.
+\newblock Changing lengths of the four seasons by global warming.
+\newblock {\em Geophysical Research Letters}, 48(6):e2020GL091753, 2021.
+\newblock e2020GL091753 2020GL091753.
+
+\end{thebibliography}
