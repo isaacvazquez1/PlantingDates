@@ -100,7 +100,7 @@ De las variables disponibles en los bases de datos del DWD descritos anteriormen
 
 
 \subsubsection{Requerimientos ambientales}
-El periodo de la secuencia fenológica del maíz que comprende desde la siembra de la semilla hasta la emergencia de la plántula, cuando se desarrolla exitosamente, tiene una duración de  $16.6 \pm 3.1$ días \citep{CHMIELEWSKI_2004}.  Durante esta etapa, el cultivo es altamente susceptible a las condiciones del entorno \citep{Sanchez_2013}, motivo por el cual los requerimientos ambientales han sido descritos en la literatura previa.\\
+El periodo de la secuencia fenológica del maíz que comprende desde la siembra de la semilla hasta la emergencia de la plántula, cuando se desarrolla exitosamente, tiene una duración de  $16.6 \pm 3.1$ días \citep{CHMIELEWSKI_2004}.  Durante esta etapa, el cultivo es altamente susceptible a las condiciones del entorno \citep{Sanchez_2014}, motivo por el cual los requerimientos ambientales han sido descritos en la literatura previa.\\
 
 Considerando los datos ráster disponibles descritos previamente (ver Tabla \ref{table:Vars}) y tras una revisión bibliográfica, se recopilaron los valores y rangos de condiciones ambientales sugeridos como favorables para el desarrollo de la semilla y la emergencia de la plántula. Estos valores se emplearon como referencia para establecer las condiciones ambientales evaluadas en el modelo y se resumen en la Tabla \ref{tab:optimal_conditions}.\\
 
@@ -200,7 +200,7 @@ Considerando los datos ráster disponibles descritos previamente (ver Tabla \ref
 	\label{tab:optimal_conditions}
 \end{table}
 
-\subsubsection{Modelo}
+\subsection{Modelo}
 Históricamente, muchas de las prácticas agrícolas se consolidaron mediante procesos empíricos de observación y ajuste progresivo en los cuales, a través de ensayo y error, se identificaban los periodos más favorables; por ejemplo, para la siembra \citep{NRC_1996}. En el contexto actual, este tipo de decisiones debe replantearse dado que las condiciones en las que fueron tomadas se han alterado por la incertidumbre y la variabilidad asociadas al cambio climático.\\
 
 Al estructurar la progresión del tiempo como un proceso cíclico se emula  la periodicidad inherente a la naturaleza con mayor fidelidad \citep{Chuine_2017,Gatto_2015,Gurney_1992,Mardia1999,Powell_2005,Regniere_2013}. De esta manera, por convención, definamos \begin{align}
@@ -307,7 +307,7 @@ De esta manera, para toda $k\in \{1,2,\ldots, 365\}$, se garantiza que $\lambda_
 		% Text Node
 		%\draw (100,362.8) node [anchor=north west][inner sep=0.75pt]    {$P( X_{t+1} =D_{k+1} \mid X_{t} =D_{k}) \coloneq \ 1-\frac{\displaystyle d( C_{H,k} \ ,\ C_{O})}{\displaystyle\max_{l\in \{1,2,\dots, 365\}} \ \{d( C_{H,l} \ ,\ C_{O})\}} \ =\ \lambda _{k}.$};
 	\end{tikzpicture}
-	\caption{Distancia entre las condiciones agroclimáticas para el desarrollo óptimo del maíz y las condiciones agroclimáticas históricamente reportadas para el $k$-ésimo día del año. Los círculos en color negro representan los datos agroclimáticos reportados anualmente para el $k$-ésimo día del año mientras que el polígono sombreado en color gris representa la región de parámetros agroclimáticos, ideales para el desarrollo del maíz. Los círculos de color azul y rojo indican los centroides de los datos históricos ($C_{H,k}$) y la región óptima ($C^*$), respectivamente. Por último, $d(\cdot\mathbf{,} \cdot)$ denota una distancia por definir; por ejemplo, la distancia Euclidiana o la distancia Manhattan.}
+	\caption{Distancia entre las condiciones agroclimáticas para el desarrollo óptimo del maíz y las condiciones agroclimáticas históricamente reportadas para el $k$-ésimo día del año, $k\in \{1,2,\ldots, 365\}$. Los círculos en color negro representan los datos agroclimáticos reportados anualmente para el $k$-ésimo día del año mientras que el polígono sombreado en color gris representa la región de parámetros agroclimáticos, ideales para el desarrollo del maíz. Los círculos de color azul y rojo indican los centroides de los datos históricos ($C_{H,k}$) y la región óptima ($C^*$), respectivamente. Por último, $d(\cdot\mathbf{,} \cdot)$ denota una distancia; por ejemplo, la distancia Euclidiana o la distancia Manhattan.}
 	\label{Distance}
 \end{figure}
 
@@ -403,5 +403,108 @@ en donde se muestra tanto la estructura cíclica como proceso estocástico que s
 \end{figure}
 
 
-As in the work of \cite{Waha_2011}, for model simplicity, we have assumed that crop-specific thresholds are applicable globally.
-$$\mathcal{C}^*= (11.10, 75,9,75)$$
+Sea \begin{equation}
+	\tau_{F}\coloneq\inf_{t\in\N}\{X_t=F\}
+\end{equation} el primer día en el que proceso de siembra falla. Así, propondremos al $i$-ésimo del año como candidato para la siembra de maíz en Alemania si \begin{equation}\label{EmergencyProb}
+	P_{i}(	\tau_{F} > n^* ) \coloneq 	P(	\tau_{F} > n^* \mid X_{0}=D_i )  \geq \zeta^*,
+\end{equation}para algún $\zeta^*\in [0,1]$. Es decir, bajo el esquema de trabajo anterior, se sugiere al $i$-ésimo día siempre que la emergencia de la semilla ocurra antes del fracaso del proceso. Con este criterio general, se plantean cuatro enfoques para evaluar la relación temporal entre ambos eventos y, en consecuencia, determinar la aptitud diaria para la siembra.\\
+
+
+
+\subsection{Modelo: Criterio Markoviano de permanencia}
+Las cadenas de Markov permiten modelar procesos cuya dinámica depende exclusivamente del estado inmediatamente anterior, sin considerar la trayectoria histórica previa del proceso. Al interpretar la Figura \ref{Transicion} como un diagrama de transición asociado a una cadena de Markov, la probabilidad indicada en la Ecuación \eqref{EmergencyProb} se calcula de la manera siguiente.\\
+
+ \begin{equation}
+	\begin{aligned}
+		&P_{i}(\tau_F>n^*)=\prod_{t=0}^{n^*-1} \lambda_{(i+t) \bmod{365}}.
+	\end{aligned}
+	\label{product_lambdas}
+\end{equation}
+
+
+\subsection{Modelo: Criterio de disponibilidad de tiempo}
+Al tener estados absorbentes, el análisis de las cadenas de Markov admite una alternativa a través de la teoría de cadenas de Markov absorbentes. Dado que, al partir del estado de fallo, la probabilidad de permanecer en tal estado es uno, la cadena de Markov propuesta es, en efecto, una cadena de Markov absorbente.\\
+
+Empleando las herramientas discutidas por \citet[Capítulo 11]{Grinstead_2003} y \citet[Capítulo 3]{Kemeny_1976}  se obtiene que, al menos, el $\displaystyle\left(1-\frac{1}{\kappa^2}\right)100\%$ de las realizaciones que parten del estado $D_i$, $i\in{1,2,\ldots,365}$, presentan una duración comprendida en el intervalo \begin{equation*}
+	(\mu_i- \kappa \sigma_i \,\mathbf{,}\, \mu_i+\kappa\sigma_i)
+\end{equation*} antes de ser absorbidas por el estado $F$.\\
+
+De esta forma, para cada $i\in{1,2,\ldots,365}$, se sugiere que la siembra se realice el $i$-ésimo día del año si
+\begin{equation}
+	n^* < \mu_i- \kappa \sigma_i,
+\end{equation} donde $\mu_i$ denota la $i$-ésima entrada del vector $ \mathbf{N} \mathbf{1}$, $\sigma_i$ indica la raíz cuadrada de la $i$-ésima entrada del vector $(2\mathbf{N} - I_{365})\mu -  \mu_{sq}$ y $\kappa\in\R$ el parámetro de la desigualdad de Chebyshev.\\
+
+Asimismo, $\mathbf{N}\in \mathcal{M}_{365\times 365}(\R)$ es la matriz fundamental asociada a la cadena de Markov,  $\mathbf{1}\in\R^{365}$ es el vector $\mathbf{1}=(1,1,\ldots,1)^T$, $I_{365}\in \mathcal{M}_{365\times 365}(\R)$ denota la matriz identidad y $\mu_{sq}\in \R^{365}$ se define por $\mu_{sq}=(\mu^2_1,\mu^2_2,\ldots,\mu^2_{365})^T$.\\
+
+\subsection{Modelo: Criterio de alcanzabilidad fenológica eventual}
+Adicionalmente, la teoría de cadenas de Markov absorbentes permite analizar la alcanzabilidad de estados específicos a lo largo de las trayectorias; i.e., determinar la probabilidad de que, eventualmente, una trayectoria alcance un estado determinado.\\
+
+Aludiendo al trabajo de \citet[Capítulo 3]{Kemeny_1976} se tiene que al  partir del estado $D_i$, $i\in \{1,2,\ldots,365\}$, la probabilidad de visitar eventualmente el estado $D_{(i+n^*)\bmod 365}$ está dada por la entrada $h_{i,(i+n^*)\bmod 365}$ de la matriz $H \in \mathcal{M}_{365\time 365} (\R)$ definida por \begin{equation*}
+	H=(\mathbf{N}-I_{365})(N_{dg})^{-1},
+	\end{equation*}
+donde $I_{365}\in \mathcal{M}_{365\times 365}(\R)$ denota la matriz identidad y $N_{dg}\in \mathcal{M}_{t\times t}(\R)$ es la matriz diagonal con la misma diagonal que la matriz fundamental $\mathbf{N}$.\\
+
+De esta manera, para cada $i\in\{1,2,\ldots,365\}$, se sugiere realizar la siembra en el $i$-ésimo día del año si 
+\begin{equation}
+	h_{i,(i+n^*)\bmod 365} \geq \zeta^*,
+\end{equation}
+para algún $\zeta^*\in[0,1]$. Es decir, si la probabilidad de que el cultivo eventualmente complete la etapa fenológica hasta la emergencia es suficientemente alta.\\
+
+
+\subsection{Modelo: Criterio empírico de permanencia}
+
+Al considerar la Figura \ref{Transicion} como un gráfica dirigida cuyos pesos son probabilidades, podemos emplear una metodología similar a la discutida en el trabajo de \cite{deAndaJauregui_2021}. Así, al permitir que caminatas aleatorias recorran la gráfica es posible estimar el valor de $P_{i}(\tau_F>n^*)$ a través de estudiar sus trayectorias y longitudes.\\
+
+Con este enfoque, las caminatas aleatorias se inicializan en cada uno de los vértices. En particular, para cada $i\in \{1,2,\ldots,365\}$, se inicializa una caminata aleatoria que parte del vértice $D_i$ y cuya trayectoria llega, por lo menos, al vértice $D_{(i+n^*)\bmod 365}$, o bien, llega al vértice $F$ sin haber visitado el vértice $D_{(i+n^*)\bmod 365}$. Por repetir el proceso anterior $r^*\in \N$ veces para cada vértice, se propone a \begin{equation}
+	\widehat{P_{i}}(\tau_F>n^*)\coloneq \frac{|W(D_{i}, D_{(i+n^*)\bmod{365}})|}{r^*},
+\end{equation} como estimador de $P_{i}(\tau_F>n^*)$, donde $W(D_{i}, D_{(i+n^*)\bmod{365}})$ denota el conjunto de caminatas aleatorias que comienzan en el vértice $D_{i}$ y, por lo menos, visitan el vértice $D_{(i+n^*)\bmod{365}}$ y $|\cdot|$ indica el operador de cardinalidad en conjuntos.\\
+
+Más aún, derivado del gran número de repeticiones es posible generar intervalos del $(1-\alpha)100\%$ de confianza para cada uno de los vértices $D_i$ empleando los métodos de bootstrap y jacknife \cite[Capítulo 13]{Ramachandran_2009}.\\
+
+
+
+Finalmente, tras la revisión bibliográfica realizada, se asignan valores numéricos a los parámetros empleados de manera abstracta en el modelo probabilístico propuesto. Los valores correspondientes se presentan en la Tabla \ref{Parameters}.\\ 
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{c|p{5cm}|p{2.3cm}|p{5.8cm}}
+		\hline
+		\textbf{Parámetro} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c|}{\textbf{Valor}} & \multicolumn{1}{c}{\textbf{Fuente}} \\
+		\hline
+		$n^*$ & Número de días requeridos para que una semilla viable alcance la emergencia desde la siembra. & $$16.6\pm3.1$$ &  \cite{CHMIELEWSKI_2004}. \\
+		\hline
+		$\zeta^*$ & Umbral mínimo de probabilidad para considerar viable una fecha de siembra. & $$0.8$$ & \citet[p. 57]{FAO_2011}. \\
+		\hline
+		$r^*$ & Número de repeticiones de caminatas aleatorias para estimación empírica. & $$500$$ & \cite{deAndaJauregui_2021}. \\
+		\hline
+		$C^*$ & Centroide de la región de condiciones agroambientales óptimas para el desarrollo del cultivo. &$$(11.10,75,9,85)$$& Ver Tabla \ref{tab:optimal_conditions}
+		\\
+		\hline
+		$C_{H,k}$ & Centroide de las condiciones agroambientales históricas observadas en el día $k$ del año. & 	N/A &  Ver Tabla \ref{table:Vars} \\
+		\hline
+		$d(\cdot,\cdot)$ & Métrica de distancia en el espacio de variables agroambientales. & Euclidiana \newline
+		Manhattan & \begin{center}
+			N/A
+		\end{center}  \\
+		\hline
+		$\alpha$ & Nivel de significancia para la construcción de intervalos de confianza. & $$0.05$$ &  \begin{center}
+			N/A
+		\end{center}  \\
+		\hline
+		$\kappa$ & Parámetro en la desigualdad de Chebyshev. & $$4.47$$ &  \cite{daSilva_2019}.
+		\\
+		\hline
+	\end{tabular}
+	\caption{Parámetros empleados en la metodología probabilística para la estimación de fechas favorables de siembra.}
+	\label{Parameters}
+\end{table}
+
+
+
+
+
+
+
+
+%As in the work of \cite{Waha_2011}, for model simplicity, we have assumed that crop-specific thresholds are applicable globally.
+%$$\mathcal{C}^*= (11.10, 75,9,75)$$

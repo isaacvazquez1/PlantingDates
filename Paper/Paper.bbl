@@ -1,4 +1,4 @@
-\begin{thebibliography}{76}
+\begin{thebibliography}{82}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -124,6 +124,25 @@ E.~Cuevas, J.~Blancas, J.~Caballero, I.~A Hinojosa-Díaz, and
   conservation of socio-ecosystems in the face of the pollinator world crisis.
 \newblock \emph{Botanical Sciences}, 99\penalty0 (2):\penalty0 305--320, 2021.
 
+\bibitem[da~Silva et~al.(2019)da~Silva, Araújo~Ribeiro, Vieira, and
+  da~Silva~Filho]{daSilva_2019}
+C.M. da~Silva, F.C. Araújo~Ribeiro, J.W. Vieira, and C.A. da~Silva~Filho.
+\newblock Bootstrap interval with application in environmental monitoring.
+\newblock \emph{International Journal of Environmental Studies}, 77\penalty0
+  (2):\penalty0 335–348, June 2019.
+\newblock ISSN 1029-0400.
+\newblock \doi{10.1080/00207233.2019.1630108}.
+\newblock URL \url{http://dx.doi.org/10.1080/00207233.2019.1630108}.
+
+\bibitem[de~Anda-Jauregui and Hernandez-Lemus(2021)]{deAndaJauregui_2021}
+G.~de~Anda-Jauregui and E.~Hernandez-Lemus.
+\newblock Identification of potential adverse drug reactions using random walk
+  on network models.
+\newblock In \emph{2021 Mexican International Conference on Computer Science
+  (ENC)}, page 1–6. IEEE, August 2021.
+\newblock \doi{10.1109/enc53357.2021.9534826}.
+\newblock URL \url{http://dx.doi.org/10.1109/ENC53357.2021.9534826}.
+
 \bibitem[{Deutscher Wetterdienst (DWD)}(2024)]{DWD_nFK}
 {Deutscher Wetterdienst (DWD)}.
 \newblock {Erläuterungen zur nutzbaren Feldkapazität (\% nFK)}, 2024.
@@ -206,6 +225,17 @@ C.~Duden, C.~Nacke, and F.~Offermann.
 \newblock Accessed July 29, 2026, at
   \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/soil_temperature_5cm/DESCRIPTION_gridsgermany_daily_soil_temperature_5cm_en.pdf}.
 
+\bibitem[Elnesr et~al.(2013)Elnesr, Alazba, and Alsadon]{Elnesr_2013}
+M.N. Elnesr, A.A. Alazba, and A.A. Alsadon.
+\newblock An arithmetic method to determine the most suitable planting dates
+  for vegetables.
+\newblock \emph{Computers and Electronics in Agriculture}, 90:\penalty0
+  131--143, 2013.
+\newblock ISSN 0168-1699.
+\newblock \doi{https://doi.org/10.1016/j.compag.2012.09.010}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0168169912002323}.
+
 \bibitem[Erenstein et~al.(2022)Erenstein, Jaleta, Sonder, Mottaleb, and
   Prasanna]{Erenstein_2022}
 O.~Erenstein, M.~Jaleta, K.~Sonder, K.~Mottaleb, and B.M. Prasanna.
@@ -236,6 +266,13 @@ L.~Flores, C.~Nendel, B.~Bookhagen, J.A. Oviedo~Reyes, T.~Smith, and
 \newblock \doi{10.1080/15481603.2025.2531593}.
 \newblock URL \url{http://dx.doi.org/10.1080/15481603.2025.2531593}.
 
+\bibitem[{Food and Agriculture Organization of the United
+  Nations}(2011)]{FAO_2011}
+{Food and Agriculture Organization of the United Nations}.
+\newblock \emph{Seeds in emergencies: A technical handbook}.
+\newblock FAO Plant Production and Protection Papers. Food and Agriculture
+  Organization of the United Nations (FAO), Rome, Italy, March 2011.
+
 \bibitem[Franch et~al.(2022)Franch, Cintas, Becker-Reshef, Sanchez-Torres,
   Roger, Skakun, Sobrino, Van~Tricht, Degerickx, Gilliams, Koetz, Szantoi, and
   Whitcraft]{Franch_2022}
@@ -258,6 +295,11 @@ R.~Gatto and S.R. Jammalamadaka.
 \newblock Directional statistics: Introduction, March 2015.
 \newblock URL \url{http://dx.doi.org/10.1002/9781118445112.stat00201.pub2}.
 
+\bibitem[Grinstead and Snell(2003)]{Grinstead_2003}
+C.M. Grinstead and J.L. Snell.
+\newblock \emph{Introduction to Probability}.
+\newblock American Mathematical Society, Providence, RI, 2nd edition, 2003.
+
 \bibitem[Grubben and Partohardjono(1997)]{Grubben_1997}
 G.J.H. Grubben and S.~Partohardjono.
 \newblock Plant resources of south east asia.
@@ -274,6 +316,18 @@ W.S.C. Gurney, P.H. Crowley, and R.M. Nisbet.
 \newblock \doi{10.1007/bf00176151}.
 \newblock URL \url{http://dx.doi.org/10.1007/BF00176151}.
 
+\bibitem[Gümüşçü et~al.(2020)Gümüşçü, Tenekeci, and
+  Bilgili]{GUMUSCU2020100308}
+A.~Gümüşçü, M.E. Tenekeci, and A.V. Bilgili.
+\newblock Estimation of wheat planting date using machine learning algorithms
+  based on available climate data.
+\newblock \emph{Sustainable Computing: Informatics and Systems}, 28:\penalty0
+  100308, 2020.
+\newblock ISSN 2210-5379.
+\newblock \doi{https://doi.org/10.1016/j.suscom.2019.01.010}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S2210537918302452}.
+
 \bibitem[Hennemuth et~al.(2013)Hennemuth, Bender, B{\"u}low, Dreier,
   Keup-Thiel, Kr{\"u}ger, Mudersbach, Radermacher, and
   Schoetter]{Hennemuth_2013}
@@ -289,6 +343,12 @@ M.~Herbst, E.~Falge, and C.~Fr\"{u}hauf.
 \newblock Regionale klimamodellierung – perspektive landwirtschaft.
 \newblock \emph{promet 104}, page Beitrag 8, 2021.
 \newblock \doi{10.5676/DWD_PUB/PROMET_104_08}.
+
+\bibitem[Kemeny and Snell(1976)]{Kemeny_1976}
+J.G. Kemeny and J.L. Snell.
+\newblock \emph{Finite Markov chains}.
+\newblock Undergraduate Texts in Mathematics. Springer, New York, NY, 1
+  edition, July 1976.
 
 \bibitem[Kiniry et~al.(1995)Kiniry, Williams, Major, Izaurralde, Gassman,
   Morrison, Bergentine, and Zentner]{Kiniry_1995}
@@ -501,6 +561,13 @@ J.A. Powell and J.A. Logan.
 \newblock \doi{10.1016/j.tpb.2004.10.001}.
 \newblock URL \url{http://dx.doi.org/10.1016/j.tpb.2004.10.001}.
 
+\bibitem[Ramachandran and Tsokos(2009)]{Ramachandran_2009}
+K.M. Ramachandran and C.P. Tsokos.
+\newblock \emph{Mathematical Statistics with Applications}.
+\newblock Elsevier Science, 2009.
+\newblock ISBN 9780080951706.
+\newblock URL \url{https://books.google.com.mx/books?id=YFyhXk-ONWwC}.
+
 \bibitem[Ranum et~al.(2014)Ranum, Peña-Rosas, and Garcia-Casal]{Ranum_2014}
 P.~Ranum, J.P. Peña-Rosas, and M.N. Garcia-Casal.
 \newblock Global maize production, utilization, and consumption.
@@ -509,18 +576,6 @@ P.~Ranum, J.P. Peña-Rosas, and M.N. Garcia-Casal.
 \newblock \doi{https://doi.org/10.1111/nyas.12396}.
 \newblock URL
   \url{https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.12396}.
-
-\bibitem[Rattalino~Edreira et~al.(2018)Rattalino~Edreira, Cassman, Hochman, van
-  Ittersum, van Bussel, Claessens, and Grassini]{Rattalino_2018}
-J.I. Rattalino~Edreira, K.G. Cassman, Z.~Hochman, M.K. van Ittersum, L.~van
-  Bussel, L.~Claessens, and P.~Grassini.
-\newblock Beyond the plot: technology extrapolation domains for scaling out
-  agronomic science.
-\newblock \emph{Environmental Research Letters}, 13\penalty0 (5):\penalty0
-  054027, May 2018.
-\newblock ISSN 1748-9326.
-\newblock \doi{10.1088/1748-9326/aac092}.
-\newblock URL \url{http://dx.doi.org/10.1088/1748-9326/aac092}.
 
 \bibitem[Rausch and Belyea(2006)]{Rausch_2006}
 K.D. Rausch and R.L. Belyea.
@@ -628,15 +683,6 @@ P.~Su, A.~Zhang, J.~Wang, and W.~Xu.
 \newblock \doi{https://doi.org/10.1016/j.fcr.2023.109079}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0378429023002721}.
-
-\bibitem[Sánchez et~al.(2013)Sánchez, Rasmussen, and Porter]{Sanchez_2013}
-B.~Sánchez, A.~Rasmussen, and J.R. Porter.
-\newblock Temperatures and the growth and development of maize and rice: a
-  review.
-\newblock \emph{Global Change Biology}, 20\penalty0 (2):\penalty0 408–417, 12
-  2013.
-\newblock ISSN 1365-2486.
-\newblock \doi{10.1111/gcb.12389}.
 
 \bibitem[Sánchez et~al.(2014)Sánchez, Rasmussen, and Porter]{Sanchez_2014}
 B.~Sánchez, A.~Rasmussen, and J.R. Porter.

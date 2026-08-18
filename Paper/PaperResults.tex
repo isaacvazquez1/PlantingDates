@@ -1,74 +1,23 @@
-Con el objetivo de cubrir una región de interés agrícola, el análisis se centrará en los estados federados de Baviera, Brandemburgo y Sajonia, los cuales, de manera conjunta, albergan 5.17 M ha de superficie destinada para la agricultura \cite{Flores_2025}. Esta área representa aproximadamente el $54.42\%$ de las 9.5 M ha de superficie empleada anualmente para los principales cultivos que se producen en Alemania \cite{Duden_2024}.\\
+Con el objetivo de cubrir una región de interés agrícola, el análisis se centró en los estados federados de Baviera, Brandemburgo y Sajonia, los cuales, de manera conjunta, albergan 5.17 M ha de superficie destinada para la agricultura \citep{Flores_2025}. Esta área representa aproximadamente el $54.42\%$ de las 9.5 M ha de superficie empleada anualmente para los principales cultivos que se producen en Alemania \citep{Duden_2024}.\\
 
 
-Para cada uno de los estados mencionados se replicará, de manera independiente, el procedimiento metodológico antes descrito para generar los correspondientes calendarios agrícolas regionalizados para la siembra de maíz en Alemania. Para ello, se considerarán exclusivamente aquellas estaciones climáticas contenidas dentro de sus fronteras geográficas, ver Fig. \ref{Stations_per_state}.\\
+Para cada uno de los estados mencionados se replicó, de manera independiente, el criterio empírico de permanencia antes descrito para generar los correspondientes calendarios agrícolas regionalizados para la siembra de maíz en Alemania. Para ello, se consideraron exclusivamente los valores registrados diariamente dentro de las celdas contenidas en sus respectivas fronteras geográficas, ver Figura \ref{Stations_per_state}.\\
 
-La elección de Baviera, Brandemburgo y Sajonia se ve motivada por el trabajo de Flores et al. (2025) \cite{Flores_2025} en el que se menciona que esta región agrícola está caracterizada por una elevada heterogeneidad topográfica, climática y edáfica.\\
 
-En consecuencia, la región presenta variaciones en humedad, altitud, temperatura y características del suelo, factores que influyen directamente sobre las prácticas agrícolas y los calendarios de siembra. De esta manera, se tiene un escenario tanto para evaluar la metodología como para explorar su potencial extrapolación espacial longitudinalmente \cite{Rattalino_2018}.\\
+Para integrar los efectos del cambio climático se consideró un periodo de 30 años de duración, un tiempo estándar en el área \citep{Hennemuth_2013}. Por tanto se contemplaron los datos históricos desde 1996 hasta 2025. Para cada variable considerada y para cada día del año, se calculó el promedio de los valores reportados en las celdas  contenidas en el estado correspondiente.\\
 
+De esta manera, se obtienen mediciones históricas representativas de las condiciones medias locales, ver Figura \ref{Distance}, las cuales son utilizadas para determinar las probabilidades de transición del modelo a través de la Ecuación \eqref{lambdas}.\\ 
 
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Stations per Federal State.pdf}
-	\caption{Distribución de las estaciones climáticas respecto a los estados federados de Alemania. Los polígonos delimitados por un contorno en color negro corresponden a los estados federados reportados por Bundesamt für Kartographie und Geodäsie \cite{States_2025}. En color verde se muestran, de manera descendente, Brandemburgo, Sajonia y Baviera. Los puntos en color amarillo indican la ubicación de las 493 estaciones climáticas, las cuales reportan las primeras ocho variables listadas en la Tabla \ref{AgroVariables}.}
+	\includegraphics[width=0.5\textwidth]{Mapa_final.png}
+	\caption{Distribución de las estaciones climáticas respecto a los estados federados de Alemania. Los polígonos delimitados por un contorno en color negro corresponden a los estados federados reportados por Bundesamt für Kartographie und Geodäsie \cite{States_2025}. En color verde se muestran, de manera descendente, Brandemburgo, Sajonia y Baviera, respectivamente.}
 	\label{Stations_per_state}
 \end{figure}
 
 
-
-Se cuenta información proveniente de 493 estaciones climáticas distribuidas a lo largo del territorio alemán, las cuales reportan simultáneamente las primeras ocho variables mostradas en la Tabla \ref{AgroVariables}. Para Brandemburgo se tiene un total de 34 estaciones climáticas disponibles, mientras que Sajonia dispone de 31 estaciones y, finalmente, Baviera cuenta con un total de 92 estaciones, permitiendo una amplia cobertura espacial de las condiciones climáticas regionales.\\
-
-
-Las estaciones a emplear serán todas aquellas que reporten los datos históricos desde 1994 hasta 2024, considerando un periodo de 30 años, una duración estándar al estudiar efectos del cambio climático \cite{Hennemuth_2013}. De igual forma, se considerarán aquellas estaciones sin datos faltantes, o bien, que pueda llevarse a cabo la imputación de datos pese a los valores faltantes.\\ 
-
-\begin{table}[h]
-	\centering
-	\begin{tabular}{l|c|c}
-		\hline
-		\multicolumn{1}{c|}{\textbf{Región}} & \textbf{Características} & \textbf{Fecha de siembra} \\ \hline
-		
-		\multirow{3}{*}{\parbox{4.5cm}{\textbf{Brandemburgo}\\ \textbf{Norte de Sajonia}}} 
-		& Altitud menor que $250$ m.s.n.m. 
-		& $115.6 \pm 7.12$ \\ \cline{2-3}
-		
-		
-		& Latitud mayor o igual que $51^\circ$ N. 
-		& $116.2 \pm 7.08$ \\ \cline{2-3}
-		
-		& Longitud mayor o igual que $8.5^\circ$ E. 
-		& $116.2 \pm 7.3$ \\ \hline
-		
-		
-		\multirow{3}{*}{\parbox{4.5cm}{\textbf{Sur de Sajonia}\\ \textbf{Baviera}}}  
-		& Altitud mayor o igual que $250$ m.s.n.m. 
-		& $117.4 \pm 8.29$ \\ \cline{2-3}
-		
-		
-		& Latitud menor que $51^\circ$ N. 
-		& $116.7 \pm 8.23$ \\ \cline{2-3}
-		
-		& Longitud mayor o igual que $8.5^\circ$ E. 
-		& $116.2 \pm 7.3$ \\ \hline
-		
-	\end{tabular}
-	\caption{Fechas promedio de siembra de maíz y sus correspondientes desviaciones estándar reportadas por Parker \textit{et al.} (2017) \cite{Parker_2016}, asociadas a las características geográficas y topográficas descritas por Flores \textit{et al.} (2025) \cite{Flores_2025} para Brandemburgo, Sajonia y Baviera.}
-	\label{Real_data}
-\end{table}
-
-Para cada variable considerada y para cada día del año, se calcula el promedio de los valores reportados por todas las estaciones climáticas durante el periodo de estudio que estén contenidas en el estado correspondiente. De esta manera, se obtienen mediciones históricas representativas de las condiciones medias locales, ver Fig. \ref{Distance}, las cuales son utilizadas para determinar las probabilidades de transición del modelo a través de la Ecuación \eqref{lambdas}.\\
-
-
-De acuerdo con Flores \textit{et al.} (2025) \cite{Flores_2025}, Brandeburgo y el norte de Sajonia se caracterizan por presentar elevaciones inferiores a 150 m.s.n.m., localizándose geográficamente al norte de los $51^\circ$ N y al este de los $8.5^\circ$ E. En contraste, el sur de Sajonia y Baviera presentan una topografía más irregular, con elevaciones que pueden superar los 1200 m.s.n.m., y se localizan al sur de los $51^\circ$ N y al este de los $8.5^\circ$ E.\\
-
-
-
-De esta manera, al emplear los criterios topográficos y geográficos reportados por Parker \textit{et al.} (2017) \cite[Tabla 1]{Parker_2016}, es posible asociar las condiciones agroclimáticas mencionadas anteriormente para las regiones de estudio con información referente a fechas promedio de siembra de maíz, ver Tabla \ref{Real_data}.\\
-
-
-
-Con lo anterior, para cada estado se obtiene un conjunto específico de probabilidades de transición, lo que permite la identificación de periodos que favorezcan la siembra, adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos y contrastarlos con la información disponible en la Tabla
+Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícolas: uno empleando la distancia Euclidiana y uno empleando la distancia Manhattan. Lo que permitió la identificación de periodos que favorezcan la siembra, adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos, los cuales se muestran en la Figura \ref{fig:sowing_suitability}
 
 \begin{figure}[htbp]
 	\centering
@@ -143,4 +92,148 @@ Con lo anterior, para cada estado se obtiene un conjunto específico de probabil
 		Aptitud diaria para la siembra en Brandenburgo, Sajonia y Baviera, expresada como la probabilidad de transición $\lambda_k$, $k\in\{1,2,\ldots,365\}$, calculada mediante las distancias Euclidiana y Manhattan. Las figuras \ref{fig:brandenburg_euclidean}, \ref{fig:saxony_euclidean} y \ref{fig:bavaria_euclidean} muestran los valores de $\lambda_k$ calculados mediante la distancia Euclidiana para Brandenburgo, Sajonia y Baviera, respectivamente. Similarmente, las figuras \ref{fig:brandenburg_manhattan}, \ref{fig:saxony_manhattan} y \ref{fig:bavaria_manhattan} muestran los valores correspondientes calculados mediante la distancia Manhattan. La progresión del año se expresa en sentido contrario a las manecillas del reloj, en el exterior de la gráfica anular se indican los meses, mientras que en su interior se indican los días del año.
 	}
 	\label{fig:sowing_suitability}
+\end{figure}
+
+
+De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza por una elevada heterogeneidad topográfica, climática y edáfica. En particular, Baviera, Brandemburgo y Sajonia presentan variaciones en humedad, altitud, temperatura y características del suelo, factores que influyen directamente en las prácticas agrícolas y los calendarios de siembra. Esta diversidad de condiciones ambientales permitió someter la metodología propuesta a distintos escenarios espaciales y verifica su capacidad para identificar variaciones en la aptitud de las fechas de siembra y, con ello, evaluar parcialmente su comportamiento bajo condiciones ambientales heterogéneas.\\
+
+
+\section{Cronograma de actividades}
+
+
+
+Durante el semestre en curso se contempla emplear los datos correspondientes a las fechas de siembra de maíz en Alemania, reportados por \citet[Tabla 1]{Parker_2016}, a partir de los criterios topográficos y geográficos descritos por \cite{Flores_2025}, ver Tabla \ref{Real_data}. Los cuales, tras identificar una métrica apropiada, sirvan para realizar una comparación complementaria con resultados previamente publicados.\\
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{l|c|c}
+		\hline
+		\multicolumn{1}{c|}{\textbf{Región}} & \textbf{Características} & \textbf{Fecha de siembra} \\ \hline
+		
+		\multirow{3}{*}{\parbox{4.5cm}{\textbf{Brandemburgo}\\ \textbf{Norte de Sajonia}}} 
+		& Altitud menor que $250$ m.s.n.m. 
+		& $115.6 \pm 7.12$ \\ \cline{2-3}
+		
+		
+		& Latitud mayor o igual que $51^\circ$ N. 
+		& $116.2 \pm 7.08$ \\ \cline{2-3}
+		
+		& Longitud mayor o igual que $8.5^\circ$ E. 
+		& $116.2 \pm 7.3$ \\ \hline
+		
+		
+		\multirow{3}{*}{\parbox{4.5cm}{\textbf{Sur de Sajonia}\\ \textbf{Baviera}}}  
+		& Altitud mayor o igual que $250$ m.s.n.m. 
+		& $117.4 \pm 8.29$ \\ \cline{2-3}
+		
+		
+		& Latitud menor que $51^\circ$ N. 
+		& $116.7 \pm 8.23$ \\ \cline{2-3}
+		
+		& Longitud mayor o igual que $8.5^\circ$ E. 
+		& $116.2 \pm 7.3$ \\ \hline
+		
+	\end{tabular}
+	\caption{Fechas promedio de siembra de maíz y sus correspondientes desviaciones estándar reportadas por \cite{Parker_2016}, asociadas a las características geográficas y topográficas descritas por \cite{Flores_2025} para Brandemburgo, Sajonia y Baviera.}
+	\label{Real_data}
+\end{table}
+
+
+Adicionalmente, se llevará a cabo la construcción de los intervalos de confianza correspondientes mediante los métodos de bootstrap y jackknife, así como la integración de los resultados restantes en la redacción del artículo. Finalmente, se contempla la presentación de los avances y resultados en el Congreso Internacional de Ecología Estadística (ISEC, por sus siglas en inglés), que se llevará a cabo del 10 al 15 de enero de 2027 en Mérida, México.
+
+
+
+\begin{figure}[h]
+	\resizebox{\linewidth}{!}{%
+		\centering
+		\begin{ganttchart}[
+			hgrid,
+			vgrid,
+			x unit=1.8cm,
+			y unit chart=0.7cm,
+			bar height=0.5,
+			group height=0.7,
+			title height=1,
+			milestone height=.6,
+			bar/.style={fill=blue!50},
+			group/.style={fill=gray!50},
+			title/.style={fill=gray!20},
+			milestone/.style={fill=red},
+			bar label font=\small,
+			group label font=\bfseries\small
+			]{1}{6}
+			
+			% -------------------------------------------------
+			% ENCABEZADOS
+			% -------------------------------------------------
+			
+			\gantttitle{Cronograma de actividades}{6} \\
+			
+			\gantttitle{Ago. 2026}{1}
+			\gantttitle{Sept 2026}{1}
+			\gantttitle{Oct 2026}{1}
+			\gantttitle{Nov 2026}{1}
+			\gantttitle{Dic. 2026}{1}
+			\gantttitle{Ene. 2027}{1}
+			\\
+			
+			% -------------------------------------------------
+			% ANÁLISIS DE DATOS
+			% -------------------------------------------------
+			
+			\ganttgroup{Análisis de datos y comparación}{1}{5} \\
+
+			\ganttbar
+			{Identificación de una métrica apropiada}
+			{2}{3} \\
+			
+			\ganttbar
+			{Comparación con resultados previamente publicados}
+			{3}{5} \\
+			
+			% -------------------------------------------------
+			% INTERVALOS DE CONFIANZA
+			% -------------------------------------------------
+			
+			\ganttgroup{Construcción de intervalos de confianza}{1}{2} \\
+			
+			\ganttbar
+			{Bootstrap}
+			{1}{2} \\
+			
+			\ganttbar
+			{Jackknife}
+			{1}{2} \\
+			
+			% -------------------------------------------------
+			% PRODUCCIÓN CIENTÍFICA
+			% -------------------------------------------------
+			
+			\ganttgroup{Integración y redacción científica}{4}{5} \\
+			
+			\ganttbar
+			{Integración de resultados en el artículo}
+			{4}{5} \\
+			
+			% -------------------------------------------------
+			% PRESENTACIÓN
+			% -------------------------------------------------
+			
+			\ganttgroup{Presentación de resultados}{5}{6} \\
+			
+			\ganttbar
+			{Preparación de resultados para el ISEC}
+			{5}{5} \\
+			
+			\ganttmilestone
+			{ISEC 2027}
+			{6}
+			
+		\end{ganttchart}
+		
+	} % fin resizebox
+	
+	\caption{Cronograma de actividades correspondientes al semestre agosto--diciembre de 2026.}
+	\label{fig:gantt_semestre}
+	
 \end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  14 AUG 2026 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  17 AUG 2026 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1443,12 +1443,80 @@ Package: nicematrix 2026/03/11 v7.8 Enhanced arrays with the help of PGF/TikZ
 \l__nicematrix_submatrix_right_xshift_dim=\dimen369
 \l__nicematrix_brace_yshift_dim=\dimen370
 )
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgfgantt\pgfgantt.sty
+Package: pgfgantt 2024/06/19 v5.0a Draw Gantt diagrams with TikZ
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
+File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\arrowsize=\dimen371
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@layerbox@background=\box107
+\pgf@layerboxsaved@background=\box108
+)
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+arypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfcalend
+ar.sty
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfcale
+ndar.code.tex
+File: pgfcalendar.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfcalendarcurrentjulian=\count410
+\pgf@cal@easter@Y=\count411
+\pgf@cal@easter@G=\count412
+\pgf@cal@easter@C=\count413
+\pgf@cal@easter@X=\count414
+\pgf@cal@easter@Z=\count415
+\pgf@cal@easter@D=\count416
+\pgf@cal@easter@E=\count417
+\pgf@cal@easter@N=\count418
+\pgf@cal@easter@M=\count419
+\pgf@cal@easter@julianday=\count420
+))
+\gtt@currentline=\count421
+\gtt@lasttitleline=\count422
+\gtt@currgrid=\count423
+\gtt@chartwidth=\count424
+\gtt@lasttitleslot=\count425
+\gtt@elementid=\count426
+\gtt@today@slot=\count427
+\gtt@startjulian=\count428
+\gtt@endjulian=\count429
+\gtt@chartid=\count430
+\gtt@vrule@slot=\count431
+\gtt@calendar@slots=\count432
+\gtt@calendar@weeknumber=\count433
+\gtt@calendar@startofweek=\count434
+\gtt@left@slot=\count435
+\gtt@right@slot=\count436
+)
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 70
 .
- (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(Paper.aux
+) (Paper.aux
 LaTeX Info: Redefining \. on input line 34.
 LaTeX Info: Redefining \% on input line 34.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
@@ -1473,8 +1541,7 @@ LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 70.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 7
 0.
-
-(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
+ (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 70.
@@ -1486,16 +1553,16 @@ LaTeX Font Info:    ... okay on input line 70.
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count410
-\scratchdimen=\dimen371
-\scratchbox=\box107
-\nofMPsegments=\count411
-\nofMParguments=\count412
+\scratchcounter=\count437
+\scratchdimen=\dimen372
+\scratchbox=\box109
+\nofMPsegments=\count438
+\nofMParguments=\count439
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count413
-\MPscratchDim=\dimen372
-\MPnumerator=\count414
-\makeMPintoPDFobject=\count415
+\MPscratchCnt=\count440
+\MPscratchDim=\dimen373
+\MPnumerator=\count441
+\makeMPintoPDFobject=\count442
 \everyMPtoPDFconversion=\toks44
 )
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1560,12 +1627,12 @@ Package hyperref Info: Link coloring ON on input line 70.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\c__nicematrix_shift_Ldots_last_row_dim=\dimen373
-\c__nicematrix_innersep_middle_dim=\dimen374
-\c@tabularnotesi=\count416
-\enitdp@tabularnotes=\count417
-\c@tabularnotes*i=\count418
-\enitdp@tabularnotes*=\count419
+\c__nicematrix_shift_Ldots_last_row_dim=\dimen374
+\c__nicematrix_innersep_middle_dim=\dimen375
+\c@tabularnotesi=\count443
+\enitdp@tabularnotes=\count444
+\c@tabularnotes*i=\count445
+\enitdp@tabularnotes*=\count446
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 18.
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
@@ -1857,15 +1924,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
-\g__nicematrix_max_cell_width_dim=\dimen375
-\c@iRow=\count420
-\c@jCol=\count421
-\l__nicematrix_cell_box=\box108
-\l__nicematrix_left_delim_dim=\dimen376
-\l__nicematrix_right_delim_dim=\dimen377
+\g__nicematrix_max_cell_width_dim=\dimen376
+\c@iRow=\count447
+\c@jCol=\count448
+\l__nicematrix_cell_box=\box110
+\l__nicematrix_left_delim_dim=\dimen377
+\l__nicematrix_right_delim_dim=\dimen378
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 398.
-[7]) [8] (PaperResults.tex
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--452
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 478--479
+[]|[][]\T1/lmr/m/n/10 de Anda-Jauregui and Hernandez-
+ []
+
+
+Overfull \hbox (3.44762pt too wide) detected at line 480
+\OT1/lmr/m/n/10 (11\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 10\OML/lmm/m/it/10 ; \OT1/
+lmr/m/n/10 75\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 9\OML/lmm/m/it/10 ; \OT1/lmr/m/
+n/10 85)
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 483--483
+[]|\T1/lmr/m/n/10 Centroide de las con-di-cio-nes
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 490--490
+[]|\T1/lmr/m/n/10 Nivel de sig-ni-fi-can-cia pa-ra la
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 490--490
+\T1/lmr/m/n/10 cons-truc-ción de in-ter-va-los de
+ []
+
+
+Overfull \hbox (5.44572pt too wide) in paragraph at lines 470--498
+ [][] 
+ []
+
+) [10] (PaperResults.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1876,117 +2040,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-
-
-pdfTeX warning: pdflatex.exe (file ./Images/Stations per Federal State.pdf): PD
-F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/Stations per Federal State.pdf, id=419, 381.83655pt x 487.12991pt>
-File: Images/Stations per Federal State.pdf Graphic file (type pdf)
-<use Images/Stations per Federal State.pdf>
-Package pdftex.def Info: Images/Stations per Federal State.pdf  used on input l
-ine 14.
-(pdftex.def)             Requested size: 328.82707pt x 419.52563pt.
-
-LaTeX Warning: Reference `AgroVariables' on page 9 undefined on input line 15.
-
-
-LaTeX Warning: Reference `AgroVariables' on page 9 undefined on input line 15.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `AgroVariables' on page 9 undefined on input line 21.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-<Images/Brandenburg_Euclidean.png, id=453, 500.8311pt x 500.8311pt>
+<Images/Mapa_final.png, id=481, 431.6928pt x 564.9105pt>
+File: Images/Mapa_final.png Graphic file (type png)
+<use Images/Mapa_final.png>
+Package pdftex.def Info: Images/Mapa_final.png  used on input line 14.
+(pdftex.def)             Requested size: 234.8775pt x 307.35724pt.
+[11 <./Images/Mapa_final.png>]
+<Images/Brandenburg_Euclidean.png, id=497, 500.8311pt x 500.8311pt>
 File: Images/Brandenburg_Euclidean.png Graphic file (type png)
 <use Images/Brandenburg_Euclidean.png>
-Package pdftex.def Info: Images/Brandenburg_Euclidean.png  used on input line 8
-3.
+Package pdftex.def Info: Images/Brandenburg_Euclidean.png  used on input line 3
+2.
 (pdftex.def)             Requested size: 178.5092pt x 178.50317pt.
-<Images/Saxony_Euclidean.png, id=455, 500.8311pt x 500.8311pt>
+<Images/Saxony_Euclidean.png, id=498, 500.8311pt x 500.8311pt>
 File: Images/Saxony_Euclidean.png Graphic file (type png)
 <use Images/Saxony_Euclidean.png>
-Package pdftex.def Info: Images/Saxony_Euclidean.png  used on input line 90.
+Package pdftex.def Info: Images/Saxony_Euclidean.png  used on input line 39.
 (pdftex.def)             Requested size: 178.5092pt x 178.50317pt.
-<Images/Babaria_Euclidean.png, id=456, 500.8311pt x 500.8311pt>
+<Images/Babaria_Euclidean.png, id=499, 500.8311pt x 500.8311pt>
 File: Images/Babaria_Euclidean.png Graphic file (type png)
 <use Images/Babaria_Euclidean.png>
-Package pdftex.def Info: Images/Babaria_Euclidean.png  used on input line 97.
+Package pdftex.def Info: Images/Babaria_Euclidean.png  used on input line 46.
 (pdftex.def)             Requested size: 178.5092pt x 178.50317pt.
-<Images/Suitability.png, id=457, 60.4659pt x 339.1872pt>
+<Images/Suitability.png, id=500, 60.4659pt x 339.1872pt>
 File: Images/Suitability.png Graphic file (type png)
 <use Images/Suitability.png>
-Package pdftex.def Info: Images/Suitability.png  used on input line 110.
+Package pdftex.def Info: Images/Suitability.png  used on input line 59.
 (pdftex.def)             Requested size: 35.94489pt x 201.63171pt.
 
-Overfull \hbox (12.4557pt too wide) in paragraph at lines 110--110
+Overfull \hbox (12.4557pt too wide) in paragraph at lines 59--59
  [][] 
  []
 
 
-Overfull \vbox (86.44704pt too high) detected at line 110
+Overfull \vbox (86.44704pt too high) detected at line 59
  []
 
-<Images/Brandenburg_Manhattan.png, id=458, 500.8311pt x 500.8311pt>
+<Images/Brandenburg_Manhattan.png, id=501, 500.8311pt x 500.8311pt>
 File: Images/Brandenburg_Manhattan.png Graphic file (type png)
 <use Images/Brandenburg_Manhattan.png>
-Package pdftex.def Info: Images/Brandenburg_Manhattan.png  used on input line 1
-19.
+Package pdftex.def Info: Images/Brandenburg_Manhattan.png  used on input line 6
+8.
 (pdftex.def)             Requested size: 187.89914pt x 187.89526pt.
-<Images/Saxony_Manhattan.png, id=459, 500.8311pt x 500.8311pt>
+<Images/Saxony_Manhattan.png, id=502, 500.8311pt x 500.8311pt>
 File: Images/Saxony_Manhattan.png Graphic file (type png)
 <use Images/Saxony_Manhattan.png>
-Package pdftex.def Info: Images/Saxony_Manhattan.png  used on input line 126.
+Package pdftex.def Info: Images/Saxony_Manhattan.png  used on input line 75.
 (pdftex.def)             Requested size: 187.89914pt x 187.89526pt.
-<Images/Babaria_Manhattan.png, id=460, 500.8311pt x 500.8311pt>
+<Images/Babaria_Manhattan.png, id=503, 500.8311pt x 500.8311pt>
 File: Images/Babaria_Manhattan.png Graphic file (type png)
 <use Images/Babaria_Manhattan.png>
-Package pdftex.def Info: Images/Babaria_Manhattan.png  used on input line 133.
+Package pdftex.def Info: Images/Babaria_Manhattan.png  used on input line 82.
 (pdftex.def)             Requested size: 187.89914pt x 187.89526pt.
 
-Overfull \hbox (56.12099pt too wide) in paragraph at lines 75--141
+Overfull \hbox (56.12099pt too wide) in paragraph at lines 24--90
  [][] 
  []
 
-) [10 <./Images/Stations per Federal State.pdf>] [11 <./Images/Brandenburg_Eucl
-idean.png> <./Images/Saxony_Euclidean.png> <./Images/Babaria_Euclidean.png> <./
-Images/Suitability.png> <./Images/Brandenburg_Manhattan.png> <./Images/Saxony_M
-anhattan.png> <./Images/Babaria_Manhattan.png>] [12] (Paper.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+[12 <./Images/Brandenburg_Euclidean.png> <./Images/Saxony_Euclidean.png> <./Ima
+ges/Babaria_Euclidean.png> <./Images/Suitability.png> <./Images/Brandenburg_Man
+hattan.png> <./Images/Saxony_Manhattan.png> <./Images/Babaria_Manhattan.png>])
+(PaperJournals.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+) [14] (Paper.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 5.
 
@@ -1999,11 +2142,9 @@ Underfull \hbox (badness 1297) in paragraph at lines 63--70
 / vg / nuts250 _
  []
 
-[13
+[15
 
-] [14] [15] [16] [17]) [18] [19
-
-] (Paper.aux
+] [16] [17] [18] [19]) [20] (Paper.aux
 LaTeX Info: Redefining \. on input line 34.
 LaTeX Info: Redefining \% on input line 34.
 )
@@ -2011,57 +2152,50 @@ LaTeX Info: Redefining \% on input line 34.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Paper.out' has not changed.
-(rerunfilecheck)             Checksum: AB85DE905148069D8BC903E088AC70E9;1991.
+(rerunfilecheck)             Checksum: D4DF48E0648F1421A200DF3C9189D088;3252.
  )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 1)
 
-### simple group (level 2) entered at line 551 ({)
 ### simple group (level 1) entered at line 131 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 37178 strings out of 467867
- 792195 string characters out of 5418334
- 1178054 words of memory out of 5000000
- 65396 multiletter control sequences out of 15000+600000
- 720760 words of font info for 111 fonts, out of 8000000 for 9000
+ 39368 strings out of 467867
+ 849760 string characters out of 5418334
+ 1236612 words of memory out of 5000000
+ 67534 multiletter control sequences out of 15000+600000
+ 713501 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,94p,1465b,1493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,16n,94p,1465b,1499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmbx10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmbx7.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmbx8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-lm/lmbx9.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
-m/lmex10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
-m/lmmi10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
-m/lmmi6.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmmi7.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmmi8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
-mmi9.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
-r10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
-5.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.
-pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pf
-b><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb>
-<C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C
-:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C
-:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:
-/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
-/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/
-Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/U
-sers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Us
-ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Use
-rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/User
-s/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/User
-s/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm1
-0.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/symbols/msbm7.pfb>
-Output written on Paper.pdf (19 pages, 4454872 bytes).
+/lm/lmbx9.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+lm/lmex10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+lm/lmmi10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+lm/lmmi6.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmmi7.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
+/lmmi8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmmi9.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mr10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+r5.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6
+.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.p
+fb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb
+><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><
+C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><
+C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><
+C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C
+:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:
+/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/
+Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
+sers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Us
+ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
+ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/symbols/msbm7.pfb>
+Output written on Paper.pdf (20 pages, 4112055 bytes).
 PDF statistics:
- 761 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 827 PDF objects out of 1000 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
