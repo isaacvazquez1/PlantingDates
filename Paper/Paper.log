@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  17 AUG 2026 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  18 AUG 2026 09:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2119,12 +2119,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 [12 <./Images/Brandenburg_Euclidean.png> <./Images/Saxony_Euclidean.png> <./Ima
 ges/Babaria_Euclidean.png> <./Images/Suitability.png> <./Images/Brandenburg_Man
 hattan.png> <./Images/Saxony_Manhattan.png> <./Images/Babaria_Manhattan.png>])
-(PaperJournals.tex
+[13] (PaperJournals.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -2193,9 +2193,9 @@ ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/symbols/msbm7.pfb>
-Output written on Paper.pdf (20 pages, 4112055 bytes).
+Output written on Paper.pdf (20 pages, 4112327 bytes).
 PDF statistics:
- 827 PDF objects out of 1000 (max. 8388607)
+ 828 PDF objects out of 1000 (max. 8388607)
  142 named destinations out of 1000 (max. 500000)
  181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

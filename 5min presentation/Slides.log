@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  13 AUG 2026 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  19 AUG 2026 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1479,145 +1479,145 @@ LaTeX Font Info:    Redeclaring math accent \widehat on input line 72.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 94.
+(hyperref)                removing `\<let>-command' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 94.
+(hyperref)                removing `\\' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 94.
+(hyperref)                removing `\@centercr' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 94.
+(hyperref)                removing `\rightskip' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 94.
+(hyperref)                removing `\@flushglue' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 94.
+(hyperref)                removing `\leftskip' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 94.
+(hyperref)                removing `\@flushglue' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 94.
+(hyperref)                removing `\finalhyphendemerits' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 94.
+(hyperref)                removing `\z@' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 94.
+(hyperref)                removing `\parindent' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 94.
+(hyperref)                removing `\z@' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 94.
+(hyperref)                removing `\parfillskip' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 94.
+(hyperref)                removing `\z@skip' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 94.
+(hyperref)                removing `\\' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 94.
+(hyperref)                removing `\\' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 94.
+(hyperref)                removing `\\' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 99.
+(hyperref)                removing `\<let>-command' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 99.
+(hyperref)                removing `\\' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 99.
+(hyperref)                removing `\@centercr' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 99.
+(hyperref)                removing `\rightskip' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 99.
+(hyperref)                removing `\@flushglue' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 99.
+(hyperref)                removing `\leftskip' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 99.
+(hyperref)                removing `\@flushglue' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 99.
+(hyperref)                removing `\finalhyphendemerits' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 99.
+(hyperref)                removing `\z@' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 99.
+(hyperref)                removing `\parindent' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 99.
+(hyperref)                removing `\z@' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 99.
+(hyperref)                removing `\parfillskip' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 99.
+(hyperref)                removing `\z@skip' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 99.
+(hyperref)                removing `\color' on input line 101.
 
 (Slides.aux)
 \openout1 = `Slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1679,63 +1679,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 99.
+Package hyperref Info: Link coloring OFF on input line 101.
  (Slides.out) (Slides.out)
 \@outlinefile=\write5
 \openout5 = `Slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 99.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 101.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 99.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 101.
 \symnumbers=\mathgroup8
 \sympureletters=\mathgroup9
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 99.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 99.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 99.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 101.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 99.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 101.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 99.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 99.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 101.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 99.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 99.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 101.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 99.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 101.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 99.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 99.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 99.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 99.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 99.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 99.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 99.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 101.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 101.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 9
-9.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
+01.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 9
-9.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 1
+01.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 99.
+ut line 101.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -1765,7 +1765,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 99.
+ on input line 101.
 
 \c@lstlisting=\count476
 \c__nicematrix_shift_Ldots_last_row_dim=\dimen421
@@ -1774,32 +1774,32 @@ your preamble.
 <images/INFOTEC.jpg, id=24, 343.2825pt x 254.1495pt>
 File: images/INFOTEC.jpg Graphic file (type jpg)
 <use images/INFOTEC.jpg>
-Package pdftex.def Info: images/INFOTEC.jpg  used on input line 126.
+Package pdftex.def Info: images/INFOTEC.jpg  used on input line 128.
 (pdftex.def)             Requested size: 78.95331pt x 58.45316pt.
 
-Overfull \hbox (19.20496pt too wide) in paragraph at lines 126--126
+Overfull \hbox (19.20496pt too wide) in paragraph at lines 128--128
  [] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 126
+LaTeX Font Info:    Trying to load font information for U+msa on input line 128
 .
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 126
+LaTeX Font Info:    Trying to load font information for U+msb on input line 128
 .
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 12
-6.
+8.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 126.
+ut line 128.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
@@ -1809,79 +1809,77 @@ thkerncmss.
 <images/tr.png, id=25, 143.03438pt x 127.22531pt>
 File: images/tr.png Graphic file (type png)
 <use images/tr.png>
-Package pdftex.def Info: images/tr.png  used on input line 126.
+Package pdftex.def Info: images/tr.png  used on input line 128.
 (pdftex.def)             Requested size: 14.22636pt x 12.65338pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <20.74> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 126.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 128.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <14.4> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 126.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 128.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 126.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 128.
 
 
-Overfull \vbox (59.11037pt too high) detected at line 126
+Overfull \vbox (59.11037pt too high) detected at line 128
  []
 
 [1
 
 {C:/Users/amigo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/INF
-OTEC.jpg> <./images/tr.png>] [2
-
-]
-<images/Choice.png, id=44, 2271.687pt x 818.0964pt>
+OTEC.jpg> <./images/tr.png>]
+<images/Choice.png, id=37, 2271.687pt x 818.0964pt>
 File: images/Choice.png Graphic file (type png)
 <use images/Choice.png>
-Package pdftex.def Info: images/Choice.png  used on input line 181.
+Package pdftex.def Info: images/Choice.png  used on input line 153.
 (pdftex.def)             Requested size: 398.3386pt x 143.44363pt.
- [3
+ [2
 
  <./images/Choice.png
 
 pdfTeX warning: pdflatex.exe (file ./images/Choice.png): large interlaced PNG m
 ight cause out of memory (use non-interlaced PNG to fix this)
 >]
-<images/Survival.png, id=51, 2271.687pt x 1398.1836pt>
+<images/Survival.png, id=44, 2271.687pt x 1398.1836pt>
 File: images/Survival.png Graphic file (type png)
 <use images/Survival.png>
-Package pdftex.def Info: images/Survival.png  used on input line 186.
+Package pdftex.def Info: images/Survival.png  used on input line 158.
 (pdftex.def)             Requested size: 358.50229pt x 220.64177pt.
- [4
+ [3
 
  <./images/Survival.png
 
 pdfTeX warning: pdflatex.exe (file ./images/Survival.png): large interlaced PNG
  might cause out of memory (use non-interlaced PNG to fix this)
 >]
-<images/Production.png, id=58, 2271.687pt x 1488.762pt>
+<images/Production.png, id=51, 2271.687pt x 1488.762pt>
 File: images/Production.png Graphic file (type png)
 <use images/Production.png>
-Package pdftex.def Info: images/Production.png  used on input line 192.
+Package pdftex.def Info: images/Production.png  used on input line 164.
 (pdftex.def)             Requested size: 358.50229pt x 234.9356pt.
 
-Overfull \vbox (7.58064pt too high) detected at line 192
+Overfull \vbox (7.58064pt too high) detected at line 164
  []
 
-[5
+[4
 
  <./images/Production.png
 
 pdfTeX warning: pdflatex.exe (file ./images/Production.png): large interlaced P
 NG might cause out of memory (use non-interlaced PNG to fix this)
->] [6
+>] [5
 
 ]
-<images/Period.png, id=71, 1541.2782pt x 986.2446pt>
+<images/Period.png, id=64, 1541.2782pt x 986.2446pt>
 File: images/Period.png Graphic file (type png)
 <use images/Period.png>
-Package pdftex.def Info: images/Period.png  used on input line 204.
+Package pdftex.def Info: images/Period.png  used on input line 176.
 (pdftex.def)             Requested size: 358.50229pt x 229.38979pt.
- [7
+ [6
 
  <./images/Period.png
 
@@ -1890,46 +1888,46 @@ ight cause out of memory (use non-interlaced PNG to fix this)
 >]
 File: images/Period.png Graphic file (type png)
 <use images/Period.png>
-Package pdftex.def Info: images/Period.png  used on input line 204.
+Package pdftex.def Info: images/Period.png  used on input line 176.
 (pdftex.def)             Requested size: 358.50229pt x 229.38979pt.
- [8
+ [7
+
+] [8
 
 ] [9
 
 ] [10
 
-] [11
-
 ]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 265--265
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 237--237
  []$[]$$[]$  
  []
 
-<images/Seasons.png, id=102, 923.1288pt x 448.074pt>
+<images/Seasons.png, id=97, 923.1288pt x 448.074pt>
 File: images/Seasons.png Graphic file (type png)
 <use images/Seasons.png>
-Package pdftex.def Info: images/Seasons.png  used on input line 265.
+Package pdftex.def Info: images/Seasons.png  used on input line 237.
+(pdftex.def)             Requested size: 286.16698pt x 138.90149pt.
+[11
+
+ <./images/Seasons.png>]
+Overfull \hbox (9.73328pt too wide) in paragraph at lines 237--237
+ []$[]$$[]$  
+ []
+
+File: images/Seasons.png Graphic file (type png)
+<use images/Seasons.png>
+Package pdftex.def Info: images/Seasons.png  used on input line 237.
 (pdftex.def)             Requested size: 286.16698pt x 138.90149pt.
 [12
 
- <./images/Seasons.png>]
-Overfull \hbox (9.73328pt too wide) in paragraph at lines 265--265
- []$[]$$[]$  
- []
-
-File: images/Seasons.png Graphic file (type png)
-<use images/Seasons.png>
-Package pdftex.def Info: images/Seasons.png  used on input line 265.
-(pdftex.def)             Requested size: 286.16698pt x 138.90149pt.
-[13
-
 ]
-<images/Maiz.png, id=115, 842.6682pt x 1123.5576pt>
+<images/Maiz.png, id=109, 842.6682pt x 1123.5576pt>
 File: images/Maiz.png Graphic file (type png)
 <use images/Maiz.png>
-Package pdftex.def Info: images/Maiz.png  used on input line 295.
+Package pdftex.def Info: images/Maiz.png  used on input line 267.
 (pdftex.def)             Requested size: 151.23656pt x 201.6606pt.
- [14
+ [13
 
  <./images/Maiz.png
 
@@ -1938,22 +1936,22 @@ ht cause out of memory (use non-interlaced PNG to fix this)
 >]
 File: images/Maiz.png Graphic file (type png)
 <use images/Maiz.png>
-Package pdftex.def Info: images/Maiz.png  used on input line 295.
+Package pdftex.def Info: images/Maiz.png  used on input line 267.
 (pdftex.def)             Requested size: 151.23656pt x 201.6606pt.
- [15
+ [14
 
 ]
-<images/MaizGermany.png, id=127, 1388.5476pt x 1561.032pt>
+<images/MaizGermany.png, id=122, 1388.5476pt x 1561.032pt>
 File: images/MaizGermany.png Graphic file (type png)
 <use images/MaizGermany.png>
-Package pdftex.def Info: images/MaizGermany.png  used on input line 311.
+Package pdftex.def Info: images/MaizGermany.png  used on input line 283.
 (pdftex.def)             Requested size: 179.3734pt x 201.6606pt.
 
-Underfull \hbox (badness 7777) in paragraph at lines 311--311
+Underfull \hbox (badness 7777) in paragraph at lines 283--283
  []\OT1/cmss/m/n/10.95 Alemania tendr^^Sa un in-cre-mento en 
  []
 
-[16
+[15
 
  <./images/MaizGermany.png
 
@@ -1962,14 +1960,16 @@ PNG might cause out of memory (use non-interlaced PNG to fix this)
 >]
 File: images/MaizGermany.png Graphic file (type png)
 <use images/MaizGermany.png>
-Package pdftex.def Info: images/MaizGermany.png  used on input line 311.
+Package pdftex.def Info: images/MaizGermany.png  used on input line 283.
 (pdftex.def)             Requested size: 179.3734pt x 201.6606pt.
 
-Underfull \hbox (badness 7777) in paragraph at lines 311--311
+Underfull \hbox (badness 7777) in paragraph at lines 283--283
  [][]\OT1/cmss/m/n/10.95 Alemania tendr^^Sa un in-cre-mento en 
  []
 
-[17
+[16
+
+] [17
 
 ] [18
 
@@ -1981,66 +1981,69 @@ Underfull \hbox (badness 7777) in paragraph at lines 311--311
 
 ] [22
 
-] [23
-
 ]
+<images/Mapa_final.png, id=165, 431.6928pt x 564.9105pt>
+File: images/Mapa_final.png Graphic file (type png)
+<use images/Mapa_final.png>
+Package pdftex.def Info: images/Mapa_final.png  used on input line 330.
+(pdftex.def)             Requested size: 154.10504pt x 201.6606pt.
+ [23
 
-pdfTeX warning: pdflatex.exe (file ./images/Stations per Federal State.pdf): PD
-F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/Stations per Federal State.pdf, id=170, 381.83655pt x 487.12991pt>
-File: images/Stations per Federal State.pdf Graphic file (type pdf)
-<use images/Stations per Federal State.pdf>
-Package pdftex.def Info: images/Stations per Federal State.pdf  used on input l
-ine 359.
-(pdftex.def)             Requested size: 158.06885pt x 201.6606pt.
+ <./images/Mapa_final.png>]
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 408.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 408.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 408.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 408.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 408.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 408.
+
+
+Overfull \vbox (2.58095pt too high) detected at line 408
+ []
+
 [24
 
- <./images/Stations per Federal State.pdf>]
-Overfull \vbox (4.47417pt too high) detected at line 433
+]
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 480.
+
+
+Overfull \vbox (2.58095pt too high) detected at line 480
  []
 
 [25
 
 ]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 505.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 505.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 505.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 505.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 505.
-
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 505.
-
-
-Overfull \vbox (2.58095pt too high) detected at line 505
+Overfull \vbox (2.58095pt too high) detected at line 553
  []
 
 [26
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <12> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 590.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 624.
 
 
-Overfull \hbox (13.31139pt too wide) detected at line 590
-[]\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
- n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
-[]:
+Overfull \vbox (4.47417pt too high) detected at line 624
  []
 
 [27
 
+] [28
+
 ]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 683--683
+Overfull \hbox (31.86363pt too wide) in paragraph at lines 803--803
  [] 
  []
 
@@ -2050,17 +2053,10 @@ Overfull \hbox (31.86363pt too wide) in paragraph at lines 683--683
 \l__nicematrix_cell_box=\box124
 \l__nicematrix_left_delim_dim=\dimen424
 \l__nicematrix_right_delim_dim=\dimen425
-[28
-
-]
-Overfull \hbox (31.86363pt too wide) in paragraph at lines 781--781
- [] 
- []
-
 [29
 
 ]
-Overfull \hbox (15.52167pt too wide) detected at line 813
+Overfull \hbox (15.52167pt too wide) detected at line 835
  \OT1/cmss/bx/n/10.95 Q \OT1/cmss/m/n/10.95 = []
  []
 
@@ -2070,141 +2066,203 @@ Overfull \hbox (15.52167pt too wide) detected at line 813
 
 ] [32
 
-] [33
+]
+Overfull \hbox (13.31139pt too wide) detected at line 951
+[]\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
+ n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
+[]:
+ []
 
-] [34
-
-] [35
-
-] [36
+[33
 
 ]
-Overfull \hbox (5.25096pt too wide) in paragraph at lines 975--975
+<images/Brandenburg_Euclidean.png, id=236, 500.8311pt x 500.8311pt>
+File: images/Brandenburg_Euclidean.png Graphic file (type png)
+<use images/Brandenburg_Euclidean.png>
+Package pdftex.def Info: images/Brandenburg_Euclidean.png  used on input line 9
+71.
+(pdftex.def)             Requested size: 191.20082pt x 191.19662pt.
+<images/Brandenburg_Manhattan.png, id=237, 500.8311pt x 500.8311pt>
+File: images/Brandenburg_Manhattan.png Graphic file (type png)
+<use images/Brandenburg_Manhattan.png>
+Package pdftex.def Info: images/Brandenburg_Manhattan.png  used on input line 9
+71.
+(pdftex.def)             Requested size: 191.20082pt x 191.19662pt.
+<images/Suitability.png, id=238, 60.4659pt x 339.1872pt>
+File: images/Suitability.png Graphic file (type png)
+<use images/Suitability.png>
+Package pdftex.def Info: images/Suitability.png  used on input line 971.
+(pdftex.def)             Requested size: 29.20966pt x 163.84708pt.
+ [34
+
+ <./images/Brandenburg_Euclidean.png> <./images/Brandenburg_Manhattan.png> <./i
+mages/Suitability.png>]
+<images/Saxony_Euclidean.png, id=247, 500.8311pt x 500.8311pt>
+File: images/Saxony_Euclidean.png Graphic file (type png)
+<use images/Saxony_Euclidean.png>
+Package pdftex.def Info: images/Saxony_Euclidean.png  used on input line 991.
+(pdftex.def)             Requested size: 191.20082pt x 191.19662pt.
+<images/Saxony_Manhattan.png, id=248, 500.8311pt x 500.8311pt>
+File: images/Saxony_Manhattan.png Graphic file (type png)
+<use images/Saxony_Manhattan.png>
+Package pdftex.def Info: images/Saxony_Manhattan.png  used on input line 991.
+(pdftex.def)             Requested size: 191.20082pt x 191.19662pt.
+File: images/Suitability.png Graphic file (type png)
+<use images/Suitability.png>
+Package pdftex.def Info: images/Suitability.png  used on input line 991.
+(pdftex.def)             Requested size: 29.20966pt x 163.84708pt.
+ [35
+
+ <./images/Saxony_Euclidean.png> <./images/Saxony_Manhattan.png>]
+<images/Babaria_Euclidean.png, id=256, 500.8311pt x 500.8311pt>
+File: images/Babaria_Euclidean.png Graphic file (type png)
+<use images/Babaria_Euclidean.png>
+Package pdftex.def Info: images/Babaria_Euclidean.png  used on input line 1010.
+
+(pdftex.def)             Requested size: 191.20082pt x 191.19662pt.
+<images/Babaria_Manhattan.png, id=257, 500.8311pt x 500.8311pt>
+File: images/Babaria_Manhattan.png Graphic file (type png)
+<use images/Babaria_Manhattan.png>
+Package pdftex.def Info: images/Babaria_Manhattan.png  used on input line 1010.
+
+(pdftex.def)             Requested size: 191.20082pt x 191.19662pt.
+File: images/Suitability.png Graphic file (type png)
+<use images/Suitability.png>
+Package pdftex.def Info: images/Suitability.png  used on input line 1010.
+(pdftex.def)             Requested size: 29.20966pt x 163.84708pt.
+ [36
+
+ <./images/Babaria_Euclidean.png> <./images/Babaria_Manhattan.png>]
+Overfull \hbox (5.25096pt too wide) in paragraph at lines 1048--1048
  [] 
  []
 
 [37
 
 ]
-<images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=26
+Overfull \hbox (5.0373pt too wide) in paragraph at lines 1073--1073
+ [] 
+ []
+
+[38
+
+] (Slides.bbl) [39
+
+ <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
+le.pdf>] [40
+
+
+] [41
+
+
+] [42
+
+
+] [43
+
+]
+<images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=34
 2, 509.905pt x 636.3775pt>
 File: images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
 Package pdftex.def Info: images/Sowing_dates_Distributions_VS_Crop_calendar-eps
--converted-to.pdf  used on input line 994.
+-converted-to.pdf  used on input line 1110.
 (pdftex.def)             Requested size: 181.77614pt x 226.86577pt.
 
-Overfull \vbox (2.57172pt too high) detected at line 994
+Overfull \vbox (2.57172pt too high) detected at line 1110
  []
 
-[38
+[44
 
  <./images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>]
-<images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=312, 454.77898pt x 370.
+<images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=392, 454.77898pt x 370.
 60332pt>
 File: images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
 <use images/1951_VS_2015_Sowing_dates_Distributions.pdf>
 Package pdftex.def Info: images/1951_VS_2015_Sowing_dates_Distributions.pdf  us
-ed on input line 1000.
+ed on input line 1116.
 (pdftex.def)             Requested size: 278.40016pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1000
+Overfull \vbox (8.04672pt too high) detected at line 1116
  []
 
-[39
+[45
 
  <./images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
-<images/Historical_significance_matrix.pdf, id=366, 722.7pt x 578.16pt>
+<images/Historical_significance_matrix.pdf, id=446, 722.7pt x 578.16pt>
 File: images/Historical_significance_matrix.pdf Graphic file (type pdf)
 <use images/Historical_significance_matrix.pdf>
 Package pdftex.def Info: images/Historical_significance_matrix.pdf  used on inp
-ut line 1006.
+ut line 1122.
 (pdftex.def)             Requested size: 283.58318pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1006
+Overfull \vbox (8.04672pt too high) detected at line 1122
  []
 
-[40
+[46
 
  <./images/Historical_significance_matrix.pdf>]
-<images/1988Break.pdf, id=419, 498.16112pt x 389.9255pt>
+<images/1988Break.pdf, id=499, 498.16112pt x 389.9255pt>
 File: images/1988Break.pdf Graphic file (type pdf)
 <use images/1988Break.pdf>
-Package pdftex.def Info: images/1988Break.pdf  used on input line 1017.
+Package pdftex.def Info: images/1988Break.pdf  used on input line 1133.
 (pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
 
-Overfull \hbox (11.00241pt too wide) in paragraph at lines 1017--1017
+Overfull \hbox (11.00241pt too wide) in paragraph at lines 1133--1133
  [][]
  []
 
 
-Overfull \vbox (2.57172pt too high) detected at line 1017
- []
-
-[41
-
- <./images/1988Break.pdf>] (Slides.bbl
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 30.
-) [42
-
- <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
-le.pdf>] [43
-
-
-] [44
-
-
-] [45
-
-
-] [46
-
-]
-<images/Interannual_trend.pdf, id=523, 390.40857pt x 338.33276pt>
-File: images/Interannual_trend.pdf Graphic file (type pdf)
-<use images/Interannual_trend.pdf>
-Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1041.
-
-(pdftex.def)             Requested size: 261.78683pt x 226.86577pt.
-
-Overfull \vbox (8.04672pt too high) detected at line 1041
+Overfull \vbox (2.57172pt too high) detected at line 1133
  []
 
 [47
 
+ <./images/1988Break.pdf>]
+<images/Interannual_trend.pdf, id=544, 390.40857pt x 338.33276pt>
+File: images/Interannual_trend.pdf Graphic file (type pdf)
+<use images/Interannual_trend.pdf>
+Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1140.
+
+(pdftex.def)             Requested size: 261.78683pt x 226.86577pt.
+
+Overfull \vbox (8.04672pt too high) detected at line 1140
+ []
+
+[48
+
  <./images/Interannual_trend.pdf>]
-<images/Effects of maize varieties.png, id=580, 794.97pt x 722.7pt>
+<images/Effects of maize varieties.png, id=601, 794.97pt x 722.7pt>
 File: images/Effects of maize varieties.png Graphic file (type png)
 <use images/Effects of maize varieties.png>
 Package pdftex.def Info: images/Effects of maize varieties.png  used on input l
-ine 1061.
+ine 1160.
 (pdftex.def)             Requested size: 199.1693pt x 181.06052pt.
-<images/Maize sowing varieties.png, id=581, 689.5148pt x 162.97623pt>
+<images/Maize sowing varieties.png, id=602, 689.5148pt x 162.97623pt>
 File: images/Maize sowing varieties.png Graphic file (type png)
 <use images/Maize sowing varieties.png>
 Package pdftex.def Info: images/Maize sowing varieties.png  used on input line 
-1061.
+1160.
 (pdftex.def)             Requested size: 199.1693pt x 47.07538pt.
- [48
+ [49
 
  <./images/Effects of maize varieties.png> <./images/Maize sowing varieties.png
 >]
-<images/Crop calendar 2018.png, id=589, 546.24075pt x 387.24675pt>
+<images/Crop calendar 2018.png, id=611, 546.24075pt x 387.24675pt>
 File: images/Crop calendar 2018.png Graphic file (type png)
 <use images/Crop calendar 2018.png>
-Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1072
+Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1171
 .
 (pdftex.def)             Requested size: 177.78452pt x 126.0374pt.
-<images/Crop calendar 2015.png, id=590, 1079.83424pt x 61.4295pt>
+<images/Crop calendar 2015.png, id=612, 1079.83424pt x 61.4295pt>
 File: images/Crop calendar 2015.png Graphic file (type png)
 <use images/Crop calendar 2015.png>
-Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1072
+Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1171
 .
 (pdftex.def)             Requested size: 398.3386pt x 22.66013pt.
- [49
+ [50
 
  <./images/Crop calendar 2018.png> <./images/Crop calendar 2015.png>]
 \tf@nav=\write6
@@ -2222,16 +2280,16 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Slides.out' has not changed.
-(rerunfilecheck)             Checksum: 6D7A9E14C3EB9C4B5F4961D9B6B07507;1431.
+(rerunfilecheck)             Checksum: 3079D9CBF0624DE7633EB68502E682CD;1510.
  ) 
 Here is how much of TeX's memory you used:
- 46307 strings out of 467867
- 1101858 string characters out of 5418334
- 1683411 words of memory out of 5000000
- 74254 multiletter control sequences out of 15000+600000
+ 45539 strings out of 467867
+ 1086950 string characters out of 5418334
+ 1665757 words of memory out of 5000000
+ 73484 multiletter control sequences out of 15000+600000
  652159 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,144p,1299b,1368s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,17n,144p,1378b,1368s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\amigo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi657\m
 athx10.pk> <C:\Users\amigo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi
 657\wasy10.pk><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -2255,9 +2313,9 @@ rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mtt8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on Slides.pdf (49 pages, 17147474 bytes).
+Output written on Slides.pdf (50 pages, 20093481 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 739 PDF objects out of 1000 (max. 8388607)
+ 127 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
