@@ -562,7 +562,7 @@
 			%uncomment if require: \path (0,717); %set diagram left start at 0, and has height of 717
 			
 			%Shape: Axis 2D [id:dp4496072713140289] 
-			\draw  (58,700.13) -- (550,700.13)(64.03,422.4) -- (64.03,706.4) (540,695.13) -- (550,700.13) -- (540,705.13) (59.03,432.4) -- (64.03,422.4) -- (69.03,432.4)  ;
+			%\draw  (58,700.13) -- (550,700.13)(64.03,422.4) -- (64.03,706.4) (540,695.13) -- (550,700.13) -- (540,705.13) (59.03,432.4) -- (64.03,422.4) -- (69.03,432.4)  ;
 			%Shape: Circle [id:dp06215554504361531] 
 			\draw  [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (133.6,481.2) .. controls (133.6,478.88) and (135.48,477) .. (137.8,477) .. controls (140.12,477) and (142,478.88) .. (142,481.2) .. controls (142,483.52) and (140.12,485.4) .. (137.8,485.4) .. controls (135.48,485.4) and (133.6,483.52) .. (133.6,481.2) -- cycle ;
 			%Shape: Circle [id:dp22652234947291816] 
@@ -586,30 +586,47 @@
 			%Shape: Circle [id:dp6213316985023771] 
 			\draw  [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (164.6,520.2) .. controls (164.6,517.88) and (166.48,516) .. (168.8,516) .. controls (171.12,516) and (173,517.88) .. (173,520.2) .. controls (173,522.52) and (171.12,524.4) .. (168.8,524.4) .. controls (166.48,524.4) and (164.6,522.52) .. (164.6,520.2) -- cycle ;
 			%Shape: Polygon [id:ds0377823447882647] 
-			\draw [fill={rgb, 255:red, 20; green, 20; blue, 80 }  ,fill opacity=0.25 ] (452,517.2) -- (496,551.8) -- (452,627.2) -- (422,607.2) -- (408,542.8) -- cycle ;
+			\draw [fill={rgb, 255:red, 20; green, 20; blue, 80 }  ,fill opacity=0.10 ] (452,517.2) -- (496,551.8) -- (452,627.2) -- (422,607.2) -- (408,542.8) -- cycle ;
 			%Flowchart: Summing Junction [id:dp4210872697663528] 
 			\draw  [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.5]  (147,488.6) .. controls (147,486.06) and (149.24,484) .. (152,484) .. controls (154.76,484) and (157,486.06) .. (157,488.6) .. controls (157,491.14) and (154.76,493.2) .. (152,493.2) .. controls (149.24,493.2) and (147,491.14) .. (147,488.6) -- cycle ;% \draw  [line width=1.5]  (148.46,485.35) -- (155.54,491.85) ; \draw  [line width=1.5]  (155.54,485.35) -- (148.46,491.85) ;
 			%Shape: Circle [id:dp3856640767966395] 
 			\draw  [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (137.6,504.2) .. controls (137.6,501.88) and (139.48,500) .. (141.8,500) .. controls (144.12,500) and (146,501.88) .. (146,504.2) .. controls (146,506.52) and (144.12,508.4) .. (141.8,508.4) .. controls (139.48,508.4) and (137.6,506.52) .. (137.6,504.2) -- cycle ;
 			%Flowchart: Summing Junction [id:dp21052777836013448] 
 			\draw  [fill={rgb, 255:red, 208; green, 2; blue, 27 }  ,fill opacity=1 ][line width=0.5]  (444,572.6) .. controls (444,570.06) and (446.24,568) .. (449,568) .. controls (451.76,568) and (454,570.06) .. (454,572.6) .. controls (454,575.14) and (451.76,577.2) .. (449,577.2) .. controls (446.24,577.2) and (444,575.14) .. (444,572.6) -- cycle ; %\draw  [line width=1.5]  (445.46,569.35) -- (452.54,575.85) ; \draw  [line width=1.5]  (452.54,569.35) -- (445.46,575.85) ;
-			%Straight Lines [id:da05984024528227749] 
-			\draw  [dash pattern={on 4.5pt off 4.5pt}]  (153,492.2) -- (153,572.7) ;
-			\draw  [dash pattern={on 4.5pt off 4.5pt}]  (153,572.7) -- (444,572.7) ;
+			%Straight Lines [id:da05984024528227749]
+			% Manhattan
+			\draw[
+			color=gray!80,
+			dash pattern={on 6pt off 3pt},
+			line width=1pt
+			] (153,492.2) -- (153,572.7);
+			
+			\draw[
+			color=gray!80,
+			dash pattern={on 6pt off 3pt},
+			line width=1pt
+			] (153,572.7) -- (444,572.7);
+			
+			% Euclidean
+			\draw[
+			color=gray!80,
+			dash pattern={on 1.5pt off 3pt},
+			line width=1pt
+			] (157,490.6) -- (444,572.6);
 			%Shape: Circle [id:dp618933165821857] 
 			\draw  [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (146.6,453.2) .. controls (146.6,450.88) and (148.48,449) .. (150.8,449) .. controls (153.12,449) and (155,450.88) .. (155,453.2) .. controls (155,455.52) and (153.12,457.4) .. (150.8,457.4) .. controls (148.48,457.4) and (146.6,455.52) .. (146.6,453.2) -- cycle ;
 			
 			% Text Node
-			\draw (104,534.4) node [anchor=north west][inner sep=0.75pt]  [font=\small] [align=left] {\begin{minipage}[lt]{85.87pt}\setlength\topsep{0pt}
+			\draw (104,588.4) node [anchor=north west][inner sep=0.75pt]  [font=\small] [align=left] {\begin{minipage}[lt]{85.87pt}\setlength\topsep{0pt}
 					\begin{center}
-						%Historical data\\from the $k$-th day
+						Historical data\\from the $k$-th day\\ (1996--2025)
 					\end{center}
 					
 			\end{minipage}};
 			% Text Node
-			\draw (393,637.4) node [anchor=north west][inner sep=0.75pt]  [font=\small] [align=left] {\begin{minipage}[lt]{78.21pt}\setlength\topsep{0pt}
+			\draw (393,460.4) node [anchor=north west][inner sep=0.75pt]  [font=\small] [align=left] {\begin{minipage}[lt]{78.21pt}\setlength\topsep{0pt}
 					\begin{center}
-						%Optimal conditions
+						Suggested environmental conditions
 					\end{center}
 					
 			\end{minipage}};
@@ -617,12 +634,12 @@
 			\draw (136.6,460.6) node [anchor=north west][inner sep=0.75pt]    {$C_{H,k}$};
 			% Text Node
 			\draw (436,544.4) node [anchor=north west][inner sep=0.75pt]    {$C^*$};
-			\draw (257,475.8) node [anchor=north west][inner sep=0.75pt]    {$d( C_{H,k} \ \mathbf{,}\ C^*)$};
+			\draw (227,540.8) node [anchor=north west][inner sep=0.75pt]    {$d_{p}( C_{H,k} \ \mathbf{,}\ C^*)$};
 			% Text Node
-			\draw (110,600.4) node [anchor=north west, font=\Large][inner sep=0.75pt] {
-				$\displaystyle 
-				\lambda_k := 1 - \frac{d(C_{H,k}\,,\, C^*)}{\displaystyle\max_{l\in \{1,\dots,365\}} \{d(C_{H,l}\,,\, C^*)\}}.$
-			};
+			%\draw (110,600.4) node [anchor=north west, font=\Large][inner sep=0.75pt] {
+			%	$\displaystyle 
+			%	\lambda_k := 1 - \frac{d(C_{H,k}\,,\, C^*)}{\displaystyle\max_{l\in \{1,\dots,365\}} \{d(C_{H,l}\,,\, C^*)\}}.$
+			%};
 		\end{tikzpicture}
 	\end{figure}
 \end{frame}
