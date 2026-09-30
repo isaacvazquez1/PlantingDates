@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  18 AUG 2026 09:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  29 SEP 2026 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2054,72 +2054,163 @@ File: Images/Mapa_final.png Graphic file (type png)
 <use Images/Mapa_final.png>
 Package pdftex.def Info: Images/Mapa_final.png  used on input line 14.
 (pdftex.def)             Requested size: 234.8775pt x 307.35724pt.
+
+LaTeX Warning: Reference `fig:sowing_suitability' on page 11 undefined on input
+ line 20.
+
 [11 <./Images/Mapa_final.png>]
-<Images/Brandenburg_Euclidean.png, id=497, 500.8311pt x 500.8311pt>
-File: Images/Brandenburg_Euclidean.png Graphic file (type png)
-<use Images/Brandenburg_Euclidean.png>
-Package pdftex.def Info: Images/Brandenburg_Euclidean.png  used on input line 3
-2.
-(pdftex.def)             Requested size: 178.5092pt x 178.50317pt.
-<Images/Saxony_Euclidean.png, id=498, 500.8311pt x 500.8311pt>
-File: Images/Saxony_Euclidean.png Graphic file (type png)
-<use Images/Saxony_Euclidean.png>
-Package pdftex.def Info: Images/Saxony_Euclidean.png  used on input line 39.
-(pdftex.def)             Requested size: 178.5092pt x 178.50317pt.
-<Images/Babaria_Euclidean.png, id=499, 500.8311pt x 500.8311pt>
-File: Images/Babaria_Euclidean.png Graphic file (type png)
-<use Images/Babaria_Euclidean.png>
-Package pdftex.def Info: Images/Babaria_Euclidean.png  used on input line 46.
-(pdftex.def)             Requested size: 178.5092pt x 178.50317pt.
-<Images/Suitability.png, id=500, 60.4659pt x 339.1872pt>
-File: Images/Suitability.png Graphic file (type png)
-<use Images/Suitability.png>
-Package pdftex.def Info: Images/Suitability.png  used on input line 59.
-(pdftex.def)             Requested size: 35.94489pt x 201.63171pt.
+<Images/[Brandenburg][Euclidean]Transition_graph.png, id=496, 642.9621pt x 643.
+203pt>
+File: Images/[Brandenburg][Euclidean]Transition_graph.png Graphic file (type pn
+g)
+<use Images/[Brandenburg][Euclidean]Transition_graph.png>
+Package pdftex.def Info: Images/[Brandenburg][Euclidean]Transition_graph.png  u
+sed on input line 31.
+(pdftex.def)             Requested size: 201.99121pt x 202.06041pt.
+<Images/[Brandenburg][Manhattan]Transition_graph.png, id=497, 642.9621pt x 643.
+203pt>
+File: Images/[Brandenburg][Manhattan]Transition_graph.png Graphic file (type pn
+g)
+<use Images/[Brandenburg][Manhattan]Transition_graph.png>
+Package pdftex.def Info: Images/[Brandenburg][Manhattan]Transition_graph.png  u
+sed on input line 38.
+(pdftex.def)             Requested size: 201.99121pt x 202.06041pt.
+<Images/[Saxony][Euclidean]Transition_graph.png, id=502, 642.9621pt x 643.203pt
+>
+File: Images/[Saxony][Euclidean]Transition_graph.png Graphic file (type png)
+<use Images/[Saxony][Euclidean]Transition_graph.png>
+Package pdftex.def Info: Images/[Saxony][Euclidean]Transition_graph.png  used o
+n input line 60.
+(pdftex.def)             Requested size: 201.99121pt x 202.06041pt.
+<Images/[Saxony][Manhattan]Transition_graph.png, id=503, 642.9621pt x 643.203pt
+>
+File: Images/[Saxony][Manhattan]Transition_graph.png Graphic file (type png)
+<use Images/[Saxony][Manhattan]Transition_graph.png>
+Package pdftex.def Info: Images/[Saxony][Manhattan]Transition_graph.png  used o
+n input line 67.
+(pdftex.def)             Requested size: 201.99121pt x 202.06041pt.
+<Images/[Bavaria][Euclidean]Transition_graph.png, id=508, 642.9621pt x 643.203p
+t>
+File: Images/[Bavaria][Euclidean]Transition_graph.png Graphic file (type png)
+<use Images/[Bavaria][Euclidean]Transition_graph.png>
+Package pdftex.def Info: Images/[Bavaria][Euclidean]Transition_graph.png  used 
+on input line 89.
+(pdftex.def)             Requested size: 201.99121pt x 202.06041pt.
+<Images/[Bavaria][Manhattan]Transition_graph.png, id=509, 642.9621pt x 643.203p
+t>
+File: Images/[Bavaria][Manhattan]Transition_graph.png Graphic file (type png)
+<use Images/[Bavaria][Manhattan]Transition_graph.png>
+Package pdftex.def Info: Images/[Bavaria][Manhattan]Transition_graph.png  used 
+on input line 96.
+(pdftex.def)             Requested size: 201.99121pt x 202.06041pt.
+<Images/[Brandenburg][Circular][Euclidean]Sowing_windows.png, id=514, 650.43pt 
+x 650.43pt>
+File: Images/[Brandenburg][Circular][Euclidean]Sowing_windows.png Graphic file 
+(type png)
+<use Images/[Brandenburg][Circular][Euclidean]Sowing_windows.png>
+Package pdftex.def Info: Images/[Brandenburg][Circular][Euclidean]Sowing_window
+s.png  used on input line 189.
+(pdftex.def)             Requested size: 201.99121pt x 201.9885pt.
+<Images/[Brandenburg][Circular][Manhattan]Sowing_windows.png, id=515, 650.43pt 
+x 650.43pt>
+File: Images/[Brandenburg][Circular][Manhattan]Sowing_windows.png Graphic file 
+(type png)
+<use Images/[Brandenburg][Circular][Manhattan]Sowing_windows.png>
+Package pdftex.def Info: Images/[Brandenburg][Circular][Manhattan]Sowing_window
+s.png  used on input line 196.
+(pdftex.def)             Requested size: 201.99121pt x 201.9885pt.
+<Images/[Saxony][Circular][Euclidean]Sowing_windows.png, id=520, 650.43pt x 650
+.43pt>
+File: Images/[Saxony][Circular][Euclidean]Sowing_windows.png Graphic file (type
+ png)
+<use Images/[Saxony][Circular][Euclidean]Sowing_windows.png>
+Package pdftex.def Info: Images/[Saxony][Circular][Euclidean]Sowing_windows.png
+  used on input line 218.
+(pdftex.def)             Requested size: 201.99121pt x 201.9885pt.
+<Images/[Saxony][Circular][Manhattan]Sowing_windows.png, id=521, 650.43pt x 650
+.43pt>
+File: Images/[Saxony][Circular][Manhattan]Sowing_windows.png Graphic file (type
+ png)
+<use Images/[Saxony][Circular][Manhattan]Sowing_windows.png>
+Package pdftex.def Info: Images/[Saxony][Circular][Manhattan]Sowing_windows.png
+  used on input line 225.
+(pdftex.def)             Requested size: 201.99121pt x 201.9885pt.
+<Images/[Bavaria][Circular][Euclidean]Sowing_windows.png, id=526, 650.43pt x 65
+0.43pt>
+File: Images/[Bavaria][Circular][Euclidean]Sowing_windows.png Graphic file (typ
+e png)
+<use Images/[Bavaria][Circular][Euclidean]Sowing_windows.png>
+Package pdftex.def Info: Images/[Bavaria][Circular][Euclidean]Sowing_windows.pn
+g  used on input line 248.
+(pdftex.def)             Requested size: 201.99121pt x 201.9885pt.
+<Images/[Bavaria][Circular][Manhattan]Sowing_windows.png, id=527, 650.43pt x 65
+0.43pt>
+File: Images/[Bavaria][Circular][Manhattan]Sowing_windows.png Graphic file (typ
+e png)
+<use Images/[Bavaria][Circular][Manhattan]Sowing_windows.png>
+Package pdftex.def Info: Images/[Bavaria][Circular][Manhattan]Sowing_windows.pn
+g  used on input line 255.
+(pdftex.def)             Requested size: 201.99121pt x 201.9885pt.
+<Images/[Brandenburg][Euclidean][Raw]average_temperature.png, id=532, 1148.6112
+pt x 497.9403pt>
+File: Images/[Brandenburg][Euclidean][Raw]average_temperature.png Graphic file 
+(type png)
+<use Images/[Brandenburg][Euclidean][Raw]average_temperature.png>
+Package pdftex.def Info: Images/[Brandenburg][Euclidean][Raw]average_temperatur
+e.png  used on input line 280.
+(pdftex.def)             Requested size: 469.75502pt x 203.64778pt.
+<Images/[Brandenburg][Euclidean][CI]average_temperature.png, id=533, 1148.3703p
+t x 497.6994pt>
+File: Images/[Brandenburg][Euclidean][CI]average_temperature.png Graphic file (
+type png)
+<use Images/[Brandenburg][Euclidean][CI]average_temperature.png>
+Package pdftex.def Info: Images/[Brandenburg][Euclidean][CI]average_temperature
+.png  used on input line 292.
+(pdftex.def)             Requested size: 469.75502pt x 203.58722pt.
+<Images/[Brandenburg][Euclidean][Raw]Aggregated_average_temperature.png, id=534
+, 497.9403pt x 496.0131pt>
+File: Images/[Brandenburg][Euclidean][Raw]Aggregated_average_temperature.png Gr
+aphic file (type png)
+<use Images/[Brandenburg][Euclidean][Raw]Aggregated_average_temperature.png>
+Package pdftex.def Info: Images/[Brandenburg][Euclidean][Raw]Aggregated_average
+_temperature.png  used on input line 306.
+(pdftex.def)             Requested size: 225.4804pt x 224.604pt.
+<Images/[Brandenburg][Euclidean][CI]Aggregated_average_temperature.png, id=535,
+ 497.9403pt x 496.0131pt>
+File: Images/[Brandenburg][Euclidean][CI]Aggregated_average_temperature.png Gra
+phic file (type png)
+<use Images/[Brandenburg][Euclidean][CI]Aggregated_average_temperature.png>
+Package pdftex.def Info: Images/[Brandenburg][Euclidean][CI]Aggregated_average_
+temperature.png  used on input line 315.
+(pdftex.def)             Requested size: 225.4804pt x 224.604pt.
 
-Overfull \hbox (12.4557pt too wide) in paragraph at lines 59--59
- [][] 
+
+LaTeX Warning: Float too large for page by 99.29005pt on input line 326.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
  []
 
 
-Overfull \vbox (86.44704pt too high) detected at line 59
- []
-
-<Images/Brandenburg_Manhattan.png, id=501, 500.8311pt x 500.8311pt>
-File: Images/Brandenburg_Manhattan.png Graphic file (type png)
-<use Images/Brandenburg_Manhattan.png>
-Package pdftex.def Info: Images/Brandenburg_Manhattan.png  used on input line 6
-8.
-(pdftex.def)             Requested size: 187.89914pt x 187.89526pt.
-<Images/Saxony_Manhattan.png, id=502, 500.8311pt x 500.8311pt>
-File: Images/Saxony_Manhattan.png Graphic file (type png)
-<use Images/Saxony_Manhattan.png>
-Package pdftex.def Info: Images/Saxony_Manhattan.png  used on input line 75.
-(pdftex.def)             Requested size: 187.89914pt x 187.89526pt.
-<Images/Babaria_Manhattan.png, id=503, 500.8311pt x 500.8311pt>
-File: Images/Babaria_Manhattan.png Graphic file (type png)
-<use Images/Babaria_Manhattan.png>
-Package pdftex.def Info: Images/Babaria_Manhattan.png  used on input line 82.
-(pdftex.def)             Requested size: 187.89914pt x 187.89526pt.
-
-Overfull \hbox (56.12099pt too wide) in paragraph at lines 24--90
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- []
 
-[12 <./Images/Brandenburg_Euclidean.png> <./Images/Saxony_Euclidean.png> <./Ima
-ges/Babaria_Euclidean.png> <./Images/Suitability.png> <./Images/Brandenburg_Man
-hattan.png> <./Images/Saxony_Manhattan.png> <./Images/Babaria_Manhattan.png>])
-[13] (PaperJournals.tex
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [12 <./Images/[Brandenburg][Euclidean]Transition_graph.png> <./Images/[Brande
+nburg][Manhattan]Transition_graph.png>] [13 <./Images/[Saxony][Euclidean]Transi
+tion_graph.png> <./Images/[Saxony][Manhattan]Transition_graph.png> <./Images/[B
+avaria][Euclidean]Transition_graph.png> <./Images/[Bavaria][Manhattan]Transitio
+n_graph.png>] [14 <./Images/[Brandenburg][Circular][Euclidean]Sowing_windows.pn
+g> <./Images/[Brandenburg][Circular][Manhattan]Sowing_windows.png> <./Images/[S
+axony][Circular][Euclidean]Sowing_windows.png> <./Images/[Saxony][Circular][Man
+hattan]Sowing_windows.png>] (PaperJournals.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -2129,7 +2220,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) [14] (Paper.bbl
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [15 <./Images/[Bavaria][Circular][Euclidean]Sowing_windows.png> <./Images/[Ba
+varia][Circular][Manhattan]Sowing_windows.png>] [16 <./Images/[Brandenburg][Euc
+lidean][Raw]average_temperature.png> <./Images/[Brandenburg][Euclidean][CI]aver
+age_temperature.png> <./Images/[Brandenburg][Euclidean][Raw]Aggregated_average_
+temperature.png> <./Images/[Brandenburg][Euclidean][CI]Aggregated_average_tempe
+rature.png>] [17] (Paper.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 5.
 
@@ -2142,9 +2241,9 @@ Underfull \hbox (badness 1297) in paragraph at lines 63--70
 / vg / nuts250 _
  []
 
-[15
+[18
 
-] [16] [17] [18] [19]) [20] (Paper.aux
+] [19] [20] [21] [22]) [23] (Paper.aux
 LaTeX Info: Redefining \. on input line 34.
 LaTeX Info: Redefining \% on input line 34.
 )
@@ -2152,6 +2251,10 @@ LaTeX Info: Redefining \% on input line 34.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Paper.out' has not changed.
 (rerunfilecheck)             Checksum: D4DF48E0648F1421A200DF3C9189D088;3252.
  )
@@ -2160,13 +2263,13 @@ Package rerunfilecheck Info: File `Paper.out' has not changed.
 ### simple group (level 1) entered at line 131 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 39368 strings out of 467867
- 849760 string characters out of 5418334
- 1236612 words of memory out of 5000000
- 67534 multiletter control sequences out of 15000+600000
+ 39485 strings out of 467867
+ 857666 string characters out of 5418334
+ 1239704 words of memory out of 5000000
+ 67642 multiletter control sequences out of 15000+600000
  713501 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,94p,1465b,1499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,15n,94p,1465b,1500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmbx10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmbx7.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public
@@ -2193,9 +2296,9 @@ ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/symbols/msbm7.pfb>
-Output written on Paper.pdf (20 pages, 4112327 bytes).
+Output written on Paper.pdf (23 pages, 20302880 bytes).
 PDF statistics:
- 828 PDF objects out of 1000 (max. 8388607)
- 142 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 878 PDF objects out of 1000 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

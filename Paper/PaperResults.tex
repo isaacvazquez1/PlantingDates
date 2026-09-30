@@ -19,6 +19,95 @@ De esta manera, se obtienen mediciones históricas representativas de las condic
 
 Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícolas: uno empleando la distancia Euclidiana y uno empleando la distancia Manhattan. Lo que permitió la identificación de periodos que favorezcan la siembra, adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos, los cuales se muestran en la Figura \ref{fig:sowing_suitability}
 
+
+% ============================================================
+% Brandenburgo
+% ============================================================
+
+\begin{figure}[htbp]
+	\centering
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Brandenburg][Euclidean]Transition_graph.png}
+		\caption{}
+		\label{fig:brandenburg_euclidean_graph}
+	\end{subfigure}
+	\hspace{0.03\textwidth}
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Brandenburg][Manhattan]Transition_graph.png}
+		\caption{}
+		\label{fig:brandenburg_manhattan_graph}
+	\end{subfigure}
+	
+	
+	\caption{
+		Aptitud diaria para la siembra en Brandenburgo, expresada como la probabilidad de transición $\lambda_k$, $k\in\{1,2,\ldots,365\}$, calculada mediante las distancias Euclidiana y Manhattan. La figura \ref{fig:brandenburg_euclidean_graph} muestra los valores de $\lambda_k$ calculados mediante la distancia Euclidiana, mientras que la figura \ref{fig:brandenburg_manhattan_graph} muestra los valores correspondientes calculados mediante la distancia Manhattan. La progresión del año se expresa en sentido contrario a las manecillas del reloj; en el exterior de la gráfica anular se indican los meses, mientras que en su interior se indican los días del año.
+	}
+	\label{fig:sowing_suitability_brandenburg}
+	
+	
+\end{figure}
+
+% ============================================================
+% Sajonia
+% ============================================================
+
+\begin{figure}[htbp]
+	\centering
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Saxony][Euclidean]Transition_graph.png}
+		\caption{}
+		\label{fig:saxony_euclidean_graph}
+	\end{subfigure}
+	\hspace{0.03\textwidth}
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Saxony][Manhattan]Transition_graph.png}
+		\caption{}
+		\label{fig:saxony_manhattan_graph}
+	\end{subfigure}
+	
+	
+	\caption{
+		Aptitud diaria para la siembra en Sajonia, expresada como la probabilidad de transición $\lambda_k$, $k\in\{1,2,\ldots,365\}$, calculada mediante las distancias Euclidiana y Manhattan. La figura \ref{fig:saxony_euclidean_graph} muestra los valores de $\lambda_k$ calculados mediante la distancia Euclidiana, mientras que la figura \ref{fig:saxony_manhattan_graph} muestra los valores correspondientes calculados mediante la distancia Manhattan. La progresión del año se expresa en sentido contrario a las manecillas del reloj; en el exterior de la gráfica anular se indican los meses, mientras que en su interior se indican los días del año.
+	}
+	\label{fig:sowing_suitability_saxony}
+	
+	
+\end{figure}
+
+% ============================================================
+% Baviera
+% ============================================================
+
+\begin{figure}[htbp]
+	\centering
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Bavaria][Euclidean]Transition_graph.png}
+		\caption{}
+		\label{fig:bavaria_euclidean_graph}
+	\end{subfigure}
+	\hspace{0.03\textwidth}
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Bavaria][Manhattan]Transition_graph.png}
+		\caption{}
+		\label{fig:bavaria_manhattan_graph}
+	\end{subfigure}
+	
+	
+	\caption{
+		Aptitud diaria para la siembra en Baviera, expresada como la probabilidad de transición $\lambda_k$, $k\in\{1,2,\ldots,365\}$, calculada mediante las distancias Euclidiana y Manhattan. La figura \ref{fig:bavaria_euclidean_graph} muestra los valores de $\lambda_k$ calculados mediante la distancia Euclidiana, mientras que la figura \ref{fig:bavaria_manhattan_graph} muestra los valores correspondientes calculados mediante la distancia Manhattan. La progresión del año se expresa en sentido contrario a las manecillas del reloj; en el exterior de la gráfica anular se indican los meses, mientras que en su interior se indican los días del año.
+	}
+	\label{fig:sowing_suitability_bavaria}
+
+	
+\end{figure}
+
+\iffalse
 \begin{figure}[htbp]
 	\centering
 	\begin{tabular}{@{\hspace{-2cm}}c@{\hspace{-0.3cm}}c@{\hspace{-0.3cm}}c@{\hspace{0cm}}c}
@@ -29,34 +118,17 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 		
 		\begin{subfigure}[b]{0.38\textwidth}
 			\centering
-			\includegraphics[width=\textwidth]{Brandenburg_Euclidean.png}
+			\includegraphics[width=\textwidth]{[Brandenburg][Euclidean]Transition_graph.png}
 			\caption{}
-			\label{fig:brandenburg_euclidean}
+			\label{fig:brandenburg_euclidean_graph}
 		\end{subfigure}
 		&
 		\begin{subfigure}[b]{0.38\textwidth}
 			\centering
-			\includegraphics[width=\textwidth]{Saxony_Euclidean.png}
+			\includegraphics[width=\textwidth]{[Brandenburg][Manhattan]Transition_graph.png}
 			\caption{}
-			\label{fig:saxony_euclidean}
+			\label{fig:brandenburg_manhattan_graph}
 		\end{subfigure}
-		&
-		\begin{subfigure}[b]{0.38\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{Babaria_Euclidean.png}
-			\caption{}
-			\label{fig:bavaria_euclidean}
-		\end{subfigure}
-		&
-		\multirow{2}{*}{
-			\begin{subfigure}[t]{0.05\textwidth}
-				\centering
-				\vspace*{-3.5cm}
-				\includegraphics[
-				height=0.31\textheight
-				]{Suitability.png}
-			\end{subfigure}
-		}
 		\\[2mm]
 		
 		% ====================================================
@@ -65,27 +137,33 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 		
 		\begin{subfigure}[b]{0.4\textwidth}
 			\centering
-			\includegraphics[width=\textwidth]{Brandenburg_Manhattan.png}
+			\includegraphics[width=\textwidth]{[Saxony][Euclidean]Transition_graph.png}
 			\caption{}
-			\label{fig:brandenburg_manhattan}
+			\label{fig:saxony_euclidean_graph}
 		\end{subfigure}
 		&
 		\begin{subfigure}[b]{0.4\textwidth}
 			\centering
-			\includegraphics[width=\textwidth]{Saxony_Manhattan.png}
+			\includegraphics[width=\textwidth]{[Saxony][Manhattan]Transition_graph.png}
 			\caption{}
-			\label{fig:saxony_manhattan}
+			\label{fig:saxony_manhattan_graph}
+		\end{subfigure}
+		&
+		\\[2mm]
+		\begin{subfigure}[b]{0.4\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{[Bavaria][Euclidean]Transition_graph.png}
+			\caption{}
+			\label{fig:bavaria_euclidean_graph}
 		\end{subfigure}
 		&
 		\begin{subfigure}[b]{0.4\textwidth}
 			\centering
-			\includegraphics[width=\textwidth]{Babaria_Manhattan.png}
+			\includegraphics[width=\textwidth]{[Bavaria][Manhattan]Transition_graph.png}
 			\caption{}
-			\label{fig:bavaria_manhattan}
+			\label{fig:bavaria_manhattan_graph}
 		\end{subfigure}
 		&
-		\\
-		
 	\end{tabular}
 	
 	\caption{
@@ -93,11 +171,168 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 	}
 	\label{fig:sowing_suitability}
 \end{figure}
+\fi
+
+
+
+
+% ============================================================
+% Brandenburgo
+% ============================================================
+
+\begin{figure}[htbp]
+	\centering
+	
+	
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Brandenburg][Circular][Euclidean]Sowing_windows.png}
+		\caption{}
+		\label{fig:brandenburg_euclidean_sowing_window}
+	\end{subfigure}
+	\hspace{0.03\textwidth}
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Brandenburg][Circular][Manhattan]Sowing_windows.png}
+		\caption{}
+		\label{fig:brandenburg_manhattan_sowing_window}
+	\end{subfigure}
+	
+	\caption{
+		Calendario de los periodos de siembra identificados para Brandenburgo mediante las distancias Euclidiana y Manhattan. Las figuras \ref{fig:brandenburg_euclidean_sowing_window} y \ref{fig:brandenburg_manhattan_sowing_window} muestran los periodos resultantes para cada distancia, respectivamente.
+	}
+	\label{fig:brandenburg_sowing_windows}
+
+	
+\end{figure}
+
+% ============================================================
+% Sajonia
+% ============================================================
+
+\begin{figure}[htbp]
+	\centering
+	
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Saxony][Circular][Euclidean]Sowing_windows.png}
+		\caption{}
+		\label{fig:saxony_euclidean_sowing_window}
+	\end{subfigure}
+	\hspace{0.03\textwidth}
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Saxony][Circular][Manhattan]Sowing_windows.png}
+		\caption{}
+		\label{fig:saxony_manhattan_sowing_window}
+	\end{subfigure}
+	
+	\caption{
+		Calendario de los periodos de siembra identificados para Sajonia mediante las distancias Euclidiana y Manhattan. Las figuras \ref{fig:saxony_euclidean_sowing_window} y \ref{fig:saxony_manhattan_sowing_window} muestran los periodos resultantes para cada distancia, respectivamente.
+	}
+	\label{fig:saxony_sowing_windows}
+	
+	
+\end{figure}
+
+% ============================================================
+% Baviera
+% ============================================================
+
+\begin{figure}[htbp]
+	\centering
+	
+	
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Bavaria][Circular][Euclidean]Sowing_windows.png}
+		\caption{}
+		\label{fig:bavaria_euclidean_sowing_window}
+	\end{subfigure}
+	\hspace{0.03\textwidth}
+	\begin{subfigure}[b]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{[Bavaria][Circular][Manhattan]Sowing_windows.png}
+		\caption{}
+		\label{fig:bavaria_manhattan_sowing_window}
+	\end{subfigure}
+	
+	\caption{
+		Calendario de los periodos de siembra identificados para Baviera mediante las distancias Euclidiana y Manhattan. Las figuras \ref{fig:bavaria_euclidean_sowing_window} y \ref{fig:bavaria_manhattan_sowing_window} muestran los periodos resultantes para cada distancia, respectivamente.
+	}
+	\label{fig:bavaria_sowing_windows}
+	
+	
+\end{figure}
+
+
+
+\begin{figure}[htbp]
+	\centering
+	
+	
+	% ============================================================
+	% Primera fila: Raw
+	% ============================================================
+	\begin{subfigure}[b]{\textwidth}
+	\includegraphics[
+	width=\textwidth
+	]{[Brandenburg][Euclidean][Raw]average_temperature.png}
+	\caption{}
+	\label{fig:brandenburg_euclidean_raw_yearly_temperature}
+	\end{subfigure}
+	\vspace{2mm}
+	
+	% ============================================================
+	% Segunda fila: CI
+	% ============================================================
+	\begin{subfigure}[b]{\textwidth}
+	\includegraphics[
+	width=\textwidth
+	]{[Brandenburg][Euclidean][CI]average_temperature.png}
+	\caption{}
+	\label{fig:brandenburg_euclidean_ci_yearly_temperature}
+	\end{subfigure}
+	\vspace{2mm}
+	
+	% ============================================================
+	% Tercera fila: datos agregados
+	% ============================================================
+	
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[
+		width=\textwidth
+		]{[Brandenburg][Euclidean][Raw]Aggregated_average_temperature.png}
+		\caption{}
+		\label{fig:brandenburg_euclidean_raw_aggregated_temperature}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[
+		width=\textwidth
+		]{[Brandenburg][Euclidean][CI]Aggregated_average_temperature.png}
+		\caption{}
+		\label{fig:brandenburg_euclidean_ci_aggregated_temperature}
+	\end{subfigure}
+	
+	\caption{
+		Temperatura media del aire para Brandenburgo obtenida mediante la distancia Euclidiana. Las dos primeras representaciones muestran los resultados para los datos sin agregar y sus respectivos intervalos de confianza, mientras que las dos representaciones inferiores muestran los resultados agregados para los mismos casos.
+	}
+	\label{fig:brandenburg_euclidean_average_temperature}
+
+	
+\end{figure}
+
 
 
 De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza por una elevada heterogeneidad topográfica, climática y edáfica. En particular, Baviera, Brandemburgo y Sajonia presentan variaciones en humedad, altitud, temperatura y características del suelo, factores que influyen directamente en las prácticas agrícolas y los calendarios de siembra. Esta diversidad de condiciones ambientales permitió someter la metodología propuesta a distintos escenarios espaciales y verifica su capacidad para identificar variaciones en la aptitud de las fechas de siembra y, con ello, evaluar parcialmente su comportamiento bajo condiciones ambientales heterogéneas.\\
 
 
+
+
+\newpage
 \section{Cronograma de actividades}
 
 
