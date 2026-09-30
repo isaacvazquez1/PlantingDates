@@ -288,7 +288,7 @@ $^1$INFOTEC Centro de Investigación e Innovación en Tecnologías de la Informa
 \section*{Methodology}%
 
 
-
+\iffalse
 \begin{center}
 \begin{figure}
     \captionsetup{type=figure}
@@ -297,22 +297,78 @@ $^1$INFOTEC Centro de Investigación e Innovación en Tecnologías de la Informa
     \label{fig:metodo_grafico}               
 \end{figure}
 \end{center}
-
+\fi
 
 \vspace{-1cm}\section*{Results}%
 
 
-\begin{center} 
-\begin{figure}%
-    \centering
-    \subfloat[\centering $p$-value of Kolmogorov-Smirnov test at different population sizes.]{\hspace{-1cm}{\includegraphics[width=0.248\textwidth]{images/Comparative_Moran_GM_p_value_4Cropped.eps}\label{p_values} }}%
-    %\qquad
-    \vspace{-1cm}\subfloat[\centering $\chi^2$ goodness-of-fit for Luria-Delbruck distribution.]{{\includegraphics[width=0.253\textwidth]{images/LD_dist.png}\label{LD_test} }}%
-    \caption{\centering Statistical comparisons.}%
-    \label{fig:KS_test}%
+\begin{figure}
+	\centering
+	\subfloat[
+	\centering $p$-value of Kolmogorov-Smirnov test at different population sizes.
+	]{
+		\hspace{-1.5cm}\includegraphics[
+		width=0.28\textwidth
+		]{images/[Brandenburg][Circular][Euclidean]NO_CI.png}
+	}
+	\subfloat[
+	\centering $\chi^2$ goodness-of-fit for Luria-Delbruck distribution.
+	]{
+		\hspace{-3cm}\includegraphics[
+		width=0.28\textwidth
+		]{images/[Brandenburg][Circular][Manhattan]NO_CI.png}
+	}
+	
+	\caption{Statistical comparisons.}
+	\label{fig:KS_test}
 \end{figure}
-\end{center}
 
+
+\begin{figure}
+	\centering
+	\subfloat[
+	\centering $p$-value of Kolmogorov-Smirnov test at different population sizes.
+	]{
+		\hspace{-1.5cm}\includegraphics[
+		width=0.28\textwidth
+		]{images/[Saxony][Circular][Euclidean]NO_CI.png}
+	}
+	\subfloat[
+	\centering $\chi^2$ goodness-of-fit for Luria-Delbruck distribution.
+	]{
+		\hspace{-3cm}\includegraphics[
+		width=0.28\textwidth
+		]{images/[Saxony][Circular][Manhattan]NO_CI.png}
+	}
+	
+	\caption{Statistical comparisons.}
+	\label{fig:KS_test}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\subfloat[
+	\centering $p$-value of Kolmogorov-Smirnov test at different population sizes.
+	]{
+		\hspace{-1.5cm}\includegraphics[
+		width=0.28\textwidth
+		]{images/[Bavaria][Circular][Euclidean]NO_CI.png}
+	}
+	\subfloat[
+	\centering $\chi^2$ goodness-of-fit for Luria-Delbruck distribution.
+	]{
+		\hspace{-3cm}\includegraphics[
+		width=0.28\textwidth
+		]{images/[Bavaria][Circular][Manhattan]NO_CI.png}
+	}
+	
+	\caption{Statistical comparisons.}
+	\label{fig:KS_test}
+\end{figure}
+
+
+
+\iffalse
 \begin{center} 
 \begin{figure}%
     \centering
@@ -323,7 +379,7 @@ $^1$INFOTEC Centro de Investigación e Innovación en Tecnologías de la Informa
     \label{fig:KS_test}%
 \end{figure}
 \end{center}
-        
+\fi        
 
 
         \iffalse
@@ -371,7 +427,7 @@ $^1$INFOTEC Centro de Investigación e Innovación en Tecnologías de la Informa
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%               End poster            %%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \end{poster}
+\end{poster}
 
 \end{document}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  29 SEP 2026 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  30 SEP 2026 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -933,6 +933,12 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 
 LaTeX Warning: Label `fig:KS_test' multiply defined.
 
+
+LaTeX Warning: Label `fig:KS_test' multiply defined.
+
+
+LaTeX Warning: Label `fig:KS_test' multiply defined.
+
 )
 \openout1 = `poster.aux'.
 
@@ -1014,148 +1020,118 @@ LaTeX Font Info:    Trying to load font information for OT1+zplm on input line
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-Package epstopdf Info: Source file: <images/Graphical-Poster.eps>
-(epstopdf)                    date: 2026-09-29 19:18:24
-(epstopdf)                    size: 1075900 bytes
-(epstopdf)             Output file: <images/Graphical-Poster-eps-converted-to.p
-df>
-(epstopdf)                    date: 2026-09-29 19:22:24
-(epstopdf)                    size: 188281 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/Graphical-Pos
-ter-eps-converted-to.pdf images/Graphical-Poster.eps>
-(epstopdf)             \includegraphics on input line 295.
-Package epstopdf Info: Output file is already uptodate.
-<images/Graphical-Poster-eps-converted-to.pdf, id=6, 394.47375pt x 608.2725pt>
-File: images/Graphical-Poster-eps-converted-to.pdf Graphic file (type pdf)
-<use images/Graphical-Poster-eps-converted-to.pdf>
-Package pdftex.def Info: images/Graphical-Poster-eps-converted-to.pdf  used on 
-input line 295.
-(pdftex.def)             Requested size: 464.30124pt x 715.92526pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
-96.
-
-(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
-File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+<images/[Brandenburg][Circular][Euclidean]NO_CI.png, id=6, 500.8311pt x 500.831
+1pt>
+File: images/[Brandenburg][Circular][Euclidean]NO_CI.png Graphic file (type png
 )
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 25.17491pt on input line 296.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 25.17491pt on input line 296.
-Package epstopdf Info: Source file: <images/Comparative_Moran_GM_p_value_4Cropp
-ed.eps>
-(epstopdf)                    date: 2026-09-29 19:18:24
-(epstopdf)                    size: 71290 bytes
-(epstopdf)             Output file: <images/Comparative_Moran_GM_p_value_4Cropp
-ed-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-09-29 19:22:25
-(epstopdf)                    size: 20363 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/Comparative_M
-oran_GM_p_value_4Cropped-eps-converted-to.pdf images/Comparative_Moran_GM_p_val
-ue_4Cropped.eps>
-(epstopdf)             \includegraphics on input line 308.
-Package epstopdf Info: Output file is already uptodate.
-<images/Comparative_Moran_GM_p_value_4Cropped-eps-converted-to.pdf, id=7, 383.4
-325pt x 293.095pt>
-File: images/Comparative_Moran_GM_p_value_4Cropped-eps-converted-to.pdf Graphic
- file (type pdf)
-<use images/Comparative_Moran_GM_p_value_4Cropped-eps-converted-to.pdf>
-Package pdftex.def Info: images/Comparative_Moran_GM_p_value_4Cropped-eps-conve
-rted-to.pdf  used on input line 308.
-(pdftex.def)             Requested size: 582.14595pt x 445.05284pt.
-LaTeX Font Info:    Calculating math sizes for size <20> on input line 308.
-<images/LD_dist.png, id=8, 1041.8925pt x 782.17218pt>
-File: images/LD_dist.png Graphic file (type png)
-<use images/LD_dist.png>
-Package pdftex.def Info: images/LD_dist.png  used on input line 310.
-(pdftex.def)             Requested size: 593.89418pt x 445.8547pt.
+<use images/[Brandenburg][Circular][Euclidean]NO_CI.png>
+Package pdftex.def Info: images/[Brandenburg][Circular][Euclidean]NO_CI.png  us
+ed on input line 313.
+(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
+LaTeX Font Info:    Calculating math sizes for size <20> on input line 313.
+<images/[Brandenburg][Circular][Manhattan]NO_CI.png, id=8, 500.8311pt x 500.831
+1pt>
+File: images/[Brandenburg][Circular][Manhattan]NO_CI.png Graphic file (type png
+)
+<use images/[Brandenburg][Circular][Manhattan]NO_CI.png>
+Package pdftex.def Info: images/[Brandenburg][Circular][Manhattan]NO_CI.png  us
+ed on input line 320.
+(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 311.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (41.36371pt too wide) in paragraph at lines 308--311
- [][][] 
+Overfull \hbox (93.5005pt too wide) in paragraph at lines 313--321
+ [][][][] 
  []
 
-Package epstopdf Info: Source file: <images/Hist-Mutators.eps>
-(epstopdf)                    date: 2026-09-29 19:18:24
-(epstopdf)                    size: 4250 bytes
-(epstopdf)             Output file: <images/Hist-Mutators-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2026-09-29 19:22:26
-(epstopdf)                    size: 6442 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/Hist-Mutators
--eps-converted-to.pdf images/Hist-Mutators.eps>
-(epstopdf)             \includegraphics on input line 319.
-Package epstopdf Info: Output file is already uptodate.
-<images/Hist-Mutators-eps-converted-to.pdf, id=10, 619.31375pt x 471.7625pt>
-File: images/Hist-Mutators-eps-converted-to.pdf Graphic file (type pdf)
-<use images/Hist-Mutators-eps-converted-to.pdf>
-Package pdftex.def Info: images/Hist-Mutators-eps-converted-to.pdf  used on inp
-ut line 319.
-(pdftex.def)             Requested size: 582.14595pt x 443.4928pt.
-Package epstopdf Info: Source file: <images/Hist-Mutants-Mutator-Phenotype.eps>
-
-(epstopdf)                    date: 2026-09-29 19:18:24
-(epstopdf)                    size: 3889 bytes
-(epstopdf)             Output file: <images/Hist-Mutants-Mutator-Phenotype-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2026-09-29 19:22:27
-(epstopdf)                    size: 6273 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/Hist-Mutants-
-Mutator-Phenotype-eps-converted-to.pdf images/Hist-Mutants-Mutator-Phenotype.ep
-s>
-(epstopdf)             \includegraphics on input line 321.
-Package epstopdf Info: Output file is already uptodate.
-<images/Hist-Mutants-Mutator-Phenotype-eps-converted-to.pdf, id=11, 619.31375pt
- x 471.7625pt>
-File: images/Hist-Mutants-Mutator-Phenotype-eps-converted-to.pdf Graphic file (
-type pdf)
-<use images/Hist-Mutants-Mutator-Phenotype-eps-converted-to.pdf>
-Package pdftex.def Info: images/Hist-Mutants-Mutator-Phenotype-eps-converted-to
-.pdf  used on input line 321.
-(pdftex.def)             Requested size: 586.83809pt x 447.06325pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 322.
 See the caption package documentation for explanation.
 
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
+22.
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 25.17491pt on input line 322.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 25.17491pt on input line 322.
+<images/[Saxony][Circular][Euclidean]NO_CI.png, id=9, 500.8311pt x 500.8311pt>
+File: images/[Saxony][Circular][Euclidean]NO_CI.png Graphic file (type png)
+<use images/[Saxony][Circular][Euclidean]NO_CI.png>
+Package pdftex.def Info: images/[Saxony][Circular][Euclidean]NO_CI.png  used on
+ input line 335.
+(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
+<images/[Saxony][Circular][Manhattan]NO_CI.png, id=10, 500.8311pt x 500.8311pt>
 
-Overfull \hbox (34.30762pt too wide) in paragraph at lines 319--322
- [][][] 
+File: images/[Saxony][Circular][Manhattan]NO_CI.png Graphic file (type png)
+<use images/[Saxony][Circular][Manhattan]NO_CI.png>
+Package pdftex.def Info: images/[Saxony][Circular][Manhattan]NO_CI.png  used on
+ input line 342.
+(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
+
+Overfull \hbox (93.5005pt too wide) in paragraph at lines 335--343
+ [][][][] 
  []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 344.
+See the caption package documentation for explanation.
+
+<images/[Bavaria][Circular][Euclidean]NO_CI.png, id=11, 500.8311pt x 500.8311pt
+>
+File: images/[Bavaria][Circular][Euclidean]NO_CI.png Graphic file (type png)
+<use images/[Bavaria][Circular][Euclidean]NO_CI.png>
+Package pdftex.def Info: images/[Bavaria][Circular][Euclidean]NO_CI.png  used o
+n input line 356.
+(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
+<images/[Bavaria][Circular][Manhattan]NO_CI.png, id=12, 500.8311pt x 500.8311pt
+>
+File: images/[Bavaria][Circular][Manhattan]NO_CI.png Graphic file (type png)
+<use images/[Bavaria][Circular][Manhattan]NO_CI.png>
+Package pdftex.def Info: images/[Bavaria][Circular][Manhattan]NO_CI.png  used o
+n input line 363.
+(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
+
+Overfull \hbox (93.5005pt too wide) in paragraph at lines 356--364
+ [][][][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 365.
+See the caption package documentation for explanation.
 
 (poster.bbl
 LaTeX Font Info:    Calculating math sizes for size <18> on input line 24.
 )
-<images/[Logo] INFOTEC.png, id=12, 343.2825pt x 254.1495pt>
+<images/[Logo] INFOTEC.png, id=13, 343.2825pt x 254.1495pt>
 File: images/[Logo] INFOTEC.png Graphic file (type png)
 <use images/[Logo] INFOTEC.png>
-Package pdftex.def Info: images/[Logo] INFOTEC.png  used on input line 374.
+Package pdftex.def Info: images/[Logo] INFOTEC.png  used on input line 430.
 (pdftex.def)             Requested size: 343.28165pt x 254.14888pt.
-LaTeX Font Info:    Calculating math sizes for size <32> on input line 374.
+LaTeX Font Info:    Calculating math sizes for size <32> on input line 430.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 60.7998pt on input line 374.
+(Font)              scaled to size 60.7998pt on input line 430.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 60.7998pt on input line 374.
+(Font)              scaled to size 60.7998pt on input line 430.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 39.89987pt on input line 374.
+(Font)              scaled to size 39.89987pt on input line 430.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 39.89987pt on input line 374.
-LaTeX Font Info:    Calculating math sizes for size <42> on input line 374.
+(Font)              scaled to size 39.89987pt on input line 430.
+LaTeX Font Info:    Calculating math sizes for size <42> on input line 430.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 32.2999pt on input line 374.
-LaTeX Font Info:    Calculating math sizes for size <34> on input line 374.
+(Font)              scaled to size 32.2999pt on input line 430.
+LaTeX Font Info:    Calculating math sizes for size <34> on input line 430.
 
 Runaway argument?
 {
 ! Paragraph ended before \Gin@ii was complete.
 <to be read again> 
                    \par 
-l.374     \end{poster}
-                      
+l.430 \end{poster}
+                  
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
@@ -1163,8 +1139,8 @@ My plan is to forget the whole thing and hope for the best.
 ! Extra }, or forgotten \endgroup.
 <argument> \includegraphics {\par }
                                    
-l.374     \end{poster}
-                      
+l.430 \end{poster}
+                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1178,8 +1154,8 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.374     \end{poster}
-                      
+l.430 \end{poster}
+                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1194,10 +1170,11 @@ Package fancyhdr Warning: \headheight is too small (530.0pt):
 [1{C:/Users/amigo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/am
 igo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
- <./images/[Logo] INFOTEC.png> <./images/Graphical-Poster-eps-converted-to.pdf>
- <./images/Comparative_Moran_GM_p_value_4Cropped-eps-converted-to.pdf> <./image
-s/LD_dist.png> <./images/Hist-Mutators-eps-converted-to.pdf> <./images/Hist-Mut
-ants-Mutator-Phenotype-eps-converted-to.pdf>] (poster.aux)
+ <./images/[Logo] INFOTEC.png> <./images/[Brandenburg][Circular][Euclidean]NO_C
+I.png> <./images/[Brandenburg][Circular][Manhattan]NO_CI.png> <./images/[Saxony
+][Circular][Euclidean]NO_CI.png> <./images/[Saxony][Circular][Manhattan]NO_CI.p
+ng> <./images/[Bavaria][Circular][Euclidean]NO_CI.png> <./images/[Bavaria][Circ
+ular][Manhattan]NO_CI.png>] (poster.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1210,9 +1187,9 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26126 strings out of 467867
- 506086 string characters out of 5418334
- 1030880 words of memory out of 5000000
+ 26128 strings out of 467867
+ 506552 string characters out of 5418334
+ 1031716 words of memory out of 5000000
  54517 multiletter control sequences out of 15000+600000
  694552 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1226,9 +1203,9 @@ pe1/urw/helvetic/uhvb8a.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts
 nts/type1/urw/palatino/uplb8a.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/amigo/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on poster.pdf (1 page, 580695 bytes).
+Output written on poster.pdf (1 page, 2814816 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
