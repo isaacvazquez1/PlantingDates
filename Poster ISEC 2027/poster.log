@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  30 SEP 2026 17:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  5 OCT 2026 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -936,9 +936,6 @@ LaTeX Warning: Label `fig:KS_test' multiply defined.
 
 LaTeX Warning: Label `fig:KS_test' multiply defined.
 
-
-LaTeX Warning: Label `fig:KS_test' multiply defined.
-
 )
 \openout1 = `poster.aux'.
 
@@ -995,142 +992,168 @@ Package hyperref Info: Link coloring OFF on input line 93.
 \@outlinefile=\write4
 \openout4 = `poster.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 217.
+<images/[Map]German_maize.png, id=6, 553.5882pt x 565.1514pt>
+File: images/[Map]German_maize.png Graphic file (type png)
+<use images/[Map]German_maize.png>
+Package pdftex.def Info: images/[Map]German_maize.png  used on input line 122.
+(pdftex.def)             Requested size: 418.07057pt x 426.79134pt.
+LaTeX Font Info:    Calculating math sizes for size <20> on input line 122.
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-217.
+122.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-217.
+122.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-217.
+122.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-217.
+122.
 
 (C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-<images/[Brandenburg][Circular][Euclidean]NO_CI.png, id=6, 500.8311pt x 500.831
+<images/[Historical]Sowing_dates.png, id=8, 366.6498pt x 302.8113pt>
+File: images/[Historical]Sowing_dates.png Graphic file (type png)
+<use images/[Historical]Sowing_dates.png>
+Package pdftex.def Info: images/[Historical]Sowing_dates.png  used on input lin
+e 127.
+(pdftex.def)             Requested size: 516.81401pt x 426.79134pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 129.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+29.
+(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 25.17491pt on input line 129.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 25.17491pt on input line 129.
+LaTeX Font Info:    Calculating math sizes for size <26.5> on input line 323.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 426.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 491.
+See the caption package documentation for explanation.
+
+<images/[Brandenburg][Circular][Euclidean]NO_CI.png, id=9, 500.8311pt x 500.831
 1pt>
 File: images/[Brandenburg][Circular][Euclidean]NO_CI.png Graphic file (type png
 )
 <use images/[Brandenburg][Circular][Euclidean]NO_CI.png>
 Package pdftex.def Info: images/[Brandenburg][Circular][Euclidean]NO_CI.png  us
-ed on input line 313.
-(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
-LaTeX Font Info:    Calculating math sizes for size <20> on input line 313.
-<images/[Brandenburg][Circular][Manhattan]NO_CI.png, id=8, 500.8311pt x 500.831
-1pt>
+ed on input line 626.
+(pdftex.def)             Requested size: 483.71167pt x 483.69684pt.
+<images/[Brandenburg][Circular][Manhattan]NO_CI.png, id=10, 500.8311pt x 500.83
+11pt>
 File: images/[Brandenburg][Circular][Manhattan]NO_CI.png Graphic file (type png
 )
 <use images/[Brandenburg][Circular][Manhattan]NO_CI.png>
 Package pdftex.def Info: images/[Brandenburg][Circular][Manhattan]NO_CI.png  us
-ed on input line 320.
-(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
+ed on input line 633.
+(pdftex.def)             Requested size: 483.71167pt x 483.69684pt.
+<images/Sowing suitability.png, id=11, 46.9755pt x 339.669pt>
+File: images/Sowing suitability.png Graphic file (type png)
+<use images/Sowing suitability.png>
+Package pdftex.def Info: images/Sowing suitability.png  used on input line 638.
 
-Overfull \hbox (93.5005pt too wide) in paragraph at lines 313--321
- [][][][] 
- []
-
+(pdftex.def)             Requested size: 55.09084pt x 398.33858pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 322.
+(caption)                particular \caption on input line 639.
 See the caption package documentation for explanation.
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
-22.
-(C:\Users\amigo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
-File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-)
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 25.17491pt on input line 322.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 25.17491pt on input line 322.
-<images/[Saxony][Circular][Euclidean]NO_CI.png, id=9, 500.8311pt x 500.8311pt>
+<images/[Saxony][Circular][Euclidean]NO_CI.png, id=12, 500.8311pt x 500.8311pt>
+
 File: images/[Saxony][Circular][Euclidean]NO_CI.png Graphic file (type png)
 <use images/[Saxony][Circular][Euclidean]NO_CI.png>
 Package pdftex.def Info: images/[Saxony][Circular][Euclidean]NO_CI.png  used on
- input line 335.
-(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
-<images/[Saxony][Circular][Manhattan]NO_CI.png, id=10, 500.8311pt x 500.8311pt>
+ input line 652.
+(pdftex.def)             Requested size: 483.71167pt x 483.69684pt.
+<images/[Saxony][Circular][Manhattan]NO_CI.png, id=13, 500.8311pt x 500.8311pt>
 
 File: images/[Saxony][Circular][Manhattan]NO_CI.png Graphic file (type png)
 <use images/[Saxony][Circular][Manhattan]NO_CI.png>
 Package pdftex.def Info: images/[Saxony][Circular][Manhattan]NO_CI.png  used on
- input line 342.
-(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
+ input line 659.
+(pdftex.def)             Requested size: 483.71167pt x 483.69684pt.
+File: images/Sowing suitability.png Graphic file (type png)
+<use images/Sowing suitability.png>
+Package pdftex.def Info: images/Sowing suitability.png  used on input line 664.
 
-Overfull \hbox (93.5005pt too wide) in paragraph at lines 335--343
- [][][][] 
- []
-
+(pdftex.def)             Requested size: 55.09084pt x 398.33858pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 344.
+(caption)                particular \caption on input line 665.
 See the caption package documentation for explanation.
 
-<images/[Bavaria][Circular][Euclidean]NO_CI.png, id=11, 500.8311pt x 500.8311pt
+<images/[Bavaria][Circular][Euclidean]NO_CI.png, id=14, 500.8311pt x 500.8311pt
 >
 File: images/[Bavaria][Circular][Euclidean]NO_CI.png Graphic file (type png)
 <use images/[Bavaria][Circular][Euclidean]NO_CI.png>
 Package pdftex.def Info: images/[Bavaria][Circular][Euclidean]NO_CI.png  used o
-n input line 356.
-(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
-<images/[Bavaria][Circular][Manhattan]NO_CI.png, id=12, 500.8311pt x 500.8311pt
+n input line 677.
+(pdftex.def)             Requested size: 483.71167pt x 483.69684pt.
+<images/[Bavaria][Circular][Manhattan]NO_CI.png, id=15, 500.8311pt x 500.8311pt
 >
 File: images/[Bavaria][Circular][Manhattan]NO_CI.png Graphic file (type png)
 <use images/[Bavaria][Circular][Manhattan]NO_CI.png>
 Package pdftex.def Info: images/[Bavaria][Circular][Manhattan]NO_CI.png  used o
-n input line 363.
-(pdftex.def)             Requested size: 657.25578pt x 657.27808pt.
+n input line 684.
+(pdftex.def)             Requested size: 483.71167pt x 483.69684pt.
+File: images/Sowing suitability.png Graphic file (type png)
+<use images/Sowing suitability.png>
+Package pdftex.def Info: images/Sowing suitability.png  used on input line 689.
 
-Overfull \hbox (93.5005pt too wide) in paragraph at lines 356--364
- [][][][] 
- []
-
+(pdftex.def)             Requested size: 55.09084pt x 398.33858pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 365.
+(caption)                particular \caption on input line 690.
 See the caption package documentation for explanation.
 
 (poster.bbl
 LaTeX Font Info:    Calculating math sizes for size <18> on input line 24.
 )
-<images/[Logo] INFOTEC.png, id=13, 343.2825pt x 254.1495pt>
+<images/[Logo] INFOTEC.png, id=16, 343.2825pt x 254.1495pt>
 File: images/[Logo] INFOTEC.png Graphic file (type png)
 <use images/[Logo] INFOTEC.png>
-Package pdftex.def Info: images/[Logo] INFOTEC.png  used on input line 430.
+Package pdftex.def Info: images/[Logo] INFOTEC.png  used on input line 755.
 (pdftex.def)             Requested size: 343.28165pt x 254.14888pt.
-LaTeX Font Info:    Calculating math sizes for size <32> on input line 430.
+LaTeX Font Info:    Calculating math sizes for size <32> on input line 755.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 60.7998pt on input line 430.
+(Font)              scaled to size 60.7998pt on input line 755.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 60.7998pt on input line 430.
+(Font)              scaled to size 60.7998pt on input line 755.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 39.89987pt on input line 430.
+(Font)              scaled to size 39.89987pt on input line 755.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 39.89987pt on input line 430.
-LaTeX Font Info:    Calculating math sizes for size <42> on input line 430.
+(Font)              scaled to size 39.89987pt on input line 755.
+LaTeX Font Info:    Calculating math sizes for size <42> on input line 755.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 32.2999pt on input line 430.
-LaTeX Font Info:    Calculating math sizes for size <34> on input line 430.
+(Font)              scaled to size 32.2999pt on input line 755.
+LaTeX Font Info:    Calculating math sizes for size <34> on input line 755.
 
 Runaway argument?
 {
 ! Paragraph ended before \Gin@ii was complete.
 <to be read again> 
                    \par 
-l.430 \end{poster}
+l.755 \end{poster}
                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1139,7 +1162,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Extra }, or forgotten \endgroup.
 <argument> \includegraphics {\par }
                                    
-l.430 \end{poster}
+l.755 \end{poster}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1154,7 +1177,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.430 \end{poster}
+l.755 \end{poster}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1170,11 +1193,17 @@ Package fancyhdr Warning: \headheight is too small (530.0pt):
 [1{C:/Users/amigo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/am
 igo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
- <./images/[Logo] INFOTEC.png> <./images/[Brandenburg][Circular][Euclidean]NO_C
-I.png> <./images/[Brandenburg][Circular][Manhattan]NO_CI.png> <./images/[Saxony
-][Circular][Euclidean]NO_CI.png> <./images/[Saxony][Circular][Manhattan]NO_CI.p
-ng> <./images/[Bavaria][Circular][Euclidean]NO_CI.png> <./images/[Bavaria][Circ
-ular][Manhattan]NO_CI.png>] (poster.aux)
+ <./images/[Logo] INFOTEC.png> <./images/[Map]German_maize.png> <./images/[Hist
+orical]Sowing_dates.png> <./images/[Brandenburg][Circular][Euclidean]NO_CI.png>
+ <./images/[Brandenburg][Circular][Manhattan]NO_CI.png> <./images/Sowing suitab
+ility.png> <./images/[Saxony][Circular][Euclidean]NO_CI.png> <./images/[Saxony]
+[Circular][Manhattan]NO_CI.png> <./images/[Bavaria][Circular][Euclidean]NO_CI.p
+ng> <./images/[Bavaria][Circular][Manhattan]NO_CI.png>] (poster.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1187,13 +1216,13 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26128 strings out of 467867
- 506552 string characters out of 5418334
- 1031716 words of memory out of 5000000
- 54517 multiletter control sequences out of 15000+600000
- 694552 words of font info for 194 fonts, out of 8000000 for 9000
+ 26189 strings out of 467867
+ 507896 string characters out of 5418334
+ 1045567 words of memory out of 5000000
+ 54555 multiletter control sequences out of 15000+600000
+ 706169 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 132i,19n,135p,487b,1024s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 132i,19n,135p,526b,1179s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmr10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1203,9 +1232,9 @@ pe1/urw/helvetic/uhvb8a.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts
 nts/type1/urw/palatino/uplb8a.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/amigo/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on poster.pdf (1 page, 2814816 bytes).
+Output written on poster.pdf (1 page, 3533235 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
