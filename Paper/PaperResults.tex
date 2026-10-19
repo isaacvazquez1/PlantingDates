@@ -294,7 +294,7 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 
 
 
-\iffalse
+
 
 
 %################################
@@ -1762,7 +1762,7 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 	\end{subfigure}
 	
 	\caption{
-		Temperatura media del aire para Bavariao obtenida mediante la distancia Euclidiana. Las dos primeras representaciones muestran los resultados para los datos sin agregar y sus respectivos intervalos de confianza, mientras que las dos representaciones inferiores muestran los resultados agregados para los mismos casos.
+		Temperatura media del aire para Bavaria obtenida mediante la distancia Euclidiana. Las dos primeras representaciones muestran los resultados para los datos sin agregar y sus respectivos intervalos de confianza, mientras que las dos representaciones inferiores muestran los resultados agregados para los mismos casos.
 	}
 	\label{fig:bavaria_Manhattan_soil_temperature_5cm}
 	
@@ -1772,7 +1772,7 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 
 
 
-\fi
+
 
 
 
@@ -1809,6 +1809,31 @@ De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza 
 	\end{tabular}
 	\caption{Periodos de siembra}
 \end{table}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{[Brandenburg][Visual]Sowing_windows.png}
+	\caption{Comparaciones para Brandenburgo.}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{[NorthSaxony][Visual]Sowing_windows.png}
+	\caption{Comparaciones para el norte de Sajonia.}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{[SouthSaxony][Visual]Sowing_windows.png}
+	\caption{Comparaciones para el sur de Sajonia.}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{[Bavaria][Visual]Sowing_windows.png}
+	\caption{Comparaciones para Baviera.}
+\end{figure}
 
 % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
@@ -1948,8 +1973,42 @@ De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza 
 \end{table}
 
 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+	\centering
+	\begin{tabular}{llllll}
+		\hline
+		\multicolumn{6}{l}{\textbf{Brandenburg}}                                                                                                                                                                                                                                                                                                                                                \\ \hline
+		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Climate\\ scenario\end{tabular}}}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Sowing\\ window\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{l}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Historical\\ (1975--2010)\end{tabular}}                    & \multicolumn{1}{l|}{79--120}                                                                           & \multicolumn{1}{l|}{0.4054}                  & \multicolumn{1}{l|}{0.3636}                 & \multicolumn{1}{l|}{0.538462}                & 0.5178                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP4.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{48--110}                                                                           & \multicolumn{1}{l|}{0.7605}                  & \multicolumn{1}{l|}{0.6206}                 & \multicolumn{1}{l|}{0.603175}                & 0.6825                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP8.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{38--107}                                                                           & \multicolumn{1}{l|}{0.6708}                  & \multicolumn{1}{l|}{0.5578}                 & \multicolumn{1}{l|}{0.542857}                & 0.61428                \\ \hline
+		&                                                                                                        &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Saxony}}                                                                                                                                                                                                                                                                                                                                                     \\ \hline
+		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Climate\\ scenario\end{tabular}}}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Sowing\\ window\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Historical\\ (1975--2010)\end{tabular}}                    & \multicolumn{1}{l|}{79--120}                                                                           & \multicolumn{1}{l|}{0.3333}                  & \multicolumn{1}{l|}{0.4411}                 & \multicolumn{1}{l|}{0.5166}                  & 0.4920                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP4.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{48--110}                                                                           & \multicolumn{1}{l|}{0.1237}                  & \multicolumn{1}{l|}{0.2020}                 & \multicolumn{1}{l|}{0.2307}                  & 0.2234                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP8.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{38--107}                                                                           & \multicolumn{1}{l|}{0.0841}                  & \multicolumn{1}{l|}{0.1559}                 & \multicolumn{1}{l|}{0.1782}                  & 0.1730                 \\ \hline
+		&                                                                                                        &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Bavaria}}                                                                                                                                                                                                                                                                                                                                                    \\ \hline
+		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Climate\\ scenario\end{tabular}}}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Sowing\\ window\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Historical\\ (1975--2010)\end{tabular}}                    & \multicolumn{1}{l|}{79--120}                                                                           & \multicolumn{1}{l|}{0.5000}                  & \multicolumn{1}{l|}{0.5714}                 & \multicolumn{1}{l|}{0.5714}                  & 0.6590                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP4.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{48--110}                                                                           & \multicolumn{1}{l|}{0.1666}                  & \multicolumn{1}{l|}{0.2083}                 & \multicolumn{1}{l|}{0.2083}                  & 0.2533                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP8.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{38--107}                                                                           & \multicolumn{1}{l|}{0.1097}                  & \multicolumn{1}{l|}{0.1463}                 & \multicolumn{1}{l|}{0.1463}                  & 0.1882                 \\ \hline
+	\end{tabular}
+\end{table}
+
 \newpage
 \newpage
+\clearpage
 \section{Cronograma de actividades}
 
 
