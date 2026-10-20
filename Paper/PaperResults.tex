@@ -17,7 +17,7 @@ De esta manera, se obtienen mediciones históricas representativas de las condic
 \end{figure}
 
 
-Al aplicar lo anterior, para cada estado considerado, se construyen los diagramas de transición asociados a las cadenas de Markov, ver Figura \ref{Transicion}. Al tomar las probabilidades de transición como pesos que modulan la aptitud para la siembra diaria, se tienen gráficas dirigida con pesos, ver Figuras \ref{fig:sowing_suitability_brandenburg, fig:sowing_suitability_saxony, fig:sowing_suitability_bavaria}.
+Al aplicar lo anterior, para cada estado considerado, se construyen los diagramas de transición asociados a las cadenas de Markov, ver Figura \ref{Transicion}. Al tomar las probabilidades de transición como pesos que modulan la aptitud para la siembra diaria, se tienen gráficas dirigida con pesos, ver Figuras \ref{fig:sowing_suitability_brandenburg}, \ref{fig:sowing_suitability_saxony} y \ref{fig:sowing_suitability_bavaria}.
 
 % ============================================================
 % Brandenburgo
@@ -38,7 +38,12 @@ Al aplicar lo anterior, para cada estado considerado, se construyen los diagrama
 		\caption{}
 		\label{fig:brandenburg_manhattan_graph}
 	\end{subfigure}
-	
+	\begin{subfigure}[b]{0.09\textwidth}
+		\centering
+		\raisebox{1.5cm}{%
+			\includegraphics[width=0.6\textwidth]{Transition_probability.png}
+		}
+	\end{subfigure}
 	
 	\caption{
 		Aptitud diaria para la siembra en Brandenburgo, expresada como la probabilidad de transición $\lambda_k$, $k\in\{1,2,\ldots,365\}$, calculada mediante las distancias Euclidiana y Manhattan. La figura \ref{fig:brandenburg_euclidean_graph} muestra los valores de $\lambda_k$ calculados mediante la distancia Euclidiana, mientras que la figura \ref{fig:brandenburg_manhattan_graph} muestra los valores correspondientes calculados mediante la distancia Manhattan. La progresión del año se expresa en sentido contrario a las manecillas del reloj; en el exterior de la gráfica anular se indican los meses, mientras que en su interior se indican los días del año.
@@ -67,7 +72,12 @@ Al aplicar lo anterior, para cada estado considerado, se construyen los diagrama
 		\caption{}
 		\label{fig:saxony_manhattan_graph}
 	\end{subfigure}
-	
+	\begin{subfigure}[b]{0.09\textwidth}
+		\centering
+		\raisebox{1.5cm}{%
+			\includegraphics[width=0.6\textwidth]{Transition_probability.png}
+		}
+	\end{subfigure}
 	
 	\caption{
 		Aptitud diaria para la siembra en Sajonia, expresada como la probabilidad de transición $\lambda_k$, $k\in\{1,2,\ldots,365\}$, calculada mediante las distancias Euclidiana y Manhattan. La figura \ref{fig:saxony_euclidean_graph} muestra los valores de $\lambda_k$ calculados mediante la distancia Euclidiana, mientras que la figura \ref{fig:saxony_manhattan_graph} muestra los valores correspondientes calculados mediante la distancia Manhattan. La progresión del año se expresa en sentido contrario a las manecillas del reloj; en el exterior de la gráfica anular se indican los meses, mientras que en su interior se indican los días del año.
@@ -98,7 +108,7 @@ Al aplicar lo anterior, para cada estado considerado, se construyen los diagrama
 	\end{subfigure}
 	\begin{subfigure}[b]{0.09\textwidth}
 		\centering
-		\raisebox{1cm}{%
+		\raisebox{1.5cm}{%
 			\includegraphics[width=0.6\textwidth]{Transition_probability.png}
 		}
 	\end{subfigure}
@@ -113,7 +123,7 @@ Al aplicar lo anterior, para cada estado considerado, se construyen los diagrama
 
 \newpage
 
-Al aplicar el criterio empírico de permanencia descrito en la Sección \ref{Sec:Methods} a las gráficas dirigidas correspondientes a cada estado, se obtuvieron calendarios de siembra de maíz para cada una de las distancias consideradas. A partir de los parámetros establecidos previamente, se identificaron los periodos regionales de siembra en cada región, los cuales se presentan en las Figuras \ref{fig:brandenburg_sowing_windows, fig:saxony_sowing_windows, fig:bavaria_sowing_windows}.
+Al aplicar el criterio empírico de permanencia descrito en la Sección \ref{Sec:Methods} a las gráficas dirigidas correspondientes a cada estado, se obtuvieron calendarios de siembra de maíz para cada una de las distancias consideradas. A partir de los parámetros establecidos previamente, se identificaron los periodos regionales de siembra en cada región, los cuales se presentan en las Figuras \ref{fig:brandenburg_sowing_windows}, \ref{fig:saxony_sowing_windows} y \ref{fig:bavaria_sowing_windows}.
 
 
 
@@ -236,6 +246,270 @@ Al aplicar el criterio empírico de permanencia descrito en la Sección \ref{Sec
 
 
 
+Para cada una de las distancias consideradas, los periodos de siembra identificados se presentan en la Tabla \ref{Tab:Sowing_windows}. Las predicciones obtenidas mediante una única aplicación directa del criterio empírico de permanencia se identifican como Raw prediction. Por su parte, CI prediction corresponde al conjunto de días del año cuyos intervalos de confianza, estimados mediante bootstrap o jackknife a partir de 5000 réplicas por día, contienen el umbral de aptitud $0.7^{13}$ o se sitúan por encima de este. Finalmente, como referencia temporal, los resultados se presentan por separado para cada semestre del año.\\
+
+
+\begin{table}[!h]
+	\centering
+	\begin{tabular}{cclll}
+		\hline
+		\multicolumn{5}{l}{\textbf{Brandenburg}}                                                                                                                                                                                                                                                                                                                                 \\ \hline
+		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{Semester}}} & \multicolumn{4}{c}{\textbf{Sowing windows}}                                                                                                                                                                                                                                                                    \\ \cline{2-5} 
+		\multicolumn{1}{c|}{}                                   & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                                                                                                                                            & \multicolumn{2}{c}{\textbf{Manhattan}}                                                    \\ \cline{2-5} 
+		\multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{\textbf{Raw prediction}}                                                    & \multicolumn{1}{c|}{\textbf{CI prediction}}                                                                      & \multicolumn{1}{c|}{\textbf{Raw prediction}} & \multicolumn{1}{c}{\textbf{CI prediction}} \\ \hline
+		\multicolumn{1}{c|}{\textbf{1}}                         & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}55--108, 123--125,\\ 137, 139--142\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}55--108, 115, 117,\\ 121--127, 130--131,\\ 135--147\end{tabular}} & \multicolumn{1}{l|}{69--106}                 & 64--65, 67--107                            \\ \hline
+		\multicolumn{1}{c|}{\textbf{2}}                         & \multicolumn{1}{l|}{271--310}                                                                   & \multicolumn{1}{l|}{271--310, 312, 314}                                                                          & \multicolumn{1}{l|}{273--304}                & 271--305                                   \\ \hline
+		\multicolumn{1}{l}{}                                    & \multicolumn{1}{l}{}                                                                            &                                                                                                                  &                                              &                                            \\ \hline
+		\multicolumn{5}{l}{\textbf{Saxony}}                                                                                                                                                                                                                                                                                                                                      \\ \hline
+		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{Semester}}} & \multicolumn{4}{c}{\textbf{Sowing windows}}                                                                                                                                                                                                                                                                    \\ \cline{2-5} 
+		\multicolumn{1}{c|}{}                                   & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                                                                                                                                            & \multicolumn{2}{c}{\textbf{Manhattan}}                                                    \\ \cline{2-5} 
+		\multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{\textbf{Raw prediction}}                                                    & \multicolumn{1}{c|}{\textbf{CI prediction}}                                                                      & \multicolumn{1}{c|}{\textbf{Raw prediction}} & \multicolumn{1}{c}{\textbf{CI prediction}} \\ \hline
+		\multicolumn{1}{c|}{\textbf{1}}                         & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}93, 96, 99,\\ 102--143, 145\end{tabular}}        & \multicolumn{1}{l|}{90, 92--145, 147}                                                                            & \multicolumn{1}{l|}{90--137, 139}            & 90--140, 142                               \\ \hline
+		\multicolumn{1}{c|}{\textbf{2}}                         & \multicolumn{1}{l|}{262--274, 276}                                                              & \multicolumn{1}{l|}{260, 262--276}                                                                               & \multicolumn{1}{l|}{262--276}                & 261--276                                   \\ \hline
+		\multicolumn{1}{l}{}                                    & \multicolumn{1}{l}{}                                                                            &                                                                                                                  &                                              &                                            \\ \hline
+		\multicolumn{5}{l}{\textbf{Bavaria}}                                                                                                                                                                                                                                                                                                                                     \\ \hline
+		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{Semester}}} & \multicolumn{4}{c}{\textbf{Sowing windows}}                                                                                                                                                                                                                                                                    \\ \cline{2-5} 
+		\multicolumn{1}{c|}{}                                   & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                                                                                                                                            & \multicolumn{2}{c}{\textbf{Manhattan}}                                                    \\ \cline{2-5} 
+		\multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{\textbf{Raw prediction}}                                                    & \multicolumn{1}{c|}{\textbf{CI prediction}}                                                                      & \multicolumn{1}{c|}{\textbf{Raw prediction}} & \multicolumn{1}{c}{\textbf{CI prediction}} \\ \hline
+		\multicolumn{1}{c|}{\textbf{1}}                         & \multicolumn{1}{l|}{99--119}                                                                    & \multicolumn{1}{l|}{96--119}                                                                                     & \multicolumn{1}{l|}{95, 97--119}             & 91, 93--122                                \\ \hline
+		\multicolumn{1}{c|}{\textbf{2}}                         & \multicolumn{1}{l|}{246--264}                                                                   & \multicolumn{1}{l|}{245--265}                                                                                    & \multicolumn{1}{l|}{249--264}                & 248--265                                   \\ \hline
+	\end{tabular}
+	\caption{Periodos de siembra regionales obtenidos. Días del año identificados como adecuados para la siembra de maíz en Brandemburgo, Sajonia y Baviera mediante las distancias Euclidiana y Manhattan, respectivamente. Se presentan las predicciones obtenidas mediante la aplicación directa del criterio empírico de permanencia (Raw prediction), así como aquellas correspondientes a los días cuyos intervalos de confianza, estimados mediante bootstrap o jackknife, contienen el umbral de aptitud o se sitúan por encima de este (CI prediction). Los resultados se agrupan según el semestre del año.}
+	\label{Tab:Sowing_windows}
+\end{table}
+
+
+
+%De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza por una elevada heterogeneidad topográfica, climática y edáfica. En particular, Baviera, Brandemburgo y Sajonia presentan variaciones en humedad, altitud, temperatura y características del suelo, factores que influyen directamente en las prácticas agrícolas y los calendarios de siembra. Esta diversidad de condiciones ambientales permitió someter la metodología propuesta a distintos escenarios espaciales y verifica su capacidad para identificar variaciones en la aptitud de las fechas de siembra y, con ello, evaluar parcialmente su comportamiento bajo condiciones ambientales heterogéneas.\\
+
+
+Para robustecer nuestro trabajo se realizaron las siguientes comparaciones, ver Figura \ref{fig:Visual_comparions_Brandenburg}, \ref{fig:Visual_comparions_North_Saxony}, \ref{fig:Visual_comparions_South_Saxony} y \ref{fig:Visual_comparions_Bavaria}. Por una parte, con base en los trabajos de \cite{Parker_2016} y \cite{Flores_2025}, se consideraron los periodos de siembra de maíz registrados \textit{in situ} en Alemania, diferenciados según criterios geográficos de altitud, latitud y longitud, ver Tabla \ref{Real_data}. Por otra parte, a partir del trabajo de \cite[Fig. S12A]{Parent_2018}, se consideraron los periodos de siembra históricos registrados para Europa durante 1975--2010, así como los periodos simulados para 2050 bajo los escenarios de trayectoria de concentración representativa (RCP, por sus siglas en inglés) 4.5 y 8.5, que proyectan concentraciones atmosféricas de CO$_2$ de 487 y 541 ppm, respectivamente.\\
+
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth]{[Brandenburg][Visual]Sowing_windows.png}
+	\caption{Comparaciones para Brandemburgo. Los periodos de siembra de maíz determinados empleando la distancia Euclideana se muestran en color azul mientras que los determinados empleando la distancia Manhattan se muestran en color anaranjado. Los periodos correspondientes a la Raw prediction se muestran opacos mientras que aquellos correspondientes a la CI prediction se muestran con transparencia. Los periodos de siembra de maíz en Alemania que se desprenden de los trabajos de \citep{Parker_2016} y \citep{Flores_2025}, ver Tabla \ref{Real_data}, se muestran en color verde, rosa y amarillo para la altitud, latitud y longitud, respectivamente. Los distintos niveles de transparencia ilustran las fechas comprendidas en el intervalo de semiancho una a tres desviaciones estándar respecto a la media de la muestra. Finalmente, los periodos de siembra de maíz en Europa correspondientes al periodo histórico (1975--2010) y a las proyecciones bajo los escenarios RCP 4.5 y RCP 8.5 se muestran en lila, vino y gris, respectivamente, los cuales se desprenden de \cite[Fig. S12A]{Parent_2018}.}
+	\label{fig:Visual_comparions_Brandenburg}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth]{[NorthSaxony][Visual]Sowing_windows.png}
+	\caption{Comparaciones para el norte de Sajonia.Los periodos de siembra de maíz determinados empleando la distancia Euclideana se muestran en color azul mientras que los determinados empleando la distancia Manhattan se muestran en color anaranjado. Los periodos correspondientes a la Raw prediction se muestran opacos mientras que aquellos correspondientes a la CI prediction se muestran con transparencia. Los periodos de siembra de maíz en Alemania que se desprenden de los trabajos de \citep{Parker_2016} y \citep{Flores_2025}, ver Tabla \ref{Real_data}, se muestran en color verde, rosa y amarillo para la altitud, latitud y longitud, respectivamente. Los distintos niveles de transparencia ilustran las fechas comprendidas en el intervalo de semiancho $\nu\in \{1,2,3\}$ desviaciones estándar respecto a la media de la muestra. Finalmente, los periodos de siembra de maíz en Europa correspondientes al periodo histórico (1975--2010) y a las proyecciones bajo los escenarios RCP 4.5 y RCP 8.5 se muestran en lila, vino y gris, respectivamente, los cuales se desprenden de \cite[Fig. S12A]{Parent_2018}.}
+	\label{fig:Visual_comparions_North_Saxony}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth]{[SouthSaxony][Visual]Sowing_windows.png}
+	\caption{Comparaciones para el sur de Sajonia. Los periodos de siembra de maíz determinados empleando la distancia Euclideana se muestran en color azul mientras que los determinados empleando la distancia Manhattan se muestran en color anaranjado. Los periodos correspondientes a la Raw prediction se muestran opacos mientras que aquellos correspondientes a la CI prediction se muestran con transparencia. Los periodos de siembra de maíz en Alemania que se desprenden de los trabajos de \citep{Parker_2016} y \citep{Flores_2025}, ver Tabla \ref{Real_data}, se muestran en color verde, rosa y amarillo para la altitud, latitud y longitud, respectivamente. Los distintos niveles de transparencia ilustran las fechas comprendidas en el intervalo de semiancho $\nu\in \{1,2,3\}$ desviaciones estándar respecto a la media de la muestra. Finalmente, los periodos de siembra de maíz en Europa correspondientes al periodo histórico (1975--2010) y a las proyecciones bajo los escenarios RCP 4.5 y RCP 8.5 se muestran en lila, vino y gris, respectivamente, los cuales se desprenden de \cite[Fig. S12A]{Parent_2018}.}
+	\label{fig:Visual_comparions_South_Saxony}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth]{[Bavaria][Visual]Sowing_windows.png}
+	\caption{Comparaciones para Baviera. Los periodos de siembra de maíz determinados empleando la distancia Euclideana se muestran en color azul mientras que los determinados empleando la distancia Manhattan se muestran en color anaranjado. Los periodos correspondientes a la Raw prediction se muestran opacos mientras que aquellos correspondientes a la CI prediction se muestran con transparencia. Los periodos de siembra de maíz en Alemania que se desprenden de los trabajos de \citep{Parker_2016} y \citep{Flores_2025}, ver Tabla \ref{Real_data}, se muestran en color verde, rosa y amarillo para la altitud, latitud y longitud, respectivamente. Los distintos niveles de transparencia ilustran las fechas comprendidas en el intervalo de semiancho $\nu\in \{1,2,3\}$ desviaciones estándar respecto a la media de la muestra. Finalmente, los periodos de siembra de maíz en Europa correspondientes al periodo histórico (1975--2010) y a las proyecciones bajo los escenarios RCP 4.5 y RCP 8.5 se muestran en lila, vino y gris, respectivamente, los cuales se desprenden de \cite[Fig. S12A]{Parent_2018}.}
+	\label{fig:Visual_comparions_Bavaria}
+\end{figure}
+
+\newpage
+\newpage
+\clearpage
+
+Formalmente, las comparaciones se cuantificaron a través del índice de Jaccard, el cual mide la similitud entre un par de conjuntos finitos dados \cite{Bag_2019}. De esta manera, si $\hat{W}$ denota uno de los periodos siembra obtenido con nuestra metodología y $W$ denota alguno de los periodos previamente reportados en la literatura, la similitud entre $\hat{W}$ y $W$, medida con el índice de Jaccard se denota y define por \begin{equation}
+J(\hat{W}, W)= \frac{|\hat{W}\cap W|}{|\hat{W} \cup W|},	
+\end{equation}donde $|\cdot|$ indica el operador de cardinalidad de un conjunto.\\
+
+Usualmente, en Alemania, el maíz es un cultivo de primavera \cite{Laidig_2025}. Por tanto, consideramos exclusivamente la parte de los periodos de siembra determinados acotados al primer semestre del año, a la que denotaremos por $P_1$, para calcular el índice de Jaccard. Para cada una de las regiones, las comparaciones de periodos de siembra en Alemania respecto a los criterios geográficos de altitud, latitud y longitud se muestran en la Tablas \ref{Tab:Comparions_Brandenburg_Geo}, \ref{Tab:Comparions_North_Saxony_Geo}, \ref{Tab:Comparions_South_Saxony_Geo} y \ref{Tab:Comparions_Bavaria_Geo}, respectivamente.\\
+
+Similarmente, para cada una de las regiones, las comparaciones de periodos de siembra de maíz en Europa respecto el escenario histórico, RCP 4.5 y RCP 8.5, a través del cálculo de índice de Jaccard, se muestran en la Tabla \ref{Tab:Comparisons_climate_scenario}.\\
+
+
+\begin{table}[]
+	\centering
+	\begin{tabular}{llllll}
+		\hline
+		\multicolumn{6}{l}{\textbf{Altitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $115.6 \pm 7.12\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 122}                                                                                               & \multicolumn{1}{l|}{0.0131}                  & \multicolumn{1}{l|}{0.0568}                 & \multicolumn{1}{l|}{0.0000}                  & 0.000                  \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 129}                                                                                               & \multicolumn{1}{l|}{0.1375}                  & \multicolumn{1}{l|}{0.1888}                 & \multicolumn{1}{l|}{0.0983}                  & 0.1076                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 136}                                                                                                & \multicolumn{1}{l|}{0.2068}                  & \multicolumn{1}{l|}{0.3010}                 & \multicolumn{1}{l|}{0.1911}                  & 0.1944                 \\ \hline
+		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Latitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.08\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{109 -- 123}                                                                                               & \multicolumn{1}{l|}{0.0131}                  & \multicolumn{1}{l|}{0.0568}                 & \multicolumn{1}{l|}{0.0000}                  & 0.0000                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{102 -- 130}                                                                                               & \multicolumn{1}{l|}{0.1234}                  & \multicolumn{1}{l|}{0.1888}                 & \multicolumn{1}{l|}{0.0806}                  & 0.0909                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 137}                                                                                                & \multicolumn{1}{l|}{0.2183}                  & \multicolumn{1}{l|}{0.3118}                 & \multicolumn{1}{l|}{0.1884}                  & 0.1917                 \\ \hline
+		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Longitude}}                                                                                                                                                                                                                                                                                                                       \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.3\nu$\end{tabular}}}}  & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 123}                                                                                               & \multicolumn{1}{l|}{0.0263}                  & \multicolumn{1}{l|}{0.0681}                 & \multicolumn{1}{l|}{0.0000}                  & 0.0000                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 130}                                                                                               & \multicolumn{1}{l|}{0.1358}                  & \multicolumn{1}{l|}{0.2000}                 & \multicolumn{1}{l|}{0.0967}                  & 0.1060                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 138}                                                                                                & \multicolumn{1}{l|}{0.2159}                  & \multicolumn{1}{l|}{0.3225}                 & \multicolumn{1}{l|}{0.1857}                  & 0.1891                 \\ \hline
+	\end{tabular}
+	\caption{Comparaciones para Brandemburgo según el criterio geográfico. Índice de Jaccard calculado entre el periodo de siembra de maíz identificado por el modelo, acotado al primer semestre del año, y los conjuntos de fechas de siembra definidos por intervalos de semiancho $\nu$ desviaciones estándar respecto a la media muestral, con $\nu\in\{1,2,3\}$, correspondientes a los datos presentados en la Tabla \ref{Real_data}.}
+	\label{Tab:Comparions_Brandenburg_Geo}
+\end{table}
+
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+	\centering
+	\begin{tabular}{llllll}
+		\hline
+		\multicolumn{6}{l}{\textbf{Altitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $115.6 \pm 7.12\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 122}                                                                                               & \multicolumn{1}{l|}{0.3260}                  & \multicolumn{1}{l|}{0.2678}                 & \multicolumn{1}{l|}{0.3061}                  & 0.2884                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 129}                                                                                               & \multicolumn{1}{l|}{0.5957}                  & \multicolumn{1}{l|}{0.5178}                 & \multicolumn{1}{l|}{0.5918}                  & 0.5576                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 136}                                                                                                & \multicolumn{1}{l|}{0.7115}                  & \multicolumn{1}{l|}{0.7678}                 & \multicolumn{1}{l|}{0.8775}                  & 0.8269                 \\ \hline
+		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Latitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.08\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{109 -- 123}                                                                                               & \multicolumn{1}{l|}{0.3260}                  & \multicolumn{1}{l|}{0.2678}                 & \multicolumn{1}{l|}{0.3061}                  & 0.2884                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{102 -- 130}                                                                                               & \multicolumn{1}{l|}{0.6304}                  & \multicolumn{1}{l|}{0.5178}                 & \multicolumn{1}{l|}{0.5918}                  & 0.5576                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 137}                                                                                                & \multicolumn{1}{l|}{0.7307}                  & \multicolumn{1}{l|}{0.7857}                 & \multicolumn{1}{l|}{0.8979}                  & 0.8461                 \\ \hline
+		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Longitude}}                                                                                                                                                                                                                                                                                                                       \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.3\nu$\end{tabular}}}}  & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 123}                                                                                               & \multicolumn{1}{l|}{0.3478}                  & \multicolumn{1}{l|}{0.2857}                 & \multicolumn{1}{l|}{0.3265}                  & 0.3076                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 130}                                                                                               & \multicolumn{1}{l|}{0.6170}                  & \multicolumn{1}{l|}{0.5357}                 & \multicolumn{1}{l|}{0.6122}                  & 0.5769                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 138}                                                                                                & \multicolumn{1}{l|}{0.7500}                  & \multicolumn{1}{l|}{0.8035}                 & \multicolumn{1}{l|}{0.8800}                  & 0.8653                 \\ \hline
+	\end{tabular}
+	\caption{Comparaciones para el norte de Sajonia según el criterio geográfico. Índice de Jaccard calculado entre el periodo de siembra de maíz identificado por el modelo, acotado al primer semestre del año, y los conjuntos de fechas de siembra definidos por intervalos de semiancho $\nu$ desviaciones estándar respecto a la media muestral, con $\nu\in\{1,2,3\}$, correspondientes a los datos presentados en la Tabla \ref{Real_data}.}
+	\label{Tab:Comparions_North_Saxony_Geo}
+\end{table}
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+	\centering
+	\begin{tabular}{llllll}
+		\hline
+		\multicolumn{6}{l}{\textbf{Altitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $117.4 \pm 8.29\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{109 -- 125}                                                                                               & \multicolumn{1}{l|}{0.3695}                  & \multicolumn{1}{l|}{0.3035}                 & \multicolumn{1}{l|}{0.3469}                  & 0.3269                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{100 -- 133}                                                                                               & \multicolumn{1}{l|}{0.6666}                  & \multicolumn{1}{l|}{0.6071}                 & \multicolumn{1}{l|}{0.6938}                  & 0.6538                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{92 -- 142}                                                                                                & \multicolumn{1}{l|}{0.8301}                  & \multicolumn{1}{l|}{0.9107}                 & \multicolumn{1}{l|}{0.8867}                  & 0.9433                 \\ \hline
+		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Latitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.7 \pm 8.23\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 124}                                                                                               & \multicolumn{1}{l|}{0.3695}                  & \multicolumn{1}{l|}{0.3035}                 & \multicolumn{1}{l|}{0.3469}                  & 0.3269                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{100 -- 133}                                                                                               & \multicolumn{1}{l|}{0.6666}                  & \multicolumn{1}{l|}{0.6071}                 & \multicolumn{1}{l|}{0.6938}                  & 0.6538                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{92 -- 141}                                                                                                & \multicolumn{1}{l|}{0.8113}                  & \multicolumn{1}{l|}{0.8928}                 & \multicolumn{1}{l|}{0.9038}                  & 0.9245                 \\ \hline
+		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Longitude}}                                                                                                                                                                                                                                                                                                                       \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.3\nu$\end{tabular}}}}  & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 123}                                                                                               & \multicolumn{1}{l|}{0.3478}                  & \multicolumn{1}{l|}{0.2857}                 & \multicolumn{1}{l|}{0.3265}                  & 0.3076                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 130}                                                                                               & \multicolumn{1}{l|}{0.6170}                  & \multicolumn{1}{l|}{0.5357}                 & \multicolumn{1}{l|}{0.6122}                  & 0.5769                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 138}                                                                                                & \multicolumn{1}{l|}{0.7500}                  & \multicolumn{1}{l|}{0.8035}                 & \multicolumn{1}{l|}{0.8800}                  & 0.8653                 \\ \hline
+	\end{tabular}
+	\caption{Comparaciones para el sur de Sajonia según el criterio geográfico. Índice de Jaccard calculado entre el periodo de siembra de maíz identificado por el modelo, acotado al primer semestre del año, y los conjuntos de fechas de siembra definidos por intervalos de semiancho $\nu$ desviaciones estándar respecto a la media muestral, con $\nu\in\{1,2,3\}$, correspondientes a los datos presentados en la Tabla \ref{Real_data}.}
+	\label{Tab:Comparions_South_Saxony_Geo}
+\end{table}
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+	\centering
+	\begin{tabular}{llllll}
+		\hline
+		\multicolumn{6}{l}{\textbf{Altitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $117.4 \pm 8.29\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{109 -- 125}                                                                                               & \multicolumn{1}{l|}{0.4074}                  & \multicolumn{1}{l|}{0.3666}                 & \multicolumn{1}{l|}{0.3666}                  & 0.4117                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{100 -- 133}                                                                                               & \multicolumn{1}{l|}{0.5714}                  & \multicolumn{1}{l|}{0.5263}                 & \multicolumn{1}{l|}{0.5263}                  & 0.5476                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{92 -- 142}                                                                                                & \multicolumn{1}{l|}{0.4117}                  & \multicolumn{1}{l|}{0.4705}                 & \multicolumn{1}{l|}{0.4705}                  & 0.5769                 \\ \hline
+		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Latitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.7 \pm 8.23\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 124}                                                                                               & \multicolumn{1}{l|}{0.4615}                  & \multicolumn{1}{l|}{0.4137}                 & \multicolumn{1}{l|}{0.4137}                  & 0.4545                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{100 -- 133}                                                                                               & \multicolumn{1}{l|}{0.5714}                  & \multicolumn{1}{l|}{0.5263}                 & \multicolumn{1}{l|}{0.5263}                  & 0.5476                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{92 -- 141}                                                                                                & \multicolumn{1}{l|}{0.4200}                  & \multicolumn{1}{l|}{0.4800}                 & \multicolumn{1}{l|}{0.4800}                  & 0.5882                 \\ \hline
+		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Longitude}}                                                                                                                                                                                                                                                                                                                       \\ \hline
+		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.3\nu$\end{tabular}}}}  & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 123}                                                                                               & \multicolumn{1}{l|}{0.4800}                  & \multicolumn{1}{l|}{0.4285}                 & \multicolumn{1}{l|}{0.4285}                  & 0.4687                 \\ \hline
+		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 130}                                                                                               & \multicolumn{1}{l|}{0.5937}                  & \multicolumn{1}{l|}{0.5428}                 & \multicolumn{1}{l|}{0.5428}                  & 0.5641                 \\ \hline
+		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 138}                                                                                                & \multicolumn{1}{l|}{0.4666}                  & \multicolumn{1}{l|}{0.5333}                 & \multicolumn{1}{l|}{0.5333}                  & 0.6170                 \\ \hline
+	\end{tabular}
+	\caption{Comparaciones para Baviera según el criterio geográfico. Índice de Jaccard calculado entre el periodo de siembra de maíz identificado por el modelo, acotado al primer semestre del año, y los conjuntos de fechas de siembra definidos por intervalos de semiancho $\nu$ desviaciones estándar respecto a la media muestral, con $\nu\in\{1,2,3\}$, correspondientes a los datos presentados en la Tabla \ref{Real_data}.}
+	\label{Tab:Comparions_Bavaria_Geo}
+\end{table}
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+	\centering
+	\begin{tabular}{llllll}
+		\hline
+		\multicolumn{6}{l}{\textbf{Brandenburg}}                                                                                                                                                                                                                                                                                                                                                \\ \hline
+		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Climate\\ scenario\end{tabular}}}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Sowing\\ window\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{l}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Historical\\ (1975--2010)\end{tabular}}                    & \multicolumn{1}{l|}{79--120}                                                                           & \multicolumn{1}{l|}{0.4054}                  & \multicolumn{1}{l|}{0.3636}                 & \multicolumn{1}{l|}{0.538462}                & 0.5178                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP 4.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{48--110}                                                                           & \multicolumn{1}{l|}{0.7605}                  & \multicolumn{1}{l|}{0.6206}                 & \multicolumn{1}{l|}{0.603175}                & 0.6825                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP 8.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{38--107}                                                                           & \multicolumn{1}{l|}{0.6708}                  & \multicolumn{1}{l|}{0.5578}                 & \multicolumn{1}{l|}{0.542857}                & 0.61428                \\ \hline
+		&                                                                                                        &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Saxony}}                                                                                                                                                                                                                                                                                                                                                     \\ \hline
+		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Climate\\ scenario\end{tabular}}}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Sowing\\ window\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Historical\\ (1975--2010)\end{tabular}}                    & \multicolumn{1}{l|}{79--120}                                                                           & \multicolumn{1}{l|}{0.3333}                  & \multicolumn{1}{l|}{0.4411}                 & \multicolumn{1}{l|}{0.5166}                  & 0.4920                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP 4.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{48--110}                                                                           & \multicolumn{1}{l|}{0.1237}                  & \multicolumn{1}{l|}{0.2020}                 & \multicolumn{1}{l|}{0.2307}                  & 0.2234                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP 8.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{38--107}                                                                           & \multicolumn{1}{l|}{0.0841}                  & \multicolumn{1}{l|}{0.1559}                 & \multicolumn{1}{l|}{0.1782}                  & 0.1730                 \\ \hline
+		&                                                                                                        &                                              &                                             &                                              &                        \\ \hline
+		\multicolumn{6}{l}{\textbf{Bavaria}}                                                                                                                                                                                                                                                                                                                                                    \\ \hline
+		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Climate\\ scenario\end{tabular}}}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Sowing\\ window\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
+		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Historical\\ (1975--2010)\end{tabular}}                    & \multicolumn{1}{l|}{79--120}                                                                           & \multicolumn{1}{l|}{0.5000}                  & \multicolumn{1}{l|}{0.5714}                 & \multicolumn{1}{l|}{0.5714}                  & 0.6590                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP 4.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{48--110}                                                                           & \multicolumn{1}{l|}{0.1666}                  & \multicolumn{1}{l|}{0.2083}                 & \multicolumn{1}{l|}{0.2083}                  & 0.2533                 \\ \hline
+		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP 8.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{38--107}                                                                           & \multicolumn{1}{l|}{0.1097}                  & \multicolumn{1}{l|}{0.1463}                 & \multicolumn{1}{l|}{0.1463}                  & 0.1882                 \\ \hline
+	\end{tabular}
+	\caption{Comparaciones por escenario climático. Índice de Jaccard calculado entre el periodo de siembra de maíz identificado por el modelo, acotado al primer semestre del año, y los conjuntos de fechas de siembra reportados para Europa en el escenario climático histórico (1975--2010) y los escenarios RCP 4.5 y RCP 8.5 proyectados al 2050, correspondientes a los datos presentados en \cite[Fig. S12A]{Parent_2018}.}
+	\label{Tab:Comparisons_climate_scenario}
+\end{table}
+
+
+
+
+
+
+
+
+
 
 
 %################################
@@ -254,11 +528,11 @@ Al aplicar el criterio empírico de permanencia descrito en la Sección \ref{Sec
 	% Primera fila: Raw
 	% ============================================================
 	\begin{subfigure}[b]{0.8\textwidth}
-	\includegraphics[
-	width=\textwidth
-	]{[Brandenburg][Euclidean][Raw]average_temperature.png}
-	\caption{}
-	\label{fig:brandenburg_euclidean_raw_yearly_temperature}
+		\includegraphics[
+		width=\textwidth
+		]{[Brandenburg][Euclidean][Raw]average_temperature.png}
+		\caption{}
+		\label{fig:brandenburg_euclidean_raw_yearly_temperature}
 	\end{subfigure}
 	\vspace{2mm}
 	
@@ -266,11 +540,11 @@ Al aplicar el criterio empírico de permanencia descrito en la Sección \ref{Sec
 	% Segunda fila: CI
 	% ============================================================
 	\begin{subfigure}[b]{0.8\textwidth}
-	\includegraphics[
-	width=\textwidth
-	]{[Brandenburg][Euclidean][CI]average_temperature.png}
-	\caption{}
-	\label{fig:brandenburg_euclidean_ci_yearly_temperature}
+		\includegraphics[
+		width=\textwidth
+		]{[Brandenburg][Euclidean][CI]average_temperature.png}
+		\caption{}
+		\label{fig:brandenburg_euclidean_ci_yearly_temperature}
 	\end{subfigure}
 	\vspace{2mm}
 	
@@ -300,7 +574,7 @@ Al aplicar el criterio empírico de permanencia descrito en la Sección \ref{Sec
 		Temperatura media del aire para Brandenburgo obtenida mediante la distancia Euclidiana. Las dos primeras representaciones muestran los resultados para los datos sin agregar y sus respectivos intervalos de confianza, mientras que las dos representaciones inferiores muestran los resultados agregados para los mismos casos.
 	}
 	\label{fig:brandenburg_euclidean_average_temperature}
-
+	
 	
 \end{figure}
 
@@ -1710,245 +1984,8 @@ Al aplicar el criterio empírico de permanencia descrito en la Sección \ref{Sec
 	
 \end{figure}
 
-Asimismo, los periodos de siembra obtenidos se muestran explícitamente en la Tabla \ref{Tab:Sowing_windows}. 
 
 
-
-
-
-
-
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]
-	\centering
-	\begin{tabular}{cclll}
-		\hline
-		\multicolumn{5}{l}{\textbf{Brandenburg}}                                                                                                                                                                                                                                                                                                                                 \\ \hline
-		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{Semester}}} & \multicolumn{4}{c}{\textbf{Sowing windows}}                                                                                                                                                                                                                                                                    \\ \cline{2-5} 
-		\multicolumn{1}{c|}{}                                   & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                                                                                                                                            & \multicolumn{2}{c}{\textbf{Manhattan}}                                                    \\ \cline{2-5} 
-		\multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{\textbf{Raw prediction}}                                                    & \multicolumn{1}{c|}{\textbf{CI prediction}}                                                                      & \multicolumn{1}{c|}{\textbf{Raw prediction}} & \multicolumn{1}{c}{\textbf{CI prediction}} \\ \hline
-		\multicolumn{1}{c|}{\textbf{1}}                         & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}55--108, 123--125,\\ 137, 139--142\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}55--108, 115, 117,\\ 121--127, 130--131,\\ 135--147\end{tabular}} & \multicolumn{1}{l|}{69--106}                 & 64--65, 67--107                            \\ \hline
-		\multicolumn{1}{c|}{\textbf{2}}                         & \multicolumn{1}{l|}{271--310}                                                                   & \multicolumn{1}{l|}{271--310, 312, 314}                                                                          & \multicolumn{1}{l|}{273--304}                & 271--305                                   \\ \hline
-		\multicolumn{1}{l}{}                                    & \multicolumn{1}{l}{}                                                                            &                                                                                                                  &                                              &                                            \\ \hline
-		\multicolumn{5}{l}{\textbf{Saxony}}                                                                                                                                                                                                                                                                                                                                      \\ \hline
-		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{Semester}}} & \multicolumn{4}{c}{\textbf{Sowing windows}}                                                                                                                                                                                                                                                                    \\ \cline{2-5} 
-		\multicolumn{1}{c|}{}                                   & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                                                                                                                                            & \multicolumn{2}{c}{\textbf{Manhattan}}                                                    \\ \cline{2-5} 
-		\multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{\textbf{Raw prediction}}                                                    & \multicolumn{1}{c|}{\textbf{CI prediction}}                                                                      & \multicolumn{1}{c|}{\textbf{Raw prediction}} & \multicolumn{1}{c}{\textbf{CI prediction}} \\ \hline
-		\multicolumn{1}{c|}{\textbf{1}}                         & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}93, 96, 99,\\ 102--143, 145\end{tabular}}        & \multicolumn{1}{l|}{90, 92--145, 147}                                                                            & \multicolumn{1}{l|}{90--137, 139}            & 90--140, 142                               \\ \hline
-		\multicolumn{1}{c|}{\textbf{2}}                         & \multicolumn{1}{l|}{262--274, 276}                                                              & \multicolumn{1}{l|}{260, 262--276}                                                                               & \multicolumn{1}{l|}{262--276}                & 261--276                                   \\ \hline
-		\multicolumn{1}{l}{}                                    & \multicolumn{1}{l}{}                                                                            &                                                                                                                  &                                              &                                            \\ \hline
-		\multicolumn{5}{l}{\textbf{Bavaria}}                                                                                                                                                                                                                                                                                                                                     \\ \hline
-		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{Semester}}} & \multicolumn{4}{c}{\textbf{Sowing windows}}                                                                                                                                                                                                                                                                    \\ \cline{2-5} 
-		\multicolumn{1}{c|}{}                                   & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                                                                                                                                            & \multicolumn{2}{c}{\textbf{Manhattan}}                                                    \\ \cline{2-5} 
-		\multicolumn{1}{c|}{}                                   & \multicolumn{1}{c|}{\textbf{Raw prediction}}                                                    & \multicolumn{1}{c|}{\textbf{CI prediction}}                                                                      & \multicolumn{1}{c|}{\textbf{Raw prediction}} & \multicolumn{1}{c}{\textbf{CI prediction}} \\ \hline
-		\multicolumn{1}{c|}{\textbf{1}}                         & \multicolumn{1}{l|}{99--119}                                                                    & \multicolumn{1}{l|}{96--119}                                                                                     & \multicolumn{1}{l|}{95, 97--119}             & 91, 93--122                                \\ \hline
-		\multicolumn{1}{c|}{\textbf{2}}                         & \multicolumn{1}{l|}{246--264}                                                                   & \multicolumn{1}{l|}{245--265}                                                                                    & \multicolumn{1}{l|}{249--264}                & 248--265                                   \\ \hline
-	\end{tabular}
-	\caption{Periodos de siembra regionales obtenidos. Días del año determinados para llevar a cabo la siembra de maíz en Brandemburgo, Sajonia y Baviera, obtenidos a través de la distancia Euclideana y Manhattan, respectivamente. Se presentan las predicciones obtenidas mediante la implementación directa del criterio empírico de permanencia (Raw predictions), así como aquellas correspondientes a los días cuyos intervalos de confianza, estimados mediante bootstrap o jackknife, contienen o superan el umbral de aptitud (CI predictions). Los resultados se agrupan según el semestre del año.}
-	\label{Tab:Sowing_windows}
-\end{table}
-
-
-\newpage
-
-De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza por una elevada heterogeneidad topográfica, climática y edáfica. En particular, Baviera, Brandemburgo y Sajonia presentan variaciones en humedad, altitud, temperatura y características del suelo, factores que influyen directamente en las prácticas agrícolas y los calendarios de siembra. Esta diversidad de condiciones ambientales permitió someter la metodología propuesta a distintos escenarios espaciales y verifica su capacidad para identificar variaciones en la aptitud de las fechas de siembra y, con ello, evaluar parcialmente su comportamiento bajo condiciones ambientales heterogéneas.\\
-
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{[Brandenburg][Visual]Sowing_windows.png}
-	\caption{Comparaciones para Brandenburgo.}
-\end{figure}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{[NorthSaxony][Visual]Sowing_windows.png}
-	\caption{Comparaciones para el norte de Sajonia.}
-\end{figure}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{[SouthSaxony][Visual]Sowing_windows.png}
-	\caption{Comparaciones para el sur de Sajonia.}
-\end{figure}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{[Bavaria][Visual]Sowing_windows.png}
-	\caption{Comparaciones para Baviera.}
-\end{figure}
-
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]
-	\centering
-	\begin{tabular}{llllll}
-		\hline
-		\multicolumn{6}{l}{\textbf{Altitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $115.6 \pm 7.12\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 122}                                                                                               & \multicolumn{1}{l|}{0.0131}                  & \multicolumn{1}{l|}{0.0568}                 & \multicolumn{1}{l|}{0.0000}                  & 0.000                  \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 129}                                                                                               & \multicolumn{1}{l|}{0.1375}                  & \multicolumn{1}{l|}{0.1888}                 & \multicolumn{1}{l|}{0.0983}                  & 0.1076                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 136}                                                                                                & \multicolumn{1}{l|}{0.2068}                  & \multicolumn{1}{l|}{0.3010}                 & \multicolumn{1}{l|}{0.1911}                  & 0.1944                 \\ \hline
-		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Latitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.08\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{109 -- 123}                                                                                               & \multicolumn{1}{l|}{0.0131}                  & \multicolumn{1}{l|}{0.0568}                 & \multicolumn{1}{l|}{0.0000}                  & 0.0000                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{102 -- 130}                                                                                               & \multicolumn{1}{l|}{0.1234}                  & \multicolumn{1}{l|}{0.1888}                 & \multicolumn{1}{l|}{0.0806}                  & 0.0909                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 137}                                                                                                & \multicolumn{1}{l|}{0.2183}                  & \multicolumn{1}{l|}{0.3118}                 & \multicolumn{1}{l|}{0.1884}                  & 0.1917                 \\ \hline
-		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Longitude}}                                                                                                                                                                                                                                                                                                                       \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.3\nu$\end{tabular}}}}  & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 123}                                                                                               & \multicolumn{1}{l|}{0.0263}                  & \multicolumn{1}{l|}{0.0681}                 & \multicolumn{1}{l|}{0.0000}                  & 0.0000                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 130}                                                                                               & \multicolumn{1}{l|}{0.1358}                  & \multicolumn{1}{l|}{0.2000}                 & \multicolumn{1}{l|}{0.0967}                  & 0.1060                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 138}                                                                                                & \multicolumn{1}{l|}{0.2159}                  & \multicolumn{1}{l|}{0.3225}                 & \multicolumn{1}{l|}{0.1857}                  & 0.1891                 \\ \hline
-	\end{tabular}
-	\caption{Comparaciones para Brandemburgo.}
-\end{table}
-
-
-
-
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]
-	\centering
-	\begin{tabular}{llllll}
-		\hline
-		\multicolumn{6}{l}{\textbf{Altitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $115.6 \pm 7.12\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 122}                                                                                               & \multicolumn{1}{l|}{0.3260}                  & \multicolumn{1}{l|}{0.2678}                 & \multicolumn{1}{l|}{0.3061}                  & 0.2884                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 129}                                                                                               & \multicolumn{1}{l|}{0.5957}                  & \multicolumn{1}{l|}{0.5178}                 & \multicolumn{1}{l|}{0.5918}                  & 0.5576                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 136}                                                                                                & \multicolumn{1}{l|}{0.7115}                  & \multicolumn{1}{l|}{0.7678}                 & \multicolumn{1}{l|}{0.8775}                  & 0.8269                 \\ \hline
-		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Latitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.08\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{109 -- 123}                                                                                               & \multicolumn{1}{l|}{0.3260}                  & \multicolumn{1}{l|}{0.2678}                 & \multicolumn{1}{l|}{0.3061}                  & 0.2884                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{102 -- 130}                                                                                               & \multicolumn{1}{l|}{0.6304}                  & \multicolumn{1}{l|}{0.5178}                 & \multicolumn{1}{l|}{0.5918}                  & 0.5576                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 137}                                                                                                & \multicolumn{1}{l|}{0.7307}                  & \multicolumn{1}{l|}{0.7857}                 & \multicolumn{1}{l|}{0.8979}                  & 0.8461                 \\ \hline
-		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Longitude}}                                                                                                                                                                                                                                                                                                                       \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.3\nu$\end{tabular}}}}  & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 123}                                                                                               & \multicolumn{1}{l|}{0.3478}                  & \multicolumn{1}{l|}{0.2857}                 & \multicolumn{1}{l|}{0.3265}                  & 0.3076                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 130}                                                                                               & \multicolumn{1}{l|}{0.6170}                  & \multicolumn{1}{l|}{0.5357}                 & \multicolumn{1}{l|}{0.6122}                  & 0.5769                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 138}                                                                                                & \multicolumn{1}{l|}{0.7500}                  & \multicolumn{1}{l|}{0.8035}                 & \multicolumn{1}{l|}{0.8800}                  & 0.8653                 \\ \hline
-	\end{tabular}
-	\caption{Comparaciones para el norte de Sajonia.}
-\end{table}
-
-
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]
-	\centering
-	\begin{tabular}{llllll}
-		\hline
-		\multicolumn{6}{l}{\textbf{Altitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $117.4 \pm 8.29\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{109 -- 125}                                                                                               & \multicolumn{1}{l|}{0.3695}                  & \multicolumn{1}{l|}{0.3035}                 & \multicolumn{1}{l|}{0.3469}                  & 0.3269                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{100 -- 133}                                                                                               & \multicolumn{1}{l|}{0.6666}                  & \multicolumn{1}{l|}{0.6071}                 & \multicolumn{1}{l|}{0.6938}                  & 0.6538                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{92 -- 142}                                                                                                & \multicolumn{1}{l|}{0.8301}                  & \multicolumn{1}{l|}{0.9107}                 & \multicolumn{1}{l|}{0.8867}                  & 0.9433                 \\ \hline
-		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Latitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.7 \pm 8.23\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 124}                                                                                               & \multicolumn{1}{l|}{0.3695}                  & \multicolumn{1}{l|}{0.3035}                 & \multicolumn{1}{l|}{0.3469}                  & 0.3269                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{100 -- 133}                                                                                               & \multicolumn{1}{l|}{0.6666}                  & \multicolumn{1}{l|}{0.6071}                 & \multicolumn{1}{l|}{0.6938}                  & 0.6538                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{92 -- 141}                                                                                                & \multicolumn{1}{l|}{0.8113}                  & \multicolumn{1}{l|}{0.8928}                 & \multicolumn{1}{l|}{0.9038}                  & 0.9245                 \\ \hline
-		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Longitude}}                                                                                                                                                                                                                                                                                                                       \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.3\nu$\end{tabular}}}}  & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 123}                                                                                               & \multicolumn{1}{l|}{0.3478}                  & \multicolumn{1}{l|}{0.2857}                 & \multicolumn{1}{l|}{0.3265}                  & 0.3076                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 130}                                                                                               & \multicolumn{1}{l|}{0.6170}                  & \multicolumn{1}{l|}{0.5357}                 & \multicolumn{1}{l|}{0.6122}                  & 0.5769                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 138}                                                                                                & \multicolumn{1}{l|}{0.7500}                  & \multicolumn{1}{l|}{0.8035}                 & \multicolumn{1}{l|}{0.8800}                  & 0.8653                 \\ \hline
-	\end{tabular}
-	\caption{Comparaciones para el sur de Sajonia.}
-\end{table}
-
-
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]
-	\centering
-	\begin{tabular}{llllll}
-		\hline
-		\multicolumn{6}{l}{\textbf{Altitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $117.4 \pm 8.29\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{109 -- 125}                                                                                               & \multicolumn{1}{l|}{0.4074}                  & \multicolumn{1}{l|}{0.3666}                 & \multicolumn{1}{l|}{0.3666}                  & 0.4117                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{100 -- 133}                                                                                               & \multicolumn{1}{l|}{0.5714}                  & \multicolumn{1}{l|}{0.5263}                 & \multicolumn{1}{l|}{0.5263}                  & 0.5476                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{92 -- 142}                                                                                                & \multicolumn{1}{l|}{0.4117}                  & \multicolumn{1}{l|}{0.4705}                 & \multicolumn{1}{l|}{0.4705}                  & 0.5769                 \\ \hline
-		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Latitude}}                                                                                                                                                                                                                                                                                                                        \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.7 \pm 8.23\nu$\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 124}                                                                                               & \multicolumn{1}{l|}{0.4615}                  & \multicolumn{1}{l|}{0.4137}                 & \multicolumn{1}{l|}{0.4137}                  & 0.4545                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{100 -- 133}                                                                                               & \multicolumn{1}{l|}{0.5714}                  & \multicolumn{1}{l|}{0.5263}                 & \multicolumn{1}{l|}{0.5263}                  & 0.5476                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{92 -- 141}                                                                                                & \multicolumn{1}{l|}{0.4200}                  & \multicolumn{1}{l|}{0.4800}                 & \multicolumn{1}{l|}{0.4800}                  & 0.5882                 \\ \hline
-		&                                                                                                                               &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Longitude}}                                                                                                                                                                                                                                                                                                                       \\ \hline
-		\multicolumn{1}{l|}{\multirow{3}{*}{\textbf{$\nu$}}} & \multicolumn{1}{l|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}l@{}}Sowing window\\ $116.2 \pm 7.3\nu$\end{tabular}}}}  & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{2}{l|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{l|}{}                                   & \multicolumn{1}{l|}{}                                                                                                         & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{1}                                  & \multicolumn{1}{l|}{108 -- 123}                                                                                               & \multicolumn{1}{l|}{0.4800}                  & \multicolumn{1}{l|}{0.4285}                 & \multicolumn{1}{l|}{0.4285}                  & 0.4687                 \\ \hline
-		\multicolumn{1}{l|}{2}                                  & \multicolumn{1}{l|}{101 -- 130}                                                                                               & \multicolumn{1}{l|}{0.5937}                  & \multicolumn{1}{l|}{0.5428}                 & \multicolumn{1}{l|}{0.5428}                  & 0.5641                 \\ \hline
-		\multicolumn{1}{l|}{3}                                  & \multicolumn{1}{l|}{94 -- 138}                                                                                                & \multicolumn{1}{l|}{0.4666}                  & \multicolumn{1}{l|}{0.5333}                 & \multicolumn{1}{l|}{0.5333}                  & 0.6170                 \\ \hline
-	\end{tabular}
-	\caption{Comparaciones para Baviera.}
-\end{table}
-
-
-
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]
-	\centering
-	\begin{tabular}{llllll}
-		\hline
-		\multicolumn{6}{l}{\textbf{Brandenburg}}                                                                                                                                                                                                                                                                                                                                                \\ \hline
-		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Climate\\ scenario\end{tabular}}}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Sowing\\ window\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{l}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Historical\\ (1975--2010)\end{tabular}}                    & \multicolumn{1}{l|}{79--120}                                                                           & \multicolumn{1}{l|}{0.4054}                  & \multicolumn{1}{l|}{0.3636}                 & \multicolumn{1}{l|}{0.538462}                & 0.5178                 \\ \hline
-		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP4.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{48--110}                                                                           & \multicolumn{1}{l|}{0.7605}                  & \multicolumn{1}{l|}{0.6206}                 & \multicolumn{1}{l|}{0.603175}                & 0.6825                 \\ \hline
-		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP8.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{38--107}                                                                           & \multicolumn{1}{l|}{0.6708}                  & \multicolumn{1}{l|}{0.5578}                 & \multicolumn{1}{l|}{0.542857}                & 0.61428                \\ \hline
-		&                                                                                                        &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Saxony}}                                                                                                                                                                                                                                                                                                                                                     \\ \hline
-		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Climate\\ scenario\end{tabular}}}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Sowing\\ window\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Historical\\ (1975--2010)\end{tabular}}                    & \multicolumn{1}{l|}{79--120}                                                                           & \multicolumn{1}{l|}{0.3333}                  & \multicolumn{1}{l|}{0.4411}                 & \multicolumn{1}{l|}{0.5166}                  & 0.4920                 \\ \hline
-		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP4.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{48--110}                                                                           & \multicolumn{1}{l|}{0.1237}                  & \multicolumn{1}{l|}{0.2020}                 & \multicolumn{1}{l|}{0.2307}                  & 0.2234                 \\ \hline
-		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP8.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{38--107}                                                                           & \multicolumn{1}{l|}{0.0841}                  & \multicolumn{1}{l|}{0.1559}                 & \multicolumn{1}{l|}{0.1782}                  & 0.1730                 \\ \hline
-		&                                                                                                        &                                              &                                             &                                              &                        \\ \hline
-		\multicolumn{6}{l}{\textbf{Bavaria}}                                                                                                                                                                                                                                                                                                                                                    \\ \hline
-		\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Climate\\ scenario\end{tabular}}}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Sowing\\ window\end{tabular}}}} & \multicolumn{4}{c}{\textbf{Jaccard index}}                                                                                                                         \\ \cline{3-6} 
-		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{2}{c|}{\textbf{Euclidean}}                                                    & \multicolumn{2}{c}{\textbf{Manhattan}}                                \\ \cline{3-6} 
-		\multicolumn{1}{c|}{}                                                                                     & \multicolumn{1}{c|}{}                                                                                  & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \multicolumn{1}{l|}{\textbf{CI prediction}} & \multicolumn{1}{l|}{\textbf{Raw prediction}} & \textbf{CI prediction} \\ \hline
-		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Historical\\ (1975--2010)\end{tabular}}                    & \multicolumn{1}{l|}{79--120}                                                                           & \multicolumn{1}{l|}{0.5000}                  & \multicolumn{1}{l|}{0.5714}                 & \multicolumn{1}{l|}{0.5714}                  & 0.6590                 \\ \hline
-		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP4.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{48--110}                                                                           & \multicolumn{1}{l|}{0.1666}                  & \multicolumn{1}{l|}{0.2083}                 & \multicolumn{1}{l|}{0.2083}                  & 0.2533                 \\ \hline
-		\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}RCP8.5\\ (2050)\end{tabular}}                              & \multicolumn{1}{l|}{38--107}                                                                           & \multicolumn{1}{l|}{0.1097}                  & \multicolumn{1}{l|}{0.1463}                 & \multicolumn{1}{l|}{0.1463}                  & 0.1882                 \\ \hline
-	\end{tabular}
-\end{table}
 
 \newpage
 \newpage
@@ -1994,7 +2031,7 @@ Durante el semestre en curso se contempla emplear los datos correspondientes a l
 \end{table}
 
 
-Adicionalmente, se llevará a cabo la construcción de los intervalos de confianza correspondientes mediante los métodos de bootstrap y jackknife, así como la integración de restantes en la redacción del trabajo en formato de artículo. Finalmente, se contempla la presentación de los avances y resultados en el Congreso Internacional de Ecología Estadística (ISEC, por sus siglas en inglés), que se llevará a cabo del 10 al 15 de enero de 2027 en Mérida, México,   \href{https://drive.google.com/file/d/1y_0bCZc6UKrdhD0rQ020FxtoEe3sbJ3-/view?usp=sharing}{ver comprobante de aceptación aquí}.
+Adicionalmente, se llevará a cabo la construcción de los intervalos de confianza correspondientes mediante los métodos de bootstrap y jackknife, así como la integración de restantes en la redacción del trabajo en formato de artículo. Finalmente, se contempla la presentación de los avances y resultados en el Congreso Internacional de Ecología Estadística (ISEC, por sus siglas en inglés), que se llevará a cabo del 10 al 15 de enero de 2027 en Mérida, México.   \href{https://drive.google.com/file/d/1y_0bCZc6UKrdhD0rQ020FxtoEe3sbJ3-/view?usp=sharing}{Ver comprobante de aceptación aquí}.
 
 
 

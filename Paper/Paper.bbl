@@ -1,9 +1,18 @@
-\begin{thebibliography}{82}
+\begin{thebibliography}{84}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bag et~al.(2019)Bag, Kumar, and Tiwari]{Bag_2019}
+S.~Bag, S.K. Kumar, and M.K. Tiwari.
+\newblock An efficient recommendation generation using relevant jaccard
+  similarity.
+\newblock \emph{Information Sciences}, 483:\penalty0 53–64, May 2019.
+\newblock ISSN 0020-0255.
+\newblock \doi{10.1016/j.ins.2019.01.023}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.ins.2019.01.023}.
 
 \bibitem[Baum et~al.(2019)Baum, Archontoulis, and Licht]{Baum_2019}
 M.E. Baum, S.V. Archontoulis, and M.A. Licht.
@@ -369,6 +378,16 @@ S.~Kr\"{a}henmann, A.~Walter, S.~Brienen, F.~Imbery, and A.~Matzarakis.
   (3-4):\penalty0 899–926, 12 2016.
 \newblock ISSN 1434-4483.
 \newblock \doi{10.1007/s00704-016-2003-7}.
+
+\bibitem[Laidig et~al.(2025)Laidig, Feike, Brandes, and Piepho]{Laidig_2025}
+F.~Laidig, T.~Feike, H.~Brandes, and H-P. Piepho.
+\newblock Breeding progress of grain and forage maize in long-term variety
+  trials compared to on-farm yield development.
+\newblock \emph{Theoretical and Applied Genetics}, 138\penalty0 (12), November
+  2025.
+\newblock ISSN 1432-2242.
+\newblock \doi{10.1007/s00122-025-05085-6}.
+\newblock URL \url{http://dx.doi.org/10.1007/s00122-025-05085-6}.
 
 \bibitem[Long et~al.(2017)Long, Assefa, Schwalbert, and Ciampitti]{Long_2017}
 N.V. Long, Y.~Assefa, R.~Schwalbert, and I.A. Ciampitti.
