@@ -17,8 +17,7 @@ De esta manera, se obtienen mediciones históricas representativas de las condic
 \end{figure}
 
 
-Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícolas: uno empleando la distancia Euclidiana y uno empleando la distancia Manhattan. Lo que permitió la identificación de periodos que favorezcan la siembra, adaptados a las condiciones locales mediante los criterios de decisión previamente establecidos, los cuales se muestran en la Figura \ref{fig:sowing_suitability}
-
+Al aplicar lo anterior, para cada estado considerado, se construyen los diagramas de transición asociados a las cadenas de Markov, ver Figura \ref{Transicion}. Al tomar las probabilidades de transición como pesos que modulan la aptitud para la siembra diaria, se tienen gráficas dirigida con pesos, ver Figuras \ref{fig:sowing_suitability_brandenburg, fig:sowing_suitability_saxony, fig:sowing_suitability_bavaria}.
 
 % ============================================================
 % Brandenburgo
@@ -97,7 +96,12 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 		\caption{}
 		\label{fig:bavaria_manhattan_graph}
 	\end{subfigure}
-	
+	\begin{subfigure}[b]{0.09\textwidth}
+		\centering
+		\raisebox{1cm}{%
+			\includegraphics[width=0.6\textwidth]{Transition_probability.png}
+		}
+	\end{subfigure}
 	
 	\caption{
 		Aptitud diaria para la siembra en Baviera, expresada como la probabilidad de transición $\lambda_k$, $k\in\{1,2,\ldots,365\}$, calculada mediante las distancias Euclidiana y Manhattan. La figura \ref{fig:bavaria_euclidean_graph} muestra los valores de $\lambda_k$ calculados mediante la distancia Euclidiana, mientras que la figura \ref{fig:bavaria_manhattan_graph} muestra los valores correspondientes calculados mediante la distancia Manhattan. La progresión del año se expresa en sentido contrario a las manecillas del reloj; en el exterior de la gráfica anular se indican los meses, mientras que en su interior se indican los días del año.
@@ -107,72 +111,9 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 	
 \end{figure}
 
-\iffalse
-\begin{figure}[htbp]
-	\centering
-	\begin{tabular}{@{\hspace{-2cm}}c@{\hspace{-0.3cm}}c@{\hspace{-0.3cm}}c@{\hspace{0cm}}c}
-		
-		% ====================================================
-		% Primera fila
-		% ====================================================
-		
-		\begin{subfigure}[b]{0.38\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{[Brandenburg][Euclidean]Transition_graph.png}
-			\caption{}
-			\label{fig:brandenburg_euclidean_graph}
-		\end{subfigure}
-		&
-		\begin{subfigure}[b]{0.38\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{[Brandenburg][Manhattan]Transition_graph.png}
-			\caption{}
-			\label{fig:brandenburg_manhattan_graph}
-		\end{subfigure}
-		\\[2mm]
-		
-		% ====================================================
-		% Segunda fila
-		% ====================================================
-		
-		\begin{subfigure}[b]{0.4\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{[Saxony][Euclidean]Transition_graph.png}
-			\caption{}
-			\label{fig:saxony_euclidean_graph}
-		\end{subfigure}
-		&
-		\begin{subfigure}[b]{0.4\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{[Saxony][Manhattan]Transition_graph.png}
-			\caption{}
-			\label{fig:saxony_manhattan_graph}
-		\end{subfigure}
-		&
-		\\[2mm]
-		\begin{subfigure}[b]{0.4\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{[Bavaria][Euclidean]Transition_graph.png}
-			\caption{}
-			\label{fig:bavaria_euclidean_graph}
-		\end{subfigure}
-		&
-		\begin{subfigure}[b]{0.4\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{[Bavaria][Manhattan]Transition_graph.png}
-			\caption{}
-			\label{fig:bavaria_manhattan_graph}
-		\end{subfigure}
-		&
-	\end{tabular}
-	
-	\caption{
-		Aptitud diaria para la siembra en Brandenburgo, Sajonia y Baviera, expresada como la probabilidad de transición $\lambda_k$, $k\in\{1,2,\ldots,365\}$, calculada mediante las distancias Euclidiana y Manhattan. Las figuras \ref{fig:brandenburg_euclidean}, \ref{fig:saxony_euclidean} y \ref{fig:bavaria_euclidean} muestran los valores de $\lambda_k$ calculados mediante la distancia Euclidiana para Brandenburgo, Sajonia y Baviera, respectivamente. Similarmente, las figuras \ref{fig:brandenburg_manhattan}, \ref{fig:saxony_manhattan} y \ref{fig:bavaria_manhattan} muestran los valores correspondientes calculados mediante la distancia Manhattan. La progresión del año se expresa en sentido contrario a las manecillas del reloj, en el exterior de la gráfica anular se indican los meses, mientras que en su interior se indican los días del año.
-	}
-	\label{fig:sowing_suitability}
-\end{figure}
-\fi
+\newpage
 
+Al aplicar el criterio empírico de permanencia descrito en la Sección \ref{Sec:Methods} a las gráficas dirigidas correspondientes a cada estado, se obtuvieron calendarios de siembra de maíz para cada una de las distancias consideradas. A partir de los parámetros establecidos previamente, se identificaron los periodos regionales de siembra en cada región, los cuales se presentan en las Figuras \ref{fig:brandenburg_sowing_windows, fig:saxony_sowing_windows, fig:bavaria_sowing_windows}.
 
 
 
@@ -208,7 +149,7 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 		}
 	\end{subfigure}
 	\caption{
-		Calendario de los periodos de siembra identificados para Brandenburgo mediante las distancias Euclidiana y Manhattan. Las figuras \ref{fig:brandenburg_euclidean_sowing_window} y \ref{fig:brandenburg_manhattan_sowing_window} muestran los periodos resultantes para cada distancia, respectivamente.
+		Periodos de siembra identificados para Brandenburgo. Las figuras \ref{fig:brandenburg_euclidean_sowing_window} y \ref{fig:brandenburg_manhattan_sowing_window} muestran los periodos resultantes para la distancia Euclidiana y Manhattan, respectivamente. Los intervalos del 95\% de confianza para la probabilidad de aptitud calculados por bootstrap y jackknife se muestran en color café y gris, respetivamente. Los días con aptitud baja se muestran en azul, aquellos con aptitud media en amarillo y los de aptitud alta en verde.
 	}
 	\label{fig:brandenburg_sowing_windows}
 	
@@ -1769,15 +1710,12 @@ Con lo anterior, para cada estado, se obtuvieron un par de calendarios agrícola
 	
 \end{figure}
 
+Asimismo, los periodos de siembra obtenidos se muestran explícitamente en la Tabla \ref{Tab:Sowing_windows}. 
 
 
 
 
 
-
-
-
-De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza por una elevada heterogeneidad topográfica, climática y edáfica. En particular, Baviera, Brandemburgo y Sajonia presentan variaciones en humedad, altitud, temperatura y características del suelo, factores que influyen directamente en las prácticas agrícolas y los calendarios de siembra. Esta diversidad de condiciones ambientales permitió someter la metodología propuesta a distintos escenarios espaciales y verifica su capacidad para identificar variaciones en la aptitud de las fechas de siembra y, con ello, evaluar parcialmente su comportamiento bajo condiciones ambientales heterogéneas.\\
 
 
 % Please add the following required packages to your document preamble:
@@ -1807,8 +1745,14 @@ De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza 
 		\multicolumn{1}{c|}{\textbf{1}}                         & \multicolumn{1}{l|}{99--119}                                                                    & \multicolumn{1}{l|}{96--119}                                                                                     & \multicolumn{1}{l|}{95, 97--119}             & 91, 93--122                                \\ \hline
 		\multicolumn{1}{c|}{\textbf{2}}                         & \multicolumn{1}{l|}{246--264}                                                                   & \multicolumn{1}{l|}{245--265}                                                                                    & \multicolumn{1}{l|}{249--264}                & 248--265                                   \\ \hline
 	\end{tabular}
-	\caption{Periodos de siembra}
+	\caption{Periodos de siembra regionales obtenidos. Días del año determinados para llevar a cabo la siembra de maíz en Brandemburgo, Sajonia y Baviera, obtenidos a través de la distancia Euclideana y Manhattan, respectivamente. Se presentan las predicciones obtenidas mediante la implementación directa del criterio empírico de permanencia (Raw predictions), así como aquellas correspondientes a los días cuyos intervalos de confianza, estimados mediante bootstrap o jackknife, contienen o superan el umbral de aptitud (CI predictions). Los resultados se agrupan según el semestre del año.}
+	\label{Tab:Sowing_windows}
 \end{table}
+
+
+\newpage
+
+De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza por una elevada heterogeneidad topográfica, climática y edáfica. En particular, Baviera, Brandemburgo y Sajonia presentan variaciones en humedad, altitud, temperatura y características del suelo, factores que influyen directamente en las prácticas agrícolas y los calendarios de siembra. Esta diversidad de condiciones ambientales permitió someter la metodología propuesta a distintos escenarios espaciales y verifica su capacidad para identificar variaciones en la aptitud de las fechas de siembra y, con ello, evaluar parcialmente su comportamiento bajo condiciones ambientales heterogéneas.\\
 
 
 \begin{figure}[h]
