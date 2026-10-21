@@ -283,6 +283,7 @@ Para cada una de las distancias consideradas, los periodos de siembra identifica
 %De acuerdo con \cite{Flores_2025}, la región agrícola empleada se caracteriza por una elevada heterogeneidad topográfica, climática y edáfica. En particular, Baviera, Brandemburgo y Sajonia presentan variaciones en humedad, altitud, temperatura y características del suelo, factores que influyen directamente en las prácticas agrícolas y los calendarios de siembra. Esta diversidad de condiciones ambientales permitió someter la metodología propuesta a distintos escenarios espaciales y verifica su capacidad para identificar variaciones en la aptitud de las fechas de siembra y, con ello, evaluar parcialmente su comportamiento bajo condiciones ambientales heterogéneas.\\
 
 
+
 Para robustecer nuestro trabajo se realizaron las siguientes comparaciones, ver Figura \ref{fig:Visual_comparions_Brandenburg}, \ref{fig:Visual_comparions_North_Saxony}, \ref{fig:Visual_comparions_South_Saxony} y \ref{fig:Visual_comparions_Bavaria}. Por una parte, con base en los trabajos de \cite{Parker_2016} y \cite{Flores_2025}, se consideraron los periodos de siembra de maíz registrados \textit{in situ} en Alemania, diferenciados según criterios geográficos de altitud, latitud y longitud, ver Tabla \ref{Real_data}. Por otra parte, a partir del trabajo de \cite[Fig. S12A]{Parent_2018}, se consideraron los periodos de siembra históricos registrados para Europa durante 1975--2010, así como los periodos simulados para 2050 bajo los escenarios de trayectoria de concentración representativa (RCP, por sus siglas en inglés) 4.5 y 8.5, que proyectan concentraciones atmosféricas de CO$_2$ de 487 y 541 ppm, respectivamente.\\
 
 
@@ -319,10 +320,10 @@ Para robustecer nuestro trabajo se realizaron las siguientes comparaciones, ver 
 \clearpage
 
 Formalmente, las comparaciones se cuantificaron a través del índice de Jaccard, el cual mide la similitud entre un par de conjuntos finitos dados \cite{Bag_2019}. De esta manera, si $\hat{W}$ denota uno de los periodos siembra obtenido con nuestra metodología y $W$ denota alguno de los periodos previamente reportados en la literatura, la similitud entre $\hat{W}$ y $W$, medida con el índice de Jaccard se denota y define por \begin{equation}
-J(\hat{W}, W)= \frac{|\hat{W}\cap W|}{|\hat{W} \cup W|},	
+J(\hat{W}, W)\coloneqq \frac{|\hat{W}\cap W|}{|\hat{W} \cup W|},	
 \end{equation}donde $|\cdot|$ indica el operador de cardinalidad de un conjunto.\\
 
-Usualmente, en Alemania, el maíz es un cultivo de primavera \cite{Laidig_2025}. Por tanto, consideramos exclusivamente la parte de los periodos de siembra determinados acotados al primer semestre del año, a la que denotaremos por $P_1$, para calcular el índice de Jaccard. Para cada una de las regiones, las comparaciones de periodos de siembra en Alemania respecto a los criterios geográficos de altitud, latitud y longitud se muestran en la Tablas \ref{Tab:Comparions_Brandenburg_Geo}, \ref{Tab:Comparions_North_Saxony_Geo}, \ref{Tab:Comparions_South_Saxony_Geo} y \ref{Tab:Comparions_Bavaria_Geo}, respectivamente.\\
+En Alemania, el maíz es un cultivo de primavera \cite{Laidig_2025}. Por tanto, consideramos exclusivamente la parte de los periodos de siembra determinados acotados al primer semestre del año, a la que denotaremos por $P_1$, para calcular el índice de Jaccard. Para cada una de las regiones, las comparaciones de periodos de siembra en Alemania respecto a los criterios geográficos de altitud, latitud y longitud se muestran en la Tablas \ref{Tab:Comparions_Brandenburg_Geo}, \ref{Tab:Comparions_North_Saxony_Geo}, \ref{Tab:Comparions_South_Saxony_Geo} y \ref{Tab:Comparions_Bavaria_Geo}, respectivamente.\\
 
 Similarmente, para cada una de las regiones, las comparaciones de periodos de siembra de maíz en Europa respecto el escenario histórico, RCP 4.5 y RCP 8.5, a través del cálculo de índice de Jaccard, se muestran en la Tabla \ref{Tab:Comparisons_climate_scenario}.\\
 
@@ -503,11 +504,15 @@ Similarmente, para cada una de las regiones, las comparaciones de periodos de si
 \end{table}
 
 
+Dado que el cultivo de maíz en Alemania se desarrolla en la primavera, las comparaciones anteriores se realizaron entre los periodos de siembra identificados por el modelo que pertenecen al primer semestre del año ($P_1$) y los periodos reportados en la literatura. Para profundizar en las diferencias agroclimáticas entre los periodos identificados que pertenecen al primer semestre ($P_1$) y aquellos identificados que pertenecen al segundo semestre ($P_2$), se presenta a continuación un análisis comparativo de las condiciones ambientales asociadas a ambos conjuntos de fechas.\\
 
 
+Por robustez metodológica, se aplicaron pruebas $U$ de Mann-Whitney, con correción de Bonferroni, para analizar diferencias estadísticas en cada una de las cuatro variables en las que se basa el modelo: temperatura media del aire, humedad relativa media del aire, humedad media del suelo en la capa de 0--10 cm y  temperatura media del suelo a 5 cm de profundidad.\\
 
 
+Para Brandemburgo, considerando las predicciones etiquedas como Raw prediction obtenidas mediante la distancia euclidiana, los conjuntos de días identificados para el primer y segundo semestre del año fueron, respectivamente, $P_1=\{55,\ldots,108,123,\ldots,125,137,139,\ldots,142\}$ y $P_2=\{271,\ldots,310\}$, ver Tabla \ref{Tab:Sowing_windows}. En cuanto a la temperatura media del aire, se identificaron diferencias estadísticamente significativas entre ambos conjuntos de días para los datos de 1996 ($p<0.001$), 2000 ($p<0.001$), 2001 ($p<0.001$), 2004 ($p<0.05$), 2005 ($p<0.01$), 2006 ($p<0.001$), 2008 ($p<0.001$), 2013 ($p<0.001$) 2014 ($p<0.001$), 2017 ($p<0.05$), 2019 ($p<0.05$), 2020 ($p<0.001$), 2021 ($p<0.001$), 2022 ($p<0.001$), 2023 ($p<0.05$) y 2025 ($p<0.05$), ver Figura \ref{fig:brandenburg_euclidean_raw_yearly_temperature}.\\
 
+%Estos resultados sugieren que los días identificados en $P_2$ se asocian, en general, con temperaturas medias del aire más elevadas que las de $P_1$
 
 
 
