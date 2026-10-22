@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  22 OCT 2026 11:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  22 OCT 2026 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2439,7 +2439,10 @@ phic file (type png)
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][CI]Aggregated_average_
 temperature.png  used on input line 622.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Manhattan][Raw]average_temperature.png, id=781, 1148.3703
+
+LaTeX Warning: Float too large for page by 3.91055pt on input line 633.
+
+<Images/[Brandenburg][Manhattan][Raw]average_temperature.png, id=791, 1148.3703
 pt x 497.6994pt>
 File: Images/[Brandenburg][Manhattan][Raw]average_temperature.png Graphic file 
 (type png)
@@ -2447,7 +2450,7 @@ File: Images/[Brandenburg][Manhattan][Raw]average_temperature.png Graphic file
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][Raw]average_temperatur
 e.png  used on input line 647.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Manhattan][CI]average_temperature.png, id=782, 1148.3703p
+<Images/[Brandenburg][Manhattan][CI]average_temperature.png, id=792, 1148.3703p
 t x 497.6994pt>
 File: Images/[Brandenburg][Manhattan][CI]average_temperature.png Graphic file (
 type png)
@@ -2455,7 +2458,7 @@ type png)
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][CI]average_temperature
 .png  used on input line 659.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Manhattan][Raw]Aggregated_average_temperature.png, id=783
+<Images/[Brandenburg][Manhattan][Raw]Aggregated_average_temperature.png, id=793
 , 497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Manhattan][Raw]Aggregated_average_temperature.png Gr
 aphic file (type png)
@@ -2463,7 +2466,7 @@ aphic file (type png)
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][Raw]Aggregated_average
 _temperature.png  used on input line 673.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Manhattan][CI]Aggregated_average_temperature.png, id=784,
+<Images/[Brandenburg][Manhattan][CI]Aggregated_average_temperature.png, id=794,
  497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Manhattan][CI]Aggregated_average_temperature.png Gra
 phic file (type png)
@@ -2471,7 +2474,10 @@ phic file (type png)
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][CI]Aggregated_average_
 temperature.png  used on input line 682.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Euclidean][Raw]relative_humidity.png, id=785, 1148.6112pt
+
+LaTeX Warning: Float too large for page by 3.8697pt on input line 693.
+
+<Images/[Brandenburg][Euclidean][Raw]relative_humidity.png, id=805, 1148.6112pt
  x 497.9403pt>
 File: Images/[Brandenburg][Euclidean][Raw]relative_humidity.png Graphic file (t
 ype png)
@@ -2479,7 +2485,7 @@ ype png)
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][Raw]relative_humidity.
 png  used on input line 708.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Brandenburg][Euclidean][CI]relative_humidity.png, id=786, 1148.3703pt 
+<Images/[Brandenburg][Euclidean][CI]relative_humidity.png, id=806, 1148.3703pt 
 x 497.6994pt>
 File: Images/[Brandenburg][Euclidean][CI]relative_humidity.png Graphic file (ty
 pe png)
@@ -2487,7 +2493,7 @@ pe png)
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][CI]relative_humidity.p
 ng  used on input line 720.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png, id=787, 
+<Images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png, id=807, 
 497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png Grap
 hic file (type png)
@@ -2495,7 +2501,7 @@ hic file (type png)
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][Raw]Aggregated_relativ
 e_humidity.png  used on input line 734.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Euclidean][CI]Aggregated_relative_humidity.png, id=788, 4
+<Images/[Brandenburg][Euclidean][CI]Aggregated_relative_humidity.png, id=808, 4
 97.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Euclidean][CI]Aggregated_relative_humidity.png Graph
 ic file (type png)
@@ -2503,7 +2509,10 @@ ic file (type png)
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][CI]Aggregated_relative
 _humidity.png  used on input line 743.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Manhattan][Raw]relative_humidity.png, id=789, 1148.3703pt
+
+LaTeX Warning: Float too large for page by 3.91055pt on input line 754.
+
+<Images/[Brandenburg][Manhattan][Raw]relative_humidity.png, id=819, 1148.3703pt
  x 497.6994pt>
 File: Images/[Brandenburg][Manhattan][Raw]relative_humidity.png Graphic file (t
 ype png)
@@ -2511,7 +2520,7 @@ ype png)
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][Raw]relative_humidity.
 png  used on input line 768.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Manhattan][CI]relative_humidity.png, id=790, 1148.3703pt 
+<Images/[Brandenburg][Manhattan][CI]relative_humidity.png, id=820, 1148.3703pt 
 x 497.6994pt>
 File: Images/[Brandenburg][Manhattan][CI]relative_humidity.png Graphic file (ty
 pe png)
@@ -2519,7 +2528,7 @@ pe png)
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][CI]relative_humidity.p
 ng  used on input line 780.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Manhattan][Raw]Aggregated_relative_humidity.png, id=791, 
+<Images/[Brandenburg][Manhattan][Raw]Aggregated_relative_humidity.png, id=821, 
 497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Manhattan][Raw]Aggregated_relative_humidity.png Grap
 hic file (type png)
@@ -2527,7 +2536,7 @@ hic file (type png)
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][Raw]Aggregated_relativ
 e_humidity.png  used on input line 794.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Manhattan][CI]Aggregated_relative_humidity.png, id=792, 4
+<Images/[Brandenburg][Manhattan][CI]Aggregated_relative_humidity.png, id=822, 4
 97.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Manhattan][CI]Aggregated_relative_humidity.png Graph
 ic file (type png)
@@ -2535,134 +2544,149 @@ ic file (type png)
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][CI]Aggregated_relative
 _humidity.png  used on input line 803.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png, id=793, 1148.611
+
+LaTeX Warning: Float too large for page by 13.3697pt on input line 813.
+
+<Images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png, id=833, 1148.611
 2pt x 497.9403pt>
 File: Images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png Graphic file
  (type png)
 <use Images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10
-cm.png  used on input line 830.
+cm.png  used on input line 829.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Brandenburg][Euclidean][CI]soil_moisture_0-10cm.png, id=794, 1148.3703
+<Images/[Brandenburg][Euclidean][CI]soil_moisture_0-10cm.png, id=834, 1148.3703
 pt x 497.6994pt>
 File: Images/[Brandenburg][Euclidean][CI]soil_moisture_0-10cm.png Graphic file 
 (type png)
 <use Images/[Brandenburg][Euclidean][CI]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][CI]soil_moisture_0-10c
-m.png  used on input line 842.
+m.png  used on input line 841.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png, id=79
+<Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png, id=83
 5, 497.9403pt x 495.5313pt>
 File: Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png G
 raphic file (type png)
 <use Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_mo
-isture_0-10cm.png  used on input line 856.
+isture_0-10cm.png  used on input line 855.
 (pdftex.def)             Requested size: 187.89914pt x 186.98819pt.
-<Images/[Brandenburg][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png, id=796
+<Images/[Brandenburg][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png, id=836
 , 497.9403pt x 495.5313pt>
 File: Images/[Brandenburg][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png Gr
 aphic file (type png)
 <use Images/[Brandenburg][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][CI]Aggregated_soil_moi
-sture_0-10cm.png  used on input line 865.
+sture_0-10cm.png  used on input line 864.
 (pdftex.def)             Requested size: 187.89914pt x 186.98819pt.
-<Images/[Brandenburg][Manhattan][Raw]soil_moisture_0-10cm.png, id=797, 1148.370
+
+LaTeX Warning: Float too large for page by 13.22874pt on input line 875.
+
+<Images/[Brandenburg][Manhattan][Raw]soil_moisture_0-10cm.png, id=847, 1148.370
 3pt x 497.6994pt>
 File: Images/[Brandenburg][Manhattan][Raw]soil_moisture_0-10cm.png Graphic file
  (type png)
 <use Images/[Brandenburg][Manhattan][Raw]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][Raw]soil_moisture_0-10
-cm.png  used on input line 890.
+cm.png  used on input line 889.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Manhattan][CI]soil_moisture_0-10cm.png, id=798, 1148.3703
+<Images/[Brandenburg][Manhattan][CI]soil_moisture_0-10cm.png, id=848, 1148.3703
 pt x 497.6994pt>
 File: Images/[Brandenburg][Manhattan][CI]soil_moisture_0-10cm.png Graphic file 
 (type png)
 <use Images/[Brandenburg][Manhattan][CI]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][CI]soil_moisture_0-10c
-m.png  used on input line 902.
+m.png  used on input line 901.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png, id=79
+<Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png, id=84
 9, 497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png G
 raphic file (type png)
 <use Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_mo
-isture_0-10cm.png  used on input line 916.
+isture_0-10cm.png  used on input line 915.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png, id=800
+<Images/[Brandenburg][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png, id=850
 , 497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png Gr
 aphic file (type png)
 <use Images/[Brandenburg][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][CI]Aggregated_soil_moi
-sture_0-10cm.png  used on input line 925.
+sture_0-10cm.png  used on input line 924.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png, id=801, 1148.611
+
+LaTeX Warning: Float too large for page by 13.3697pt on input line 935.
+
+<Images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png, id=861, 1148.611
 2pt x 497.9403pt>
 File: Images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png Graphic file
  (type png)
 <use Images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][Raw]soil_temperature_5
-cm.png  used on input line 949.
+cm.png  used on input line 948.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Brandenburg][Euclidean][CI]soil_temperature_5cm.png, id=802, 1148.3703
+<Images/[Brandenburg][Euclidean][CI]soil_temperature_5cm.png, id=862, 1148.3703
 pt x 497.6994pt>
 File: Images/[Brandenburg][Euclidean][CI]soil_temperature_5cm.png Graphic file 
 (type png)
 <use Images/[Brandenburg][Euclidean][CI]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][CI]soil_temperature_5c
-m.png  used on input line 961.
+m.png  used on input line 960.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png, id=80
+<Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png, id=86
 3, 497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png G
 raphic file (type png)
 <use Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][Raw]Aggregated_soil_te
-mperature_5cm.png  used on input line 975.
+mperature_5cm.png  used on input line 974.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Euclidean][CI]Aggregated_soil_temperature_5cm.png, id=804
+<Images/[Brandenburg][Euclidean][CI]Aggregated_soil_temperature_5cm.png, id=864
 , 497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Euclidean][CI]Aggregated_soil_temperature_5cm.png Gr
 aphic file (type png)
 <use Images/[Brandenburg][Euclidean][CI]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Euclidean][CI]Aggregated_soil_tem
-perature_5cm.png  used on input line 984.
+perature_5cm.png  used on input line 983.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Manhattan][Raw]soil_temperature_5cm.png, id=805, 1148.370
+
+LaTeX Warning: Float too large for page by 13.41055pt on input line 994.
+
+<Images/[Brandenburg][Manhattan][Raw]soil_temperature_5cm.png, id=875, 1148.370
 3pt x 497.6994pt>
 File: Images/[Brandenburg][Manhattan][Raw]soil_temperature_5cm.png Graphic file
  (type png)
 <use Images/[Brandenburg][Manhattan][Raw]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][Raw]soil_temperature_5
-cm.png  used on input line 1009.
+cm.png  used on input line 1008.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Manhattan][CI]soil_temperature_5cm.png, id=806, 1148.3703
+<Images/[Brandenburg][Manhattan][CI]soil_temperature_5cm.png, id=876, 1148.3703
 pt x 497.6994pt>
 File: Images/[Brandenburg][Manhattan][CI]soil_temperature_5cm.png Graphic file 
 (type png)
 <use Images/[Brandenburg][Manhattan][CI]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][CI]soil_temperature_5c
-m.png  used on input line 1021.
+m.png  used on input line 1020.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_temperature_5cm.png, id=80
+<Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_temperature_5cm.png, id=87
 7, 497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_temperature_5cm.png G
 raphic file (type png)
 <use Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][Raw]Aggregated_soil_te
-mperature_5cm.png  used on input line 1035.
+mperature_5cm.png  used on input line 1034.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Brandenburg][Manhattan][CI]Aggregated_soil_temperature_5cm.png, id=808
+<Images/[Brandenburg][Manhattan][CI]Aggregated_soil_temperature_5cm.png, id=878
 , 497.9403pt x 496.0131pt>
 File: Images/[Brandenburg][Manhattan][CI]Aggregated_soil_temperature_5cm.png Gr
 aphic file (type png)
 <use Images/[Brandenburg][Manhattan][CI]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Brandenburg][Manhattan][CI]Aggregated_soil_tem
-perature_5cm.png  used on input line 1044.
+perature_5cm.png  used on input line 1043.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
+
+LaTeX Warning: Float too large for page by 13.3697pt on input line 1054.
+
 [26] [27 <./Images/[Brandenburg][Euclidean][Raw]average_temperature.png> <./Ima
 ges/[Brandenburg][Euclidean][CI]average_temperature.png> <./Images/[Brandenburg
 ][Euclidean][Raw]Aggregated_average_temperature.png> <./Images/[Brandenburg][Eu
@@ -2692,361 +2716,385 @@ mages/[Brandenburg][Euclidean][CI]Aggregated_soil_temperature_5cm.png>]
 [Brandenburg][Manhattan][CI]soil_temperature_5cm.png> <./Images/[Brandenburg][M
 anhattan][Raw]Aggregated_soil_temperature_5cm.png> <./Images/[Brandenburg][Manh
 attan][CI]Aggregated_soil_temperature_5cm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1059
+Underfull \hbox (badness 10000) in paragraph at lines 1057--1058
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
+Underfull \hbox (badness 10000) in paragraph at lines 1060--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1063
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1067--1068
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1070
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
+Underfull \hbox (badness 10000) in paragraph at lines 1070--1071
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1083--1084
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1083
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1085--1086
+Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1087--1088
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1091
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1090
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1093
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1095
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1097--1098
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1097
 
  []
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
+Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
+Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
 
  []
 
-<Images/[Saxony][Euclidean][Raw]average_temperature.png, id=929, 1148.6112pt x 
-497.9403pt>
+<Images/[Saxony][Euclidean][Raw]average_temperature.png, id=1009, 1148.6112pt x
+ 497.9403pt>
 File: Images/[Saxony][Euclidean][Raw]average_temperature.png Graphic file (type
  png)
 <use Images/[Saxony][Euclidean][Raw]average_temperature.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][Raw]average_temperature.png
-  used on input line 1121.
+  used on input line 1120.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Saxony][Euclidean][CI]average_temperature.png, id=930, 1148.3703pt x 4
-97.6994pt>
+<Images/[Saxony][Euclidean][CI]average_temperature.png, id=1010, 1148.3703pt x 
+497.6994pt>
 File: Images/[Saxony][Euclidean][CI]average_temperature.png Graphic file (type 
 png)
 <use Images/[Saxony][Euclidean][CI]average_temperature.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][CI]average_temperature.png 
- used on input line 1133.
+ used on input line 1132.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Euclidean][Raw]Aggregated_average_temperature.png, id=931, 497
-.9403pt x 496.0131pt>
+<Images/[Saxony][Euclidean][Raw]Aggregated_average_temperature.png, id=1011, 49
+7.9403pt x 496.0131pt>
 File: Images/[Saxony][Euclidean][Raw]Aggregated_average_temperature.png Graphic
  file (type png)
 <use Images/[Saxony][Euclidean][Raw]Aggregated_average_temperature.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][Raw]Aggregated_average_temp
-erature.png  used on input line 1147.
+erature.png  used on input line 1146.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Euclidean][CI]Aggregated_average_temperature.png, id=932, 497.
-9403pt x 496.0131pt>
+<Images/[Saxony][Euclidean][CI]Aggregated_average_temperature.png, id=1012, 497
+.9403pt x 496.0131pt>
 File: Images/[Saxony][Euclidean][CI]Aggregated_average_temperature.png Graphic 
 file (type png)
 <use Images/[Saxony][Euclidean][CI]Aggregated_average_temperature.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][CI]Aggregated_average_tempe
-rature.png  used on input line 1156.
+rature.png  used on input line 1155.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Manhattan][Raw]average_temperature.png, id=933, 1148.3703pt x 
-497.6994pt>
+
+LaTeX Warning: Float too large for page by 3.91055pt on input line 1166.
+
+<Images/[Saxony][Manhattan][Raw]average_temperature.png, id=1023, 1148.3703pt x
+ 497.6994pt>
 File: Images/[Saxony][Manhattan][Raw]average_temperature.png Graphic file (type
  png)
 <use Images/[Saxony][Manhattan][Raw]average_temperature.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][Raw]average_temperature.png
-  used on input line 1181.
+  used on input line 1180.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Manhattan][CI]average_temperature.png, id=934, 1148.3703pt x 4
-97.6994pt>
+<Images/[Saxony][Manhattan][CI]average_temperature.png, id=1024, 1148.3703pt x 
+497.6994pt>
 File: Images/[Saxony][Manhattan][CI]average_temperature.png Graphic file (type 
 png)
 <use Images/[Saxony][Manhattan][CI]average_temperature.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][CI]average_temperature.png 
- used on input line 1193.
+ used on input line 1192.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Manhattan][Raw]Aggregated_average_temperature.png, id=935, 497
-.9403pt x 496.0131pt>
+<Images/[Saxony][Manhattan][Raw]Aggregated_average_temperature.png, id=1025, 49
+7.9403pt x 496.0131pt>
 File: Images/[Saxony][Manhattan][Raw]Aggregated_average_temperature.png Graphic
  file (type png)
 <use Images/[Saxony][Manhattan][Raw]Aggregated_average_temperature.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][Raw]Aggregated_average_temp
-erature.png  used on input line 1207.
+erature.png  used on input line 1206.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Manhattan][CI]Aggregated_average_temperature.png, id=936, 497.
-9403pt x 496.0131pt>
+<Images/[Saxony][Manhattan][CI]Aggregated_average_temperature.png, id=1026, 497
+.9403pt x 496.0131pt>
 File: Images/[Saxony][Manhattan][CI]Aggregated_average_temperature.png Graphic 
 file (type png)
 <use Images/[Saxony][Manhattan][CI]Aggregated_average_temperature.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][CI]Aggregated_average_tempe
-rature.png  used on input line 1216.
+rature.png  used on input line 1215.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Euclidean][Raw]relative_humidity.png, id=937, 1148.6112pt x 49
-7.9403pt>
+
+LaTeX Warning: Float too large for page by 3.8697pt on input line 1226.
+
+<Images/[Saxony][Euclidean][Raw]relative_humidity.png, id=1037, 1148.6112pt x 4
+97.9403pt>
 File: Images/[Saxony][Euclidean][Raw]relative_humidity.png Graphic file (type p
 ng)
 <use Images/[Saxony][Euclidean][Raw]relative_humidity.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][Raw]relative_humidity.png  
-used on input line 1242.
+used on input line 1241.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Saxony][Euclidean][CI]relative_humidity.png, id=938, 1148.3703pt x 497
-.6994pt>
+<Images/[Saxony][Euclidean][CI]relative_humidity.png, id=1038, 1148.3703pt x 49
+7.6994pt>
 File: Images/[Saxony][Euclidean][CI]relative_humidity.png Graphic file (type pn
 g)
 <use Images/[Saxony][Euclidean][CI]relative_humidity.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][CI]relative_humidity.png  u
-sed on input line 1254.
+sed on input line 1253.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Euclidean][Raw]Aggregated_relative_humidity.png, id=939, 497.9
-403pt x 496.0131pt>
+<Images/[Saxony][Euclidean][Raw]Aggregated_relative_humidity.png, id=1039, 497.
+9403pt x 496.0131pt>
 File: Images/[Saxony][Euclidean][Raw]Aggregated_relative_humidity.png Graphic f
 ile (type png)
 <use Images/[Saxony][Euclidean][Raw]Aggregated_relative_humidity.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][Raw]Aggregated_relative_hum
-idity.png  used on input line 1268.
+idity.png  used on input line 1267.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Euclidean][CI]Aggregated_relative_humidity.png, id=940, 497.94
-03pt x 496.0131pt>
+<Images/[Saxony][Euclidean][CI]Aggregated_relative_humidity.png, id=1040, 497.9
+403pt x 496.0131pt>
 File: Images/[Saxony][Euclidean][CI]Aggregated_relative_humidity.png Graphic fi
 le (type png)
 <use Images/[Saxony][Euclidean][CI]Aggregated_relative_humidity.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][CI]Aggregated_relative_humi
-dity.png  used on input line 1277.
+dity.png  used on input line 1276.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Manhattan][Raw]relative_humidity.png, id=941, 1148.3703pt x 49
-7.6994pt>
+
+LaTeX Warning: Float too large for page by 3.91055pt on input line 1287.
+
+<Images/[Saxony][Manhattan][Raw]relative_humidity.png, id=1051, 1148.3703pt x 4
+97.6994pt>
 File: Images/[Saxony][Manhattan][Raw]relative_humidity.png Graphic file (type p
 ng)
 <use Images/[Saxony][Manhattan][Raw]relative_humidity.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][Raw]relative_humidity.png  
-used on input line 1302.
+used on input line 1301.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Manhattan][CI]relative_humidity.png, id=942, 1148.3703pt x 497
-.6994pt>
+<Images/[Saxony][Manhattan][CI]relative_humidity.png, id=1052, 1148.3703pt x 49
+7.6994pt>
 File: Images/[Saxony][Manhattan][CI]relative_humidity.png Graphic file (type pn
 g)
 <use Images/[Saxony][Manhattan][CI]relative_humidity.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][CI]relative_humidity.png  u
-sed on input line 1314.
+sed on input line 1313.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Manhattan][Raw]Aggregated_relative_humidity.png, id=943, 497.9
-403pt x 496.0131pt>
+<Images/[Saxony][Manhattan][Raw]Aggregated_relative_humidity.png, id=1053, 497.
+9403pt x 496.0131pt>
 File: Images/[Saxony][Manhattan][Raw]Aggregated_relative_humidity.png Graphic f
 ile (type png)
 <use Images/[Saxony][Manhattan][Raw]Aggregated_relative_humidity.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][Raw]Aggregated_relative_hum
-idity.png  used on input line 1328.
+idity.png  used on input line 1327.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Manhattan][CI]Aggregated_relative_humidity.png, id=944, 497.94
-03pt x 496.0131pt>
+<Images/[Saxony][Manhattan][CI]Aggregated_relative_humidity.png, id=1054, 497.9
+403pt x 496.0131pt>
 File: Images/[Saxony][Manhattan][CI]Aggregated_relative_humidity.png Graphic fi
 le (type png)
 <use Images/[Saxony][Manhattan][CI]Aggregated_relative_humidity.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][CI]Aggregated_relative_humi
-dity.png  used on input line 1337.
+dity.png  used on input line 1336.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Euclidean][Raw]soil_moisture_0-10cm.png, id=945, 1148.6112pt x
- 497.9403pt>
+
+LaTeX Warning: Float too large for page by 3.8697pt on input line 1346.
+
+<Images/[Saxony][Euclidean][Raw]soil_moisture_0-10cm.png, id=1065, 1148.6112pt 
+x 497.9403pt>
 File: Images/[Saxony][Euclidean][Raw]soil_moisture_0-10cm.png Graphic file (typ
 e png)
 <use Images/[Saxony][Euclidean][Raw]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][Raw]soil_moisture_0-10cm.pn
-g  used on input line 1364.
+g  used on input line 1362.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Saxony][Euclidean][CI]soil_moisture_0-10cm.png, id=946, 1148.3703pt x 
-497.6994pt>
+<Images/[Saxony][Euclidean][CI]soil_moisture_0-10cm.png, id=1066, 1148.3703pt x
+ 497.6994pt>
 File: Images/[Saxony][Euclidean][CI]soil_moisture_0-10cm.png Graphic file (type
  png)
 <use Images/[Saxony][Euclidean][CI]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][CI]soil_moisture_0-10cm.png
-  used on input line 1376.
+  used on input line 1374.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png, id=947, 49
-7.9403pt x 496.0131pt>
+<Images/[Saxony][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png, id=1067, 4
+97.9403pt x 496.0131pt>
 File: Images/[Saxony][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png Graphi
 c file (type png)
 <use Images/[Saxony][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][Raw]Aggregated_soil_moistur
-e_0-10cm.png  used on input line 1390.
+e_0-10cm.png  used on input line 1388.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png, id=948, 497
-.9403pt x 496.0131pt>
+<Images/[Saxony][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png, id=1068, 49
+7.9403pt x 496.0131pt>
 File: Images/[Saxony][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png Graphic
  file (type png)
 <use Images/[Saxony][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][CI]Aggregated_soil_moisture
-_0-10cm.png  used on input line 1399.
+_0-10cm.png  used on input line 1397.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Manhattan][Raw]soil_moisture_0-10cm.png, id=949, 1148.3703pt x
- 497.6994pt>
+
+LaTeX Warning: Float too large for page by 13.41055pt on input line 1408.
+
+<Images/[Saxony][Manhattan][Raw]soil_moisture_0-10cm.png, id=1079, 1148.3703pt 
+x 497.6994pt>
 File: Images/[Saxony][Manhattan][Raw]soil_moisture_0-10cm.png Graphic file (typ
 e png)
 <use Images/[Saxony][Manhattan][Raw]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][Raw]soil_moisture_0-10cm.pn
-g  used on input line 1424.
+g  used on input line 1422.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Manhattan][CI]soil_moisture_0-10cm.png, id=950, 1148.3703pt x 
-497.6994pt>
+<Images/[Saxony][Manhattan][CI]soil_moisture_0-10cm.png, id=1080, 1148.3703pt x
+ 497.6994pt>
 File: Images/[Saxony][Manhattan][CI]soil_moisture_0-10cm.png Graphic file (type
  png)
 <use Images/[Saxony][Manhattan][CI]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][CI]soil_moisture_0-10cm.png
-  used on input line 1436.
+  used on input line 1434.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png, id=951, 49
-7.9403pt x 496.0131pt>
+<Images/[Saxony][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png, id=1081, 4
+97.9403pt x 496.0131pt>
 File: Images/[Saxony][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png Graphi
 c file (type png)
 <use Images/[Saxony][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][Raw]Aggregated_soil_moistur
-e_0-10cm.png  used on input line 1450.
+e_0-10cm.png  used on input line 1448.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png, id=952, 497
-.9403pt x 496.0131pt>
+<Images/[Saxony][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png, id=1082, 49
+7.9403pt x 496.0131pt>
 File: Images/[Saxony][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png Graphic
  file (type png)
 <use Images/[Saxony][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][CI]Aggregated_soil_moisture
-_0-10cm.png  used on input line 1459.
+_0-10cm.png  used on input line 1457.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Euclidean][Raw]soil_temperature_5cm.png, id=953, 1148.6112pt x
- 497.9403pt>
+
+LaTeX Warning: Float too large for page by 13.3697pt on input line 1468.
+
+<Images/[Saxony][Euclidean][Raw]soil_temperature_5cm.png, id=1093, 1148.6112pt 
+x 497.9403pt>
 File: Images/[Saxony][Euclidean][Raw]soil_temperature_5cm.png Graphic file (typ
 e png)
 <use Images/[Saxony][Euclidean][Raw]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][Raw]soil_temperature_5cm.pn
-g  used on input line 1483.
+g  used on input line 1481.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Saxony][Euclidean][CI]soil_temperature_5cm.png, id=954, 1148.3703pt x 
-497.2176pt>
+<Images/[Saxony][Euclidean][CI]soil_temperature_5cm.png, id=1094, 1148.3703pt x
+ 497.2176pt>
 File: Images/[Saxony][Euclidean][CI]soil_temperature_5cm.png Graphic file (type
  png)
 <use Images/[Saxony][Euclidean][CI]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][CI]soil_temperature_5cm.png
-  used on input line 1495.
+  used on input line 1493.
 (pdftex.def)             Requested size: 375.80544pt x 162.71666pt.
-<Images/[Saxony][Euclidean][Raw]Aggregated_soil_temperature_5cm.png, id=955, 49
-7.9403pt x 496.0131pt>
+<Images/[Saxony][Euclidean][Raw]Aggregated_soil_temperature_5cm.png, id=1095, 4
+97.9403pt x 496.0131pt>
 File: Images/[Saxony][Euclidean][Raw]Aggregated_soil_temperature_5cm.png Graphi
 c file (type png)
 <use Images/[Saxony][Euclidean][Raw]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][Raw]Aggregated_soil_tempera
-ture_5cm.png  used on input line 1509.
+ture_5cm.png  used on input line 1507.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Euclidean][CI]Aggregated_soil_temperature_5cm.png, id=956, 497
-.9403pt x 496.0131pt>
+<Images/[Saxony][Euclidean][CI]Aggregated_soil_temperature_5cm.png, id=1096, 49
+7.9403pt x 496.0131pt>
 File: Images/[Saxony][Euclidean][CI]Aggregated_soil_temperature_5cm.png Graphic
  file (type png)
 <use Images/[Saxony][Euclidean][CI]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Saxony][Euclidean][CI]Aggregated_soil_temperat
-ure_5cm.png  used on input line 1518.
+ure_5cm.png  used on input line 1516.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Manhattan][Raw]soil_temperature_5cm.png, id=957, 1148.3703pt x
- 497.6994pt>
+
+LaTeX Warning: Float too large for page by 13.25288pt on input line 1527.
+
+<Images/[Saxony][Manhattan][Raw]soil_temperature_5cm.png, id=1107, 1148.3703pt 
+x 497.6994pt>
 File: Images/[Saxony][Manhattan][Raw]soil_temperature_5cm.png Graphic file (typ
 e png)
 <use Images/[Saxony][Manhattan][Raw]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][Raw]soil_temperature_5cm.pn
-g  used on input line 1543.
+g  used on input line 1541.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Manhattan][CI]soil_temperature_5cm.png, id=958, 1148.3703pt x 
-497.6994pt>
+<Images/[Saxony][Manhattan][CI]soil_temperature_5cm.png, id=1108, 1148.3703pt x
+ 497.6994pt>
 File: Images/[Saxony][Manhattan][CI]soil_temperature_5cm.png Graphic file (type
  png)
 <use Images/[Saxony][Manhattan][CI]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][CI]soil_temperature_5cm.png
-  used on input line 1555.
+  used on input line 1553.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Saxony][Manhattan][Raw]Aggregated_soil_temperature_5cm.png, id=959, 49
-7.9403pt x 496.0131pt>
+<Images/[Saxony][Manhattan][Raw]Aggregated_soil_temperature_5cm.png, id=1109, 4
+97.9403pt x 496.0131pt>
 File: Images/[Saxony][Manhattan][Raw]Aggregated_soil_temperature_5cm.png Graphi
 c file (type png)
 <use Images/[Saxony][Manhattan][Raw]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][Raw]Aggregated_soil_tempera
-ture_5cm.png  used on input line 1569.
+ture_5cm.png  used on input line 1567.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Saxony][Manhattan][CI]Aggregated_soil_temperature_5cm.png, id=960, 497
-.9403pt x 496.0131pt>
+<Images/[Saxony][Manhattan][CI]Aggregated_soil_temperature_5cm.png, id=1110, 49
+7.9403pt x 496.0131pt>
 File: Images/[Saxony][Manhattan][CI]Aggregated_soil_temperature_5cm.png Graphic
  file (type png)
 <use Images/[Saxony][Manhattan][CI]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Saxony][Manhattan][CI]Aggregated_soil_temperat
-ure_5cm.png  used on input line 1578.
+ure_5cm.png  used on input line 1576.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
+
+LaTeX Warning: Float too large for page by 13.3697pt on input line 1587.
+
 [37] [38 <./Images/[Saxony][Euclidean][Raw]average_temperature.png> <./Images/[
 Saxony][Euclidean][CI]average_temperature.png> <./Images/[Saxony][Euclidean][Ra
 w]Aggregated_average_temperature.png> <./Images/[Saxony][Euclidean][CI]Aggregat
@@ -3074,7 +3122,12 @@ _5cm.png>] [45 <./Images/[Saxony][Manhattan][Raw]soil_temperature_5cm.png> <./I
 mages/[Saxony][Manhattan][CI]soil_temperature_5cm.png> <./Images/[Saxony][Manha
 ttan][Raw]Aggregated_soil_temperature_5cm.png> <./Images/[Saxony][Manhattan][CI
 ]Aggregated_soil_temperature_5cm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1593--1594
+Underfull \hbox (badness 10000) in paragraph at lines 1591--1592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1594--1595
 
  []
 
@@ -3103,12 +3156,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1604--1605
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1606--1607
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 1607--1608
 
  []
 
-[46]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1609--1610
 
  []
@@ -3124,7 +3177,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1613--1614
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1615--1616
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1617
 
  []
 
@@ -3138,12 +3191,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1620--1621
 
  []
 
-
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 1622--1623
 
  []
 
-[47]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1624--1625
 
  []
@@ -3154,7 +3207,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1626--1627
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1628--1629
+Underfull \hbox (badness 10000) in paragraph at lines 1629--1630
 
  []
 
@@ -3168,267 +3221,286 @@ Underfull \hbox (badness 10000) in paragraph at lines 1633--1634
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1635--1636
-
- []
-
-<Images/[Bavaria][Euclidean][Raw]average_temperature.png, id=1083, 1148.6112pt 
+<Images/[Bavaria][Euclidean][Raw]average_temperature.png, id=1243, 1148.6112pt 
 x 497.9403pt>
 File: Images/[Bavaria][Euclidean][Raw]average_temperature.png Graphic file (typ
 e png)
 <use Images/[Bavaria][Euclidean][Raw]average_temperature.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][Raw]average_temperature.pn
-g  used on input line 1656.
+g  used on input line 1654.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Bavaria][Euclidean][CI]average_temperature.png, id=1084, 1148.3703pt x
+<Images/[Bavaria][Euclidean][CI]average_temperature.png, id=1244, 1148.3703pt x
  497.6994pt>
 File: Images/[Bavaria][Euclidean][CI]average_temperature.png Graphic file (type
  png)
 <use Images/[Bavaria][Euclidean][CI]average_temperature.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][CI]average_temperature.png
-  used on input line 1668.
+  used on input line 1666.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Euclidean][Raw]Aggregated_average_temperature.png, id=1085, 4
+<Images/[Bavaria][Euclidean][Raw]Aggregated_average_temperature.png, id=1245, 4
 97.9403pt x 496.0131pt>
 File: Images/[Bavaria][Euclidean][Raw]Aggregated_average_temperature.png Graphi
 c file (type png)
 <use Images/[Bavaria][Euclidean][Raw]Aggregated_average_temperature.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][Raw]Aggregated_average_tem
-perature.png  used on input line 1682.
+perature.png  used on input line 1680.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Euclidean][CI]Aggregated_average_temperature.png, id=1086, 49
+<Images/[Bavaria][Euclidean][CI]Aggregated_average_temperature.png, id=1246, 49
 7.9403pt x 496.0131pt>
 File: Images/[Bavaria][Euclidean][CI]Aggregated_average_temperature.png Graphic
  file (type png)
 <use Images/[Bavaria][Euclidean][CI]Aggregated_average_temperature.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][CI]Aggregated_average_temp
-erature.png  used on input line 1691.
+erature.png  used on input line 1689.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Manhattan][Raw]average_temperature.png, id=1087, 1148.3703pt 
+
+LaTeX Warning: Float too large for page by 3.91055pt on input line 1700.
+
+<Images/[Bavaria][Manhattan][Raw]average_temperature.png, id=1257, 1148.3703pt 
 x 497.6994pt>
 File: Images/[Bavaria][Manhattan][Raw]average_temperature.png Graphic file (typ
 e png)
 <use Images/[Bavaria][Manhattan][Raw]average_temperature.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][Raw]average_temperature.pn
-g  used on input line 1716.
+g  used on input line 1714.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Manhattan][CI]average_temperature.png, id=1088, 1148.3703pt x
+<Images/[Bavaria][Manhattan][CI]average_temperature.png, id=1258, 1148.3703pt x
  497.6994pt>
 File: Images/[Bavaria][Manhattan][CI]average_temperature.png Graphic file (type
  png)
 <use Images/[Bavaria][Manhattan][CI]average_temperature.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][CI]average_temperature.png
-  used on input line 1728.
+  used on input line 1726.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Manhattan][Raw]Aggregated_average_temperature.png, id=1089, 4
+<Images/[Bavaria][Manhattan][Raw]Aggregated_average_temperature.png, id=1259, 4
 97.9403pt x 496.0131pt>
 File: Images/[Bavaria][Manhattan][Raw]Aggregated_average_temperature.png Graphi
 c file (type png)
 <use Images/[Bavaria][Manhattan][Raw]Aggregated_average_temperature.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][Raw]Aggregated_average_tem
-perature.png  used on input line 1742.
+perature.png  used on input line 1740.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Manhattan][CI]Aggregated_average_temperature.png, id=1090, 49
+<Images/[Bavaria][Manhattan][CI]Aggregated_average_temperature.png, id=1260, 49
 7.9403pt x 496.0131pt>
 File: Images/[Bavaria][Manhattan][CI]Aggregated_average_temperature.png Graphic
  file (type png)
 <use Images/[Bavaria][Manhattan][CI]Aggregated_average_temperature.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][CI]Aggregated_average_temp
-erature.png  used on input line 1751.
+erature.png  used on input line 1749.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Euclidean][Raw]relative_humidity.png, id=1091, 1148.6112pt x 
+
+LaTeX Warning: Float too large for page by 3.8697pt on input line 1760.
+
+<Images/[Bavaria][Euclidean][Raw]relative_humidity.png, id=1271, 1148.6112pt x 
 497.9403pt>
 File: Images/[Bavaria][Euclidean][Raw]relative_humidity.png Graphic file (type 
 png)
 <use Images/[Bavaria][Euclidean][Raw]relative_humidity.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][Raw]relative_humidity.png 
- used on input line 1777.
+ used on input line 1775.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Bavaria][Euclidean][CI]relative_humidity.png, id=1092, 1148.3703pt x 4
+<Images/[Bavaria][Euclidean][CI]relative_humidity.png, id=1272, 1148.3703pt x 4
 97.6994pt>
 File: Images/[Bavaria][Euclidean][CI]relative_humidity.png Graphic file (type p
 ng)
 <use Images/[Bavaria][Euclidean][CI]relative_humidity.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][CI]relative_humidity.png  
-used on input line 1789.
+used on input line 1787.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Euclidean][Raw]Aggregated_relative_humidity.png, id=1093, 497
+<Images/[Bavaria][Euclidean][Raw]Aggregated_relative_humidity.png, id=1273, 497
 .9403pt x 496.0131pt>
 File: Images/[Bavaria][Euclidean][Raw]Aggregated_relative_humidity.png Graphic 
 file (type png)
 <use Images/[Bavaria][Euclidean][Raw]Aggregated_relative_humidity.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][Raw]Aggregated_relative_hu
-midity.png  used on input line 1803.
+midity.png  used on input line 1801.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Euclidean][CI]Aggregated_relative_humidity.png, id=1094, 497.
+<Images/[Bavaria][Euclidean][CI]Aggregated_relative_humidity.png, id=1274, 497.
 9403pt x 496.0131pt>
 File: Images/[Bavaria][Euclidean][CI]Aggregated_relative_humidity.png Graphic f
 ile (type png)
 <use Images/[Bavaria][Euclidean][CI]Aggregated_relative_humidity.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][CI]Aggregated_relative_hum
-idity.png  used on input line 1812.
+idity.png  used on input line 1810.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Manhattan][Raw]relative_humidity.png, id=1095, 1148.3703pt x 
+
+LaTeX Warning: Float too large for page by 3.91055pt on input line 1821.
+
+<Images/[Bavaria][Manhattan][Raw]relative_humidity.png, id=1285, 1148.3703pt x 
 497.6994pt>
 File: Images/[Bavaria][Manhattan][Raw]relative_humidity.png Graphic file (type 
 png)
 <use Images/[Bavaria][Manhattan][Raw]relative_humidity.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][Raw]relative_humidity.png 
- used on input line 1837.
+ used on input line 1835.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Manhattan][CI]relative_humidity.png, id=1096, 1148.3703pt x 4
+<Images/[Bavaria][Manhattan][CI]relative_humidity.png, id=1286, 1148.3703pt x 4
 97.6994pt>
 File: Images/[Bavaria][Manhattan][CI]relative_humidity.png Graphic file (type p
 ng)
 <use Images/[Bavaria][Manhattan][CI]relative_humidity.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][CI]relative_humidity.png  
-used on input line 1849.
+used on input line 1847.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Manhattan][Raw]Aggregated_relative_humidity.png, id=1097, 497
+<Images/[Bavaria][Manhattan][Raw]Aggregated_relative_humidity.png, id=1287, 497
 .9403pt x 496.0131pt>
 File: Images/[Bavaria][Manhattan][Raw]Aggregated_relative_humidity.png Graphic 
 file (type png)
 <use Images/[Bavaria][Manhattan][Raw]Aggregated_relative_humidity.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][Raw]Aggregated_relative_hu
-midity.png  used on input line 1863.
+midity.png  used on input line 1861.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Manhattan][CI]Aggregated_relative_humidity.png, id=1098, 497.
+<Images/[Bavaria][Manhattan][CI]Aggregated_relative_humidity.png, id=1288, 497.
 9403pt x 496.0131pt>
 File: Images/[Bavaria][Manhattan][CI]Aggregated_relative_humidity.png Graphic f
 ile (type png)
 <use Images/[Bavaria][Manhattan][CI]Aggregated_relative_humidity.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][CI]Aggregated_relative_hum
-idity.png  used on input line 1872.
+idity.png  used on input line 1870.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Euclidean][Raw]soil_moisture_0-10cm.png, id=1099, 1148.6112pt
+
+LaTeX Warning: Float too large for page by 3.8697pt on input line 1880.
+
+<Images/[Bavaria][Euclidean][Raw]soil_moisture_0-10cm.png, id=1299, 1148.6112pt
  x 497.9403pt>
 File: Images/[Bavaria][Euclidean][Raw]soil_moisture_0-10cm.png Graphic file (ty
 pe png)
 <use Images/[Bavaria][Euclidean][Raw]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][Raw]soil_moisture_0-10cm.p
-ng  used on input line 1899.
+ng  used on input line 1896.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Bavaria][Euclidean][CI]soil_moisture_0-10cm.png, id=1100, 1148.3703pt 
+<Images/[Bavaria][Euclidean][CI]soil_moisture_0-10cm.png, id=1300, 1148.3703pt 
 x 497.6994pt>
 File: Images/[Bavaria][Euclidean][CI]soil_moisture_0-10cm.png Graphic file (typ
 e png)
 <use Images/[Bavaria][Euclidean][CI]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][CI]soil_moisture_0-10cm.pn
-g  used on input line 1911.
+g  used on input line 1908.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png, id=1101, 
+<Images/[Bavaria][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png, id=1301, 
 497.9403pt x 496.0131pt>
 File: Images/[Bavaria][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png Graph
 ic file (type png)
 <use Images/[Bavaria][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][Raw]Aggregated_soil_moistu
-re_0-10cm.png  used on input line 1925.
+re_0-10cm.png  used on input line 1922.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png, id=1102, 4
+<Images/[Bavaria][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png, id=1302, 4
 97.9403pt x 496.0131pt>
 File: Images/[Bavaria][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png Graphi
 c file (type png)
 <use Images/[Bavaria][Euclidean][CI]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][CI]Aggregated_soil_moistur
-e_0-10cm.png  used on input line 1934.
+e_0-10cm.png  used on input line 1931.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Manhattan][Raw]soil_moisture_0-10cm.png, id=1103, 1148.3703pt
+
+LaTeX Warning: Float too large for page by 13.41055pt on input line 1942.
+
+<Images/[Bavaria][Manhattan][Raw]soil_moisture_0-10cm.png, id=1313, 1148.3703pt
  x 497.6994pt>
 File: Images/[Bavaria][Manhattan][Raw]soil_moisture_0-10cm.png Graphic file (ty
 pe png)
 <use Images/[Bavaria][Manhattan][Raw]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][Raw]soil_moisture_0-10cm.p
-ng  used on input line 1959.
+ng  used on input line 1956.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Manhattan][CI]soil_moisture_0-10cm.png, id=1104, 1148.3703pt 
+<Images/[Bavaria][Manhattan][CI]soil_moisture_0-10cm.png, id=1314, 1148.3703pt 
 x 497.6994pt>
 File: Images/[Bavaria][Manhattan][CI]soil_moisture_0-10cm.png Graphic file (typ
 e png)
 <use Images/[Bavaria][Manhattan][CI]soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][CI]soil_moisture_0-10cm.pn
-g  used on input line 1971.
+g  used on input line 1968.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png, id=1105, 
+<Images/[Bavaria][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png, id=1315, 
 497.9403pt x 496.0131pt>
 File: Images/[Bavaria][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png Graph
 ic file (type png)
 <use Images/[Bavaria][Manhattan][Raw]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][Raw]Aggregated_soil_moistu
-re_0-10cm.png  used on input line 1985.
+re_0-10cm.png  used on input line 1982.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png, id=1106, 4
+<Images/[Bavaria][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png, id=1316, 4
 97.9403pt x 496.0131pt>
 File: Images/[Bavaria][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png Graphi
 c file (type png)
 <use Images/[Bavaria][Manhattan][CI]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][CI]Aggregated_soil_moistur
-e_0-10cm.png  used on input line 1994.
+e_0-10cm.png  used on input line 1991.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Euclidean][Raw]soil_temperature_5cm.png, id=1107, 1148.6112pt
+
+LaTeX Warning: Float too large for page by 13.3697pt on input line 2002.
+
+<Images/[Bavaria][Euclidean][Raw]soil_temperature_5cm.png, id=1327, 1148.6112pt
  x 497.9403pt>
 File: Images/[Bavaria][Euclidean][Raw]soil_temperature_5cm.png Graphic file (ty
 pe png)
 <use Images/[Bavaria][Euclidean][Raw]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][Raw]soil_temperature_5cm.p
-ng  used on input line 2018.
+ng  used on input line 2015.
 (pdftex.def)             Requested size: 375.80544pt x 162.91518pt.
-<Images/[Bavaria][Euclidean][CI]soil_temperature_5cm.png, id=1108, 1148.3703pt 
+<Images/[Bavaria][Euclidean][CI]soil_temperature_5cm.png, id=1328, 1148.3703pt 
 x 497.6994pt>
 File: Images/[Bavaria][Euclidean][CI]soil_temperature_5cm.png Graphic file (typ
 e png)
 <use Images/[Bavaria][Euclidean][CI]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][CI]soil_temperature_5cm.pn
-g  used on input line 2030.
+g  used on input line 2027.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Euclidean][Raw]Aggregated_soil_temperature_5cm.png, id=1109, 
+<Images/[Bavaria][Euclidean][Raw]Aggregated_soil_temperature_5cm.png, id=1329, 
 497.9403pt x 496.0131pt>
 File: Images/[Bavaria][Euclidean][Raw]Aggregated_soil_temperature_5cm.png Graph
 ic file (type png)
 <use Images/[Bavaria][Euclidean][Raw]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][Raw]Aggregated_soil_temper
-ature_5cm.png  used on input line 2044.
+ature_5cm.png  used on input line 2041.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Euclidean][CI]Aggregated_soil_temperature_5cm.png, id=1110, 4
+<Images/[Bavaria][Euclidean][CI]Aggregated_soil_temperature_5cm.png, id=1330, 4
 97.9403pt x 496.0131pt>
 File: Images/[Bavaria][Euclidean][CI]Aggregated_soil_temperature_5cm.png Graphi
 c file (type png)
 <use Images/[Bavaria][Euclidean][CI]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Bavaria][Euclidean][CI]Aggregated_soil_tempera
-ture_5cm.png  used on input line 2053.
+ture_5cm.png  used on input line 2050.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Manhattan][Raw]soil_temperature_5cm.png, id=1111, 1148.3703pt
+
+LaTeX Warning: Float too large for page by 13.41055pt on input line 2061.
+
+<Images/[Bavaria][Manhattan][Raw]soil_temperature_5cm.png, id=1341, 1148.3703pt
  x 497.6994pt>
 File: Images/[Bavaria][Manhattan][Raw]soil_temperature_5cm.png Graphic file (ty
 pe png)
 <use Images/[Bavaria][Manhattan][Raw]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][Raw]soil_temperature_5cm.p
-ng  used on input line 2078.
+ng  used on input line 2075.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Manhattan][CI]soil_temperature_5cm.png, id=1112, 1148.3703pt 
+<Images/[Bavaria][Manhattan][CI]soil_temperature_5cm.png, id=1342, 1148.3703pt 
 x 497.6994pt>
 File: Images/[Bavaria][Manhattan][CI]soil_temperature_5cm.png Graphic file (typ
 e png)
 <use Images/[Bavaria][Manhattan][CI]soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][CI]soil_temperature_5cm.pn
-g  used on input line 2090.
+g  used on input line 2087.
 (pdftex.def)             Requested size: 375.80544pt x 162.87433pt.
-<Images/[Bavaria][Manhattan][Raw]Aggregated_soil_temperature_5cm.png, id=1113, 
+<Images/[Bavaria][Manhattan][Raw]Aggregated_soil_temperature_5cm.png, id=1343, 
 497.9403pt x 496.0131pt>
 File: Images/[Bavaria][Manhattan][Raw]Aggregated_soil_temperature_5cm.png Graph
 ic file (type png)
 <use Images/[Bavaria][Manhattan][Raw]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][Raw]Aggregated_soil_temper
-ature_5cm.png  used on input line 2104.
+ature_5cm.png  used on input line 2101.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
-<Images/[Bavaria][Manhattan][CI]Aggregated_soil_temperature_5cm.png, id=1114, 4
+<Images/[Bavaria][Manhattan][CI]Aggregated_soil_temperature_5cm.png, id=1344, 4
 97.9403pt x 496.0131pt>
 File: Images/[Bavaria][Manhattan][CI]Aggregated_soil_temperature_5cm.png Graphi
 c file (type png)
 <use Images/[Bavaria][Manhattan][CI]Aggregated_soil_temperature_5cm.png>
 Package pdftex.def Info: Images/[Bavaria][Manhattan][CI]Aggregated_soil_tempera
-ture_5cm.png  used on input line 2113.
+ture_5cm.png  used on input line 2110.
 (pdftex.def)             Requested size: 187.89914pt x 187.17pt.
+
+LaTeX Warning: Float too large for page by 13.3697pt on input line 2121.
+
 [48] [49 <./Images/[Bavaria][Euclidean][Raw]average_temperature.png> <./Images/
 [Bavaria][Euclidean][CI]average_temperature.png> <./Images/[Bavaria][Euclidean]
 [Raw]Aggregated_average_temperature.png> <./Images/[Bavaria][Euclidean][CI]Aggr
@@ -3456,7 +3528,7 @@ ean][Raw]Aggregated_soil_temperature_5cm.png> <./Images/[Bavaria][Euclidean][CI
 oil_temperature_5cm.png> <./Images/[Bavaria][Manhattan][CI]soil_temperature_5cm
 .png> <./Images/[Bavaria][Manhattan][Raw]Aggregated_soil_temperature_5cm.png> <
 ./Images/[Bavaria][Manhattan][CI]Aggregated_soil_temperature_5cm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2136--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2132--2133
 
  []
 
@@ -3495,6 +3567,10 @@ LaTeX Info: Redefining \% on input line 34.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Paper.out' has not changed.
 (rerunfilecheck)             Checksum: D4DF48E0648F1421A200DF3C9189D088;3252.
  )
@@ -3505,11 +3581,11 @@ Package rerunfilecheck Info: File `Paper.out' has not changed.
 Here is how much of TeX's memory you used:
  40672 strings out of 467867
  927550 string characters out of 5418334
- 1283445 words of memory out of 5000000
+ 1312894 words of memory out of 5000000
  68752 multiletter control sequences out of 15000+600000
  713501 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,18n,94p,1465b,1499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,18n,94p,1495b,1499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmbx10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmbx7.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public
@@ -3536,9 +3612,9 @@ ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/symbols/msbm7.pfb>
-Output written on Paper.pdf (64 pages, 101707893 bytes).
+Output written on Paper.pdf (64 pages, 101751292 bytes).
 PDF statistics:
- 1505 PDF objects out of 1728 (max. 8388607)
+ 1745 PDF objects out of 2073 (max. 8388607)
  228 named destinations out of 1000 (max. 500000)
  716 words of extra memory for PDF output out of 10000 (max. 10000000)
 
