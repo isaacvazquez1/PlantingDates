@@ -13,45 +13,45 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in García-Mendoza_2002
 Warning--empty booktitle in Hennemuth_2013
 Warning--can't use both author and editor fields in Regniere_2013
-You've used 84 entries,
+You've used 96 entries,
             2773 wiz_defined-function locations,
-            1342 strings with 28930 characters,
-and the built_in function-call counts, 46381 in all, are:
-= -- 4178
-> -- 3192
-< -- 37
-+ -- 1078
-- -- 990
-* -- 4259
-:= -- 7387
-add.period$ -- 413
-call.type$ -- 84
-change.case$ -- 577
-chr.to.int$ -- 80
-cite$ -- 171
-duplicate$ -- 1744
-empty$ -- 3259
-format.name$ -- 1108
-if$ -- 9570
+            1450 strings with 32785 characters,
+and the built_in function-call counts, 54811 in all, are:
+= -- 4904
+> -- 3926
+< -- 42
++ -- 1324
+- -- 1224
+* -- 5104
+:= -- 8762
+add.period$ -- 478
+call.type$ -- 96
+change.case$ -- 691
+chr.to.int$ -- 92
+cite$ -- 195
+duplicate$ -- 1985
+empty$ -- 3747
+format.name$ -- 1360
+if$ -- 11261
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 82
-newline$ -- 586
-num.names$ -- 336
-pop$ -- 955
+missing$ -- 93
+newline$ -- 675
+num.names$ -- 384
+pop$ -- 1140
 preamble$ -- 1
-purify$ -- 498
+purify$ -- 600
 quote$ -- 0
-skip$ -- 1400
+skip$ -- 1620
 stack$ -- 0
-substring$ -- 1571
-swap$ -- 185
+substring$ -- 1870
+swap$ -- 205
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 889
+type$ -- 1021
 warning$ -- 3
-while$ -- 328
+while$ -- 376
 width$ -- 0
-write$ -- 1409
+write$ -- 1621
 (There was 1 error message)

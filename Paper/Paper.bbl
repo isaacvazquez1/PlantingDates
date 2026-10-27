@@ -1,9 +1,20 @@
-\begin{thebibliography}{84}
+\begin{thebibliography}{96}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alexakhin et~al.(2007)Alexakhin, Sanzharova, Fesenko, Spiridonov, and
+  Panov]{Alexakhin_2007}
+R.M. Alexakhin, N.I. Sanzharova, S.V. Fesenko, S.I. Spiridonov, and A.V. Panov.
+\newblock Chernobyl radionuclide distribution, migration, and environmental and
+  agricultural impacts.
+\newblock \emph{Health Physics}, 93\penalty0 (5):\penalty0 418–426, November
+  2007.
+\newblock ISSN 0017-9078.
+\newblock \doi{10.1097/01.hp.0000285093.63814.b7}.
+\newblock URL \url{http://dx.doi.org/10.1097/01.HP.0000285093.63814.b7}.
 
 \bibitem[Bag et~al.(2019)Bag, Kumar, and Tiwari]{Bag_2019}
 S.~Bag, S.K. Kumar, and M.K. Tiwari.
@@ -107,6 +118,14 @@ F.M. Chmielewski, A.~Müller, and E.~Bruns.
 \newblock \doi{https://doi.org/10.1016/S0168-1923(03)00161-8}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0168192303001618}.
+
+\bibitem[Chow(1960)]{Chow_1960}
+G.C. Chow.
+\newblock Tests of equality between sets of coefficients in two linear
+  regressions.
+\newblock \emph{Econometrica}, 28\penalty0 (3):\penalty0 591--605, 1960.
+\newblock ISSN 00129682, 14680262.
+\newblock URL \url{http://www.jstor.org/stable/1910133}.
 
 \bibitem[Chuine and Régnière(2017)]{Chuine_2017}
 I.~Chuine and J.~Régnière.
@@ -379,6 +398,17 @@ S.~Kr\"{a}henmann, A.~Walter, S.~Brienen, F.~Imbery, and A.~Matzarakis.
 \newblock ISSN 1434-4483.
 \newblock \doi{10.1007/s00704-016-2003-7}.
 
+\bibitem[Kundzewicz and Robson(2004)]{Kundzewicz_2004}
+Z.W. Kundzewicz and A.J. Robson.
+\newblock Change detection in hydrological records—a review of the
+  methodology / revue méthodologique de la détection de changements dans les
+  chroniques hydrologiques.
+\newblock \emph{Hydrological Sciences Journal}, 49\penalty0 (1):\penalty0
+  7–19, February 2004.
+\newblock ISSN 2150-3435.
+\newblock \doi{10.1623/hysj.49.1.7.53993}.
+\newblock URL \url{http://dx.doi.org/10.1623/hysj.49.1.7.53993}.
+
 \bibitem[Laidig et~al.(2025)Laidig, Feike, Brandes, and Piepho]{Laidig_2025}
 F.~Laidig, T.~Feike, H.~Brandes, and H-P. Piepho.
 \newblock Breeding progress of grain and forage maize in long-term variety
@@ -423,6 +453,17 @@ S.~Mason, T.~Galusha, and Z.~Kmail.
 \newblock \doi{https://doi.org/10.2134/agronj2017.06.0326}.
 \newblock URL
   \url{https://acsess.onlinelibrary.wiley.com/doi/abs/10.2134/agronj2017.06.0326}.
+
+\bibitem[Menzel et~al.(2020)Menzel, Yuan, Matiu, Sparks, Scheifinger, Gehrig,
+  and Estrella]{Menzel_2020}
+A.~Menzel, Y.~Yuan, M.~Matiu, T.~Sparks, H.~Scheifinger, R.~Gehrig, and
+  N.~Estrella.
+\newblock Climate change fingerprints in recent european plant phenology.
+\newblock \emph{Global Change Biology}, 26\penalty0 (4):\penalty0 2599–2612,
+  February 2020.
+\newblock ISSN 1365-2486.
+\newblock \doi{10.1111/gcb.15000}.
+\newblock URL \url{http://dx.doi.org/10.1111/gcb.15000}.
 
 \bibitem[Miedaner and Juroszek(2021)]{Miedaner_2021}
 T.~Miedaner and P.~Juroszek.
@@ -505,6 +546,13 @@ B.~Pan, Y.M. Bai, S.~Leibovitch, and D.L. Smith.
 \newblock ISSN 1161-0301.
 \newblock \doi{10.1016/s1161-0301(99)00029-5}.
 
+\bibitem[{Pan European Phenology Network}(2025)]{PEP725}
+{Pan European Phenology Network}.
+\newblock Pep725 data selection portal, 2025.
+\newblock URL \url{http://www.pep725.eu/data_download/data_selection.php}.
+\newblock Accesado vía
+  \url{http://www.pep725.eu/data_download/data_selection.php} en marzo 6, 2026.
+
 \bibitem[Parajuli et~al.(2019)Parajuli, Thoma, and Matlock]{Parajuli_2019}
 R.~Parajuli, G.~Thoma, and M.D. Matlock.
 \newblock Environmental sustainability of fruit and vegetable production supply
@@ -560,6 +608,16 @@ R.~Peter, T.W. Eschholz, P.~Stamp, and M.~Liedgens.
 \newblock ISSN 1435-0653.
 \newblock \doi{10.2135/cropsci2007.10.0538}.
 
+\bibitem[Plieninger and Schaich(2014)]{Plieninger_2014}
+T.~Plieninger and H.~Schaich.
+\newblock Socialist and postsocialist land-use legacies determine farm woodland
+  composition and structure: lessons from eastern germany.
+\newblock \emph{European Journal of Forest Research}, 133\penalty0
+  (4):\penalty0 597–610, February 2014.
+\newblock ISSN 1612-4677.
+\newblock \doi{10.1007/s10342-014-0788-4}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10342-014-0788-4}.
+
 \bibitem[Portmann et~al.(2010)Portmann, Siebert, and Döll]{Portmann_2010}
 F.T. Portmann, S.~Siebert, and P.~Döll.
 \newblock Mirca2000—global monthly irrigated and rainfed crop areas around
@@ -596,6 +654,13 @@ P.~Ranum, J.P. Peña-Rosas, and M.N. Garcia-Casal.
 \newblock URL
   \url{https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.12396}.
 
+\bibitem[Rapach and Wohar(2006)]{Rapach_2006}
+D.E. Rapach and M.E. Wohar.
+\newblock Structural breaks and predictive regression models of aggregate us
+  stock returns.
+\newblock \emph{Journal of Financial Econometrics}, 4\penalty0 (2):\penalty0
+  238--274, 2006.
+
 \bibitem[Rausch and Belyea(2006)]{Rausch_2006}
 K.D. Rausch and R.L. Belyea.
 \newblock The future of coproducts from corn processing.
@@ -623,6 +688,22 @@ J.~R{\'e}gni{\`e}re and J.A. Powell.
 \newblock ISBN 978-94-007-6925-0.
 \newblock \doi{10.1007/978-94-007-6925-0_16}.
 \newblock URL \url{https://doi.org/10.1007/978-94-007-6925-0_16}.
+
+\bibitem[Reid et~al.(2015)Reid, Hari, Beaugrand, Livingstone, Marty, Straile,
+  Barichivich, Goberville, Adrian, Aono, Brown, Foster, Groisman, Hélaouët,
+  Hsu, Kirby, Knight, Kraberg, Li, Lo, Myneni, North, Pounds, Sparks, Stübi,
+  Tian, Wiltshire, Xiao, and Zhu]{Reid_2015}
+P.C. Reid, R.E. Hari, G.~Beaugrand, D.M. Livingstone, C.~Marty, D.~Straile,
+  J.~Barichivich, E.~Goberville, R.~Adrian, Y.~Aono, R.~Brown, J.~Foster,
+  P.~Groisman, P.~Hélaouët, H.-H. Hsu, R.~Kirby, J.~Knight, A.~Kraberg,
+  J.~Li, T.-T. Lo, R.B. Myneni, R.P. North, J.A. Pounds, T.~Sparks, R.~Stübi,
+  Y.~Tian, K.H. Wiltshire, D.~Xiao, and Z.~Zhu.
+\newblock Global impacts of the 1980s regime shift.
+\newblock \emph{Global Change Biology}, 22\penalty0 (2):\penalty0 682–703,
+  November 2015.
+\newblock ISSN 1365-2486.
+\newblock \doi{10.1111/gcb.13106}.
+\newblock URL \url{http://dx.doi.org/10.1111/gcb.13106}.
 
 \bibitem[Revilla et~al.(2022)Revilla, Alves, Andelković, Balconi, Dinis,
   Mendes-Moreira, Redaelli, Ruiz~de Galarreta, Vaz~Patto, Žilić, and
@@ -724,6 +805,31 @@ S.A. Tanumihardjo, L.~McCulley, R.~Roh, S.~Lopez-Ridaura, N.~Palacios-Rojas,
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S2211912419300112}.
 
+\bibitem[Templ et~al.(2018)Templ, Koch, Bolmgren, Ungersböck, Paul,
+  Scheifinger, Rutishauser, Busto, Chmielewski, Hájková, Hodzić, Kaspar,
+  Pietragalla, Romero-Fresneda, Tolvanen, Vučetič, Zimmermann, and
+  Zust]{Templ_2018}
+B.~Templ, E.~Koch, K.~Bolmgren, M.~Ungersböck, A.~Paul, H.~Scheifinger,
+  T.~Rutishauser, M.~Busto, F.-M. Chmielewski, L.~Hájková, S.~Hodzić,
+  F.~Kaspar, B.~Pietragalla, R.~Romero-Fresneda, A.~Tolvanen, V.~Vučetič,
+  K.~Zimmermann, and A.~Zust.
+\newblock Pan european phenological database (pep725): a single point of access
+  for european data.
+\newblock \emph{International Journal of Biometeorology}, 62\penalty0
+  (6):\penalty0 1109–1113, February 2018.
+\newblock ISSN 1432-1254.
+\newblock \doi{10.1007/s00484-018-1512-8}.
+\newblock URL \url{http://dx.doi.org/10.1007/s00484-018-1512-8}.
+
+\bibitem[Templ et~al.(2026)Templ, Scheifinger, Ostovary, Ungersböck, and
+  Ressl]{Templ_2026}
+B.~Templ, H.~Scheifinger, I.~Ostovary, M.~Ungersböck, and H.~Ressl.
+\newblock Pep725: 15 years of driving european and global phenology science.
+\newblock \emph{New Phytologist}, 2026.
+\newblock \doi{https://doi.org/10.1111/nph.70869}.
+\newblock URL
+  \url{https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.70869}.
+
 \bibitem[V\^atcă et~al.(2021)V\^atcă, Stoian, Man, Horvath, Vidican, G\^adea,
   V\^atcă, Rotaru, V\^arban, Cristina, and Stoian]{Vatca_2021}
 S.D. V\^atcă, V.A. Stoian, T.C. Man, C.~Horvath, R.~Vidican, Ș. G\^adea,
@@ -758,6 +864,26 @@ I.J. Warrington and E.T. Kanemasu.
 \newblock \emph{Agronomy Journal}, 75\penalty0 (5):\penalty0 749--754, 9 1983.
 \newblock ISSN 1435-0645.
 \newblock \doi{10.2134/agronj1983.00021962007500050008x}.
+
+\bibitem[Wu et~al.(2016)Wu, Zurita‐Milla, and Kraak]{Wu_2016}
+X.~Wu, R.~Zurita‐Milla, and M.‐J. Kraak.
+\newblock A novel analysis of spring phenological patterns over europe based on
+  co‐clustering.
+\newblock \emph{Journal of Geophysical Research: Biogeosciences}, 121\penalty0
+  (6):\penalty0 1434–1448, June 2016.
+\newblock ISSN 2169-8961.
+\newblock \doi{10.1002/2015jg003308}.
+\newblock URL \url{http://dx.doi.org/10.1002/2015JG003308}.
+
+\bibitem[Yue et~al.(2002)Yue, Pilon, and Cavadias]{Yue_2002}
+S.~Yue, P.~Pilon, and G.~Cavadias.
+\newblock Power of the mann–kendall and spearman’s rho tests for detecting
+  monotonic trends in hydrological series.
+\newblock \emph{Journal of Hydrology}, 259\penalty0 (1–4):\penalty0
+  254–271, March 2002.
+\newblock ISSN 0022-1694.
+\newblock \doi{10.1016/s0022-1694(01)00594-7}.
+\newblock URL \url{http://dx.doi.org/10.1016/S0022-1694(01)00594-7}.
 
 \bibitem[Zhang et~al.(2023)Zhang, Liu, Guan, Fan, Xia, Wang, Bao, and
   Xu]{Zhang_2022}

@@ -1,3 +1,50 @@
+El proyecto Fenología Paneuropea 725 (PEP725, por sus siglas en inglés) alberga bases de datos fenológicas para promover el desarrollo científico y educativo \citep{Templ_2018, Templ_2026}. De esta manera, la base datos que concierne a las fechas de siembra de maíz en Alemania reporta datos históricos desde 1951 hasta 2015 \citep{PEP725}.\\
+
+Al analizar la base datos de fechas de siembra que se reportan a través del portal de PEP725, se observa una movilización a épocas más tempranas en el año y periodos de siembra más cortos, ver Figura \ref{Historical_distributions}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=.7\textwidth]{Sowing_dates_distribution_per_year.png}
+	\caption{Distribuciones anuales de las fechas de siembra históricas. En escala de colores se visualizan las estimaciones por KDE de las distribuciones de fechas de siembra por año construidas a partir de los datos reportados en \cite{PEP725}. Las líneas punteadas en color gris segmentan el año en periodos de 50 días.}
+	\label{Historical_distributions}
+\end{figure}
+
+Al profundizar el análisis, se identificó un cambio estructural en la tendencia de las fechas de siembra promedio, mismo que sucedió a finales de la década de 1980, ver Fig. \ref{Break}. De acuerdo con la literatura, las alteraciones estructurales halladas pueden vincularse a modificaciones en los regímenes climáticos, las cuales se derivan del cambio climático \citep{CHMIELEWSKI_2004, Menzel_2020, Reid_2015, Wu_2016}. Además, es importante mencionar la influencia de los eventos antropogénicos ocurridos tanto en Alemania \citep{Plieninger_2014} como en Europa \citep{Alexakhin_2007}.\\
+%Chernobil y cambios en el uso de tierras tras el socialismo. Plieninger, T., Schaich, H. Socialist and postsocialist land-use legacies determine farm woodland composition and structure: lessons from Eastern Germany. Eur J Forest Res 133, 597–610 (2014). https://doi.org/10.1007/s10342-014-0788-4
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{1988Break.pdf}
+	\caption{Tendencia interanual en las fechas promedio de siembra de maíz en Alemania. Los puntos en color negro representan los promedios anuales de las fechas de siembra. La línea vertical en color rojo punteada indica el año 1988, identificado como punto de cambio estructural mediante la prueba de Pettitt. La línea sólida en color gris corresponde al ajuste por mínimos cuadrados calculado a partir de toda la serie de promedios anuales. Las líneas punteadas azul y amarilla muestran los ajustes lineales obtenidos por mínimos cuadrados para los periodos 1951–1988 y 1989–2015, respectivamente.}
+	\label{Break}
+\end{figure}
+
+
+En general, la prueba Mann-Kendall evalúa si el valor de los datos tiende a aumentar o disminuir de forma consistente en función de la variable predictora \citep{Yue_2002}, sin asumir que tal este cambio sea lineal. En este caso, las fechas de siembra promedio tienen una tendencia monótona decreciente estadísticamente significativa ($p<0.01$).\\
+
+Tras confirmar lo antes mencionado, se procedió a detectar la existencia de algún instante en el que sucediese un cambio abrupto en el comportamiento a través de la prueba de Pettitt \citep{Kundzewicz_2004}. Con esta herramienta se determinó que el año 1988 constituye un punto de quiebre significativo ($p<0.01$), lo cual sugiere que las fechas de siembra difieren drásticamente de un periodo a otro.\\
+
+Para analizar la veracidad de la afirmación anterior, empleamos la prueba de Chow, la cual determina si dos modelos lineales, asociados a un mismo fenómeno en dos periodos distintos, difieren significativamente \citep{Chow_1960, Rapach_2006}. De esta manera, empleando el método de mínimos cuadrados, se obtuvieron las rectas de mejor ajuste con las fechas de siembra promediadas anualmente pertenecientes al periodo de 1951 a 1988 y, similarmente, para aquellas comprendidas de 1989 a 2015, ver Tabla \ref{LinearModelsComparison}. Adicionalmente, como referencia, se obtuvo la recta de mejor ajuste empleando las fechas promedio desde 1951 a 1988, ver Fig. \ref{Break}.\\
+
+De la prueba de Chow se concluye que no hay evidencia suficiente para argumentar que los datos se ajustan mejor, con modelos lineales, si se dividen en dos periodos distintos ($p>0.05$). Por otra parte, al remover los \textit{outliers} en cada año documentado, los resultados son consistentes salvo que, de acuerdo con la respectiva prueba de Pettitt, el punto de cambio estructural se traslada al año 1987 ($p<0.01$) y, de acuerdo con la respectiva prueba de Chow, el ajuste de los datos mejora significativamente si se emplean modelos lineales distintos para cada uno de los dos periodos ($p<0.05$), ver Tabla \ref{LinearModelsComparison}.\\
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{c|ll}
+		\hline
+		\multirow{2}{*}{\textbf{Datos}}                                                   & \multicolumn{2}{c}{\textbf{Ajustes   lineales}}                                          \\ \cline{2-3} 
+		& \multicolumn{1}{c|}{\textbf{Con outliers}}   & \multicolumn{1}{c}{\textbf{Sin outliers}} \\ \hline
+		\textbf{Fechas de siembra}                                                        & \multicolumn{1}{l|}{$d_s=-0.1805y+478.6709$} & $d_s=-0.1578y+433.4605$                   \\ \hline
+		\textbf{\begin{tabular}[c]{@{}c@{}}Promedios anuales\\ (1951--2015)\end{tabular}} & \multicolumn{1}{l|}{$d_s=-0.1732y+464.0563$} & $d_s=-0.1479y+413.4202$                   \\ \hline
+		\textbf{\begin{tabular}[c]{@{}c@{}}Promedios anuales\\ (1951--1988)\end{tabular}} & \multicolumn{1}{l|}{$d_s=-0.1078y+335.3932$} & $d_s=-0.0710y+262.2608$                   \\ \hline
+		\textbf{\begin{tabular}[c]{@{}c@{}}Promedios anuales\\ (1989--2015)\end{tabular}} & \multicolumn{1}{l|}{$d_s=-0.2774y+672.4599$} & $d_s=-0.2637y+645.0710$                   \\ \hline
+	\end{tabular}
+	\caption{Aproximaciones lineales para el ajuste de los datos de siembra. La columna de la izquierda muestra las rectas de mejor ajuste, determinadas a través del método de mínimos cuadrados, considerando la totalidad de los datos para cada uno de los casos listados. Similarmente para la columna de la derecha, salvo que considera los datos listados libres de outliers. La notación $d_s$ indica la fecha de siembra mientras que $y$ denota los años.}
+	\label{LinearModelsComparison}
+\end{table}
+
+
 Con el objetivo de cubrir una región de interés agrícola, el análisis se centró en los estados federados de Baviera, Brandemburgo y Sajonia, los cuales, de manera conjunta, albergan 5.17 M ha de superficie destinada para la agricultura \citep{Flores_2025}. Esta área representa aproximadamente el $54.42\%$ de las 9.5 M ha de superficie empleada anualmente para los principales cultivos que se producen en Alemania \citep{Duden_2024}.\\
 
 
