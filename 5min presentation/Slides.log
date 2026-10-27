@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  26 OCT 2026 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  27 OCT 2026 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2230,26 +2230,35 @@ Package pdftex.def Info: images/Sowing suitability.png  used on input line 1027
 
  <./images/[Bavaria][Circular][Euclidean]Sowing_windows.png> <./images/[Bavaria
 ][Circular][Manhattan]Sowing_windows.png>]
-Overfull \hbox (5.25096pt too wide) in paragraph at lines 1065--1065
+Overfull \hbox (5.25096pt too wide) in paragraph at lines 1075--1075
  [] 
  []
 
 [40
 
 ]
-Overfull \hbox (5.0373pt too wide) in paragraph at lines 1090--1090
+<images/Jaccard index.png, id=309, 1760.4972pt x 572.8602pt>
+File: images/Jaccard index.png Graphic file (type png)
+<use images/Jaccard index.png>
+Package pdftex.def Info: images/Jaccard index.png  used on input line 1082.
+(pdftex.def)             Requested size: 398.3386pt x 129.6135pt.
+ [41
+
+ <./images/Jaccard index.png
+
+pdfTeX warning: pdflatex.exe (file ./images/Jaccard index.png): large interlace
+d PNG might cause out of memory (use non-interlaced PNG to fix this)
+>]
+Overfull \hbox (5.0373pt too wide) in paragraph at lines 1107--1107
  [] 
  []
 
-[41
+[42
 
-] (Slides.bbl) [42
+] (Slides.bbl) [43
 
  <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
-le.pdf>] [43
-
-
-] [44
+le.pdf>] [44
 
 
 ] [45
@@ -2257,109 +2266,112 @@ le.pdf>] [43
 
 ] [46
 
+
+] [47
+
 ]
-<images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=37
-9, 509.905pt x 636.3775pt>
+<images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=38
+6, 509.905pt x 636.3775pt>
 File: images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
 Package pdftex.def Info: images/Sowing_dates_Distributions_VS_Crop_calendar-eps
--converted-to.pdf  used on input line 1127.
+-converted-to.pdf  used on input line 1144.
 (pdftex.def)             Requested size: 181.77614pt x 226.86577pt.
 
-Overfull \vbox (2.57172pt too high) detected at line 1127
+Overfull \vbox (2.57172pt too high) detected at line 1144
  []
 
-[47
+[48
 
  <./images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>]
-<images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=429, 454.77898pt x 370.
+<images/1951_VS_2015_Sowing_dates_Distributions.pdf, id=436, 454.77898pt x 370.
 60332pt>
 File: images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
 <use images/1951_VS_2015_Sowing_dates_Distributions.pdf>
 Package pdftex.def Info: images/1951_VS_2015_Sowing_dates_Distributions.pdf  us
-ed on input line 1133.
+ed on input line 1150.
 (pdftex.def)             Requested size: 278.40016pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1133
- []
-
-[48
-
- <./images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
-<images/Historical_significance_matrix.pdf, id=483, 722.7pt x 578.16pt>
-File: images/Historical_significance_matrix.pdf Graphic file (type pdf)
-<use images/Historical_significance_matrix.pdf>
-Package pdftex.def Info: images/Historical_significance_matrix.pdf  used on inp
-ut line 1139.
-(pdftex.def)             Requested size: 283.58318pt x 226.86577pt.
-
-Overfull \vbox (8.04672pt too high) detected at line 1139
+Overfull \vbox (8.04672pt too high) detected at line 1150
  []
 
 [49
 
- <./images/Historical_significance_matrix.pdf>]
-<images/1988Break.pdf, id=537, 498.16112pt x 389.9255pt>
-File: images/1988Break.pdf Graphic file (type pdf)
-<use images/1988Break.pdf>
-Package pdftex.def Info: images/1988Break.pdf  used on input line 1150.
-(pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
+ <./images/1951_VS_2015_Sowing_dates_Distributions.pdf>]
+<images/Historical_significance_matrix.pdf, id=491, 722.7pt x 578.16pt>
+File: images/Historical_significance_matrix.pdf Graphic file (type pdf)
+<use images/Historical_significance_matrix.pdf>
+Package pdftex.def Info: images/Historical_significance_matrix.pdf  used on inp
+ut line 1156.
+(pdftex.def)             Requested size: 283.58318pt x 226.86577pt.
 
-Overfull \hbox (11.00241pt too wide) in paragraph at lines 1150--1150
- [][]
- []
-
-
-Overfull \vbox (2.57172pt too high) detected at line 1150
+Overfull \vbox (8.04672pt too high) detected at line 1156
  []
 
 [50
 
- <./images/1988Break.pdf>]
-<images/Interannual_trend.pdf, id=582, 390.40857pt x 338.33276pt>
-File: images/Interannual_trend.pdf Graphic file (type pdf)
-<use images/Interannual_trend.pdf>
-Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1157.
+ <./images/Historical_significance_matrix.pdf>]
+<images/1988Break.pdf, id=544, 498.16112pt x 389.9255pt>
+File: images/1988Break.pdf Graphic file (type pdf)
+<use images/1988Break.pdf>
+Package pdftex.def Info: images/1988Break.pdf  used on input line 1167.
+(pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
 
-(pdftex.def)             Requested size: 261.78683pt x 226.86577pt.
+Overfull \hbox (11.00241pt too wide) in paragraph at lines 1167--1167
+ [][]
+ []
 
-Overfull \vbox (8.04672pt too high) detected at line 1157
+
+Overfull \vbox (2.57172pt too high) detected at line 1167
  []
 
 [51
 
+ <./images/1988Break.pdf>]
+<images/Interannual_trend.pdf, id=589, 390.40857pt x 338.33276pt>
+File: images/Interannual_trend.pdf Graphic file (type pdf)
+<use images/Interannual_trend.pdf>
+Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1174.
+
+(pdftex.def)             Requested size: 261.78683pt x 226.86577pt.
+
+Overfull \vbox (8.04672pt too high) detected at line 1174
+ []
+
+[52
+
  <./images/Interannual_trend.pdf>]
-<images/Effects of maize varieties.png, id=639, 794.97pt x 722.7pt>
+<images/Effects of maize varieties.png, id=646, 794.97pt x 722.7pt>
 File: images/Effects of maize varieties.png Graphic file (type png)
 <use images/Effects of maize varieties.png>
 Package pdftex.def Info: images/Effects of maize varieties.png  used on input l
-ine 1177.
+ine 1194.
 (pdftex.def)             Requested size: 199.1693pt x 181.06052pt.
-<images/Maize sowing varieties.png, id=640, 689.5148pt x 162.97623pt>
+<images/Maize sowing varieties.png, id=647, 689.5148pt x 162.97623pt>
 File: images/Maize sowing varieties.png Graphic file (type png)
 <use images/Maize sowing varieties.png>
 Package pdftex.def Info: images/Maize sowing varieties.png  used on input line 
-1177.
+1194.
 (pdftex.def)             Requested size: 199.1693pt x 47.07538pt.
- [52
+ [53
 
  <./images/Effects of maize varieties.png> <./images/Maize sowing varieties.png
 >]
-<images/Crop calendar 2018.png, id=648, 546.24075pt x 387.24675pt>
+<images/Crop calendar 2018.png, id=655, 546.24075pt x 387.24675pt>
 File: images/Crop calendar 2018.png Graphic file (type png)
 <use images/Crop calendar 2018.png>
-Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1188
+Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1205
 .
 (pdftex.def)             Requested size: 177.78452pt x 126.0374pt.
-<images/Crop calendar 2015.png, id=649, 1079.83424pt x 61.4295pt>
+<images/Crop calendar 2015.png, id=656, 1079.83424pt x 61.4295pt>
 File: images/Crop calendar 2015.png Graphic file (type png)
 <use images/Crop calendar 2015.png>
-Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1188
+Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1205
 .
 (pdftex.def)             Requested size: 398.3386pt x 22.66013pt.
- [53
+ [54
 
  <./images/Crop calendar 2018.png> <./images/Crop calendar 2015.png>]
 \tf@nav=\write6
@@ -2380,10 +2392,10 @@ Package rerunfilecheck Info: File `Slides.out' has not changed.
 (rerunfilecheck)             Checksum: 3079D9CBF0624DE7633EB68502E682CD;1510.
  ) 
 Here is how much of TeX's memory you used:
- 45680 strings out of 467867
- 1094270 string characters out of 5418334
- 1666398 words of memory out of 5000000
- 73619 multiletter control sequences out of 15000+600000
+ 45694 strings out of 467867
+ 1094576 string characters out of 5418334
+ 1666442 words of memory out of 5000000
+ 73631 multiletter control sequences out of 15000+600000
  652159 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,144p,1378b,1368s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2410,9 +2422,9 @@ rs/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mtt8.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on Slides.pdf (53 pages, 32506205 bytes).
+Output written on Slides.pdf (54 pages, 32548240 bytes).
 PDF statistics:
- 777 PDF objects out of 1000 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 784 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 
