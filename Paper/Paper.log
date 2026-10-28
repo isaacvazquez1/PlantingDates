@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  26 OCT 2026 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  27 OCT 2026 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3622,7 +3622,7 @@ Package rerunfilecheck Info: File `Paper.out' has not changed.
 Here is how much of TeX's memory you used:
  40748 strings out of 467867
  929242 string characters out of 5418334
- 1332614 words of memory out of 5000000
+ 1333614 words of memory out of 5000000
  68810 multiletter control sequences out of 15000+600000
  713501 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3653,7 +3653,7 @@ ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
 ers/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/symbols/msbm7.pfb>
-Output written on Paper.pdf (67 pages, 102376417 bytes).
+Output written on Paper.pdf (67 pages, 102376426 bytes).
 PDF statistics:
  1872 PDF objects out of 2073 (max. 8388607)
  246 named destinations out of 1000 (max. 500000)

@@ -398,8 +398,6 @@
 	Contrastándolo con información oficial reportada para Alemania, un país con potencial agrícola en crecimiento debido a que se enfrenta a un contexto de transición climática derivado del cambio climático. 
 \end{frame}
 
-
-
 \begin{frame}{Datos agroclimáticos}
 	\vspace{-1cm}
 	\begin{columns}
@@ -408,7 +406,29 @@
 			\item Temperatura ambiente promedio.
 			\item Humedad relativa.
 			\item Temperatura del suelo (5 cm de profundidad).
-			\item Humedad del suelo disponible para el cultivo del maíz (0 -- 10 cm de profundidad).
+			\item Humedad del suelo disponible para el cultivo del maíz (0--10 cm de profundidad).
+		\end{itemize}
+		{\tiny Fuente: Deutscher Wetterdienst (2025).}
+		\column{0.60\textwidth}
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[height=0.8\textheight]{Mapa_final.png}
+		\end{figure}
+		\begin{center}
+			\vspace{-0.5cm}
+		\end{center}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Datos agroclimáticos}
+	\vspace{-1cm}
+	\begin{columns}
+		\column{0.40\textwidth}
+		\begin{itemize}
+			\item Temperatura ambiente promedio. ($11.10 \pm 2.5116$ $^\circ$C.)
+			\item Humedad relativa. (65--85 \%.)
+			\item Temperatura del suelo (5 cm de profundidad). (8--10 $^\circ$ C.)
+			\item Humedad del suelo disponible para el cultivo del maíz (0--10 cm de profundidad). (80--90\%.)
 		\end{itemize}
 		{\tiny Fuente: Deutscher Wetterdienst (2025).}
 		\column{0.60\textwidth}
@@ -1078,9 +1098,90 @@
 	\vspace{-0.7cm}
 	\centering
 	\includegraphics[width=1\textwidth]{Jaccard index.png}
-	$$J(A, B)= \displaystyle \frac{|A \cap B|}{A\cup B}.$$
+	$$J(A, B)= \displaystyle \frac{|A \cap B|}{|A\cup B|}.$$
 \end{frame}
 
+\begin{frame}{Comparaciones: Índice de Jaccard}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[width=1\textwidth]{Jaccard index.png}
+	$$0\leq J(A, B)= \displaystyle \frac{|A \cap B|}{|A\cup B|}\leq 1.$$
+\end{frame}
+
+\begin{frame}{Comparaciones: Brandemburgo}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[width=1\textwidth]{[Brandenburg][Visual]Sowing_windows.png}
+\end{frame}
+
+\begin{frame}{Comparaciones: Norte de Sajonia}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[width=1\textwidth]{[NorthSaxony][Visual]Sowing_windows.png}
+\end{frame}
+
+\begin{frame}{Comparaciones: Sur de Sajonia}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[width=1\textwidth]{[SouthSaxony][Visual]Sowing_windows.png}
+\end{frame}
+
+\begin{frame}{Comparaciones: Baviera}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[width=1\textwidth]{[Bavaria][Visual]Sowing_windows.png}
+\end{frame}
+
+\begin{frame}{Comparaciones intragrupales desagregadas: Temperatura ambiente}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[width=1\textwidth]{[Brandenburg][Euclidean][Raw]average_temperature.png}
+\end{frame}
+
+\begin{frame}{Comparaciones intragrupales agregadas: Temperatura ambiente}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[height=0.8\textheight]{[Brandenburg][Euclidean][Raw]Aggregated_average_temperature.png}
+\end{frame}
+
+
+\begin{frame}{Comparaciones intragrupales desagregadas: Humedad relativa}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[width=1\textwidth]{[Brandenburg][Euclidean][Raw]relative_humidity.png}
+\end{frame}
+
+\begin{frame}{Comparaciones intragrupales agregadas: Humedad relativa}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[height=0.8\textheight]{[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png}
+\end{frame}
+
+
+\begin{frame}{Comparaciones intragrupales desagregadas: Temperatura del suelo}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[width=1\textwidth]{[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png}
+\end{frame}
+
+\begin{frame}{Comparaciones intragrupales agregadas: Temperatura del suelo}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[height=0.8\textheight]{[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png}
+\end{frame}
+
+
+\begin{frame}{Comparaciones intragrupales desagregadas: Humedad del suelo}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[width=1\textwidth]{[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png}
+\end{frame}
+
+\begin{frame}{Comparaciones intragrupales agregadas: Humedad del suelo}
+	\vspace{-0.7cm}
+	\centering
+	\includegraphics[height=0.8\textheight]{[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png}
+\end{frame}
 \begin{frame}{Revistas indexadas}
 	\vspace{-0.7cm}
 	\begin{table}[h]
