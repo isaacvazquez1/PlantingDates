@@ -6,6 +6,12 @@
   Distributions}.
 \newblock {\em R Journal}, 3(2), 2011.
 
+\bibitem{Baum_2019}
+M.~Baum, S.~Archontoulis, and M.~Licht.
+\newblock Planting date, hybrid maturity, and weather effects on maize yield
+  and crop stage.
+\newblock {\em Agronomy Journal}, 111(1):303--313, 2019.
+
 \bibitem{Brockman_2019}
 {Brockman J.M. and Salaita, K.}
 \newblock Mechanical proofreading: A general mechanism to enhance the fidelity
@@ -16,6 +22,18 @@
 {Chiang, C.L.}
 \newblock {\em Introduction to Stochastic Processes in Biostatistics}.
 \newblock John Wiley \& Sons, Inc., 1968.
+
+\bibitem{CHMIELEWSKI_2004}
+F.~Chmielewski, A.~Müller, and E.~Bruns.
+\newblock Climate changes and trends in phenology of fruit trees and field
+  crops in germany, 1961–2000.
+\newblock {\em Agricultural and Forest Meteorology}, 121(1):69--78, 2004.
+
+\bibitem{Duden_2024}
+C.~Duden, C.~Nacke, and F.~Offermann.
+\newblock German yield and area data for 11 crops from 1979 to 2021 at a
+  harmonized spatial resolution of 397 districts.
+\newblock {\em Scientific Data}, 11(1), Jan. 2024.
 
 \bibitem{Gillet_Markowska_2015}
 {Gillet-Markowska, A., Louvel, G., and Fischer, G.}
@@ -31,6 +49,11 @@
   response to Kern and Hahn 2018}.
 \newblock {\em Evolution}, 73(1):111--114, nov 2018.
 
+\bibitem{Liu_2026}
+Z.~Liu.
+\newblock {\em Crop Phenology: Timing is everything}, page 257–294.
+\newblock Springer Nature Singapore, 2026.
+
 \bibitem{Loeb74}
 {Loeb, L.A., Springgate, C.F., and Battula, N}.
 \newblock {Errors in DNA Replication as a Basis of Malignant Changes}.
@@ -45,6 +68,40 @@
 {Maby, P., Bindea, G., Mlecnik, B. and Galon, J}.
 \newblock License to kill: microsatellite instability and immune contexture.
 \newblock {\em {OncoImmunology}}, 10(1), jan 2021.
+
+\bibitem{Mason_2018}
+S.~Mason, T.~Galusha, and Z.~Kmail.
+\newblock Planting date influence on yield of drought-tolerant maize with
+  different maturity classifications.
+\newblock {\em Agronomy Journal}, 110(1):293--299, 2018.
+
+\bibitem{Miedaner_2021}
+T.~Miedaner and P.~Juroszek.
+\newblock Global warming and increasing maize cultivation demand comprehensive
+  efforts in disease and insect resistance breeding in north-western europe.
+\newblock {\em Plant Pathology}, 70(5):1032--1046, 2021.
+
+\bibitem{Olesen_2012}
+J.~Olesen, C.~Børgesen, L.~Elsgaard, T.~Palosuo, R.~R\"{o}tter, A.~Skjelvåg,
+  P.~Peltonen-Sainio, T.~B\"{o}rjesson, M.~Trnka, F.~Ewert, S.~Siebert,
+  N.~Brisson, J.~Eitzinger, E.~van Asselt, M.~Oberforster, and H.~van~der
+  Fels-Klerx.
+\newblock Changes in time of sowing, flowering and maturity of cereals in
+  europe under climate change.
+\newblock {\em Food Additives \& Contaminants: Part A}, 29(10):1527–1542,
+  Aug. 2012.
+
+\bibitem{Patil_2010}
+R.~Patil, M.~L{\ae}gdsman, J.~Olesen, and J.~Porter.
+\newblock Growth and yield response of winter wheat to soil warming and
+  rainfall patterns.
+\newblock {\em The Journal of Agricultural Science}, 148(5):553–566, 2010.
+
+\bibitem{Peltonen-Sainio_2007}
+P.~Peltonen-Sainio, A.~Kangas, Y.~Salo, and L.~Jauhiainen.
+\newblock Grain number dominates grain weight in temperate cereal yield
+  determination: Evidence based on 30 years of multi-location trials.
+\newblock {\em Field Crops Research}, 100(2-3):179–188, Feb. 2007.
 
 \bibitem{Rohatgi_2015}
 {Rohatgi, V.K. and Saleh, A.K.M.E.}

@@ -107,27 +107,33 @@ $^1$INFOTEC Centro de Investigación e Innovación en Tecnologías de la Informa
 
     
 \section*{Introduction}
+The progression and duration of crop developmental stages are largely driven by environmental conditions \cite{Liu_2026}. Climate change is expected to alter the timing and duration of these stages \cite{Peltonen-Sainio_2007,Patil_2010}. According to Baum \textit{et al.} (2019), sowing dates may account for up to 70\% of maize yield variability. Depending on geographical location, maize sowing dates may remain unchanged or shift earlier or later in the year \cite{Mason_2018}. Climate change projections suggest that northern European regions, including Germany, may become increasingly suitable for maize cultivation \cite{Miedaner_2021}.
 
+In Germany, maize sowing dates have shifted towards earlier dates, as illustrated in Figure \ref{fig:Historical_sowing_dates}. This shift has been associated with climate change and has intensified since the late 1980s \cite{CHMIELEWSKI_2004}. In this context, we developed a probabilistic model to predict maize sowing windows for each of the three German federal states considered in this study: Bavaria, Brandenburg, and Saxony, see Figure \ref{fig:Area_of_study}- A region encompassing approximately 55\% of the country's area devoted to major crops \cite{Duden_2024}.
+
+
+
+% \cite{Olesen_2012}.
 
 
 
 \begin{figure}
 	\centering
 	\subfloat[
-	\centering $p$-value of Kolmogorov-Smirnov test at different population sizes.
-	]{
+	\centering Area of study. From top to bottom: Brandenburg, Saxony, and Bavaria.
+	]{\label{fig:Area_of_study}
 		\hspace{-1.5cm}\raisebox{0.5cm}{%
-			\includegraphics[height=15cm]{images/[Map]German_maize.png}
+			\includegraphics[height=15cm]{images/[Map]German_maize.png} 
 		}
 	}
 	\subfloat[
-	\centering $\chi^2$ goodness-of-fit for Luria-Delbruck distribution.
+	\centering Distributions of maize sowing dates in Germany.
 	]{
 		\hspace{-0.75cm}\includegraphics[height=15cm]{images/[Historical]Sowing_dates.png}
+		\label{fig:Historical_sowing_dates}
 	}
-	
 	\caption{Statistical comparisons.}
-	%\label{fig:KS_test}
+	
 \end{figure}
 
 
