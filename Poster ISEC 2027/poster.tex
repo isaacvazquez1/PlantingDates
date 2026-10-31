@@ -107,9 +107,8 @@ $^1$INFOTEC Centro de Investigación e Innovación en Tecnologías de la Informa
 
     
 \section*{Introduction}
-The progression and duration of crop developmental stages are largely driven by environmental conditions \cite{Liu_2026}. Climate change is expected to alter the timing and duration of these stages \cite{Peltonen-Sainio_2007,Patil_2010}. According to Baum \textit{et al.} (2019), sowing dates may account for up to 70\% of maize yield variability. Depending on geographical location, maize sowing dates may remain unchanged or shift earlier or later in the year \cite{Mason_2018}. Climate change projections suggest that northern European regions, including Germany, may become increasingly suitable for maize cultivation \cite{Miedaner_2021}.
-
-In Germany, maize sowing dates have shifted towards earlier dates, as illustrated in Figure \ref{fig:Historical_sowing_dates}. This shift has been associated with climate change and has intensified since the late 1980s \cite{CHMIELEWSKI_2004}. In this context, we developed a probabilistic model to predict maize sowing windows for each of the three German federal states considered in this study: Bavaria, Brandenburg, and Saxony, see Figure \ref{fig:Area_of_study}- A region encompassing approximately 55\% of the country's area devoted to major crops \cite{Duden_2024}.
+The progression and duration of crop developmental stages are largely driven by environmental conditions \cite{Liu_2026}. Climate change is expected to alter the timing and duration of these stages \cite{Peltonen-Sainio_2007,Patil_2010}. According to Baum \textit{et al.} (2019) \cite{Baum_2019}, sowing dates may account for up to 70\% of maize yield variability. Depending on geographical location, maize sowing dates may remain unchanged or shift earlier or later in the year \cite{Mason_2018}. Climate change projections suggest that northern European regions, including Germany, may become increasingly suitable for maize cultivation \cite{Miedaner_2021}.
+In Germany, maize sowing dates have shifted towards earlier dates, as illustrated in Figure \ref{fig:Historical_sowing_dates}. This shift has been associated with climate change and has intensified since the late 1980s \cite{CHMIELEWSKI_2004}. Traditionally, phenological event timing is predicted using Growing Degree Days (GDD), an approach based primarily on air temperature \cite{AMARE_2023}. In this context, we developed a probabilistic model based on four variables to predict maize sowing windows for each of the three German federal states considered in this study: Bavaria, Brandenburg, and Saxony, see Figure \ref{fig:Area_of_study}. A region encompassing approximately 55\% of the country's area devoted to major crops \cite{Duden_2024}.
 
 
 
@@ -132,8 +131,7 @@ In Germany, maize sowing dates have shifted towards earlier dates, as illustrate
 		\hspace{-0.75cm}\includegraphics[height=15cm]{images/[Historical]Sowing_dates.png}
 		\label{fig:Historical_sowing_dates}
 	}
-	\caption{Statistical comparisons.}
-	
+	\caption{Geographical context and historical trends in maize sowing dates in Germany.}
 \end{figure}
 
 
@@ -325,6 +323,14 @@ In Germany, maize sowing dates have shifted towards earlier dates, as illustrate
 	%\label{fig:KS_test}
 \end{figure}
 \fi
+
+
+
+Four raster datasets obtained from the Deutscher Wetterdienst (DWD) \cite{DWD_soilmoisture_maize, DWD_soiltemperature, DWD_HYRAS_RelHumidity, DWD_HYRAS_MeanTemp} covering the period 1996--2025, were used as input data for the probabilistic model. These datasets provide daily measurements of mean air temperature, mean relative humidity, mean soil temperature at a depth of 5 cm, and mean soil moisture in the 0--10 cm soil layer, respectively, at a spatial resolution of $1 \times 1$ km. After a literature review, variable-specif base thresholds for each variable were given, see Table \ref{suggested , }
+
+
+
+
 
 Given $p\in\{1,2\}$, let $d(\cdot , \cdot):= d_p (\cdot , \cdot)$. Therefore, for each $k\in\{1,2, \ldots, 365\}$ \begin{equation}
 	\lambda_{k}= 1- \frac{d(C_{H,k} \,\mathbf{,}\, C^*)}{\displaystyle \max_{l\in \{1,\ldots, 365\}} \{d(C_{H,l}\, \mathbf{,} \,C^*)\}}.
@@ -639,7 +645,7 @@ Given $p\in\{1,2\}$, let $d(\cdot , \cdot):= d_p (\cdot , \cdot)$. Therefore, fo
 		& 80--90\,\% \\
 		\bottomrule
 	\end{tabular}
-	\caption{Daily}
+	\caption{Base tresholds }
 \end{table}
 \end{centering}
 

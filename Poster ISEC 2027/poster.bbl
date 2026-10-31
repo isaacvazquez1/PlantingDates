@@ -1,27 +1,16 @@
 \begin{thebibliography}{10}
 
-\bibitem{Arnold2011}
-{Arnold, T. B. and Emerson, J. W.}
-\newblock {Nonparametric Goodness-of-Fit Tests for Discrete Null
-  Distributions}.
-\newblock {\em R Journal}, 3(2), 2011.
+\bibitem{AMARE_2023}
+M.~Amare and B.~Balana.
+\newblock Climate change, income sources, crop mix, and input use decisions:
+  Evidence from nigeria.
+\newblock {\em Ecological Economics}, 211:107892, 2023.
 
 \bibitem{Baum_2019}
 M.~Baum, S.~Archontoulis, and M.~Licht.
 \newblock Planting date, hybrid maturity, and weather effects on maize yield
   and crop stage.
 \newblock {\em Agronomy Journal}, 111(1):303--313, 2019.
-
-\bibitem{Brockman_2019}
-{Brockman J.M. and Salaita, K.}
-\newblock Mechanical proofreading: A general mechanism to enhance the fidelity
-  of information transfer between cells.
-\newblock {\em Frontiers in Physics}, 7, feb 2019.
-
-\bibitem{Chiang_1968}
-{Chiang, C.L.}
-\newblock {\em Introduction to Stochastic Processes in Biostatistics}.
-\newblock John Wiley \& Sons, Inc., 1968.
 
 \bibitem{CHMIELEWSKI_2004}
 F.~Chmielewski, A.~Müller, and E.~Bruns.
@@ -35,39 +24,37 @@ C.~Duden, C.~Nacke, and F.~Offermann.
   harmonized spatial resolution of 397 districts.
 \newblock {\em Scientific Data}, 11(1), Jan. 2024.
 
-\bibitem{Gillet_Markowska_2015}
-{Gillet-Markowska, A., Louvel, G., and Fischer, G.}
-\newblock {\textit{bz-rates}: A Web Tool to Estimate Mutation Rates from
-  Fluctuation Analysis}.
-\newblock {\em G3 Genes$\vert$Genomes$\vert$Genetics}, 5(11):2323--2327, nov
-  2015.
+\bibitem{DWD_soilmoisture_maize}
+{DWD Climate Data Center (CDC)}.
+\newblock Daily grids of mean soil moisture under maize for germany, version
+  v1.0, 2024.
+\newblock Accessed August 5, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/soil_moisture/maize/}.
 
-\bibitem{Jensen_2018}
-{Jensen, J.D., Payseur, B.A., Stephan W., Aquadro, C.F., Lynch, M.,
-  Charlesworth D. and Charlesworth, B}.
-\newblock { The importance of the Neutral Theory in 1968 and 50 years on: A
-  response to Kern and Hahn 2018}.
-\newblock {\em Evolution}, 73(1):111--114, nov 2018.
+\bibitem{DWD_soiltemperature}
+{DWD Climate Data Center (CDC)}.
+\newblock Daily grids of soil temperature at 5 cm depth, 2025.
+\newblock Accessed July 29, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/soil_temperature_5cm/}.
+
+\bibitem{DWD_HYRAS_RelHumidity}
+{DWD Climate Data Center (CDC)}.
+\newblock {Raster data set of mean relative humidity in \% for Germany -
+  HYRAS-DE-HURS v6-1, Version v6-1}, 2025.
+\newblock Accessed July 31, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/hyras_de/humidity/}.
+
+\bibitem{DWD_HYRAS_MeanTemp}
+{DWD Climate Data Center (CDC)}.
+\newblock {Raster data set of mean temperature in $^\circ$ C for Germany -
+  HYRAS-DE-TAS v6-1, Version v6-1}, 2025.
+\newblock Accessed July 31, 2026, at
+  \url{https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/hyras_de/air_temperature_mean/}.
 
 \bibitem{Liu_2026}
 Z.~Liu.
 \newblock {\em Crop Phenology: Timing is everything}, page 257–294.
 \newblock Springer Nature Singapore, 2026.
-
-\bibitem{Loeb74}
-{Loeb, L.A., Springgate, C.F., and Battula, N}.
-\newblock {Errors in DNA Replication as a Basis of Malignant Changes}.
-\newblock {\em Cancer Research}, 34(9):2311--2321, 09 1974.
-
-\bibitem{Luria_1943}
-{Luria, S.E. and Delbrück, M.}
-\newblock {Mutations of Bacteria from Virus Sensitivity to Virus Resistance}.
-\newblock {\em Genetics}, 28(6):491--511, Nov 1943.
-
-\bibitem{Maby_2021}
-{Maby, P., Bindea, G., Mlecnik, B. and Galon, J}.
-\newblock License to kill: microsatellite instability and immune contexture.
-\newblock {\em {OncoImmunology}}, 10(1), jan 2021.
 
 \bibitem{Mason_2018}
 S.~Mason, T.~Galusha, and Z.~Kmail.
@@ -102,21 +89,5 @@ P.~Peltonen-Sainio, A.~Kangas, Y.~Salo, and L.~Jauhiainen.
 \newblock Grain number dominates grain weight in temperate cereal yield
   determination: Evidence based on 30 years of multi-location trials.
 \newblock {\em Field Crops Research}, 100(2-3):179–188, Feb. 2007.
-
-\bibitem{Rohatgi_2015}
-{Rohatgi, V.K. and Saleh, A.K.M.E.}
-\newblock {\em An Introduction to Probability and Statistics}.
-\newblock Wiley Series in Probability and Statistics. John Wiley \& Sons, Inc,
-  2015.
-
-\bibitem{Sherwood2015}
-{Sherwood, L. and Ward, C.}
-\newblock {\em Human physiology: from cells to systems}.
-\newblock Cengage learning, 2018.
-
-\bibitem{Sniegowski_2000}
-{Sniegowski, P.D., Gerrish, P.J., Johnson T., and Shaver, A.}
-\newblock The evolution of mutation rates: separating causes from consequences.
-\newblock {\em {BioEssays}}, 22(12):1057--1066, nov 2000.
 
 \end{thebibliography}
