@@ -5,44 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: abbrv.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: refs.bib
-You've used 14 entries,
+You've used 13 entries,
             2118 wiz_defined-function locations,
-            601 strings with 7051 characters,
-and the built_in function-call counts, 4837 in all, are:
-= -- 450
-> -- 262
+            591 strings with 6563 characters,
+and the built_in function-call counts, 4045 in all, are:
+= -- 387
+> -- 179
 < -- 1
-+ -- 104
-- -- 90
-* -- 358
-:= -- 815
-add.period$ -- 42
-call.type$ -- 14
-change.case$ -- 86
++ -- 71
+- -- 58
+* -- 270
+:= -- 673
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 67
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 158
-empty$ -- 364
-format.name$ -- 90
-if$ -- 999
+cite$ -- 13
+duplicate$ -- 147
+empty$ -- 333
+format.name$ -- 58
+if$ -- 855
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 11
-newline$ -- 73
-num.names$ -- 28
-pop$ -- 95
+int.to.str$ -- 13
+missing$ -- 10
+newline$ -- 68
+num.names$ -- 26
+pop$ -- 78
 preamble$ -- 1
-purify$ -- 73
+purify$ -- 55
 quote$ -- 0
-skip$ -- 125
+skip$ -- 118
 stack$ -- 0
-substring$ -- 277
-swap$ -- 33
+substring$ -- 239
+swap$ -- 32
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
+type$ -- 50
 warning$ -- 0
-while$ -- 37
-width$ -- 16
-write$ -- 152
+while$ -- 34
+width$ -- 15
+write$ -- 141

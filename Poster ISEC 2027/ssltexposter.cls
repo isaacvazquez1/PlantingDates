@@ -63,14 +63,14 @@
 \setlength{\paperwidth}{90cm}
 \setlength{\paperheight}{120cm}
 \setlength{\textwidth}{82.5cm}
-\setlength{\textheight}{96.5cm}
+\setlength{\textheight}{101.5cm}
 
 \setlength{\oddsidemargin}{1cm}
 \setlength{\evensidemargin}{\oddsidemargin}
 \setlength{\marginparwidth}{1cm}
-\setlength{\topmargin}{-0.0in}
+\setlength{\topmargin}{-0.4in}
 \setlength{\headheight}{530pt}
-\setlength{\headsep}{-0.5in}
+\setlength{\headsep}{-1.8in}
 \setlength{\footskip}{1in}
 \setlength{\voffset}{0pt}
 \setlength{\hoffset}{0pt}
@@ -81,7 +81,7 @@
 \definecolor{dkblue}{rgb}{0,0,0.47}
 \definecolor{ssllhblue}{rgb}{.65,.75,0.89}
 \definecolor{ssldkblue}{rgb}{0.0,0.39,.67}
-\definecolor{uaeh}{rgb}{0.8,0.06,0.08}
+\definecolor{uaeh}{rgb}{0.3804, 0.0706, 0.1961}
 %% Redefine the named font sizes so we can keep most of the code.
 \renewcommand{\LARGE}{\fontsize{76pt}{82pt}\selectfont}
 \renewcommand{\Large}{\fontsize{42pt}{0pt}\selectfont}
@@ -164,7 +164,7 @@
     
     % Positions: [T] = 13cm | [M] = 10cm | [B] = 5cm.
     \ifthenelse{\equal{#1}{T}}{
-        \logobox{13.7cm}
+        \logobox{12cm}
     }{
         \ifthenelse{\equal{#1}{M}}{
             \logobox{10cm}
@@ -176,8 +176,8 @@
     \ifthenelse{ \not \equal{#2}{} }{ %% Include the UFABC Logo whether it was set.
         \fancyhead[L]{
             \raisebox{\@logobox}{ % Performs logo vertical position. 
-                \begin{minipage}{6in}
-                    \resizebox{6in}{!}{\includegraphics{#2}}
+                \begin{minipage}{5in}
+                    \resizebox{5in}{!}{\includegraphics{#2}}
                 \end{minipage}
             }
         }
@@ -219,7 +219,7 @@
     {\color{dkblue}\LARGE\textsf{\textbf{\@title}}\\[0.5em]}
     {\color{uaeh!95!black}\large\textsf{\@author}\\[0.5em]}
     % {\color{white}\large\textsf{\@department}\\[0.9em]}
-    {\color{uaeh}\tiny\textsf{\@email}\\[4.0em]}
+    {\vspace{-0.7cm}\color{uaeh}\tiny\textsf{\@email}\\[4.0em]}
   \end{center}
 }
 \fi
