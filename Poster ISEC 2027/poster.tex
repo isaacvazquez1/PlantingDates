@@ -75,7 +75,7 @@
 % \department{Laboratório de Sinais e Sistemas\\Universidade Federal do ABC (UFABC)}
 
 \email{%\fontsize{18pt}{1pt}\selectfont
-$^1$INFOTEC Centro de Investigación e Innovación en Tecnologías de la Información y Comunicación.}
+$^1$INFOTEC, Centro de Investigación e Innovación en Tecnologías de la Información y Comunicación.}
 
 % \class{I Workshop do Laboratório de Sinais e Sistemas (WLSS)}
 
@@ -326,7 +326,7 @@ In Germany, maize sowing dates have shifted towards earlier dates, as illustrate
 
 
 
-Four raster datasets obtained from the Deutscher Wetterdienst (DWD) \cite{DWD_soilmoisture_maize, DWD_soiltemperature, DWD_HYRAS_RelHumidity, DWD_HYRAS_MeanTemp} covering the period 1996--2025, were used as input data for the probabilistic model. These datasets provide daily measurements of mean air temperature, mean relative humidity, mean soil temperature at a depth of 5 cm, and mean soil moisture in the 0--10 cm soil layer, respectively, at a spatial resolution of $1 \times 1$ km. After a literature review, variable-specific base thresholds for each variable were given, see Table \ref{tab:intervals_used}. For each day $k$, $k \in \{1,\ldots 365\}$, a cloud of points in $\mathbb{R}^4$ is constructed by gathering the data corresponding to the $k$-th day of each year within the period under consideration. Thus, the goodness-of-sowing of day $k$ can be assessed by computing the distance between the centroid of this point cloud, $C_{H,k}$, and the centroid of the region defined as the Cartesian product of the intervals reported in Table \ref{tab:intervals_used}, $C^*$. This region represents the suggested environmental conditions for maize sowing.
+Four raster datasets obtained from the Deutscher Wetterdienst (DWD) \cite{DWD_soilmoisture_maize, DWD_soiltemperature, DWD_HYRAS_RelHumidity, DWD_HYRAS_MeanTemp} covering the period 1996--2025, were used as input data for the probabilistic model. These datasets provide daily measurements of mean air temperature, mean relative humidity, mean soil temperature at a depth of 5 cm, and mean soil moisture in the 0--10 cm soil layer, respectively, at a spatial resolution of $1 \times 1$ km. After a literature review, variable-specific base thresholds for each variable were given, see Table \ref{tab:intervals_used}. For each day $k$, $k \in \{1,\ldots, 365\}$, a point cloud in $\mathbb{R}^4$ is constructed by gathering the data corresponding to the $k$-th day of each year within the period under consideration. Thus, the goodness-of-sowing of day $k$ can be assessed by computing the distance between the centroid of this point cloud, $C_{H,k}$, and the centroid of the region defined as the Cartesian product of the intervals reported in Table \ref{tab:intervals_used}, $C^*$. This region represents the suggested environmental conditions for maize sowing.
 
 
 
@@ -534,7 +534,7 @@ For this work, only $p\in\{1,2\}$ was considered; i.e., Manhattan and Euclidean 
 
 In Figure \ref{fig:Graph}, vertices $D_i$ represent the days of the year (DOY), whereas $F$ represents failure. Let $ \displaystyle X=\{X_n\}_{n\in\mathbb{N}_0}$ be a random walk on this directed graph. If $X_0=D_i$, for some $i\in\{1,\ldots,365\}$, a viable maize seed is considered to have been sown on the $i$-th DOY. Otherwise, if $X_0=F$, the seed is considered non-viable. For $t\geq 1$, if $X_t=D_j$, for some $j\in\{1,\ldots,365\}$, the germination process is considered successful up to the $j$-th DOY, whereas $X_t=F$ indicates germination failure due to unfavorable environmental conditions. Furthermore, if $X_t=D_j$, the process continues to the next DOY provided that
 \begin{equation}
-	u_t\geq \lambda_{(j+1)\bmod365},
+	u_t\leq \lambda_{(j+1)\bmod365},
 \end{equation}
 where $u_t$ is a realization of $U_t\sim\mathrm{Uniform}(0,1)$. Otherwise, the process terminates, i.e., $X_{t+1}=F$. Accordingly, 5000 random walks were initialized and simulated for each DOY. In Germany, maize germination takes $16.6\pm3.1$ days \cite{CHMIELEWSKI_2004}. Thus, the probability of emergence following sowing on the $i$-th DOY is empirically estimated as
 \begin{equation}
@@ -735,7 +735,7 @@ The predicted sowing windows for Brandenburg, Saxony, and Bavaria, obtained usin
 	\subfloat[
 	\centering Predictions based on Manhattan distance.
 	]{
-		\hspace{-1.5cm}\includegraphics[
+		\includegraphics[
 		height=14cm, trim={0 1.4cm 0 1.4cm},clip
 		]{images/[Bavaria][Circular][Euclidean]NO_CI.png}
 	}
