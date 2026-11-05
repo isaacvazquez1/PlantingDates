@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  3 NOV 2026 19:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.19)  5 NOV 2026 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1946,57 +1946,57 @@ PNG might cause out of memory (use non-interlaced PNG to fix this)
 <images/Mapa_final.png, id=139, 431.6928pt x 564.9105pt>
 File: images/Mapa_final.png Graphic file (type png)
 <use images/Mapa_final.png>
-Package pdftex.def Info: images/Mapa_final.png  used on input line 421.
+Package pdftex.def Info: images/Mapa_final.png  used on input line 422.
 (pdftex.def)             Requested size: 154.10504pt x 201.6606pt.
  [17
 
  <./images/Mapa_final.png>]
 File: images/Mapa_final.png Graphic file (type png)
 <use images/Mapa_final.png>
-Package pdftex.def Info: images/Mapa_final.png  used on input line 443.
+Package pdftex.def Info: images/Mapa_final.png  used on input line 444.
 (pdftex.def)             Requested size: 154.10504pt x 201.6606pt.
  [18
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 541.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 542.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 541.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 542.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 541.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 542.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 541.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 542.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 541.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 542.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 541.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 542.
 
  [19
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 541.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 542.
 
 
 [20
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <12> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 611.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 612.
 
 
-Overfull \vbox (4.47417pt too high) detected at line 611
+Overfull \vbox (4.47417pt too high) detected at line 612
  []
 
 [21
 
 ]
-Overfull \hbox (13.31139pt too wide) detected at line 945
+Overfull \hbox (13.31139pt too wide) detected at line 946
 []\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/10.95 ^^\[] > \OT1/mathkerncmss/m/sl/10.95
  n[]\OT1/cmss/m/n/10.95 ) := [] \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 ^^P
 []:
@@ -2011,27 +2011,27 @@ File: images/[Brandenburg][Euclidean]Transition_graph.png Graphic file (type pn
 g)
 <use images/[Brandenburg][Euclidean]Transition_graph.png>
 Package pdftex.def Info: images/[Brandenburg][Euclidean]Transition_graph.png  u
-sed on input line 970.
+sed on input line 971.
 (pdftex.def)             Requested size: 127.47125pt x 127.51947pt.
 <images/[Saxony][Euclidean]Transition_graph.png, id=183, 642.9621pt x 643.203pt
 >
 File: images/[Saxony][Euclidean]Transition_graph.png Graphic file (type png)
 <use images/[Saxony][Euclidean]Transition_graph.png>
 Package pdftex.def Info: images/[Saxony][Euclidean]Transition_graph.png  used o
-n input line 970.
+n input line 971.
 (pdftex.def)             Requested size: 127.47125pt x 127.51947pt.
 <images/[Bavaria][Euclidean]Transition_graph.png, id=184, 642.9621pt x 643.203p
 t>
 File: images/[Bavaria][Euclidean]Transition_graph.png Graphic file (type png)
 <use images/[Bavaria][Euclidean]Transition_graph.png>
 Package pdftex.def Info: images/[Bavaria][Euclidean]Transition_graph.png  used 
-on input line 970.
+on input line 971.
 (pdftex.def)             Requested size: 127.47125pt x 127.51947pt.
 <images/Transition_probability.png, id=185, 61.1886pt x 339.1872pt>
 File: images/Transition_probability.png Graphic file (type png)
 <use images/Transition_probability.png>
 Package pdftex.def Info: images/Transition_probability.png  used on input line 
-970.
+971.
 (pdftex.def)             Requested size: 29.55878pt x 163.84708pt.
  [23
 
@@ -2044,26 +2044,26 @@ File: images/[Brandenburg][Manhattan]Transition_graph.png Graphic file (type pn
 g)
 <use images/[Brandenburg][Manhattan]Transition_graph.png>
 Package pdftex.def Info: images/[Brandenburg][Manhattan]Transition_graph.png  u
-sed on input line 996.
+sed on input line 997.
 (pdftex.def)             Requested size: 127.47125pt x 127.51947pt.
 <images/[Saxony][Manhattan]Transition_graph.png, id=196, 642.9621pt x 643.203pt
 >
 File: images/[Saxony][Manhattan]Transition_graph.png Graphic file (type png)
 <use images/[Saxony][Manhattan]Transition_graph.png>
 Package pdftex.def Info: images/[Saxony][Manhattan]Transition_graph.png  used o
-n input line 996.
+n input line 997.
 (pdftex.def)             Requested size: 127.47125pt x 127.51947pt.
 <images/[Bavaria][Manhattan]Transition_graph.png, id=197, 642.9621pt x 643.203p
 t>
 File: images/[Bavaria][Manhattan]Transition_graph.png Graphic file (type png)
 <use images/[Bavaria][Manhattan]Transition_graph.png>
 Package pdftex.def Info: images/[Bavaria][Manhattan]Transition_graph.png  used 
-on input line 996.
+on input line 997.
 (pdftex.def)             Requested size: 127.47125pt x 127.51947pt.
 File: images/Transition_probability.png Graphic file (type png)
 <use images/Transition_probability.png>
 Package pdftex.def Info: images/Transition_probability.png  used on input line 
-996.
+997.
 (pdftex.def)             Requested size: 29.55878pt x 163.84708pt.
  [24
 
@@ -2076,10 +2076,10 @@ File: images/[Brandenburg][Circular][Euclidean]Sowing_windows.png Graphic file
 (type png)
 <use images/[Brandenburg][Circular][Euclidean]Sowing_windows.png>
 Package pdftex.def Info: images/[Brandenburg][Circular][Euclidean]Sowing_window
-s.png  used on input line 1015.
+s.png  used on input line 1016.
 (pdftex.def)             Requested size: 196.9366pt x 196.9368pt.
 
-Overfull \hbox (5.73578pt too wide) in paragraph at lines 1015--1015
+Overfull \hbox (5.73578pt too wide) in paragraph at lines 1016--1016
  [][] 
  []
 
@@ -2089,12 +2089,12 @@ File: images/[Brandenburg][Circular][Manhattan]Sowing_windows.png Graphic file
 (type png)
 <use images/[Brandenburg][Circular][Manhattan]Sowing_windows.png>
 Package pdftex.def Info: images/[Brandenburg][Circular][Manhattan]Sowing_window
-s.png  used on input line 1015.
+s.png  used on input line 1016.
 (pdftex.def)             Requested size: 196.9366pt x 196.9368pt.
 <images/Sowing suitability.png, id=208, 46.9755pt x 339.669pt>
 File: images/Sowing suitability.png Graphic file (type png)
 <use images/Sowing suitability.png>
-Package pdftex.def Info: images/Sowing suitability.png  used on input line 1015
+Package pdftex.def Info: images/Sowing suitability.png  used on input line 1016
 .
 (pdftex.def)             Requested size: 22.65979pt x 163.84708pt.
 [25
@@ -2105,7 +2105,7 @@ png>]
 <images/CIs.png, id=218, 650.43pt x 340.3917pt>
 File: images/CIs.png Graphic file (type png)
 <use images/CIs.png>
-Package pdftex.def Info: images/CIs.png  used on input line 1021.
+Package pdftex.def Info: images/CIs.png  used on input line 1022.
 (pdftex.def)             Requested size: 398.3386pt x 208.46965pt.
  [26
 
@@ -2114,10 +2114,10 @@ File: images/[Brandenburg][Circular][Euclidean]Sowing_windows.png Graphic file
 (type png)
 <use images/[Brandenburg][Circular][Euclidean]Sowing_windows.png>
 Package pdftex.def Info: images/[Brandenburg][Circular][Euclidean]Sowing_window
-s.png  used on input line 1043.
+s.png  used on input line 1044.
 (pdftex.def)             Requested size: 196.9366pt x 196.9368pt.
 
-Overfull \hbox (5.73578pt too wide) in paragraph at lines 1043--1043
+Overfull \hbox (5.73578pt too wide) in paragraph at lines 1044--1044
  [][] 
  []
 
@@ -2125,11 +2125,11 @@ File: images/[Brandenburg][Circular][Manhattan]Sowing_windows.png Graphic file
 (type png)
 <use images/[Brandenburg][Circular][Manhattan]Sowing_windows.png>
 Package pdftex.def Info: images/[Brandenburg][Circular][Manhattan]Sowing_window
-s.png  used on input line 1043.
+s.png  used on input line 1044.
 (pdftex.def)             Requested size: 196.9366pt x 196.9368pt.
 File: images/Sowing suitability.png Graphic file (type png)
 <use images/Sowing suitability.png>
-Package pdftex.def Info: images/Sowing suitability.png  used on input line 1043
+Package pdftex.def Info: images/Sowing suitability.png  used on input line 1044
 .
 (pdftex.def)             Requested size: 22.65979pt x 163.84708pt.
 [27
@@ -2141,7 +2141,7 @@ File: images/[Saxony][Circular][Euclidean]Sowing_windows.png Graphic file (type
  png)
 <use images/[Saxony][Circular][Euclidean]Sowing_windows.png>
 Package pdftex.def Info: images/[Saxony][Circular][Euclidean]Sowing_windows.png
-  used on input line 1062.
+  used on input line 1063.
 (pdftex.def)             Requested size: 191.20082pt x 191.2003pt.
 <images/[Saxony][Circular][Manhattan]Sowing_windows.png, id=231, 650.43pt x 650
 .43pt>
@@ -2149,11 +2149,11 @@ File: images/[Saxony][Circular][Manhattan]Sowing_windows.png Graphic file (type
  png)
 <use images/[Saxony][Circular][Manhattan]Sowing_windows.png>
 Package pdftex.def Info: images/[Saxony][Circular][Manhattan]Sowing_windows.png
-  used on input line 1062.
+  used on input line 1063.
 (pdftex.def)             Requested size: 191.20082pt x 191.2003pt.
 File: images/Sowing suitability.png Graphic file (type png)
 <use images/Sowing suitability.png>
-Package pdftex.def Info: images/Sowing suitability.png  used on input line 1062
+Package pdftex.def Info: images/Sowing suitability.png  used on input line 1063
 .
 (pdftex.def)             Requested size: 22.65979pt x 163.84708pt.
  [28
@@ -2166,7 +2166,7 @@ File: images/[Bavaria][Circular][Euclidean]Sowing_windows.png Graphic file (typ
 e png)
 <use images/[Bavaria][Circular][Euclidean]Sowing_windows.png>
 Package pdftex.def Info: images/[Bavaria][Circular][Euclidean]Sowing_windows.pn
-g  used on input line 1081.
+g  used on input line 1082.
 (pdftex.def)             Requested size: 191.20082pt x 191.2003pt.
 <images/[Bavaria][Circular][Manhattan]Sowing_windows.png, id=240, 650.43pt x 65
 0.43pt>
@@ -2174,18 +2174,18 @@ File: images/[Bavaria][Circular][Manhattan]Sowing_windows.png Graphic file (typ
 e png)
 <use images/[Bavaria][Circular][Manhattan]Sowing_windows.png>
 Package pdftex.def Info: images/[Bavaria][Circular][Manhattan]Sowing_windows.pn
-g  used on input line 1081.
+g  used on input line 1082.
 (pdftex.def)             Requested size: 191.20082pt x 191.2003pt.
 File: images/Sowing suitability.png Graphic file (type png)
 <use images/Sowing suitability.png>
-Package pdftex.def Info: images/Sowing suitability.png  used on input line 1081
+Package pdftex.def Info: images/Sowing suitability.png  used on input line 1082
 .
 (pdftex.def)             Requested size: 22.65979pt x 163.84708pt.
  [29
 
  <./images/[Bavaria][Circular][Euclidean]Sowing_windows.png> <./images/[Bavaria
 ][Circular][Manhattan]Sowing_windows.png>]
-Overfull \hbox (5.25096pt too wide) in paragraph at lines 1129--1129
+Overfull \hbox (5.25096pt too wide) in paragraph at lines 1130--1130
  [] 
  []
 
@@ -2195,7 +2195,7 @@ Overfull \hbox (5.25096pt too wide) in paragraph at lines 1129--1129
 <images/Jaccard index.png, id=254, 1760.4972pt x 572.8602pt>
 File: images/Jaccard index.png Graphic file (type png)
 <use images/Jaccard index.png>
-Package pdftex.def Info: images/Jaccard index.png  used on input line 1136.
+Package pdftex.def Info: images/Jaccard index.png  used on input line 1137.
 (pdftex.def)             Requested size: 398.3386pt x 129.6135pt.
  [31
 
@@ -2206,7 +2206,7 @@ d PNG might cause out of memory (use non-interlaced PNG to fix this)
 >]
 File: images/Jaccard index.png Graphic file (type png)
 <use images/Jaccard index.png>
-Package pdftex.def Info: images/Jaccard index.png  used on input line 1143.
+Package pdftex.def Info: images/Jaccard index.png  used on input line 1144.
 (pdftex.def)             Requested size: 398.3386pt x 129.6135pt.
  [32
 
@@ -2216,7 +2216,7 @@ t>
 File: images/[Brandenburg][Visual]Sowing_windows.png Graphic file (type png)
 <use images/[Brandenburg][Visual]Sowing_windows.png>
 Package pdftex.def Info: images/[Brandenburg][Visual]Sowing_windows.png  used o
-n input line 1149.
+n input line 1150.
 (pdftex.def)             Requested size: 398.3386pt x 189.81114pt.
  [33
 
@@ -2226,7 +2226,7 @@ t>
 File: images/[NorthSaxony][Visual]Sowing_windows.png Graphic file (type png)
 <use images/[NorthSaxony][Visual]Sowing_windows.png>
 Package pdftex.def Info: images/[NorthSaxony][Visual]Sowing_windows.png  used o
-n input line 1155.
+n input line 1156.
 (pdftex.def)             Requested size: 398.3386pt x 189.81114pt.
  [34
 
@@ -2236,7 +2236,7 @@ t>
 File: images/[SouthSaxony][Visual]Sowing_windows.png Graphic file (type png)
 <use images/[SouthSaxony][Visual]Sowing_windows.png>
 Package pdftex.def Info: images/[SouthSaxony][Visual]Sowing_windows.png  used o
-n input line 1161.
+n input line 1162.
 (pdftex.def)             Requested size: 398.3386pt x 189.81114pt.
  [35
 
@@ -2245,7 +2245,7 @@ n input line 1161.
 File: images/[Bavaria][Visual]Sowing_windows.png Graphic file (type png)
 <use images/[Bavaria][Visual]Sowing_windows.png>
 Package pdftex.def Info: images/[Bavaria][Visual]Sowing_windows.png  used on in
-put line 1167.
+put line 1168.
 (pdftex.def)             Requested size: 398.3386pt x 189.81114pt.
  [36
 
@@ -2256,7 +2256,7 @@ File: images/[Brandenburg][Euclidean][Raw]average_temperature.png Graphic file
 (type png)
 <use images/[Brandenburg][Euclidean][Raw]average_temperature.png>
 Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]average_temperatur
-e.png  used on input line 1173.
+e.png  used on input line 1174.
 (pdftex.def)             Requested size: 398.3386pt x 172.68614pt.
  [37
 
@@ -2267,121 +2267,121 @@ File: images/[Brandenburg][Euclidean][Raw]Aggregated_average_temperature.png Gr
 aphic file (type png)
 <use images/[Brandenburg][Euclidean][Raw]Aggregated_average_temperature.png>
 Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]Aggregated_average
-_temperature.png  used on input line 1179.
+_temperature.png  used on input line 1180.
 (pdftex.def)             Requested size: 202.4473pt x 201.6606pt.
  [38
 
  <./images/[Brandenburg][Euclidean][Raw]Aggregated_average_temperature.png>]
-<images/[Brandenburg][Euclidean][Raw]relative_humidity.png, id=310, 1148.6112pt
- x 497.9403pt>
-File: images/[Brandenburg][Euclidean][Raw]relative_humidity.png Graphic file (t
-ype png)
-<use images/[Brandenburg][Euclidean][Raw]relative_humidity.png>
-Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]relative_humidity.
-png  used on input line 1186.
-(pdftex.def)             Requested size: 398.3386pt x 172.68614pt.
- [39
-
- <./images/[Brandenburg][Euclidean][Raw]relative_humidity.png>]
-<images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png, id=317, 
-497.9403pt x 496.0131pt>
-File: images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png Grap
-hic file (type png)
-<use images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png>
-Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]Aggregated_relativ
-e_humidity.png  used on input line 1192.
-(pdftex.def)             Requested size: 202.4473pt x 201.6606pt.
- [40
-
- <./images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png>]
-<images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png, id=324, 1148.611
-2pt x 497.9403pt>
-File: images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png Graphic file
- (type png)
-<use images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png>
-Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]soil_temperature_5
-cm.png  used on input line 1199.
-(pdftex.def)             Requested size: 398.3386pt x 172.68614pt.
- [41
-
- <./images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png>]
-<images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png, id=33
-1, 497.9403pt x 496.0131pt>
-File: images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png G
-raphic file (type png)
-<use images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png>
-Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]Aggregated_soil_te
-mperature_5cm.png  used on input line 1205.
-(pdftex.def)             Requested size: 202.4473pt x 201.6606pt.
- [42
-
- <./images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png>]
-<images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png, id=338, 1148.611
+<images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png, id=310, 1148.611
 2pt x 497.9403pt>
 File: images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png Graphic file
  (type png)
 <use images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png>
 Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10
-cm.png  used on input line 1212.
+cm.png  used on input line 1186.
 (pdftex.def)             Requested size: 398.3386pt x 172.68614pt.
- [43
+ [39
 
  <./images/[Brandenburg][Euclidean][Raw]soil_moisture_0-10cm.png>]
-<images/[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png, id=34
-6, 497.9403pt x 495.5313pt>
+<images/[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png, id=31
+7, 497.9403pt x 495.5313pt>
 File: images/[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png G
 raphic file (type png)
 <use images/[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png>
 Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]Aggregated_soil_mo
-isture_0-10cm.png  used on input line 1218.
+isture_0-10cm.png  used on input line 1193.
 (pdftex.def)             Requested size: 202.64485pt x 201.6606pt.
- [44
+ [40
 
  <./images/[Brandenburg][Euclidean][Raw]Aggregated_soil_moisture_0-10cm.png>]
-<images/Poster1.png, id=353, 443.8035pt x 329.814pt>
+<images/Poster1.png, id=324, 443.8035pt x 329.814pt>
 File: images/Poster1.png Graphic file (type png)
 <use images/Poster1.png>
-Package pdftex.def Info: images/Poster1.png  used on input line 1232.
+Package pdftex.def Info: images/Poster1.png  used on input line 1207.
 (pdftex.def)             Requested size: 191.20082pt x 142.089pt.
-<images/Poster2.png, id=354, 443.8035pt x 288.7515pt>
+<images/Poster2.png, id=325, 443.8035pt x 288.7515pt>
 File: images/Poster2.png Graphic file (type png)
 <use images/Poster2.png>
-Package pdftex.def Info: images/Poster2.png  used on input line 1232.
+Package pdftex.def Info: images/Poster2.png  used on input line 1207.
 (pdftex.def)             Requested size: 191.20082pt x 124.39864pt.
- [45
+ [41
 
  <./images/Poster1.png> <./images/Poster2.png>]
-Overfull \hbox (5.0373pt too wide) in paragraph at lines 1257--1257
+Overfull \hbox (5.0373pt too wide) in paragraph at lines 1232--1232
  [] 
  []
 
-[46
+[42
 
-] (Slides.bbl) [47
+] (Slides.bbl) [43
 
  <C:/Users/amigo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonartic
-le.pdf>] [48
+le.pdf>] [44
 
 
-] [49
+] [45
 
 
-] [50
+] [46
 
 
-] [51
+] [47
 
 ]
+<images/[Brandenburg][Euclidean][Raw]relative_humidity.png, id=401, 1148.6112pt
+ x 497.9403pt>
+File: images/[Brandenburg][Euclidean][Raw]relative_humidity.png Graphic file (t
+ype png)
+<use images/[Brandenburg][Euclidean][Raw]relative_humidity.png>
+Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]relative_humidity.
+png  used on input line 1257.
+(pdftex.def)             Requested size: 398.3386pt x 172.68614pt.
+ [48
+
+ <./images/[Brandenburg][Euclidean][Raw]relative_humidity.png>]
+<images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png, id=408, 
+497.9403pt x 496.0131pt>
+File: images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png Grap
+hic file (type png)
+<use images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png>
+Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]Aggregated_relativ
+e_humidity.png  used on input line 1263.
+(pdftex.def)             Requested size: 202.4473pt x 201.6606pt.
+ [49
+
+ <./images/[Brandenburg][Euclidean][Raw]Aggregated_relative_humidity.png>]
+<images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png, id=416, 1148.611
+2pt x 497.9403pt>
+File: images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png Graphic file
+ (type png)
+<use images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png>
+Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]soil_temperature_5
+cm.png  used on input line 1270.
+(pdftex.def)             Requested size: 398.3386pt x 172.68614pt.
+ [50
+
+ <./images/[Brandenburg][Euclidean][Raw]soil_temperature_5cm.png>]
+<images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png, id=42
+3, 497.9403pt x 496.0131pt>
+File: images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png G
+raphic file (type png)
+<use images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png>
+Package pdftex.def Info: images/[Brandenburg][Euclidean][Raw]Aggregated_soil_te
+mperature_5cm.png  used on input line 1276.
+(pdftex.def)             Requested size: 202.4473pt x 201.6606pt.
+ [51
+
+ <./images/[Brandenburg][Euclidean][Raw]Aggregated_soil_temperature_5cm.png>]
 <images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf, id=43
 0, 509.905pt x 636.3775pt>
 File: images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf G
 raphic file (type pdf)
 <use images/Sowing_dates_Distributions_VS_Crop_calendar-eps-converted-to.pdf>
 Package pdftex.def Info: images/Sowing_dates_Distributions_VS_Crop_calendar-eps
--converted-to.pdf  used on input line 1294.
+-converted-to.pdf  used on input line 1296.
 (pdftex.def)             Requested size: 181.77614pt x 226.86577pt.
 
-Overfull \vbox (2.57172pt too high) detected at line 1294
+Overfull \vbox (2.57172pt too high) detected at line 1296
  []
 
 [52
@@ -2393,10 +2393,10 @@ File: images/1951_VS_2015_Sowing_dates_Distributions.pdf Graphic file (type pdf
 )
 <use images/1951_VS_2015_Sowing_dates_Distributions.pdf>
 Package pdftex.def Info: images/1951_VS_2015_Sowing_dates_Distributions.pdf  us
-ed on input line 1300.
+ed on input line 1302.
 (pdftex.def)             Requested size: 278.40016pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1300
+Overfull \vbox (8.04672pt too high) detected at line 1302
  []
 
 [53
@@ -2406,10 +2406,10 @@ Overfull \vbox (8.04672pt too high) detected at line 1300
 File: images/Historical_significance_matrix.pdf Graphic file (type pdf)
 <use images/Historical_significance_matrix.pdf>
 Package pdftex.def Info: images/Historical_significance_matrix.pdf  used on inp
-ut line 1306.
+ut line 1308.
 (pdftex.def)             Requested size: 283.58318pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1306
+Overfull \vbox (8.04672pt too high) detected at line 1308
  []
 
 [54
@@ -2418,15 +2418,15 @@ Overfull \vbox (8.04672pt too high) detected at line 1306
 <images/1988Break.pdf, id=587, 498.16112pt x 389.9255pt>
 File: images/1988Break.pdf Graphic file (type pdf)
 <use images/1988Break.pdf>
-Package pdftex.def Info: images/1988Break.pdf  used on input line 1317.
+Package pdftex.def Info: images/1988Break.pdf  used on input line 1319.
 (pdftex.def)             Requested size: 289.8382pt x 226.86577pt.
 
-Overfull \hbox (11.00241pt too wide) in paragraph at lines 1317--1317
+Overfull \hbox (11.00241pt too wide) in paragraph at lines 1319--1319
  [][]
  []
 
 
-Overfull \vbox (2.57172pt too high) detected at line 1317
+Overfull \vbox (2.57172pt too high) detected at line 1319
  []
 
 [55
@@ -2435,11 +2435,11 @@ Overfull \vbox (2.57172pt too high) detected at line 1317
 <images/Interannual_trend.pdf, id=633, 390.40857pt x 338.33276pt>
 File: images/Interannual_trend.pdf Graphic file (type pdf)
 <use images/Interannual_trend.pdf>
-Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1324.
+Package pdftex.def Info: images/Interannual_trend.pdf  used on input line 1326.
 
 (pdftex.def)             Requested size: 261.78683pt x 226.86577pt.
 
-Overfull \vbox (8.04672pt too high) detected at line 1324
+Overfull \vbox (8.04672pt too high) detected at line 1326
  []
 
 [56
@@ -2449,13 +2449,13 @@ Overfull \vbox (8.04672pt too high) detected at line 1324
 File: images/Effects of maize varieties.png Graphic file (type png)
 <use images/Effects of maize varieties.png>
 Package pdftex.def Info: images/Effects of maize varieties.png  used on input l
-ine 1344.
+ine 1346.
 (pdftex.def)             Requested size: 199.1693pt x 181.06052pt.
 <images/Maize sowing varieties.png, id=691, 689.5148pt x 162.97623pt>
 File: images/Maize sowing varieties.png Graphic file (type png)
 <use images/Maize sowing varieties.png>
 Package pdftex.def Info: images/Maize sowing varieties.png  used on input line 
-1344.
+1346.
 (pdftex.def)             Requested size: 199.1693pt x 47.07538pt.
  [57
 
@@ -2464,13 +2464,13 @@ Package pdftex.def Info: images/Maize sowing varieties.png  used on input line
 <images/Crop calendar 2018.png, id=699, 546.24075pt x 387.24675pt>
 File: images/Crop calendar 2018.png Graphic file (type png)
 <use images/Crop calendar 2018.png>
-Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1355
+Package pdftex.def Info: images/Crop calendar 2018.png  used on input line 1357
 .
 (pdftex.def)             Requested size: 177.78452pt x 126.0374pt.
 <images/Crop calendar 2015.png, id=700, 1079.83424pt x 61.4295pt>
 File: images/Crop calendar 2015.png Graphic file (type png)
 <use images/Crop calendar 2015.png>
-Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1355
+Package pdftex.def Info: images/Crop calendar 2015.png  used on input line 1357
 .
 (pdftex.def)             Requested size: 398.3386pt x 22.66013pt.
  [58
@@ -2491,16 +2491,16 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Slides.out' has not changed.
-(rerunfilecheck)             Checksum: 3079D9CBF0624DE7633EB68502E682CD;1510.
+(rerunfilecheck)             Checksum: B5974FD63C36C807F53838607D941B85;1540.
  ) 
 Here is how much of TeX's memory you used:
  44323 strings out of 467867
  1071368 string characters out of 5418334
- 1617058 words of memory out of 5000000
+ 1617129 words of memory out of 5000000
  72252 multiletter control sequences out of 15000+600000
  652159 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,144p,1378b,1368s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,144p,1408b,1368s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\amigo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi657\m
 athx10.pk> <C:\Users\amigo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi
 657\wasy10.pk><C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -2523,7 +2523,7 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
 s/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 <C:/Users/amigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
-Output written on Slides.pdf (58 pages, 43094727 bytes).
+Output written on Slides.pdf (58 pages, 43094909 bytes).
 PDF statistics:
  825 PDF objects out of 1000 (max. 8388607)
  143 named destinations out of 1000 (max. 500000)
